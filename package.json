@@ -1,5 +1,5 @@
 {
-  "name": "wast-parse",
+  "name": "wast-parser",
   "version": "0.0.1",
   "description": "wast parser",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drom/wast-json.git"
+    "url": "git+https://github.com/drom/wast-parser.git"
   },
   "keywords": [
     "wasm",
@@ -18,9 +18,9 @@
   "author": "drom@drom.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drom/wast-json/issues"
+    "url": "https://github.com/drom/wast-parser/issues"
   },
-  "homepage": "https://github.com/drom/wast-json#readme",
+  "homepage": "https://github.com/drom/wast-parser#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "eslint": "^1.6.0",
