@@ -1,0 +1,31 @@
+{
+  "name": "wast-parse",
+  "version": "0.0.1",
+  "description": "wast parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "install": "pegjs wast.pegjs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/wast-json.git"
+  },
+  "keywords": [
+    "wasm",
+    "wast"
+  ],
+  "author": "drom@drom.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drom/wast-json/issues"
+  },
+  "homepage": "https://github.com/drom/wast-json#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "eslint": "^1.6.0",
+    "jsof": "^0.1.1",
+    "mocha": "^2.3.3",
+    "pegjs": "^0.9.0"
+  }
+}
