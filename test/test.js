@@ -6,39 +6,41 @@ var fs = require('fs'),
     jsof = require('jsof'),
     parser = require('../');
 
-function runner (name, done) {
-    return function (err, data) {
-        var result;
-        if (err) { throw err; }
-        try {
-            result = parser.parse(data);
-        } catch (er) {
-            console.log(er)
-            throw er;
-        }
-        fs.writeFile(
-            path.resolve(__dirname, '../results/', name + '.js'),
-            jsof.s(result),
-            function (err) {
-                if (err) { throw err; }
-                done();
-            }
-        );
-    };
-}
+var src = path.resolve(__dirname, '../testsuite/');
+var dst = path.resolve(__dirname, '../results/');
 
-var root = path.resolve(__dirname, '../testsuite/');
-var wastFileNames = fs.readdirSync(root);
+var astFileNames = fs.readdirSync(dst);
 
 describe('parse', function () {
-    wastFileNames.forEach(function (wastFileName) {
-        var matchArr = wastFileName.match('^(.*).wast$');
+    astFileNames.forEach(function (astFileName) {
+        var name;
+        var matchArr = astFileName.match('^(.*).js$');
         if (matchArr) {
-            it(wastFileName, function (done) {
+            name = matchArr[1];
+            it(name, function (done) {
                 fs.readFile(
-                    path.resolve(root, wastFileName),
+                    path.resolve(src, name + '.wast'),
                     'utf8',
-                    runner(matchArr[1], done)
+                    function (err, wastData) {
+                        if (err) { throw err; }
+
+                        var result;
+                        try {
+                            result = parser.parse(wastData);
+                        } catch (err1) {
+                            console.log(err1)
+                            throw err1;
+                        }
+
+                        fs.readFile(
+                            path.resolve(dst, name + '.js'),
+                            'utf8',
+                            function (err, astData) {
+                                expect(jsof.s(result) + '\n').to.equal(astData);
+                                done();
+                            }
+                        );
+                    }
                 );
             });
         }
