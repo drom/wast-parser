@@ -4,7 +4,7 @@
   "description": "wast parser",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "git pull && git submodule init && git submodule update && git submodule status && mocha",
     "install": "pegjs wast.pegjs index.js"
   },
   "repository": {
