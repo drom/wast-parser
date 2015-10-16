@@ -50,20 +50,18 @@ relop
     / "eq" / "ne" / "lt" / "le" / "gt" / "ge" // float
 
 value
-    = node:( "nan(" "-"? "0x" [0-9A-Fa-f\.\-\+ep]+ ")"
-        / "nan"
-        / "-nan(" "-"? "0x" [0-9A-Fa-f\.\-\+ep]+ ")"
-        / "-nan"
-        / "+nan(" "-"? "0x" [0-9A-Fa-f\.\-\+ep]+ ")"
-        / "+nan"
-        / "infinity"
-        / "+infinity"
-        / "-infinity"
-        / "-"? "0x" [0-9A-Fa-f\.\-\+ep]+
-        / "-"? [0-9\.\-\+ep]+
-        ) {
-            return (typeof node === 'string') ? node : node.join('');
+    = node:(pre:( "nan(" / "+nan(" / "-nan(" ) sign:"-"? hex:"0x" digits:[0-9A-Fa-f\.\-\+ep]+ ")" {
+            return pre[0] + (sign || '') + hex + digits.join('')
         }
+        / "nan" / "+nan" / "-nan"
+        / "infinity" / "+infinity" / "-infinity"
+        / sign:"-"? hex:"0x" digits:[0-9A-Fa-f\.\-\+p]+ {
+            return (sign || '') + hex + digits.join('');
+        }
+        / sign:"-"? digits:[0-9\.\-\+e]+ {
+            return (sign || '') + digits.join('');
+        }
+        )
 
 sign = "s" / "u"
 
@@ -79,8 +77,20 @@ var
     }
 
 case
-    = "(" __ "case" __ value ( __ expr )* ( __ "fallthrough")? __ ")"
-    / "(" __ "case" __ value __ ")"
+    = "(" __ kind:"case" __ test:value body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
+        return {
+            kind: kind,
+            test: test,
+            body: body.map(function (e) { return e[1]; }),
+            fallthrough: fallthrough ? true : false
+        };
+    }
+    / "(" __ kind:"case" __ test:value __ ")" {
+        return {
+            kind: kind,
+            test: test
+        };
+    }
 
 expr
     = "(" __
@@ -92,12 +102,21 @@ expr
             };
         }
 
-        / "block" ( __ expr )+ {
-
+        / kind:"block" body:( __ expr )+ {
+            return {
+                kind: kind,
+                body: body.map(function (e) { return e[1]; })
+            };
         }
 
         // = (label <var> (block <expr>+))
-        / "block" __ var ( __ expr )+
+        / kind:"block" __ id:var body:( __ expr )+ {
+            return {
+                kind: kind,
+                id: id,
+                body: body.map(function (e) { return e[1]; })
+            };
+        }
 
         / kind:"if" __ test:expr __ consequent:expr __ alternate:expr {
             return {
@@ -119,10 +138,22 @@ expr
         }
 
         // = (label <var> (loop (block <var>? <expr>*)))
-        / "loop" __ var ( __ var )? ( __ expr )*
+        / kind:"loop" __ id:var extra:( __ var )? body:( __ expr )* {
+            return {
+                kind: kind,
+                id: id,
+                extra: extra ? extra[1] : extra,
+                body: body.map(function (e) { return e[1]; })
+            };
+        }
 
         // = (loop (block <expr>*))
-        / "loop" ( __ expr )*
+        / kind:"loop" body:( __ expr )* {
+            return {
+                kind: kind,
+                body: body.map(function (e) { return e[1]; })
+            };
+        }
 
         / kind:"label" id:( __ var )? __ body:expr {
             return {
@@ -140,10 +171,27 @@ expr
             };
         }
 
-        / type ".switch" __ expr ( __ case )* __ expr
+        / type:type "." kind:"switch" __ before:expr body:( __ case )* __ after:expr {
+            return {
+                kind: kind,
+                type: type,
+                before: before,
+                body: body.map(function (e) { return e[1]; }),
+                after: after
+            };
+        }
 
         // = (label <var> (<type>.switch <expr> <case>* <expr>))
-        / type ".switch" __ var __ expr ( __ case )* __ expr
+        / type:type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
+            return {
+                kind: kind,
+                id: id,
+                type: type,
+                before: before,
+                body: body.map(function (e) { return e[1]; }),
+                after: after
+            };
+        }
 
         / kind:( "call_import" / "call" ) __ id:var expr:( __ expr )* {
             return {
