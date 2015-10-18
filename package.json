@@ -1,6 +1,6 @@
 {
   "name": "wast-parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "wast parser",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "git pull && git submodule init && git submodule update && git submodule status && mocha",
-    "install": "pegjs wast.pegjs index.js"
+    "postinstall": "pegjs wast.pegjs index.js"
   },
   "repository": {
     "type": "git",
