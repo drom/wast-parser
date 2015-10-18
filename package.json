@@ -1,11 +1,8 @@
 {
   "name": "wast-parser",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "wast parser",
   "main": "index.js",
-  "bin": {
-    "wast2ast": "./bin/wast2ast.js"
-  },
   "files": [
     "index.js"
   ],
