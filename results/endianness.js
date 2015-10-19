@@ -295,10 +295,7 @@
               kind: 'load',
               type: 'i32',
               size: '8',
-              sign: [
-                '_',
-                'u'
-              ],
+              sign: false,
               align: 0,
               expr: {
                 kind: 'get_local',
@@ -316,10 +313,7 @@
                 kind: 'load',
                 type: 'i32',
                 size: '8',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'binop',
@@ -532,10 +526,7 @@
               kind: 'load',
               type: 'i32',
               size: '16',
-              sign: [
-                '_',
-                's'
-              ],
+              sign: true,
               align: 0,
               expr: {
                 kind: 'const',
@@ -584,10 +575,7 @@
               kind: 'load',
               type: 'i32',
               size: '16',
-              sign: [
-                '_',
-                'u'
-              ],
+              sign: false,
               align: 0,
               expr: {
                 kind: 'const',
@@ -691,10 +679,7 @@
               kind: 'load',
               type: 'i64',
               size: '16',
-              sign: [
-                '_',
-                's'
-              ],
+              sign: true,
               align: 0,
               expr: {
                 kind: 'const',
@@ -749,10 +734,7 @@
               kind: 'load',
               type: 'i64',
               size: '16',
-              sign: [
-                '_',
-                'u'
-              ],
+              sign: false,
               align: 0,
               expr: {
                 kind: 'const',
@@ -807,10 +789,7 @@
               kind: 'load',
               type: 'i64',
               size: '32',
-              sign: [
-                '_',
-                's'
-              ],
+              sign: true,
               align: 0,
               expr: {
                 kind: 'const',
@@ -865,10 +844,7 @@
               kind: 'load',
               type: 'i64',
               size: '32',
-              sign: [
-                '_',
-                'u'
-              ],
+              sign: false,
               align: 0,
               expr: {
                 kind: 'const',

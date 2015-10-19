@@ -46,10 +46,7 @@
             kind: 'load',
             type: 'i32',
             size: '8',
-            sign: [
-              '_',
-              'u'
-            ],
+            sign: false,
             align: 0,
             expr: {
               kind: 'const',

@@ -23,8 +23,8 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '4,0,9,6',
-        int1: '1,6,7,7,7,2,1,6',
+        int: '4096',
+        int1: '16777216',
         segment: []
       }]
     },
@@ -34,19 +34,11 @@
         kind: 'memory',
         int: '0',
         int1: '0',
-        segment: [[
-          '(',
-          [],
-          'segment',
-          [' '],
-          '0',
-          [' '],
-          '"',
-          [],
-          '"',
-          [],
-          ')'
-        ]]
+        segment: [{
+          kind: 'segment',
+          int: '0',
+          name: ''
+        }]
       }]
     },
     {
@@ -55,54 +47,30 @@
         kind: 'memory',
         int: '1',
         int1: '1',
-        segment: [[
-          '(',
-          [],
-          'segment',
-          [' '],
-          '0',
-          [' '],
-          '"',
-          ['a'],
-          '"',
-          [],
-          ')'
-        ]]
+        segment: [{
+          kind: 'segment',
+          int: '0',
+          name: 'a'
+        }]
       }]
     },
     {
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1,0,0',
-        int1: '1,0,0,0',
+        int: '100',
+        int1: '1000',
         segment: [
-          [
-            '(',
-            [],
-            'segment',
-            [' '],
-            '0',
-            [' '],
-            '"',
-            ['a'],
-            '"',
-            [],
-            ')'
-          ],
-          [
-            '(',
-            [],
-            'segment',
-            [' '],
-            '9,9',
-            [' '],
-            '"',
-            ['b'],
-            '"',
-            [],
-            ')'
-          ]
+          {
+            kind: 'segment',
+            int: '0',
+            name: 'a'
+          },
+          {
+            kind: 'segment',
+            int: '99',
+            name: 'b'
+          }
         ]
       }]
     },
@@ -110,48 +78,24 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1,0,0',
-        int1: '1,0,0,0',
+        int: '100',
+        int1: '1000',
         segment: [
-          [
-            '(',
-            [],
-            'segment',
-            [' '],
-            '0',
-            [' '],
-            '"',
-            ['a'],
-            '"',
-            [],
-            ')'
-          ],
-          [
-            '(',
-            [],
-            'segment',
-            [' '],
-            '1',
-            [' '],
-            '"',
-            ['b'],
-            '"',
-            [],
-            ')'
-          ],
-          [
-            '(',
-            [],
-            'segment',
-            [' '],
-            '2',
-            [' '],
-            '"',
-            ['c'],
-            '"',
-            [],
-            ')'
-          ]
+          {
+            kind: 'segment',
+            int: '0',
+            name: 'a'
+          },
+          {
+            kind: 'segment',
+            int: '1',
+            name: 'b'
+          },
+          {
+            kind: 'segment',
+            int: '2',
+            name: 'c'
+          }
         ]
       }]
     },
@@ -179,19 +123,11 @@
           kind: 'memory',
           int: '0',
           int1: '0',
-          segment: [[
-            '(',
-            [],
-            'segment',
-            [' '],
-            '0',
-            [' '],
-            '"',
-            ['a'],
-            '"',
-            [],
-            ')'
-          ]]
+          segment: [{
+            kind: 'segment',
+            int: '0',
+            name: 'a'
+          }]
         }]
       },
       failure: {
@@ -205,35 +141,19 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1,0,0',
-          int1: '1,0,0,0',
+          int: '100',
+          int1: '1000',
           segment: [
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              ['a'],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '5,0,0',
-              [' '],
-              '"',
-              ['b'],
-              '"',
-              [],
-              ')'
-            ]
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'a'
+            },
+            {
+              kind: 'segment',
+              int: '500',
+              name: 'b'
+            }
           ]
         }]
       },
@@ -248,43 +168,19 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1,0,0',
-          int1: '1,0,0,0',
+          int: '100',
+          int1: '1000',
           segment: [
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              [
-                'a',
-                'b',
-                'c'
-              ],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              [
-                'd',
-                'e',
-                'f'
-              ],
-              '"',
-              [],
-              ')'
-            ]
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'abc'
+            },
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'def'
+            }
           ]
         }]
       },
@@ -299,41 +195,19 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1,0,0',
-          int1: '1,0,0,0',
+          int: '100',
+          int1: '1000',
           segment: [
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '3',
-              [' '],
-              '"',
-              [
-                'a',
-                'b'
-              ],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              [
-                'd',
-                'e'
-              ],
-              '"',
-              [],
-              ')'
-            ]
+            {
+              kind: 'segment',
+              int: '3',
+              name: 'ab'
+            },
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'de'
+            }
           ]
         }]
       },
@@ -348,48 +222,24 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1,0,0',
-          int1: '1,0,0,0',
+          int: '100',
+          int1: '1000',
           segment: [
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              ['a'],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '2',
-              [' '],
-              '"',
-              ['b'],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '1',
-              [' '],
-              '"',
-              ['c'],
-              '"',
-              [],
-              ')'
-            ]
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'a'
+            },
+            {
+              kind: 'segment',
+              int: '2',
+              name: 'b'
+            },
+            {
+              kind: 'segment',
+              int: '1',
+              name: 'c'
+            }
           ]
         }]
       },
@@ -417,10 +267,7 @@
             kind: 'load',
             type: 'i32',
             size: '8',
-            sign: [
-              '_',
-              'u'
-            ],
+            sign: false,
             align: '2',
             expr: {
               kind: 'const',
@@ -450,10 +297,7 @@
             kind: 'load',
             type: 'i32',
             size: '16',
-            sign: [
-              '_',
-              'u'
-            ],
+            sign: false,
             align: '4',
             expr: {
               kind: 'const',
@@ -714,48 +558,19 @@
       body: [
         {
           kind: 'memory',
-          int: '1,0,2,4',
+          int: '1024',
           int1: null,
           segment: [
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '0',
-              [' '],
-              '"',
-              [
-                'A',
-                'B',
-                'C',
-                '\',
-                'a',
-                '7',
-                'D'
-              ],
-              '"',
-              [],
-              ')'
-            ],
-            [
-              '(',
-              [],
-              'segment',
-              [' '],
-              '2,0',
-              [' '],
-              '"',
-              [
-                'W',
-                'A',
-                'S',
-                'M'
-              ],
-              '"',
-              [],
-              ')'
-            ]
+            {
+              kind: 'segment',
+              int: '0',
+              name: 'ABC\a7D'
+            },
+            {
+              kind: 'segment',
+              int: '20',
+              name: 'WASM'
+            }
           ]
         },
         {
@@ -787,10 +602,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -812,10 +624,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -842,10 +651,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -867,10 +673,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -902,10 +705,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -927,10 +727,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -957,10 +754,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -982,10 +776,7 @@
                     kind: 'load',
                     type: 'i32',
                     size: '8',
-                    sign: [
-                      '_',
-                      'u'
-                    ],
+                    sign: false,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -1468,10 +1259,7 @@
                 kind: 'load',
                 type: 'i32',
                 size: '8',
-                sign: [
-                  '_',
-                  's'
-                ],
+                sign: true,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1520,10 +1308,7 @@
                 kind: 'load',
                 type: 'i32',
                 size: '8',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1572,10 +1357,7 @@
                 kind: 'load',
                 type: 'i32',
                 size: '16',
-                sign: [
-                  '_',
-                  's'
-                ],
+                sign: true,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1624,10 +1406,7 @@
                 kind: 'load',
                 type: 'i32',
                 size: '16',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1676,10 +1455,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '8',
-                sign: [
-                  '_',
-                  's'
-                ],
+                sign: true,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1728,10 +1504,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '8',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1780,10 +1553,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '16',
-                sign: [
-                  '_',
-                  's'
-                ],
+                sign: true,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1832,10 +1602,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '16',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1884,10 +1651,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '32',
-                sign: [
-                  '_',
-                  's'
-                ],
+                sign: true,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1936,10 +1700,7 @@
                 kind: 'load',
                 type: 'i64',
                 size: '32',
-                sign: [
-                  '_',
-                  'u'
-                ],
+                sign: false,
                 align: 0,
                 expr: {
                   kind: 'const',

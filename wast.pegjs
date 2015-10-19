@@ -30,7 +30,7 @@ name = name:[a-zA-Z0-9\-\_\.]+ { return name.join(''); }
 
 type = "i32" / "i64" / "f32" / "f64"
 
-int = node:( "0x" [0-9A-Fa-f]+ / "-"? [0-9]+ ) { return node.join(''); }
+int = node:( "0x" [0-9A-Fa-f]+ / "-"? [0-9]+ ) { return (node[0] || '') + node[1].join(''); }
 
 float = "-"? [0-9.]+
 
@@ -236,7 +236,7 @@ expr
                 kind: kind,
                 type: type,
                 size: sufix ? sufix[0] : null,
-                sign: (sufix && sufix[1]) ? sufix[1] : null,
+                sign: (sufix && sufix[1]) ? (sufix[1][1] === 's') : null,
                 align: align ? align[1] : 0,
                 expr: expr
             };
@@ -338,7 +338,13 @@ result = "(" __ kind:"result" __ type:type __ ")" {
     };
 }
 
-segment = "(" __ "segment" __ int __ ["] [a-zA-Z0-9_\-\\]* ["] __ ")"
+segment = "(" __ kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ ")" {
+    return {
+        kind: kind,
+        int: int,
+        name: name.join('')
+    }
+}
 
 local
     = "(" __ kind:"local" body:( __ type )* __ ")" {
