@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'add',
+          id: 'add',
           params: [
             {
               kind: 'param',
@@ -24,7 +24,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'add',
@@ -46,7 +46,7 @@
         },
         {
           kind: 'func',
-          name: 'sub',
+          id: 'sub',
           params: [
             {
               kind: 'param',
@@ -64,7 +64,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'sub',
@@ -86,7 +86,7 @@
         },
         {
           kind: 'func',
-          name: 'mul',
+          id: 'mul',
           params: [
             {
               kind: 'param',
@@ -104,7 +104,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'mul',
@@ -126,7 +126,7 @@
         },
         {
           kind: 'func',
-          name: 'div_s',
+          id: 'div_s',
           params: [
             {
               kind: 'param',
@@ -144,7 +144,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -166,7 +166,7 @@
         },
         {
           kind: 'func',
-          name: 'div_u',
+          id: 'div_u',
           params: [
             {
               kind: 'param',
@@ -184,7 +184,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -206,7 +206,7 @@
         },
         {
           kind: 'func',
-          name: 'rem_s',
+          id: 'rem_s',
           params: [
             {
               kind: 'param',
@@ -224,7 +224,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -246,7 +246,7 @@
         },
         {
           kind: 'func',
-          name: 'rem_u',
+          id: 'rem_u',
           params: [
             {
               kind: 'param',
@@ -264,7 +264,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_u',
@@ -286,7 +286,7 @@
         },
         {
           kind: 'func',
-          name: 'and',
+          id: 'and',
           params: [
             {
               kind: 'param',
@@ -304,7 +304,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'and',
@@ -326,7 +326,7 @@
         },
         {
           kind: 'func',
-          name: 'or',
+          id: 'or',
           params: [
             {
               kind: 'param',
@@ -344,7 +344,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'or',
@@ -366,7 +366,7 @@
         },
         {
           kind: 'func',
-          name: 'xor',
+          id: 'xor',
           params: [
             {
               kind: 'param',
@@ -384,7 +384,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'xor',
@@ -406,7 +406,7 @@
         },
         {
           kind: 'func',
-          name: 'shl',
+          id: 'shl',
           params: [
             {
               kind: 'param',
@@ -424,7 +424,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shl',
@@ -446,7 +446,7 @@
         },
         {
           kind: 'func',
-          name: 'shr_s',
+          id: 'shr_s',
           params: [
             {
               kind: 'param',
@@ -464,7 +464,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shr_s',
@@ -486,7 +486,7 @@
         },
         {
           kind: 'func',
-          name: 'shr_u',
+          id: 'shr_u',
           params: [
             {
               kind: 'param',
@@ -504,7 +504,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shr_u',
@@ -526,7 +526,7 @@
         },
         {
           kind: 'func',
-          name: 'clz',
+          id: 'clz',
           params: [{
             kind: 'param',
             name: 'x',
@@ -537,7 +537,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'i32',
             operator: 'clz',
@@ -552,7 +552,7 @@
         },
         {
           kind: 'func',
-          name: 'ctz',
+          id: 'ctz',
           params: [{
             kind: 'param',
             name: 'x',
@@ -563,7 +563,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'i32',
             operator: 'ctz',
@@ -578,7 +578,7 @@
         },
         {
           kind: 'func',
-          name: 'popcnt',
+          id: 'popcnt',
           params: [{
             kind: 'param',
             name: 'x',
@@ -589,7 +589,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'i32',
             operator: 'popcnt',
@@ -604,7 +604,7 @@
         },
         {
           kind: 'func',
-          name: 'eq',
+          id: 'eq',
           params: [
             {
               kind: 'param',
@@ -622,7 +622,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'eq',
@@ -644,7 +644,7 @@
         },
         {
           kind: 'func',
-          name: 'ne',
+          id: 'ne',
           params: [
             {
               kind: 'param',
@@ -662,7 +662,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'ne',
@@ -684,7 +684,7 @@
         },
         {
           kind: 'func',
-          name: 'lt_s',
+          id: 'lt_s',
           params: [
             {
               kind: 'param',
@@ -702,7 +702,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'lt_s',
@@ -724,7 +724,7 @@
         },
         {
           kind: 'func',
-          name: 'lt_u',
+          id: 'lt_u',
           params: [
             {
               kind: 'param',
@@ -742,7 +742,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'lt_u',
@@ -764,7 +764,7 @@
         },
         {
           kind: 'func',
-          name: 'le_s',
+          id: 'le_s',
           params: [
             {
               kind: 'param',
@@ -782,7 +782,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'le_s',
@@ -804,7 +804,7 @@
         },
         {
           kind: 'func',
-          name: 'le_u',
+          id: 'le_u',
           params: [
             {
               kind: 'param',
@@ -822,7 +822,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'le_u',
@@ -844,7 +844,7 @@
         },
         {
           kind: 'func',
-          name: 'gt_s',
+          id: 'gt_s',
           params: [
             {
               kind: 'param',
@@ -862,7 +862,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'gt_s',
@@ -884,7 +884,7 @@
         },
         {
           kind: 'func',
-          name: 'gt_u',
+          id: 'gt_u',
           params: [
             {
               kind: 'param',
@@ -902,7 +902,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'gt_u',
@@ -924,7 +924,7 @@
         },
         {
           kind: 'func',
-          name: 'ge_s',
+          id: 'ge_s',
           params: [
             {
               kind: 'param',
@@ -942,7 +942,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'ge_s',
@@ -964,7 +964,7 @@
         },
         {
           kind: 'func',
-          name: 'ge_u',
+          id: 'ge_u',
           params: [
             {
               kind: 'param',
@@ -982,7 +982,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'ge_u',

@@ -6,14 +6,14 @@
       body: [
         {
           kind: 'func',
-          name: 'block',
+          id: 'block',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'block',
             id: {
               kind: 'var',
@@ -42,7 +42,7 @@
         },
         {
           kind: 'func',
-          name: 'loop1',
+          id: 'loop1',
           params: [],
           result: {
             kind: 'result',
@@ -53,7 +53,7 @@
             name: 'i',
             body: 'i32'
           }],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: {
@@ -139,7 +139,7 @@
         },
         {
           kind: 'func',
-          name: 'loop2',
+          id: 'loop2',
           params: [],
           result: {
             kind: 'result',
@@ -150,7 +150,7 @@
             name: 'i',
             body: 'i32'
           }],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: {
@@ -296,7 +296,7 @@
         },
         {
           kind: 'func',
-          name: 'switch',
+          id: 'switch',
           params: [{
             kind: 'param',
             types: ['i32']
@@ -306,7 +306,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'label',
             id: {
               kind: 'var',
@@ -389,7 +389,7 @@
         },
         {
           kind: 'func',
-          name: 'return',
+          id: 'return',
           params: [{
             kind: 'param',
             types: ['i32']
@@ -399,7 +399,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'switch',
             type: 'i32',
             before: {

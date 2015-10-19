@@ -16,7 +16,7 @@
         },
         {
           kind: 'func',
-          name: 'round_up_to_page',
+          id: 'round_up_to_page',
           params: [{
             kind: 'param',
             types: ['i32']
@@ -26,7 +26,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'and',
@@ -69,14 +69,14 @@
         },
         {
           kind: 'func',
-          name: 'load_at_zero',
+          id: 'load_at_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: null,
@@ -95,24 +95,24 @@
         },
         {
           kind: 'func',
-          name: 'store_at_zero',
+          id: 'store_at_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i32',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'const',
               type: 'i32',
               init: '2'
@@ -125,14 +125,14 @@
         },
         {
           kind: 'func',
-          name: 'load_at_page_size',
+          id: 'load_at_page_size',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: null,
@@ -147,20 +147,20 @@
         },
         {
           kind: 'func',
-          name: 'store_at_page_size',
+          id: 'store_at_page_size',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i32',
             size: null,
             align: 0,
-            expr1: {kind: 'page_size'},
-            expr2: {
+            addr: {kind: 'page_size'},
+            data: {
               kind: 'const',
               type: 'i32',
               init: '3'
@@ -173,7 +173,7 @@
         },
         {
           kind: 'func',
-          name: 'grow',
+          id: 'grow',
           params: [{
             kind: 'param',
             name: 'sz',
@@ -181,7 +181,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'grow_memory',
             expression: {
               kind: 'call',
@@ -205,7 +205,7 @@
         },
         {
           kind: 'func',
-          name: 'size_at_least',
+          id: 'size_at_least',
           params: [{
             kind: 'param',
             types: ['i32']
@@ -215,7 +215,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'ge_u',
@@ -232,14 +232,14 @@
         },
         {
           kind: 'func',
-          name: 'size',
+          id: 'size',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{kind: 'memory_size'}]
+          body: [{kind: 'memory_size'}]
         }
       ]
     },

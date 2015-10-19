@@ -32,7 +32,7 @@
         },
         {
           kind: 'func',
-          name: 'run',
+          id: 'run',
           params: [],
           result: null,
           local: [
@@ -57,7 +57,7 @@
               body: 'f64'
             }
           ],
-          expr: [
+          body: [
             {
               kind: 'call_import',
               id: {
@@ -145,12 +145,12 @@
                 type: 'i32',
                 size: null,
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i32',
                   init: '11'
@@ -168,12 +168,12 @@
                 type: 'i64',
                 size: null,
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i64',
                   init: '12'
@@ -191,12 +191,12 @@
                 type: 'f32',
                 size: null,
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'f32',
                   init: '13'
@@ -214,12 +214,12 @@
                 type: 'f64',
                 size: null,
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'f64',
                   init: '14'
@@ -237,12 +237,12 @@
                 type: 'i32',
                 size: '8',
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i32',
                   init: '512'
@@ -260,12 +260,12 @@
                 type: 'i32',
                 size: '1',
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i32',
                   init: '65536'
@@ -283,12 +283,12 @@
                 type: 'i64',
                 size: '8',
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i64',
                   init: '512'
@@ -306,12 +306,12 @@
                 type: 'i64',
                 size: '1',
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i64',
                   init: '65536'
@@ -329,12 +329,12 @@
                 type: 'i64',
                 size: '3',
                 align: 0,
-                expr1: {
+                addr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 },
-                expr2: {
+                data: {
                   kind: 'const',
                   type: 'i64',
                   init: '4294967296'
@@ -360,7 +360,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [
@@ -375,7 +375,7 @@
               body: 'i64'
             }
           ],
-          expr: [{
+          body: [{
             kind: 'set_local',
             id: {
               kind: 'var',
@@ -407,7 +407,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [
@@ -422,7 +422,7 @@
               body: 'i64'
             }
           ],
-          expr: [{
+          body: [{
             kind: 'set_local',
             id: {
               kind: 'var',
@@ -454,7 +454,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [
@@ -469,7 +469,7 @@
               body: 'f64'
             }
           ],
-          expr: [{
+          body: [{
             kind: 'set_local',
             id: {
               kind: 'var',
@@ -501,7 +501,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [
@@ -516,7 +516,7 @@
               body: 'f64'
             }
           ],
-          expr: [{
+          body: [{
             kind: 'set_local',
             id: {
               kind: 'var',

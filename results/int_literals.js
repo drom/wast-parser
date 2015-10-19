@@ -6,14 +6,14 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.test',
+          id: 'i32.test',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -24,14 +24,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.umax',
+          id: 'i32.umax',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -42,14 +42,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.smax',
+          id: 'i32.smax',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -60,14 +60,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.neg_smax',
+          id: 'i32.neg_smax',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -78,14 +78,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.smin',
+          id: 'i32.smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -96,14 +96,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.alt_smin',
+          id: 'i32.alt_smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -114,14 +114,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.inc_smin',
+          id: 'i32.inc_smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'binop',
@@ -142,14 +142,14 @@
         },
         {
           kind: 'func',
-          name: 'i32.neg_zero',
+          id: 'i32.neg_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -160,14 +160,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.test',
+          id: 'i64.test',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -178,14 +178,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.umax',
+          id: 'i64.umax',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -196,14 +196,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.smax',
+          id: 'i64.smax',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -214,14 +214,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.neg_smax',
+          id: 'i64.neg_smax',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -232,14 +232,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.smin',
+          id: 'i64.smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -250,14 +250,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.alt_smin',
+          id: 'i64.alt_smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',
@@ -268,14 +268,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.inc_smin',
+          id: 'i64.inc_smin',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'binop',
@@ -296,14 +296,14 @@
         },
         {
           kind: 'func',
-          name: 'i64.neg_zero',
+          id: 'i64.neg_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'const',

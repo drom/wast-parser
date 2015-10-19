@@ -12,7 +12,7 @@
         },
         {
           kind: 'func',
-          name: 'store_i32',
+          id: 'store_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -23,17 +23,17 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i32',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'get_local',
               id: {
                 kind: 'var',
@@ -44,14 +44,14 @@
         },
         {
           kind: 'func',
-          name: 'load_i32',
+          id: 'load_i32',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: null,
@@ -66,7 +66,7 @@
         },
         {
           kind: 'func',
-          name: 'store_f32',
+          id: 'store_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -77,17 +77,17 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'f32',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'get_local',
               id: {
                 kind: 'var',
@@ -98,14 +98,14 @@
         },
         {
           kind: 'func',
-          name: 'load_f32',
+          id: 'load_f32',
           params: [],
           result: {
             kind: 'result',
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'f32',
             size: null,
@@ -267,7 +267,7 @@
         },
         {
           kind: 'func',
-          name: 'store_i64',
+          id: 'store_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -278,17 +278,17 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i64',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'get_local',
               id: {
                 kind: 'var',
@@ -299,14 +299,14 @@
         },
         {
           kind: 'func',
-          name: 'load_i64',
+          id: 'load_i64',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i64',
             size: null,
@@ -321,7 +321,7 @@
         },
         {
           kind: 'func',
-          name: 'store_f64',
+          id: 'store_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -332,17 +332,17 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'f64',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'get_local',
               id: {
                 kind: 'var',
@@ -353,14 +353,14 @@
         },
         {
           kind: 'func',
-          name: 'load_f64',
+          id: 'load_f64',
           params: [],
           result: {
             kind: 'result',
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'f64',
             size: null,

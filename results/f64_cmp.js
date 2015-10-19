@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'eq',
+          id: 'eq',
           params: [
             {
               kind: 'param',
@@ -24,7 +24,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'eq',
@@ -46,7 +46,7 @@
         },
         {
           kind: 'func',
-          name: 'ne',
+          id: 'ne',
           params: [
             {
               kind: 'param',
@@ -64,7 +64,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'ne',
@@ -86,7 +86,7 @@
         },
         {
           kind: 'func',
-          name: 'lt',
+          id: 'lt',
           params: [
             {
               kind: 'param',
@@ -104,7 +104,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'lt',
@@ -126,7 +126,7 @@
         },
         {
           kind: 'func',
-          name: 'le',
+          id: 'le',
           params: [
             {
               kind: 'param',
@@ -144,7 +144,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'le',
@@ -166,7 +166,7 @@
         },
         {
           kind: 'func',
-          name: 'gt',
+          id: 'gt',
           params: [
             {
               kind: 'param',
@@ -184,7 +184,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'gt',
@@ -206,7 +206,7 @@
         },
         {
           kind: 'func',
-          name: 'ge',
+          id: 'ge',
           params: [
             {
               kind: 'param',
@@ -224,7 +224,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'ge',

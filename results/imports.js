@@ -26,7 +26,7 @@
         },
         {
           kind: 'func',
-          name: 'print32',
+          id: 'print32',
           params: [{
             kind: 'param',
             name: 'i',
@@ -34,7 +34,7 @@
           }],
           result: null,
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call_import',
               id: {
@@ -84,7 +84,7 @@
         },
         {
           kind: 'func',
-          name: 'print64',
+          id: 'print64',
           params: [{
             kind: 'param',
             name: 'i',
@@ -92,7 +92,7 @@
           }],
           result: null,
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call_import',
               id: {

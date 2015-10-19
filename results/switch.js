@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'stmt',
+          id: 'stmt',
           params: [{
             kind: 'param',
             name: 'i',
@@ -21,7 +21,7 @@
             name: 'j',
             body: 'i32'
           }],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: {
@@ -184,7 +184,7 @@
         },
         {
           kind: 'func',
-          name: 'expr',
+          id: 'expr',
           params: [{
             kind: 'param',
             name: 'i',
@@ -199,7 +199,7 @@
             name: 'j',
             body: 'i64'
           }],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: {

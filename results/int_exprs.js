@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_cmp_s_offset',
+          id: 'i32.no_fold_cmp_s_offset',
           params: [
             {
               kind: 'param',
@@ -24,7 +24,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'lt_s',
@@ -70,7 +70,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.no_fold_cmp_u_offset',
+          id: 'i32.no_fold_cmp_u_offset',
           params: [
             {
               kind: 'param',
@@ -88,7 +88,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i32',
             operator: 'lt_u',
@@ -134,7 +134,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_cmp_s_offset',
+          id: 'i64.no_fold_cmp_s_offset',
           params: [
             {
               kind: 'param',
@@ -152,7 +152,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i64',
             operator: 'lt_s',
@@ -198,7 +198,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_cmp_u_offset',
+          id: 'i64.no_fold_cmp_u_offset',
           params: [
             {
               kind: 'param',
@@ -216,7 +216,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'i64',
             operator: 'lt_u',
@@ -363,7 +363,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i64.no_fold_wrap_extend_s',
+          id: 'i64.no_fold_wrap_extend_s',
           params: [{
             kind: 'param',
             name: 'x',
@@ -374,7 +374,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'i32',
@@ -439,7 +439,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i64.no_fold_wrap_extend_u',
+          id: 'i64.no_fold_wrap_extend_u',
           params: [{
             kind: 'param',
             name: 'x',
@@ -450,7 +450,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'i32',
@@ -498,7 +498,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_shl_shr_s',
+          id: 'i32.no_fold_shl_shr_s',
           params: [{
             kind: 'param',
             name: 'x',
@@ -509,7 +509,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shr_s',
@@ -543,7 +543,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.no_fold_shl_shr_u',
+          id: 'i32.no_fold_shl_shr_u',
           params: [{
             kind: 'param',
             name: 'x',
@@ -554,7 +554,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shr_u',
@@ -588,7 +588,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_shl_shr_s',
+          id: 'i64.no_fold_shl_shr_s',
           params: [{
             kind: 'param',
             name: 'x',
@@ -599,7 +599,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'shr_s',
@@ -633,7 +633,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_shl_shr_u',
+          id: 'i64.no_fold_shl_shr_u',
           params: [{
             kind: 'param',
             name: 'x',
@@ -644,7 +644,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'shr_u',
@@ -751,7 +751,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_shr_s_shl',
+          id: 'i32.no_fold_shr_s_shl',
           params: [{
             kind: 'param',
             name: 'x',
@@ -762,7 +762,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shl',
@@ -796,7 +796,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.no_fold_shr_u_shl',
+          id: 'i32.no_fold_shr_u_shl',
           params: [{
             kind: 'param',
             name: 'x',
@@ -807,7 +807,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'shl',
@@ -841,7 +841,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_shr_s_shl',
+          id: 'i64.no_fold_shr_s_shl',
           params: [{
             kind: 'param',
             name: 'x',
@@ -852,7 +852,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'shl',
@@ -886,7 +886,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_shr_u_shl',
+          id: 'i64.no_fold_shr_u_shl',
           params: [{
             kind: 'param',
             name: 'x',
@@ -897,7 +897,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'shl',
@@ -1004,7 +1004,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_div_s_mul',
+          id: 'i32.no_fold_div_s_mul',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1015,7 +1015,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'mul',
@@ -1049,7 +1049,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.no_fold_div_u_mul',
+          id: 'i32.no_fold_div_u_mul',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1060,7 +1060,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'mul',
@@ -1094,7 +1094,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_div_s_mul',
+          id: 'i64.no_fold_div_s_mul',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1105,7 +1105,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'mul',
@@ -1139,7 +1139,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_div_u_mul',
+          id: 'i64.no_fold_div_u_mul',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1150,7 +1150,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'mul',
@@ -1257,7 +1257,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_mul_div_s',
+          id: 'i32.no_fold_mul_div_s',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1268,7 +1268,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -1302,7 +1302,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.no_fold_mul_div_u',
+          id: 'i32.no_fold_mul_div_u',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1313,7 +1313,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -1347,7 +1347,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_mul_div_s',
+          id: 'i64.no_fold_mul_div_s',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1358,7 +1358,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -1392,7 +1392,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_mul_div_u',
+          id: 'i64.no_fold_mul_div_u',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1403,7 +1403,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_u',
@@ -1510,7 +1510,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_div_s_2',
+          id: 'i32.no_fold_div_s_2',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1521,7 +1521,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -1545,7 +1545,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_div_s_2',
+          id: 'i64.no_fold_div_s_2',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1556,7 +1556,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -1619,7 +1619,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.no_fold_rem_s_2',
+          id: 'i32.no_fold_rem_s_2',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1630,7 +1630,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -1654,7 +1654,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.no_fold_rem_s_2',
+          id: 'i64.no_fold_rem_s_2',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1665,7 +1665,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_s',
@@ -1728,7 +1728,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.div_s_3',
+          id: 'i32.div_s_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1739,7 +1739,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -1763,7 +1763,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.div_u_3',
+          id: 'i32.div_u_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1774,7 +1774,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -1798,7 +1798,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_s_3',
+          id: 'i64.div_s_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1809,7 +1809,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -1833,7 +1833,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_u_3',
+          id: 'i64.div_u_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1844,7 +1844,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_u',
@@ -2009,7 +2009,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.div_s_5',
+          id: 'i32.div_s_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2020,7 +2020,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -2044,7 +2044,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.div_u_5',
+          id: 'i32.div_u_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2055,7 +2055,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -2079,7 +2079,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_s_5',
+          id: 'i64.div_s_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2090,7 +2090,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -2114,7 +2114,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_u_5',
+          id: 'i64.div_u_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2125,7 +2125,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_u',
@@ -2290,7 +2290,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.div_s_7',
+          id: 'i32.div_s_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2301,7 +2301,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -2325,7 +2325,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.div_u_7',
+          id: 'i32.div_u_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2336,7 +2336,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -2360,7 +2360,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_s_7',
+          id: 'i64.div_s_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2371,7 +2371,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -2395,7 +2395,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.div_u_7',
+          id: 'i64.div_u_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2406,7 +2406,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_u',
@@ -2571,7 +2571,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.rem_s_3',
+          id: 'i32.rem_s_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2582,7 +2582,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -2606,7 +2606,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.rem_u_3',
+          id: 'i32.rem_u_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2617,7 +2617,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_u',
@@ -2641,7 +2641,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_s_3',
+          id: 'i64.rem_s_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2652,7 +2652,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_s',
@@ -2676,7 +2676,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_u_3',
+          id: 'i64.rem_u_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2687,7 +2687,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_u',
@@ -2852,7 +2852,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.rem_s_5',
+          id: 'i32.rem_s_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2863,7 +2863,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -2887,7 +2887,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.rem_u_5',
+          id: 'i32.rem_u_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2898,7 +2898,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_u',
@@ -2922,7 +2922,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_s_5',
+          id: 'i64.rem_s_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2933,7 +2933,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_s',
@@ -2957,7 +2957,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_u_5',
+          id: 'i64.rem_u_5',
           params: [{
             kind: 'param',
             name: 'x',
@@ -2968,7 +2968,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_u',
@@ -3133,7 +3133,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.rem_s_7',
+          id: 'i32.rem_s_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3144,7 +3144,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -3168,7 +3168,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.rem_u_7',
+          id: 'i32.rem_u_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3179,7 +3179,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_u',
@@ -3203,7 +3203,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_s_7',
+          id: 'i64.rem_s_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3214,7 +3214,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_s',
@@ -3238,7 +3238,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.rem_u_7',
+          id: 'i64.rem_u_7',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3249,7 +3249,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_u',

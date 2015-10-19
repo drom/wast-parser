@@ -6,11 +6,11 @@
       body: [
         {
           kind: 'func',
-          name: 'return-none',
+          id: 'return-none',
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'const',
             type: 'i32',
             init: '1'

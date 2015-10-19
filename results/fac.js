@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [{
             kind: 'param',
             types: ['i64']
@@ -16,7 +16,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'if',
             test: {
               kind: 'relop',
@@ -68,7 +68,7 @@
         },
         {
           kind: 'func',
-          name: 'fac-rec',
+          id: 'fac-rec',
           params: [{
             kind: 'param',
             name: 'n',
@@ -79,7 +79,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'if',
             test: {
               kind: 'relop',
@@ -143,7 +143,7 @@
         },
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [{
             kind: 'param',
             types: ['i64']
@@ -159,7 +159,7 @@
               'i64'
             ]
           }],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: '1',
@@ -257,7 +257,7 @@
         },
         {
           kind: 'func',
-          name: 'fac-iter',
+          id: 'fac-iter',
           params: [{
             kind: 'param',
             name: 'n',
@@ -279,7 +279,7 @@
               body: 'i64'
             }
           ],
-          expr: [
+          body: [
             {
               kind: 'set_local',
               id: {

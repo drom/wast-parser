@@ -16,7 +16,7 @@
         },
         {
           kind: 'func',
-          name: 'store',
+          id: 'store',
           params: [
             {
               kind: 'param',
@@ -34,12 +34,12 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i32',
             size: null,
             align: 0,
-            expr1: {
+            addr: {
               kind: 'binop',
               type: 'i32',
               operator: 'add',
@@ -52,7 +52,7 @@
                 }
               }
             },
-            expr2: {
+            data: {
               kind: 'get_local',
               id: {
                 kind: 'var',
@@ -67,7 +67,7 @@
         },
         {
           kind: 'func',
-          name: 'load',
+          id: 'load',
           params: [{
             kind: 'param',
             name: 'i',
@@ -78,7 +78,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: null,
@@ -105,7 +105,7 @@
         },
         {
           kind: 'func',
-          name: 'grow_memory',
+          id: 'grow_memory',
           params: [{
             kind: 'param',
             name: 'i',
@@ -113,7 +113,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'grow_memory',
             expression: {
               kind: 'get_local',
@@ -130,11 +130,11 @@
         },
         {
           kind: 'func',
-          name: 'overflow_memory_size',
+          id: 'overflow_memory_size',
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'grow_memory',
             expression: {
               kind: 'binop',

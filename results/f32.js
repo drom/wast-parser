@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'add',
+          id: 'add',
           params: [
             {
               kind: 'param',
@@ -24,7 +24,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'add',
@@ -46,7 +46,7 @@
         },
         {
           kind: 'func',
-          name: 'sub',
+          id: 'sub',
           params: [
             {
               kind: 'param',
@@ -64,7 +64,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'sub',
@@ -86,7 +86,7 @@
         },
         {
           kind: 'func',
-          name: 'mul',
+          id: 'mul',
           params: [
             {
               kind: 'param',
@@ -104,7 +104,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'mul',
@@ -126,7 +126,7 @@
         },
         {
           kind: 'func',
-          name: 'div',
+          id: 'div',
           params: [
             {
               kind: 'param',
@@ -144,7 +144,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -166,7 +166,7 @@
         },
         {
           kind: 'func',
-          name: 'sqrt',
+          id: 'sqrt',
           params: [{
             kind: 'param',
             name: 'x',
@@ -177,7 +177,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'sqrt',
@@ -192,7 +192,7 @@
         },
         {
           kind: 'func',
-          name: 'min',
+          id: 'min',
           params: [
             {
               kind: 'param',
@@ -210,7 +210,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'min',
@@ -232,7 +232,7 @@
         },
         {
           kind: 'func',
-          name: 'max',
+          id: 'max',
           params: [
             {
               kind: 'param',
@@ -250,7 +250,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'max',
@@ -272,7 +272,7 @@
         },
         {
           kind: 'func',
-          name: 'ceil',
+          id: 'ceil',
           params: [{
             kind: 'param',
             name: 'x',
@@ -283,7 +283,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'ceil',
@@ -298,7 +298,7 @@
         },
         {
           kind: 'func',
-          name: 'floor',
+          id: 'floor',
           params: [{
             kind: 'param',
             name: 'x',
@@ -309,7 +309,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'floor',
@@ -324,7 +324,7 @@
         },
         {
           kind: 'func',
-          name: 'trunc',
+          id: 'trunc',
           params: [{
             kind: 'param',
             name: 'x',
@@ -335,7 +335,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'trunc',
@@ -350,7 +350,7 @@
         },
         {
           kind: 'func',
-          name: 'nearest',
+          id: 'nearest',
           params: [{
             kind: 'param',
             name: 'x',
@@ -361,7 +361,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'nearest',
@@ -376,7 +376,7 @@
         },
         {
           kind: 'func',
-          name: 'abs',
+          id: 'abs',
           params: [{
             kind: 'param',
             name: 'x',
@@ -387,7 +387,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'abs',
@@ -402,7 +402,7 @@
         },
         {
           kind: 'func',
-          name: 'neg',
+          id: 'neg',
           params: [{
             kind: 'param',
             name: 'x',
@@ -413,7 +413,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'neg',
@@ -428,7 +428,7 @@
         },
         {
           kind: 'func',
-          name: 'copysign',
+          id: 'copysign',
           params: [
             {
               kind: 'param',
@@ -446,7 +446,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'copysign',

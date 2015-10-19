@@ -6,11 +6,11 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'call',
             id: '0',
             expr: []
@@ -22,11 +22,11 @@
         },
         {
           kind: 'func',
-          name: 'a',
+          id: 'a',
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'call',
             id: {
               kind: 'var',
@@ -37,11 +37,11 @@
         },
         {
           kind: 'func',
-          name: 'b',
+          id: 'b',
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'call',
             id: {
               kind: 'var',

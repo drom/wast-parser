@@ -6,11 +6,11 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'const',
             type: 'i32',
             init: '1'
@@ -27,11 +27,11 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'const',
             type: 'i32',
             init: '1'
@@ -52,11 +52,11 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'const',
             type: 'i32',
             init: '1'
@@ -64,11 +64,11 @@
         },
         {
           kind: 'func',
-          name: null,
+          id: null,
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'const',
             type: 'i32',
             init: '2'
@@ -91,11 +91,11 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: null,
             params: [],
             result: null,
             local: [],
-            expr: [{
+            body: [{
               kind: 'const',
               type: 'i32',
               init: '1'
@@ -119,11 +119,11 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: null,
             params: [],
             result: null,
             local: [],
-            expr: [{
+            body: [{
               kind: 'const',
               type: 'i32',
               init: '1'
@@ -131,11 +131,11 @@
           },
           {
             kind: 'func',
-            name: null,
+            id: null,
             params: [],
             result: null,
             local: [],
-            expr: [{
+            body: [{
               kind: 'const',
               type: 'i32',
               init: '2'
@@ -163,11 +163,11 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: null,
             params: [],
             result: null,
             local: [],
-            expr: [{
+            body: [{
               kind: 'const',
               type: 'i32',
               init: '1'
@@ -193,7 +193,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f',
+          id: 'f',
           params: [{
             kind: 'param',
             name: 'n',
@@ -204,7 +204,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'return',
             expr: {
               kind: 'binop',

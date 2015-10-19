@@ -6,14 +6,14 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.nan',
+          id: 'f32.nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -27,14 +27,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_nan',
+          id: 'f32.positive_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -48,14 +48,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_nan',
+          id: 'f32.negative_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -69,14 +69,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.plain_nan',
+          id: 'f32.plain_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -90,14 +90,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.informally_known_as_plain_snan',
+          id: 'f32.informally_known_as_plain_snan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -111,14 +111,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.allones_nan',
+          id: 'f32.allones_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -132,14 +132,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_nan',
+          id: 'f32.misc_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -153,14 +153,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_positive_nan',
+          id: 'f32.misc_positive_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -174,14 +174,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_negative_nan',
+          id: 'f32.misc_negative_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -195,14 +195,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.infinity',
+          id: 'f32.infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -216,14 +216,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_infinity',
+          id: 'f32.positive_infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -237,14 +237,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_infinity',
+          id: 'f32.negative_infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -258,14 +258,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.zero',
+          id: 'f32.zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -279,14 +279,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_zero',
+          id: 'f32.positive_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -300,14 +300,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_zero',
+          id: 'f32.negative_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -321,14 +321,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.decimal',
+          id: 'f32.decimal',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -342,14 +342,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.hexadecimal',
+          id: 'f32.hexadecimal',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -363,14 +363,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.min_positive',
+          id: 'f32.min_positive',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -384,14 +384,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.max_finite',
+          id: 'f32.max_finite',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -405,14 +405,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.trailing_dot',
+          id: 'f32.trailing_dot',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -426,14 +426,14 @@
         },
         {
           kind: 'func',
-          name: 'f32.max_subnormal',
+          id: 'f32.max_subnormal',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -447,14 +447,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.nan',
+          id: 'f64.nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -468,14 +468,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_nan',
+          id: 'f64.positive_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -489,14 +489,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_nan',
+          id: 'f64.negative_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -510,14 +510,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.plain_nan',
+          id: 'f64.plain_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -531,14 +531,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.informally_known_as_plain_snan',
+          id: 'f64.informally_known_as_plain_snan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -552,14 +552,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.allones_nan',
+          id: 'f64.allones_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -573,14 +573,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_nan',
+          id: 'f64.misc_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -594,14 +594,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_positive_nan',
+          id: 'f64.misc_positive_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -615,14 +615,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_negative_nan',
+          id: 'f64.misc_negative_nan',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -636,14 +636,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.infinity',
+          id: 'f64.infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -657,14 +657,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_infinity',
+          id: 'f64.positive_infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -678,14 +678,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_infinity',
+          id: 'f64.negative_infinity',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -699,14 +699,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.zero',
+          id: 'f64.zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -720,14 +720,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_zero',
+          id: 'f64.positive_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -741,14 +741,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_zero',
+          id: 'f64.negative_zero',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -762,14 +762,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.decimal',
+          id: 'f64.decimal',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -783,14 +783,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.hexadecimal',
+          id: 'f64.hexadecimal',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -804,14 +804,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.min_positive',
+          id: 'f64.min_positive',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -825,14 +825,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.max_finite',
+          id: 'f64.max_finite',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -846,14 +846,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.trailing_dot',
+          id: 'f64.trailing_dot',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -867,14 +867,14 @@
         },
         {
           kind: 'func',
-          name: 'f64.max_subnormal',
+          id: 'f64.max_subnormal',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',

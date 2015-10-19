@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'i64.extend_s_i32',
+          id: 'i64.extend_s_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -17,7 +17,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'i32',
@@ -37,7 +37,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.extend_u_i32',
+          id: 'i64.extend_u_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -48,7 +48,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'i32',
@@ -68,7 +68,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.wrap_i64',
+          id: 'i32.wrap_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -79,7 +79,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'i64',
@@ -99,7 +99,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_s_f32',
+          id: 'i32.trunc_s_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -110,7 +110,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -130,7 +130,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_u_f32',
+          id: 'i32.trunc_u_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -141,7 +141,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -161,7 +161,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_s_f64',
+          id: 'i32.trunc_s_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -172,7 +172,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f64',
@@ -192,7 +192,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_u_f64',
+          id: 'i32.trunc_u_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -203,7 +203,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f64',
@@ -223,7 +223,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_s_f32',
+          id: 'i64.trunc_s_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -234,7 +234,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f32',
@@ -254,7 +254,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_u_f32',
+          id: 'i64.trunc_u_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -265,7 +265,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f32',
@@ -285,7 +285,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_s_f64',
+          id: 'i64.trunc_s_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -296,7 +296,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -316,7 +316,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_u_f64',
+          id: 'i64.trunc_u_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -327,7 +327,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -347,7 +347,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_s_i32',
+          id: 'f32.convert_s_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -358,7 +358,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'i32',
@@ -378,7 +378,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_s_i64',
+          id: 'f32.convert_s_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -389,7 +389,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'i64',
@@ -409,7 +409,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_s_i32',
+          id: 'f64.convert_s_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -420,7 +420,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'i32',
@@ -440,7 +440,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_s_i64',
+          id: 'f64.convert_s_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -451,7 +451,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'i64',
@@ -471,7 +471,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_u_i32',
+          id: 'f32.convert_u_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -482,7 +482,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'i32',
@@ -502,7 +502,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_u_i64',
+          id: 'f32.convert_u_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -513,7 +513,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'i64',
@@ -533,7 +533,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_u_i32',
+          id: 'f64.convert_u_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -544,7 +544,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'i32',
@@ -564,7 +564,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_u_i64',
+          id: 'f64.convert_u_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -575,7 +575,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'i64',
@@ -595,7 +595,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.promote_f32',
+          id: 'f64.promote_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -606,7 +606,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'f32',
@@ -626,7 +626,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.demote_f64',
+          id: 'f32.demote_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -637,7 +637,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'f64',
@@ -657,7 +657,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.reinterpret_i32',
+          id: 'f32.reinterpret_i32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -668,7 +668,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f32',
             type1: 'i32',
@@ -688,7 +688,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.reinterpret_i64',
+          id: 'f64.reinterpret_i64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -699,7 +699,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'f64',
             type1: 'i64',
@@ -719,7 +719,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.reinterpret_f32',
+          id: 'i32.reinterpret_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -730,7 +730,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -750,7 +750,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.reinterpret_f64',
+          id: 'i64.reinterpret_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -761,7 +761,7 @@
             type: 'i64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',

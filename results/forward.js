@@ -14,7 +14,7 @@
         },
         {
           kind: 'func',
-          name: 'even',
+          id: 'even',
           params: [{
             kind: 'param',
             name: 'n',
@@ -25,7 +25,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'if',
             test: {
               kind: 'relop',
@@ -77,7 +77,7 @@
         },
         {
           kind: 'func',
-          name: 'odd',
+          id: 'odd',
           params: [{
             kind: 'param',
             name: 'n',
@@ -88,7 +88,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'if',
             test: {
               kind: 'relop',

@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'no_dce.i32.div_s',
+          id: 'no_dce.i32.div_s',
           params: [
             {
               kind: 'param',
@@ -21,7 +21,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_s',
@@ -43,7 +43,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i32.div_u',
+          id: 'no_dce.i32.div_u',
           params: [
             {
               kind: 'param',
@@ -58,7 +58,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'div_u',
@@ -80,7 +80,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.div_s',
+          id: 'no_dce.i64.div_s',
           params: [
             {
               kind: 'param',
@@ -95,7 +95,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_s',
@@ -117,7 +117,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.div_u',
+          id: 'no_dce.i64.div_u',
           params: [
             {
               kind: 'param',
@@ -132,7 +132,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'div_u',
@@ -267,7 +267,7 @@
       body: [
         {
           kind: 'func',
-          name: 'no_dce.i32.rem_s',
+          id: 'no_dce.i32.rem_s',
           params: [
             {
               kind: 'param',
@@ -282,7 +282,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_s',
@@ -304,7 +304,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i32.rem_u',
+          id: 'no_dce.i32.rem_u',
           params: [
             {
               kind: 'param',
@@ -319,7 +319,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i32',
             operator: 'rem_u',
@@ -341,7 +341,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.rem_s',
+          id: 'no_dce.i64.rem_s',
           params: [
             {
               kind: 'param',
@@ -356,7 +356,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_s',
@@ -378,7 +378,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.rem_u',
+          id: 'no_dce.i64.rem_u',
           params: [
             {
               kind: 'param',
@@ -393,7 +393,7 @@
           ],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'i64',
             operator: 'rem_u',
@@ -528,7 +528,7 @@
       body: [
         {
           kind: 'func',
-          name: 'no_dce.i32.trunc_s_f32',
+          id: 'no_dce.i32.trunc_s_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -536,7 +536,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -552,7 +552,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i32.trunc_u_f32',
+          id: 'no_dce.i32.trunc_u_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -560,7 +560,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
@@ -576,7 +576,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i32.trunc_s_f64',
+          id: 'no_dce.i32.trunc_s_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -584,7 +584,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f64',
@@ -600,7 +600,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i32.trunc_u_f64',
+          id: 'no_dce.i32.trunc_u_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -608,7 +608,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i32',
             type1: 'f64',
@@ -624,7 +624,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.trunc_s_f32',
+          id: 'no_dce.i64.trunc_s_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -632,7 +632,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f32',
@@ -648,7 +648,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.trunc_u_f32',
+          id: 'no_dce.i64.trunc_u_f32',
           params: [{
             kind: 'param',
             name: 'x',
@@ -656,7 +656,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f32',
@@ -672,7 +672,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.trunc_s_f64',
+          id: 'no_dce.i64.trunc_s_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -680,7 +680,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -696,7 +696,7 @@
         },
         {
           kind: 'func',
-          name: 'no_dce.i64.trunc_u_f64',
+          id: 'no_dce.i64.trunc_u_f64',
           params: [{
             kind: 'param',
             name: 'x',
@@ -704,7 +704,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'cvtop',
             type: 'i64',
             type1: 'f64',
@@ -895,7 +895,7 @@
         },
         {
           kind: 'func',
-          name: 'i32.load',
+          id: 'i32.load',
           params: [{
             kind: 'param',
             name: 'i',
@@ -903,7 +903,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: null,
@@ -924,7 +924,7 @@
         },
         {
           kind: 'func',
-          name: 'i64.load',
+          id: 'i64.load',
           params: [{
             kind: 'param',
             name: 'i',
@@ -932,7 +932,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i64',
             size: null,
@@ -953,7 +953,7 @@
         },
         {
           kind: 'func',
-          name: 'f32.load',
+          id: 'f32.load',
           params: [{
             kind: 'param',
             name: 'i',
@@ -961,7 +961,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'f32',
             size: null,
@@ -982,7 +982,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.load',
+          id: 'f64.load',
           params: [{
             kind: 'param',
             name: 'i',
@@ -990,7 +990,7 @@
           }],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'f64',
             size: null,

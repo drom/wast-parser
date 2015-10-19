@@ -12,21 +12,21 @@
         },
         {
           kind: 'func',
-          name: 'reset',
+          id: 'reset',
           params: [],
           result: null,
           local: [],
-          expr: [{
+          body: [{
             kind: 'store',
             type: 'i32',
             size: '8',
             align: 0,
-            expr1: {
+            addr: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            expr2: {
+            data: {
               kind: 'const',
               type: 'i32',
               init: '0'
@@ -35,14 +35,14 @@
         },
         {
           kind: 'func',
-          name: 'get',
+          id: 'get',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'load',
             type: 'i32',
             size: '8',
@@ -57,25 +57,25 @@
         },
         {
           kind: 'func',
-          name: 'i32_left',
+          id: 'i32_left',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '1'
@@ -90,25 +90,25 @@
         },
         {
           kind: 'func',
-          name: 'i32_right',
+          id: 'i32_right',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '2'
@@ -123,25 +123,25 @@
         },
         {
           kind: 'func',
-          name: 'i64_left',
+          id: 'i64_left',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '1'
@@ -156,25 +156,25 @@
         },
         {
           kind: 'func',
-          name: 'i64_right',
+          id: 'i64_right',
           params: [],
           result: {
             kind: 'result',
             type: 'i64'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '2'
@@ -189,25 +189,25 @@
         },
         {
           kind: 'func',
-          name: 'f32_left',
+          id: 'f32_left',
           params: [],
           result: {
             kind: 'result',
             type: 'f32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '1'
@@ -222,25 +222,25 @@
         },
         {
           kind: 'func',
-          name: 'f32_right',
+          id: 'f32_right',
           params: [],
           result: {
             kind: 'result',
             type: 'f32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '2'
@@ -255,25 +255,25 @@
         },
         {
           kind: 'func',
-          name: 'f64_left',
+          id: 'f64_left',
           params: [],
           result: {
             kind: 'result',
             type: 'f64'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '1'
@@ -288,25 +288,25 @@
         },
         {
           kind: 'func',
-          name: 'f64_right',
+          id: 'f64_right',
           params: [],
           result: {
             kind: 'result',
             type: 'f64'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: '8',
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '2'
@@ -321,14 +321,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_add',
+          id: 'i32_add',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -370,14 +370,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_sub',
+          id: 'i32_sub',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -419,14 +419,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_mul',
+          id: 'i32_mul',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -468,14 +468,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_div_s',
+          id: 'i32_div_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -517,14 +517,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_div_u',
+          id: 'i32_div_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -566,14 +566,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_rem_s',
+          id: 'i32_rem_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -615,14 +615,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_rem_u',
+          id: 'i32_rem_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -664,14 +664,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_and',
+          id: 'i32_and',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -713,14 +713,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_or',
+          id: 'i32_or',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -762,14 +762,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_xor',
+          id: 'i32_xor',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -811,14 +811,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_shl',
+          id: 'i32_shl',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -860,14 +860,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_shr_u',
+          id: 'i32_shr_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -909,14 +909,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_shr_s',
+          id: 'i32_shr_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -958,14 +958,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_eq',
+          id: 'i32_eq',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1007,14 +1007,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_ne',
+          id: 'i32_ne',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1056,14 +1056,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_lt_s',
+          id: 'i32_lt_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1105,14 +1105,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_le_s',
+          id: 'i32_le_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1154,14 +1154,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_lt_u',
+          id: 'i32_lt_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1203,14 +1203,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_le_u',
+          id: 'i32_le_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1252,14 +1252,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_gt_s',
+          id: 'i32_gt_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1301,14 +1301,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_ge_s',
+          id: 'i32_ge_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1350,14 +1350,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_gt_u',
+          id: 'i32_gt_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1399,14 +1399,14 @@
         },
         {
           kind: 'func',
-          name: 'i32_ge_u',
+          id: 'i32_ge_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1448,14 +1448,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_add',
+          id: 'i64_add',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1497,14 +1497,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_sub',
+          id: 'i64_sub',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1546,14 +1546,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_mul',
+          id: 'i64_mul',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1595,14 +1595,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_div_s',
+          id: 'i64_div_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1644,14 +1644,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_div_u',
+          id: 'i64_div_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1693,14 +1693,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_rem_s',
+          id: 'i64_rem_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1742,14 +1742,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_rem_u',
+          id: 'i64_rem_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1791,14 +1791,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_and',
+          id: 'i64_and',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1840,14 +1840,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_or',
+          id: 'i64_or',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1889,14 +1889,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_xor',
+          id: 'i64_xor',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1938,14 +1938,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_shl',
+          id: 'i64_shl',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -1987,14 +1987,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_shr_u',
+          id: 'i64_shr_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2036,14 +2036,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_shr_s',
+          id: 'i64_shr_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2085,14 +2085,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_eq',
+          id: 'i64_eq',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2134,14 +2134,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_ne',
+          id: 'i64_ne',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2183,14 +2183,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_lt_s',
+          id: 'i64_lt_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2232,14 +2232,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_le_s',
+          id: 'i64_le_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2281,14 +2281,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_lt_u',
+          id: 'i64_lt_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2330,14 +2330,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_le_u',
+          id: 'i64_le_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2379,14 +2379,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_gt_s',
+          id: 'i64_gt_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2428,14 +2428,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_ge_s',
+          id: 'i64_ge_s',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2477,14 +2477,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_gt_u',
+          id: 'i64_gt_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2526,14 +2526,14 @@
         },
         {
           kind: 'func',
-          name: 'i64_ge_u',
+          id: 'i64_ge_u',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2575,14 +2575,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_add',
+          id: 'f32_add',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2624,14 +2624,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_sub',
+          id: 'f32_sub',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2673,14 +2673,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_mul',
+          id: 'f32_mul',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2722,14 +2722,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_div',
+          id: 'f32_div',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2771,14 +2771,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_copysign',
+          id: 'f32_copysign',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2820,14 +2820,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_eq',
+          id: 'f32_eq',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2869,14 +2869,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_ne',
+          id: 'f32_ne',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2918,14 +2918,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_lt',
+          id: 'f32_lt',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -2967,14 +2967,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_le',
+          id: 'f32_le',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3016,14 +3016,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_gt',
+          id: 'f32_gt',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3065,14 +3065,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_ge',
+          id: 'f32_ge',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3114,14 +3114,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_min',
+          id: 'f32_min',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3163,14 +3163,14 @@
         },
         {
           kind: 'func',
-          name: 'f32_max',
+          id: 'f32_max',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3212,14 +3212,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_add',
+          id: 'f64_add',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3261,14 +3261,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_sub',
+          id: 'f64_sub',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3310,14 +3310,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_mul',
+          id: 'f64_mul',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3359,14 +3359,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_div',
+          id: 'f64_div',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3408,14 +3408,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_copysign',
+          id: 'f64_copysign',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3457,14 +3457,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_eq',
+          id: 'f64_eq',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3506,14 +3506,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_ne',
+          id: 'f64_ne',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3555,14 +3555,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_lt',
+          id: 'f64_lt',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3604,14 +3604,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_le',
+          id: 'f64_le',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3653,14 +3653,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_gt',
+          id: 'f64_gt',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3702,14 +3702,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_ge',
+          id: 'f64_ge',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3751,14 +3751,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_min',
+          id: 'f64_min',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {
@@ -3800,14 +3800,14 @@
         },
         {
           kind: 'func',
-          name: 'f64_max',
+          id: 'f64_max',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'call',
               id: {

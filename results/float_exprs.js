@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f64.no_contraction',
+          id: 'f64.no_contraction',
           params: [
             {
               kind: 'param',
@@ -29,7 +29,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'add',
@@ -217,7 +217,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fma',
+          id: 'f32.no_fma',
           params: [
             {
               kind: 'param',
@@ -240,7 +240,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'add',
@@ -278,7 +278,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fma',
+          id: 'f64.no_fma',
           params: [
             {
               kind: 'param',
@@ -301,7 +301,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'add',
@@ -634,7 +634,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_add_zero',
+          id: 'f32.no_fold_add_zero',
           params: [{
             kind: 'param',
             name: 'x',
@@ -645,7 +645,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'add',
@@ -669,7 +669,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_add_zero',
+          id: 'f64.no_fold_add_zero',
           params: [{
             kind: 'param',
             name: 'x',
@@ -680,7 +680,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'add',
@@ -743,7 +743,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_zero_sub',
+          id: 'f32.no_fold_zero_sub',
           params: [{
             kind: 'param',
             name: 'x',
@@ -754,7 +754,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'sub',
@@ -778,7 +778,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_zero_sub',
+          id: 'f64.no_fold_zero_sub',
           params: [{
             kind: 'param',
             name: 'x',
@@ -789,7 +789,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'sub',
@@ -852,7 +852,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_mul_zero',
+          id: 'f32.no_fold_mul_zero',
           params: [{
             kind: 'param',
             name: 'x',
@@ -863,7 +863,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'mul',
@@ -887,7 +887,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_mul_zero',
+          id: 'f64.no_fold_mul_zero',
           params: [{
             kind: 'param',
             name: 'x',
@@ -898,7 +898,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'mul',
@@ -1029,7 +1029,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_zero_div',
+          id: 'f32.no_fold_zero_div',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1040,7 +1040,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -1064,7 +1064,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_zero_div',
+          id: 'f64.no_fold_zero_div',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1075,7 +1075,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'div',
@@ -1176,7 +1176,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_eq_self',
+          id: 'f32.no_fold_eq_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1187,7 +1187,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f32',
             operator: 'eq',
@@ -1213,7 +1213,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_eq_self',
+          id: 'f64.no_fold_eq_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1224,7 +1224,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'eq',
@@ -1289,7 +1289,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_ne_self',
+          id: 'f32.no_fold_ne_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1300,7 +1300,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f32',
             operator: 'ne',
@@ -1326,7 +1326,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_ne_self',
+          id: 'f64.no_fold_ne_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1337,7 +1337,7 @@
             type: 'i32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'relop',
             type: 'f64',
             operator: 'ne',
@@ -1402,7 +1402,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_sub_self',
+          id: 'f32.no_fold_sub_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1413,7 +1413,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'sub',
@@ -1439,7 +1439,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_sub_self',
+          id: 'f64.no_fold_sub_self',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1450,7 +1450,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'sub',
@@ -1529,7 +1529,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_div_3',
+          id: 'f32.no_fold_div_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1540,7 +1540,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -1564,7 +1564,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_div_3',
+          id: 'f64.no_fold_div_3',
           params: [{
             kind: 'param',
             name: 'x',
@@ -1575,7 +1575,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'div',
@@ -1774,7 +1774,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_distribute',
+          id: 'f32.no_distribute',
           params: [
             {
               kind: 'param',
@@ -1797,7 +1797,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'add',
@@ -1847,7 +1847,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_distribute',
+          id: 'f64.no_distribute',
           params: [
             {
               kind: 'param',
@@ -1870,7 +1870,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'add',
@@ -2215,7 +2215,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_reassociate_add',
+          id: 'f32.no_reassociate_add',
           params: [
             {
               kind: 'param',
@@ -2243,7 +2243,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'add',
@@ -2293,7 +2293,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_reassociate_add',
+          id: 'f64.no_reassociate_add',
           params: [
             {
               kind: 'param',
@@ -2321,7 +2321,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'add',
@@ -2716,7 +2716,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_reassociate_mul',
+          id: 'f32.no_reassociate_mul',
           params: [
             {
               kind: 'param',
@@ -2744,7 +2744,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'mul',
@@ -2794,7 +2794,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_reassociate_mul',
+          id: 'f64.no_reassociate_mul',
           params: [
             {
               kind: 'param',
@@ -2822,7 +2822,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'mul',
@@ -3217,7 +3217,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_div_0',
+          id: 'f32.no_fold_div_0',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3228,7 +3228,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -3252,7 +3252,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_div_0',
+          id: 'f64.no_fold_div_0',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3263,7 +3263,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'div',
@@ -3500,7 +3500,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_div_0',
+          id: 'f32.no_fold_div_0',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3511,7 +3511,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -3535,7 +3535,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_div_0',
+          id: 'f64.no_fold_div_0',
           params: [{
             kind: 'param',
             name: 'x',
@@ -3546,7 +3546,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f64',
             operator: 'div',
@@ -3783,7 +3783,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_fold_to_hypot',
+          id: 'f32.no_fold_to_hypot',
           params: [
             {
               kind: 'param',
@@ -3801,7 +3801,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'sqrt',
@@ -3856,7 +3856,7 @@
         },
         {
           kind: 'func',
-          name: 'f64.no_fold_to_hypot',
+          id: 'f64.no_fold_to_hypot',
           params: [
             {
               kind: 'param',
@@ -3874,7 +3874,7 @@
             type: 'f64'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f64',
             operator: 'sqrt',
@@ -4174,7 +4174,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_approximate_reciprocal',
+          id: 'f32.no_approximate_reciprocal',
           params: [
             {
               kind: 'param',
@@ -4192,7 +4192,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -4341,7 +4341,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_approximate_reciprocal_sqrt',
+          id: 'f32.no_approximate_reciprocal_sqrt',
           params: [
             {
               kind: 'param',
@@ -4359,7 +4359,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'binop',
             type: 'f32',
             operator: 'div',
@@ -4513,7 +4513,7 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.no_approximate_sqrt_reciprocal',
+          id: 'f32.no_approximate_sqrt_reciprocal',
           params: [
             {
               kind: 'param',
@@ -4531,7 +4531,7 @@
             type: 'f32'
           },
           local: [],
-          expr: [{
+          body: [{
             kind: 'unop',
             type: 'f32',
             operator: 'sqrt',

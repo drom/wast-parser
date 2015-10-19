@@ -16,22 +16,22 @@
         },
         {
           kind: 'func',
-          name: 'zero_everything',
+          id: 'zero_everything',
           params: [],
           result: null,
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -42,12 +42,12 @@
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '4'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -58,12 +58,12 @@
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '8'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -74,12 +74,12 @@
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '12'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -93,25 +93,25 @@
         },
         {
           kind: 'func',
-          name: 'test_store_to_load',
+          id: 'test_store_to_load',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '8'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -122,12 +122,12 @@
               type: 'f32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '5'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'f32',
                 init: '-0.0'
@@ -153,14 +153,14 @@
         },
         {
           kind: 'func',
-          name: 'test_redundant_load',
+          id: 'test_redundant_load',
           params: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [],
-          expr: [
+          body: [
             {
               kind: 'load',
               type: 'i32',
@@ -178,12 +178,12 @@
               type: 'f32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '5'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'f32',
                 init: '-0.0'
@@ -209,7 +209,7 @@
         },
         {
           kind: 'func',
-          name: 'test_dead_store',
+          id: 'test_dead_store',
           params: [],
           result: {
             kind: 'result',
@@ -220,18 +220,18 @@
             name: 't',
             body: 'f32'
           }],
-          expr: [
+          body: [
             {
               kind: 'store',
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '8'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0x23232323'
@@ -261,12 +261,12 @@
               type: 'i32',
               size: null,
               align: 0,
-              expr1: {
+              addr: {
                 kind: 'const',
                 type: 'i32',
                 init: '8'
               },
-              expr2: {
+              data: {
                 kind: 'const',
                 type: 'i32',
                 init: '0'

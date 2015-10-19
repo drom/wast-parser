@@ -242,14 +242,14 @@ expr
             };
         }
 
-        / type:type "." kind:"store" sufix:( "8" / "16" / "32")? align:( "/" align )? __ expr1:expr __ expr2:expr {
+        / type:type "." kind:"store" sufix:( "8" / "16" / "32")? align:( "/" align )? __ addr:expr __ data:expr {
             return {
                 kind: kind,
                 type: type,
                 size: sufix ? sufix[0] : null,
                 align: align ? align[1] : 0,
-                expr1: expr1,
-                expr2: expr2
+                addr: addr,
+                data: data
             };
         }
 
@@ -361,14 +361,14 @@ local
         };
     }
 
-func = kind:"func" name:( __ "$" name )? params:( __ param )* result:( __ result )? local:( __ local )* expr:( __ expr )* {
+func = kind:"func" name:( __ "$" name )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
-        name: name ? name[2] : name,
+        id: name ? name[2] : name,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: local.map(function (e) { return e[1]; }),
-        expr: expr.map(function (e) { return e[1]; })
+        body: body.map(function (e) { return e[1]; })
     };
 }
 
