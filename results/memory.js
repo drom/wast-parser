@@ -260,6 +260,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -291,6 +292,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -322,6 +324,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -353,6 +356,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -386,6 +390,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -424,6 +429,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -462,6 +468,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -500,6 +507,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -538,6 +546,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -585,6 +594,7 @@
         {
           kind: 'func',
           id: 'data',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -814,6 +824,7 @@
         {
           kind: 'func',
           id: 'aligned',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -974,6 +985,7 @@
         {
           kind: 'func',
           id: 'unaligned',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1130,6 +1142,7 @@
         {
           kind: 'func',
           id: 'cast',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1250,6 +1263,7 @@
         {
           kind: 'func',
           id: 'i32_load8_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1301,6 +1315,7 @@
         {
           kind: 'func',
           id: 'i32_load8_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1352,6 +1367,7 @@
         {
           kind: 'func',
           id: 'i32_load16_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1403,6 +1419,7 @@
         {
           kind: 'func',
           id: 'i32_load16_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1454,6 +1471,7 @@
         {
           kind: 'func',
           id: 'i64_load8_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1505,6 +1523,7 @@
         {
           kind: 'func',
           id: 'i64_load8_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1556,6 +1575,7 @@
         {
           kind: 'func',
           id: 'i64_load16_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1607,6 +1627,7 @@
         {
           kind: 'func',
           id: 'i64_load16_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1658,6 +1679,7 @@
         {
           kind: 'func',
           id: 'i64_load32_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -1709,6 +1731,7 @@
         {
           kind: 'func',
           id: 'i64_load32_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',

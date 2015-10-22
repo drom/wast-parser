@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'has_wasm',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -25,6 +26,7 @@
         {
           kind: 'func',
           id: 'has_simd128',
+          type: null,
           params: [],
           result: {
             kind: 'result',

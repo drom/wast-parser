@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -28,6 +29,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -53,6 +55,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -65,6 +68,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -92,6 +96,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -120,6 +125,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -132,6 +138,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -164,6 +171,7 @@
           {
             kind: 'func',
             id: null,
+            type: null,
             params: [],
             result: null,
             local: [],
@@ -194,6 +202,7 @@
         {
           kind: 'func',
           id: 'f',
+          type: null,
           params: [{
             kind: 'param',
             name: 'n',

@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [{
             kind: 'param',
             types: ['i64']
@@ -69,6 +70,7 @@
         {
           kind: 'func',
           id: 'fac-rec',
+          type: null,
           params: [{
             kind: 'param',
             name: 'n',
@@ -144,6 +146,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [{
             kind: 'param',
             types: ['i64']
@@ -258,6 +261,7 @@
         {
           kind: 'func',
           id: 'fac-iter',
+          type: null,
           params: [{
             kind: 'param',
             name: 'n',

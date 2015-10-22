@@ -13,26 +13,51 @@
         {
           kind: 'import',
           name1: 'stdio',
-          name2: 'print'
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i32']
+          }],
+          result: null
         },
         {
           kind: 'import',
           name1: 'stdio',
-          name2: 'print'
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i64']
+          }],
+          result: null
         },
         {
           kind: 'import',
           name1: 'stdio',
-          name2: 'print'
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['f32']
+          }],
+          result: null
         },
         {
           kind: 'import',
           name1: 'stdio',
-          name2: 'print'
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['f64']
+          }],
+          result: null
         },
         {
           kind: 'func',
           id: 'run',
+          type: null,
           params: [],
           result: null,
           local: [
@@ -370,6 +395,7 @@
         body: [{
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [
@@ -417,6 +443,7 @@
         body: [{
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [
@@ -464,6 +491,7 @@
         body: [{
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [
@@ -511,6 +539,7 @@
         body: [{
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [

@@ -17,11 +17,18 @@
         {
           kind: 'import',
           name1: 'stdio',
-          name2: 'print'
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i32']
+          }],
+          result: null
         },
         {
           kind: 'func',
           id: 'good',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -303,6 +310,7 @@
         {
           kind: 'func',
           id: 'bad1',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -333,6 +341,7 @@
         {
           kind: 'func',
           id: 'bad2',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',

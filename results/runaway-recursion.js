@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -23,6 +24,7 @@
         {
           kind: 'func',
           id: 'a',
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -38,6 +40,7 @@
         {
           kind: 'func',
           id: 'b',
+          type: null,
           params: [],
           result: null,
           local: [],

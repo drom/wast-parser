@@ -17,6 +17,7 @@
         {
           kind: 'func',
           id: 'store',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -69,6 +70,7 @@
         {
           kind: 'func',
           id: 'load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -108,6 +110,7 @@
         {
           kind: 'func',
           id: 'grow_memory',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -133,6 +136,7 @@
         {
           kind: 'func',
           id: 'overflow_memory_size',
+          type: null,
           params: [],
           result: null,
           local: [],

@@ -13,6 +13,7 @@
         {
           kind: 'func',
           id: 'i16_store_little',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -95,6 +96,7 @@
         {
           kind: 'func',
           id: 'i32_store_little',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -181,6 +183,7 @@
         {
           kind: 'func',
           id: 'i64_store_little',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -279,6 +282,7 @@
         {
           kind: 'func',
           id: 'i16_load_little',
+          type: null,
           params: [{
             kind: 'param',
             name: 'address',
@@ -348,6 +352,7 @@
         {
           kind: 'func',
           id: 'i32_load_little',
+          type: null,
           params: [{
             kind: 'param',
             name: 'address',
@@ -415,6 +420,7 @@
         {
           kind: 'func',
           id: 'i64_load_little',
+          type: null,
           params: [{
             kind: 'param',
             name: 'address',
@@ -494,6 +500,7 @@
         {
           kind: 'func',
           id: 'i32_load16_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -544,6 +551,7 @@
         {
           kind: 'func',
           id: 'i32_load16_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -594,6 +602,7 @@
         {
           kind: 'func',
           id: 'i32_load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -644,6 +653,7 @@
         {
           kind: 'func',
           id: 'i64_load16_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -700,6 +710,7 @@
         {
           kind: 'func',
           id: 'i64_load16_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -756,6 +767,7 @@
         {
           kind: 'func',
           id: 'i64_load32_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -812,6 +824,7 @@
         {
           kind: 'func',
           id: 'i64_load32_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -868,6 +881,7 @@
         {
           kind: 'func',
           id: 'i64_load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -918,6 +932,7 @@
         {
           kind: 'func',
           id: 'f32_load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -974,6 +989,7 @@
         {
           kind: 'func',
           id: 'f64_load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1030,6 +1046,7 @@
         {
           kind: 'func',
           id: 'i32_store16',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1077,6 +1094,7 @@
         {
           kind: 'func',
           id: 'i32_store',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1124,6 +1142,7 @@
         {
           kind: 'func',
           id: 'i64_store16',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1177,6 +1196,7 @@
         {
           kind: 'func',
           id: 'i64_store32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1230,6 +1250,7 @@
         {
           kind: 'func',
           id: 'i64_store',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1277,6 +1298,7 @@
         {
           kind: 'func',
           id: 'f32_store',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',
@@ -1330,6 +1352,7 @@
         {
           kind: 'func',
           id: 'f64_store',
+          type: null,
           params: [{
             kind: 'param',
             name: 'value',

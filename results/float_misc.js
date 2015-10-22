@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'f32.add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -47,6 +48,7 @@
         {
           kind: 'func',
           id: 'f32.sub',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -87,6 +89,7 @@
         {
           kind: 'func',
           id: 'f32.mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -127,6 +130,7 @@
         {
           kind: 'func',
           id: 'f32.div',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -167,6 +171,7 @@
         {
           kind: 'func',
           id: 'f32.sqrt',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -193,6 +198,7 @@
         {
           kind: 'func',
           id: 'f32.abs',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -219,6 +225,7 @@
         {
           kind: 'func',
           id: 'f32.neg',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -245,6 +252,7 @@
         {
           kind: 'func',
           id: 'f32.copysign',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -285,6 +293,7 @@
         {
           kind: 'func',
           id: 'f32.ceil',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -311,6 +320,7 @@
         {
           kind: 'func',
           id: 'f32.floor',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -337,6 +347,7 @@
         {
           kind: 'func',
           id: 'f32.trunc',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -363,6 +374,7 @@
         {
           kind: 'func',
           id: 'f32.nearest',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -389,6 +401,7 @@
         {
           kind: 'func',
           id: 'f64.add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -429,6 +442,7 @@
         {
           kind: 'func',
           id: 'f64.sub',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -469,6 +483,7 @@
         {
           kind: 'func',
           id: 'f64.mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -509,6 +524,7 @@
         {
           kind: 'func',
           id: 'f64.div',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -549,6 +565,7 @@
         {
           kind: 'func',
           id: 'f64.sqrt',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -575,6 +592,7 @@
         {
           kind: 'func',
           id: 'f64.abs',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -601,6 +619,7 @@
         {
           kind: 'func',
           id: 'f64.neg',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -627,6 +646,7 @@
         {
           kind: 'func',
           id: 'f64.copysign',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -667,6 +687,7 @@
         {
           kind: 'func',
           id: 'f64.ceil',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -693,6 +714,7 @@
         {
           kind: 'func',
           id: 'f64.floor',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -719,6 +741,7 @@
         {
           kind: 'func',
           id: 'f64.trunc',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -745,6 +768,7 @@
         {
           kind: 'func',
           id: 'f64.nearest',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',

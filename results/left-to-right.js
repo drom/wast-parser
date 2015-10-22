@@ -13,6 +13,7 @@
         {
           kind: 'func',
           id: 'reset',
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -37,6 +38,7 @@
         {
           kind: 'func',
           id: 'get',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -60,6 +62,7 @@
         {
           kind: 'func',
           id: 'i32_left',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -94,6 +97,7 @@
         {
           kind: 'func',
           id: 'i32_right',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -128,6 +132,7 @@
         {
           kind: 'func',
           id: 'i64_left',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -162,6 +167,7 @@
         {
           kind: 'func',
           id: 'i64_right',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -196,6 +202,7 @@
         {
           kind: 'func',
           id: 'f32_left',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -230,6 +237,7 @@
         {
           kind: 'func',
           id: 'f32_right',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -264,6 +272,7 @@
         {
           kind: 'func',
           id: 'f64_left',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -298,6 +307,7 @@
         {
           kind: 'func',
           id: 'f64_right',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -332,6 +342,7 @@
         {
           kind: 'func',
           id: 'i32_dummy',
+          type: null,
           params: [{
             kind: 'param',
             types: [
@@ -346,6 +357,7 @@
         {
           kind: 'func',
           id: 'i64_dummy',
+          type: null,
           params: [{
             kind: 'param',
             types: [
@@ -360,6 +372,7 @@
         {
           kind: 'func',
           id: 'f32_dummy',
+          type: null,
           params: [{
             kind: 'param',
             types: [
@@ -374,6 +387,7 @@
         {
           kind: 'func',
           id: 'f64_dummy',
+          type: null,
           params: [{
             kind: 'param',
             types: [
@@ -388,6 +402,7 @@
         {
           kind: 'func',
           id: 'i32_add',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -437,6 +452,7 @@
         {
           kind: 'func',
           id: 'i32_sub',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -486,6 +502,7 @@
         {
           kind: 'func',
           id: 'i32_mul',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -535,6 +552,7 @@
         {
           kind: 'func',
           id: 'i32_div_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -584,6 +602,7 @@
         {
           kind: 'func',
           id: 'i32_div_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -633,6 +652,7 @@
         {
           kind: 'func',
           id: 'i32_rem_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -682,6 +702,7 @@
         {
           kind: 'func',
           id: 'i32_rem_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -731,6 +752,7 @@
         {
           kind: 'func',
           id: 'i32_and',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -780,6 +802,7 @@
         {
           kind: 'func',
           id: 'i32_or',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -829,6 +852,7 @@
         {
           kind: 'func',
           id: 'i32_xor',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -878,6 +902,7 @@
         {
           kind: 'func',
           id: 'i32_shl',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -927,6 +952,7 @@
         {
           kind: 'func',
           id: 'i32_shr_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -976,6 +1002,7 @@
         {
           kind: 'func',
           id: 'i32_shr_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1025,6 +1052,7 @@
         {
           kind: 'func',
           id: 'i32_eq',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1074,6 +1102,7 @@
         {
           kind: 'func',
           id: 'i32_ne',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1123,6 +1152,7 @@
         {
           kind: 'func',
           id: 'i32_lt_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1172,6 +1202,7 @@
         {
           kind: 'func',
           id: 'i32_le_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1221,6 +1252,7 @@
         {
           kind: 'func',
           id: 'i32_lt_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1270,6 +1302,7 @@
         {
           kind: 'func',
           id: 'i32_le_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1319,6 +1352,7 @@
         {
           kind: 'func',
           id: 'i32_gt_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1368,6 +1402,7 @@
         {
           kind: 'func',
           id: 'i32_ge_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1417,6 +1452,7 @@
         {
           kind: 'func',
           id: 'i32_gt_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1466,6 +1502,7 @@
         {
           kind: 'func',
           id: 'i32_ge_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1515,6 +1552,7 @@
         {
           kind: 'func',
           id: 'i32_store',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1566,6 +1604,7 @@
         {
           kind: 'func',
           id: 'i32_store8',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1617,6 +1656,7 @@
         {
           kind: 'func',
           id: 'i32_store16',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1668,6 +1708,7 @@
         {
           kind: 'func',
           id: 'i32_call',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1721,6 +1762,7 @@
         {
           kind: 'func',
           id: 'i64_add',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1770,6 +1812,7 @@
         {
           kind: 'func',
           id: 'i64_sub',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1819,6 +1862,7 @@
         {
           kind: 'func',
           id: 'i64_mul',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1868,6 +1912,7 @@
         {
           kind: 'func',
           id: 'i64_div_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1917,6 +1962,7 @@
         {
           kind: 'func',
           id: 'i64_div_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -1966,6 +2012,7 @@
         {
           kind: 'func',
           id: 'i64_rem_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2015,6 +2062,7 @@
         {
           kind: 'func',
           id: 'i64_rem_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2064,6 +2112,7 @@
         {
           kind: 'func',
           id: 'i64_and',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2113,6 +2162,7 @@
         {
           kind: 'func',
           id: 'i64_or',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2162,6 +2212,7 @@
         {
           kind: 'func',
           id: 'i64_xor',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2211,6 +2262,7 @@
         {
           kind: 'func',
           id: 'i64_shl',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2260,6 +2312,7 @@
         {
           kind: 'func',
           id: 'i64_shr_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2309,6 +2362,7 @@
         {
           kind: 'func',
           id: 'i64_shr_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2358,6 +2412,7 @@
         {
           kind: 'func',
           id: 'i64_eq',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2407,6 +2462,7 @@
         {
           kind: 'func',
           id: 'i64_ne',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2456,6 +2512,7 @@
         {
           kind: 'func',
           id: 'i64_lt_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2505,6 +2562,7 @@
         {
           kind: 'func',
           id: 'i64_le_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2554,6 +2612,7 @@
         {
           kind: 'func',
           id: 'i64_lt_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2603,6 +2662,7 @@
         {
           kind: 'func',
           id: 'i64_le_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2652,6 +2712,7 @@
         {
           kind: 'func',
           id: 'i64_gt_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2701,6 +2762,7 @@
         {
           kind: 'func',
           id: 'i64_ge_s',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2750,6 +2812,7 @@
         {
           kind: 'func',
           id: 'i64_gt_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2799,6 +2862,7 @@
         {
           kind: 'func',
           id: 'i64_ge_u',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2848,6 +2912,7 @@
         {
           kind: 'func',
           id: 'i64_store',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2899,6 +2964,7 @@
         {
           kind: 'func',
           id: 'i64_store8',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -2950,6 +3016,7 @@
         {
           kind: 'func',
           id: 'i64_store16',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3001,6 +3068,7 @@
         {
           kind: 'func',
           id: 'i64_store32',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3052,6 +3120,7 @@
         {
           kind: 'func',
           id: 'i64_call',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3105,6 +3174,7 @@
         {
           kind: 'func',
           id: 'f32_add',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3154,6 +3224,7 @@
         {
           kind: 'func',
           id: 'f32_sub',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3203,6 +3274,7 @@
         {
           kind: 'func',
           id: 'f32_mul',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3252,6 +3324,7 @@
         {
           kind: 'func',
           id: 'f32_div',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3301,6 +3374,7 @@
         {
           kind: 'func',
           id: 'f32_copysign',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3350,6 +3424,7 @@
         {
           kind: 'func',
           id: 'f32_eq',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3399,6 +3474,7 @@
         {
           kind: 'func',
           id: 'f32_ne',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3448,6 +3524,7 @@
         {
           kind: 'func',
           id: 'f32_lt',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3497,6 +3574,7 @@
         {
           kind: 'func',
           id: 'f32_le',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3546,6 +3624,7 @@
         {
           kind: 'func',
           id: 'f32_gt',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3595,6 +3674,7 @@
         {
           kind: 'func',
           id: 'f32_ge',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3644,6 +3724,7 @@
         {
           kind: 'func',
           id: 'f32_min',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3693,6 +3774,7 @@
         {
           kind: 'func',
           id: 'f32_max',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3742,6 +3824,7 @@
         {
           kind: 'func',
           id: 'f32_store',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3793,6 +3876,7 @@
         {
           kind: 'func',
           id: 'f32_call',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3846,6 +3930,7 @@
         {
           kind: 'func',
           id: 'f64_add',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3895,6 +3980,7 @@
         {
           kind: 'func',
           id: 'f64_sub',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3944,6 +4030,7 @@
         {
           kind: 'func',
           id: 'f64_mul',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -3993,6 +4080,7 @@
         {
           kind: 'func',
           id: 'f64_div',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4042,6 +4130,7 @@
         {
           kind: 'func',
           id: 'f64_copysign',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4091,6 +4180,7 @@
         {
           kind: 'func',
           id: 'f64_eq',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4140,6 +4230,7 @@
         {
           kind: 'func',
           id: 'f64_ne',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4189,6 +4280,7 @@
         {
           kind: 'func',
           id: 'f64_lt',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4238,6 +4330,7 @@
         {
           kind: 'func',
           id: 'f64_le',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4287,6 +4380,7 @@
         {
           kind: 'func',
           id: 'f64_gt',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4336,6 +4430,7 @@
         {
           kind: 'func',
           id: 'f64_ge',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4385,6 +4480,7 @@
         {
           kind: 'func',
           id: 'f64_min',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4434,6 +4530,7 @@
         {
           kind: 'func',
           id: 'f64_max',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4483,6 +4580,7 @@
         {
           kind: 'func',
           id: 'f64_store',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -4534,6 +4632,7 @@
         {
           kind: 'func',
           id: 'f64_call',
+          type: null,
           params: [],
           result: {
             kind: 'result',

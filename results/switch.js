@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'stmt',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -185,6 +186,7 @@
         {
           kind: 'func',
           id: 'expr',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',

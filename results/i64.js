@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -47,6 +48,7 @@
         {
           kind: 'func',
           id: 'sub',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -87,6 +89,7 @@
         {
           kind: 'func',
           id: 'mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -127,6 +130,7 @@
         {
           kind: 'func',
           id: 'div_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -167,6 +171,7 @@
         {
           kind: 'func',
           id: 'div_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -207,6 +212,7 @@
         {
           kind: 'func',
           id: 'rem_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -247,6 +253,7 @@
         {
           kind: 'func',
           id: 'rem_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -287,6 +294,7 @@
         {
           kind: 'func',
           id: 'and',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -327,6 +335,7 @@
         {
           kind: 'func',
           id: 'or',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -367,6 +376,7 @@
         {
           kind: 'func',
           id: 'xor',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -407,6 +417,7 @@
         {
           kind: 'func',
           id: 'shl',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -447,6 +458,7 @@
         {
           kind: 'func',
           id: 'shr_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -487,6 +499,7 @@
         {
           kind: 'func',
           id: 'shr_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -527,6 +540,7 @@
         {
           kind: 'func',
           id: 'clz',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -553,6 +567,7 @@
         {
           kind: 'func',
           id: 'ctz',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -579,6 +594,7 @@
         {
           kind: 'func',
           id: 'popcnt',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -605,6 +621,7 @@
         {
           kind: 'func',
           id: 'eq',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -645,6 +662,7 @@
         {
           kind: 'func',
           id: 'ne',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -685,6 +703,7 @@
         {
           kind: 'func',
           id: 'lt_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -725,6 +744,7 @@
         {
           kind: 'func',
           id: 'lt_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -765,6 +785,7 @@
         {
           kind: 'func',
           id: 'le_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -805,6 +826,7 @@
         {
           kind: 'func',
           id: 'le_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -845,6 +867,7 @@
         {
           kind: 'func',
           id: 'gt_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -885,6 +908,7 @@
         {
           kind: 'func',
           id: 'gt_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -925,6 +949,7 @@
         {
           kind: 'func',
           id: 'ge_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -965,6 +990,7 @@
         {
           kind: 'func',
           id: 'ge_u',
+          type: null,
           params: [
             {
               kind: 'param',

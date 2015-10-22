@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'return-none',
+          type: null,
           params: [],
           result: null,
           local: [],

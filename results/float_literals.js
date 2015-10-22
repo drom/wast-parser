@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'f32.nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -28,6 +29,7 @@
         {
           kind: 'func',
           id: 'f32.positive_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -49,6 +51,7 @@
         {
           kind: 'func',
           id: 'f32.negative_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -70,6 +73,7 @@
         {
           kind: 'func',
           id: 'f32.plain_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -91,6 +95,7 @@
         {
           kind: 'func',
           id: 'f32.informally_known_as_plain_snan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -112,6 +117,7 @@
         {
           kind: 'func',
           id: 'f32.allones_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -133,6 +139,7 @@
         {
           kind: 'func',
           id: 'f32.misc_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -154,6 +161,7 @@
         {
           kind: 'func',
           id: 'f32.misc_positive_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -175,6 +183,7 @@
         {
           kind: 'func',
           id: 'f32.misc_negative_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -196,6 +205,7 @@
         {
           kind: 'func',
           id: 'f32.infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -217,6 +227,7 @@
         {
           kind: 'func',
           id: 'f32.positive_infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -238,6 +249,7 @@
         {
           kind: 'func',
           id: 'f32.negative_infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -259,6 +271,7 @@
         {
           kind: 'func',
           id: 'f32.zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -280,6 +293,7 @@
         {
           kind: 'func',
           id: 'f32.positive_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -301,6 +315,7 @@
         {
           kind: 'func',
           id: 'f32.negative_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -322,6 +337,7 @@
         {
           kind: 'func',
           id: 'f32.decimal',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -343,6 +359,7 @@
         {
           kind: 'func',
           id: 'f32.hexadecimal',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -364,6 +381,7 @@
         {
           kind: 'func',
           id: 'f32.min_positive',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -385,6 +403,7 @@
         {
           kind: 'func',
           id: 'f32.max_finite',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -406,6 +425,7 @@
         {
           kind: 'func',
           id: 'f32.trailing_dot',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -427,6 +447,7 @@
         {
           kind: 'func',
           id: 'f32.max_subnormal',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -448,6 +469,7 @@
         {
           kind: 'func',
           id: 'f64.nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -469,6 +491,7 @@
         {
           kind: 'func',
           id: 'f64.positive_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -490,6 +513,7 @@
         {
           kind: 'func',
           id: 'f64.negative_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -511,6 +535,7 @@
         {
           kind: 'func',
           id: 'f64.plain_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -532,6 +557,7 @@
         {
           kind: 'func',
           id: 'f64.informally_known_as_plain_snan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -553,6 +579,7 @@
         {
           kind: 'func',
           id: 'f64.allones_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -574,6 +601,7 @@
         {
           kind: 'func',
           id: 'f64.misc_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -595,6 +623,7 @@
         {
           kind: 'func',
           id: 'f64.misc_positive_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -616,6 +645,7 @@
         {
           kind: 'func',
           id: 'f64.misc_negative_nan',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -637,6 +667,7 @@
         {
           kind: 'func',
           id: 'f64.infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -658,6 +689,7 @@
         {
           kind: 'func',
           id: 'f64.positive_infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -679,6 +711,7 @@
         {
           kind: 'func',
           id: 'f64.negative_infinity',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -700,6 +733,7 @@
         {
           kind: 'func',
           id: 'f64.zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -721,6 +755,7 @@
         {
           kind: 'func',
           id: 'f64.positive_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -742,6 +777,7 @@
         {
           kind: 'func',
           id: 'f64.negative_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -763,6 +799,7 @@
         {
           kind: 'func',
           id: 'f64.decimal',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -784,6 +821,7 @@
         {
           kind: 'func',
           id: 'f64.hexadecimal',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -805,6 +843,7 @@
         {
           kind: 'func',
           id: 'f64.min_positive',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -826,6 +865,7 @@
         {
           kind: 'func',
           id: 'f64.max_finite',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -847,6 +887,7 @@
         {
           kind: 'func',
           id: 'f64.trailing_dot',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -868,6 +909,7 @@
         {
           kind: 'func',
           id: 'f64.max_subnormal',
+          type: null,
           params: [],
           result: {
             kind: 'result',

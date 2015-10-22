@@ -17,6 +17,7 @@
         {
           kind: 'func',
           id: 'zero_everything',
+          type: null,
           params: [],
           result: null,
           local: [],
@@ -98,6 +99,7 @@
         {
           kind: 'func',
           id: 'test_store_to_load',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -161,6 +163,7 @@
         {
           kind: 'func',
           id: 'test_redundant_load',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -220,6 +223,7 @@
         {
           kind: 'func',
           id: 'test_dead_store',
+          type: null,
           params: [],
           result: {
             kind: 'result',

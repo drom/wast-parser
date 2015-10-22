@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_cmp_s_offset',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -71,6 +72,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_cmp_u_offset',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -135,6 +137,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_cmp_s_offset',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -199,6 +202,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_cmp_u_offset',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -364,6 +368,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_wrap_extend_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -440,6 +445,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_wrap_extend_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -499,6 +505,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_shl_shr_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -544,6 +551,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_shl_shr_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -589,6 +597,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_shl_shr_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -634,6 +643,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_shl_shr_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -752,6 +762,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_shr_s_shl',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -797,6 +808,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_shr_u_shl',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -842,6 +854,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_shr_s_shl',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -887,6 +900,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_shr_u_shl',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1005,6 +1019,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_div_s_mul',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1050,6 +1065,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_div_u_mul',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1095,6 +1111,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_div_s_mul',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1140,6 +1157,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_div_u_mul',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1258,6 +1276,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_mul_div_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1303,6 +1322,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_mul_div_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1348,6 +1368,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_mul_div_s',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1393,6 +1414,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_mul_div_u',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1511,6 +1533,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_div_s_2',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1546,6 +1569,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_div_s_2',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1620,6 +1644,7 @@
         {
           kind: 'func',
           id: 'i32.no_fold_rem_s_2',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1655,6 +1680,7 @@
         {
           kind: 'func',
           id: 'i64.no_fold_rem_s_2',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1729,6 +1755,7 @@
         {
           kind: 'func',
           id: 'i32.div_s_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1764,6 +1791,7 @@
         {
           kind: 'func',
           id: 'i32.div_u_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1799,6 +1827,7 @@
         {
           kind: 'func',
           id: 'i64.div_s_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1834,6 +1863,7 @@
         {
           kind: 'func',
           id: 'i64.div_u_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2010,6 +2040,7 @@
         {
           kind: 'func',
           id: 'i32.div_s_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2045,6 +2076,7 @@
         {
           kind: 'func',
           id: 'i32.div_u_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2080,6 +2112,7 @@
         {
           kind: 'func',
           id: 'i64.div_s_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2115,6 +2148,7 @@
         {
           kind: 'func',
           id: 'i64.div_u_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2291,6 +2325,7 @@
         {
           kind: 'func',
           id: 'i32.div_s_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2326,6 +2361,7 @@
         {
           kind: 'func',
           id: 'i32.div_u_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2361,6 +2397,7 @@
         {
           kind: 'func',
           id: 'i64.div_s_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2396,6 +2433,7 @@
         {
           kind: 'func',
           id: 'i64.div_u_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2572,6 +2610,7 @@
         {
           kind: 'func',
           id: 'i32.rem_s_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2607,6 +2646,7 @@
         {
           kind: 'func',
           id: 'i32.rem_u_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2642,6 +2682,7 @@
         {
           kind: 'func',
           id: 'i64.rem_s_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2677,6 +2718,7 @@
         {
           kind: 'func',
           id: 'i64.rem_u_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2853,6 +2895,7 @@
         {
           kind: 'func',
           id: 'i32.rem_s_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2888,6 +2931,7 @@
         {
           kind: 'func',
           id: 'i32.rem_u_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2923,6 +2967,7 @@
         {
           kind: 'func',
           id: 'i64.rem_s_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -2958,6 +3003,7 @@
         {
           kind: 'func',
           id: 'i64.rem_u_5',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3134,6 +3180,7 @@
         {
           kind: 'func',
           id: 'i32.rem_s_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3169,6 +3216,7 @@
         {
           kind: 'func',
           id: 'i32.rem_u_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3204,6 +3252,7 @@
         {
           kind: 'func',
           id: 'i64.rem_s_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3239,6 +3288,7 @@
         {
           kind: 'func',
           id: 'i64.rem_u_7',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',

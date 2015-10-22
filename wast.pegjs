@@ -28,7 +28,7 @@ __ = ( white_space / LineTerminatorSequence / comment )*
 
 name = name:[a-zA-Z0-9\-\_\.]+ { return name.join(''); }
 
-type = "i32" / "i64" / "f32" / "f64"
+local_type = "i32" / "i64" / "f32" / "f64"
 
 int = node:( "0x" [0-9A-Fa-f]+ / "-"? [0-9]+ ) { return (node[0] || '') + node[1].join(''); }
 
@@ -96,7 +96,7 @@ case
 
 expr
     = "(" __
-        body:( type:type "." kind:"const" __ init:value {
+        body:( type:local_type "." kind:"const" __ init:value {
             return {
                 kind: kind,
                 type: type,
@@ -180,7 +180,7 @@ expr
             };
         }
 
-        / type:type "." kind:"switch" __ before:expr body:( __ case )* __ after:expr {
+        / type:local_type "." kind:"switch" __ before:expr body:( __ case )* __ after:expr {
             return {
                 kind: kind,
                 type: type,
@@ -191,7 +191,7 @@ expr
         }
 
         // = (label <var> (<type>.switch <expr> <case>* <expr>))
-        / type:type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
+        / type:local_type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
             return {
                 kind: kind,
                 id: id,
@@ -240,7 +240,7 @@ expr
             };
         }
 
-        / type:type "." kind:"load" sufix:( ( "8" / "16" / "32") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
+        / type:local_type "." kind:"load" sufix:( ( "8" / "16" / "32") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
             return {
                 kind: kind,
                 type: type,
@@ -252,7 +252,7 @@ expr
             };
         }
 
-        / type:type "." kind:"store" sufix:( "8" / "16" / "32")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
+        / type:local_type "." kind:"store" sufix:( "8" / "16" / "32")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
             return {
                 kind: kind,
                 type: type,
@@ -264,7 +264,7 @@ expr
             };
         }
 
-        / type:type "." operator:binop __ left:expr __ right:expr {
+        / type:local_type "." operator:binop __ left:expr __ right:expr {
             return {
                 kind: 'binop',
                 type: type,
@@ -274,7 +274,7 @@ expr
             };
         }
 
-        / type:type "." operator:relop __ left:expr __ right:expr {
+        / type:local_type "." operator:relop __ left:expr __ right:expr {
             return {
                 kind: 'relop',
                 type: type,
@@ -284,7 +284,7 @@ expr
             };
         }
 
-        / type:type "." operator:cvtop "/" type1:type __ expr:expr {
+        / type:local_type "." operator:cvtop "/" type1:local_type __ expr:expr {
             return {
                 kind: 'cvtop',
                 type: type,
@@ -294,7 +294,7 @@ expr
             };
         }
 
-        / type:type "." operator:unop __ expr:expr {
+        / type:local_type "." operator:unop __ expr:expr {
             return {
                 kind: 'unop',
                 type: type,
@@ -328,13 +328,13 @@ failure = ["] value:( !["] . )* ["] {
 }
 
 param
-    = "(" __ kind:"param" types:( __ type )* __ ")" {
+    = "(" __ kind:"param" types:( __ local_type )* __ ")" {
         return {
             kind: kind,
             types: types.map(function (e) { return e[1]; })
         };
     }
-    / "(" __ kind:"param" __ "$" name:name __ type:type __ ")" {
+    / "(" __ kind:"param" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
             name: name,
@@ -342,7 +342,7 @@ param
         };
     }
 
-result = "(" __ kind:"result" __ type:type __ ")" {
+result = "(" __ kind:"result" __ type:local_type __ ")" {
     return {
         kind: kind,
         type: type
@@ -358,13 +358,13 @@ segment = "(" __ kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ 
 }
 
 local
-    = "(" __ kind:"local" body:( __ type )* __ ")" {
+    = "(" __ kind:"local" body:( __ local_type )* __ ")" {
         return {
             kind: kind,
             body: body.map(function (e) { return e[1]; })
         };
     }
-    / "(" __ kind:"local" __ "$" name:name __ body:type __ ")" {
+    / "(" __ kind:"local" __ "$" name:name __ body:local_type __ ")" {
         return {
             kind: kind,
             name: name,
@@ -372,10 +372,13 @@ local
         };
     }
 
-func = kind:"func" name:( __ "$" name )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func_type = "(" __ "type" __ ( int / "$" name ) __ ")"
+
+func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
         id: name ? name[2] : name,
+        type: type ? type[1] : type,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: local.map(function (e) { return e[1]; }),
@@ -383,18 +386,34 @@ func = kind:"func" name:( __ "$" name )? params:( __ param )* result:( __ result
     };
 }
 
-global = kind:"global" body:( ( __ type )* / __ name __ type ) {
+param_def = "(" __ "param" ( __ local_type )? __ ")"
+
+result_def = "(" __ "result" __ local_type __ ")"
+
+func_def = "(" __ "func" ( __ param_def )* ( __ result_def )? __ ")"
+
+type_def = kind:"type" name:( __ "$" name )? __ func_def {
+    return {
+        kind: kind,
+        id: name ? name[2] : name
+    };
+}
+
+global = kind:"global" body:( ( __ local_type )* / __ name __ local_type ) {
     return {
         kind: kind,
         body: body
     };
 }
 
-import = kind:"import" ( __ "$" name )? __ ["] name1:name ["] __ ["] name2:name ["] ( __ param )* ( __ result )* {
+import = kind:"import" ( __ "$" name )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
     return {
         kind: kind,
         name1: name1,
-        name2: name2
+        name2: name2,
+        type: type ? type[1] : type,
+        params: params.map(function (e) { return e[1]; }),
+        result: result ? result[1] : result
     };
 }
 
@@ -405,7 +424,7 @@ export = kind:"export" __ ["] name:name ["] __ var {
     };
 }
 
-table = kind:"table" __ var
+table = kind:"table" ( __ var )*
 
 memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
     return {
@@ -424,7 +443,7 @@ invoke = "(" __ kind:"invoke" __ ["] name:name ["] body:( __ expr )* __ ")" {
     };
 }
 
-module = kind:"module" body:( __ "(" __ ( func / global / import / export / table / memory ) __ ")" )* {
+module = kind:"module" body:( __ "(" __ ( func / global / import / export / table / memory / type_def ) __ ")" )* {
     var result = [];
     return {
         kind: kind,

@@ -13,6 +13,7 @@
         {
           kind: 'func',
           id: 'store_i32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -46,6 +47,7 @@
         {
           kind: 'func',
           id: 'load_i32',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -69,6 +71,7 @@
         {
           kind: 'func',
           id: 'store_f32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -102,6 +105,7 @@
         {
           kind: 'func',
           id: 'load_f32',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -272,6 +276,7 @@
         {
           kind: 'func',
           id: 'store_i64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -305,6 +310,7 @@
         {
           kind: 'func',
           id: 'load_i64',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -328,6 +334,7 @@
         {
           kind: 'func',
           id: 'store_f64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -361,6 +368,7 @@
         {
           kind: 'func',
           id: 'load_f64',
+          type: null,
           params: [],
           result: {
             kind: 'result',

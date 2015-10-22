@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.div_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -44,6 +45,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.div_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -81,6 +83,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.div_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -118,6 +121,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.div_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -268,6 +272,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.rem_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -305,6 +310,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.rem_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -342,6 +348,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.rem_s',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -379,6 +386,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.rem_u',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -529,6 +537,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.trunc_s_f32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -553,6 +562,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.trunc_u_f32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -577,6 +587,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.trunc_s_f64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -601,6 +612,7 @@
         {
           kind: 'func',
           id: 'no_dce.i32.trunc_u_f64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -625,6 +637,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.trunc_s_f32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -649,6 +662,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.trunc_u_f32',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -673,6 +687,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.trunc_s_f64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -697,6 +712,7 @@
         {
           kind: 'func',
           id: 'no_dce.i64.trunc_u_f64',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -896,6 +912,7 @@
         {
           kind: 'func',
           id: 'i32.load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -926,6 +943,7 @@
         {
           kind: 'func',
           id: 'i64.load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -956,6 +974,7 @@
         {
           kind: 'func',
           id: 'f32.load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',
@@ -986,6 +1005,7 @@
         {
           kind: 'func',
           id: 'f64.load',
+          type: null,
           params: [{
             kind: 'param',
             name: 'i',

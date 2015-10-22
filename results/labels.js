@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'block',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -43,6 +44,7 @@
         {
           kind: 'func',
           id: 'loop1',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -140,6 +142,7 @@
         {
           kind: 'func',
           id: 'loop2',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -297,6 +300,7 @@
         {
           kind: 'func',
           id: 'switch',
+          type: null,
           params: [{
             kind: 'param',
             types: ['i32']
@@ -390,6 +394,7 @@
         {
           kind: 'func',
           id: 'return',
+          type: null,
           params: [{
             kind: 'param',
             types: ['i32']

@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -47,6 +48,7 @@
         {
           kind: 'func',
           id: 'sub',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -87,6 +89,7 @@
         {
           kind: 'func',
           id: 'mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -127,6 +130,7 @@
         {
           kind: 'func',
           id: 'div',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -167,6 +171,7 @@
         {
           kind: 'func',
           id: 'sqrt',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -193,6 +198,7 @@
         {
           kind: 'func',
           id: 'min',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -233,6 +239,7 @@
         {
           kind: 'func',
           id: 'max',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -273,6 +280,7 @@
         {
           kind: 'func',
           id: 'ceil',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -299,6 +307,7 @@
         {
           kind: 'func',
           id: 'floor',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -325,6 +334,7 @@
         {
           kind: 'func',
           id: 'trunc',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -351,6 +361,7 @@
         {
           kind: 'func',
           id: 'nearest',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -377,6 +388,7 @@
         {
           kind: 'func',
           id: 'abs',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -403,6 +415,7 @@
         {
           kind: 'func',
           id: 'neg',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -429,6 +442,7 @@
         {
           kind: 'func',
           id: 'copysign',
+          type: null,
           params: [
             {
               kind: 'param',

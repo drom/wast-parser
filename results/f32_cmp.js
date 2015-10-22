@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'eq',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -47,6 +48,7 @@
         {
           kind: 'func',
           id: 'ne',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -87,6 +89,7 @@
         {
           kind: 'func',
           id: 'lt',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -127,6 +130,7 @@
         {
           kind: 'func',
           id: 'le',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -167,6 +171,7 @@
         {
           kind: 'func',
           id: 'gt',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -207,6 +212,7 @@
         {
           kind: 'func',
           id: 'ge',
+          type: null,
           params: [
             {
               kind: 'param',

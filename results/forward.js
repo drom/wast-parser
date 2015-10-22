@@ -15,6 +15,7 @@
         {
           kind: 'func',
           id: 'even',
+          type: null,
           params: [{
             kind: 'param',
             name: 'n',
@@ -78,6 +79,7 @@
         {
           kind: 'func',
           id: 'odd',
+          type: null,
           params: [{
             kind: 'param',
             name: 'n',

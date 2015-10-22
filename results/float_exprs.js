@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: 'f64.no_contraction',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -218,6 +219,7 @@
         {
           kind: 'func',
           id: 'f32.no_fma',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -279,6 +281,7 @@
         {
           kind: 'func',
           id: 'f64.no_fma',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -635,6 +638,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_add_zero',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -670,6 +674,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_add_zero',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -744,6 +749,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_zero_sub',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -779,6 +785,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_zero_sub',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -853,6 +860,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_mul_zero',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -888,6 +896,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_mul_zero',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1030,6 +1039,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_zero_div',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1065,6 +1075,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_zero_div',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1177,6 +1188,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_eq_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1214,6 +1226,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_eq_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1290,6 +1303,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_ne_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1327,6 +1341,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_ne_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1403,6 +1418,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_sub_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1440,6 +1456,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_sub_self',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1530,6 +1547,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_div_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1565,6 +1583,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_div_3',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -1775,6 +1794,7 @@
         {
           kind: 'func',
           id: 'f32.no_distribute',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -1848,6 +1868,7 @@
         {
           kind: 'func',
           id: 'f64.no_distribute',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -2216,6 +2237,7 @@
         {
           kind: 'func',
           id: 'f32.no_reassociate_add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -2294,6 +2316,7 @@
         {
           kind: 'func',
           id: 'f64.no_reassociate_add',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -2717,6 +2740,7 @@
         {
           kind: 'func',
           id: 'f32.no_reassociate_mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -2795,6 +2819,7 @@
         {
           kind: 'func',
           id: 'f64.no_reassociate_mul',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -3218,6 +3243,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_div_0',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3253,6 +3279,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_div_0',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3501,6 +3528,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_div_0',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3536,6 +3564,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_div_0',
+          type: null,
           params: [{
             kind: 'param',
             name: 'x',
@@ -3784,6 +3813,7 @@
         {
           kind: 'func',
           id: 'f32.no_fold_to_hypot',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -3857,6 +3887,7 @@
         {
           kind: 'func',
           id: 'f64.no_fold_to_hypot',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -4175,6 +4206,7 @@
         {
           kind: 'func',
           id: 'f32.no_approximate_reciprocal',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -4342,6 +4374,7 @@
         {
           kind: 'func',
           id: 'f32.no_approximate_reciprocal_sqrt',
+          type: null,
           params: [
             {
               kind: 'param',
@@ -4514,6 +4547,7 @@
         {
           kind: 'func',
           id: 'f32.no_approximate_sqrt_reciprocal',
+          type: null,
           params: [
             {
               kind: 'param',

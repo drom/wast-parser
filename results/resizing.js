@@ -17,6 +17,7 @@
         {
           kind: 'func',
           id: 'round_up_to_page',
+          type: null,
           params: [{
             kind: 'param',
             types: ['i32']
@@ -70,6 +71,7 @@
         {
           kind: 'func',
           id: 'load_at_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -97,6 +99,7 @@
         {
           kind: 'func',
           id: 'store_at_zero',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -128,6 +131,7 @@
         {
           kind: 'func',
           id: 'load_at_page_size',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -151,6 +155,7 @@
         {
           kind: 'func',
           id: 'store_at_page_size',
+          type: null,
           params: [],
           result: {
             kind: 'result',
@@ -178,6 +183,7 @@
         {
           kind: 'func',
           id: 'grow',
+          type: null,
           params: [{
             kind: 'param',
             name: 'sz',
@@ -210,6 +216,7 @@
         {
           kind: 'func',
           id: 'size_at_least',
+          type: null,
           params: [{
             kind: 'param',
             types: ['i32']
@@ -237,6 +244,7 @@
         {
           kind: 'func',
           id: 'size',
+          type: null,
           params: [],
           result: {
             kind: 'result',
