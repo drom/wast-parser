@@ -27,6 +27,7 @@
             kind: 'store',
             type: 'i32',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'const',
@@ -56,6 +57,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'const',
@@ -81,6 +83,7 @@
             kind: 'store',
             type: 'f32',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'const',
@@ -110,6 +113,7 @@
             type: 'f32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'const',
@@ -282,6 +286,7 @@
             kind: 'store',
             type: 'i64',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'const',
@@ -311,6 +316,7 @@
             type: 'i64',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'const',
@@ -336,6 +342,7 @@
             kind: 'store',
             type: 'f64',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'const',
@@ -365,6 +372,7 @@
             type: 'f64',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'const',

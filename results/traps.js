@@ -908,6 +908,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'get_local',
@@ -937,6 +938,7 @@
             type: 'i64',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'get_local',
@@ -966,6 +968,7 @@
             type: 'f32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'get_local',
@@ -995,6 +998,7 @@
             type: 'f64',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'get_local',

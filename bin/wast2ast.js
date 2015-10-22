@@ -11,6 +11,7 @@ function runner (name) {
     return function (err, data) {
         var result;
         if (err) { throw err; }
+        console.log(name);
         try {
             result = parser.parse(data);
         } catch (er) {

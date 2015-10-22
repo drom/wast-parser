@@ -81,6 +81,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'const',
@@ -106,6 +107,7 @@
             kind: 'store',
             type: 'i32',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'const',
@@ -137,6 +139,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {kind: 'page_size'}
           }]
@@ -158,6 +161,7 @@
             kind: 'store',
             type: 'i32',
             size: null,
+            offset: 0,
             align: 0,
             addr: {kind: 'page_size'},
             data: {

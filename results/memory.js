@@ -268,6 +268,7 @@
             type: 'i32',
             size: '8',
             sign: false,
+            offset: 0,
             align: '2',
             expr: {
               kind: 'const',
@@ -298,6 +299,7 @@
             type: 'i32',
             size: '16',
             sign: false,
+            offset: 0,
             align: '4',
             expr: {
               kind: 'const',
@@ -328,6 +330,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: '8',
             expr: {
               kind: 'const',
@@ -358,6 +361,7 @@
             type: 'f32',
             size: null,
             sign: null,
+            offset: 0,
             align: '8',
             expr: {
               kind: 'const',
@@ -390,6 +394,7 @@
               type: 'i64',
               size: null,
               sign: null,
+              offset: 0,
               align: '0',
               expr: {
                 kind: 'const',
@@ -427,6 +432,7 @@
               type: 'i64',
               size: null,
               sign: null,
+              offset: 0,
               align: '3',
               expr: {
                 kind: 'const',
@@ -464,6 +470,7 @@
               type: 'i64',
               size: null,
               sign: null,
+              offset: 0,
               align: '5',
               expr: {
                 kind: 'const',
@@ -501,6 +508,7 @@
               type: 'i64',
               size: null,
               sign: null,
+              offset: 0,
               align: '6',
               expr: {
                 kind: 'const',
@@ -538,6 +546,7 @@
               type: 'i64',
               size: null,
               sign: null,
+              offset: 0,
               align: '7',
               expr: {
                 kind: 'const',
@@ -603,6 +612,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -625,6 +635,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -652,6 +663,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -674,6 +686,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -706,6 +719,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -728,6 +742,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -755,6 +770,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -777,6 +793,7 @@
                     type: 'i32',
                     size: '8',
                     sign: false,
+                    offset: 0,
                     align: 0,
                     expr: {
                       kind: 'const',
@@ -871,6 +888,7 @@
                     kind: 'store',
                     type: 'i32',
                     size: null,
+                    offset: 0,
                     align: 0,
                     addr: {
                       kind: 'get_local',
@@ -889,6 +907,7 @@
                       type: 'i32',
                       size: null,
                       sign: null,
+                      offset: 0,
                       align: 0,
                       expr: {
                         kind: 'get_local',
@@ -1025,6 +1044,7 @@
                     kind: 'store',
                     type: 'f64',
                     size: null,
+                    offset: 0,
                     align: '1',
                     addr: {
                       kind: 'get_local',
@@ -1043,6 +1063,7 @@
                       type: 'f64',
                       size: null,
                       sign: null,
+                      offset: 0,
                       align: '1',
                       expr: {
                         kind: 'get_local',
@@ -1120,6 +1141,7 @@
               kind: 'store',
               type: 'i64',
               size: null,
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1143,6 +1165,7 @@
                   type: 'f64',
                   size: null,
                   sign: null,
+                  offset: 0,
                   align: 0,
                   expr: {
                     kind: 'const',
@@ -1176,6 +1199,7 @@
               kind: 'store',
               type: 'i64',
               size: null,
+              offset: 0,
               align: '1',
               addr: {
                 kind: 'const',
@@ -1192,6 +1216,7 @@
               kind: 'store',
               type: 'i32',
               size: '1',
+              offset: 0,
               align: '1',
               addr: {
                 kind: 'const',
@@ -1211,6 +1236,7 @@
                 type: 'f64',
                 size: null,
                 sign: null,
+                offset: 0,
                 align: '1',
                 expr: {
                   kind: 'const',
@@ -1239,6 +1265,7 @@
               kind: 'store',
               type: 'i32',
               size: '8',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1260,6 +1287,7 @@
                 type: 'i32',
                 size: '8',
                 sign: true,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1288,6 +1316,7 @@
               kind: 'store',
               type: 'i32',
               size: '8',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1309,6 +1338,7 @@
                 type: 'i32',
                 size: '8',
                 sign: false,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1337,6 +1367,7 @@
               kind: 'store',
               type: 'i32',
               size: '1',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1358,6 +1389,7 @@
                 type: 'i32',
                 size: '16',
                 sign: true,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1386,6 +1418,7 @@
               kind: 'store',
               type: 'i32',
               size: '1',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1407,6 +1440,7 @@
                 type: 'i32',
                 size: '16',
                 sign: false,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1435,6 +1469,7 @@
               kind: 'store',
               type: 'i64',
               size: '8',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1456,6 +1491,7 @@
                 type: 'i64',
                 size: '8',
                 sign: true,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1484,6 +1520,7 @@
               kind: 'store',
               type: 'i64',
               size: '8',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1505,6 +1542,7 @@
                 type: 'i64',
                 size: '8',
                 sign: false,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1533,6 +1571,7 @@
               kind: 'store',
               type: 'i64',
               size: '1',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1554,6 +1593,7 @@
                 type: 'i64',
                 size: '16',
                 sign: true,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1582,6 +1622,7 @@
               kind: 'store',
               type: 'i64',
               size: '1',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1603,6 +1644,7 @@
                 type: 'i64',
                 size: '16',
                 sign: false,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1631,6 +1673,7 @@
               kind: 'store',
               type: 'i64',
               size: '3',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1652,6 +1695,7 @@
                 type: 'i64',
                 size: '32',
                 sign: true,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',
@@ -1680,6 +1724,7 @@
               kind: 'store',
               type: 'i64',
               size: '3',
+              offset: 0,
               align: 0,
               addr: {
                 kind: 'const',
@@ -1701,6 +1746,7 @@
                 type: 'i64',
                 size: '32',
                 sign: false,
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'const',

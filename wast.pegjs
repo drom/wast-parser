@@ -65,7 +65,9 @@ value
 
 sign = "s" / "u"
 
-align = [0-8]
+align = digit:[0-9]* { return digit.join(''); }
+
+offset = digit:[0-9]* { return digit.join(''); }
 
 var
     = int
@@ -171,6 +173,13 @@ expr
             };
         }
 
+        / kind:"has_feature" __ ["] id:[a-zA-Z0-9_\-\\]* ["] {
+            return {
+                kind: kind,
+                id: id.join('')
+            };
+        }
+
         / type:type "." kind:"switch" __ before:expr body:( __ case )* __ after:expr {
             return {
                 kind: kind,
@@ -231,23 +240,25 @@ expr
             };
         }
 
-        / type:type "." kind:"load" sufix:( ( "8" / "16" / "32") ( "_" sign )? )? align:( "/" align )? __ expr:expr {
+        / type:type "." kind:"load" sufix:( ( "8" / "16" / "32") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
             return {
                 kind: kind,
                 type: type,
                 size: sufix ? sufix[0] : null,
                 sign: (sufix && sufix[1]) ? (sufix[1][1] === 's') : null,
-                align: align ? align[1] : 0,
+                offset: offset ? offset[2] : 0,
+                align: align ? align[2] : 0,
                 expr: expr
             };
         }
 
-        / type:type "." kind:"store" sufix:( "8" / "16" / "32")? align:( "/" align )? __ addr:expr __ data:expr {
+        / type:type "." kind:"store" sufix:( "8" / "16" / "32")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
             return {
                 kind: kind,
                 type: type,
                 size: sufix ? sufix[0] : null,
-                align: align ? align[1] : 0,
+                offset: offset ? offset[2] : 0,
+                align: align ? align[2] : 0,
                 addr: addr,
                 data: data
             };

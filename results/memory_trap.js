@@ -38,6 +38,7 @@
             kind: 'store',
             type: 'i32',
             size: null,
+            offset: 0,
             align: 0,
             addr: {
               kind: 'binop',
@@ -83,6 +84,7 @@
             type: 'i32',
             size: null,
             sign: null,
+            offset: 0,
             align: 0,
             expr: {
               kind: 'binop',
