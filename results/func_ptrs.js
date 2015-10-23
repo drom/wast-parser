@@ -35,15 +35,10 @@
         {
           kind: 'func',
           id: null,
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            '0',
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: '0'
+          },
           params: [],
           result: null,
           local: [],
@@ -52,18 +47,10 @@
         {
           kind: 'func',
           id: null,
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'S'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'S'
+          },
           params: [],
           result: null,
           local: [],
@@ -72,15 +59,10 @@
         {
           kind: 'func',
           id: 'one',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            '4',
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: '4'
+          },
           params: [],
           result: null,
           local: [],
@@ -97,18 +79,10 @@
         {
           kind: 'func',
           id: 'two',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'T'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'T'
+          },
           params: [],
           result: null,
           local: [],
@@ -134,18 +108,10 @@
         {
           kind: 'func',
           id: 'three',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'T'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'T'
+          },
           params: [{
             kind: 'param',
             name: 'a',
@@ -179,33 +145,20 @@
           kind: 'import',
           name1: 'stdio',
           name2: 'print',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            '6',
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: '6'
+          },
           params: [],
           result: null
         },
         {
           kind: 'func',
           id: 'four',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'U'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'U'
+          },
           params: [],
           result: null,
           local: [],
@@ -290,15 +243,10 @@
         body: [{
           kind: 'func',
           id: null,
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            '42',
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: '42'
+          },
           params: [],
           result: null,
           local: [],
@@ -318,15 +266,10 @@
           kind: 'import',
           name1: 'stdio',
           name2: 'print',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            '43',
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: '43'
+          },
           params: [],
           result: null
         }]
@@ -404,18 +347,10 @@
         {
           kind: 'func',
           id: 't1',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'T'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'T'
+          },
           params: [],
           result: null,
           local: [],
@@ -428,18 +363,10 @@
         {
           kind: 'func',
           id: 't2',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'T'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'T'
+          },
           params: [],
           result: null,
           local: [],
@@ -452,18 +379,10 @@
         {
           kind: 'func',
           id: 't3',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'T'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'T'
+          },
           params: [],
           result: null,
           local: [],
@@ -476,18 +395,10 @@
         {
           kind: 'func',
           id: 'u1',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'U'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'U'
+          },
           params: [],
           result: null,
           local: [],
@@ -500,18 +411,10 @@
         {
           kind: 'func',
           id: 'u2',
-          type: [
-            '(',
-            [],
-            'type',
-            [' '],
-            [
-              '$',
-              'U'
-            ],
-            [],
-            ')'
-          ],
+          type: {
+            kind: 'type',
+            id: 'U'
+          },
           params: [],
           result: null,
           local: [],

@@ -4713,6 +4713,351 @@
         type: 'f32',
         init: '0x1.c2b5bp-53'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: 'i32.no_fold_f32_s',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i32']
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'f32',
+              type1: 'i32',
+              operator: 'convert_s',
+              expr: {
+                kind: 'get_local',
+                id: '0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: 'i32.no_fold_f32_s'
+        },
+        {
+          kind: 'func',
+          id: 'i32.no_fold_f32_u',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i32']
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'f32',
+              type1: 'i32',
+              operator: 'convert_u',
+              expr: {
+                kind: 'get_local',
+                id: '0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: 'i32.no_fold_f32_u'
+        },
+        {
+          kind: 'func',
+          id: 'i64.no_fold_f64_s',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i64']
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'f64',
+              type1: 'i64',
+              operator: 'convert_s',
+              expr: {
+                kind: 'get_local',
+                id: '0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: 'i64.no_fold_f64_s'
+        },
+        {
+          kind: 'func',
+          id: 'i64.no_fold_f64_u',
+          type: null,
+          params: [{
+            kind: 'param',
+            types: ['i64']
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'f64',
+              type1: 'i64',
+              operator: 'convert_u',
+              expr: {
+                kind: 'get_local',
+                id: '0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: 'i64.no_fold_f64_u'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_s',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x1000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_s',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x1000001'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_s',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0xf0000010'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xf0000010'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_u',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x1000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_u',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x1000001'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.no_fold_f32_u',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0xf0000010'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xf0000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_s',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x20000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x20000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_s',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x20000000000001'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x20000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_s',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xf000000000000400'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0xf000000000000400'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_u',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x20000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x20000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_u',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x20000000000001'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x20000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.no_fold_f64_u',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xf000000000000400'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0xf000000000000000'
+      }
     }
   ]
 }

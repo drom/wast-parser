@@ -12,6 +12,27 @@
         },
         {
           kind: 'export',
+          name: 'power_of_two'
+        },
+        {
+          kind: 'func',
+          id: 'power_of_two',
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'popcnt',
+            expr: {kind: 'page_size'}
+          }]
+        },
+        {
+          kind: 'export',
           name: 'round_up_to_page'
         },
         {
@@ -254,6 +275,19 @@
           body: [{kind: 'memory_size'}]
         }
       ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'power_of_two',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
     },
     {
       kind: 'assert_return',

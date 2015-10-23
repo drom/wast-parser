@@ -79,7 +79,7 @@ var
     }
 
 case
-    = "(" __ kind:"case" __ test:value body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
+    = "(" kind:"case" __ test:value body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
         return {
             kind: kind,
             test: test,
@@ -87,7 +87,7 @@ case
             fallthrough: fallthrough ? true : false
         };
     }
-    / "(" __ kind:"case" __ test:value __ ")" {
+    / "(" kind:"case" __ test:value __ ")" {
         return {
             kind: kind,
             test: test
@@ -95,7 +95,7 @@ case
     }
 
 expr
-    = "(" __
+    = "("
         body:( type:local_type "." kind:"const" __ init:value {
             return {
                 kind: kind,
@@ -328,13 +328,13 @@ failure = ["] value:( !["] . )* ["] {
 }
 
 param
-    = "(" __ kind:"param" types:( __ local_type )* __ ")" {
+    = "(" kind:"param" types:( __ local_type )* __ ")" {
         return {
             kind: kind,
             types: types.map(function (e) { return e[1]; })
         };
     }
-    / "(" __ kind:"param" __ "$" name:name __ type:local_type __ ")" {
+    / "(" kind:"param" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
             name: name,
@@ -342,14 +342,14 @@ param
         };
     }
 
-result = "(" __ kind:"result" __ type:local_type __ ")" {
+result = "(" kind:"result" __ type:local_type __ ")" {
     return {
         kind: kind,
         type: type
     };
 }
 
-segment = "(" __ kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ ")" {
+segment = "(" kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ ")" {
     return {
         kind: kind,
         int: int,
@@ -358,13 +358,13 @@ segment = "(" __ kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ 
 }
 
 local
-    = "(" __ kind:"local" body:( __ local_type )* __ ")" {
+    = "(" kind:"local" body:( __ local_type )* __ ")" {
         return {
             kind: kind,
             body: body.map(function (e) { return e[1]; })
         };
     }
-    / "(" __ kind:"local" __ "$" name:name __ body:local_type __ ")" {
+    / "(" kind:"local" __ "$" name:name __ body:local_type __ ")" {
         return {
             kind: kind,
             name: name,
@@ -372,7 +372,12 @@ local
         };
     }
 
-func_type = "(" __ "type" __ ( int / "$" name ) __ ")"
+func_type = "(" kind:"type" __ id:( __ int / "$" name ) __ ")" {
+    return {
+        kind: kind,
+        id: id[1]
+    };
+}
 
 func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
@@ -386,11 +391,11 @@ func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param
     };
 }
 
-param_def = "(" __ "param" ( __ local_type )? __ ")"
+param_def = "(" "param" ( __ local_type )? __ ")"
 
-result_def = "(" __ "result" __ local_type __ ")"
+result_def = "(" "result" __ local_type __ ")"
 
-func_def = "(" __ "func" ( __ param_def )* ( __ result_def )? __ ")"
+func_def = "(" "func" ( __ param_def )* ( __ result_def )? __ ")"
 
 type_def = kind:"type" name:( __ "$" name )? __ func_def {
     return {
@@ -435,7 +440,7 @@ memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
     };
 }
 
-invoke = "(" __ kind:"invoke" __ ["] name:name ["] body:( __ expr )* __ ")" {
+invoke = "(" kind:"invoke" __ ["] name:name ["] body:( __ expr )* __ ")" {
     return {
         kind: kind,
         name: name,
@@ -443,11 +448,11 @@ invoke = "(" __ kind:"invoke" __ ["] name:name ["] body:( __ expr )* __ ")" {
     };
 }
 
-module = kind:"module" body:( __ "(" __ ( func / global / import / export / table / memory / type_def ) __ ")" )* {
+module = kind:"module" body:( __ "(" ( func / global / import / export / table / memory / type_def ) __ ")" )* {
     var result = [];
     return {
         kind: kind,
-        body: body.map(function (e) { return e[3]; })
+        body: body.map(function (e) { return e[2]; })
     };
 }
 
@@ -474,7 +479,7 @@ assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:failure {
     };
 }
 
-assert_invalid = kind:"assert_invalid" __ "(" __ module:module __ ")" __ failure:failure {
+assert_invalid = kind:"assert_invalid" __ "(" module:module __ ")" __ failure:failure {
     return {
         kind: kind,
         module: module,
@@ -484,7 +489,7 @@ assert_invalid = kind:"assert_invalid" __ "(" __ module:module __ ")" __ failure
 
 cmd
     = invoke:invoke { return invoke; }
-    / "(" __
+    / "("
         node:( module
         / assert_return
         / assert_return_nan
