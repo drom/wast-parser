@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_cmp_s_offset',
+          name: 'i32.no_fold_cmp_s_offset',
           type: null,
           params: [
             {
@@ -35,7 +35,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -52,7 +52,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -71,7 +71,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_cmp_u_offset',
+          name: 'i32.no_fold_cmp_u_offset',
           type: null,
           params: [
             {
@@ -100,7 +100,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -117,7 +117,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -136,7 +136,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_cmp_s_offset',
+          name: 'i64.no_fold_cmp_s_offset',
           type: null,
           params: [
             {
@@ -165,7 +165,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -182,7 +182,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -201,7 +201,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_cmp_u_offset',
+          name: 'i64.no_fold_cmp_u_offset',
           type: null,
           params: [
             {
@@ -230,7 +230,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -247,7 +247,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -367,7 +367,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i64.no_fold_wrap_extend_s',
+          name: 'i64.no_fold_wrap_extend_s',
           type: null,
           params: [{
             kind: 'param',
@@ -391,7 +391,7 @@
               operator: 'wrap',
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -444,7 +444,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i64.no_fold_wrap_extend_u',
+          name: 'i64.no_fold_wrap_extend_u',
           type: null,
           params: [{
             kind: 'param',
@@ -468,7 +468,7 @@
               operator: 'wrap',
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -504,7 +504,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_shl_shr_s',
+          name: 'i32.no_fold_shl_shr_s',
           type: null,
           params: [{
             kind: 'param',
@@ -526,7 +526,7 @@
               operator: 'shl',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -550,7 +550,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_shl_shr_u',
+          name: 'i32.no_fold_shl_shr_u',
           type: null,
           params: [{
             kind: 'param',
@@ -572,7 +572,7 @@
               operator: 'shl',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -596,7 +596,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_shl_shr_s',
+          name: 'i64.no_fold_shl_shr_s',
           type: null,
           params: [{
             kind: 'param',
@@ -618,7 +618,7 @@
               operator: 'shl',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -642,7 +642,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_shl_shr_u',
+          name: 'i64.no_fold_shl_shr_u',
           type: null,
           params: [{
             kind: 'param',
@@ -664,7 +664,7 @@
               operator: 'shl',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -761,7 +761,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_shr_s_shl',
+          name: 'i32.no_fold_shr_s_shl',
           type: null,
           params: [{
             kind: 'param',
@@ -783,7 +783,7 @@
               operator: 'shr_s',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -807,7 +807,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_shr_u_shl',
+          name: 'i32.no_fold_shr_u_shl',
           type: null,
           params: [{
             kind: 'param',
@@ -829,7 +829,7 @@
               operator: 'shr_u',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -853,7 +853,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_shr_s_shl',
+          name: 'i64.no_fold_shr_s_shl',
           type: null,
           params: [{
             kind: 'param',
@@ -875,7 +875,7 @@
               operator: 'shr_s',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -899,7 +899,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_shr_u_shl',
+          name: 'i64.no_fold_shr_u_shl',
           type: null,
           params: [{
             kind: 'param',
@@ -921,7 +921,7 @@
               operator: 'shr_u',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1018,7 +1018,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_div_s_mul',
+          name: 'i32.no_fold_div_s_mul',
           type: null,
           params: [{
             kind: 'param',
@@ -1040,7 +1040,7 @@
               operator: 'div_s',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1064,7 +1064,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_div_u_mul',
+          name: 'i32.no_fold_div_u_mul',
           type: null,
           params: [{
             kind: 'param',
@@ -1086,7 +1086,7 @@
               operator: 'div_u',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1110,7 +1110,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_div_s_mul',
+          name: 'i64.no_fold_div_s_mul',
           type: null,
           params: [{
             kind: 'param',
@@ -1132,7 +1132,7 @@
               operator: 'div_s',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1156,7 +1156,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_div_u_mul',
+          name: 'i64.no_fold_div_u_mul',
           type: null,
           params: [{
             kind: 'param',
@@ -1178,7 +1178,7 @@
               operator: 'div_u',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1275,7 +1275,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_mul_div_s',
+          name: 'i32.no_fold_mul_div_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1297,7 +1297,7 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1321,7 +1321,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_mul_div_u',
+          name: 'i32.no_fold_mul_div_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1343,7 +1343,7 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1367,7 +1367,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_mul_div_s',
+          name: 'i64.no_fold_mul_div_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1389,7 +1389,7 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1413,7 +1413,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_mul_div_u',
+          name: 'i64.no_fold_mul_div_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1435,7 +1435,7 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -1532,7 +1532,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_div_s_2',
+          name: 'i32.no_fold_div_s_2',
           type: null,
           params: [{
             kind: 'param',
@@ -1550,7 +1550,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1568,7 +1568,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_div_s_2',
+          name: 'i64.no_fold_div_s_2',
           type: null,
           params: [{
             kind: 'param',
@@ -1586,7 +1586,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1643,7 +1643,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_rem_s_2',
+          name: 'i32.no_fold_rem_s_2',
           type: null,
           params: [{
             kind: 'param',
@@ -1661,7 +1661,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1679,7 +1679,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_rem_s_2',
+          name: 'i64.no_fold_rem_s_2',
           type: null,
           params: [{
             kind: 'param',
@@ -1697,7 +1697,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1754,7 +1754,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.div_s_3',
+          name: 'i32.div_s_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1772,7 +1772,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1790,7 +1790,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.div_u_3',
+          name: 'i32.div_u_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1808,7 +1808,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1826,7 +1826,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_s_3',
+          name: 'i64.div_s_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1844,7 +1844,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1862,7 +1862,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_u_3',
+          name: 'i64.div_u_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1880,7 +1880,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2039,7 +2039,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.div_s_5',
+          name: 'i32.div_s_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2057,7 +2057,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2075,7 +2075,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.div_u_5',
+          name: 'i32.div_u_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2093,7 +2093,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2111,7 +2111,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_s_5',
+          name: 'i64.div_s_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2129,7 +2129,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2147,7 +2147,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_u_5',
+          name: 'i64.div_u_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2165,7 +2165,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2324,7 +2324,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.div_s_7',
+          name: 'i32.div_s_7',
           type: null,
           params: [{
             kind: 'param',
@@ -2342,7 +2342,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2360,7 +2360,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.div_u_7',
+          name: 'i32.div_u_7',
           type: null,
           params: [{
             kind: 'param',
@@ -2378,7 +2378,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2396,7 +2396,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_s_7',
+          name: 'i64.div_s_7',
           type: null,
           params: [{
             kind: 'param',
@@ -2414,7 +2414,7 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2432,7 +2432,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.div_u_7',
+          name: 'i64.div_u_7',
           type: null,
           params: [{
             kind: 'param',
@@ -2450,7 +2450,7 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2609,7 +2609,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.rem_s_3',
+          name: 'i32.rem_s_3',
           type: null,
           params: [{
             kind: 'param',
@@ -2627,7 +2627,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2645,7 +2645,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.rem_u_3',
+          name: 'i32.rem_u_3',
           type: null,
           params: [{
             kind: 'param',
@@ -2663,7 +2663,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2681,7 +2681,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_s_3',
+          name: 'i64.rem_s_3',
           type: null,
           params: [{
             kind: 'param',
@@ -2699,7 +2699,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2717,7 +2717,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_u_3',
+          name: 'i64.rem_u_3',
           type: null,
           params: [{
             kind: 'param',
@@ -2735,7 +2735,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2894,7 +2894,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.rem_s_5',
+          name: 'i32.rem_s_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2912,7 +2912,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2930,7 +2930,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.rem_u_5',
+          name: 'i32.rem_u_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2948,7 +2948,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -2966,7 +2966,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_s_5',
+          name: 'i64.rem_s_5',
           type: null,
           params: [{
             kind: 'param',
@@ -2984,7 +2984,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3002,7 +3002,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_u_5',
+          name: 'i64.rem_u_5',
           type: null,
           params: [{
             kind: 'param',
@@ -3020,7 +3020,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3179,7 +3179,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.rem_s_7',
+          name: 'i32.rem_s_7',
           type: null,
           params: [{
             kind: 'param',
@@ -3197,7 +3197,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3215,7 +3215,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.rem_u_7',
+          name: 'i32.rem_u_7',
           type: null,
           params: [{
             kind: 'param',
@@ -3233,7 +3233,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3251,7 +3251,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_s_7',
+          name: 'i64.rem_s_7',
           type: null,
           params: [{
             kind: 'param',
@@ -3269,7 +3269,7 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3287,7 +3287,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.rem_u_7',
+          name: 'i64.rem_u_7',
           type: null,
           params: [{
             kind: 'param',
@@ -3305,7 +3305,7 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }

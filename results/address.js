@@ -27,7 +27,7 @@
         },
         {
           kind: 'func',
-          id: 'good',
+          name: 'good',
           type: null,
           params: [{
             kind: 'param',
@@ -39,7 +39,7 @@
           body: [
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -52,7 +52,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -61,7 +61,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -74,7 +74,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -83,7 +83,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -96,7 +96,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -105,7 +105,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -118,7 +118,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -127,7 +127,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -140,7 +140,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -149,7 +149,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -162,7 +162,7 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -171,7 +171,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -184,7 +184,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -193,7 +193,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -206,7 +206,7 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -215,7 +215,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -228,7 +228,7 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -237,7 +237,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -250,7 +250,7 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -259,7 +259,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -272,7 +272,7 @@
                 align: '2',
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -281,7 +281,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print'
               },
@@ -294,7 +294,7 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -309,7 +309,7 @@
         },
         {
           kind: 'func',
-          id: 'bad1',
+          name: 'bad1',
           type: null,
           params: [{
             kind: 'param',
@@ -327,7 +327,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -340,7 +340,7 @@
         },
         {
           kind: 'func',
-          id: 'bad2',
+          name: 'bad2',
           type: null,
           params: [{
             kind: 'param',
@@ -358,7 +358,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }

@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f64.no_contraction',
+          name: 'f64.no_contraction',
           type: null,
           params: [
             {
@@ -40,14 +40,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -55,7 +55,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'z'
               }
@@ -218,7 +218,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fma',
+          name: 'f32.no_fma',
           type: null,
           params: [
             {
@@ -252,14 +252,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -267,7 +267,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'z'
               }
@@ -280,7 +280,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fma',
+          name: 'f64.no_fma',
           type: null,
           params: [
             {
@@ -314,14 +314,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
@@ -329,7 +329,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'z'
               }
@@ -637,7 +637,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_add_zero',
+          name: 'f32.no_fold_add_zero',
           type: null,
           params: [{
             kind: 'param',
@@ -655,7 +655,7 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -673,7 +673,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_add_zero',
+          name: 'f64.no_fold_add_zero',
           type: null,
           params: [{
             kind: 'param',
@@ -691,7 +691,7 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -748,7 +748,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_zero_sub',
+          name: 'f32.no_fold_zero_sub',
           type: null,
           params: [{
             kind: 'param',
@@ -771,7 +771,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -784,7 +784,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_zero_sub',
+          name: 'f64.no_fold_zero_sub',
           type: null,
           params: [{
             kind: 'param',
@@ -807,7 +807,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -859,7 +859,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_mul_zero',
+          name: 'f32.no_fold_mul_zero',
           type: null,
           params: [{
             kind: 'param',
@@ -877,7 +877,7 @@
             operator: 'mul',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -895,7 +895,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_mul_zero',
+          name: 'f64.no_fold_mul_zero',
           type: null,
           params: [{
             kind: 'param',
@@ -913,7 +913,7 @@
             operator: 'mul',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1038,7 +1038,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_zero_div',
+          name: 'f32.no_fold_zero_div',
           type: null,
           params: [{
             kind: 'param',
@@ -1061,7 +1061,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1074,7 +1074,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_zero_div',
+          name: 'f64.no_fold_zero_div',
           type: null,
           params: [{
             kind: 'param',
@@ -1097,7 +1097,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1187,7 +1187,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_eq_self',
+          name: 'f32.no_fold_eq_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1205,14 +1205,14 @@
             operator: 'eq',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1225,7 +1225,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_eq_self',
+          name: 'f64.no_fold_eq_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1243,14 +1243,14 @@
             operator: 'eq',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1302,7 +1302,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_ne_self',
+          name: 'f32.no_fold_ne_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1320,14 +1320,14 @@
             operator: 'ne',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1340,7 +1340,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_ne_self',
+          name: 'f64.no_fold_ne_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1358,14 +1358,14 @@
             operator: 'ne',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1417,7 +1417,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_sub_self',
+          name: 'f32.no_fold_sub_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1435,14 +1435,14 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1455,7 +1455,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_sub_self',
+          name: 'f64.no_fold_sub_self',
           type: null,
           params: [{
             kind: 'param',
@@ -1473,14 +1473,14 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1546,7 +1546,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_div_3',
+          name: 'f32.no_fold_div_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1564,7 +1564,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1582,7 +1582,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_div_3',
+          name: 'f64.no_fold_div_3',
           type: null,
           params: [{
             kind: 'param',
@@ -1600,7 +1600,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -1793,7 +1793,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_distribute',
+          name: 'f32.no_distribute',
           type: null,
           params: [
             {
@@ -1827,14 +1827,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -1846,14 +1846,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -1867,7 +1867,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_distribute',
+          name: 'f64.no_distribute',
           type: null,
           params: [
             {
@@ -1901,14 +1901,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -1920,14 +1920,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'y'
                 }
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -2236,7 +2236,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_reassociate_add',
+          name: 'f32.no_reassociate_add',
           type: null,
           params: [
             {
@@ -2279,14 +2279,14 @@
                 operator: 'add',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -2294,7 +2294,7 @@
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -2302,7 +2302,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'w'
               }
@@ -2315,7 +2315,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_reassociate_add',
+          name: 'f64.no_reassociate_add',
           type: null,
           params: [
             {
@@ -2358,14 +2358,14 @@
                 operator: 'add',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -2373,7 +2373,7 @@
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -2381,7 +2381,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'w'
               }
@@ -2739,7 +2739,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_reassociate_mul',
+          name: 'f32.no_reassociate_mul',
           type: null,
           params: [
             {
@@ -2782,14 +2782,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -2797,7 +2797,7 @@
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -2805,7 +2805,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'w'
               }
@@ -2818,7 +2818,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_reassociate_mul',
+          name: 'f64.no_reassociate_mul',
           type: null,
           params: [
             {
@@ -2861,14 +2861,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -2876,7 +2876,7 @@
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'z'
                 }
@@ -2884,7 +2884,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'w'
               }
@@ -3242,7 +3242,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_div_0',
+          name: 'f32.no_fold_div_0',
           type: null,
           params: [{
             kind: 'param',
@@ -3260,7 +3260,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3278,7 +3278,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_div_0',
+          name: 'f64.no_fold_div_0',
           type: null,
           params: [{
             kind: 'param',
@@ -3296,7 +3296,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3527,7 +3527,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_div_0',
+          name: 'f32.no_fold_div_0',
           type: null,
           params: [{
             kind: 'param',
@@ -3545,7 +3545,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3563,7 +3563,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_div_0',
+          name: 'f64.no_fold_div_0',
           type: null,
           params: [{
             kind: 'param',
@@ -3581,7 +3581,7 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -3812,7 +3812,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_fold_to_hypot',
+          name: 'f32.no_fold_to_hypot',
           type: null,
           params: [
             {
@@ -3845,14 +3845,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
@@ -3864,14 +3864,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -3886,7 +3886,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.no_fold_to_hypot',
+          name: 'f64.no_fold_to_hypot',
           type: null,
           params: [
             {
@@ -3919,14 +3919,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'x'
                   }
@@ -3938,14 +3938,14 @@
                 operator: 'mul',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
                 },
                 right: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'y'
                   }
@@ -4205,7 +4205,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_approximate_reciprocal',
+          name: 'f32.no_approximate_reciprocal',
           type: null,
           params: [
             {
@@ -4235,7 +4235,7 @@
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -4373,7 +4373,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_approximate_reciprocal_sqrt',
+          name: 'f32.no_approximate_reciprocal_sqrt',
           type: null,
           params: [
             {
@@ -4407,7 +4407,7 @@
               operator: 'sqrt',
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -4546,7 +4546,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.no_approximate_sqrt_reciprocal',
+          name: 'f32.no_approximate_sqrt_reciprocal',
           type: null,
           params: [
             {
@@ -4580,7 +4580,7 @@
               },
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'x'
                 }
@@ -4719,7 +4719,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.no_fold_f32_s',
+          name: 'i32.no_fold_f32_s',
           type: null,
           params: [{
             kind: 'param',
@@ -4742,7 +4742,7 @@
               operator: 'convert_s',
               expr: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               }
             }
           }]
@@ -4753,7 +4753,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.no_fold_f32_u',
+          name: 'i32.no_fold_f32_u',
           type: null,
           params: [{
             kind: 'param',
@@ -4776,7 +4776,7 @@
               operator: 'convert_u',
               expr: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               }
             }
           }]
@@ -4787,7 +4787,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_f64_s',
+          name: 'i64.no_fold_f64_s',
           type: null,
           params: [{
             kind: 'param',
@@ -4810,7 +4810,7 @@
               operator: 'convert_s',
               expr: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               }
             }
           }]
@@ -4821,7 +4821,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.no_fold_f64_u',
+          name: 'i64.no_fold_f64_u',
           type: null,
           params: [{
             kind: 'param',
@@ -4844,7 +4844,7 @@
               operator: 'convert_u',
               expr: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               }
             }
           }]

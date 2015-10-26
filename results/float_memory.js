@@ -12,7 +12,7 @@
         },
         {
           kind: 'func',
-          id: 'store_i32',
+          name: 'store_i32',
           type: null,
           params: [{
             kind: 'param',
@@ -37,7 +37,7 @@
             },
             data: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -46,7 +46,7 @@
         },
         {
           kind: 'func',
-          id: 'load_i32',
+          name: 'load_i32',
           type: null,
           params: [],
           result: {
@@ -70,7 +70,7 @@
         },
         {
           kind: 'func',
-          id: 'store_f32',
+          name: 'store_f32',
           type: null,
           params: [{
             kind: 'param',
@@ -95,7 +95,7 @@
             },
             data: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -104,7 +104,7 @@
         },
         {
           kind: 'func',
-          id: 'load_f32',
+          name: 'load_f32',
           type: null,
           params: [],
           result: {
@@ -275,7 +275,7 @@
         },
         {
           kind: 'func',
-          id: 'store_i64',
+          name: 'store_i64',
           type: null,
           params: [{
             kind: 'param',
@@ -300,7 +300,7 @@
             },
             data: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -309,7 +309,7 @@
         },
         {
           kind: 'func',
-          id: 'load_i64',
+          name: 'load_i64',
           type: null,
           params: [],
           result: {
@@ -333,7 +333,7 @@
         },
         {
           kind: 'func',
-          id: 'store_f64',
+          name: 'store_f64',
           type: null,
           params: [{
             kind: 'param',
@@ -358,7 +358,7 @@
             },
             data: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -367,7 +367,7 @@
         },
         {
           kind: 'func',
-          id: 'load_f64',
+          name: 'load_f64',
           type: null,
           params: [],
           result: {

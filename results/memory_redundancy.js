@@ -16,7 +16,7 @@
         },
         {
           kind: 'func',
-          id: 'zero_everything',
+          name: 'zero_everything',
           type: null,
           params: [],
           result: null,
@@ -98,7 +98,7 @@
         },
         {
           kind: 'func',
-          id: 'test_store_to_load',
+          name: 'test_store_to_load',
           type: null,
           params: [],
           result: {
@@ -162,7 +162,7 @@
         },
         {
           kind: 'func',
-          id: 'test_redundant_load',
+          name: 'test_redundant_load',
           type: null,
           params: [],
           result: {
@@ -222,7 +222,7 @@
         },
         {
           kind: 'func',
-          id: 'test_dead_store',
+          name: 'test_dead_store',
           type: null,
           params: [],
           result: {
@@ -254,7 +254,7 @@
             },
             {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 't'
               },
@@ -291,7 +291,7 @@
             },
             {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 't'
               }

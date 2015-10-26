@@ -16,7 +16,7 @@
         },
         {
           kind: 'func',
-          id: 'power_of_two',
+          name: 'power_of_two',
           type: null,
           params: [],
           result: {
@@ -37,7 +37,7 @@
         },
         {
           kind: 'func',
-          id: 'round_up_to_page',
+          name: 'round_up_to_page',
           type: null,
           params: [{
             kind: 'param',
@@ -58,7 +58,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               },
               right: {
                 kind: 'binop',
@@ -91,7 +91,7 @@
         },
         {
           kind: 'func',
-          id: 'load_at_zero',
+          name: 'load_at_zero',
           type: null,
           params: [],
           result: {
@@ -119,7 +119,7 @@
         },
         {
           kind: 'func',
-          id: 'store_at_zero',
+          name: 'store_at_zero',
           type: null,
           params: [],
           result: {
@@ -151,7 +151,7 @@
         },
         {
           kind: 'func',
-          id: 'load_at_page_size',
+          name: 'load_at_page_size',
           type: null,
           params: [],
           result: {
@@ -175,7 +175,7 @@
         },
         {
           kind: 'func',
-          id: 'store_at_page_size',
+          name: 'store_at_page_size',
           type: null,
           params: [],
           result: {
@@ -203,7 +203,7 @@
         },
         {
           kind: 'func',
-          id: 'grow',
+          name: 'grow',
           type: null,
           params: [{
             kind: 'param',
@@ -216,13 +216,13 @@
             kind: 'grow_memory',
             expression: {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'round_up_to_page'
               },
               expr: [{
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'sz'
                 }
@@ -236,7 +236,7 @@
         },
         {
           kind: 'func',
-          id: 'size_at_least',
+          name: 'size_at_least',
           type: null,
           params: [{
             kind: 'param',
@@ -254,7 +254,7 @@
             left: {kind: 'memory_size'},
             right: {
               kind: 'get_local',
-              id: '0'
+              name: '0'
             }
           }]
         },
@@ -264,7 +264,7 @@
         },
         {
           kind: 'func',
-          id: 'size',
+          name: 'size',
           type: null,
           params: [],
           result: {

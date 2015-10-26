@@ -56,7 +56,7 @@
         },
         {
           kind: 'func',
-          id: 'run',
+          name: 'run',
           type: null,
           params: [],
           result: null,
@@ -85,13 +85,13 @@
           body: [
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32'
               },
               expr: [{
                 kind: 'set_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i32'
                 },
@@ -104,13 +104,13 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
               expr: [{
                 kind: 'set_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i64'
                 },
@@ -123,13 +123,13 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_f32'
               },
               expr: [{
                 kind: 'set_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'f32'
                 },
@@ -142,13 +142,13 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_f64'
               },
               expr: [{
                 kind: 'set_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'f64'
                 },
@@ -161,7 +161,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32'
               },
@@ -185,7 +185,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
@@ -209,7 +209,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_f32'
               },
@@ -233,7 +233,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_f64'
               },
@@ -257,7 +257,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32'
               },
@@ -281,7 +281,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32'
               },
@@ -305,7 +305,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
@@ -329,7 +329,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
@@ -353,7 +353,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
@@ -394,7 +394,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -412,13 +412,13 @@
           ],
           body: [{
             kind: 'set_local',
-            id: {
+            name: {
               kind: 'var',
               name: 'i64'
             },
             init: {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32'
               },
@@ -442,7 +442,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -460,13 +460,13 @@
           ],
           body: [{
             kind: 'set_local',
-            id: {
+            name: {
               kind: 'var',
               name: 'i32'
             },
             init: {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i64'
               },
@@ -490,7 +490,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -508,13 +508,13 @@
           ],
           body: [{
             kind: 'set_local',
-            id: {
+            name: {
               kind: 'var',
               name: 'f64'
             },
             init: {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'f32'
               },
@@ -538,7 +538,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -556,13 +556,13 @@
           ],
           body: [{
             kind: 'set_local',
-            id: {
+            name: {
               kind: 'var',
               name: 'f32'
             },
             init: {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'f64'
               },

@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'i32.test',
+          name: 'i32.test',
           type: null,
           params: [],
           result: {
@@ -25,7 +25,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.umax',
+          name: 'i32.umax',
           type: null,
           params: [],
           result: {
@@ -44,7 +44,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.smax',
+          name: 'i32.smax',
           type: null,
           params: [],
           result: {
@@ -63,7 +63,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.neg_smax',
+          name: 'i32.neg_smax',
           type: null,
           params: [],
           result: {
@@ -82,7 +82,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.smin',
+          name: 'i32.smin',
           type: null,
           params: [],
           result: {
@@ -101,7 +101,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.alt_smin',
+          name: 'i32.alt_smin',
           type: null,
           params: [],
           result: {
@@ -120,7 +120,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.inc_smin',
+          name: 'i32.inc_smin',
           type: null,
           params: [],
           result: {
@@ -149,7 +149,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.neg_zero',
+          name: 'i32.neg_zero',
           type: null,
           params: [],
           result: {
@@ -168,7 +168,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.test',
+          name: 'i64.test',
           type: null,
           params: [],
           result: {
@@ -187,7 +187,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.umax',
+          name: 'i64.umax',
           type: null,
           params: [],
           result: {
@@ -206,7 +206,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.smax',
+          name: 'i64.smax',
           type: null,
           params: [],
           result: {
@@ -225,7 +225,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.neg_smax',
+          name: 'i64.neg_smax',
           type: null,
           params: [],
           result: {
@@ -244,7 +244,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.smin',
+          name: 'i64.smin',
           type: null,
           params: [],
           result: {
@@ -263,7 +263,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.alt_smin',
+          name: 'i64.alt_smin',
           type: null,
           params: [],
           result: {
@@ -282,7 +282,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.inc_smin',
+          name: 'i64.inc_smin',
           type: null,
           params: [],
           result: {
@@ -311,7 +311,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.neg_zero',
+          name: 'i64.neg_zero',
           type: null,
           params: [],
           result: {

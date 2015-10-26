@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [{
             kind: 'param',
@@ -25,7 +25,7 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               },
               right: {
                 kind: 'const',
@@ -44,18 +44,18 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               },
               right: {
                 kind: 'call',
-                id: '0',
+                name: '0',
                 expr: [{
                   kind: 'binop',
                   type: 'i64',
                   operator: 'sub',
                   left: {
                     kind: 'get_local',
-                    id: '0'
+                    name: '0'
                   },
                   right: {
                     kind: 'const',
@@ -69,7 +69,7 @@
         },
         {
           kind: 'func',
-          id: 'fac-rec',
+          name: 'fac-rec',
           type: null,
           params: [{
             kind: 'param',
@@ -89,7 +89,7 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }
@@ -111,14 +111,14 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }
               },
               right: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'fac-rec'
                 },
@@ -128,7 +128,7 @@
                   operator: 'sub',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'n'
                     }
@@ -145,7 +145,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [{
             kind: 'param',
@@ -165,15 +165,15 @@
           body: [
             {
               kind: 'set_local',
-              id: '1',
+              name: '1',
               init: {
                 kind: 'get_local',
-                id: '0'
+                name: '0'
               }
             },
             {
               kind: 'set_local',
-              id: '2',
+              name: '2',
               init: {
                 kind: 'const',
                 type: 'i64',
@@ -182,7 +182,7 @@
             },
             {
               kind: 'label',
-              id: null,
+              name: null,
               body: {
                 kind: 'loop',
                 body: [{
@@ -193,7 +193,7 @@
                     operator: 'eq',
                     left: {
                       kind: 'get_local',
-                      id: '1'
+                      name: '1'
                     },
                     right: {
                       kind: 'const',
@@ -203,7 +203,7 @@
                   },
                   consequent: {
                     kind: 'break',
-                    id: '0',
+                    name: '0',
                     expr: null
                   },
                   alternate: {
@@ -211,31 +211,31 @@
                     body: [
                       {
                         kind: 'set_local',
-                        id: '2',
+                        name: '2',
                         init: {
                           kind: 'binop',
                           type: 'i64',
                           operator: 'mul',
                           left: {
                             kind: 'get_local',
-                            id: '1'
+                            name: '1'
                           },
                           right: {
                             kind: 'get_local',
-                            id: '2'
+                            name: '2'
                           }
                         }
                       },
                       {
                         kind: 'set_local',
-                        id: '1',
+                        name: '1',
                         init: {
                           kind: 'binop',
                           type: 'i64',
                           operator: 'sub',
                           left: {
                             kind: 'get_local',
-                            id: '1'
+                            name: '1'
                           },
                           right: {
                             kind: 'const',
@@ -253,14 +253,14 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                id: '2'
+                name: '2'
               }
             }
           ]
         },
         {
           kind: 'func',
-          id: 'fac-iter',
+          name: 'fac-iter',
           type: null,
           params: [{
             kind: 'param',
@@ -286,13 +286,13 @@
           body: [
             {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               },
               init: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }
@@ -300,7 +300,7 @@
             },
             {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'res'
               },
@@ -312,7 +312,7 @@
             },
             {
               kind: 'label',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'done'
               },
@@ -326,7 +326,7 @@
                     operator: 'eq',
                     left: {
                       kind: 'get_local',
-                      id: {
+                      name: {
                         kind: 'var',
                         name: 'i'
                       }
@@ -339,7 +339,7 @@
                   },
                   consequent: {
                     kind: 'break',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'done'
                     },
@@ -350,7 +350,7 @@
                     body: [
                       {
                         kind: 'set_local',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'res'
                         },
@@ -360,14 +360,14 @@
                           operator: 'mul',
                           left: {
                             kind: 'get_local',
-                            id: {
+                            name: {
                               kind: 'var',
                               name: 'i'
                             }
                           },
                           right: {
                             kind: 'get_local',
-                            id: {
+                            name: {
                               kind: 'var',
                               name: 'res'
                             }
@@ -376,7 +376,7 @@
                       },
                       {
                         kind: 'set_local',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'i'
                         },
@@ -386,7 +386,7 @@
                           operator: 'sub',
                           left: {
                             kind: 'get_local',
-                            id: {
+                            name: {
                               kind: 'var',
                               name: 'i'
                             }
@@ -407,7 +407,7 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'res'
                 }

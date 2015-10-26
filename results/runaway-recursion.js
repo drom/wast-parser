@@ -6,14 +6,14 @@
       body: [
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'call',
-            id: '0',
+            name: '0',
             expr: []
           }]
         },
@@ -23,14 +23,14 @@
         },
         {
           kind: 'func',
-          id: 'a',
+          name: 'a',
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'call',
-            id: {
+            name: {
               kind: 'var',
               name: 'b'
             },
@@ -39,14 +39,14 @@
         },
         {
           kind: 'func',
-          id: 'b',
+          name: 'b',
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'call',
-            id: {
+            name: {
               kind: 'var',
               name: 'a'
             },

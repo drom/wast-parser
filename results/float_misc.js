@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f32.add',
+          name: 'f32.add',
           type: null,
           params: [
             {
@@ -31,14 +31,14 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -47,7 +47,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.sub',
+          name: 'f32.sub',
           type: null,
           params: [
             {
@@ -72,14 +72,14 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -88,7 +88,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.mul',
+          name: 'f32.mul',
           type: null,
           params: [
             {
@@ -113,14 +113,14 @@
             operator: 'mul',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -129,7 +129,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.div',
+          name: 'f32.div',
           type: null,
           params: [
             {
@@ -154,14 +154,14 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -170,7 +170,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.sqrt',
+          name: 'f32.sqrt',
           type: null,
           params: [{
             kind: 'param',
@@ -188,7 +188,7 @@
             operator: 'sqrt',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -197,7 +197,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.abs',
+          name: 'f32.abs',
           type: null,
           params: [{
             kind: 'param',
@@ -215,7 +215,7 @@
             operator: 'abs',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -224,7 +224,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.neg',
+          name: 'f32.neg',
           type: null,
           params: [{
             kind: 'param',
@@ -242,7 +242,7 @@
             operator: 'neg',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -251,7 +251,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.copysign',
+          name: 'f32.copysign',
           type: null,
           params: [
             {
@@ -276,14 +276,14 @@
             operator: 'copysign',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -292,7 +292,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.ceil',
+          name: 'f32.ceil',
           type: null,
           params: [{
             kind: 'param',
@@ -310,7 +310,7 @@
             operator: 'ceil',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -319,7 +319,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.floor',
+          name: 'f32.floor',
           type: null,
           params: [{
             kind: 'param',
@@ -337,7 +337,7 @@
             operator: 'floor',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -346,7 +346,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.trunc',
+          name: 'f32.trunc',
           type: null,
           params: [{
             kind: 'param',
@@ -364,7 +364,7 @@
             operator: 'trunc',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -373,7 +373,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.nearest',
+          name: 'f32.nearest',
           type: null,
           params: [{
             kind: 'param',
@@ -391,7 +391,7 @@
             operator: 'nearest',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -400,7 +400,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.add',
+          name: 'f64.add',
           type: null,
           params: [
             {
@@ -425,14 +425,14 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -441,7 +441,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.sub',
+          name: 'f64.sub',
           type: null,
           params: [
             {
@@ -466,14 +466,14 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -482,7 +482,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.mul',
+          name: 'f64.mul',
           type: null,
           params: [
             {
@@ -507,14 +507,14 @@
             operator: 'mul',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -523,7 +523,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.div',
+          name: 'f64.div',
           type: null,
           params: [
             {
@@ -548,14 +548,14 @@
             operator: 'div',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -564,7 +564,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.sqrt',
+          name: 'f64.sqrt',
           type: null,
           params: [{
             kind: 'param',
@@ -582,7 +582,7 @@
             operator: 'sqrt',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -591,7 +591,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.abs',
+          name: 'f64.abs',
           type: null,
           params: [{
             kind: 'param',
@@ -609,7 +609,7 @@
             operator: 'abs',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -618,7 +618,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.neg',
+          name: 'f64.neg',
           type: null,
           params: [{
             kind: 'param',
@@ -636,7 +636,7 @@
             operator: 'neg',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -645,7 +645,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.copysign',
+          name: 'f64.copysign',
           type: null,
           params: [
             {
@@ -670,14 +670,14 @@
             operator: 'copysign',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -686,7 +686,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.ceil',
+          name: 'f64.ceil',
           type: null,
           params: [{
             kind: 'param',
@@ -704,7 +704,7 @@
             operator: 'ceil',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -713,7 +713,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.floor',
+          name: 'f64.floor',
           type: null,
           params: [{
             kind: 'param',
@@ -731,7 +731,7 @@
             operator: 'floor',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -740,7 +740,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.trunc',
+          name: 'f64.trunc',
           type: null,
           params: [{
             kind: 'param',
@@ -758,7 +758,7 @@
             operator: 'trunc',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -767,7 +767,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.nearest',
+          name: 'f64.nearest',
           type: null,
           params: [{
             kind: 'param',
@@ -785,7 +785,7 @@
             operator: 'nearest',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }

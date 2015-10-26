@@ -16,7 +16,7 @@
         },
         {
           kind: 'func',
-          id: 'store',
+          name: 'store',
           type: null,
           params: [
             {
@@ -48,7 +48,7 @@
               left: {kind: 'memory_size'},
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -56,7 +56,7 @@
             },
             data: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'v'
               }
@@ -69,7 +69,7 @@
         },
         {
           kind: 'func',
-          id: 'load',
+          name: 'load',
           type: null,
           params: [{
             kind: 'param',
@@ -95,7 +95,7 @@
               left: {kind: 'memory_size'},
               right: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -109,7 +109,7 @@
         },
         {
           kind: 'func',
-          id: 'grow_memory',
+          name: 'grow_memory',
           type: null,
           params: [{
             kind: 'param',
@@ -122,7 +122,7 @@
             kind: 'grow_memory',
             expression: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -135,7 +135,7 @@
         },
         {
           kind: 'func',
-          id: 'overflow_memory_size',
+          name: 'overflow_memory_size',
           type: null,
           params: [],
           result: null,

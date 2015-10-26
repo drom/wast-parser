@@ -56,7 +56,7 @@
         },
         {
           kind: 'func',
-          id: 'print32',
+          name: 'print32',
           type: null,
           params: [{
             kind: 'param',
@@ -68,13 +68,13 @@
           body: [
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32'
               },
               expr: [{
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -82,7 +82,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i32_f32'
               },
@@ -93,7 +93,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'i'
                     }
@@ -115,7 +115,7 @@
         },
         {
           kind: 'func',
-          id: 'print64',
+          name: 'print64',
           type: null,
           params: [{
             kind: 'param',
@@ -127,13 +127,13 @@
           body: [
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64'
               },
               expr: [{
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -141,7 +141,7 @@
             },
             {
               kind: 'call_import',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'print_i64_f64'
               },
@@ -152,7 +152,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'i'
                     }

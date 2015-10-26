@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -28,7 +28,7 @@
       body: [
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -54,7 +54,7 @@
       body: [
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -67,7 +67,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -95,7 +95,7 @@
         body: [
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -124,7 +124,7 @@
         body: [
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -137,7 +137,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -170,7 +170,7 @@
         body: [
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -201,7 +201,7 @@
       body: [
         {
           kind: 'func',
-          id: 'f',
+          name: 'f',
           type: null,
           params: [{
             kind: 'param',
@@ -221,7 +221,7 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }

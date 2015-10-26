@@ -14,7 +14,7 @@
         },
         {
           kind: 'func',
-          id: 'even',
+          name: 'even',
           type: null,
           params: [{
             kind: 'param',
@@ -34,7 +34,7 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }
@@ -52,7 +52,7 @@
             },
             alternate: {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'odd'
               },
@@ -62,7 +62,7 @@
                 operator: 'sub',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'n'
                   }
@@ -78,7 +78,7 @@
         },
         {
           kind: 'func',
-          id: 'odd',
+          name: 'odd',
           type: null,
           params: [{
             kind: 'param',
@@ -98,7 +98,7 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'n'
                 }
@@ -116,7 +116,7 @@
             },
             alternate: {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'even'
               },
@@ -126,7 +126,7 @@
                 operator: 'sub',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'n'
                   }

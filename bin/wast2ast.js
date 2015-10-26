@@ -14,15 +14,15 @@ function runner (name) {
         console.log(name);
         try {
             result = parser.parse(data);
-        } catch (er) {
-            console.log(er)
+        } catch (err1) {
+            console.log(err1);
             return;
         }
         fs.writeFile(
             path.resolve(dst, name + '.js'),
             jsof.s(result) + '\n',
-            function (err) {
-                if (err) { throw err; }
+            function (err2) {
+                if (err2) { throw err2; }
             }
         );
     };

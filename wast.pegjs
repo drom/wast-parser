@@ -112,10 +112,10 @@ expr
         }
 
         // = (label <var> (block <expr>+))
-        / kind:"block" __ id:var body:( __ expr )+ {
+        / kind:"block" __ name:var body:( __ expr )+ {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 body: body.map(function (e) { return e[1]; })
             };
         }
@@ -140,10 +140,10 @@ expr
         }
 
         // = (label <var> (loop (block <var>? <expr>*)))
-        / kind:"loop" __ id:var extra:( __ var )? body:( __ expr )* {
+        / kind:"loop" __ name:var extra:( __ var )? body:( __ expr )* {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 extra: extra ? extra[1] : extra,
                 body: body.map(function (e) { return e[1]; })
             };
@@ -157,26 +157,26 @@ expr
             };
         }
 
-        / kind:"label" id:( __ var )? __ body:expr {
+        / kind:"label" name:( __ var )? __ body:expr {
             return {
                 kind: kind,
-                id: id ? id[1] : id,
+                name: name ? name[1] : name,
                 body: body
             };
         }
 
-        / kind:"break" __ id:var expr:( __ expr )? {
+        / kind:"break" __ name:var expr:( __ expr )? {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 expr: expr ? expr[1] : expr
             };
         }
 
-        / kind:"has_feature" __ ["] id:[a-zA-Z0-9_\-\\]* ["] {
+        / kind:"has_feature" __ ["] name:[a-zA-Z0-9_\-\\]* ["] {
             return {
                 kind: kind,
-                id: id.join('')
+                name: name.join('')
             };
         }
 
@@ -191,10 +191,10 @@ expr
         }
 
         // = (label <var> (<type>.switch <expr> <case>* <expr>))
-        / type:local_type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
+        / type:local_type "." kind:"switch" __ name:var __ before:expr body:( __ case )* __ after:expr {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 type: type,
                 before: before,
                 body: body.map(function (e) { return e[1]; }),
@@ -202,18 +202,18 @@ expr
             };
         }
 
-        / kind:( "call_import" / "call" ) __ id:var expr:( __ expr )* {
+        / kind:( "call_import" / "call" ) __ name:var expr:( __ expr )* {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 expr: expr.map(function (e) { return e[1]; })
             };
         }
 
-        / kind:"call_indirect" __ id:var __ expr:( __ expr )+ {
+        / kind:"call_indirect" __ name:var __ expr:( __ expr )+ {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 expr: expr.map(function (e) { return e[1]; })
             }
         }
@@ -225,17 +225,17 @@ expr
             }
         }
 
-        / kind:("get_local" / "get_global") __ id:var {
+        / kind:("get_local" / "get_global") __ name:var {
             return {
                 kind: kind,
-                id: id
+                name: name
             };
         }
 
-        / kind:"set_local" __ id:var __ expr:expr {
+        / kind:"set_local" __ name:var __ expr:expr {
             return {
                 kind: kind,
-                id: id,
+                name: name,
                 init: expr
             };
         }
@@ -372,17 +372,17 @@ local
         };
     }
 
-func_type = "(" kind:"type" __ id:( __ int / "$" name ) __ ")" {
+func_type = "(" kind:"type" __ name:( __ int / "$" name ) __ ")" {
     return {
         kind: kind,
-        id: id[1]
+        name: name[1]
     };
 }
 
 func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
-        id: name ? name[2] : name,
+        name: name ? name[2] : name,
         type: type ? type[1] : type,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
@@ -400,7 +400,7 @@ func_def = "(" "func" ( __ param_def )* ( __ result_def )? __ ")"
 type_def = kind:"type" name:( __ "$" name )? __ func_def {
     return {
         kind: kind,
-        id: name ? name[2] : name
+        name: name ? name[2] : name
     };
 }
 

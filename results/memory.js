@@ -259,7 +259,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -291,7 +291,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -323,7 +323,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -355,7 +355,7 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: null,
           params: [],
           result: null,
@@ -389,7 +389,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -428,7 +428,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -467,7 +467,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -506,7 +506,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -545,7 +545,7 @@
           },
           {
             kind: 'func',
-            id: null,
+            name: null,
             type: null,
             params: [],
             result: null,
@@ -593,7 +593,7 @@
         },
         {
           kind: 'func',
-          id: 'data',
+          name: 'data',
           type: null,
           params: [],
           result: {
@@ -823,7 +823,7 @@
         },
         {
           kind: 'func',
-          id: 'aligned',
+          name: 'aligned',
           type: null,
           params: [],
           result: {
@@ -841,7 +841,7 @@
           body: [
             {
               kind: 'set_local',
-              id: '0',
+              name: '0',
               init: {
                 kind: 'const',
                 type: 'i32',
@@ -850,7 +850,7 @@
             },
             {
               kind: 'label',
-              id: null,
+              name: null,
               body: {
                 kind: 'loop',
                 body: [
@@ -862,7 +862,7 @@
                       operator: 'eq',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'const',
@@ -872,21 +872,21 @@
                     },
                     consequent: {
                       kind: 'break',
-                      id: '0',
+                      name: '0',
                       expr: null
                     },
                     alternate: null
                   },
                   {
                     kind: 'set_local',
-                    id: '2',
+                    name: '2',
                     init: {
                       kind: 'binop',
                       type: 'i32',
                       operator: 'mul',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'const',
@@ -903,16 +903,16 @@
                     align: 0,
                     addr: {
                       kind: 'get_local',
-                      id: '2'
+                      name: '2'
                     },
                     data: {
                       kind: 'get_local',
-                      id: '0'
+                      name: '0'
                     }
                   },
                   {
                     kind: 'set_local',
-                    id: '1',
+                    name: '1',
                     init: {
                       kind: 'load',
                       type: 'i32',
@@ -922,7 +922,7 @@
                       align: 0,
                       expr: {
                         kind: 'get_local',
-                        id: '2'
+                        name: '2'
                       }
                     }
                   },
@@ -934,11 +934,11 @@
                       operator: 'ne',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'get_local',
-                        id: '1'
+                        name: '1'
                       }
                     },
                     consequent: {
@@ -953,14 +953,14 @@
                   },
                   {
                     kind: 'set_local',
-                    id: '0',
+                    name: '0',
                     init: {
                       kind: 'binop',
                       type: 'i32',
                       operator: 'sub',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'const',
@@ -984,7 +984,7 @@
         },
         {
           kind: 'func',
-          id: 'unaligned',
+          name: 'unaligned',
           type: null,
           params: [],
           result: {
@@ -1002,7 +1002,7 @@
           body: [
             {
               kind: 'set_local',
-              id: '0',
+              name: '0',
               init: {
                 kind: 'const',
                 type: 'i32',
@@ -1011,7 +1011,7 @@
             },
             {
               kind: 'label',
-              id: null,
+              name: null,
               body: {
                 kind: 'loop',
                 body: [
@@ -1023,7 +1023,7 @@
                       operator: 'eq',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'const',
@@ -1033,14 +1033,14 @@
                     },
                     consequent: {
                       kind: 'break',
-                      id: '0',
+                      name: '0',
                       expr: null
                     },
                     alternate: null
                   },
                   {
                     kind: 'set_local',
-                    id: '2',
+                    name: '2',
                     init: {
                       kind: 'cvtop',
                       type: 'f64',
@@ -1048,7 +1048,7 @@
                       operator: 'convert_s',
                       expr: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       }
                     }
                   },
@@ -1060,16 +1060,16 @@
                     align: '1',
                     addr: {
                       kind: 'get_local',
-                      id: '0'
+                      name: '0'
                     },
                     data: {
                       kind: 'get_local',
-                      id: '2'
+                      name: '2'
                     }
                   },
                   {
                     kind: 'set_local',
-                    id: '1',
+                    name: '1',
                     init: {
                       kind: 'load',
                       type: 'f64',
@@ -1079,7 +1079,7 @@
                       align: '1',
                       expr: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       }
                     }
                   },
@@ -1091,11 +1091,11 @@
                       operator: 'ne',
                       left: {
                         kind: 'get_local',
-                        id: '2'
+                        name: '2'
                       },
                       right: {
                         kind: 'get_local',
-                        id: '1'
+                        name: '1'
                       }
                     },
                     consequent: {
@@ -1110,14 +1110,14 @@
                   },
                   {
                     kind: 'set_local',
-                    id: '0',
+                    name: '0',
                     init: {
                       kind: 'binop',
                       type: 'i32',
                       operator: 'sub',
                       left: {
                         kind: 'get_local',
-                        id: '0'
+                        name: '0'
                       },
                       right: {
                         kind: 'const',
@@ -1141,7 +1141,7 @@
         },
         {
           kind: 'func',
-          id: 'cast',
+          name: 'cast',
           type: null,
           params: [],
           result: {
@@ -1262,7 +1262,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load8_s',
+          name: 'i32_load8_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1288,7 +1288,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1314,7 +1314,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load8_u',
+          name: 'i32_load8_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1340,7 +1340,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1366,7 +1366,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load16_s',
+          name: 'i32_load16_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1392,7 +1392,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1418,7 +1418,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load16_u',
+          name: 'i32_load16_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1444,7 +1444,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1470,7 +1470,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load8_s',
+          name: 'i64_load8_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1496,7 +1496,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1522,7 +1522,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load8_u',
+          name: 'i64_load8_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1548,7 +1548,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1574,7 +1574,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load16_s',
+          name: 'i64_load16_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1600,7 +1600,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1626,7 +1626,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load16_u',
+          name: 'i64_load16_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1652,7 +1652,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1678,7 +1678,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load32_s',
+          name: 'i64_load32_s',
           type: null,
           params: [{
             kind: 'param',
@@ -1704,7 +1704,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }
@@ -1730,7 +1730,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load32_u',
+          name: 'i64_load32_u',
           type: null,
           params: [{
             kind: 'param',
@@ -1756,7 +1756,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i'
                 }

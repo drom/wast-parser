@@ -6,38 +6,38 @@
       body: [
         {
           kind: 'type',
-          id: null
+          name: null
         },
         {
           kind: 'type',
-          id: 'S'
+          name: 'S'
         },
         {
           kind: 'type',
-          id: null
+          name: null
         },
         {
           kind: 'type',
-          id: null
+          name: null
         },
         {
           kind: 'type',
-          id: null
+          name: null
         },
         {
           kind: 'type',
-          id: 'T'
+          name: 'T'
         },
         {
           kind: 'type',
-          id: 'U'
+          name: 'U'
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: {
             kind: 'type',
-            id: '0'
+            name: '0'
           },
           params: [],
           result: null,
@@ -46,10 +46,10 @@
         },
         {
           kind: 'func',
-          id: null,
+          name: null,
           type: {
             kind: 'type',
-            id: 'S'
+            name: 'S'
           },
           params: [],
           result: null,
@@ -58,10 +58,10 @@
         },
         {
           kind: 'func',
-          id: 'one',
+          name: 'one',
           type: {
             kind: 'type',
-            id: '4'
+            name: '4'
           },
           params: [],
           result: null,
@@ -78,10 +78,10 @@
         },
         {
           kind: 'func',
-          id: 'two',
+          name: 'two',
           type: {
             kind: 'type',
-            id: 'T'
+            name: 'T'
           },
           params: [],
           result: null,
@@ -92,7 +92,7 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              id: '0'
+              name: '0'
             },
             right: {
               kind: 'const',
@@ -107,10 +107,10 @@
         },
         {
           kind: 'func',
-          id: 'three',
+          name: 'three',
           type: {
             kind: 'type',
-            id: 'T'
+            name: 'T'
           },
           params: [{
             kind: 'param',
@@ -128,7 +128,7 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              id: '0'
+              name: '0'
             },
             right: {
               kind: 'const',
@@ -147,30 +147,30 @@
           name2: 'print',
           type: {
             kind: 'type',
-            id: '6'
+            name: '6'
           },
           params: [],
           result: null
         },
         {
           kind: 'func',
-          id: 'four',
+          name: 'four',
           type: {
             kind: 'type',
-            id: 'U'
+            name: 'U'
           },
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'call_import',
-            id: {
+            name: {
               kind: 'var',
               name: 'print'
             },
             expr: [{
               kind: 'get_local',
-              id: '0'
+              name: '0'
             }]
           }]
         },
@@ -242,10 +242,10 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: null,
+          name: null,
           type: {
             kind: 'type',
-            id: '42'
+            name: '42'
           },
           params: [],
           result: null,
@@ -268,7 +268,7 @@
           name2: 'print',
           type: {
             kind: 'type',
-            id: '43'
+            name: '43'
           },
           params: [],
           result: null
@@ -284,11 +284,11 @@
       body: [
         {
           kind: 'type',
-          id: 'T'
+          name: 'T'
         },
         {
           kind: 'type',
-          id: 'U'
+          name: 'U'
         },
         [
           'table',
@@ -346,10 +346,10 @@
         ],
         {
           kind: 'func',
-          id: 't1',
+          name: 't1',
           type: {
             kind: 'type',
-            id: 'T'
+            name: 'T'
           },
           params: [],
           result: null,
@@ -362,10 +362,10 @@
         },
         {
           kind: 'func',
-          id: 't2',
+          name: 't2',
           type: {
             kind: 'type',
-            id: 'T'
+            name: 'T'
           },
           params: [],
           result: null,
@@ -378,10 +378,10 @@
         },
         {
           kind: 'func',
-          id: 't3',
+          name: 't3',
           type: {
             kind: 'type',
-            id: 'T'
+            name: 'T'
           },
           params: [],
           result: null,
@@ -394,10 +394,10 @@
         },
         {
           kind: 'func',
-          id: 'u1',
+          name: 'u1',
           type: {
             kind: 'type',
-            id: 'U'
+            name: 'U'
           },
           params: [],
           result: null,
@@ -410,10 +410,10 @@
         },
         {
           kind: 'func',
-          id: 'u2',
+          name: 'u2',
           type: {
             kind: 'type',
-            id: 'U'
+            name: 'U'
           },
           params: [],
           result: null,
@@ -426,7 +426,7 @@
         },
         {
           kind: 'func',
-          id: 'callt',
+          name: 'callt',
           type: null,
           params: [{
             kind: 'param',
@@ -440,13 +440,13 @@
           local: [],
           body: [{
             kind: 'call_indirect',
-            id: {
+            name: {
               kind: 'var',
               name: 'T'
             },
             expr: [{
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -459,7 +459,7 @@
         },
         {
           kind: 'func',
-          id: 'callu',
+          name: 'callu',
           type: null,
           params: [{
             kind: 'param',
@@ -473,13 +473,13 @@
           local: [],
           body: [{
             kind: 'call_indirect',
-            id: {
+            name: {
               kind: 'var',
               name: 'U'
             },
             expr: [{
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }

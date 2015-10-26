@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'stmt',
+          name: 'stmt',
           type: null,
           params: [{
             kind: 'param',
@@ -25,7 +25,7 @@
           body: [
             {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'j'
               },
@@ -37,13 +37,13 @@
             },
             {
               kind: 'label',
-              id: null,
+              name: null,
               body: {
                 kind: 'switch',
                 type: 'i32',
                 before: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i'
                   }
@@ -56,7 +56,7 @@
                       kind: 'return',
                       expr: {
                         kind: 'get_local',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'i'
                         }
@@ -82,7 +82,7 @@
                     body: [
                       {
                         kind: 'set_local',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'j'
                         },
@@ -97,7 +97,7 @@
                           },
                           right: {
                             kind: 'get_local',
-                            id: {
+                            name: {
                               kind: 'var',
                               name: 'i'
                             }
@@ -106,7 +106,7 @@
                       },
                       {
                         kind: 'break',
-                        id: '0',
+                        name: '0',
                         expr: null
                       }
                     ],
@@ -117,7 +117,7 @@
                     test: '4',
                     body: [{
                       kind: 'break',
-                      id: '0',
+                      name: '0',
                       expr: null
                     }],
                     fallthrough: false
@@ -127,7 +127,7 @@
                     test: '5',
                     body: [{
                       kind: 'set_local',
-                      id: {
+                      name: {
                         kind: 'var',
                         name: 'j'
                       },
@@ -144,7 +144,7 @@
                     test: '6',
                     body: [{
                       kind: 'set_local',
-                      id: {
+                      name: {
                         kind: 'var',
                         name: 'j'
                       },
@@ -159,7 +159,7 @@
                 ],
                 after: {
                   kind: 'set_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'j'
                   },
@@ -175,7 +175,7 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'j'
                 }
@@ -185,7 +185,7 @@
         },
         {
           kind: 'func',
-          id: 'expr',
+          name: 'expr',
           type: null,
           params: [{
             kind: 'param',
@@ -204,7 +204,7 @@
           body: [
             {
               kind: 'set_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'j'
               },
@@ -218,7 +218,7 @@
               kind: 'return',
               expr: {
                 kind: 'label',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'l'
                 },
@@ -227,7 +227,7 @@
                   type: 'i64',
                   before: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'i'
                     }
@@ -240,7 +240,7 @@
                         kind: 'return',
                         expr: {
                           kind: 'get_local',
-                          id: {
+                          name: {
                             kind: 'var',
                             name: 'i'
                           }
@@ -265,7 +265,7 @@
                       test: '3',
                       body: [{
                         kind: 'break',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'l'
                         },
@@ -280,7 +280,7 @@
                           },
                           right: {
                             kind: 'get_local',
-                            id: {
+                            name: {
                               kind: 'var',
                               name: 'i'
                             }
@@ -294,7 +294,7 @@
                       test: '6',
                       body: [{
                         kind: 'set_local',
-                        id: {
+                        name: {
                           kind: 'var',
                           name: 'j'
                         },
@@ -309,7 +309,7 @@
                   ],
                   after: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'j'
                     }

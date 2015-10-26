@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'has_wasm',
+          name: 'has_wasm',
           type: null,
           params: [],
           result: {
@@ -16,7 +16,7 @@
           local: [],
           body: [{
             kind: 'has_feature',
-            id: 'wasm'
+            name: 'wasm'
           }]
         },
         {
@@ -25,7 +25,7 @@
         },
         {
           kind: 'func',
-          id: 'has_simd128',
+          name: 'has_simd128',
           type: null,
           params: [],
           result: {
@@ -35,7 +35,7 @@
           local: [],
           body: [{
             kind: 'has_feature',
-            id: 'simd128'
+            name: 'simd128'
           }]
         },
         {

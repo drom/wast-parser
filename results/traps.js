@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: 'no_dce.i32.div_s',
+          name: 'no_dce.i32.div_s',
           type: null,
           params: [
             {
@@ -28,14 +28,14 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -44,7 +44,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i32.div_u',
+          name: 'no_dce.i32.div_u',
           type: null,
           params: [
             {
@@ -66,14 +66,14 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -82,7 +82,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.div_s',
+          name: 'no_dce.i64.div_s',
           type: null,
           params: [
             {
@@ -104,14 +104,14 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -120,7 +120,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.div_u',
+          name: 'no_dce.i64.div_u',
           type: null,
           params: [
             {
@@ -142,14 +142,14 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -271,7 +271,7 @@
       body: [
         {
           kind: 'func',
-          id: 'no_dce.i32.rem_s',
+          name: 'no_dce.i32.rem_s',
           type: null,
           params: [
             {
@@ -293,14 +293,14 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -309,7 +309,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i32.rem_u',
+          name: 'no_dce.i32.rem_u',
           type: null,
           params: [
             {
@@ -331,14 +331,14 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -347,7 +347,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.rem_s',
+          name: 'no_dce.i64.rem_s',
           type: null,
           params: [
             {
@@ -369,14 +369,14 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -385,7 +385,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.rem_u',
+          name: 'no_dce.i64.rem_u',
           type: null,
           params: [
             {
@@ -407,14 +407,14 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'y'
               }
@@ -536,7 +536,7 @@
       body: [
         {
           kind: 'func',
-          id: 'no_dce.i32.trunc_s_f32',
+          name: 'no_dce.i32.trunc_s_f32',
           type: null,
           params: [{
             kind: 'param',
@@ -552,7 +552,7 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -561,7 +561,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i32.trunc_u_f32',
+          name: 'no_dce.i32.trunc_u_f32',
           type: null,
           params: [{
             kind: 'param',
@@ -577,7 +577,7 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -586,7 +586,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i32.trunc_s_f64',
+          name: 'no_dce.i32.trunc_s_f64',
           type: null,
           params: [{
             kind: 'param',
@@ -602,7 +602,7 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -611,7 +611,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i32.trunc_u_f64',
+          name: 'no_dce.i32.trunc_u_f64',
           type: null,
           params: [{
             kind: 'param',
@@ -627,7 +627,7 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -636,7 +636,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.trunc_s_f32',
+          name: 'no_dce.i64.trunc_s_f32',
           type: null,
           params: [{
             kind: 'param',
@@ -652,7 +652,7 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -661,7 +661,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.trunc_u_f32',
+          name: 'no_dce.i64.trunc_u_f32',
           type: null,
           params: [{
             kind: 'param',
@@ -677,7 +677,7 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -686,7 +686,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.trunc_s_f64',
+          name: 'no_dce.i64.trunc_s_f64',
           type: null,
           params: [{
             kind: 'param',
@@ -702,7 +702,7 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -711,7 +711,7 @@
         },
         {
           kind: 'func',
-          id: 'no_dce.i64.trunc_u_f64',
+          name: 'no_dce.i64.trunc_u_f64',
           type: null,
           params: [{
             kind: 'param',
@@ -727,7 +727,7 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'x'
               }
@@ -911,7 +911,7 @@
         },
         {
           kind: 'func',
-          id: 'i32.load',
+          name: 'i32.load',
           type: null,
           params: [{
             kind: 'param',
@@ -929,7 +929,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -942,7 +942,7 @@
         },
         {
           kind: 'func',
-          id: 'i64.load',
+          name: 'i64.load',
           type: null,
           params: [{
             kind: 'param',
@@ -960,7 +960,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -973,7 +973,7 @@
         },
         {
           kind: 'func',
-          id: 'f32.load',
+          name: 'f32.load',
           type: null,
           params: [{
             kind: 'param',
@@ -991,7 +991,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }
@@ -1004,7 +1004,7 @@
         },
         {
           kind: 'func',
-          id: 'f64.load',
+          name: 'f64.load',
           type: null,
           params: [{
             kind: 'param',
@@ -1022,7 +1022,7 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i'
               }

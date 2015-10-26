@@ -12,7 +12,7 @@
         },
         {
           kind: 'func',
-          id: 'i16_store_little',
+          name: 'i16_store_little',
           type: null,
           params: [
             {
@@ -37,14 +37,14 @@
               align: 0,
               addr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'address'
                 }
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -62,7 +62,7 @@
                 operator: 'add',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'address'
                   }
@@ -79,7 +79,7 @@
                 operator: 'shr_u',
                 left: {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -95,7 +95,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_store_little',
+          name: 'i32_store_little',
           type: null,
           params: [
             {
@@ -114,21 +114,21 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
               expr: [
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'address'
                   }
                 },
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -137,7 +137,7 @@
             },
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
@@ -148,7 +148,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'address'
                     }
@@ -165,7 +165,7 @@
                   operator: 'shr_u',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -182,7 +182,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_store_little',
+          name: 'i64_store_little',
           type: null,
           params: [
             {
@@ -201,14 +201,14 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
               expr: [
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'address'
                   }
@@ -220,7 +220,7 @@
                   operator: 'wrap',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -230,7 +230,7 @@
             },
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
@@ -241,7 +241,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'address'
                     }
@@ -263,7 +263,7 @@
                     operator: 'shr_u',
                     left: {
                       kind: 'get_local',
-                      id: {
+                      name: {
                         kind: 'var',
                         name: 'value'
                       }
@@ -281,7 +281,7 @@
         },
         {
           kind: 'func',
-          id: 'i16_load_little',
+          name: 'i16_load_little',
           type: null,
           params: [{
             kind: 'param',
@@ -306,7 +306,7 @@
               align: 0,
               expr: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'address'
                 }
@@ -329,7 +329,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'address'
                     }
@@ -351,7 +351,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load_little',
+          name: 'i32_load_little',
           type: null,
           params: [{
             kind: 'param',
@@ -369,13 +369,13 @@
             operator: 'or',
             left: {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_load_little'
               },
               expr: [{
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'address'
                 }
@@ -387,7 +387,7 @@
               operator: 'shl',
               left: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i16_load_little'
                 },
@@ -397,7 +397,7 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'address'
                     }
@@ -419,7 +419,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load_little',
+          name: 'i64_load_little',
           type: null,
           params: [{
             kind: 'param',
@@ -442,13 +442,13 @@
               operator: 'extend_u',
               expr: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i32_load_little'
                 },
                 expr: [{
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'address'
                   }
@@ -466,7 +466,7 @@
                 operator: 'extend_u',
                 expr: {
                   kind: 'call',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'i32_load_little'
                   },
@@ -476,7 +476,7 @@
                     operator: 'add',
                     left: {
                       kind: 'get_local',
-                      id: {
+                      name: {
                         kind: 'var',
                         name: 'address'
                       }
@@ -499,7 +499,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load16_s',
+          name: 'i32_load16_s',
           type: null,
           params: [{
             kind: 'param',
@@ -514,7 +514,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
@@ -526,7 +526,7 @@
                 },
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -550,7 +550,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load16_u',
+          name: 'i32_load16_u',
           type: null,
           params: [{
             kind: 'param',
@@ -565,7 +565,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
@@ -577,7 +577,7 @@
                 },
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -601,7 +601,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_load',
+          name: 'i32_load',
           type: null,
           params: [{
             kind: 'param',
@@ -616,7 +616,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
@@ -628,7 +628,7 @@
                 },
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -652,7 +652,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load16_s',
+          name: 'i64_load16_s',
           type: null,
           params: [{
             kind: 'param',
@@ -667,7 +667,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
@@ -684,7 +684,7 @@
                   operator: 'wrap',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -709,7 +709,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load16_u',
+          name: 'i64_load16_u',
           type: null,
           params: [{
             kind: 'param',
@@ -724,7 +724,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_store_little'
               },
@@ -741,7 +741,7 @@
                   operator: 'wrap',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -766,7 +766,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load32_s',
+          name: 'i64_load32_s',
           type: null,
           params: [{
             kind: 'param',
@@ -781,7 +781,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
@@ -798,7 +798,7 @@
                   operator: 'wrap',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -823,7 +823,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load32_u',
+          name: 'i64_load32_u',
           type: null,
           params: [{
             kind: 'param',
@@ -838,7 +838,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
@@ -855,7 +855,7 @@
                   operator: 'wrap',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -880,7 +880,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_load',
+          name: 'i64_load',
           type: null,
           params: [{
             kind: 'param',
@@ -895,7 +895,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i64_store_little'
               },
@@ -907,7 +907,7 @@
                 },
                 {
                   kind: 'get_local',
-                  id: {
+                  name: {
                     kind: 'var',
                     name: 'value'
                   }
@@ -931,7 +931,7 @@
         },
         {
           kind: 'func',
-          id: 'f32_load',
+          name: 'f32_load',
           type: null,
           params: [{
             kind: 'param',
@@ -946,7 +946,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_store_little'
               },
@@ -963,7 +963,7 @@
                   operator: 'reinterpret',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -988,7 +988,7 @@
         },
         {
           kind: 'func',
-          id: 'f64_load',
+          name: 'f64_load',
           type: null,
           params: [{
             kind: 'param',
@@ -1003,7 +1003,7 @@
           body: [
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i64_store_little'
               },
@@ -1020,7 +1020,7 @@
                   operator: 'reinterpret',
                   expr: {
                     kind: 'get_local',
-                    id: {
+                    name: {
                       kind: 'var',
                       name: 'value'
                     }
@@ -1045,7 +1045,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_store16',
+          name: 'i32_store16',
           type: null,
           params: [{
             kind: 'param',
@@ -1071,7 +1071,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1079,7 +1079,7 @@
             },
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i16_load_little'
               },
@@ -1093,7 +1093,7 @@
         },
         {
           kind: 'func',
-          id: 'i32_store',
+          name: 'i32_store',
           type: null,
           params: [{
             kind: 'param',
@@ -1119,7 +1119,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1127,7 +1127,7 @@
             },
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i32_load_little'
               },
@@ -1141,7 +1141,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_store16',
+          name: 'i64_store16',
           type: null,
           params: [{
             kind: 'param',
@@ -1167,7 +1167,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1180,7 +1180,7 @@
               operator: 'extend_u',
               expr: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i16_load_little'
                 },
@@ -1195,7 +1195,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_store32',
+          name: 'i64_store32',
           type: null,
           params: [{
             kind: 'param',
@@ -1221,7 +1221,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1234,7 +1234,7 @@
               operator: 'extend_u',
               expr: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i32_load_little'
                 },
@@ -1249,7 +1249,7 @@
         },
         {
           kind: 'func',
-          id: 'i64_store',
+          name: 'i64_store',
           type: null,
           params: [{
             kind: 'param',
@@ -1275,7 +1275,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1283,7 +1283,7 @@
             },
             {
               kind: 'call',
-              id: {
+              name: {
                 kind: 'var',
                 name: 'i64_load_little'
               },
@@ -1297,7 +1297,7 @@
         },
         {
           kind: 'func',
-          id: 'f32_store',
+          name: 'f32_store',
           type: null,
           params: [{
             kind: 'param',
@@ -1323,7 +1323,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1336,7 +1336,7 @@
               operator: 'reinterpret',
               expr: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i32_load_little'
                 },
@@ -1351,7 +1351,7 @@
         },
         {
           kind: 'func',
-          id: 'f64_store',
+          name: 'f64_store',
           type: null,
           params: [{
             kind: 'param',
@@ -1377,7 +1377,7 @@
               },
               data: {
                 kind: 'get_local',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'value'
                 }
@@ -1390,7 +1390,7 @@
               operator: 'reinterpret',
               expr: {
                 kind: 'call',
-                id: {
+                name: {
                   kind: 'var',
                   name: 'i64_load_little'
                 },
