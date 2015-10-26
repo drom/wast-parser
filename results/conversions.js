@@ -6,11 +6,17 @@
       body: [
         {
           kind: 'func',
-          name: 'i64.extend_s_i32',
+          id: {
+            kind: 'identifier',
+            name: 'i64.extend_s_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -25,9 +31,9 @@
             operator: 'extend_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -38,11 +44,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.extend_u_i32',
+          id: {
+            kind: 'identifier',
+            name: 'i64.extend_u_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -57,9 +69,9 @@
             operator: 'extend_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -70,11 +82,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.wrap_i64',
+          id: {
+            kind: 'identifier',
+            name: 'i32.wrap_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -89,9 +107,9 @@
             operator: 'wrap',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -102,11 +120,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_s_f32',
+          id: {
+            kind: 'identifier',
+            name: 'i32.trunc_s_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -121,9 +145,9 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -134,11 +158,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_u_f32',
+          id: {
+            kind: 'identifier',
+            name: 'i32.trunc_u_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -153,9 +183,9 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -166,11 +196,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_s_f64',
+          id: {
+            kind: 'identifier',
+            name: 'i32.trunc_s_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -185,9 +221,9 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -198,11 +234,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.trunc_u_f64',
+          id: {
+            kind: 'identifier',
+            name: 'i32.trunc_u_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -217,9 +259,9 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -230,11 +272,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_s_f32',
+          id: {
+            kind: 'identifier',
+            name: 'i64.trunc_s_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -249,9 +297,9 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -262,11 +310,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_u_f32',
+          id: {
+            kind: 'identifier',
+            name: 'i64.trunc_u_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -281,9 +335,9 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -294,11 +348,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_s_f64',
+          id: {
+            kind: 'identifier',
+            name: 'i64.trunc_s_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -313,9 +373,9 @@
             operator: 'trunc_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -326,11 +386,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.trunc_u_f64',
+          id: {
+            kind: 'identifier',
+            name: 'i64.trunc_u_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -345,9 +411,9 @@
             operator: 'trunc_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -358,11 +424,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_s_i32',
+          id: {
+            kind: 'identifier',
+            name: 'f32.convert_s_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -377,9 +449,9 @@
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -390,11 +462,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_s_i64',
+          id: {
+            kind: 'identifier',
+            name: 'f32.convert_s_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -409,9 +487,9 @@
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -422,11 +500,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_s_i32',
+          id: {
+            kind: 'identifier',
+            name: 'f64.convert_s_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -441,9 +525,9 @@
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -454,11 +538,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_s_i64',
+          id: {
+            kind: 'identifier',
+            name: 'f64.convert_s_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -473,9 +563,9 @@
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -486,11 +576,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_u_i32',
+          id: {
+            kind: 'identifier',
+            name: 'f32.convert_u_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -505,9 +601,9 @@
             operator: 'convert_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -518,11 +614,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.convert_u_i64',
+          id: {
+            kind: 'identifier',
+            name: 'f32.convert_u_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -537,9 +639,9 @@
             operator: 'convert_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -550,11 +652,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_u_i32',
+          id: {
+            kind: 'identifier',
+            name: 'f64.convert_u_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -569,9 +677,9 @@
             operator: 'convert_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -582,11 +690,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.convert_u_i64',
+          id: {
+            kind: 'identifier',
+            name: 'f64.convert_u_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -601,9 +715,9 @@
             operator: 'convert_u',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -614,11 +728,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.promote_f32',
+          id: {
+            kind: 'identifier',
+            name: 'f64.promote_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -633,9 +753,9 @@
             operator: 'promote',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -646,11 +766,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.demote_f64',
+          id: {
+            kind: 'identifier',
+            name: 'f32.demote_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -665,9 +791,9 @@
             operator: 'demote',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -678,11 +804,17 @@
         },
         {
           kind: 'func',
-          name: 'f32.reinterpret_i32',
+          id: {
+            kind: 'identifier',
+            name: 'f32.reinterpret_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -697,9 +829,9 @@
             operator: 'reinterpret',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -710,11 +842,17 @@
         },
         {
           kind: 'func',
-          name: 'f64.reinterpret_i64',
+          id: {
+            kind: 'identifier',
+            name: 'f64.reinterpret_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -729,9 +867,9 @@
             operator: 'reinterpret',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -742,11 +880,17 @@
         },
         {
           kind: 'func',
-          name: 'i32.reinterpret_f32',
+          id: {
+            kind: 'identifier',
+            name: 'i32.reinterpret_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -761,9 +905,9 @@
             operator: 'reinterpret',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
@@ -774,11 +918,17 @@
         },
         {
           kind: 'func',
-          name: 'i64.reinterpret_f64',
+          id: {
+            kind: 'identifier',
+            name: 'i64.reinterpret_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -793,9 +943,9 @@
             operator: 'reinterpret',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]

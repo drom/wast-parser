@@ -6,6 +6,10 @@
       body: [
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -17,6 +21,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i64'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -28,6 +36,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32_f32'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -42,6 +54,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i64_f64'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -56,11 +72,17 @@
         },
         {
           kind: 'func',
-          name: 'print32',
+          id: {
+            kind: 'identifier',
+            name: 'print32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: null,
@@ -68,23 +90,23 @@
           body: [
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
               },
               expr: [{
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'i'
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32_f32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32_f32'
               },
               expr: [
                 {
@@ -93,9 +115,9 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    name: {
-                      kind: 'var',
-                      name: 'i'
+                    id: {
+                      kind: 'identifier',
+                      id: 'i'
                     }
                   },
                   right: {
@@ -115,11 +137,17 @@
         },
         {
           kind: 'func',
-          name: 'print64',
+          id: {
+            kind: 'identifier',
+            name: 'print64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i64'
           }],
           result: null,
@@ -127,23 +155,23 @@
           body: [
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'i'
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64_f64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64_f64'
               },
               expr: [
                 {
@@ -152,9 +180,9 @@
                   operator: 'add',
                   left: {
                     kind: 'get_local',
-                    name: {
-                      kind: 'var',
-                      name: 'i'
+                    id: {
+                      kind: 'identifier',
+                      id: 'i'
                     }
                   },
                   right: {

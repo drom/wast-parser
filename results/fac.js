@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -25,7 +28,11 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                name: '0'
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }
               },
               right: {
                 kind: 'const',
@@ -44,18 +51,30 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                name: '0'
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }
               },
               right: {
                 kind: 'call',
-                name: '0',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
                 expr: [{
                   kind: 'binop',
                   type: 'i64',
                   operator: 'sub',
                   left: {
                     kind: 'get_local',
-                    name: '0'
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
                   },
                   right: {
                     kind: 'const',
@@ -69,11 +88,17 @@
         },
         {
           kind: 'func',
-          name: 'fac-rec',
+          id: {
+            kind: 'identifier',
+            name: 'fac-rec'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'n',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             type: 'i64'
           }],
           result: {
@@ -89,9 +114,9 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               },
               right: {
@@ -111,16 +136,16 @@
               operator: 'mul',
               left: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'fac-rec'
+                id: {
+                  kind: 'identifier',
+                  id: 'fac-rec'
                 },
                 expr: [{
                   kind: 'binop',
@@ -128,9 +153,9 @@
                   operator: 'sub',
                   left: {
                     kind: 'get_local',
-                    name: {
-                      kind: 'var',
-                      name: 'n'
+                    id: {
+                      kind: 'identifier',
+                      id: 'n'
                     }
                   },
                   right: {
@@ -145,7 +170,10 @@
         },
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -165,15 +193,27 @@
           body: [
             {
               kind: 'set_local',
-              name: '1',
+              id: {
+                kind: 'literal',
+                value: 1,
+                raw: '1'
+              },
               init: {
                 kind: 'get_local',
-                name: '0'
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }
               }
             },
             {
               kind: 'set_local',
-              name: '2',
+              id: {
+                kind: 'literal',
+                value: 2,
+                raw: '2'
+              },
               init: {
                 kind: 'const',
                 type: 'i64',
@@ -182,7 +222,7 @@
             },
             {
               kind: 'label',
-              name: null,
+              id: null,
               body: {
                 kind: 'loop',
                 body: [{
@@ -193,7 +233,11 @@
                     operator: 'eq',
                     left: {
                       kind: 'get_local',
-                      name: '1'
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
                     },
                     right: {
                       kind: 'const',
@@ -203,7 +247,11 @@
                   },
                   consequent: {
                     kind: 'break',
-                    name: '0',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
                     expr: null
                   },
                   alternate: {
@@ -211,31 +259,51 @@
                     body: [
                       {
                         kind: 'set_local',
-                        name: '2',
+                        id: {
+                          kind: 'literal',
+                          value: 2,
+                          raw: '2'
+                        },
                         init: {
                           kind: 'binop',
                           type: 'i64',
                           operator: 'mul',
                           left: {
                             kind: 'get_local',
-                            name: '1'
+                            id: {
+                              kind: 'literal',
+                              value: 1,
+                              raw: '1'
+                            }
                           },
                           right: {
                             kind: 'get_local',
-                            name: '2'
+                            id: {
+                              kind: 'literal',
+                              value: 2,
+                              raw: '2'
+                            }
                           }
                         }
                       },
                       {
                         kind: 'set_local',
-                        name: '1',
+                        id: {
+                          kind: 'literal',
+                          value: 1,
+                          raw: '1'
+                        },
                         init: {
                           kind: 'binop',
                           type: 'i64',
                           operator: 'sub',
                           left: {
                             kind: 'get_local',
-                            name: '1'
+                            id: {
+                              kind: 'literal',
+                              value: 1,
+                              raw: '1'
+                            }
                           },
                           right: {
                             kind: 'const',
@@ -253,18 +321,28 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                name: '2'
+                id: {
+                  kind: 'literal',
+                  value: 2,
+                  raw: '2'
+                }
               }
             }
           ]
         },
         {
           kind: 'func',
-          name: 'fac-iter',
+          id: {
+            kind: 'identifier',
+            name: 'fac-iter'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'n',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             type: 'i64'
           }],
           result: {
@@ -274,35 +352,41 @@
           local: [
             {
               kind: 'local',
-              name: 'i',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              },
               body: 'i64'
             },
             {
               kind: 'local',
-              name: 'res',
+              id: {
+                kind: 'identifier',
+                name: 'res'
+              },
               body: 'i64'
             }
           ],
           body: [
             {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               },
               init: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               }
             },
             {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'res'
+              id: {
+                kind: 'identifier',
+                id: 'res'
               },
               init: {
                 kind: 'const',
@@ -312,9 +396,9 @@
             },
             {
               kind: 'label',
-              name: {
-                kind: 'var',
-                name: 'done'
+              id: {
+                kind: 'identifier',
+                id: 'done'
               },
               body: {
                 kind: 'loop',
@@ -326,9 +410,9 @@
                     operator: 'eq',
                     left: {
                       kind: 'get_local',
-                      name: {
-                        kind: 'var',
-                        name: 'i'
+                      id: {
+                        kind: 'identifier',
+                        id: 'i'
                       }
                     },
                     right: {
@@ -339,9 +423,9 @@
                   },
                   consequent: {
                     kind: 'break',
-                    name: {
-                      kind: 'var',
-                      name: 'done'
+                    id: {
+                      kind: 'identifier',
+                      id: 'done'
                     },
                     expr: null
                   },
@@ -350,9 +434,9 @@
                     body: [
                       {
                         kind: 'set_local',
-                        name: {
-                          kind: 'var',
-                          name: 'res'
+                        id: {
+                          kind: 'identifier',
+                          id: 'res'
                         },
                         init: {
                           kind: 'binop',
@@ -360,25 +444,25 @@
                           operator: 'mul',
                           left: {
                             kind: 'get_local',
-                            name: {
-                              kind: 'var',
-                              name: 'i'
+                            id: {
+                              kind: 'identifier',
+                              id: 'i'
                             }
                           },
                           right: {
                             kind: 'get_local',
-                            name: {
-                              kind: 'var',
-                              name: 'res'
+                            id: {
+                              kind: 'identifier',
+                              id: 'res'
                             }
                           }
                         }
                       },
                       {
                         kind: 'set_local',
-                        name: {
-                          kind: 'var',
-                          name: 'i'
+                        id: {
+                          kind: 'identifier',
+                          id: 'i'
                         },
                         init: {
                           kind: 'binop',
@@ -386,9 +470,9 @@
                           operator: 'sub',
                           left: {
                             kind: 'get_local',
-                            name: {
-                              kind: 'var',
-                              name: 'i'
+                            id: {
+                              kind: 'identifier',
+                              id: 'i'
                             }
                           },
                           right: {
@@ -407,9 +491,9 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'res'
+                id: {
+                  kind: 'identifier',
+                  id: 'res'
                 }
               }
             }

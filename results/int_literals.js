@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: 'i32.test',
+          id: {
+            kind: 'identifier',
+            name: 'i32.test'
+          },
           type: null,
           params: [],
           result: {
@@ -25,7 +28,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.umax',
+          id: {
+            kind: 'identifier',
+            name: 'i32.umax'
+          },
           type: null,
           params: [],
           result: {
@@ -44,7 +50,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.smax',
+          id: {
+            kind: 'identifier',
+            name: 'i32.smax'
+          },
           type: null,
           params: [],
           result: {
@@ -63,7 +72,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.neg_smax',
+          id: {
+            kind: 'identifier',
+            name: 'i32.neg_smax'
+          },
           type: null,
           params: [],
           result: {
@@ -82,7 +94,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.smin',
+          id: {
+            kind: 'identifier',
+            name: 'i32.smin'
+          },
           type: null,
           params: [],
           result: {
@@ -101,7 +116,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.alt_smin',
+          id: {
+            kind: 'identifier',
+            name: 'i32.alt_smin'
+          },
           type: null,
           params: [],
           result: {
@@ -120,7 +138,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.inc_smin',
+          id: {
+            kind: 'identifier',
+            name: 'i32.inc_smin'
+          },
           type: null,
           params: [],
           result: {
@@ -149,7 +170,10 @@
         },
         {
           kind: 'func',
-          name: 'i32.neg_zero',
+          id: {
+            kind: 'identifier',
+            name: 'i32.neg_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -168,7 +192,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.test',
+          id: {
+            kind: 'identifier',
+            name: 'i64.test'
+          },
           type: null,
           params: [],
           result: {
@@ -187,7 +214,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.umax',
+          id: {
+            kind: 'identifier',
+            name: 'i64.umax'
+          },
           type: null,
           params: [],
           result: {
@@ -206,7 +236,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.smax',
+          id: {
+            kind: 'identifier',
+            name: 'i64.smax'
+          },
           type: null,
           params: [],
           result: {
@@ -225,7 +258,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.neg_smax',
+          id: {
+            kind: 'identifier',
+            name: 'i64.neg_smax'
+          },
           type: null,
           params: [],
           result: {
@@ -244,7 +280,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.smin',
+          id: {
+            kind: 'identifier',
+            name: 'i64.smin'
+          },
           type: null,
           params: [],
           result: {
@@ -263,7 +302,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.alt_smin',
+          id: {
+            kind: 'identifier',
+            name: 'i64.alt_smin'
+          },
           type: null,
           params: [],
           result: {
@@ -282,7 +324,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.inc_smin',
+          id: {
+            kind: 'identifier',
+            name: 'i64.inc_smin'
+          },
           type: null,
           params: [],
           result: {
@@ -311,7 +356,10 @@
         },
         {
           kind: 'func',
-          name: 'i64.neg_zero',
+          id: {
+            kind: 'identifier',
+            name: 'i64.neg_zero'
+          },
           type: null,
           params: [],
           result: {

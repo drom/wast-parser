@@ -12,6 +12,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -23,6 +27,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i64'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -34,6 +42,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_f32'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -45,6 +57,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_f64'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -56,44 +72,59 @@
         },
         {
           kind: 'func',
-          name: 'run',
+          id: {
+            kind: 'identifier',
+            name: 'run'
+          },
           type: null,
           params: [],
           result: null,
           local: [
             {
               kind: 'local',
-              name: 'i32',
+              id: {
+                kind: 'identifier',
+                name: 'i32'
+              },
               body: 'i32'
             },
             {
               kind: 'local',
-              name: 'i64',
+              id: {
+                kind: 'identifier',
+                name: 'i64'
+              },
               body: 'i64'
             },
             {
               kind: 'local',
-              name: 'f32',
+              id: {
+                kind: 'identifier',
+                name: 'f32'
+              },
               body: 'f32'
             },
             {
               kind: 'local',
-              name: 'f64',
+              id: {
+                kind: 'identifier',
+                name: 'f64'
+              },
               body: 'f64'
             }
           ],
           body: [
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
               },
               expr: [{
                 kind: 'set_local',
-                name: {
-                  kind: 'var',
-                  name: 'i32'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32'
                 },
                 init: {
                   kind: 'const',
@@ -104,15 +135,15 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'set_local',
-                name: {
-                  kind: 'var',
-                  name: 'i64'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64'
                 },
                 init: {
                   kind: 'const',
@@ -123,15 +154,15 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_f32'
+              id: {
+                kind: 'identifier',
+                id: 'print_f32'
               },
               expr: [{
                 kind: 'set_local',
-                name: {
-                  kind: 'var',
-                  name: 'f32'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32'
                 },
                 init: {
                   kind: 'const',
@@ -142,15 +173,15 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_f64'
+              id: {
+                kind: 'identifier',
+                id: 'print_f64'
               },
               expr: [{
                 kind: 'set_local',
-                name: {
-                  kind: 'var',
-                  name: 'f64'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64'
                 },
                 init: {
                   kind: 'const',
@@ -161,9 +192,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -185,9 +216,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -209,9 +240,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_f32'
+              id: {
+                kind: 'identifier',
+                id: 'print_f32'
               },
               expr: [{
                 kind: 'store',
@@ -233,9 +264,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_f64'
+              id: {
+                kind: 'identifier',
+                id: 'print_f64'
               },
               expr: [{
                 kind: 'store',
@@ -257,9 +288,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -281,9 +312,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i32'
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -305,9 +336,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -329,9 +360,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -353,9 +384,9 @@
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print_i64'
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -394,33 +425,42 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
           local: [
             {
               kind: 'local',
-              name: 'i32',
+              id: {
+                kind: 'identifier',
+                name: 'i32'
+              },
               body: 'i32'
             },
             {
               kind: 'local',
-              name: 'i64',
+              id: {
+                kind: 'identifier',
+                name: 'i64'
+              },
               body: 'i64'
             }
           ],
           body: [{
             kind: 'set_local',
-            name: {
-              kind: 'var',
-              name: 'i64'
+            id: {
+              kind: 'identifier',
+              id: 'i64'
             },
             init: {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'i32'
+              id: {
+                kind: 'identifier',
+                id: 'i32'
               },
               init: {
                 kind: 'const',
@@ -442,33 +482,42 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
           local: [
             {
               kind: 'local',
-              name: 'i32',
+              id: {
+                kind: 'identifier',
+                name: 'i32'
+              },
               body: 'i32'
             },
             {
               kind: 'local',
-              name: 'i64',
+              id: {
+                kind: 'identifier',
+                name: 'i64'
+              },
               body: 'i64'
             }
           ],
           body: [{
             kind: 'set_local',
-            name: {
-              kind: 'var',
-              name: 'i32'
+            id: {
+              kind: 'identifier',
+              id: 'i32'
             },
             init: {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'i64'
+              id: {
+                kind: 'identifier',
+                id: 'i64'
               },
               init: {
                 kind: 'const',
@@ -490,33 +539,42 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
           local: [
             {
               kind: 'local',
-              name: 'f32',
+              id: {
+                kind: 'identifier',
+                name: 'f32'
+              },
               body: 'f32'
             },
             {
               kind: 'local',
-              name: 'f64',
+              id: {
+                kind: 'identifier',
+                name: 'f64'
+              },
               body: 'f64'
             }
           ],
           body: [{
             kind: 'set_local',
-            name: {
-              kind: 'var',
-              name: 'f64'
+            id: {
+              kind: 'identifier',
+              id: 'f64'
             },
             init: {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'f32'
+              id: {
+                kind: 'identifier',
+                id: 'f32'
               },
               init: {
                 kind: 'const',
@@ -538,33 +596,42 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
           local: [
             {
               kind: 'local',
-              name: 'f32',
+              id: {
+                kind: 'identifier',
+                name: 'f32'
+              },
               body: 'f32'
             },
             {
               kind: 'local',
-              name: 'f64',
+              id: {
+                kind: 'identifier',
+                name: 'f64'
+              },
               body: 'f64'
             }
           ],
           body: [{
             kind: 'set_local',
-            name: {
-              kind: 'var',
-              name: 'f32'
+            id: {
+              kind: 'identifier',
+              id: 'f32'
             },
             init: {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'f64'
+              id: {
+                kind: 'identifier',
+                id: 'f64'
               },
               init: {
                 kind: 'const',

@@ -6,17 +6,26 @@
       body: [
         {
           kind: 'func',
-          name: 'add',
+          id: {
+            kind: 'identifier',
+            name: 'add'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -31,33 +40,42 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'sub',
+          id: {
+            kind: 'identifier',
+            name: 'sub'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -72,33 +90,42 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'mul',
+          id: {
+            kind: 'identifier',
+            name: 'mul'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -113,33 +140,42 @@
             operator: 'mul',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'div_s',
+          id: {
+            kind: 'identifier',
+            name: 'div_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -154,33 +190,42 @@
             operator: 'div_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'div_u',
+          id: {
+            kind: 'identifier',
+            name: 'div_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -195,33 +240,42 @@
             operator: 'div_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'rem_s',
+          id: {
+            kind: 'identifier',
+            name: 'rem_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -236,33 +290,42 @@
             operator: 'rem_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'rem_u',
+          id: {
+            kind: 'identifier',
+            name: 'rem_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -277,33 +340,42 @@
             operator: 'rem_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'and',
+          id: {
+            kind: 'identifier',
+            name: 'and'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -318,33 +390,42 @@
             operator: 'and',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'or',
+          id: {
+            kind: 'identifier',
+            name: 'or'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -359,33 +440,42 @@
             operator: 'or',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'xor',
+          id: {
+            kind: 'identifier',
+            name: 'xor'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -400,33 +490,42 @@
             operator: 'xor',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'shl',
+          id: {
+            kind: 'identifier',
+            name: 'shl'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -441,33 +540,42 @@
             operator: 'shl',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'shr_s',
+          id: {
+            kind: 'identifier',
+            name: 'shr_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -482,33 +590,42 @@
             operator: 'shr_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'shr_u',
+          id: {
+            kind: 'identifier',
+            name: 'shr_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -523,27 +640,33 @@
             operator: 'shr_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'clz',
+          id: {
+            kind: 'identifier',
+            name: 'clz'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -557,20 +680,26 @@
             operator: 'clz',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'ctz',
+          id: {
+            kind: 'identifier',
+            name: 'ctz'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -584,20 +713,26 @@
             operator: 'ctz',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'popcnt',
+          id: {
+            kind: 'identifier',
+            name: 'popcnt'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -611,26 +746,35 @@
             operator: 'popcnt',
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'eq',
+          id: {
+            kind: 'identifier',
+            name: 'eq'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -645,33 +789,42 @@
             operator: 'eq',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'ne',
+          id: {
+            kind: 'identifier',
+            name: 'ne'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -686,33 +839,42 @@
             operator: 'ne',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'lt_s',
+          id: {
+            kind: 'identifier',
+            name: 'lt_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -727,33 +889,42 @@
             operator: 'lt_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'lt_u',
+          id: {
+            kind: 'identifier',
+            name: 'lt_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -768,33 +939,42 @@
             operator: 'lt_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'le_s',
+          id: {
+            kind: 'identifier',
+            name: 'le_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -809,33 +989,42 @@
             operator: 'le_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'le_u',
+          id: {
+            kind: 'identifier',
+            name: 'le_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -850,33 +1039,42 @@
             operator: 'le_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'gt_s',
+          id: {
+            kind: 'identifier',
+            name: 'gt_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -891,33 +1089,42 @@
             operator: 'gt_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'gt_u',
+          id: {
+            kind: 'identifier',
+            name: 'gt_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -932,33 +1139,42 @@
             operator: 'gt_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'ge_s',
+          id: {
+            kind: 'identifier',
+            name: 'ge_s'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -973,33 +1189,42 @@
             operator: 'ge_s',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'ge_u',
+          id: {
+            kind: 'identifier',
+            name: 'ge_u'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'x',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
               type: 'i64'
             },
             {
               kind: 'param',
-              name: 'y',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
               type: 'i64'
             }
           ],
@@ -1014,16 +1239,16 @@
             operator: 'ge_u',
             left: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             },
             right: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'y'
+              id: {
+                kind: 'identifier',
+                id: 'y'
               }
             }
           }]

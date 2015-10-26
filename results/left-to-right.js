@@ -12,7 +12,10 @@
         },
         {
           kind: 'func',
-          name: 'reset',
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          },
           type: null,
           params: [],
           result: null,
@@ -37,7 +40,10 @@
         },
         {
           kind: 'func',
-          name: 'get',
+          id: {
+            kind: 'identifier',
+            name: 'get'
+          },
           type: null,
           params: [],
           result: {
@@ -61,7 +67,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_left',
+          id: {
+            kind: 'identifier',
+            name: 'i32_left'
+          },
           type: null,
           params: [],
           result: {
@@ -96,7 +105,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_right',
+          id: {
+            kind: 'identifier',
+            name: 'i32_right'
+          },
           type: null,
           params: [],
           result: {
@@ -131,7 +143,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_left',
+          id: {
+            kind: 'identifier',
+            name: 'i64_left'
+          },
           type: null,
           params: [],
           result: {
@@ -166,7 +181,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_right',
+          id: {
+            kind: 'identifier',
+            name: 'i64_right'
+          },
           type: null,
           params: [],
           result: {
@@ -201,7 +219,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_left',
+          id: {
+            kind: 'identifier',
+            name: 'f32_left'
+          },
           type: null,
           params: [],
           result: {
@@ -236,7 +257,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_right',
+          id: {
+            kind: 'identifier',
+            name: 'f32_right'
+          },
           type: null,
           params: [],
           result: {
@@ -271,7 +295,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_left',
+          id: {
+            kind: 'identifier',
+            name: 'f64_left'
+          },
           type: null,
           params: [],
           result: {
@@ -306,7 +333,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_right',
+          id: {
+            kind: 'identifier',
+            name: 'f64_right'
+          },
           type: null,
           params: [],
           result: {
@@ -341,7 +371,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_dummy',
+          id: {
+            kind: 'identifier',
+            name: 'i32_dummy'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -356,7 +389,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_dummy',
+          id: {
+            kind: 'identifier',
+            name: 'i64_dummy'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -371,7 +407,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_dummy',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dummy'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -386,7 +425,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_dummy',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dummy'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -401,7 +443,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_add',
+          id: {
+            kind: 'identifier',
+            name: 'i32_add'
+          },
           type: null,
           params: [],
           result: {
@@ -412,9 +457,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -424,26 +469,26 @@
               operator: 'add',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -451,7 +496,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_sub',
+          id: {
+            kind: 'identifier',
+            name: 'i32_sub'
+          },
           type: null,
           params: [],
           result: {
@@ -462,9 +510,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -474,26 +522,26 @@
               operator: 'sub',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -501,7 +549,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_mul',
+          id: {
+            kind: 'identifier',
+            name: 'i32_mul'
+          },
           type: null,
           params: [],
           result: {
@@ -512,9 +563,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -524,26 +575,26 @@
               operator: 'mul',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -551,7 +602,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_div_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_div_s'
+          },
           type: null,
           params: [],
           result: {
@@ -562,9 +616,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -574,26 +628,26 @@
               operator: 'div_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -601,7 +655,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_div_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_div_u'
+          },
           type: null,
           params: [],
           result: {
@@ -612,9 +669,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -624,26 +681,26 @@
               operator: 'div_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -651,7 +708,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_rem_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_rem_s'
+          },
           type: null,
           params: [],
           result: {
@@ -662,9 +722,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -674,26 +734,26 @@
               operator: 'rem_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -701,7 +761,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_rem_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_rem_u'
+          },
           type: null,
           params: [],
           result: {
@@ -712,9 +775,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -724,26 +787,26 @@
               operator: 'rem_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -751,7 +814,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_and',
+          id: {
+            kind: 'identifier',
+            name: 'i32_and'
+          },
           type: null,
           params: [],
           result: {
@@ -762,9 +828,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -774,26 +840,26 @@
               operator: 'and',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -801,7 +867,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_or',
+          id: {
+            kind: 'identifier',
+            name: 'i32_or'
+          },
           type: null,
           params: [],
           result: {
@@ -812,9 +881,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -824,26 +893,26 @@
               operator: 'or',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -851,7 +920,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_xor',
+          id: {
+            kind: 'identifier',
+            name: 'i32_xor'
+          },
           type: null,
           params: [],
           result: {
@@ -862,9 +934,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -874,26 +946,26 @@
               operator: 'xor',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -901,7 +973,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_shl',
+          id: {
+            kind: 'identifier',
+            name: 'i32_shl'
+          },
           type: null,
           params: [],
           result: {
@@ -912,9 +987,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -924,26 +999,26 @@
               operator: 'shl',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -951,7 +1026,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_shr_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_shr_u'
+          },
           type: null,
           params: [],
           result: {
@@ -962,9 +1040,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -974,26 +1052,26 @@
               operator: 'shr_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1001,7 +1079,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_shr_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_shr_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1012,9 +1093,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1024,26 +1105,26 @@
               operator: 'shr_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1051,7 +1132,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_eq',
+          id: {
+            kind: 'identifier',
+            name: 'i32_eq'
+          },
           type: null,
           params: [],
           result: {
@@ -1062,9 +1146,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1074,26 +1158,26 @@
               operator: 'eq',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1101,7 +1185,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_ne',
+          id: {
+            kind: 'identifier',
+            name: 'i32_ne'
+          },
           type: null,
           params: [],
           result: {
@@ -1112,9 +1199,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1124,26 +1211,26 @@
               operator: 'ne',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1151,7 +1238,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_lt_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_lt_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1162,9 +1252,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1174,26 +1264,26 @@
               operator: 'lt_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1201,7 +1291,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_le_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_le_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1212,9 +1305,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1224,26 +1317,26 @@
               operator: 'le_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1251,7 +1344,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_lt_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_lt_u'
+          },
           type: null,
           params: [],
           result: {
@@ -1262,9 +1358,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1274,26 +1370,26 @@
               operator: 'lt_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1301,7 +1397,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_le_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_le_u'
+          },
           type: null,
           params: [],
           result: {
@@ -1312,9 +1411,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1324,26 +1423,26 @@
               operator: 'le_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1351,7 +1450,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_gt_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_gt_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1362,9 +1464,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1374,26 +1476,26 @@
               operator: 'gt_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1401,7 +1503,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_ge_s',
+          id: {
+            kind: 'identifier',
+            name: 'i32_ge_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1412,9 +1517,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1424,26 +1529,26 @@
               operator: 'ge_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1451,7 +1556,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_gt_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_gt_u'
+          },
           type: null,
           params: [],
           result: {
@@ -1462,9 +1570,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1474,26 +1582,26 @@
               operator: 'gt_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1501,7 +1609,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_ge_u',
+          id: {
+            kind: 'identifier',
+            name: 'i32_ge_u'
+          },
           type: null,
           params: [],
           result: {
@@ -1512,9 +1623,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1524,26 +1635,26 @@
               operator: 'ge_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1551,7 +1662,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_store',
+          id: {
+            kind: 'identifier',
+            name: 'i32_store'
+          },
           type: null,
           params: [],
           result: {
@@ -1562,9 +1676,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1576,26 +1690,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1603,7 +1717,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_store8',
+          id: {
+            kind: 'identifier',
+            name: 'i32_store8'
+          },
           type: null,
           params: [],
           result: {
@@ -1614,9 +1731,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1628,26 +1745,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1655,7 +1772,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_store16',
+          id: {
+            kind: 'identifier',
+            name: 'i32_store16'
+          },
           type: null,
           params: [],
           result: {
@@ -1666,9 +1786,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1680,26 +1800,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1707,7 +1827,10 @@
         },
         {
           kind: 'func',
-          name: 'i32_call',
+          id: {
+            kind: 'identifier',
+            name: 'i32_call'
+          },
           type: null,
           params: [],
           result: {
@@ -1718,32 +1841,32 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'i32_dummy'
+              id: {
+                kind: 'identifier',
+                id: 'i32_dummy'
               },
               expr: [
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'i32_left'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i32_left'
                   },
                   expr: []
                 },
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'i32_right'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i32_right'
                   },
                   expr: []
                 }
@@ -1751,9 +1874,9 @@
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1761,7 +1884,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_add',
+          id: {
+            kind: 'identifier',
+            name: 'i64_add'
+          },
           type: null,
           params: [],
           result: {
@@ -1772,9 +1898,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1784,26 +1910,26 @@
               operator: 'add',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1811,7 +1937,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_sub',
+          id: {
+            kind: 'identifier',
+            name: 'i64_sub'
+          },
           type: null,
           params: [],
           result: {
@@ -1822,9 +1951,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1834,26 +1963,26 @@
               operator: 'sub',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1861,7 +1990,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_mul',
+          id: {
+            kind: 'identifier',
+            name: 'i64_mul'
+          },
           type: null,
           params: [],
           result: {
@@ -1872,9 +2004,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1884,26 +2016,26 @@
               operator: 'mul',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1911,7 +2043,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_div_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_div_s'
+          },
           type: null,
           params: [],
           result: {
@@ -1922,9 +2057,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1934,26 +2069,26 @@
               operator: 'div_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -1961,7 +2096,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_div_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_div_u'
+          },
           type: null,
           params: [],
           result: {
@@ -1972,9 +2110,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -1984,26 +2122,26 @@
               operator: 'div_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2011,7 +2149,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_rem_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_rem_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2022,9 +2163,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2034,26 +2175,26 @@
               operator: 'rem_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2061,7 +2202,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_rem_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_rem_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2072,9 +2216,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2084,26 +2228,26 @@
               operator: 'rem_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2111,7 +2255,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_and',
+          id: {
+            kind: 'identifier',
+            name: 'i64_and'
+          },
           type: null,
           params: [],
           result: {
@@ -2122,9 +2269,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2134,26 +2281,26 @@
               operator: 'and',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2161,7 +2308,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_or',
+          id: {
+            kind: 'identifier',
+            name: 'i64_or'
+          },
           type: null,
           params: [],
           result: {
@@ -2172,9 +2322,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2184,26 +2334,26 @@
               operator: 'or',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2211,7 +2361,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_xor',
+          id: {
+            kind: 'identifier',
+            name: 'i64_xor'
+          },
           type: null,
           params: [],
           result: {
@@ -2222,9 +2375,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2234,26 +2387,26 @@
               operator: 'xor',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2261,7 +2414,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_shl',
+          id: {
+            kind: 'identifier',
+            name: 'i64_shl'
+          },
           type: null,
           params: [],
           result: {
@@ -2272,9 +2428,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2284,26 +2440,26 @@
               operator: 'shl',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2311,7 +2467,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_shr_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_shr_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2322,9 +2481,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2334,26 +2493,26 @@
               operator: 'shr_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2361,7 +2520,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_shr_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_shr_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2372,9 +2534,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2384,26 +2546,26 @@
               operator: 'shr_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2411,7 +2573,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_eq',
+          id: {
+            kind: 'identifier',
+            name: 'i64_eq'
+          },
           type: null,
           params: [],
           result: {
@@ -2422,9 +2587,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2434,26 +2599,26 @@
               operator: 'eq',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2461,7 +2626,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_ne',
+          id: {
+            kind: 'identifier',
+            name: 'i64_ne'
+          },
           type: null,
           params: [],
           result: {
@@ -2472,9 +2640,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2484,26 +2652,26 @@
               operator: 'ne',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2511,7 +2679,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_lt_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_lt_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2522,9 +2693,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2534,26 +2705,26 @@
               operator: 'lt_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2561,7 +2732,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_le_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_le_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2572,9 +2746,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2584,26 +2758,26 @@
               operator: 'le_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2611,7 +2785,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_lt_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_lt_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2622,9 +2799,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2634,26 +2811,26 @@
               operator: 'lt_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2661,7 +2838,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_le_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_le_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2672,9 +2852,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2684,26 +2864,26 @@
               operator: 'le_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2711,7 +2891,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_gt_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_gt_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2722,9 +2905,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2734,26 +2917,26 @@
               operator: 'gt_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2761,7 +2944,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_ge_s',
+          id: {
+            kind: 'identifier',
+            name: 'i64_ge_s'
+          },
           type: null,
           params: [],
           result: {
@@ -2772,9 +2958,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2784,26 +2970,26 @@
               operator: 'ge_s',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2811,7 +2997,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_gt_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_gt_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2822,9 +3011,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2834,26 +3023,26 @@
               operator: 'gt_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2861,7 +3050,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_ge_u',
+          id: {
+            kind: 'identifier',
+            name: 'i64_ge_u'
+          },
           type: null,
           params: [],
           result: {
@@ -2872,9 +3064,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2884,26 +3076,26 @@
               operator: 'ge_u',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2911,7 +3103,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_store',
+          id: {
+            kind: 'identifier',
+            name: 'i64_store'
+          },
           type: null,
           params: [],
           result: {
@@ -2922,9 +3117,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2936,26 +3131,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -2963,7 +3158,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_store8',
+          id: {
+            kind: 'identifier',
+            name: 'i64_store8'
+          },
           type: null,
           params: [],
           result: {
@@ -2974,9 +3172,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -2988,26 +3186,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3015,7 +3213,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_store16',
+          id: {
+            kind: 'identifier',
+            name: 'i64_store16'
+          },
           type: null,
           params: [],
           result: {
@@ -3026,9 +3227,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3040,26 +3241,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3067,7 +3268,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_store32',
+          id: {
+            kind: 'identifier',
+            name: 'i64_store32'
+          },
           type: null,
           params: [],
           result: {
@@ -3078,9 +3282,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3092,26 +3296,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3119,7 +3323,10 @@
         },
         {
           kind: 'func',
-          name: 'i64_call',
+          id: {
+            kind: 'identifier',
+            name: 'i64_call'
+          },
           type: null,
           params: [],
           result: {
@@ -3130,32 +3337,32 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'i64_dummy'
+              id: {
+                kind: 'identifier',
+                id: 'i64_dummy'
               },
               expr: [
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'i64_left'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i64_left'
                   },
                   expr: []
                 },
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'i64_right'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i64_right'
                   },
                   expr: []
                 }
@@ -3163,9 +3370,9 @@
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3173,7 +3380,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_add',
+          id: {
+            kind: 'identifier',
+            name: 'f32_add'
+          },
           type: null,
           params: [],
           result: {
@@ -3184,9 +3394,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3196,26 +3406,26 @@
               operator: 'add',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3223,7 +3433,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_sub',
+          id: {
+            kind: 'identifier',
+            name: 'f32_sub'
+          },
           type: null,
           params: [],
           result: {
@@ -3234,9 +3447,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3246,26 +3459,26 @@
               operator: 'sub',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3273,7 +3486,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_mul',
+          id: {
+            kind: 'identifier',
+            name: 'f32_mul'
+          },
           type: null,
           params: [],
           result: {
@@ -3284,9 +3500,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3296,26 +3512,26 @@
               operator: 'mul',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3323,7 +3539,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_div',
+          id: {
+            kind: 'identifier',
+            name: 'f32_div'
+          },
           type: null,
           params: [],
           result: {
@@ -3334,9 +3553,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3346,26 +3565,26 @@
               operator: 'div',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3373,7 +3592,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_copysign',
+          id: {
+            kind: 'identifier',
+            name: 'f32_copysign'
+          },
           type: null,
           params: [],
           result: {
@@ -3384,9 +3606,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3396,26 +3618,26 @@
               operator: 'copysign',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3423,7 +3645,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_eq',
+          id: {
+            kind: 'identifier',
+            name: 'f32_eq'
+          },
           type: null,
           params: [],
           result: {
@@ -3434,9 +3659,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3446,26 +3671,26 @@
               operator: 'eq',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3473,7 +3698,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_ne',
+          id: {
+            kind: 'identifier',
+            name: 'f32_ne'
+          },
           type: null,
           params: [],
           result: {
@@ -3484,9 +3712,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3496,26 +3724,26 @@
               operator: 'ne',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3523,7 +3751,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_lt',
+          id: {
+            kind: 'identifier',
+            name: 'f32_lt'
+          },
           type: null,
           params: [],
           result: {
@@ -3534,9 +3765,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3546,26 +3777,26 @@
               operator: 'lt',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3573,7 +3804,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_le',
+          id: {
+            kind: 'identifier',
+            name: 'f32_le'
+          },
           type: null,
           params: [],
           result: {
@@ -3584,9 +3818,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3596,26 +3830,26 @@
               operator: 'le',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3623,7 +3857,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_gt',
+          id: {
+            kind: 'identifier',
+            name: 'f32_gt'
+          },
           type: null,
           params: [],
           result: {
@@ -3634,9 +3871,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3646,26 +3883,26 @@
               operator: 'gt',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3673,7 +3910,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_ge',
+          id: {
+            kind: 'identifier',
+            name: 'f32_ge'
+          },
           type: null,
           params: [],
           result: {
@@ -3684,9 +3924,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3696,26 +3936,26 @@
               operator: 'ge',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3723,7 +3963,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_min',
+          id: {
+            kind: 'identifier',
+            name: 'f32_min'
+          },
           type: null,
           params: [],
           result: {
@@ -3734,9 +3977,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3746,26 +3989,26 @@
               operator: 'min',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3773,7 +4016,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_max',
+          id: {
+            kind: 'identifier',
+            name: 'f32_max'
+          },
           type: null,
           params: [],
           result: {
@@ -3784,9 +4030,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3796,26 +4042,26 @@
               operator: 'max',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3823,7 +4069,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_store',
+          id: {
+            kind: 'identifier',
+            name: 'f32_store'
+          },
           type: null,
           params: [],
           result: {
@@ -3834,9 +4083,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3848,26 +4097,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f32_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3875,7 +4124,10 @@
         },
         {
           kind: 'func',
-          name: 'f32_call',
+          id: {
+            kind: 'identifier',
+            name: 'f32_call'
+          },
           type: null,
           params: [],
           result: {
@@ -3886,32 +4138,32 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'f32_dummy'
+              id: {
+                kind: 'identifier',
+                id: 'f32_dummy'
               },
               expr: [
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'f32_left'
+                  id: {
+                    kind: 'identifier',
+                    id: 'f32_left'
                   },
                   expr: []
                 },
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'f32_right'
+                  id: {
+                    kind: 'identifier',
+                    id: 'f32_right'
                   },
                   expr: []
                 }
@@ -3919,9 +4171,9 @@
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3929,7 +4181,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_add',
+          id: {
+            kind: 'identifier',
+            name: 'f64_add'
+          },
           type: null,
           params: [],
           result: {
@@ -3940,9 +4195,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -3952,26 +4207,26 @@
               operator: 'add',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -3979,7 +4234,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_sub',
+          id: {
+            kind: 'identifier',
+            name: 'f64_sub'
+          },
           type: null,
           params: [],
           result: {
@@ -3990,9 +4248,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4002,26 +4260,26 @@
               operator: 'sub',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4029,7 +4287,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_mul',
+          id: {
+            kind: 'identifier',
+            name: 'f64_mul'
+          },
           type: null,
           params: [],
           result: {
@@ -4040,9 +4301,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4052,26 +4313,26 @@
               operator: 'mul',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4079,7 +4340,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_div',
+          id: {
+            kind: 'identifier',
+            name: 'f64_div'
+          },
           type: null,
           params: [],
           result: {
@@ -4090,9 +4354,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4102,26 +4366,26 @@
               operator: 'div',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4129,7 +4393,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_copysign',
+          id: {
+            kind: 'identifier',
+            name: 'f64_copysign'
+          },
           type: null,
           params: [],
           result: {
@@ -4140,9 +4407,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4152,26 +4419,26 @@
               operator: 'copysign',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4179,7 +4446,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_eq',
+          id: {
+            kind: 'identifier',
+            name: 'f64_eq'
+          },
           type: null,
           params: [],
           result: {
@@ -4190,9 +4460,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4202,26 +4472,26 @@
               operator: 'eq',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4229,7 +4499,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_ne',
+          id: {
+            kind: 'identifier',
+            name: 'f64_ne'
+          },
           type: null,
           params: [],
           result: {
@@ -4240,9 +4513,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4252,26 +4525,26 @@
               operator: 'ne',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4279,7 +4552,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_lt',
+          id: {
+            kind: 'identifier',
+            name: 'f64_lt'
+          },
           type: null,
           params: [],
           result: {
@@ -4290,9 +4566,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4302,26 +4578,26 @@
               operator: 'lt',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4329,7 +4605,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_le',
+          id: {
+            kind: 'identifier',
+            name: 'f64_le'
+          },
           type: null,
           params: [],
           result: {
@@ -4340,9 +4619,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4352,26 +4631,26 @@
               operator: 'le',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4379,7 +4658,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_gt',
+          id: {
+            kind: 'identifier',
+            name: 'f64_gt'
+          },
           type: null,
           params: [],
           result: {
@@ -4390,9 +4672,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4402,26 +4684,26 @@
               operator: 'gt',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4429,7 +4711,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_ge',
+          id: {
+            kind: 'identifier',
+            name: 'f64_ge'
+          },
           type: null,
           params: [],
           result: {
@@ -4440,9 +4725,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4452,26 +4737,26 @@
               operator: 'ge',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4479,7 +4764,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_min',
+          id: {
+            kind: 'identifier',
+            name: 'f64_min'
+          },
           type: null,
           params: [],
           result: {
@@ -4490,9 +4778,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4502,26 +4790,26 @@
               operator: 'min',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4529,7 +4817,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_max',
+          id: {
+            kind: 'identifier',
+            name: 'f64_max'
+          },
           type: null,
           params: [],
           result: {
@@ -4540,9 +4831,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4552,26 +4843,26 @@
               operator: 'max',
               left: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
                 },
                 expr: []
               },
               right: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4579,7 +4870,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_store',
+          id: {
+            kind: 'identifier',
+            name: 'f64_store'
+          },
           type: null,
           params: [],
           result: {
@@ -4590,9 +4884,9 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
@@ -4604,26 +4898,26 @@
               align: 0,
               addr: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'i32_left'
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
                 },
                 expr: []
               },
               data: {
                 kind: 'call',
-                name: {
-                  kind: 'var',
-                  name: 'f64_right'
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
                 },
                 expr: []
               }
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }
@@ -4631,7 +4925,10 @@
         },
         {
           kind: 'func',
-          name: 'f64_call',
+          id: {
+            kind: 'identifier',
+            name: 'f64_call'
+          },
           type: null,
           params: [],
           result: {
@@ -4642,32 +4939,32 @@
           body: [
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'reset'
+              id: {
+                kind: 'identifier',
+                id: 'reset'
               },
               expr: []
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'f64_dummy'
+              id: {
+                kind: 'identifier',
+                id: 'f64_dummy'
               },
               expr: [
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'f64_left'
+                  id: {
+                    kind: 'identifier',
+                    id: 'f64_left'
                   },
                   expr: []
                 },
                 {
                   kind: 'call',
-                  name: {
-                    kind: 'var',
-                    name: 'f64_right'
+                  id: {
+                    kind: 'identifier',
+                    id: 'f64_right'
                   },
                   expr: []
                 }
@@ -4675,9 +4972,9 @@
             },
             {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'get'
+              id: {
+                kind: 'identifier',
+                id: 'get'
               },
               expr: []
             }

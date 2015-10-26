@@ -16,7 +16,10 @@
         },
         {
           kind: 'func',
-          name: 'power_of_two',
+          id: {
+            kind: 'identifier',
+            name: 'power_of_two'
+          },
           type: null,
           params: [],
           result: {
@@ -37,7 +40,10 @@
         },
         {
           kind: 'func',
-          name: 'round_up_to_page',
+          id: {
+            kind: 'identifier',
+            name: 'round_up_to_page'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -58,7 +64,11 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                name: '0'
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }
               },
               right: {
                 kind: 'binop',
@@ -91,7 +101,10 @@
         },
         {
           kind: 'func',
-          name: 'load_at_zero',
+          id: {
+            kind: 'identifier',
+            name: 'load_at_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -119,7 +132,10 @@
         },
         {
           kind: 'func',
-          name: 'store_at_zero',
+          id: {
+            kind: 'identifier',
+            name: 'store_at_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -151,7 +167,10 @@
         },
         {
           kind: 'func',
-          name: 'load_at_page_size',
+          id: {
+            kind: 'identifier',
+            name: 'load_at_page_size'
+          },
           type: null,
           params: [],
           result: {
@@ -175,7 +194,10 @@
         },
         {
           kind: 'func',
-          name: 'store_at_page_size',
+          id: {
+            kind: 'identifier',
+            name: 'store_at_page_size'
+          },
           type: null,
           params: [],
           result: {
@@ -203,11 +225,17 @@
         },
         {
           kind: 'func',
-          name: 'grow',
+          id: {
+            kind: 'identifier',
+            name: 'grow'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'sz',
+            id: {
+              kind: 'identifier',
+              name: 'sz'
+            },
             type: 'i32'
           }],
           result: null,
@@ -216,15 +244,15 @@
             kind: 'grow_memory',
             expression: {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'round_up_to_page'
+              id: {
+                kind: 'identifier',
+                id: 'round_up_to_page'
               },
               expr: [{
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'sz'
+                id: {
+                  kind: 'identifier',
+                  id: 'sz'
                 }
               }]
             }
@@ -236,7 +264,10 @@
         },
         {
           kind: 'func',
-          name: 'size_at_least',
+          id: {
+            kind: 'identifier',
+            name: 'size_at_least'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -254,7 +285,11 @@
             left: {kind: 'memory_size'},
             right: {
               kind: 'get_local',
-              name: '0'
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
             }
           }]
         },
@@ -264,7 +299,10 @@
         },
         {
           kind: 'func',
-          name: 'size',
+          id: {
+            kind: 'identifier',
+            name: 'size'
+          },
           type: null,
           params: [],
           result: {

@@ -16,6 +16,10 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print'
+          },
           name1: 'stdio',
           name2: 'print',
           type: null,
@@ -27,11 +31,17 @@
         },
         {
           kind: 'func',
-          name: 'good',
+          id: {
+            kind: 'identifier',
+            name: 'good'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: null,
@@ -39,9 +49,9 @@
           body: [
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -52,18 +62,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -74,18 +84,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -96,18 +106,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -118,18 +128,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -140,18 +150,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -162,18 +172,18 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -184,18 +194,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -206,18 +216,18 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -228,18 +238,18 @@
                 align: 0,
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -250,18 +260,18 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -272,18 +282,18 @@
                 align: '2',
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
             },
             {
               kind: 'call_import',
-              name: {
-                kind: 'var',
-                name: 'print'
+              id: {
+                kind: 'identifier',
+                id: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -294,9 +304,9 @@
                 align: '1',
                 expr: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 }
               }]
@@ -309,11 +319,17 @@
         },
         {
           kind: 'func',
-          name: 'bad1',
+          id: {
+            kind: 'identifier',
+            name: 'bad1'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: null,
@@ -327,9 +343,9 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               }
             }
           }]
@@ -340,11 +356,17 @@
         },
         {
           kind: 'func',
-          name: 'bad2',
+          id: {
+            kind: 'identifier',
+            name: 'bad2'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: null,
@@ -358,9 +380,9 @@
             align: 0,
             expr: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               }
             }
           }]

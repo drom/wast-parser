@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: 'f32.nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.nan'
+          },
           type: null,
           params: [],
           result: {
@@ -28,7 +31,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.positive_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -50,7 +56,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.negative_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -72,7 +81,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.plain_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.plain_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -94,7 +106,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.informally_known_as_plain_snan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.informally_known_as_plain_snan'
+          },
           type: null,
           params: [],
           result: {
@@ -116,7 +131,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.allones_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.allones_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -138,7 +156,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.misc_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -160,7 +181,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_positive_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.misc_positive_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -182,7 +206,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.misc_negative_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f32.misc_negative_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -204,7 +231,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f32.infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -226,7 +256,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f32.positive_infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -248,7 +281,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f32.negative_infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -270,7 +306,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.zero',
+          id: {
+            kind: 'identifier',
+            name: 'f32.zero'
+          },
           type: null,
           params: [],
           result: {
@@ -292,7 +331,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.positive_zero',
+          id: {
+            kind: 'identifier',
+            name: 'f32.positive_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -314,7 +356,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.negative_zero',
+          id: {
+            kind: 'identifier',
+            name: 'f32.negative_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -336,7 +381,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.decimal',
+          id: {
+            kind: 'identifier',
+            name: 'f32.decimal'
+          },
           type: null,
           params: [],
           result: {
@@ -358,7 +406,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.hexadecimal',
+          id: {
+            kind: 'identifier',
+            name: 'f32.hexadecimal'
+          },
           type: null,
           params: [],
           result: {
@@ -380,7 +431,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.min_positive',
+          id: {
+            kind: 'identifier',
+            name: 'f32.min_positive'
+          },
           type: null,
           params: [],
           result: {
@@ -402,7 +456,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.max_finite',
+          id: {
+            kind: 'identifier',
+            name: 'f32.max_finite'
+          },
           type: null,
           params: [],
           result: {
@@ -424,7 +481,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.trailing_dot',
+          id: {
+            kind: 'identifier',
+            name: 'f32.trailing_dot'
+          },
           type: null,
           params: [],
           result: {
@@ -446,7 +506,10 @@
         },
         {
           kind: 'func',
-          name: 'f32.max_subnormal',
+          id: {
+            kind: 'identifier',
+            name: 'f32.max_subnormal'
+          },
           type: null,
           params: [],
           result: {
@@ -468,7 +531,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.nan'
+          },
           type: null,
           params: [],
           result: {
@@ -490,7 +556,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.positive_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -512,7 +581,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.negative_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -534,7 +606,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.plain_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.plain_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -556,7 +631,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.informally_known_as_plain_snan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.informally_known_as_plain_snan'
+          },
           type: null,
           params: [],
           result: {
@@ -578,7 +656,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.allones_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.allones_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -600,7 +681,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.misc_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -622,7 +706,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_positive_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.misc_positive_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -644,7 +731,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.misc_negative_nan',
+          id: {
+            kind: 'identifier',
+            name: 'f64.misc_negative_nan'
+          },
           type: null,
           params: [],
           result: {
@@ -666,7 +756,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f64.infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -688,7 +781,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f64.positive_infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -710,7 +806,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_infinity',
+          id: {
+            kind: 'identifier',
+            name: 'f64.negative_infinity'
+          },
           type: null,
           params: [],
           result: {
@@ -732,7 +831,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.zero',
+          id: {
+            kind: 'identifier',
+            name: 'f64.zero'
+          },
           type: null,
           params: [],
           result: {
@@ -754,7 +856,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.positive_zero',
+          id: {
+            kind: 'identifier',
+            name: 'f64.positive_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -776,7 +881,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.negative_zero',
+          id: {
+            kind: 'identifier',
+            name: 'f64.negative_zero'
+          },
           type: null,
           params: [],
           result: {
@@ -798,7 +906,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.decimal',
+          id: {
+            kind: 'identifier',
+            name: 'f64.decimal'
+          },
           type: null,
           params: [],
           result: {
@@ -820,7 +931,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.hexadecimal',
+          id: {
+            kind: 'identifier',
+            name: 'f64.hexadecimal'
+          },
           type: null,
           params: [],
           result: {
@@ -842,7 +956,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.min_positive',
+          id: {
+            kind: 'identifier',
+            name: 'f64.min_positive'
+          },
           type: null,
           params: [],
           result: {
@@ -864,7 +981,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.max_finite',
+          id: {
+            kind: 'identifier',
+            name: 'f64.max_finite'
+          },
           type: null,
           params: [],
           result: {
@@ -886,7 +1006,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.trailing_dot',
+          id: {
+            kind: 'identifier',
+            name: 'f64.trailing_dot'
+          },
           type: null,
           params: [],
           result: {
@@ -908,7 +1031,10 @@
         },
         {
           kind: 'func',
-          name: 'f64.max_subnormal',
+          id: {
+            kind: 'identifier',
+            name: 'f64.max_subnormal'
+          },
           type: null,
           params: [],
           result: {

@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
@@ -28,7 +31,10 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
@@ -54,7 +60,10 @@
       body: [
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
@@ -67,7 +76,10 @@
         },
         {
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: null,
           params: [],
           result: null,
@@ -95,7 +107,10 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: {
+              kind: 'identifier',
+              name: null
+            },
             type: null,
             params: [],
             result: null,
@@ -124,7 +139,10 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: {
+              kind: 'identifier',
+              name: null
+            },
             type: null,
             params: [],
             result: null,
@@ -137,7 +155,10 @@
           },
           {
             kind: 'func',
-            name: null,
+            id: {
+              kind: 'identifier',
+              name: null
+            },
             type: null,
             params: [],
             result: null,
@@ -170,7 +191,10 @@
         body: [
           {
             kind: 'func',
-            name: null,
+            id: {
+              kind: 'identifier',
+              name: null
+            },
             type: null,
             params: [],
             result: null,
@@ -201,11 +225,17 @@
       body: [
         {
           kind: 'func',
-          name: 'f',
+          id: {
+            kind: 'identifier',
+            name: 'f'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'n',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             type: 'i32'
           }],
           result: {
@@ -221,9 +251,9 @@
               operator: 'add',
               left: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               },
               right: {

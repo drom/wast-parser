@@ -14,11 +14,17 @@
         },
         {
           kind: 'func',
-          name: 'even',
+          id: {
+            kind: 'identifier',
+            name: 'even'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'n',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             type: 'i32'
           }],
           result: {
@@ -34,9 +40,9 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               },
               right: {
@@ -52,9 +58,9 @@
             },
             alternate: {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'odd'
+              id: {
+                kind: 'identifier',
+                id: 'odd'
               },
               expr: [{
                 kind: 'binop',
@@ -62,9 +68,9 @@
                 operator: 'sub',
                 left: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'n'
+                  id: {
+                    kind: 'identifier',
+                    id: 'n'
                   }
                 },
                 right: {
@@ -78,11 +84,17 @@
         },
         {
           kind: 'func',
-          name: 'odd',
+          id: {
+            kind: 'identifier',
+            name: 'odd'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'n',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             type: 'i32'
           }],
           result: {
@@ -98,9 +110,9 @@
               operator: 'eq',
               left: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'n'
+                id: {
+                  kind: 'identifier',
+                  id: 'n'
                 }
               },
               right: {
@@ -116,9 +128,9 @@
             },
             alternate: {
               kind: 'call',
-              name: {
-                kind: 'var',
-                name: 'even'
+              id: {
+                kind: 'identifier',
+                id: 'even'
               },
               expr: [{
                 kind: 'binop',
@@ -126,9 +138,9 @@
                 operator: 'sub',
                 left: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'n'
+                  id: {
+                    kind: 'identifier',
+                    id: 'n'
                   }
                 },
                 right: {

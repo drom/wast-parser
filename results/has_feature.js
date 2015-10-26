@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: 'has_wasm',
+          id: {
+            kind: 'identifier',
+            name: 'has_wasm'
+          },
           type: null,
           params: [],
           result: {
@@ -25,7 +28,10 @@
         },
         {
           kind: 'func',
-          name: 'has_simd128',
+          id: {
+            kind: 'identifier',
+            name: 'has_simd128'
+          },
           type: null,
           params: [],
           result: {

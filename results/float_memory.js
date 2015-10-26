@@ -12,11 +12,17 @@
         },
         {
           kind: 'func',
-          name: 'store_i32',
+          id: {
+            kind: 'identifier',
+            name: 'store_i32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i32'
           }],
           result: {
@@ -37,16 +43,19 @@
             },
             data: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'load_i32',
+          id: {
+            kind: 'identifier',
+            name: 'load_i32'
+          },
           type: null,
           params: [],
           result: {
@@ -70,11 +79,17 @@
         },
         {
           kind: 'func',
-          name: 'store_f32',
+          id: {
+            kind: 'identifier',
+            name: 'store_f32'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f32'
           }],
           result: {
@@ -95,16 +110,19 @@
             },
             data: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'load_f32',
+          id: {
+            kind: 'identifier',
+            name: 'load_f32'
+          },
           type: null,
           params: [],
           result: {
@@ -275,11 +293,17 @@
         },
         {
           kind: 'func',
-          name: 'store_i64',
+          id: {
+            kind: 'identifier',
+            name: 'store_i64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'i64'
           }],
           result: {
@@ -300,16 +324,19 @@
             },
             data: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'load_i64',
+          id: {
+            kind: 'identifier',
+            name: 'load_i64'
+          },
           type: null,
           params: [],
           result: {
@@ -333,11 +360,17 @@
         },
         {
           kind: 'func',
-          name: 'store_f64',
+          id: {
+            kind: 'identifier',
+            name: 'store_f64'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'x',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             type: 'f64'
           }],
           result: {
@@ -358,16 +391,19 @@
             },
             data: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'x'
+              id: {
+                kind: 'identifier',
+                id: 'x'
               }
             }
           }]
         },
         {
           kind: 'func',
-          name: 'load_f64',
+          id: {
+            kind: 'identifier',
+            name: 'load_f64'
+          },
           type: null,
           params: [],
           result: {

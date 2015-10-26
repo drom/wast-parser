@@ -6,50 +6,66 @@
       body: [
         {
           kind: 'type',
-          name: null
+          id: {
+            kind: 'identifier',
+            name: null
+          }
         },
         {
           kind: 'type',
-          name: 'S'
-        },
-        {
-          kind: 'type',
-          name: null
-        },
-        {
-          kind: 'type',
-          name: null
-        },
-        {
-          kind: 'type',
-          name: null
-        },
-        {
-          kind: 'type',
-          name: 'T'
-        },
-        {
-          kind: 'type',
-          name: 'U'
-        },
-        {
-          kind: 'func',
-          name: null,
-          type: {
-            kind: 'type',
-            name: '0'
-          },
-          params: [],
-          result: null,
-          local: [],
-          body: []
-        },
-        {
-          kind: 'func',
-          name: null,
-          type: {
-            kind: 'type',
+          id: {
+            kind: 'identifier',
             name: 'S'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: null
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: null
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: null
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'T'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'U'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: null
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            }
           },
           params: [],
           result: null,
@@ -58,10 +74,35 @@
         },
         {
           kind: 'func',
-          name: 'one',
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: {
             kind: 'type',
-            name: '4'
+            id: {
+              kind: 'identifier',
+              id: 'S'
+            }
+          },
+          params: [],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'one'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'literal',
+              value: 4,
+              raw: '4'
+            }
           },
           params: [],
           result: null,
@@ -78,10 +119,16 @@
         },
         {
           kind: 'func',
-          name: 'two',
+          id: {
+            kind: 'identifier',
+            name: 'two'
+          },
           type: {
             kind: 'type',
-            name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
           },
           params: [],
           result: null,
@@ -92,7 +139,11 @@
             operator: 'add',
             left: {
               kind: 'get_local',
-              name: '0'
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
             },
             right: {
               kind: 'const',
@@ -107,14 +158,23 @@
         },
         {
           kind: 'func',
-          name: 'three',
+          id: {
+            kind: 'identifier',
+            name: 'three'
+          },
           type: {
             kind: 'type',
-            name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
           },
           params: [{
             kind: 'param',
-            name: 'a',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             type: 'i32'
           }],
           result: {
@@ -128,7 +188,11 @@
             operator: 'sub',
             left: {
               kind: 'get_local',
-              name: '0'
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
             },
             right: {
               kind: 'const',
@@ -143,34 +207,52 @@
         },
         {
           kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print'
+          },
           name1: 'stdio',
           name2: 'print',
           type: {
             kind: 'type',
-            name: '6'
+            id: {
+              kind: 'literal',
+              value: 6,
+              raw: '6'
+            }
           },
           params: [],
           result: null
         },
         {
           kind: 'func',
-          name: 'four',
+          id: {
+            kind: 'identifier',
+            name: 'four'
+          },
           type: {
             kind: 'type',
-            name: 'U'
+            id: {
+              kind: 'identifier',
+              id: 'U'
+            }
           },
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'call_import',
-            name: {
-              kind: 'var',
-              name: 'print'
+            id: {
+              kind: 'identifier',
+              id: 'print'
             },
             expr: [{
               kind: 'get_local',
-              name: '0'
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
             }]
           }]
         },
@@ -242,10 +324,17 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          name: null,
+          id: {
+            kind: 'identifier',
+            name: null
+          },
           type: {
             kind: 'type',
-            name: '42'
+            id: {
+              kind: 'literal',
+              value: 42,
+              raw: '42'
+            }
           },
           params: [],
           result: null,
@@ -264,11 +353,16 @@
         kind: 'module',
         body: [{
           kind: 'import',
+          id: null,
           name1: 'stdio',
           name2: 'print',
           type: {
             kind: 'type',
-            name: '43'
+            id: {
+              kind: 'literal',
+              value: 43,
+              raw: '43'
+            }
           },
           params: [],
           result: null
@@ -284,11 +378,17 @@
       body: [
         {
           kind: 'type',
-          name: 'T'
+          id: {
+            kind: 'identifier',
+            name: 'T'
+          }
         },
         {
           kind: 'type',
-          name: 'U'
+          id: {
+            kind: 'identifier',
+            name: 'U'
+          }
         },
         [
           'table',
@@ -296,60 +396,66 @@
             [
               [' '],
               {
-                kind: 'var',
-                name: 't1'
+                kind: 'identifier',
+                id: 't1'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 't2'
+                kind: 'identifier',
+                id: 't2'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 't3'
+                kind: 'identifier',
+                id: 't3'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 'u1'
+                kind: 'identifier',
+                id: 'u1'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 'u2'
+                kind: 'identifier',
+                id: 'u2'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 't1'
+                kind: 'identifier',
+                id: 't1'
               }
             ],
             [
               [' '],
               {
-                kind: 'var',
-                name: 't3'
+                kind: 'identifier',
+                id: 't3'
               }
             ]
           ]
         ],
         {
           kind: 'func',
-          name: 't1',
+          id: {
+            kind: 'identifier',
+            name: 't1'
+          },
           type: {
             kind: 'type',
-            name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
           },
           params: [],
           result: null,
@@ -362,10 +468,16 @@
         },
         {
           kind: 'func',
-          name: 't2',
+          id: {
+            kind: 'identifier',
+            name: 't2'
+          },
           type: {
             kind: 'type',
-            name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
           },
           params: [],
           result: null,
@@ -378,10 +490,16 @@
         },
         {
           kind: 'func',
-          name: 't3',
+          id: {
+            kind: 'identifier',
+            name: 't3'
+          },
           type: {
             kind: 'type',
-            name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
           },
           params: [],
           result: null,
@@ -394,10 +512,16 @@
         },
         {
           kind: 'func',
-          name: 'u1',
+          id: {
+            kind: 'identifier',
+            name: 'u1'
+          },
           type: {
             kind: 'type',
-            name: 'U'
+            id: {
+              kind: 'identifier',
+              id: 'U'
+            }
           },
           params: [],
           result: null,
@@ -410,10 +534,16 @@
         },
         {
           kind: 'func',
-          name: 'u2',
+          id: {
+            kind: 'identifier',
+            name: 'u2'
+          },
           type: {
             kind: 'type',
-            name: 'U'
+            id: {
+              kind: 'identifier',
+              id: 'U'
+            }
           },
           params: [],
           result: null,
@@ -426,11 +556,17 @@
         },
         {
           kind: 'func',
-          name: 'callt',
+          id: {
+            kind: 'identifier',
+            name: 'callt'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: {
@@ -440,15 +576,15 @@
           local: [],
           body: [{
             kind: 'call_indirect',
-            name: {
-              kind: 'var',
-              name: 'T'
+            id: {
+              kind: 'identifier',
+              id: 'T'
             },
             expr: [{
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               }
             }]
           }]
@@ -459,11 +595,17 @@
         },
         {
           kind: 'func',
-          name: 'callu',
+          id: {
+            kind: 'identifier',
+            name: 'callu'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: {
@@ -473,15 +615,15 @@
           local: [],
           body: [{
             kind: 'call_indirect',
-            name: {
-              kind: 'var',
-              name: 'U'
+            id: {
+              kind: 'identifier',
+              id: 'U'
             },
             expr: [{
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               }
             }]
           }]

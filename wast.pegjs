@@ -70,11 +70,17 @@ align = digit:[0-9]* { return digit.join(''); }
 offset = digit:[0-9]* { return digit.join(''); }
 
 var
-    = int
-    / "$" name:name {
+    = int:int {
         return {
-            kind: 'var',
-            name: name
+            kind: 'literal',
+            value: Number(int),
+            raw: int
+        };
+    }
+    / "$" id:name {
+        return {
+            kind: 'identifier',
+            id: id
         };
     }
 
@@ -112,10 +118,10 @@ expr
         }
 
         // = (label <var> (block <expr>+))
-        / kind:"block" __ name:var body:( __ expr )+ {
+        / kind:"block" __ id:var body:( __ expr )+ {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 body: body.map(function (e) { return e[1]; })
             };
         }
@@ -140,10 +146,10 @@ expr
         }
 
         // = (label <var> (loop (block <var>? <expr>*)))
-        / kind:"loop" __ name:var extra:( __ var )? body:( __ expr )* {
+        / kind:"loop" __ id:var extra:( __ var )? body:( __ expr )* {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 extra: extra ? extra[1] : extra,
                 body: body.map(function (e) { return e[1]; })
             };
@@ -157,18 +163,18 @@ expr
             };
         }
 
-        / kind:"label" name:( __ var )? __ body:expr {
+        / kind:"label" id:( __ var )? __ body:expr {
             return {
                 kind: kind,
-                name: name ? name[1] : name,
+                id: id ? id[1] : id,
                 body: body
             };
         }
 
-        / kind:"break" __ name:var expr:( __ expr )? {
+        / kind:"break" __ id:var expr:( __ expr )? {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 expr: expr ? expr[1] : expr
             };
         }
@@ -191,10 +197,10 @@ expr
         }
 
         // = (label <var> (<type>.switch <expr> <case>* <expr>))
-        / type:local_type "." kind:"switch" __ name:var __ before:expr body:( __ case )* __ after:expr {
+        / type:local_type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 type: type,
                 before: before,
                 body: body.map(function (e) { return e[1]; }),
@@ -202,18 +208,18 @@ expr
             };
         }
 
-        / kind:( "call_import" / "call" ) __ name:var expr:( __ expr )* {
+        / kind:( "call_import" / "call" ) __ id:var expr:( __ expr )* {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 expr: expr.map(function (e) { return e[1]; })
             };
         }
 
-        / kind:"call_indirect" __ name:var __ expr:( __ expr )+ {
+        / kind:"call_indirect" __ id:var __ expr:( __ expr )+ {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 expr: expr.map(function (e) { return e[1]; })
             }
         }
@@ -225,17 +231,17 @@ expr
             }
         }
 
-        / kind:("get_local" / "get_global") __ name:var {
+        / kind:("get_local" / "get_global") __ id:var {
             return {
                 kind: kind,
-                name: name
+                id: id
             };
         }
 
-        / kind:"set_local" __ name:var __ expr:expr {
+        / kind:"set_local" __ id:var __ expr:expr {
             return {
                 kind: kind,
-                name: name,
+                id: id,
                 init: expr
             };
         }
@@ -337,7 +343,7 @@ param
     / "(" kind:"param" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
-            name: name,
+            id: { kind: 'identifier', name: name },
             type: type
         };
     }
@@ -367,22 +373,22 @@ local
     / "(" kind:"local" __ "$" name:name __ body:local_type __ ")" {
         return {
             kind: kind,
-            name: name,
+            id: { kind: 'identifier', name: name },
             body: body
         };
     }
 
-func_type = "(" kind:"type" __ name:( __ int / "$" name ) __ ")" {
+func_type = "(" kind:"type" __ id:var __ ")" {
     return {
         kind: kind,
-        name: name[1]
+        id: id
     };
 }
 
 func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
-        name: name ? name[2] : name,
+        id: { kind: 'identifier', name: name ? name[2] : name },
         type: type ? type[1] : type,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
@@ -400,7 +406,7 @@ func_def = "(" "func" ( __ param_def )* ( __ result_def )? __ ")"
 type_def = kind:"type" name:( __ "$" name )? __ func_def {
     return {
         kind: kind,
-        name: name ? name[2] : name
+        id: { kind: 'identifier', name: name ? name[2] : name }
     };
 }
 
@@ -411,9 +417,10 @@ global = kind:"global" body:( ( __ local_type )* / __ name __ local_type ) {
     };
 }
 
-import = kind:"import" ( __ "$" name )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
+import = kind:"import" id:( __ "$" name )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
     return {
         kind: kind,
+        id: (id ? { kind: 'identifier', name: id[2] } : null),
         name1: name1,
         name2: name2,
         type: type ? type[1] : type,

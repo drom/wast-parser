@@ -16,17 +16,26 @@
         },
         {
           kind: 'func',
-          name: 'store',
+          id: {
+            kind: 'identifier',
+            name: 'store'
+          },
           type: null,
           params: [
             {
               kind: 'param',
-              name: 'i',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              },
               type: 'i32'
             },
             {
               kind: 'param',
-              name: 'v',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               type: 'i32'
             }
           ],
@@ -48,17 +57,17 @@
               left: {kind: 'memory_size'},
               right: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'i'
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
                 }
               }
             },
             data: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'v'
+              id: {
+                kind: 'identifier',
+                id: 'v'
               }
             }
           }]
@@ -69,11 +78,17 @@
         },
         {
           kind: 'func',
-          name: 'load',
+          id: {
+            kind: 'identifier',
+            name: 'load'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: {
@@ -95,9 +110,9 @@
               left: {kind: 'memory_size'},
               right: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'i'
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
                 }
               }
             }
@@ -109,11 +124,17 @@
         },
         {
           kind: 'func',
-          name: 'grow_memory',
+          id: {
+            kind: 'identifier',
+            name: 'grow_memory'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: null,
@@ -122,9 +143,9 @@
             kind: 'grow_memory',
             expression: {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 'i'
+              id: {
+                kind: 'identifier',
+                id: 'i'
               }
             }
           }]
@@ -135,7 +156,10 @@
         },
         {
           kind: 'func',
-          name: 'overflow_memory_size',
+          id: {
+            kind: 'identifier',
+            name: 'overflow_memory_size'
+          },
           type: null,
           params: [],
           result: null,

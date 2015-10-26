@@ -16,7 +16,10 @@
         },
         {
           kind: 'func',
-          name: 'zero_everything',
+          id: {
+            kind: 'identifier',
+            name: 'zero_everything'
+          },
           type: null,
           params: [],
           result: null,
@@ -98,7 +101,10 @@
         },
         {
           kind: 'func',
-          name: 'test_store_to_load',
+          id: {
+            kind: 'identifier',
+            name: 'test_store_to_load'
+          },
           type: null,
           params: [],
           result: {
@@ -162,7 +168,10 @@
         },
         {
           kind: 'func',
-          name: 'test_redundant_load',
+          id: {
+            kind: 'identifier',
+            name: 'test_redundant_load'
+          },
           type: null,
           params: [],
           result: {
@@ -222,7 +231,10 @@
         },
         {
           kind: 'func',
-          name: 'test_dead_store',
+          id: {
+            kind: 'identifier',
+            name: 'test_dead_store'
+          },
           type: null,
           params: [],
           result: {
@@ -231,7 +243,10 @@
           },
           local: [{
             kind: 'local',
-            name: 't',
+            id: {
+              kind: 'identifier',
+              name: 't'
+            },
             body: 'f32'
           }],
           body: [
@@ -254,9 +269,9 @@
             },
             {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 't'
+              id: {
+                kind: 'identifier',
+                id: 't'
               },
               init: {
                 kind: 'load',
@@ -291,9 +306,9 @@
             },
             {
               kind: 'get_local',
-              name: {
-                kind: 'var',
-                name: 't'
+              id: {
+                kind: 'identifier',
+                id: 't'
               }
             }
           ]

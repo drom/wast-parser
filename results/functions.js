@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'func',
-          name: 'return-none',
+          id: {
+            kind: 'identifier',
+            name: 'return-none'
+          },
           type: null,
           params: [],
           result: null,

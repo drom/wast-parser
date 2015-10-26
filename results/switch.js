@@ -6,11 +6,17 @@
       body: [
         {
           kind: 'func',
-          name: 'stmt',
+          id: {
+            kind: 'identifier',
+            name: 'stmt'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i32'
           }],
           result: {
@@ -19,15 +25,18 @@
           },
           local: [{
             kind: 'local',
-            name: 'j',
+            id: {
+              kind: 'identifier',
+              name: 'j'
+            },
             body: 'i32'
           }],
           body: [
             {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'j'
+              id: {
+                kind: 'identifier',
+                id: 'j'
               },
               init: {
                 kind: 'const',
@@ -37,15 +46,15 @@
             },
             {
               kind: 'label',
-              name: null,
+              id: null,
               body: {
                 kind: 'switch',
                 type: 'i32',
                 before: {
                   kind: 'get_local',
-                  name: {
-                    kind: 'var',
-                    name: 'i'
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
                   }
                 },
                 body: [
@@ -56,9 +65,9 @@
                       kind: 'return',
                       expr: {
                         kind: 'get_local',
-                        name: {
-                          kind: 'var',
-                          name: 'i'
+                        id: {
+                          kind: 'identifier',
+                          id: 'i'
                         }
                       }
                     }],
@@ -82,9 +91,9 @@
                     body: [
                       {
                         kind: 'set_local',
-                        name: {
-                          kind: 'var',
-                          name: 'j'
+                        id: {
+                          kind: 'identifier',
+                          id: 'j'
                         },
                         init: {
                           kind: 'binop',
@@ -97,16 +106,20 @@
                           },
                           right: {
                             kind: 'get_local',
-                            name: {
-                              kind: 'var',
-                              name: 'i'
+                            id: {
+                              kind: 'identifier',
+                              id: 'i'
                             }
                           }
                         }
                       },
                       {
                         kind: 'break',
-                        name: '0',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
                         expr: null
                       }
                     ],
@@ -117,7 +130,11 @@
                     test: '4',
                     body: [{
                       kind: 'break',
-                      name: '0',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      },
                       expr: null
                     }],
                     fallthrough: false
@@ -127,9 +144,9 @@
                     test: '5',
                     body: [{
                       kind: 'set_local',
-                      name: {
-                        kind: 'var',
-                        name: 'j'
+                      id: {
+                        kind: 'identifier',
+                        id: 'j'
                       },
                       init: {
                         kind: 'const',
@@ -144,9 +161,9 @@
                     test: '6',
                     body: [{
                       kind: 'set_local',
-                      name: {
-                        kind: 'var',
-                        name: 'j'
+                      id: {
+                        kind: 'identifier',
+                        id: 'j'
                       },
                       init: {
                         kind: 'const',
@@ -159,9 +176,9 @@
                 ],
                 after: {
                   kind: 'set_local',
-                  name: {
-                    kind: 'var',
-                    name: 'j'
+                  id: {
+                    kind: 'identifier',
+                    id: 'j'
                   },
                   init: {
                     kind: 'const',
@@ -175,9 +192,9 @@
               kind: 'return',
               expr: {
                 kind: 'get_local',
-                name: {
-                  kind: 'var',
-                  name: 'j'
+                id: {
+                  kind: 'identifier',
+                  id: 'j'
                 }
               }
             }
@@ -185,11 +202,17 @@
         },
         {
           kind: 'func',
-          name: 'expr',
+          id: {
+            kind: 'identifier',
+            name: 'expr'
+          },
           type: null,
           params: [{
             kind: 'param',
-            name: 'i',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             type: 'i64'
           }],
           result: {
@@ -198,15 +221,18 @@
           },
           local: [{
             kind: 'local',
-            name: 'j',
+            id: {
+              kind: 'identifier',
+              name: 'j'
+            },
             body: 'i64'
           }],
           body: [
             {
               kind: 'set_local',
-              name: {
-                kind: 'var',
-                name: 'j'
+              id: {
+                kind: 'identifier',
+                id: 'j'
               },
               init: {
                 kind: 'const',
@@ -218,18 +244,18 @@
               kind: 'return',
               expr: {
                 kind: 'label',
-                name: {
-                  kind: 'var',
-                  name: 'l'
+                id: {
+                  kind: 'identifier',
+                  id: 'l'
                 },
                 body: {
                   kind: 'switch',
                   type: 'i64',
                   before: {
                     kind: 'get_local',
-                    name: {
-                      kind: 'var',
-                      name: 'i'
+                    id: {
+                      kind: 'identifier',
+                      id: 'i'
                     }
                   },
                   body: [
@@ -240,9 +266,9 @@
                         kind: 'return',
                         expr: {
                           kind: 'get_local',
-                          name: {
-                            kind: 'var',
-                            name: 'i'
+                          id: {
+                            kind: 'identifier',
+                            id: 'i'
                           }
                         }
                       }],
@@ -265,9 +291,9 @@
                       test: '3',
                       body: [{
                         kind: 'break',
-                        name: {
-                          kind: 'var',
-                          name: 'l'
+                        id: {
+                          kind: 'identifier',
+                          id: 'l'
                         },
                         expr: {
                           kind: 'binop',
@@ -280,9 +306,9 @@
                           },
                           right: {
                             kind: 'get_local',
-                            name: {
-                              kind: 'var',
-                              name: 'i'
+                            id: {
+                              kind: 'identifier',
+                              id: 'i'
                             }
                           }
                         }
@@ -294,9 +320,9 @@
                       test: '6',
                       body: [{
                         kind: 'set_local',
-                        name: {
-                          kind: 'var',
-                          name: 'j'
+                        id: {
+                          kind: 'identifier',
+                          id: 'j'
                         },
                         init: {
                           kind: 'const',
@@ -309,9 +335,9 @@
                   ],
                   after: {
                     kind: 'get_local',
-                    name: {
-                      kind: 'var',
-                      name: 'j'
+                    id: {
+                      kind: 'identifier',
+                      id: 'j'
                     }
                   }
                 }
