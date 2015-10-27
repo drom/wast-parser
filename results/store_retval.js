@@ -425,10 +425,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -482,10 +479,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -539,10 +533,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -596,10 +587,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,

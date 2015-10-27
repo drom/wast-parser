@@ -6,10 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [{
             kind: 'param',
@@ -170,10 +167,7 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [{
             kind: 'param',

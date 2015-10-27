@@ -385,10 +385,10 @@ func_type = "(" kind:"type" __ id:var __ ")" {
     };
 }
 
-func= kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
-        id: { kind: 'identifier', name: name ? name[2] : name },
+        id: (name ? { kind: 'identifier', name: name[2] } : null),
         type: type ? type[1] : type,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
@@ -401,7 +401,13 @@ param_def = "(" "param" ( __ local_type )? __ ")"
 
 result_def = "(" "result" __ local_type __ ")"
 
-func_def = "(" "func" ( __ param_def )* ( __ result_def )? __ ")"
+func_def = "(" kind:"func" params:( __ param_def )* result:( __ result_def )? __ ")" {
+    return {
+        kind: kind,
+        params: params.map(function (e) { return e[1]; }),
+        result: result ? result[1] : result
+    };
+}
 
 type_def = kind:"type" name:( __ "$" name )? __ func_def {
     return {

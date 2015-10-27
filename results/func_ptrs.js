@@ -55,10 +55,7 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: {
             kind: 'type',
             id: {
@@ -74,10 +71,7 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: {
             kind: 'type',
             id: {
@@ -324,10 +318,7 @@
         kind: 'module',
         body: [{
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: {
             kind: 'type',
             id: {

@@ -6,10 +6,7 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -31,10 +28,7 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -60,10 +54,7 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -76,10 +67,7 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: null
-          },
+          id: null,
           type: null,
           params: [],
           result: null,
@@ -107,10 +95,7 @@
         body: [
           {
             kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: null
-            },
+            id: null,
             type: null,
             params: [],
             result: null,
@@ -139,10 +124,7 @@
         body: [
           {
             kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: null
-            },
+            id: null,
             type: null,
             params: [],
             result: null,
@@ -155,10 +137,7 @@
           },
           {
             kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: null
-            },
+            id: null,
             type: null,
             params: [],
             result: null,
@@ -191,10 +170,7 @@
         body: [
           {
             kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: null
-            },
+            id: null,
             type: null,
             params: [],
             result: null,
