@@ -8,9 +8,12 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -90,13 +93,13 @@
             name: 'fac-rec'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'n'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'n',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -169,9 +172,12 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -179,9 +185,15 @@
           },
           local: [{
             kind: 'local',
-            body: [
-              'i64',
-              'i64'
+            items: [
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              }
             ]
           }],
           body: [
@@ -331,13 +343,13 @@
             name: 'fac-iter'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'n'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'n',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -346,19 +358,19 @@
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i'
-              },
-              body: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'i',
+                type: 'i64'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'res'
-              },
-              body: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'res',
+                type: 'i64'
+              }]
             }
           ],
           body: [

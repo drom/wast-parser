@@ -11,22 +11,22 @@
             name: 'no_dce.i32.div_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -58,22 +58,22 @@
             name: 'no_dce.i32.div_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -105,22 +105,22 @@
             name: 'no_dce.i64.div_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
             }
           ],
           result: null,
@@ -152,22 +152,22 @@
             name: 'no_dce.i64.div_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
             }
           ],
           result: null,
@@ -312,22 +312,22 @@
             name: 'no_dce.i32.rem_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -359,22 +359,22 @@
             name: 'no_dce.i32.rem_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -406,22 +406,22 @@
             name: 'no_dce.i64.rem_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
             }
           ],
           result: null,
@@ -453,22 +453,22 @@
             name: 'no_dce.i64.rem_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
             }
           ],
           result: null,
@@ -613,13 +613,13 @@
             name: 'no_dce.i32.trunc_s_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: null,
           local: [],
@@ -644,13 +644,13 @@
             name: 'no_dce.i32.trunc_u_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: null,
           local: [],
@@ -675,13 +675,13 @@
             name: 'no_dce.i32.trunc_s_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: null,
           local: [],
@@ -706,13 +706,13 @@
             name: 'no_dce.i32.trunc_u_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: null,
           local: [],
@@ -737,13 +737,13 @@
             name: 'no_dce.i64.trunc_s_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: null,
           local: [],
@@ -768,13 +768,13 @@
             name: 'no_dce.i64.trunc_u_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: null,
           local: [],
@@ -799,13 +799,13 @@
             name: 'no_dce.i64.trunc_s_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: null,
           local: [],
@@ -830,13 +830,13 @@
             name: 'no_dce.i64.trunc_u_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: null,
           local: [],
@@ -1036,13 +1036,13 @@
             name: 'i32.load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -1073,13 +1073,13 @@
             name: 'i64.load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -1110,13 +1110,13 @@
             name: 'f32.load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -1147,13 +1147,13 @@
             name: 'f64.load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],

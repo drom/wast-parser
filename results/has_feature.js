@@ -11,7 +11,7 @@
             name: 'has_wasm'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -33,7 +33,7 @@
             name: 'has_simd128'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'

@@ -8,7 +8,7 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -30,7 +30,7 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -56,7 +56,7 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -69,7 +69,7 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -97,7 +97,7 @@
             kind: 'func',
             id: null,
             type: null,
-            params: [],
+            param: [],
             result: null,
             local: [],
             body: [{
@@ -126,7 +126,7 @@
             kind: 'func',
             id: null,
             type: null,
-            params: [],
+            param: [],
             result: null,
             local: [],
             body: [{
@@ -139,7 +139,7 @@
             kind: 'func',
             id: null,
             type: null,
-            params: [],
+            param: [],
             result: null,
             local: [],
             body: [{
@@ -172,7 +172,7 @@
             kind: 'func',
             id: null,
             type: null,
-            params: [],
+            param: [],
             result: null,
             local: [],
             body: [{
@@ -206,13 +206,13 @@
             name: 'f'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'n'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'n',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',

@@ -21,22 +21,22 @@
             name: 'store'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'i'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'i',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'v'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'v',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -83,13 +83,13 @@
             name: 'load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -129,13 +129,13 @@
             name: 'grow_memory'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -161,7 +161,7 @@
             name: 'overflow_memory_size'
           },
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{

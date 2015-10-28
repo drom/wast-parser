@@ -11,22 +11,22 @@
             name: 'eq'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -61,22 +61,22 @@
             name: 'ne'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -111,22 +111,22 @@
             name: 'lt'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -161,22 +161,22 @@
             name: 'le'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -211,22 +211,22 @@
             name: 'gt'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -261,22 +261,22 @@
             name: 'ge'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {

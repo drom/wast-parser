@@ -17,13 +17,13 @@
             name: 'store_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -57,7 +57,7 @@
             name: 'load_i32'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -84,13 +84,13 @@
             name: 'store_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -124,7 +124,7 @@
             name: 'load_f32'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -298,13 +298,13 @@
             name: 'store_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -338,7 +338,7 @@
             name: 'load_i64'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -365,13 +365,13 @@
             name: 'store_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -405,7 +405,7 @@
             name: 'load_f64'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'f64'

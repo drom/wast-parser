@@ -11,7 +11,7 @@
             name: 'return-none'
           },
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{

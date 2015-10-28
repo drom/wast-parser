@@ -11,22 +11,22 @@
             name: 'f32.add'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -61,22 +61,22 @@
             name: 'f32.sub'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -111,22 +111,22 @@
             name: 'f32.mul'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -161,22 +161,22 @@
             name: 'f32.div'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -211,13 +211,13 @@
             name: 'f32.sqrt'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -244,13 +244,13 @@
             name: 'f32.abs'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -277,13 +277,13 @@
             name: 'f32.neg'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -310,22 +310,22 @@
             name: 'f32.copysign'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -360,13 +360,13 @@
             name: 'f32.ceil'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -393,13 +393,13 @@
             name: 'f32.floor'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -426,13 +426,13 @@
             name: 'f32.trunc'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -459,13 +459,13 @@
             name: 'f32.nearest'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -492,22 +492,22 @@
             name: 'f64.add'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -542,22 +542,22 @@
             name: 'f64.sub'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -592,22 +592,22 @@
             name: 'f64.mul'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -642,22 +642,22 @@
             name: 'f64.div'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -692,13 +692,13 @@
             name: 'f64.sqrt'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -725,13 +725,13 @@
             name: 'f64.abs'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -758,13 +758,13 @@
             name: 'f64.neg'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -791,22 +791,22 @@
             name: 'f64.copysign'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -841,13 +841,13 @@
             name: 'f64.ceil'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -874,13 +874,13 @@
             name: 'f64.floor'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -907,13 +907,13 @@
             name: 'f64.trunc'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -940,13 +940,13 @@
             name: 'f64.nearest'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',

@@ -11,22 +11,22 @@
             name: 'add'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -61,22 +61,22 @@
             name: 'sub'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -111,22 +111,22 @@
             name: 'mul'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -161,22 +161,22 @@
             name: 'div_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -211,22 +211,22 @@
             name: 'div_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -261,22 +261,22 @@
             name: 'rem_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -311,22 +311,22 @@
             name: 'rem_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -361,22 +361,22 @@
             name: 'and'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -411,22 +411,22 @@
             name: 'or'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -461,22 +461,22 @@
             name: 'xor'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -511,22 +511,22 @@
             name: 'shl'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -561,22 +561,22 @@
             name: 'shr_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -611,22 +611,22 @@
             name: 'shr_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -661,13 +661,13 @@
             name: 'clz'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -694,13 +694,13 @@
             name: 'ctz'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -727,13 +727,13 @@
             name: 'popcnt'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -760,22 +760,22 @@
             name: 'eq'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -810,22 +810,22 @@
             name: 'ne'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -860,22 +860,22 @@
             name: 'lt_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -910,22 +910,22 @@
             name: 'lt_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -960,22 +960,22 @@
             name: 'le_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -1010,22 +1010,22 @@
             name: 'le_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -1060,22 +1060,22 @@
             name: 'gt_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -1110,22 +1110,22 @@
             name: 'gt_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -1160,22 +1160,22 @@
             name: 'ge_s'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {
@@ -1210,22 +1210,22 @@
             name: 'ge_u'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
             }
           ],
           result: {

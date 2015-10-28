@@ -11,30 +11,30 @@
             name: 'f64.no_contraction'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -235,30 +235,30 @@
             name: 'f32.no_fma'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -309,30 +309,30 @@
             name: 'f64.no_fma'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -678,13 +678,13 @@
             name: 'f32.no_fold_add_zero'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -720,13 +720,13 @@
             name: 'f64.no_fold_add_zero'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -801,13 +801,13 @@
             name: 'f32.no_fold_zero_sub'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -843,13 +843,13 @@
             name: 'f64.no_fold_zero_sub'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -924,13 +924,13 @@
             name: 'f32.no_fold_mul_zero'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -966,13 +966,13 @@
             name: 'f64.no_fold_mul_zero'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1115,13 +1115,13 @@
             name: 'f32.no_fold_zero_div'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1157,13 +1157,13 @@
             name: 'f64.no_fold_zero_div'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1276,13 +1276,13 @@
             name: 'f32.no_fold_eq_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1320,13 +1320,13 @@
             name: 'f64.no_fold_eq_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1403,13 +1403,13 @@
             name: 'f32.no_fold_ne_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1447,13 +1447,13 @@
             name: 'f64.no_fold_ne_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1530,13 +1530,13 @@
             name: 'f32.no_fold_sub_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1574,13 +1574,13 @@
             name: 'f64.no_fold_sub_self'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1671,13 +1671,13 @@
             name: 'f32.no_fold_div_3'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1713,13 +1713,13 @@
             name: 'f64.no_fold_div_3'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1930,30 +1930,30 @@
             name: 'f32.no_distribute'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -2016,30 +2016,30 @@
             name: 'f64.no_distribute'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -2397,38 +2397,38 @@
             name: 'f32.no_reassociate_add'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'w'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'w',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -2491,38 +2491,38 @@
             name: 'f64.no_reassociate_add'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'w'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'w',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -2930,38 +2930,38 @@
             name: 'f32.no_reassociate_mul'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'w'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'w',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -3024,38 +3024,38 @@
             name: 'f64.no_reassociate_mul'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'z'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'w'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'w',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -3463,13 +3463,13 @@
             name: 'f32.no_fold_div_0'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -3505,13 +3505,13 @@
             name: 'f64.no_fold_div_0'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -3760,13 +3760,13 @@
             name: 'f32.no_fold_div_0'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -3802,13 +3802,13 @@
             name: 'f64.no_fold_div_0'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -4057,22 +4057,22 @@
             name: 'f32.no_fold_to_hypot'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -4140,22 +4140,22 @@
             name: 'f64.no_fold_to_hypot'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
             }
           ],
           result: {
@@ -4468,22 +4468,22 @@
             name: 'f32.no_approximate_reciprocal'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -4645,22 +4645,22 @@
             name: 'f32.no_approximate_reciprocal_sqrt'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -4827,22 +4827,22 @@
             name: 'f32.no_approximate_sqrt_reciprocal'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              },
-              type: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
             }
           ],
           result: {
@@ -5009,9 +5009,12 @@
             name: 'i32.no_fold_f32_s'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -5050,9 +5053,12 @@
             name: 'i32.no_fold_f32_u'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -5091,9 +5097,12 @@
             name: 'i64.no_fold_f64_s'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -5132,9 +5141,12 @@
             name: 'i64.no_fold_f64_u'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',

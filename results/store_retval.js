@@ -21,7 +21,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: null
         },
@@ -36,7 +39,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: null
         },
@@ -51,7 +57,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['f32']
+            items: [{
+              kind: 'item',
+              type: 'f32'
+            }]
           }],
           result: null
         },
@@ -66,7 +75,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['f64']
+            items: [{
+              kind: 'item',
+              type: 'f64'
+            }]
           }],
           result: null
         },
@@ -77,40 +89,40 @@
             name: 'run'
           },
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i32'
-              },
-              body: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'i32',
+                type: 'i32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i64'
-              },
-              body: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'i64',
+                type: 'i64'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f32'
-              },
-              body: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'f32',
+                type: 'f32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f64'
-              },
-              body: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'f64',
+                type: 'f64'
+              }]
             }
           ],
           body: [
@@ -427,24 +439,24 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i32'
-              },
-              body: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'i32',
+                type: 'i32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i64'
-              },
-              body: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'i64',
+                type: 'i64'
+              }]
             }
           ],
           body: [{
@@ -481,24 +493,24 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i32'
-              },
-              body: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'i32',
+                type: 'i32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'i64'
-              },
-              body: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'i64',
+                type: 'i64'
+              }]
             }
           ],
           body: [{
@@ -535,24 +547,24 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f32'
-              },
-              body: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'f32',
+                type: 'f32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f64'
-              },
-              body: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'f64',
+                type: 'f64'
+              }]
             }
           ],
           body: [{
@@ -589,24 +601,24 @@
           kind: 'func',
           id: null,
           type: null,
-          params: [],
+          param: [],
           result: null,
           local: [
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f32'
-              },
-              body: 'f32'
+              items: [{
+                kind: 'item',
+                name: 'f32',
+                type: 'f32'
+              }]
             },
             {
               kind: 'local',
-              id: {
-                kind: 'identifier',
-                name: 'f64'
-              },
-              body: 'f64'
+              items: [{
+                kind: 'item',
+                name: 'f64',
+                type: 'f64'
+              }]
             }
           ],
           body: [{

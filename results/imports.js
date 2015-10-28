@@ -15,7 +15,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: null
         },
@@ -30,7 +33,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['i64']
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
           }],
           result: null
         },
@@ -45,9 +51,15 @@
           type: null,
           params: [{
             kind: 'param',
-            types: [
-              'i32',
-              'f32'
+            items: [
+              {
+                kind: 'item',
+                type: 'i32'
+              },
+              {
+                kind: 'item',
+                type: 'f32'
+              }
             ]
           }],
           result: null
@@ -63,9 +75,15 @@
           type: null,
           params: [{
             kind: 'param',
-            types: [
-              'i64',
-              'f64'
+            items: [
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              }
             ]
           }],
           result: null
@@ -77,13 +95,13 @@
             name: 'print32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -142,13 +160,13 @@
             name: 'print64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i64'
+            }]
           }],
           result: null,
           local: [],

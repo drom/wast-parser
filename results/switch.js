@@ -11,13 +11,13 @@
             name: 'stmt'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -25,11 +25,11 @@
           },
           local: [{
             kind: 'local',
-            id: {
-              kind: 'identifier',
-              name: 'j'
-            },
-            body: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'j',
+              type: 'i32'
+            }]
           }],
           body: [
             {
@@ -207,13 +207,13 @@
             name: 'expr'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -221,11 +221,11 @@
           },
           local: [{
             kind: 'local',
-            id: {
-              kind: 'identifier',
-              name: 'j'
-            },
-            body: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'j',
+              type: 'i64'
+            }]
           }],
           body: [
             {

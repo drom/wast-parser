@@ -64,7 +64,7 @@
               raw: '0'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: []
@@ -79,7 +79,7 @@
               id: 'S'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: []
@@ -98,7 +98,7 @@
               raw: '4'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -124,7 +124,7 @@
               id: 'T'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -163,13 +163,13 @@
               id: 'T'
             }
           },
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'a'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'a',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -231,7 +231,7 @@
               id: 'U'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -327,7 +327,7 @@
               raw: '42'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: []
@@ -381,60 +381,39 @@
             name: 'U'
           }
         },
-        [
-          'table',
-          [
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 't1'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 't2'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 't3'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 'u1'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 'u2'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 't1'
-              }
-            ],
-            [
-              [' '],
-              {
-                kind: 'identifier',
-                id: 't3'
-              }
-            ]
+        {
+          kind: 'table',
+          items: [
+            {
+              kind: 'identifier',
+              id: 't1'
+            },
+            {
+              kind: 'identifier',
+              id: 't2'
+            },
+            {
+              kind: 'identifier',
+              id: 't3'
+            },
+            {
+              kind: 'identifier',
+              id: 'u1'
+            },
+            {
+              kind: 'identifier',
+              id: 'u2'
+            },
+            {
+              kind: 'identifier',
+              id: 't1'
+            },
+            {
+              kind: 'identifier',
+              id: 't3'
+            }
           ]
-        ],
+        },
         {
           kind: 'func',
           id: {
@@ -448,7 +427,7 @@
               id: 'T'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -470,7 +449,7 @@
               id: 'T'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -492,7 +471,7 @@
               id: 'T'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -514,7 +493,7 @@
               id: 'U'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -536,7 +515,7 @@
               id: 'U'
             }
           },
-          params: [],
+          param: [],
           result: null,
           local: [],
           body: [{
@@ -552,13 +531,13 @@
             name: 'callt'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -591,13 +570,13 @@
             name: 'callu'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',

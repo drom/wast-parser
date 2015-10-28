@@ -11,7 +11,7 @@
             name: 'i32.test'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -33,7 +33,7 @@
             name: 'i32.umax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -55,7 +55,7 @@
             name: 'i32.smax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -77,7 +77,7 @@
             name: 'i32.neg_smax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -99,7 +99,7 @@
             name: 'i32.smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -121,7 +121,7 @@
             name: 'i32.alt_smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -143,7 +143,7 @@
             name: 'i32.inc_smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -175,7 +175,7 @@
             name: 'i32.neg_zero'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -197,7 +197,7 @@
             name: 'i64.test'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -219,7 +219,7 @@
             name: 'i64.umax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -241,7 +241,7 @@
             name: 'i64.smax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -263,7 +263,7 @@
             name: 'i64.neg_smax'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -285,7 +285,7 @@
             name: 'i64.smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -307,7 +307,7 @@
             name: 'i64.alt_smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -329,7 +329,7 @@
             name: 'i64.inc_smin'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -361,7 +361,7 @@
             name: 'i64.neg_zero'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i64'

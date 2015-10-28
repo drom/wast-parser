@@ -25,7 +25,10 @@
           type: null,
           params: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: null
         },
@@ -36,13 +39,13 @@
             name: 'good'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -324,13 +327,13 @@
             name: 'bad1'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -361,13 +364,13 @@
             name: 'bad2'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],

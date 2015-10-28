@@ -21,7 +21,7 @@
             name: 'power_of_two'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -45,9 +45,12 @@
             name: 'round_up_to_page'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -106,7 +109,7 @@
             name: 'load_at_zero'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -137,7 +140,7 @@
             name: 'store_at_zero'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -172,7 +175,7 @@
             name: 'load_at_page_size'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -199,7 +202,7 @@
             name: 'store_at_page_size'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -230,13 +233,13 @@
             name: 'grow'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'sz'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'sz',
+              type: 'i32'
+            }]
           }],
           result: null,
           local: [],
@@ -269,9 +272,12 @@
             name: 'size_at_least'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -304,7 +310,7 @@
             name: 'size'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'

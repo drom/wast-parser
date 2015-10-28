@@ -19,13 +19,13 @@
             name: 'even'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'n'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'n',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -89,13 +89,13 @@
             name: 'odd'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'n'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'n',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',

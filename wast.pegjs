@@ -334,17 +334,30 @@ failure = ["] value:( !["] . )* ["] {
 }
 
 param
-    = "(" kind:"param" types:( __ local_type )* __ ")" {
+    = "(" kind:"param" items:( __ local_type )* __ ")" {
         return {
             kind: kind,
-            types: types.map(function (e) { return e[1]; })
+            items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
         };
     }
     / "(" kind:"param" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
-            id: { kind: 'identifier', name: name },
-            type: type
+            items: [{ kind: 'item', name: name, type: type }]
+        };
+    }
+
+local
+    = "(" kind:"local" items:( __ local_type )* __ ")" {
+        return {
+            kind: kind,
+            items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
+        };
+    }
+    / "(" kind:"local" __ "$" name:name __ type:local_type __ ")" {
+        return {
+            kind: kind,
+            items: [{ kind: 'item', name: name, type: type }]
         };
     }
 
@@ -363,21 +376,6 @@ segment = "(" kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ ")"
     }
 }
 
-local
-    = "(" kind:"local" body:( __ local_type )* __ ")" {
-        return {
-            kind: kind,
-            body: body.map(function (e) { return e[1]; })
-        };
-    }
-    / "(" kind:"local" __ "$" name:name __ body:local_type __ ")" {
-        return {
-            kind: kind,
-            id: { kind: 'identifier', name: name },
-            body: body
-        };
-    }
-
 func_type = "(" kind:"type" __ id:var __ ")" {
     return {
         kind: kind,
@@ -385,27 +383,39 @@ func_type = "(" kind:"type" __ id:var __ ")" {
     };
 }
 
-func = kind:"func" name:( __ "$" name )? type:( __ func_type )? params:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func" name:( __ "$" name )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
         id: (name ? { kind: 'identifier', name: name[2] } : null),
         type: type ? type[1] : type,
-        params: params.map(function (e) { return e[1]; }),
+        param: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: local.map(function (e) { return e[1]; }),
         body: body.map(function (e) { return e[1]; })
     };
 }
 
-param_def = "(" "param" ( __ local_type )? __ ")"
-
-result_def = "(" "result" __ local_type __ ")"
-
-func_def = "(" kind:"func" params:( __ param_def )* result:( __ result_def )? __ ")" {
+param_def = "(" kind:"param" type:( __ local_type )? __ ")" {
     return {
         kind: kind,
-        params: params.map(function (e) { return e[1]; }),
-        result: result ? result[1] : result
+        items: type ? [{ kind: 'item', type: type[1] }] : []
+    }
+}
+
+result_def = "(" kind:"result" __ type:local_type __ ")" {
+    return {
+        kind: kind,
+        type: type
+    }
+}
+
+func_def = "(" kind:"func" param:( __ param_def )* result:( __ result_def )? __ ")" {
+    return {
+        kind: kind,
+        param: param.map(function (e) { return e[1]; }),
+        result: result ? result[1] : result,
+        local: [],
+        body: []
     };
 }
 
@@ -442,7 +452,12 @@ export = kind:"export" __ ["] name:name ["] __ var {
     };
 }
 
-table = kind:"table" ( __ var )*
+table = kind:"table" items:( __ var )* {
+    return {
+        kind: kind,
+        items: items.map(function (e) { return e[1]; })
+    };
+}
 
 memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
     return {

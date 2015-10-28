@@ -11,13 +11,13 @@
             name: 'i64.extend_s_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -49,13 +49,13 @@
             name: 'i64.extend_u_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -87,13 +87,13 @@
             name: 'i32.wrap_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -125,13 +125,13 @@
             name: 'i32.trunc_s_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -163,13 +163,13 @@
             name: 'i32.trunc_u_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -201,13 +201,13 @@
             name: 'i32.trunc_s_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -239,13 +239,13 @@
             name: 'i32.trunc_u_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -277,13 +277,13 @@
             name: 'i64.trunc_s_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -315,13 +315,13 @@
             name: 'i64.trunc_u_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -353,13 +353,13 @@
             name: 'i64.trunc_s_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -391,13 +391,13 @@
             name: 'i64.trunc_u_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -429,13 +429,13 @@
             name: 'f32.convert_s_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -467,13 +467,13 @@
             name: 'f32.convert_s_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -505,13 +505,13 @@
             name: 'f64.convert_s_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -543,13 +543,13 @@
             name: 'f64.convert_s_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -581,13 +581,13 @@
             name: 'f32.convert_u_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -619,13 +619,13 @@
             name: 'f32.convert_u_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -657,13 +657,13 @@
             name: 'f64.convert_u_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -695,13 +695,13 @@
             name: 'f64.convert_u_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -733,13 +733,13 @@
             name: 'f64.promote_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -771,13 +771,13 @@
             name: 'f32.demote_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -809,13 +809,13 @@
             name: 'f32.reinterpret_i32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -847,13 +847,13 @@
             name: 'f64.reinterpret_i64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -885,13 +885,13 @@
             name: 'i32.reinterpret_f32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -923,13 +923,13 @@
             name: 'i64.reinterpret_f64'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'x'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',

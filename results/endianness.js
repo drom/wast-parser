@@ -17,22 +17,22 @@
             name: 'i16_store_little'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'address'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'address',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'value'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'value',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -109,22 +109,22 @@
             name: 'i32_store_little'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'address'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'address',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'value'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'value',
+                type: 'i32'
+              }]
             }
           ],
           result: null,
@@ -205,22 +205,22 @@
             name: 'i64_store_little'
           },
           type: null,
-          params: [
+          param: [
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'address'
-              },
-              type: 'i32'
+              items: [{
+                kind: 'item',
+                name: 'address',
+                type: 'i32'
+              }]
             },
             {
               kind: 'param',
-              id: {
-                kind: 'identifier',
-                name: 'value'
-              },
-              type: 'i64'
+              items: [{
+                kind: 'item',
+                name: 'value',
+                type: 'i64'
+              }]
             }
           ],
           result: null,
@@ -313,13 +313,13 @@
             name: 'i16_load_little'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'address'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'address',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -389,13 +389,13 @@
             name: 'i32_load_little'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'address'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'address',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -463,13 +463,13 @@
             name: 'i64_load_little'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'address'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'address',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -549,13 +549,13 @@
             name: 'i32_load16_s'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -606,13 +606,13 @@
             name: 'i32_load16_u'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -663,13 +663,13 @@
             name: 'i32_load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -720,13 +720,13 @@
             name: 'i64_load16_s'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -783,13 +783,13 @@
             name: 'i64_load16_u'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -846,13 +846,13 @@
             name: 'i64_load32_s'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -909,13 +909,13 @@
             name: 'i64_load32_u'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -972,13 +972,13 @@
             name: 'i64_load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1029,13 +1029,13 @@
             name: 'f32_load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1092,13 +1092,13 @@
             name: 'f64_load'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1155,13 +1155,13 @@
             name: 'i32_store16'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1209,13 +1209,13 @@
             name: 'i32_store'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1263,13 +1263,13 @@
             name: 'i64_store16'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1323,13 +1323,13 @@
             name: 'i64_store32'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1383,13 +1383,13 @@
             name: 'i64_store'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'i64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'i64'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1437,13 +1437,13 @@
             name: 'f32_store'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'f32'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'f32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -1497,13 +1497,13 @@
             name: 'f64_store'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            id: {
-              kind: 'identifier',
-              name: 'value'
-            },
-            type: 'f64'
+            items: [{
+              kind: 'item',
+              name: 'value',
+              type: 'f64'
+            }]
           }],
           result: {
             kind: 'result',

@@ -11,7 +11,7 @@
             name: 'block'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -51,18 +51,18 @@
             name: 'loop1'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [{
             kind: 'local',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            body: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           body: [
             {
@@ -155,18 +155,18 @@
             name: 'loop2'
           },
           type: null,
-          params: [],
+          param: [],
           result: {
             kind: 'result',
             type: 'i32'
           },
           local: [{
             kind: 'local',
-            id: {
-              kind: 'identifier',
-              name: 'i'
-            },
-            body: 'i32'
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
           }],
           body: [
             {
@@ -319,9 +319,12 @@
             name: 'switch'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
@@ -420,9 +423,12 @@
             name: 'return'
           },
           type: null,
-          params: [{
+          param: [{
             kind: 'param',
-            types: ['i32']
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
           }],
           result: {
             kind: 'result',
