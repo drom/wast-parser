@@ -230,7 +230,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -253,7 +253,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -276,7 +276,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -299,7 +299,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -531,7 +531,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -554,7 +554,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -577,7 +577,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -600,7 +600,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -901,7 +901,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -917,7 +917,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -933,7 +933,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -949,7 +949,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -965,7 +965,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -981,7 +981,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -997,7 +997,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -1013,7 +1013,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -1027,13 +1027,13 @@
         },
         {
           kind: 'export',
-          name: 'i32.load'
+          name: 'no_dce.i32.load'
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'i32.load'
+            name: 'no_dce.i32.load'
           },
           type: null,
           param: [{
@@ -1064,13 +1064,13 @@
         },
         {
           kind: 'export',
-          name: 'i64.load'
+          name: 'no_dce.i64.load'
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'i64.load'
+            name: 'no_dce.i64.load'
           },
           type: null,
           param: [{
@@ -1101,13 +1101,13 @@
         },
         {
           kind: 'export',
-          name: 'f32.load'
+          name: 'no_dce.f32.load'
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f32.load'
+            name: 'no_dce.f32.load'
           },
           type: null,
           param: [{
@@ -1138,13 +1138,13 @@
         },
         {
           kind: 'export',
-          name: 'f64.load'
+          name: 'no_dce.f64.load'
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.load'
+            name: 'no_dce.f64.load'
           },
           type: null,
           param: [{
@@ -1179,7 +1179,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'i32.load',
+        name: 'no_dce.i32.load',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1188,14 +1188,14 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'i64.load',
+        name: 'no_dce.i64.load',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1204,14 +1204,14 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'f32.load',
+        name: 'no_dce.f32.load',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1220,14 +1220,14 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'f64.load',
+        name: 'no_dce.f64.load',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1236,7 +1236,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     }
   ]

@@ -1931,7 +1931,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -1954,7 +1954,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -1977,7 +1977,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2360,7 +2360,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -2383,7 +2383,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -2742,7 +2742,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -2765,7 +2765,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -3196,7 +3196,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {
@@ -3219,7 +3219,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer divide by zero'
+        value: 'integer divide by zero'
       }
     },
     {

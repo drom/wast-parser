@@ -1615,7 +1615,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1631,7 +1631,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1647,7 +1647,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1663,7 +1663,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1679,7 +1679,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -1899,7 +1899,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1915,7 +1915,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1931,7 +1931,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1947,7 +1947,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -1963,7 +1963,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -2217,7 +2217,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2233,7 +2233,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2249,7 +2249,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2265,7 +2265,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2281,7 +2281,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -2518,7 +2518,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2534,7 +2534,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2550,7 +2550,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2566,7 +2566,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2582,7 +2582,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2598,7 +2598,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2614,7 +2614,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2630,7 +2630,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -2918,7 +2918,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2934,7 +2934,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2950,7 +2950,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2966,7 +2966,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -2982,7 +2982,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -3168,7 +3168,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3184,7 +3184,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3200,7 +3200,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3216,7 +3216,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3232,7 +3232,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -3520,7 +3520,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3536,7 +3536,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3552,7 +3552,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3568,7 +3568,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3584,7 +3584,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {
@@ -3838,7 +3838,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3854,7 +3854,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3870,7 +3870,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3886,7 +3886,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: integer overflow'
+        value: 'integer overflow'
       }
     },
     {
@@ -3902,7 +3902,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: invalid conversion to integer'
+        value: 'invalid conversion to integer'
       }
     },
     {

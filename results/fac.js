@@ -604,7 +604,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: callstack exhausted'
+        value: 'call stack exhausted'
       }
     }
   ]

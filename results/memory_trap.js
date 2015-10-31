@@ -252,7 +252,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -268,7 +268,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -291,7 +291,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -307,7 +307,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -330,7 +330,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -346,7 +346,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -369,7 +369,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -385,7 +385,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -408,7 +408,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -424,7 +424,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -440,7 +440,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: grow_memory operand not multiple of page_size'
+        value: 'growing memory by non-multiple of page size'
       }
     },
     {
@@ -452,7 +452,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: grow_memory overflow'
+        value: 'memory size exceeds implementation limit'
       }
     }
   ]

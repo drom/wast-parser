@@ -668,7 +668,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -684,7 +684,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -734,7 +734,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: undefined table element 7'
+        value: 'undefined table index 7'
       }
     },
     {
@@ -750,7 +750,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: undefined table element 100'
+        value: 'undefined table index 100'
       }
     },
     {
@@ -766,7 +766,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: undefined table element -1'
+        value: 'undefined table index -1'
       }
     },
     {
@@ -782,7 +782,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -798,7 +798,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -814,7 +814,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -864,7 +864,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -880,7 +880,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: indirect call signature mismatch'
+        value: 'indirect call signature mismatch'
       }
     },
     {
@@ -896,7 +896,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: undefined table element 7'
+        value: 'undefined table index 7'
       }
     },
     {
@@ -912,7 +912,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: undefined table element -1'
+        value: 'undefined table index -1'
       }
     }
   ]

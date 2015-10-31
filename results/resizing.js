@@ -372,7 +372,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -384,7 +384,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -396,7 +396,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -408,7 +408,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -485,7 +485,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
@@ -497,7 +497,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'runtime: out of bounds memory access'
+        value: 'out of bounds memory access'
       }
     },
     {
