@@ -270,6 +270,16 @@ expr
             };
         }
 
+        / type:local_type ".select" __ test:expr __ consequent:expr __ alternate:expr {
+            return {
+                kind: 'select',
+                type: type,
+                test: test,
+                consequent: consequent,
+                alternate: alternate
+            };
+        }
+
         / type:local_type "." operator:binop __ left:expr __ right:expr {
             return {
                 kind: 'binop',
@@ -445,10 +455,12 @@ import = kind:"import" id:( __ "$" name )? __ ["] name1:name ["] __ ["] name2:na
     };
 }
 
-export = kind:"export" __ ["] name:name ["] __ var {
+export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ var {
     return {
         kind: kind,
-        name: name
+        name: name.map(function (e) {
+            return e[1];
+        }).join('')
     };
 }
 
@@ -468,10 +480,12 @@ memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
     };
 }
 
-invoke = "(" kind:"invoke" __ ["] name:name ["] body:( __ expr )* __ ")" {
+invoke = "(" kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* __ ")" {
     return {
         kind: kind,
-        name: name,
+        name: name.map(function (e) {
+            return e[1];
+        }).join(''),
         body: body.map(function (e) { return e[1]; })
     };
 }

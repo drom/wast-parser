@@ -3757,7 +3757,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f32.no_fold_div_0'
+            name: 'f32.no_fold_div_neg0'
           },
           type: null,
           param: [{
@@ -3793,13 +3793,13 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_div_0'
+          name: 'f32.no_fold_div_neg0'
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.no_fold_div_0'
+            name: 'f64.no_fold_div_neg0'
           },
           type: null,
           param: [{
@@ -3835,7 +3835,7 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_div_0'
+          name: 'f64.no_fold_div_neg0'
         }
       ]
     },
@@ -3843,7 +3843,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3860,7 +3860,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3877,7 +3877,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3894,7 +3894,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3911,7 +3911,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3923,7 +3923,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3935,7 +3935,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f32.no_fold_div_0',
+        name: 'f32.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f32',
@@ -3947,7 +3947,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -3964,7 +3964,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -3981,7 +3981,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -3998,7 +3998,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -4015,7 +4015,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -4027,7 +4027,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
@@ -4039,7 +4039,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
-        name: 'f64.no_fold_div_0',
+        name: 'f64.no_fold_div_neg0',
         body: [{
           kind: 'const',
           type: 'f64',
