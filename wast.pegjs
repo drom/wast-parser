@@ -50,7 +50,7 @@ relop
     / "eq" / "ne" / "lt" / "le" / "gt" / "ge" // float
 
 value
-    = node:(pre:( "nan(" / "+nan(" / "-nan(" ) sign:"-"? hex:"0x" digits:[0-9A-Fa-f\.\-\+ep]+ ")" {
+    = node:(pre:( "nan:" / "+nan:" / "-nan:" ) sign:"-"? hex:"0x" digits:[0-9A-Fa-f\.\-\+ep]+ {
             return pre[0] + (sign || '') + hex + digits.join('')
         }
         / "nan" / "+nan" / "-nan"
