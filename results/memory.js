@@ -894,11 +894,11 @@
                       }
                     },
                     consequent: {
-                      kind: 'break',
+                      kind: 'br',
                       id: {
                         kind: 'literal',
-                        value: 0,
-                        raw: '0'
+                        value: 1,
+                        raw: '1'
                       },
                       expr: null
                     },
@@ -1035,6 +1035,15 @@
                         init: '1'
                       }
                     }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
                   }
                 ]
               }
@@ -1119,11 +1128,11 @@
                       }
                     },
                     consequent: {
-                      kind: 'break',
+                      kind: 'br',
                       id: {
                         kind: 'literal',
-                        value: 0,
-                        raw: '0'
+                        value: 1,
+                        raw: '1'
                       },
                       expr: null
                     },
@@ -1256,6 +1265,15 @@
                         init: '1'
                       }
                     }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
                   }
                 ]
               }

@@ -85,7 +85,7 @@ var
     }
 
 case
-    = "(" kind:"case" __ test:value body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
+    = "(" kind:"case" __ test:( "$" name / value ) body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
         return {
             kind: kind,
             test: test,
@@ -93,10 +93,18 @@ case
             fallthrough: fallthrough ? true : false
         };
     }
-    / "(" kind:"case" __ test:value __ ")" {
+    / "(" kind:"case" test:( __ value )? __ ")" {
         return {
             kind: kind,
-            test: test
+            test: test ? value[1] : null
+        };
+    }
+    / expr
+
+tableswitchtable = "(" kind:"table" items:( __ case )* __ ")" {
+        return {
+            kind: kind,
+            items: items.map(function (e) { return e[1]; })
         };
     }
 
@@ -126,7 +134,7 @@ expr
             };
         }
 
-        / kind:"if" __ test:expr __ consequent:expr __ alternate:expr {
+        / kind:"if_else" __ test:expr __ consequent:expr __ alternate:expr {
             return {
                 kind: kind,
                 test: test,
@@ -171,7 +179,7 @@ expr
             };
         }
 
-        / kind:"break" __ id:var expr:( __ expr )? {
+        / kind:"br" __ id:var expr:( __ expr )? {
             return {
                 kind: kind,
                 id: id,
@@ -193,6 +201,17 @@ expr
                 before: before,
                 body: body.map(function (e) { return e[1]; }),
                 after: after
+            };
+        }
+
+        / kind:"tableswitch" id:( __ var )? __ test:expr __ table:tableswitchtable __ body:( __ case )* {
+            return {
+                kind: kind,
+                id: id ? id[1] : null,
+                test: test,
+                table: table,
+                body: body.map(function (e) { return e[1]; }),
+
             };
         }
 
@@ -319,7 +338,7 @@ expr
             };
         }
 
-        / kind:("nop" / "page_size" / "memory_size") {
+        / kind:("nop" / "page_size" / "memory_size" / "unreachable") {
             return {
                 kind: kind
             };

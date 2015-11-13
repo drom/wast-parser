@@ -12,30 +12,6 @@
         },
         {
           kind: 'export',
-          name: 'power_of_two'
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'power_of_two'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'i32',
-            operator: 'popcnt',
-            expr: {kind: 'page_size'}
-          }]
-        },
-        {
-          kind: 'export',
           name: 'round_up_to_page'
         },
         {
@@ -74,27 +50,15 @@
                 }
               },
               right: {
-                kind: 'binop',
+                kind: 'const',
                 type: 'i32',
-                operator: 'sub',
-                left: {kind: 'page_size'},
-                right: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
+                init: '0xFFFF'
               }
             },
             right: {
-              kind: 'binop',
+              kind: 'const',
               type: 'i32',
-              operator: 'sub',
-              left: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              },
-              right: {kind: 'page_size'}
+              init: '0xFFFF0000'
             }
           }]
         },
@@ -188,7 +152,11 @@
             sign: null,
             offset: 0,
             align: 0,
-            expr: {kind: 'page_size'}
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0x10000'
+            }
           }]
         },
         {
@@ -214,7 +182,11 @@
             size: null,
             offset: 0,
             align: 0,
-            addr: {kind: 'page_size'},
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0x10000'
+            },
             data: {
               kind: 'const',
               type: 'i32',
@@ -319,19 +291,6 @@
           body: [{kind: 'memory_size'}]
         }
       ]
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'power_of_two',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
     },
     {
       kind: 'assert_return',

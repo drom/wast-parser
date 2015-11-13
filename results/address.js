@@ -324,43 +324,6 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'bad1'
-          },
-          type: null,
-          param: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'load',
-            type: 'i32',
-            size: null,
-            sign: null,
-            offset: '4294967296',
-            align: 0,
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                id: 'i'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: 'bad1'
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
             name: 'bad2'
           },
           type: null,
@@ -442,38 +405,6 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'bad1',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      failure: {
-        kind: 'failure',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        name: 'bad1',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '1'
-        }]
-      },
-      failure: {
-        kind: 'failure',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
         name: 'bad2',
         body: [{
           kind: 'const',
@@ -500,6 +431,57 @@
       failure: {
         kind: 'failure',
         value: 'out of bounds memory access'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: '1024',
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'bad1'
+            },
+            type: null,
+            param: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'i',
+                type: 'i32'
+              }]
+            }],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i32',
+              size: null,
+              sign: null,
+              offset: '4294967296',
+              align: 0,
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
+                }
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'offset too large'
       }
     }
   ]

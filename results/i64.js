@@ -4371,7 +4371,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -4395,7 +4395,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '2'
       }
     },
     {
@@ -4419,7 +4419,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '0x8000000000000000'
       }
     },
     {
@@ -4443,7 +4443,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '0x8000000000000000'
       }
     },
     {
@@ -4611,7 +4611,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -4707,7 +4707,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -5019,7 +5019,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -5115,7 +5115,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -5163,7 +5163,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '-1'
       }
     },
     {
@@ -5187,7 +5187,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '0x7fffffffffffffff'
       }
     },
     {
@@ -5211,7 +5211,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -5235,7 +5235,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '1'
       }
     },
     {
@@ -5259,7 +5259,7 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0'
+        init: '-1'
       }
     },
     {

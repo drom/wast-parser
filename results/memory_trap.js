@@ -179,7 +179,11 @@
                 kind: 'binop',
                 type: 'i32',
                 operator: 'sub',
-                left: {kind: 'page_size'},
+                left: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0x10000'
+                },
                 right: {
                   kind: 'const',
                   type: 'i32',

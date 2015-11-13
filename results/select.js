@@ -290,21 +290,7 @@
                 id: 'cond'
               }
             },
-            consequent: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_s',
-              left: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              }
-            },
+            consequent: {kind: 'unreachable'},
             alternate: {
               kind: 'const',
               type: 'i32',
@@ -347,21 +333,7 @@
               type: 'i32',
               init: '0'
             },
-            alternate: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_s',
-              left: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              }
-            }
+            alternate: {kind: 'unreachable'}
           }]
         },
         {
@@ -731,7 +703,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'integer divide by zero'
+        value: 'unreachable executed'
       }
     },
     {
@@ -747,7 +719,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'integer divide by zero'
+        value: 'unreachable executed'
       }
     },
     {
@@ -763,7 +735,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'integer divide by zero'
+        value: 'unreachable executed'
       }
     },
     {
@@ -779,7 +751,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'integer divide by zero'
+        value: 'unreachable executed'
       }
     }
   ]

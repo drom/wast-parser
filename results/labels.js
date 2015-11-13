@@ -25,7 +25,7 @@
             },
             body: [
               {
-                kind: 'break',
+                kind: 'br',
                 id: {
                   kind: 'identifier',
                   id: 'exit'
@@ -83,7 +83,10 @@
                 kind: 'identifier',
                 id: 'exit'
               },
-              extra: null,
+              extra: {
+                kind: 'identifier',
+                id: 'cont'
+              },
               body: [
                 {
                   kind: 'set_local',
@@ -129,7 +132,7 @@
                     }
                   },
                   consequent: {
-                    kind: 'break',
+                    kind: 'br',
                     id: {
                       kind: 'identifier',
                       id: 'exit'
@@ -143,6 +146,14 @@
                     }
                   },
                   alternate: null
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'cont'
+                  },
+                  expr: null
                 }
               ]
             }
@@ -236,7 +247,7 @@
                     }
                   },
                   consequent: {
-                    kind: 'break',
+                    kind: 'br',
                     id: {
                       kind: 'identifier',
                       id: 'cont'
@@ -269,7 +280,7 @@
                     }
                   },
                   consequent: {
-                    kind: 'break',
+                    kind: 'br',
                     id: {
                       kind: 'identifier',
                       id: 'exit'
@@ -307,6 +318,14 @@
                       init: '1'
                     }
                   }
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'cont'
+                  },
+                  expr: null
                 }
               ]
             }
@@ -347,13 +366,12 @@
                 init: '10'
               },
               right: {
-                kind: 'switch',
+                kind: 'tableswitch',
                 id: {
                   kind: 'identifier',
                   id: 'exit'
                 },
-                type: 'i32',
-                before: {
+                test: {
                   kind: 'get_local',
                   id: {
                     kind: 'literal',
@@ -361,10 +379,63 @@
                     raw: '0'
                   }
                 },
+                table: {
+                  kind: 'table',
+                  items: [
+                    {
+                      kind: 'case',
+                      test: [
+                        '$',
+                        '0'
+                      ],
+                      body: [],
+                      fallthrough: false
+                    },
+                    {
+                      kind: 'case',
+                      test: [
+                        '$',
+                        '1'
+                      ],
+                      body: [],
+                      fallthrough: false
+                    },
+                    {
+                      kind: 'case',
+                      test: [
+                        '$',
+                        '2'
+                      ],
+                      body: [],
+                      fallthrough: false
+                    },
+                    {
+                      kind: 'case',
+                      test: [
+                        '$',
+                        '3'
+                      ],
+                      body: [],
+                      fallthrough: false
+                    }
+                  ]
+                },
                 body: [
                   {
                     kind: 'case',
-                    test: '1',
+                    test: [
+                      '$',
+                      'default'
+                    ],
+                    body: [],
+                    fallthrough: false
+                  },
+                  {
+                    kind: 'case',
+                    test: [
+                      '$',
+                      '1'
+                    ],
                     body: [{
                       kind: 'const',
                       type: 'i32',
@@ -374,9 +445,12 @@
                   },
                   {
                     kind: 'case',
-                    test: '2',
+                    test: [
+                      '$',
+                      '2'
+                    ],
                     body: [{
-                      kind: 'break',
+                      kind: 'br',
                       id: {
                         kind: 'identifier',
                         id: 'exit'
@@ -391,9 +465,12 @@
                   },
                   {
                     kind: 'case',
-                    test: '3',
+                    test: [
+                      '$',
+                      '3'
+                    ],
                     body: [{
-                      kind: 'break',
+                      kind: 'br',
                       id: {
                         kind: 'identifier',
                         id: 'ret'
@@ -405,13 +482,34 @@
                       }
                     }],
                     fallthrough: false
+                  },
+                  {
+                    kind: 'case',
+                    test: [
+                      '$',
+                      'default'
+                    ],
+                    body: [{
+                      kind: 'const',
+                      type: 'i32',
+                      init: '4'
+                    }],
+                    fallthrough: false
+                  },
+                  {
+                    kind: 'case',
+                    test: [
+                      '$',
+                      '0'
+                    ],
+                    body: [{
+                      kind: 'const',
+                      type: 'i32',
+                      init: '5'
+                    }],
+                    fallthrough: false
                   }
-                ],
-                after: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '4'
-                }
+                ]
               }
             }
           }]
@@ -436,9 +534,9 @@
           },
           local: [],
           body: [{
-            kind: 'switch',
-            type: 'i32',
-            before: {
+            kind: 'tableswitch',
+            id: null,
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'literal',
@@ -446,23 +544,74 @@
                 raw: '0'
               }
             },
+            table: {
+              kind: 'table',
+              items: [
+                {
+                  kind: 'case',
+                  test: [
+                    '$',
+                    '0'
+                  ],
+                  body: [],
+                  fallthrough: false
+                },
+                {
+                  kind: 'case',
+                  test: [
+                    '$',
+                    '1'
+                  ],
+                  body: [],
+                  fallthrough: false
+                }
+              ]
+            },
             body: [
               {
                 kind: 'case',
-                test: '1',
+                test: [
+                  '$',
+                  'default'
+                ],
+                body: [],
+                fallthrough: false
+              },
+              {
+                kind: 'case',
+                test: [
+                  '$',
+                  '0'
+                ],
                 body: [{
                   kind: 'return',
                   expr: {
                     kind: 'const',
                     type: 'i32',
-                    init: '1'
+                    init: '0'
                   }
                 }],
                 fallthrough: false
               },
               {
                 kind: 'case',
-                test: '2',
+                test: [
+                  '$',
+                  '1'
+                ],
+                body: [{
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                }],
+                fallthrough: false
+              },
+              {
+                kind: 'case',
+                test: [
+                  '$',
+                  'default'
+                ],
                 body: [{
                   kind: 'const',
                   type: 'i32',
@@ -470,12 +619,7 @@
                 }],
                 fallthrough: false
               }
-            ],
-            after: {
-              kind: 'const',
-              type: 'i32',
-              init: '3'
-            }
+            ]
           }]
         },
         {
@@ -547,13 +691,30 @@
         body: [{
           kind: 'const',
           type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '50'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'switch',
+        body: [{
+          kind: 'const',
+          type: 'i32',
           init: '1'
         }]
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '10'
+        init: '20'
       }
     },
     {
@@ -604,7 +765,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '40'
+        init: '50'
       }
     },
     {
@@ -621,7 +782,24 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '40'
+        init: '50'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'return',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
       }
     },
     {
@@ -638,7 +816,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '1'
+        init: '2'
       }
     },
     {
@@ -656,23 +834,6 @@
         kind: 'const',
         type: 'i32',
         init: '2'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'return',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '3'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '3'
       }
     }
   ]

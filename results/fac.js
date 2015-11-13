@@ -21,7 +21,7 @@
           },
           local: [],
           body: [{
-            kind: 'if',
+            kind: 'if_else',
             test: {
               kind: 'relop',
               type: 'i64',
@@ -107,7 +107,7 @@
           },
           local: [],
           body: [{
-            kind: 'if',
+            kind: 'if_else',
             test: {
               kind: 'relop',
               type: 'i64',
@@ -231,96 +231,107 @@
               id: null,
               body: {
                 kind: 'loop',
-                body: [{
-                  kind: 'if',
-                  test: {
-                    kind: 'relop',
-                    type: 'i64',
-                    operator: 'eq',
-                    left: {
-                      kind: 'get_local',
+                body: [
+                  {
+                    kind: 'if_else',
+                    test: {
+                      kind: 'relop',
+                      type: 'i64',
+                      operator: 'eq',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 1,
+                          raw: '1'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i64',
+                        init: '0'
+                      }
+                    },
+                    consequent: {
+                      kind: 'br',
                       id: {
                         kind: 'literal',
                         value: 1,
                         raw: '1'
-                      }
+                      },
+                      expr: null
                     },
-                    right: {
-                      kind: 'const',
-                      type: 'i64',
-                      init: '0'
+                    alternate: {
+                      kind: 'block',
+                      body: [
+                        {
+                          kind: 'set_local',
+                          id: {
+                            kind: 'literal',
+                            value: 2,
+                            raw: '2'
+                          },
+                          init: {
+                            kind: 'binop',
+                            type: 'i64',
+                            operator: 'mul',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 1,
+                                raw: '1'
+                              }
+                            },
+                            right: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 2,
+                                raw: '2'
+                              }
+                            }
+                          }
+                        },
+                        {
+                          kind: 'set_local',
+                          id: {
+                            kind: 'literal',
+                            value: 1,
+                            raw: '1'
+                          },
+                          init: {
+                            kind: 'binop',
+                            type: 'i64',
+                            operator: 'sub',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 1,
+                                raw: '1'
+                              }
+                            },
+                            right: {
+                              kind: 'const',
+                              type: 'i64',
+                              init: '1'
+                            }
+                          }
+                        }
+                      ]
                     }
                   },
-                  consequent: {
-                    kind: 'break',
+                  {
+                    kind: 'br',
                     id: {
                       kind: 'literal',
                       value: 0,
                       raw: '0'
                     },
                     expr: null
-                  },
-                  alternate: {
-                    kind: 'block',
-                    body: [
-                      {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'literal',
-                          value: 2,
-                          raw: '2'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'mul',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'literal',
-                              value: 1,
-                              raw: '1'
-                            }
-                          },
-                          right: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'literal',
-                              value: 2,
-                              raw: '2'
-                            }
-                          }
-                        }
-                      },
-                      {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'sub',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'literal',
-                              value: 1,
-                              raw: '1'
-                            }
-                          },
-                          right: {
-                            kind: 'const',
-                            type: 'i64',
-                            init: '1'
-                          }
-                        }
-                      }
-                    ]
                   }
-                }]
+                ]
               }
             },
             {
@@ -408,89 +419,104 @@
               },
               body: {
                 kind: 'loop',
-                body: [{
-                  kind: 'if',
-                  test: {
-                    kind: 'relop',
-                    type: 'i64',
-                    operator: 'eq',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'identifier',
-                        id: 'i'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
+                id: {
+                  kind: 'identifier',
+                  id: 'loop'
+                },
+                extra: null,
+                body: [
+                  {
+                    kind: 'if_else',
+                    test: {
+                      kind: 'relop',
                       type: 'i64',
-                      init: '0'
-                    }
-                  },
-                  consequent: {
-                    kind: 'break',
-                    id: {
-                      kind: 'identifier',
-                      id: 'done'
-                    },
-                    expr: null
-                  },
-                  alternate: {
-                    kind: 'block',
-                    body: [
-                      {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'res'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'mul',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'identifier',
-                              id: 'i'
-                            }
-                          },
-                          right: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'identifier',
-                              id: 'res'
-                            }
-                          }
-                        }
-                      },
-                      {
-                        kind: 'set_local',
+                      operator: 'eq',
+                      left: {
+                        kind: 'get_local',
                         id: {
                           kind: 'identifier',
                           id: 'i'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'sub',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'identifier',
-                              id: 'i'
-                            }
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i64',
+                        init: '0'
+                      }
+                    },
+                    consequent: {
+                      kind: 'br',
+                      id: {
+                        kind: 'identifier',
+                        id: 'done'
+                      },
+                      expr: null
+                    },
+                    alternate: {
+                      kind: 'block',
+                      body: [
+                        {
+                          kind: 'set_local',
+                          id: {
+                            kind: 'identifier',
+                            id: 'res'
                           },
-                          right: {
-                            kind: 'const',
+                          init: {
+                            kind: 'binop',
                             type: 'i64',
-                            init: '1'
+                            operator: 'mul',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'identifier',
+                                id: 'i'
+                              }
+                            },
+                            right: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'identifier',
+                                id: 'res'
+                              }
+                            }
+                          }
+                        },
+                        {
+                          kind: 'set_local',
+                          id: {
+                            kind: 'identifier',
+                            id: 'i'
+                          },
+                          init: {
+                            kind: 'binop',
+                            type: 'i64',
+                            operator: 'sub',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'identifier',
+                                id: 'i'
+                              }
+                            },
+                            right: {
+                              kind: 'const',
+                              type: 'i64',
+                              init: '1'
+                            }
                           }
                         }
-                      }
-                    ]
+                      ]
+                    }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'identifier',
+                      id: 'loop'
+                    },
+                    expr: null
                   }
-                }]
+                ]
               }
             },
             {

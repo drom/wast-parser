@@ -33,7 +33,7 @@
           },
           local: [],
           body: [{
-            kind: 'if',
+            kind: 'if_else',
             test: {
               kind: 'relop',
               type: 'i32',
@@ -103,7 +103,7 @@
           },
           local: [],
           body: [{
-            kind: 'if',
+            kind: 'if_else',
             test: {
               kind: 'relop',
               type: 'i32',
