@@ -246,14 +246,8 @@
                       '$',
                       '5'
                     ],
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      },
-                      expr: {
+                    body: [
+                      {
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
@@ -264,8 +258,17 @@
                           type: 'i32',
                           init: '101'
                         }
+                      },
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
                       }
-                    }],
+                    ],
                     fallthrough: false
                   },
                   {

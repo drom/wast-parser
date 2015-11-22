@@ -252,11 +252,7 @@
                       kind: 'identifier',
                       id: 'cont'
                     },
-                    expr: {
-                      kind: 'const',
-                      type: 'i32',
-                      init: '-1'
-                    }
+                    expr: null
                   },
                   alternate: null
                 },
@@ -834,6 +830,44 @@
         kind: 'const',
         type: 'i32',
         init: '2'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'loop',
+            id: {
+              kind: 'identifier',
+              id: 'l'
+            },
+            extra: null,
+            body: [{
+              kind: 'br',
+              id: {
+                kind: 'identifier',
+                id: 'l'
+              },
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'arity mismatch'
       }
     }
   ]
