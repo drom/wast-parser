@@ -187,6 +187,15 @@ expr
             };
         }
 
+        / kind:"br_if" __ test:expr __ id:var expr:( __ expr )? {
+            return {
+                kind: kind,
+                test: test,
+                id: id,
+                expr: expr ? expr[1] : expr
+            };
+        }
+
         / kind:"has_feature" __ ["] name:[a-zA-Z0-9_\-\\]* ["] {
             return {
                 kind: kind,
