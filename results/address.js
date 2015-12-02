@@ -20,7 +20,7 @@
             kind: 'identifier',
             name: 'print'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: null,
           params: [{

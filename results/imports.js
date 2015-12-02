@@ -10,7 +10,7 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: null,
           params: [{
@@ -28,7 +28,7 @@
             kind: 'identifier',
             name: 'print_i64'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: null,
           params: [{
@@ -46,7 +46,7 @@
             kind: 'identifier',
             name: 'print_i32_f32'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: null,
           params: [{
@@ -70,7 +70,7 @@
             kind: 'identifier',
             name: 'print_i64_f64'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: null,
           params: [{

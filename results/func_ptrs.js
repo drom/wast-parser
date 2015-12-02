@@ -205,7 +205,7 @@
             kind: 'identifier',
             name: 'print'
           },
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: {
             kind: 'type',
@@ -345,7 +345,7 @@
         body: [{
           kind: 'import',
           id: null,
-          name1: 'stdio',
+          name1: 'spectest',
           name2: 'print',
           type: {
             kind: 'type',
