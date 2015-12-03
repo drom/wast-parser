@@ -445,6 +445,132 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'loop4'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'max',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          body: [
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                id: 'i'
+              },
+              init: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            },
+            {
+              kind: 'loop',
+              id: {
+                kind: 'identifier',
+                id: 'exit'
+              },
+              extra: {
+                kind: 'identifier',
+                id: 'cont'
+              },
+              body: [
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i'
+                      }
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'relop',
+                    type: 'i32',
+                    operator: 'gt_u',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'max'
+                      }
+                    }
+                  },
+                  consequent: {
+                    kind: 'br',
+                    id: {
+                      kind: 'identifier',
+                      id: 'exit'
+                    },
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i'
+                      }
+                    }
+                  },
+                  alternate: null
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'cont'
+                  },
+                  expr: null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'switch'
           },
           type: null,
@@ -997,6 +1123,10 @@
         },
         {
           kind: 'export',
+          name: 'loop4'
+        },
+        {
+          kind: 'export',
           name: 'switch'
         },
         {
@@ -1059,6 +1189,23 @@
         kind: 'const',
         type: 'i32',
         init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'loop4',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '16'
       }
     },
     {
