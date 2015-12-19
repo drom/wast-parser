@@ -587,12 +587,12 @@
           },
           local: [],
           body: [{
-            kind: 'label',
+            kind: 'block',
             id: {
               kind: 'identifier',
               id: 'ret'
             },
-            body: {
+            body: [{
               kind: 'binop',
               type: 'i32',
               operator: 'mul',
@@ -747,7 +747,7 @@
                   }
                 ]
               }
-            }
+            }]
           }]
         },
         {

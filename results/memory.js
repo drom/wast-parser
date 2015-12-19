@@ -868,9 +868,8 @@
               }
             },
             {
-              kind: 'label',
-              id: null,
-              body: {
+              kind: 'block',
+              body: [{
                 kind: 'loop',
                 body: [
                   {
@@ -1046,7 +1045,7 @@
                     expr: null
                   }
                 ]
-              }
+              }]
             },
             {
               kind: 'return',
@@ -1102,9 +1101,8 @@
               }
             },
             {
-              kind: 'label',
-              id: null,
-              body: {
+              kind: 'block',
+              body: [{
                 kind: 'loop',
                 body: [
                   {
@@ -1276,7 +1274,7 @@
                     expr: null
                   }
                 ]
-              }
+              }]
             },
             {
               kind: 'return',

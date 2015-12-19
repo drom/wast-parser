@@ -227,9 +227,8 @@
               }
             },
             {
-              kind: 'label',
-              id: null,
-              body: {
+              kind: 'block',
+              body: [{
                 kind: 'loop',
                 body: [
                   {
@@ -332,7 +331,7 @@
                     expr: null
                   }
                 ]
-              }
+              }]
             },
             {
               kind: 'return',
@@ -412,12 +411,12 @@
               }
             },
             {
-              kind: 'label',
+              kind: 'block',
               id: {
                 kind: 'identifier',
                 id: 'done'
               },
-              body: {
+              body: [{
                 kind: 'loop',
                 id: {
                   kind: 'identifier',
@@ -517,7 +516,7 @@
                     expr: null
                   }
                 ]
-              }
+              }]
             },
             {
               kind: 'return',
