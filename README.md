@@ -26,6 +26,8 @@ var ast = parser.parse('(module)');
 ## Testing
 `npm test`
 
+## Generating tests
+`npm run testgen`
 
 ## License
 MIT [LICENSE](https://github.com/drom/wast-parser/blob/master/LICENSE).
