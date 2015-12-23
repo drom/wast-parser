@@ -40,6 +40,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.extend_s_i32'
+          },
           name: 'i64.extend_s_i32'
         },
         {
@@ -78,6 +82,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.extend_u_i32'
+          },
           name: 'i64.extend_u_i32'
         },
         {
@@ -116,6 +124,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.wrap_i64'
+          },
           name: 'i32.wrap_i64'
         },
         {
@@ -154,6 +166,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.trunc_s_f32'
+          },
           name: 'i32.trunc_s_f32'
         },
         {
@@ -192,6 +208,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.trunc_u_f32'
+          },
           name: 'i32.trunc_u_f32'
         },
         {
@@ -230,6 +250,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.trunc_s_f64'
+          },
           name: 'i32.trunc_s_f64'
         },
         {
@@ -268,6 +292,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.trunc_u_f64'
+          },
           name: 'i32.trunc_u_f64'
         },
         {
@@ -306,6 +334,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.trunc_s_f32'
+          },
           name: 'i64.trunc_s_f32'
         },
         {
@@ -344,6 +376,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.trunc_u_f32'
+          },
           name: 'i64.trunc_u_f32'
         },
         {
@@ -382,6 +418,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.trunc_s_f64'
+          },
           name: 'i64.trunc_s_f64'
         },
         {
@@ -420,6 +460,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.trunc_u_f64'
+          },
           name: 'i64.trunc_u_f64'
         },
         {
@@ -458,6 +502,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.convert_s_i32'
+          },
           name: 'f32.convert_s_i32'
         },
         {
@@ -496,6 +544,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.convert_s_i64'
+          },
           name: 'f32.convert_s_i64'
         },
         {
@@ -534,6 +586,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.convert_s_i32'
+          },
           name: 'f64.convert_s_i32'
         },
         {
@@ -572,6 +628,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.convert_s_i64'
+          },
           name: 'f64.convert_s_i64'
         },
         {
@@ -610,6 +670,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.convert_u_i32'
+          },
           name: 'f32.convert_u_i32'
         },
         {
@@ -648,6 +712,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.convert_u_i64'
+          },
           name: 'f32.convert_u_i64'
         },
         {
@@ -686,6 +754,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.convert_u_i32'
+          },
           name: 'f64.convert_u_i32'
         },
         {
@@ -724,6 +796,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.convert_u_i64'
+          },
           name: 'f64.convert_u_i64'
         },
         {
@@ -762,6 +838,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.promote_f32'
+          },
           name: 'f64.promote_f32'
         },
         {
@@ -800,6 +880,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.demote_f64'
+          },
           name: 'f32.demote_f64'
         },
         {
@@ -838,6 +922,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.reinterpret_i32'
+          },
           name: 'f32.reinterpret_i32'
         },
         {
@@ -876,6 +964,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.reinterpret_i64'
+          },
           name: 'f64.reinterpret_i64'
         },
         {
@@ -914,6 +1006,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.reinterpret_f32'
+          },
           name: 'i32.reinterpret_f32'
         },
         {
@@ -952,6 +1048,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.reinterpret_f64'
+          },
           name: 'i64.reinterpret_f64'
         }
       ]

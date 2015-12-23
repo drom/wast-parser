@@ -22,6 +22,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'return-none'
+          },
           name: 'return-none'
         }
       ]

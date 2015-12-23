@@ -422,6 +422,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'run'
+          },
           name: 'run'
         }
       ]

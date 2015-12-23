@@ -12,6 +12,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'store'
+          },
           name: 'store'
         },
         {
@@ -74,6 +78,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'load'
+          },
           name: 'load'
         },
         {
@@ -120,6 +128,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'grow_memory'
+          },
           name: 'grow_memory'
         },
         {
@@ -152,6 +164,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'overflow_memory_size'
+          },
           name: 'overflow_memory_size'
         },
         {

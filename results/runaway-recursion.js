@@ -23,6 +23,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'runaway'
         },
         {
@@ -65,6 +70,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'a'
+          },
           name: 'mutual_runaway'
         }
       ]

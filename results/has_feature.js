@@ -24,6 +24,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'has_wasm'
+          },
           name: 'has_wasm'
         },
         {
@@ -46,6 +50,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'has_simd128'
+          },
           name: 'has_simd128'
         }
       ]

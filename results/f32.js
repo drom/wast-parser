@@ -587,58 +587,114 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'add'
+          },
           name: 'add'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sub'
+          },
           name: 'sub'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'mul'
+          },
           name: 'mul'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'div'
+          },
           name: 'div'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sqrt'
+          },
           name: 'sqrt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'min'
+          },
           name: 'min'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'max'
+          },
           name: 'max'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ceil'
+          },
           name: 'ceil'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'floor'
+          },
           name: 'floor'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'trunc'
+          },
           name: 'trunc'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'nearest'
+          },
           name: 'nearest'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'abs'
+          },
           name: 'abs'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'neg'
+          },
           name: 'neg'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'copysign'
+          },
           name: 'copysign'
         }
       ]

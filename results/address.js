@@ -318,6 +318,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'good'
+          },
           name: 'good'
         },
         {
@@ -355,6 +359,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'bad2'
+          },
           name: 'bad2'
         }
       ]

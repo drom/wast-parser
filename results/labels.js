@@ -587,12 +587,12 @@
           },
           local: [],
           body: [{
-            kind: 'label',
+            kind: 'block',
             id: {
               kind: 'identifier',
               id: 'ret'
             },
-            body: {
+            body: [{
               kind: 'binop',
               type: 'i32',
               operator: 'mul',
@@ -747,7 +747,7 @@
                   }
                 ]
               }
-            }
+            }]
           }]
         },
         {
@@ -1107,34 +1107,66 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'block'
+          },
           name: 'block'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'loop1'
+          },
           name: 'loop1'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'loop2'
+          },
           name: 'loop2'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'loop3'
+          },
           name: 'loop3'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'loop4'
+          },
           name: 'loop4'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'switch'
+          },
           name: 'switch'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'return'
+          },
           name: 'return'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'br_if'
+          },
           name: 'br_if'
         }
       ]

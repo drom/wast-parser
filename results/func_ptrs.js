@@ -109,6 +109,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'one'
+          },
           name: 'one'
         },
         {
@@ -148,6 +152,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'two'
+          },
           name: 'two'
         },
         {
@@ -197,6 +205,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'three'
+          },
           name: 'three'
         },
         {
@@ -252,6 +264,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'four'
+          },
           name: 'four'
         }
       ]
@@ -561,6 +577,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'callt'
+          },
           name: 'callt'
         },
         {
@@ -600,6 +620,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'callu'
+          },
           name: 'callu'
         }
       ]

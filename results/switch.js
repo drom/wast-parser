@@ -45,9 +45,8 @@
               }
             },
             {
-              kind: 'label',
-              id: null,
-              body: {
+              kind: 'block',
+              body: [{
                 kind: 'tableswitch',
                 id: null,
                 test: {
@@ -321,7 +320,7 @@
                     fallthrough: false
                   }
                 ]
-              }
+              }]
             },
             {
               kind: 'return',
@@ -378,12 +377,12 @@
             {
               kind: 'return',
               expr: {
-                kind: 'label',
+                kind: 'block',
                 id: {
                   kind: 'identifier',
                   id: 'l'
                 },
-                body: {
+                body: [{
                   kind: 'tableswitch',
                   id: null,
                   test: {
@@ -628,7 +627,7 @@
                       fallthrough: false
                     }
                   ]
-                }
+                }]
               }
             }
           ]
@@ -1036,18 +1035,34 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'stmt'
+          },
           name: 'stmt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'expr'
+          },
           name: 'expr'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'corner'
+          },
           name: 'corner'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'break'
+          },
           name: 'break'
         }
       ]
