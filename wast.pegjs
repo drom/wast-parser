@@ -356,7 +356,7 @@ expr
         / kind:("resize_memory" / "grow_memory") __ expr:expr {
             return {
                 kind: kind,
-                expression: expr
+                expr: expr
             };
         }
         )

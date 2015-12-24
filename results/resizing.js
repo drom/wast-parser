@@ -241,7 +241,7 @@
           local: [],
           body: [{
             kind: 'grow_memory',
-            expression: {
+            expr: {
               kind: 'call',
               id: {
                 kind: 'identifier',

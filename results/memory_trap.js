@@ -153,7 +153,7 @@
           local: [],
           body: [{
             kind: 'grow_memory',
-            expression: {
+            expr: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -182,7 +182,7 @@
           local: [],
           body: [{
             kind: 'grow_memory',
-            expression: {
+            expr: {
               kind: 'binop',
               type: 'i32',
               operator: 'xor',
