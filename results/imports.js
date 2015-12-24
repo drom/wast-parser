@@ -220,10 +220,18 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'print32'
+          },
           name: 'print32'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'print64'
+          },
           name: 'print64'
         }
       ]

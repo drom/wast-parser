@@ -19,6 +19,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'a'
         }
       ]
@@ -41,10 +46,20 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'a'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'b'
         }
       ]
@@ -80,10 +95,20 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'a'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
           name: 'b'
         }
       ]
@@ -108,6 +133,11 @@
           },
           {
             kind: 'export',
+            id: {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            },
             name: 'a'
           }
         ]
@@ -150,10 +180,20 @@
           },
           {
             kind: 'export',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             name: 'a'
           },
           {
             kind: 'export',
+            id: {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            },
             name: 'a'
           }
         ]
@@ -183,10 +223,20 @@
           },
           {
             kind: 'export',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             name: 'a'
           },
           {
             kind: 'export',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             name: 'a'
           }
         ]
@@ -242,6 +292,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f'
+          },
           name: 'e'
         }
       ]

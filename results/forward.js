@@ -6,10 +6,18 @@
       body: [
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'even'
+          },
           name: 'even'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'odd'
+          },
           name: 'odd'
         },
         {

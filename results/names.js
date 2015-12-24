@@ -25,6 +25,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'foo'
+          },
           name: 'foo'
         }
       ]
@@ -66,6 +70,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'foo'
+          },
           name: 'foo'
         }
       ]
@@ -104,6 +112,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: ''
         },
         {
@@ -127,6 +140,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'malloc'
+          },
           name: 'malloc'
         },
         {
@@ -185,10 +202,18 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: '_malloc'
+          },
           name: '_malloc'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: '__malloc'
+          },
           name: '__malloc'
         },
         {
@@ -209,6 +234,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 5,
+            raw: '5'
+          },
           name: '~!@#$%^&*()_+\`-={}|[]\\:\";\'<>?,./ '
         },
         {
@@ -229,6 +259,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 6,
+            raw: '6'
+          },
           name: '0'
         },
         {
@@ -252,6 +287,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: '_'
+          },
           name: '_'
         },
         {
@@ -272,6 +311,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 8,
+            raw: '8'
+          },
           name: '$'
         },
         {
@@ -292,6 +336,11 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 9,
+            raw: '9'
+          },
           name: '@'
         }
       ]

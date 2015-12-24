@@ -1035,18 +1035,34 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'stmt'
+          },
           name: 'stmt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'expr'
+          },
           name: 'expr'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'corner'
+          },
           name: 'corner'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'break'
+          },
           name: 'break'
         }
       ]

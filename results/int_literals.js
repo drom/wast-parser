@@ -378,66 +378,130 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.test'
+          },
           name: 'i32.test'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.umax'
+          },
           name: 'i32.umax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.smax'
+          },
           name: 'i32.smax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.neg_smax'
+          },
           name: 'i32.neg_smax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.smin'
+          },
           name: 'i32.smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.alt_smin'
+          },
           name: 'i32.alt_smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.inc_smin'
+          },
           name: 'i32.inc_smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32.neg_zero'
+          },
           name: 'i32.neg_zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.test'
+          },
           name: 'i64.test'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.umax'
+          },
           name: 'i64.umax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.smax'
+          },
           name: 'i64.smax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.neg_smax'
+          },
           name: 'i64.neg_smax'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.smin'
+          },
           name: 'i64.smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.alt_smin'
+          },
           name: 'i64.alt_smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.inc_smin'
+          },
           name: 'i64.inc_smin'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.neg_zero'
+          },
           name: 'i64.neg_zero'
         }
       ]

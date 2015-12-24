@@ -532,18 +532,36 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           name: 'fac-rec'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 2,
+            raw: '2'
+          },
           name: 'fac-iter'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'fac-rec'
+          },
           name: 'fac-rec-named'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'fac-iter'
+          },
           name: 'fac-iter-named'
         }
       ]

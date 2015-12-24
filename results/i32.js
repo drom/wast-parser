@@ -1255,106 +1255,210 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'add'
+          },
           name: 'add'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sub'
+          },
           name: 'sub'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'mul'
+          },
           name: 'mul'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'div_s'
+          },
           name: 'div_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'div_u'
+          },
           name: 'div_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rem_s'
+          },
           name: 'rem_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rem_u'
+          },
           name: 'rem_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'and'
+          },
           name: 'and'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'or'
+          },
           name: 'or'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'xor'
+          },
           name: 'xor'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'shl'
+          },
           name: 'shl'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'shr_s'
+          },
           name: 'shr_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'shr_u'
+          },
           name: 'shr_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'clz'
+          },
           name: 'clz'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ctz'
+          },
           name: 'ctz'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'popcnt'
+          },
           name: 'popcnt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'eq'
+          },
           name: 'eq'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ne'
+          },
           name: 'ne'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'lt_s'
+          },
           name: 'lt_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'lt_u'
+          },
           name: 'lt_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'le_s'
+          },
           name: 'le_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'le_u'
+          },
           name: 'le_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'gt_s'
+          },
           name: 'gt_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'gt_u'
+          },
           name: 'gt_u'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ge_s'
+          },
           name: 'ge_s'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ge_u'
+          },
           name: 'ge_u'
         }
       ]

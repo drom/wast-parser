@@ -306,26 +306,50 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'eq'
+          },
           name: 'eq'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ne'
+          },
           name: 'ne'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'lt'
+          },
           name: 'lt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'le'
+          },
           name: 'le'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'gt'
+          },
           name: 'gt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ge'
+          },
           name: 'ge'
         }
       ]

@@ -587,58 +587,114 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'add'
+          },
           name: 'add'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sub'
+          },
           name: 'sub'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'mul'
+          },
           name: 'mul'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'div'
+          },
           name: 'div'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sqrt'
+          },
           name: 'sqrt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'min'
+          },
           name: 'min'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'max'
+          },
           name: 'max'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ceil'
+          },
           name: 'ceil'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'floor'
+          },
           name: 'floor'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'trunc'
+          },
           name: 'trunc'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'nearest'
+          },
           name: 'nearest'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'abs'
+          },
           name: 'abs'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'neg'
+          },
           name: 'neg'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'copysign'
+          },
           name: 'copysign'
         }
       ]
@@ -2396,58 +2452,114 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'add'
+          },
           name: 'add'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sub'
+          },
           name: 'sub'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'mul'
+          },
           name: 'mul'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'div'
+          },
           name: 'div'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'sqrt'
+          },
           name: 'sqrt'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'min'
+          },
           name: 'min'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'max'
+          },
           name: 'max'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'ceil'
+          },
           name: 'ceil'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'floor'
+          },
           name: 'floor'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'trunc'
+          },
           name: 'trunc'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'nearest'
+          },
           name: 'nearest'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'abs'
+          },
           name: 'abs'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'neg'
+          },
           name: 'neg'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'copysign'
+          },
           name: 'copysign'
         }
       ]
@@ -3658,6 +3770,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.promote_f32'
+          },
           name: 'f64.promote_f32'
         },
         {
@@ -3696,6 +3812,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.demote_f64'
+          },
           name: 'f32.demote_f64'
         },
         {
@@ -3734,6 +3854,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.reinterpret_i32'
+          },
           name: 'f32.reinterpret_i32'
         },
         {
@@ -3772,6 +3896,10 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.reinterpret_i64'
+          },
           name: 'f64.reinterpret_i64'
         }
       ]

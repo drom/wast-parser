@@ -1056,170 +1056,338 @@
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.nan'
+          },
           name: 'f32.nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.positive_nan'
+          },
           name: 'f32.positive_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.negative_nan'
+          },
           name: 'f32.negative_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.plain_nan'
+          },
           name: 'f32.plain_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.informally_known_as_plain_snan'
+          },
           name: 'f32.informally_known_as_plain_snan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.allones_nan'
+          },
           name: 'f32.allones_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.misc_nan'
+          },
           name: 'f32.misc_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.misc_positive_nan'
+          },
           name: 'f32.misc_positive_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.misc_negative_nan'
+          },
           name: 'f32.misc_negative_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.infinity'
+          },
           name: 'f32.infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.positive_infinity'
+          },
           name: 'f32.positive_infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.negative_infinity'
+          },
           name: 'f32.negative_infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.zero'
+          },
           name: 'f32.zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.positive_zero'
+          },
           name: 'f32.positive_zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.negative_zero'
+          },
           name: 'f32.negative_zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.decimal'
+          },
           name: 'f32.decimal'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.hexadecimal'
+          },
           name: 'f32.hexadecimal'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.min_positive'
+          },
           name: 'f32.min_positive'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.max_finite'
+          },
           name: 'f32.max_finite'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.trailing_dot'
+          },
           name: 'f32.trailing_dot'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.max_subnormal'
+          },
           name: 'f32.max_subnormal'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.nan'
+          },
           name: 'f64.nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.positive_nan'
+          },
           name: 'f64.positive_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.negative_nan'
+          },
           name: 'f64.negative_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.plain_nan'
+          },
           name: 'f64.plain_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.informally_known_as_plain_snan'
+          },
           name: 'f64.informally_known_as_plain_snan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.allones_nan'
+          },
           name: 'f64.allones_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.misc_nan'
+          },
           name: 'f64.misc_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.misc_positive_nan'
+          },
           name: 'f64.misc_positive_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.misc_negative_nan'
+          },
           name: 'f64.misc_negative_nan'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.infinity'
+          },
           name: 'f64.infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.positive_infinity'
+          },
           name: 'f64.positive_infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.negative_infinity'
+          },
           name: 'f64.negative_infinity'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.zero'
+          },
           name: 'f64.zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.positive_zero'
+          },
           name: 'f64.positive_zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.negative_zero'
+          },
           name: 'f64.negative_zero'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.decimal'
+          },
           name: 'f64.decimal'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.hexadecimal'
+          },
           name: 'f64.hexadecimal'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.min_positive'
+          },
           name: 'f64.min_positive'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.max_finite'
+          },
           name: 'f64.max_finite'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.trailing_dot'
+          },
           name: 'f64.trailing_dot'
         },
         {
           kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.max_subnormal'
+          },
           name: 'f64.max_subnormal'
         }
       ]
