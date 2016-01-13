@@ -619,7 +619,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'select_f32',
@@ -640,10 +640,15 @@
             init: '1'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'select_f32',
@@ -664,10 +669,15 @@
             init: 'nan'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'select_f64',
@@ -688,10 +698,15 @@
             init: '1'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'select_f64',
@@ -712,6 +727,11 @@
             init: 'nan'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {

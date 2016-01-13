@@ -4975,7 +4975,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.promote_f32',
@@ -4984,6 +4984,11 @@
           type: 'f32',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {
@@ -5378,7 +5383,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.demote_f64',
@@ -5387,6 +5392,11 @@
           type: 'f64',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {

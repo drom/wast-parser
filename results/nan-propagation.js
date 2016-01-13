@@ -700,7 +700,7 @@
       ]
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'add',
@@ -716,11 +716,6 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -844,7 +839,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'sub',
@@ -860,11 +855,6 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -988,7 +978,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'mul',
@@ -1004,11 +994,6 @@
             init: '0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -1132,7 +1117,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'div',
@@ -1148,11 +1133,6 @@
             init: '0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -1276,7 +1256,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'sqrt',
@@ -1285,11 +1265,6 @@
           type: 'f32',
           init: '-0x1p0'
         }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -2565,7 +2540,7 @@
       ]
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'add',
@@ -2581,11 +2556,6 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'nan'
       }
     },
     {
@@ -2709,7 +2679,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'sub',
@@ -2725,11 +2695,6 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'nan'
       }
     },
     {
@@ -2853,7 +2818,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'mul',
@@ -2869,11 +2834,6 @@
             init: '0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'nan'
       }
     },
     {
@@ -2997,7 +2957,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'div',
@@ -3013,11 +2973,6 @@
             init: '0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'nan'
       }
     },
     {
@@ -3141,7 +3096,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'sqrt',
@@ -3150,11 +3105,6 @@
           type: 'f64',
           init: '-0x1p0'
         }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'nan'
       }
     },
     {

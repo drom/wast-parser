@@ -1263,7 +1263,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.no_fold_zero_div',
@@ -1272,6 +1272,11 @@
           type: 'f32',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
@@ -1299,7 +1304,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.no_fold_zero_div',
@@ -1308,6 +1313,11 @@
           type: 'f64',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {
@@ -1694,7 +1704,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.no_fold_sub_self',
@@ -1703,6 +1713,11 @@
           type: 'f32',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
@@ -1718,7 +1733,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.no_fold_sub_self',
@@ -1727,6 +1742,11 @@
           type: 'f64',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {
@@ -3743,7 +3763,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.no_fold_div_0',
@@ -3752,6 +3772,11 @@
           type: 'f32',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
@@ -3847,7 +3872,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.no_fold_div_0',
@@ -3856,6 +3881,11 @@
           type: 'f64',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {
@@ -4048,7 +4078,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.no_fold_div_neg0',
@@ -4057,6 +4087,11 @@
           type: 'f32',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
       }
     },
     {
@@ -4152,7 +4187,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.no_fold_div_neg0',
@@ -4161,6 +4196,11 @@
           type: 'f64',
           init: 'nan'
         }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
       }
     },
     {

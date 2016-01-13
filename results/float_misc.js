@@ -1281,7 +1281,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f32.add',
@@ -1297,6 +1297,11 @@
             init: '1.0'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
       }
     },
     {
@@ -2308,7 +2313,7 @@
       }
     },
     {
-      kind: 'assert_return_nan',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'f64.add',
@@ -2324,6 +2329,11 @@
             init: '1.0'
           }
         ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
       }
     },
     {
