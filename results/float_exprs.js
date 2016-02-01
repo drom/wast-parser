@@ -5575,6 +5575,2264 @@
         type: 'i64',
         init: '0xf000000000000000'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_add_sub'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'sub',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.no_fold_add_sub'
+          },
+          name: 'f32.no_fold_add_sub'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_add_sub'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'sub',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.no_fold_add_sub'
+          },
+          name: 'f64.no_fold_add_sub'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.b553e4p-47'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.67db2cp-26'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.cp-47'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.a884dp-23'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.f2ae1ep-19'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.a884ep-23'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.fc04fp+82'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.65403ap+101'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1p+83'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.870fa2p-78'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c54916p-56'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.8p-78'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.17e966p-108'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.5fa61ap-84'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1p-107'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.1053ea172dba8p-874'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.113c413408ac8p-857'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.1053ea172p-874'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.e377d54807972p-546'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.040a0a4d1ff7p-526'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.e377d548p-546'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.75f53cd926b62p-30'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.66b176e602bb5p-3'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.75f53dp-30'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.c450ff28332ap-341'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.15a5855023baep-305'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.c451p-341'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_add_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.1ad4a596d3ea8p-619'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.17d81a41c0ea8p-588'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.1ad4a8p-619'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_sub_add'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'add',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'sub',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.no_fold_sub_add'
+          },
+          name: 'f32.no_fold_sub_add'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_sub_add'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'add',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'sub',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.no_fold_sub_add'
+          },
+          name: 'f64.no_fold_sub_add'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.523cb8p+9'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.93096cp+8'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.523cbap+9'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.a31a1p-111'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.745efp-95'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.a4p-111'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.3d5328p+26'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.58567p+35'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.3d54p+26'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.374e26p-39'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.66a5p-27'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.374p-39'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.320facp-3'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.ac069ap+14'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.34p-3'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8f92aad2c9b8dp+255'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.08cd4992266cbp+259'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.8f92aad2c9b9p+255'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.5aaff55742c8bp-666'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8f5f47181f46dp-647'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.5aaff5578p-666'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.21bc52967a98dp+251'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.fcffaa32d0884p+300'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.2p+251'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.9c78361f47374p-26'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.69d69f4edc61cp-13'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.9c78361f48p-26'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_sub_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.4dbe68e4afab2p-367'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.dc24e5b39cd02p-361'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4dbe68e4afacp-367'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_mul_div'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.no_fold_mul_div'
+          },
+          name: 'f32.no_fold_mul_div'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_mul_div'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.no_fold_mul_div'
+          },
+          name: 'f64.no_fold_mul_div'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.cd859ap+54'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.6ca936p-47'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.cd8598p+54'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.0b56b8p-26'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.48264cp-106'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.0b56a4p-26'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.e7555cp-48'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.9161cp+48'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.e7555ap-48'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.aaa50ep+52'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.dfb39ep+60'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.aaa50cp+52'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.2b7dfap-92'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.7c4ca6p-37'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.2b7dfep-92'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.3d79ff4118a1ap-837'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.b8b5dda31808cp-205'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.3d79ff412263ep-837'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.f894d1ee6b3a4p+384'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8c2606d03d58ap+585'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.f894d1ee6b3a5p+384'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.a022260acc993p+238'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.5fbc128fc8e3cp-552'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.a022260acc992p+238'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.9d4b8ed174f54p-166'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.ee3d467aeeac6p-906'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.8dcc95a053b2bp-166'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.e95ea897cdcd4p+660'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.854d5df085f2ep-327'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.e95ea897cdcd5p+660'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_div_mul'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'div',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.no_fold_div_mul'
+          },
+          name: 'f32.no_fold_div_mul'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_div_mul'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'div',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.no_fold_div_mul'
+          },
+          name: 'f64.no_fold_div_mul'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.dc6364p+38'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.d630ecp+29'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.dc6362p+38'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.1f9836p-52'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.16c4e4p-18'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.1f9838p-52'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c5972cp-126'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.d6659ep+7'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.c5980ep-126'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.2e3a9ep-74'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.353994p+59'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.2e3a4p-74'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.d96b82p-98'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.95d908p+27'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.d96b84p-98'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.d01f913a52481p-876'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.2cd0668b28344p+184'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.d020daf71cdcp-876'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.81cb7d400918dp-714'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.7caa643586d6ep-53'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.81cb7d400918ep-714'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.66904c97b5c8ep-145'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.5c3481592ad4cp+428'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.66904c97b5c8dp-145'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.e75859d2f0765p-278'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.5f19b6ab497f9p+283'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.e75859d2f0764p-278'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.515fe9c3b5f5p+620'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.36be869c99f7ap+989'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.515fe9c3b5f4fp+620'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'no_fold_demote_promote'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'f32',
+            operator: 'promote',
+            expr: {
+              kind: 'cvtop',
+              type: 'f32',
+              type1: 'f64',
+              operator: 'demote',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'no_fold_demote_promote'
+          },
+          name: 'no_fold_demote_promote'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_fold_demote_promote',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.dece272390f5dp-133'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.decep-133'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_fold_demote_promote',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.19e6c79938a6fp-85'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.19e6c8p-85'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_fold_demote_promote',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.49b297ec44dc1p+107'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.49b298p+107'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_fold_demote_promote',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.74f5bd865163p-88'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.74f5bep-88'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_fold_demote_promote',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.26d675662367ep+104'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.26d676p+104'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'no_demote_mixed_add'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'f64',
+            operator: 'demote',
+            expr: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'cvtop',
+                type: 'f64',
+                type1: 'f32',
+                operator: 'promote',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    id: 'y'
+                  }
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'no_demote_mixed_add'
+          },
+          name: 'no_demote_mixed_add'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'no_demote_mixed_add_commuted'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'f64',
+            operator: 'demote',
+            expr: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'add',
+              left: {
+                kind: 'cvtop',
+                type: 'f64',
+                type1: 'f32',
+                operator: 'promote',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    id: 'y'
+                  }
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'no_demote_mixed_add_commuted'
+          },
+          name: 'no_demote_mixed_add_commuted'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.f51a9d04854f9p-95'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.3f4e9cp-119'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f51a9ep-95'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.065b3d81ad8dp+37'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.758cd8p+38'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f8ba76p+38'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.626c80963bd17p-119'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.9bbf86p-121'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f6f93ep-120'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.0d5110e3385bbp-20'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.096f4ap-29'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.0ccc5ap-20'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.73852db4e5075p-20'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.24e474p-41'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.738536p-20'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add_commuted',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.3f4e9cp-119'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.f51a9d04854f9p-95'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f51a9ep-95'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add_commuted',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.758cd8p+38'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.065b3d81ad8dp+37'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f8ba76p+38'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add_commuted',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.9bbf86p-121'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.626c80963bd17p-119'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.f6f93ep-120'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add_commuted',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.096f4ap-29'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.0d5110e3385bbp-20'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.0ccc5ap-20'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_add_commuted',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.24e474p-41'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.73852db4e5075p-20'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.738536p-20'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'no_demote_mixed_sub'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'f64',
+            operator: 'demote',
+            expr: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'sub',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              },
+              right: {
+                kind: 'cvtop',
+                type: 'f64',
+                type1: 'f32',
+                operator: 'promote',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    id: 'y'
+                  }
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'no_demote_mixed_sub'
+          },
+          name: 'no_demote_mixed_sub'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.a0a183220e9b1p+82'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c5acf8p+61'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.a0a174p+82'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.6e2c5ac39f63ep+30'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.d48ca4p+17'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.6e3bp+30'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.98c74350dde6ap+6'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.9d69bcp-12'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.98c7aap+6'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.0459f34091dbfp-54'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.61ad08p-71'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.045942p-54'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'no_demote_mixed_sub',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.a7498dca3fdb7p+14'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.ed21c8p+15'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.197d02p+15'
+      }
     }
   ]
 }

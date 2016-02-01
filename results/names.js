@@ -342,6 +342,87 @@
             raw: '9'
           },
           name: '@'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'NaN'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'f32',
+            init: '0x2.01p+2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'Infinity'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'f32',
+            init: '0x2.02p+2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'if'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'f32',
+            init: '0x2.03p+2'
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'NaN'
+          },
+          name: 'NaN'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'Infinity'
+          },
+          name: 'Infinity'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'if'
+          },
+          name: 'if'
         }
       ]
     },
@@ -460,6 +541,45 @@
         kind: 'const',
         type: 'f32',
         init: '0x2.00p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'NaN',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x2.01p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'Infinity',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x2.02p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'if',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x2.03p+2'
       }
     }
   ]
