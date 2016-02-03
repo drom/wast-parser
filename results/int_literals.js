@@ -194,6 +194,28 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i32.not_octal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '010'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'i64.test'
           },
           type: null,
@@ -377,6 +399,28 @@
           }]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.not_octal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i64',
+              init: '010'
+            }
+          }]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -444,6 +488,14 @@
           kind: 'export',
           id: {
             kind: 'identifier',
+            id: 'i32.not_octal'
+          },
+          name: 'i32.not_octal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
             id: 'i64.test'
           },
           name: 'i64.test'
@@ -503,6 +555,14 @@
             id: 'i64.neg_zero'
           },
           name: 'i64.neg_zero'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64.not_octal'
+          },
+          name: 'i64.not_octal'
         }
       ]
     },
@@ -614,6 +674,19 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'i32.not_octal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '10'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'i64.test',
         body: []
       },
@@ -712,6 +785,19 @@
         kind: 'const',
         type: 'i64',
         init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.not_octal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '10'
       }
     }
   ]

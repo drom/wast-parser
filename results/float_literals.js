@@ -500,6 +500,31 @@
             expr: {
               kind: 'const',
               type: 'f32',
+              init: '1.e10'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.hex_trailing_dot'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
               init: '0x1.p4'
             }
           }]
@@ -1025,6 +1050,31 @@
             expr: {
               kind: 'const',
               type: 'f64',
+              init: '1.e100'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.hex_trailing_dot'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
               init: '0x1.p4'
             }
           }]
@@ -1218,6 +1268,14 @@
           kind: 'export',
           id: {
             kind: 'identifier',
+            id: 'f32.hex_trailing_dot'
+          },
+          name: 'f32.hex_trailing_dot'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
             id: 'f32.max_subnormal'
           },
           name: 'f32.max_subnormal'
@@ -1381,6 +1439,14 @@
             id: 'f64.trailing_dot'
           },
           name: 'f64.trailing_dot'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.hex_trailing_dot'
+          },
+          name: 'f64.hex_trailing_dot'
         },
         {
           kind: 'export',
@@ -1644,6 +1710,19 @@
       invoke: {
         kind: 'invoke',
         name: 'f32.trailing_dot',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x501502f9'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.hex_trailing_dot',
         body: []
       },
       expr: {
@@ -1917,6 +1996,19 @@
       invoke: {
         kind: 'invoke',
         name: 'f64.trailing_dot',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x54b249ad2594c37d'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.hex_trailing_dot',
         body: []
       },
       expr: {

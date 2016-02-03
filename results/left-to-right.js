@@ -6,9 +6,250 @@
       body: [
         {
           kind: 'memory',
-          int: '9',
+          int: '12',
           int1: null,
           segment: []
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'i32_T'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'i64_T'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'f32_T'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'f64_T'
+          }
+        },
+        {
+          kind: 'table',
+          items: [
+            {
+              kind: 'identifier',
+              id: 'i32_t0'
+            },
+            {
+              kind: 'identifier',
+              id: 'i32_t1'
+            },
+            {
+              kind: 'identifier',
+              id: 'i64_t0'
+            },
+            {
+              kind: 'identifier',
+              id: 'i64_t1'
+            },
+            {
+              kind: 'identifier',
+              id: 'f32_t0'
+            },
+            {
+              kind: 'identifier',
+              id: 'f32_t1'
+            },
+            {
+              kind: 'identifier',
+              id: 'f64_t0'
+            },
+            {
+              kind: 'identifier',
+              id: 'f64_t1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32_t0'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'i32_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32_t1'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'i32_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64_t0'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'i64_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64_t1'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'i64_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_t0'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'f32_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_t1'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'f32_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_t0'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'f64_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_t1'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'f64_T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '-2'
+          }]
         },
         {
           kind: 'func',
@@ -23,7 +264,7 @@
           body: [{
             kind: 'store',
             type: 'i32',
-            size: '8',
+            size: null,
             offset: 0,
             align: 0,
             addr: {
@@ -42,6 +283,111 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'bump'
+          },
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '11'
+              },
+              data: {
+                kind: 'load',
+                type: 'i32',
+                size: '8',
+                sign: false,
+                offset: 0,
+                align: 0,
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '10'
+                }
+              }
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '10'
+              },
+              data: {
+                kind: 'load',
+                type: 'i32',
+                size: '8',
+                sign: false,
+                offset: 0,
+                align: 0,
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '9'
+                }
+              }
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '9'
+              },
+              data: {
+                kind: 'load',
+                type: 'i32',
+                size: '8',
+                sign: false,
+                offset: 0,
+                align: 0,
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '8'
+                }
+              }
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '-3'
+              }
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'get'
           },
           type: null,
@@ -54,8 +400,8 @@
           body: [{
             kind: 'load',
             type: 'i32',
-            size: '8',
-            sign: false,
+            size: null,
+            sign: null,
             offset: 0,
             align: 0,
             expr: {
@@ -79,6 +425,14 @@
           },
           local: [],
           body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
             {
               kind: 'store',
               type: 'i32',
@@ -118,6 +472,14 @@
           local: [],
           body: [
             {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
               kind: 'store',
               type: 'i32',
               size: '8',
@@ -145,6 +507,144 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i32_another'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '3'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32_callee'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32_bool'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '5'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'i64_left'
           },
           type: null,
@@ -155,6 +655,14 @@
           },
           local: [],
           body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
             {
               kind: 'store',
               type: 'i32',
@@ -194,6 +702,14 @@
           local: [],
           body: [
             {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
               kind: 'store',
               type: 'i32',
               size: '8',
@@ -221,6 +737,144 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i64_another'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '3'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i64',
+              init: '1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64_callee'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '2'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64_bool'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '5'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f32_left'
           },
           type: null,
@@ -231,6 +885,14 @@
           },
           local: [],
           body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
             {
               kind: 'store',
               type: 'i32',
@@ -270,6 +932,14 @@
           local: [],
           body: [
             {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
               kind: 'store',
               type: 'i32',
               size: '8',
@@ -297,6 +967,144 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'f32_another'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '3'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'f32',
+              init: '1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_callee'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '4'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_bool'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '5'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f64_left'
           },
           type: null,
@@ -307,6 +1115,14 @@
           },
           local: [],
           body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
             {
               kind: 'store',
               type: 'i32',
@@ -346,6 +1162,14 @@
           local: [],
           body: [
             {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
               kind: 'store',
               type: 'i32',
               size: '8',
@@ -366,6 +1190,144 @@
               kind: 'const',
               type: 'f64',
               init: '1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_another'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '3'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'f64',
+              init: '1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_callee'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '6'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_bool'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'bump'
+              },
+              expr: []
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: '8',
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '5'
+              }
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
             }
           ]
         },
@@ -1910,6 +2872,131 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i32_call_indirect'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                id: 'i32_T'
+              },
+              expr: [
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i32_callee'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i32_right'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i32_another'
+                  },
+                  expr: []
+                }
+              ]
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32_select'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'select',
+              type: 'i32',
+              test: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_bool'
+                },
+                expr: []
+              },
+              consequent: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_left'
+                },
+                expr: []
+              },
+              alternate: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i32_right'
+                },
+                expr: []
+              }
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'i64_add'
           },
           type: null,
@@ -3406,6 +4493,131 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i64_call_indirect'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                id: 'i64_T'
+              },
+              expr: [
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i64_callee'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i64_right'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i64_another'
+                  },
+                  expr: []
+                }
+              ]
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64_select'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'select',
+              type: 'i64',
+              test: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_bool'
+                },
+                expr: []
+              },
+              consequent: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_left'
+                },
+                expr: []
+              },
+              alternate: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'i64_right'
+                },
+                expr: []
+              }
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f32_add'
           },
           type: null,
@@ -4192,6 +5404,131 @@
                   expr: []
                 }
               ]
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_call_indirect'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                id: 'f32_T'
+              },
+              expr: [
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f32_callee'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f32_right'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f32_another'
+                  },
+                  expr: []
+                }
+              ]
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_select'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'select',
+              type: 'f32',
+              test: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_bool'
+                },
+                expr: []
+              },
+              consequent: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_left'
+                },
+                expr: []
+              },
+              alternate: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f32_right'
+                },
+                expr: []
+              }
             },
             {
               kind: 'call',
@@ -5005,6 +6342,131 @@
           ]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_call_indirect'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                id: 'f64_T'
+              },
+              expr: [
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f64_callee'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f64_right'
+                  },
+                  expr: []
+                },
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    id: 'f64_another'
+                  },
+                  expr: []
+                }
+              ]
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_select'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'reset'
+              },
+              expr: []
+            },
+            {
+              kind: 'select',
+              type: 'f64',
+              test: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_bool'
+                },
+                expr: []
+              },
+              consequent: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_left'
+                },
+                expr: []
+              },
+              alternate: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  id: 'f64_right'
+                },
+                expr: []
+              }
+            },
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                id: 'get'
+              },
+              expr: []
+            }
+          ]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -5448,6 +6910,38 @@
           kind: 'export',
           id: {
             kind: 'identifier',
+            id: 'i32_call_indirect'
+          },
+          name: 'i32_call_indirect'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64_call_indirect'
+          },
+          name: 'i64_call_indirect'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i32_select'
+          },
+          name: 'i32_select'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'i64_select'
+          },
+          name: 'i64_select'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
             id: 'f32_add'
           },
           name: 'f32_add'
@@ -5683,6 +7177,38 @@
             id: 'f64_call'
           },
           name: 'f64_call'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_call_indirect'
+          },
+          name: 'f32_call_indirect'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_call_indirect'
+          },
+          name: 'f64_call_indirect'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_select'
+          },
+          name: 'f32_select'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_select'
+          },
+          name: 'f64_select'
         }
       ]
     },
@@ -5696,7 +7222,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5709,7 +7235,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5722,7 +7248,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5735,7 +7261,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5748,7 +7274,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5761,7 +7287,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5774,7 +7300,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5787,7 +7313,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5800,7 +7326,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5813,7 +7339,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5826,7 +7352,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5839,7 +7365,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5852,7 +7378,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5865,7 +7391,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5878,7 +7404,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5891,7 +7417,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5904,7 +7430,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5917,7 +7443,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5930,7 +7456,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5943,7 +7469,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5956,7 +7482,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5969,7 +7495,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5982,7 +7508,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -5995,7 +7521,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6008,7 +7534,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6021,7 +7547,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6034,7 +7560,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6047,7 +7573,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6060,7 +7586,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6073,7 +7599,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6086,7 +7612,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6099,7 +7625,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6112,7 +7638,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6125,7 +7651,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6138,7 +7664,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6151,7 +7677,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6164,7 +7690,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6177,7 +7703,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6190,7 +7716,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6203,7 +7729,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6216,7 +7742,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6229,7 +7755,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6242,7 +7768,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6255,7 +7781,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6268,7 +7794,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6281,7 +7807,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6294,7 +7820,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6307,7 +7833,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6320,7 +7846,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6333,7 +7859,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6346,7 +7872,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6359,7 +7885,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6372,7 +7898,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6385,7 +7911,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6398,7 +7924,59 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32_call_indirect',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x040203'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64_call_indirect',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x040203'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32_select',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x050102'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64_select',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x050102'
       }
     },
     {
@@ -6411,7 +7989,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6424,7 +8002,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6437,7 +8015,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6450,7 +8028,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6463,7 +8041,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6476,7 +8054,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6489,7 +8067,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6502,7 +8080,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6515,7 +8093,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6528,7 +8106,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6541,7 +8119,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6554,7 +8132,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6567,7 +8145,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6580,7 +8158,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6593,7 +8171,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6606,7 +8184,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6619,7 +8197,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6632,7 +8210,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6645,7 +8223,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6658,7 +8236,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6671,7 +8249,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6684,7 +8262,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6697,7 +8275,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6710,7 +8288,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6723,7 +8301,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6736,7 +8314,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6749,7 +8327,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6762,7 +8340,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6775,7 +8353,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
       }
     },
     {
@@ -6788,7 +8366,59 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '0x0102'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_call_indirect',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x040203'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_call_indirect',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x040203'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_select',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x050102'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_select',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x050102'
       }
     }
   ]

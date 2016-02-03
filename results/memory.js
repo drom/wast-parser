@@ -868,192 +868,186 @@
               }
             },
             {
-              kind: 'block',
-              body: [{
-                kind: 'loop',
-                body: [
-                  {
-                    kind: 'if',
-                    test: {
-                      kind: 'relop',
-                      type: 'i32',
-                      operator: 'eq',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0'
-                      }
-                    },
-                    consequent: {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: null
-                    },
-                    alternate: null
-                  },
-                  {
-                    kind: 'set_local',
-                    id: {
-                      kind: 'literal',
-                      value: 2,
-                      raw: '2'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'mul',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '4'
-                      }
-                    }
-                  },
-                  {
-                    kind: 'store',
+              kind: 'loop',
+              body: [
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'relop',
                     type: 'i32',
-                    size: null,
-                    offset: 0,
-                    align: 0,
-                    addr: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      }
-                    },
-                    data: {
+                    operator: 'eq',
+                    left: {
                       kind: 'get_local',
                       id: {
                         kind: 'literal',
                         value: 0,
                         raw: '0'
                       }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
                     }
                   },
-                  {
-                    kind: 'set_local',
+                  consequent: {
+                    kind: 'br',
                     id: {
                       kind: 'literal',
                       value: 1,
                       raw: '1'
                     },
-                    init: {
-                      kind: 'load',
-                      type: 'i32',
-                      size: null,
-                      sign: null,
-                      offset: 0,
-                      align: 0,
-                      expr: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 2,
-                          raw: '2'
-                        }
-                      }
-                    }
-                  },
-                  {
-                    kind: 'if',
-                    test: {
-                      kind: 'relop',
-                      type: 'i32',
-                      operator: 'ne',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        }
-                      }
-                    },
-                    consequent: {
-                      kind: 'return',
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0'
-                      }
-                    },
-                    alternate: null
-                  },
-                  {
-                    kind: 'set_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'sub',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
-                    }
-                  },
-                  {
-                    kind: 'br',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    },
                     expr: null
+                  },
+                  alternate: null
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 2,
+                    raw: '2'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '4'
+                    }
                   }
-                ]
-              }]
+                },
+                {
+                  kind: 'store',
+                  type: 'i32',
+                  size: null,
+                  offset: 0,
+                  align: 0,
+                  addr: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 2,
+                      raw: '2'
+                    }
+                  },
+                  data: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  init: {
+                    kind: 'load',
+                    type: 'i32',
+                    size: null,
+                    sign: null,
+                    offset: 0,
+                    align: 0,
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 2,
+                        raw: '2'
+                      }
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'relop',
+                    type: 'i32',
+                    operator: 'ne',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
+                    }
+                  },
+                  consequent: {
+                    kind: 'return',
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  },
+                  alternate: null
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  expr: null
+                }
+              ]
             },
             {
-              kind: 'return',
-              expr: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
+              kind: 'const',
+              type: 'i32',
+              init: '1'
             }
           ]
         },
@@ -1101,70 +1095,15 @@
               }
             },
             {
-              kind: 'block',
-              body: [{
-                kind: 'loop',
-                body: [
-                  {
-                    kind: 'if',
-                    test: {
-                      kind: 'relop',
-                      type: 'i32',
-                      operator: 'eq',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0'
-                      }
-                    },
-                    consequent: {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: null
-                    },
-                    alternate: null
-                  },
-                  {
-                    kind: 'set_local',
-                    id: {
-                      kind: 'literal',
-                      value: 2,
-                      raw: '2'
-                    },
-                    init: {
-                      kind: 'cvtop',
-                      type: 'f64',
-                      type1: 'i32',
-                      operator: 'convert_s',
-                      expr: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      }
-                    }
-                  },
-                  {
-                    kind: 'store',
-                    type: 'f64',
-                    size: null,
-                    offset: 0,
-                    align: '1',
-                    addr: {
+              kind: 'loop',
+              body: [
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'relop',
+                    type: 'i32',
+                    operator: 'eq',
+                    left: {
                       kind: 'get_local',
                       id: {
                         kind: 'literal',
@@ -1172,117 +1111,166 @@
                         raw: '0'
                       }
                     },
-                    data: {
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  },
+                  consequent: {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    expr: null
+                  },
+                  alternate: null
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 2,
+                    raw: '2'
+                  },
+                  init: {
+                    kind: 'cvtop',
+                    type: 'f64',
+                    type1: 'i32',
+                    operator: 'convert_s',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    }
+                  }
+                },
+                {
+                  kind: 'store',
+                  type: 'f64',
+                  size: null,
+                  offset: 0,
+                  align: '1',
+                  addr: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
+                  },
+                  data: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 2,
+                      raw: '2'
+                    }
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  init: {
+                    kind: 'load',
+                    type: 'f64',
+                    size: null,
+                    sign: null,
+                    offset: 0,
+                    align: '1',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'relop',
+                    type: 'f64',
+                    operator: 'ne',
+                    left: {
                       kind: 'get_local',
                       id: {
                         kind: 'literal',
                         value: 2,
                         raw: '2'
                       }
-                    }
-                  },
-                  {
-                    kind: 'set_local',
-                    id: {
-                      kind: 'literal',
-                      value: 1,
-                      raw: '1'
                     },
-                    init: {
-                      kind: 'load',
-                      type: 'f64',
-                      size: null,
-                      sign: null,
-                      offset: 0,
-                      align: '1',
-                      expr: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
                       }
                     }
                   },
-                  {
-                    kind: 'if',
-                    test: {
-                      kind: 'relop',
-                      type: 'f64',
-                      operator: 'ne',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 2,
-                          raw: '2'
-                        }
-                      },
-                      right: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        }
-                      }
-                    },
-                    consequent: {
-                      kind: 'return',
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0'
-                      }
-                    },
-                    alternate: null
-                  },
-                  {
-                    kind: 'set_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    },
-                    init: {
-                      kind: 'binop',
+                  consequent: {
+                    kind: 'return',
+                    expr: {
+                      kind: 'const',
                       type: 'i32',
-                      operator: 'sub',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
+                      init: '0'
                     }
                   },
-                  {
-                    kind: 'br',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
+                  alternate: null
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
                     },
-                    expr: null
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
                   }
-                ]
-              }]
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  expr: null
+                }
+              ]
             },
             {
-              kind: 'return',
-              expr: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
+              kind: 'const',
+              type: 'i32',
+              init: '1'
             }
           ]
         },
@@ -1393,19 +1381,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'f64',
+              size: null,
+              sign: null,
+              offset: 0,
+              align: '1',
               expr: {
-                kind: 'load',
-                type: 'f64',
-                size: null,
-                sign: null,
-                offset: 0,
-                align: '1',
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '9'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '9'
               }
             }
           ]
@@ -1451,19 +1436,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i32',
+              size: '8',
+              sign: true,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
+                kind: 'const',
                 type: 'i32',
-                size: '8',
-                sign: true,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                init: '8'
               }
             }
           ]
@@ -1509,19 +1491,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i32',
+              size: '8',
+              sign: false,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
+                kind: 'const',
                 type: 'i32',
-                size: '8',
-                sign: false,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                init: '8'
               }
             }
           ]
@@ -1567,19 +1546,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i32',
+              size: '16',
+              sign: true,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
+                kind: 'const',
                 type: 'i32',
-                size: '16',
-                sign: true,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                init: '8'
               }
             }
           ]
@@ -1625,19 +1601,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i32',
+              size: '16',
+              sign: false,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
+                kind: 'const',
                 type: 'i32',
-                size: '16',
-                sign: false,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                init: '8'
               }
             }
           ]
@@ -1683,19 +1656,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '8',
+              sign: true,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '8',
-                sign: true,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]
@@ -1741,19 +1711,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '8',
+              sign: false,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '8',
-                sign: false,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]
@@ -1799,19 +1766,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '16',
+              sign: true,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '16',
-                sign: true,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]
@@ -1857,19 +1821,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '16',
+              sign: false,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '16',
-                sign: false,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]
@@ -1915,19 +1876,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '32',
+              sign: true,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '32',
-                sign: true,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]
@@ -1973,19 +1931,16 @@
               }
             },
             {
-              kind: 'return',
+              kind: 'load',
+              type: 'i64',
+              size: '32',
+              sign: false,
+              offset: 0,
+              align: 0,
               expr: {
-                kind: 'load',
-                type: 'i64',
-                size: '32',
-                sign: false,
-                offset: 0,
-                align: 0,
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             }
           ]

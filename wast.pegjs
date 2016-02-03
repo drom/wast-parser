@@ -433,10 +433,10 @@ func = kind:"func" name:( __ "$" name )? type:( __ func_type )? param:( __ param
     };
 }
 
-param_def = "(" kind:"param" type:( __ local_type )? __ ")" {
+param_def = "(" kind:"param" items:( __ local_type )* __ ")" {
     return {
         kind: kind,
-        items: type ? [{ kind: 'item', type: type[1] }] : []
+        items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
     }
 }
 
