@@ -571,6 +571,46 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'loop5'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'add',
+            left: {
+              kind: 'loop',
+              id: {
+                kind: 'identifier',
+                id: 'l0'
+              },
+              extra: {
+                kind: 'identifier',
+                id: 'l1'
+              },
+              body: [{
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }]
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'switch'
           },
           type: null,
@@ -1106,6 +1146,81 @@
           ]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'misc1'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l1'
+            },
+            body: [{
+              kind: 'binop',
+              type: 'i32',
+              operator: 'xor',
+              left: {
+                kind: 'br',
+                id: {
+                  kind: 'identifier',
+                  id: 'l1'
+                },
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '2'
+              }
+            }]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'misc2'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'xor',
+            left: {
+              kind: 'return',
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '2'
+            }
+          }]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -1149,6 +1264,14 @@
           kind: 'export',
           id: {
             kind: 'identifier',
+            id: 'loop5'
+          },
+          name: 'loop5'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
             id: 'switch'
           },
           name: 'switch'
@@ -1168,6 +1291,22 @@
             id: 'br_if'
           },
           name: 'br_if'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'misc1'
+          },
+          name: 'misc1'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'misc2'
+          },
+          name: 'misc2'
         }
       ]
     },
@@ -1238,6 +1377,19 @@
         kind: 'const',
         type: 'i32',
         init: '16'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'loop5',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '2'
       }
     },
     {
@@ -1404,6 +1556,32 @@
         kind: 'const',
         type: 'i32',
         init: '0x1d'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'misc1',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'misc2',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
       }
     },
     {

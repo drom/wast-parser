@@ -16,14 +16,6 @@
               kind: 'param',
               items: [{
                 kind: 'item',
-                name: 'cond',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
                 name: 'lhs',
                 type: 'i32'
               }]
@@ -33,6 +25,14 @@
               items: [{
                 kind: 'item',
                 name: 'rhs',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'cond',
                 type: 'i32'
               }]
             }
@@ -49,21 +49,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                id: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                id: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                id: 'cond'
               }
             }
           }]
@@ -80,14 +80,6 @@
               kind: 'param',
               items: [{
                 kind: 'item',
-                name: 'cond',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
                 name: 'lhs',
                 type: 'i64'
               }]
@@ -98,6 +90,14 @@
                 kind: 'item',
                 name: 'rhs',
                 type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'cond',
+                type: 'i32'
               }]
             }
           ],
@@ -113,21 +113,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                id: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                id: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                id: 'cond'
               }
             }
           }]
@@ -144,14 +144,6 @@
               kind: 'param',
               items: [{
                 kind: 'item',
-                name: 'cond',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
                 name: 'lhs',
                 type: 'f32'
               }]
@@ -162,6 +154,14 @@
                 kind: 'item',
                 name: 'rhs',
                 type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'cond',
+                type: 'i32'
               }]
             }
           ],
@@ -177,21 +177,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                id: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                id: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                id: 'cond'
               }
             }
           }]
@@ -208,14 +208,6 @@
               kind: 'param',
               items: [{
                 kind: 'item',
-                name: 'cond',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
                 name: 'lhs',
                 type: 'f64'
               }]
@@ -226,6 +218,14 @@
                 kind: 'item',
                 name: 'rhs',
                 type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'cond',
+                type: 'i32'
               }]
             }
           ],
@@ -241,21 +241,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                id: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                id: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                id: 'cond'
               }
             }
           }]
@@ -283,18 +283,18 @@
           body: [{
             kind: 'select',
             type: 'i32',
-            test: {
+            test: {kind: 'unreachable'},
+            consequent: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 id: 'cond'
               }
-            },
-            consequent: {kind: 'unreachable'},
-            alternate: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
             }
           }]
         },
@@ -322,18 +322,18 @@
             kind: 'select',
             type: 'i32',
             test: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            consequent: {kind: 'unreachable'},
+            alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 id: 'cond'
               }
-            },
-            consequent: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            alternate: {kind: 'unreachable'}
+            }
           }]
         },
         {
@@ -400,12 +400,12 @@
           {
             kind: 'const',
             type: 'i32',
-            init: '1'
+            init: '2'
           },
           {
             kind: 'const',
             type: 'i32',
-            init: '2'
+            init: '1'
           }
         ]
       },
@@ -423,17 +423,17 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'i64',
             init: '2'
           },
           {
             kind: 'const',
             type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
             init: '1'
           }
         ]
@@ -452,11 +452,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: '1'
           },
@@ -464,6 +459,11 @@
             kind: 'const',
             type: 'f32',
             init: '2'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -481,11 +481,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: '1'
           },
@@ -493,6 +488,11 @@
             kind: 'const',
             type: 'f64',
             init: '2'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -511,17 +511,17 @@
           {
             kind: 'const',
             type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
             init: '1'
           },
           {
             kind: 'const',
             type: 'i32',
             init: '2'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -540,17 +540,17 @@
           {
             kind: 'const',
             type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
             init: '2'
           },
           {
             kind: 'const',
             type: 'i32',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -566,20 +566,20 @@
         kind: 'invoke',
         name: 'select_i64',
         body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '2'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
           {
             kind: 'const',
             type: 'i32',
             init: '-1'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '2'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '1'
           }
         ]
       },
@@ -597,11 +597,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0xf0f0f0f0'
-          },
-          {
-            kind: 'const',
             type: 'i64',
             init: '2'
           },
@@ -609,6 +604,11 @@
             kind: 'const',
             type: 'i64',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xf0f0f0f0'
           }
         ]
       },
@@ -626,17 +626,17 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: 'nan'
           },
           {
             kind: 'const',
             type: 'f32',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
             init: '1'
           }
         ]
@@ -655,17 +655,17 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: 'n0x20304'
           },
           {
             kind: 'const',
             type: 'f32',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
             init: '1'
           }
         ]
@@ -684,11 +684,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: 'nan'
           },
@@ -696,6 +691,11 @@
             kind: 'const',
             type: 'f32',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -713,11 +713,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: 'n0x20304'
           },
@@ -725,6 +720,11 @@
             kind: 'const',
             type: 'f32',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -742,11 +742,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: '2'
           },
@@ -754,6 +749,11 @@
             kind: 'const',
             type: 'f32',
             init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -769,11 +769,6 @@
         kind: 'invoke',
         name: 'select_f32',
         body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
           {
             kind: 'const',
             type: 'f32',
@@ -783,6 +778,11 @@
             kind: 'const',
             type: 'f32',
             init: 'n0x20304'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -800,11 +800,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: '2'
           },
@@ -812,6 +807,11 @@
             kind: 'const',
             type: 'f32',
             init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -829,11 +829,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f32',
             init: '2'
           },
@@ -841,6 +836,11 @@
             kind: 'const',
             type: 'f32',
             init: 'n0x20304'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -858,17 +858,17 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: 'nan'
           },
           {
             kind: 'const',
             type: 'f64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
             init: '1'
           }
         ]
@@ -887,17 +887,17 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: 'n0x20304'
           },
           {
             kind: 'const',
             type: 'f64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
             init: '1'
           }
         ]
@@ -916,11 +916,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: 'nan'
           },
@@ -928,6 +923,11 @@
             kind: 'const',
             type: 'f64',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -945,11 +945,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: 'n0x20304'
           },
@@ -957,6 +952,11 @@
             kind: 'const',
             type: 'f64',
             init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -974,11 +974,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: '2'
           },
@@ -986,6 +981,11 @@
             kind: 'const',
             type: 'f64',
             init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -1001,11 +1001,6 @@
         kind: 'invoke',
         name: 'select_f64',
         body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
           {
             kind: 'const',
             type: 'f64',
@@ -1015,6 +1010,11 @@
             kind: 'const',
             type: 'f64',
             init: 'n0x20304'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
           }
         ]
       },
@@ -1032,11 +1032,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: '2'
           },
@@ -1044,6 +1039,11 @@
             kind: 'const',
             type: 'f64',
             init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },
@@ -1061,11 +1061,6 @@
         body: [
           {
             kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
             type: 'f64',
             init: '2'
           },
@@ -1073,6 +1068,11 @@
             kind: 'const',
             type: 'f64',
             init: 'n0x20304'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
           }
         ]
       },

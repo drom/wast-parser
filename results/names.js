@@ -581,6 +581,123 @@
         type: 'f32',
         init: '0x2.03p+2'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'import',
+          id: null,
+          name1: 'spectest',
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: null
+        },
+        {
+          kind: 'import',
+          id: null,
+          name1: 'spectest',
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: null
+        },
+        {
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'call_import',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              expr: [{
+                kind: 'get_local',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }
+              }]
+            },
+            {
+              kind: 'call_import',
+              id: {
+                kind: 'literal',
+                value: 1,
+                raw: '1'
+              },
+              expr: [{
+                kind: 'get_local',
+                id: {
+                  kind: 'literal',
+                  value: 1,
+                  raw: '1'
+                }
+              }]
+            }
+          ]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          name: 'print32'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'print32',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '42'
+        },
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '123'
+        }
+      ]
     }
   ]
 }

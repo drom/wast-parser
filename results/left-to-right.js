@@ -2962,7 +2962,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_bool'
+                  id: 'i32_left'
                 },
                 expr: []
               },
@@ -2970,7 +2970,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  id: 'i32_right'
                 },
                 expr: []
               },
@@ -2978,7 +2978,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  id: 'i32_bool'
                 },
                 expr: []
               }
@@ -4583,7 +4583,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_bool'
+                  id: 'i64_left'
                 },
                 expr: []
               },
@@ -4591,7 +4591,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  id: 'i64_right'
                 },
                 expr: []
               },
@@ -4599,7 +4599,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  id: 'i64_bool'
                 },
                 expr: []
               }
@@ -5509,7 +5509,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_bool'
+                  id: 'f32_left'
                 },
                 expr: []
               },
@@ -5517,7 +5517,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  id: 'f32_right'
                 },
                 expr: []
               },
@@ -5525,7 +5525,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  id: 'f32_bool'
                 },
                 expr: []
               }
@@ -6435,7 +6435,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_bool'
+                  id: 'f64_left'
                 },
                 expr: []
               },
@@ -6443,7 +6443,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  id: 'f64_right'
                 },
                 expr: []
               },
@@ -6451,7 +6451,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  id: 'f64_bool'
                 },
                 expr: []
               }
@@ -7963,7 +7963,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x050102'
+        init: '0x010205'
       }
     },
     {
@@ -7976,7 +7976,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x050102'
+        init: '0x010205'
       }
     },
     {
@@ -8405,7 +8405,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x050102'
+        init: '0x010205'
       }
     },
     {
@@ -8418,7 +8418,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x050102'
+        init: '0x010205'
       }
     }
   ]

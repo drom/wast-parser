@@ -149,6 +149,31 @@
           ]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'misc1'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'xor',
+            left: {kind: 'unreachable'},
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '10'
+            }
+          }]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -195,6 +220,14 @@
             id: 'call'
           },
           name: 'call'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'misc1'
+          },
+          name: 'misc1'
         }
       ]
     },
@@ -285,6 +318,18 @@
       invoke: {
         kind: 'invoke',
         name: 'call',
+        body: []
+      },
+      failure: {
+        kind: 'failure',
+        value: 'unreachable executed'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'misc1',
         body: []
       },
       failure: {
