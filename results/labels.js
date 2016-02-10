@@ -902,7 +902,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'br_if'
+            name: 'br_if0'
           },
           type: null,
           param: [],
@@ -1024,15 +1024,6 @@
                 {
                   kind: 'br_if',
                   test: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '0'
-                  },
-                  id: {
-                    kind: 'identifier',
-                    id: 'outer'
-                  },
-                  expr: {
                     kind: 'set_local',
                     id: {
                       kind: 'identifier',
@@ -1055,6 +1046,15 @@
                         init: '0x4'
                       }
                     }
+                  },
+                  id: {
+                    kind: 'identifier',
+                    id: 'outer'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
                   }
                 },
                 {
@@ -1084,15 +1084,6 @@
                 {
                   kind: 'br_if',
                   test: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  },
-                  id: {
-                    kind: 'identifier',
-                    id: 'outer'
-                  },
-                  expr: {
                     kind: 'set_local',
                     id: {
                       kind: 'identifier',
@@ -1115,6 +1106,15 @@
                         init: '0x10'
                       }
                     }
+                  },
+                  id: {
+                    kind: 'identifier',
+                    id: 'outer'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
                   }
                 },
                 {
@@ -1142,6 +1142,213 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_if1'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l0'
+            },
+            body: [
+              {
+                kind: 'br_if',
+                test: {
+                  kind: 'block',
+                  id: {
+                    kind: 'identifier',
+                    id: 'l1'
+                  },
+                  body: [{
+                    kind: 'br',
+                    id: {
+                      kind: 'identifier',
+                      id: 'l1'
+                    },
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }]
+                },
+                id: {
+                  kind: 'identifier',
+                  id: 'l0'
+                },
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_if2'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l0'
+            },
+            body: [
+              {
+                kind: 'if',
+                test: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                },
+                consequent: {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'l0'
+                  },
+                  expr: {
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      id: 'l1'
+                    },
+                    body: [{
+                      kind: 'br',
+                      id: {
+                        kind: 'identifier',
+                        id: 'l1'
+                      },
+                      expr: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '1'
+                      }
+                    }]
+                  }
+                },
+                alternate: null
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_if3'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              name: 'i1',
+              type: 'i32'
+            }]
+          }],
+          body: [
+            {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: {
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  id: 'l0'
+                },
+                body: [
+                  {
+                    kind: 'br_if',
+                    test: {
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i1'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '1'
+                      }
+                    },
+                    id: {
+                      kind: 'identifier',
+                      id: 'l0'
+                    },
+                    expr: {
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        id: 'i1'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '2'
+                      }
+                    }
+                  },
+                  {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                ]
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            },
+            {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'i1'
+              }
             }
           ]
         },
@@ -1288,9 +1495,33 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'br_if'
+            id: 'br_if0'
           },
-          name: 'br_if'
+          name: 'br_if0'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'br_if1'
+          },
+          name: 'br_if1'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'br_if2'
+          },
+          name: 'br_if2'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'br_if3'
+          },
+          name: 'br_if3'
         },
         {
           kind: 'export',
@@ -1549,13 +1780,52 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'br_if',
+        name: 'br_if0',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
         init: '0x1d'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br_if1',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br_if2',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br_if3',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '2'
       }
     },
     {
@@ -1692,8 +1962,8 @@
               kind: 'br_if',
               test: {
                 kind: 'const',
-                type: 'i32',
-                init: '1'
+                type: 'f32',
+                init: '0'
               },
               id: {
                 kind: 'identifier',
@@ -1701,8 +1971,8 @@
               },
               expr: {
                 kind: 'const',
-                type: 'f32',
-                init: '0'
+                type: 'i32',
+                init: '1'
               }
             }]
           }]
@@ -1711,6 +1981,355 @@
       failure: {
         kind: 'failure',
         value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l'
+            },
+            body: [{
+              kind: 'br_if',
+              test: {
+                kind: 'const',
+                type: 'f32',
+                init: '0'
+              },
+              id: {
+                kind: 'identifier',
+                id: 'l'
+              },
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l'
+            },
+            body: [{
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'br_if',
+                test: {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '0'
+                },
+                id: {
+                  kind: 'identifier',
+                  id: 'l'
+                },
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                }
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'arity mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l'
+            },
+            body: [{
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'br_if',
+                test: {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '0'
+                },
+                id: {
+                  kind: 'identifier',
+                  id: 'l'
+                },
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                }
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l'
+            },
+            body: [{
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
+                },
+                body: [{
+                  kind: 'br_if',
+                  test: {
+                    kind: 'const',
+                    type: 'f32',
+                    init: '3'
+                  },
+                  id: {
+                    kind: 'identifier',
+                    id: 'l'
+                  },
+                  expr: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
+                  }
+                }]
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l0'
+            },
+            body: [{
+              kind: 'br_if',
+              test: {kind: 'nop'},
+              id: {
+                kind: 'identifier',
+                id: 'l0'
+              },
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'arity mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: null,
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l0'
+            },
+            body: [
+              {
+                kind: 'if_else',
+                test: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                },
+                consequent: {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'l0'
+                  },
+                  expr: {
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      id: 'l1'
+                    },
+                    body: [{
+                      kind: 'br',
+                      id: {
+                        kind: 'identifier',
+                        id: 'l1'
+                      },
+                      expr: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '1'
+                      }
+                    }]
+                  }
+                },
+                alternate: {
+                  kind: 'block',
+                  body: [
+                    {
+                      kind: 'block',
+                      id: {
+                        kind: 'identifier',
+                        id: 'l1'
+                      },
+                      body: [{
+                        kind: 'br',
+                        id: {
+                          kind: 'identifier',
+                          id: 'l1'
+                        },
+                        expr: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '1'
+                        }
+                      }]
+                    },
+                    {kind: 'nop'}
+                  ]
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'arity mismatch'
       }
     }
   ]

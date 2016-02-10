@@ -187,7 +187,7 @@ expr
             };
         }
 
-        / kind:"br_if" __ test:expr __ id:var expr:( __ expr )? {
+        / kind:"br_if" __ id:var __ test:expr __ expr:( __ expr )? {
             return {
                 kind: kind,
                 test: test,
