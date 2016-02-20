@@ -325,7 +325,7 @@
             expr: {
               kind: 'const',
               type: 'f32',
-              init: '0.0'
+              init: '0x0.0p0'
             }
           }]
         },
@@ -350,7 +350,7 @@
             expr: {
               kind: 'const',
               type: 'f32',
-              init: '+0.0'
+              init: '+0x0.0p0'
             }
           }]
         },
@@ -375,7 +375,7 @@
             expr: {
               kind: 'const',
               type: 'f32',
-              init: '-0.0'
+              init: '-0x0.0p0'
             }
           }]
         },
@@ -383,32 +383,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f32.decimal'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'reinterpret',
-            expr: {
-              kind: 'const',
-              type: 'f32',
-              init: '6.283185482e+00'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.hexadecimal'
+            name: 'f32.misc'
           },
           type: null,
           param: [],
@@ -458,6 +433,31 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'f32.min_normal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '0x1p-126'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f32.max_finite'
           },
           type: null,
@@ -483,56 +483,6 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f32.trailing_dot'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'reinterpret',
-            expr: {
-              kind: 'const',
-              type: 'f32',
-              init: '1.e10'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.hex_trailing_dot'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'reinterpret',
-            expr: {
-              kind: 'const',
-              type: 'f32',
-              init: '0x1.p4'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
             name: 'f32.max_subnormal'
           },
           type: null,
@@ -550,7 +500,257 @@
             expr: {
               kind: 'const',
               type: 'f32',
-              init: '1.1754942106924410e-38'
+              init: '0x1.fffffcp-127'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.trailing_dot'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '0x1.p10'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.zero'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '0.0e0'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.positive_zero'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '+0.0e0'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.negative_zero'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '-0.0e0'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.misc'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '6.28318548202514648'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.min_positive'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.4013e-45'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.min_normal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.1754944e-38'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.max_subnormal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.1754942e-38'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.max_finite'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '3.4028234e+38'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32_dec.trailing_dot'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.e10'
             }
           }]
         },
@@ -875,7 +1075,7 @@
             expr: {
               kind: 'const',
               type: 'f64',
-              init: '0.0'
+              init: '0x0.0p0'
             }
           }]
         },
@@ -900,7 +1100,7 @@
             expr: {
               kind: 'const',
               type: 'f64',
-              init: '+0.0'
+              init: '+0x0.0p0'
             }
           }]
         },
@@ -925,7 +1125,7 @@
             expr: {
               kind: 'const',
               type: 'f64',
-              init: '-0.0'
+              init: '-0x0.0p0'
             }
           }]
         },
@@ -933,32 +1133,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.decimal'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f64',
-            operator: 'reinterpret',
-            expr: {
-              kind: 'const',
-              type: 'f64',
-              init: '6.28318530717958623'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.hexadecimal'
+            name: 'f64.misc'
           },
           type: null,
           param: [],
@@ -1008,6 +1183,56 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'f64.min_normal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '0x1p-1022'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.max_subnormal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '0x0.fffffffffffffp-1022'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f64.max_finite'
           },
           type: null,
@@ -1050,7 +1275,7 @@
             expr: {
               kind: 'const',
               type: 'f64',
-              init: '1.e100'
+              init: '0x1.p100'
             }
           }]
         },
@@ -1058,7 +1283,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.hex_trailing_dot'
+            name: 'f64_dec.zero'
           },
           type: null,
           param: [],
@@ -1075,7 +1300,7 @@
             expr: {
               kind: 'const',
               type: 'f64',
-              init: '0x1.p4'
+              init: '0.0e0'
             }
           }]
         },
@@ -1083,7 +1308,132 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.max_subnormal'
+            name: 'f64_dec.positive_zero'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '+0.0e0'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.negative_zero'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '-0.0e0'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.misc'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '6.28318530717958623'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.min_positive'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '4.94066e-324'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.min_normal'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '2.2250738585072012e-308'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.max_subnormal'
           },
           type: null,
           param: [],
@@ -1101,6 +1451,56 @@
               kind: 'const',
               type: 'f64',
               init: '2.2250738585072011e-308'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.max_finite'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '1.7976931348623157e+308'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64_dec.trailing_dot'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'reinterpret',
+            expr: {
+              kind: 'const',
+              type: 'f64',
+              init: '1.e100'
             }
           }]
         },
@@ -1228,17 +1628,9 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.decimal'
+            id: 'f32.misc'
           },
-          name: 'f32.decimal'
-        },
-        {
-          kind: 'export',
-          id: {
-            kind: 'identifier',
-            id: 'f32.hexadecimal'
-          },
-          name: 'f32.hexadecimal'
+          name: 'f32.misc'
         },
         {
           kind: 'export',
@@ -1247,6 +1639,22 @@
             id: 'f32.min_positive'
           },
           name: 'f32.min_positive'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.min_normal'
+          },
+          name: 'f32.min_normal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.max_subnormal'
+          },
+          name: 'f32.max_subnormal'
         },
         {
           kind: 'export',
@@ -1268,17 +1676,73 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.hex_trailing_dot'
+            id: 'f32_dec.zero'
           },
-          name: 'f32.hex_trailing_dot'
+          name: 'f32_dec.zero'
         },
         {
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.max_subnormal'
+            id: 'f32_dec.positive_zero'
           },
-          name: 'f32.max_subnormal'
+          name: 'f32_dec.positive_zero'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.negative_zero'
+          },
+          name: 'f32_dec.negative_zero'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.misc'
+          },
+          name: 'f32_dec.misc'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.min_positive'
+          },
+          name: 'f32_dec.min_positive'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.min_normal'
+          },
+          name: 'f32_dec.min_normal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.max_subnormal'
+          },
+          name: 'f32_dec.max_subnormal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.max_finite'
+          },
+          name: 'f32_dec.max_finite'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32_dec.trailing_dot'
+          },
+          name: 'f32_dec.trailing_dot'
         },
         {
           kind: 'export',
@@ -1404,17 +1868,9 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.decimal'
+            id: 'f64.misc'
           },
-          name: 'f64.decimal'
-        },
-        {
-          kind: 'export',
-          id: {
-            kind: 'identifier',
-            id: 'f64.hexadecimal'
-          },
-          name: 'f64.hexadecimal'
+          name: 'f64.misc'
         },
         {
           kind: 'export',
@@ -1423,6 +1879,22 @@
             id: 'f64.min_positive'
           },
           name: 'f64.min_positive'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.min_normal'
+          },
+          name: 'f64.min_normal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.max_subnormal'
+          },
+          name: 'f64.max_subnormal'
         },
         {
           kind: 'export',
@@ -1444,17 +1916,73 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.hex_trailing_dot'
+            id: 'f64_dec.zero'
           },
-          name: 'f64.hex_trailing_dot'
+          name: 'f64_dec.zero'
         },
         {
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.max_subnormal'
+            id: 'f64_dec.positive_zero'
           },
-          name: 'f64.max_subnormal'
+          name: 'f64_dec.positive_zero'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.negative_zero'
+          },
+          name: 'f64_dec.negative_zero'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.misc'
+          },
+          name: 'f64_dec.misc'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.min_positive'
+          },
+          name: 'f64_dec.min_positive'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.min_normal'
+          },
+          name: 'f64_dec.min_normal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.max_subnormal'
+          },
+          name: 'f64_dec.max_subnormal'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.max_finite'
+          },
+          name: 'f64_dec.max_finite'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64_dec.trailing_dot'
+          },
+          name: 'f64_dec.trailing_dot'
         }
       ]
     },
@@ -1657,20 +2185,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.decimal',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0x40c90fdb'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.hexadecimal',
+        name: 'f32.misc',
         body: []
       },
       expr: {
@@ -1696,6 +2211,32 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.min_normal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x800000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.max_subnormal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.max_finite',
         body: []
       },
@@ -1715,33 +2256,124 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x501502f9'
+        init: '0x44800000'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.hex_trailing_dot',
+        name: 'f32_dec.zero',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x41800000'
+        init: '0'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.max_subnormal',
+        name: 'f32_dec.positive_zero',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.negative_zero',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x80000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.misc',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x40c90fdb'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.min_positive',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.min_normal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x800000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.max_subnormal',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
         init: '0x7fffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.max_finite',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7f7fffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32_dec.trailing_dot',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x501502f9'
       }
     },
     {
@@ -1943,20 +2575,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.decimal',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x401921fb54442d18'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f64.hexadecimal',
+        name: 'f64.misc',
         body: []
       },
       expr: {
@@ -1982,6 +2601,32 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f64.min_normal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x10000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.max_subnormal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0xfffffffffffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f64.max_finite',
         body: []
       },
@@ -2001,33 +2646,124 @@
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0x54b249ad2594c37d'
+        init: '0x4630000000000000'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.hex_trailing_dot',
+        name: 'f64_dec.zero',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0x4030000000000000'
+        init: '0'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.max_subnormal',
+        name: 'f64_dec.positive_zero',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.negative_zero',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x8000000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.misc',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x401921fb54442d18'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.min_positive',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.min_normal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x10000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.max_subnormal',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i64',
         init: '0xfffffffffffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.max_finite',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7fefffffffffffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64_dec.trailing_dot',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x54b249ad2594c37d'
       }
     }
   ]

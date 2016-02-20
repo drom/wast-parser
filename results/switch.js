@@ -1034,6 +1034,128 @@
           ]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'nested'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'block',
+              body: [
+                {
+                  kind: 'block',
+                  body: [
+                    {
+                      kind: 'block',
+                      body: [
+                        {
+                          kind: 'tableswitch',
+                          id: null,
+                          test: {
+                            kind: 'get_local',
+                            id: {
+                              kind: 'literal',
+                              value: 0,
+                              raw: '0'
+                            }
+                          },
+                          table: {
+                            kind: 'table',
+                            items: [
+                              {
+                                kind: 'br',
+                                id: {
+                                  kind: 'literal',
+                                  value: 0,
+                                  raw: '0'
+                                },
+                                expr: null
+                              },
+                              {
+                                kind: 'br',
+                                id: {
+                                  kind: 'literal',
+                                  value: 1,
+                                  raw: '1'
+                                },
+                                expr: null
+                              },
+                              {
+                                kind: 'br',
+                                id: {
+                                  kind: 'literal',
+                                  value: 2,
+                                  raw: '2'
+                                },
+                                expr: null
+                              }
+                            ]
+                          },
+                          body: [{
+                            kind: 'br',
+                            id: {
+                              kind: 'literal',
+                              value: 3,
+                              raw: '3'
+                            },
+                            expr: null
+                          }]
+                        },
+                        {
+                          kind: 'return',
+                          expr: {
+                            kind: 'const',
+                            type: 'i32',
+                            init: '1'
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      kind: 'return',
+                      expr: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '2'
+                      }
+                    }
+                  ]
+                },
+                {
+                  kind: 'return',
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '3'
+                  }
+                }
+              ]
+            },
+            {
+              kind: 'return',
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }
+            }
+          ]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -1064,6 +1186,14 @@
             id: 'break'
           },
           name: 'break'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'nested'
+          },
+          name: 'nested'
         }
       ]
     },
@@ -1363,6 +1493,91 @@
         kind: 'const',
         type: 'i32',
         init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'nested',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'nested',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'nested',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '2'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '3'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'nested',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '3'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '4'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'nested',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '4'
       }
     },
     {

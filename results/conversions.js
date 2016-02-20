@@ -5403,6 +5403,74 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1p-1022'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1p-1022'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x0.0000000000001p-1022'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x0.0000000000001p-1022'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.reinterpret_i32',
         body: [{
           kind: 'const',

@@ -55,7 +55,7 @@ value
         }
         / "nan" / "+nan" / "-nan"
         / "infinity" / "+infinity" / "-infinity"
-        / sign:"-"? hex:"0x" digits:[0-9A-Fa-f\.\-\+p]+ {
+        / sign:("-" / "+")? hex:"0x" digits:[0-9A-Fa-f\.\-\+p]+ {
             return (sign || '') + hex + digits.join('');
         }
         / sign:"-"? digits:[0-9\.\-\+e]+ {
@@ -433,6 +433,13 @@ func = kind:"func" name:( __ "$" name )? type:( __ func_type )? param:( __ param
     };
 }
 
+_start = kind:"start" __ id:var {
+    return {
+        kind: kind,
+        id: id
+    };
+}
+
 param_def = "(" kind:"param" items:( __ local_type )* __ ")" {
     return {
         kind: kind,
@@ -512,7 +519,7 @@ invoke = "(" kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )
     };
 }
 
-module = kind:"module" body:( __ "(" ( func / import / export / table / memory / type_def ) __ ")" )* {
+module = kind:"module" body:( __ "(" ( func / import / export / table / memory / type_def / _start) __ ")" )* {
     var result = [];
     return {
         kind: kind,
