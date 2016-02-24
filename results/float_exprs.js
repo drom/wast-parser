@@ -7833,6 +7833,1323 @@
         type: 'f32',
         init: '-0x1.197d02p+15'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i32.no_fold_trunc_s_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i32',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f32',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i32.no_fold_trunc_s_convert_s'
+          },
+          name: 'f32.i32.no_fold_trunc_s_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i32.no_fold_trunc_u_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i32',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f32',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i32.no_fold_trunc_u_convert_s'
+          },
+          name: 'f32.i32.no_fold_trunc_u_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i32.no_fold_trunc_s_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i32',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f32',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i32.no_fold_trunc_s_convert_u'
+          },
+          name: 'f32.i32.no_fold_trunc_s_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i32.no_fold_trunc_u_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i32',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f32',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i32.no_fold_trunc_u_convert_u'
+          },
+          name: 'f32.i32.no_fold_trunc_u_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i32.no_fold_trunc_s_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i32',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f64',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i32.no_fold_trunc_s_convert_s'
+          },
+          name: 'f64.i32.no_fold_trunc_s_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i32.no_fold_trunc_u_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i32',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f64',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i32.no_fold_trunc_u_convert_s'
+          },
+          name: 'f64.i32.no_fold_trunc_u_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i32.no_fold_trunc_s_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i32',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f64',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i32.no_fold_trunc_s_convert_u'
+          },
+          name: 'f64.i32.no_fold_trunc_s_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i32.no_fold_trunc_u_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i32',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i32',
+              type1: 'f64',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i32.no_fold_trunc_u_convert_u'
+          },
+          name: 'f64.i32.no_fold_trunc_u_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i64.no_fold_trunc_s_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i64',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f32',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i64.no_fold_trunc_s_convert_s'
+          },
+          name: 'f32.i64.no_fold_trunc_s_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i64.no_fold_trunc_u_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i64',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f32',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i64.no_fold_trunc_u_convert_s'
+          },
+          name: 'f32.i64.no_fold_trunc_u_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i64.no_fold_trunc_s_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i64',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f32',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i64.no_fold_trunc_s_convert_u'
+          },
+          name: 'f32.i64.no_fold_trunc_s_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.i64.no_fold_trunc_u_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i64',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f32',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f32.i64.no_fold_trunc_u_convert_u'
+          },
+          name: 'f32.i64.no_fold_trunc_u_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i64.no_fold_trunc_s_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i64',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f64',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i64.no_fold_trunc_s_convert_s'
+          },
+          name: 'f64.i64.no_fold_trunc_s_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i64.no_fold_trunc_u_convert_s'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i64',
+            operator: 'convert_s',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f64',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i64.no_fold_trunc_u_convert_s'
+          },
+          name: 'f64.i64.no_fold_trunc_u_convert_s'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i64.no_fold_trunc_s_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i64',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f64',
+              operator: 'trunc_s',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i64.no_fold_trunc_s_convert_u'
+          },
+          name: 'f64.i64.no_fold_trunc_s_convert_u'
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.i64.no_fold_trunc_u_convert_u'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i64',
+            operator: 'convert_u',
+            expr: {
+              kind: 'cvtop',
+              type: 'i64',
+              type1: 'f64',
+              operator: 'trunc_u',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'f64.i64.no_fold_trunc_u_convert_u'
+          },
+          name: 'f64.i64.no_fold_trunc_u_convert_u'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p+32'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i32.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.fffffffep+31'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i32.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p+64'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.i64.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_s_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_u_convert_s',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_s_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1p+64'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '1.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '1.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.i64.no_fold_trunc_u_convert_u',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
     }
   ]
 }

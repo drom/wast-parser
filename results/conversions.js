@@ -5169,6 +5169,40 @@
         body: [{
           kind: 'const',
           type: 'f64',
+          init: '0x1.ffffffp+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.ffffffp+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
           init: '0x1p-119'
         }]
       },
@@ -5465,6 +5499,74 @@
         kind: 'const',
         type: 'f32',
         init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x0.8p-149'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x0.8p-149'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.0000000000001p-150'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.0000000000001p-150'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1p-149'
       }
     },
     {

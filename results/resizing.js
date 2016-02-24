@@ -237,7 +237,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
             kind: 'grow_memory',
@@ -403,13 +406,21 @@
       }
     },
     {
-      kind: 'invoke',
-      name: 'grow',
-      body: [{
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        }]
+      },
+      expr: {
         kind: 'const',
         type: 'i32',
-        init: '4'
-      }]
+        init: '0'
+      }
     },
     {
       kind: 'assert_return',
@@ -492,13 +503,21 @@
       }
     },
     {
-      kind: 'invoke',
-      name: 'grow',
-      body: [{
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        }]
+      },
+      expr: {
         kind: 'const',
         type: 'i32',
-        init: '4'
-      }]
+        init: '65536'
+      }
     },
     {
       kind: 'assert_return',
