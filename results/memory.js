@@ -267,7 +267,7 @@
           body: [{
             kind: 'load',
             type: 'i32',
-            size: '8',
+            size: 8,
             sign: false,
             offset: 0,
             align: 2,
@@ -299,7 +299,7 @@
           body: [{
             kind: 'load',
             type: 'i32',
-            size: '16',
+            size: 16,
             sign: false,
             offset: 0,
             align: 4,
@@ -623,7 +623,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -646,7 +646,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -674,7 +674,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -697,7 +697,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -730,7 +730,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -753,7 +753,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -781,7 +781,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -804,7 +804,7 @@
                   left: {
                     kind: 'load',
                     type: 'i32',
-                    size: '8',
+                    size: 8,
                     sign: false,
                     offset: 0,
                     align: 0,
@@ -1155,7 +1155,7 @@
                   type: 'f64',
                   size: null,
                   offset: 0,
-                  align: '1',
+                  align: 1,
                   addr: {
                     kind: 'get_local',
                     id: {
@@ -1351,7 +1351,7 @@
               type: 'i64',
               size: null,
               offset: 0,
-              align: '1',
+              align: 1,
               addr: {
                 kind: 'const',
                 type: 'i32',
@@ -1366,9 +1366,9 @@
             {
               kind: 'store',
               type: 'i32',
-              size: '1',
+              size: 1,
               offset: 0,
-              align: '1',
+              align: 1,
               addr: {
                 kind: 'const',
                 type: 'i32',
@@ -1419,7 +1419,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: '8',
+              size: 8,
               offset: 0,
               align: 0,
               addr: {
@@ -1438,7 +1438,7 @@
             {
               kind: 'load',
               type: 'i32',
-              size: '8',
+              size: 8,
               sign: true,
               offset: 0,
               align: 0,
@@ -1474,7 +1474,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: '8',
+              size: 8,
               offset: 0,
               align: 0,
               addr: {
@@ -1493,7 +1493,7 @@
             {
               kind: 'load',
               type: 'i32',
-              size: '8',
+              size: 8,
               sign: false,
               offset: 0,
               align: 0,
@@ -1529,7 +1529,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: '1',
+              size: 1,
               offset: 0,
               align: 0,
               addr: {
@@ -1548,7 +1548,7 @@
             {
               kind: 'load',
               type: 'i32',
-              size: '16',
+              size: 16,
               sign: true,
               offset: 0,
               align: 0,
@@ -1584,7 +1584,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: '1',
+              size: 1,
               offset: 0,
               align: 0,
               addr: {
@@ -1603,7 +1603,7 @@
             {
               kind: 'load',
               type: 'i32',
-              size: '16',
+              size: 16,
               sign: false,
               offset: 0,
               align: 0,
@@ -1639,7 +1639,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '8',
+              size: 8,
               offset: 0,
               align: 0,
               addr: {
@@ -1658,7 +1658,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '8',
+              size: 8,
               sign: true,
               offset: 0,
               align: 0,
@@ -1694,7 +1694,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '8',
+              size: 8,
               offset: 0,
               align: 0,
               addr: {
@@ -1713,7 +1713,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '8',
+              size: 8,
               sign: false,
               offset: 0,
               align: 0,
@@ -1749,7 +1749,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '1',
+              size: 1,
               offset: 0,
               align: 0,
               addr: {
@@ -1768,7 +1768,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '16',
+              size: 16,
               sign: true,
               offset: 0,
               align: 0,
@@ -1804,7 +1804,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '1',
+              size: 1,
               offset: 0,
               align: 0,
               addr: {
@@ -1823,7 +1823,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '16',
+              size: 16,
               sign: false,
               offset: 0,
               align: 0,
@@ -1859,7 +1859,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '3',
+              size: 3,
               offset: 0,
               align: 0,
               addr: {
@@ -1878,7 +1878,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '32',
+              size: 32,
               sign: true,
               offset: 0,
               align: 0,
@@ -1914,7 +1914,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: '3',
+              size: 3,
               offset: 0,
               align: 0,
               addr: {
@@ -1933,7 +1933,7 @@
             {
               kind: 'load',
               type: 'i64',
-              size: '32',
+              size: 32,
               sign: false,
               offset: 0,
               align: 0,

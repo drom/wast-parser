@@ -307,7 +307,7 @@
               expr: [{
                 kind: 'store',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 offset: 0,
                 align: 0,
                 addr: {
@@ -331,7 +331,7 @@
               expr: [{
                 kind: 'store',
                 type: 'i32',
-                size: '1',
+                size: 1,
                 offset: 0,
                 align: 0,
                 addr: {
@@ -355,7 +355,7 @@
               expr: [{
                 kind: 'store',
                 type: 'i64',
-                size: '8',
+                size: 8,
                 offset: 0,
                 align: 0,
                 addr: {
@@ -379,7 +379,7 @@
               expr: [{
                 kind: 'store',
                 type: 'i64',
-                size: '1',
+                size: 1,
                 offset: 0,
                 align: 0,
                 addr: {
@@ -403,7 +403,7 @@
               expr: [{
                 kind: 'store',
                 type: 'i64',
-                size: '3',
+                size: 3,
                 offset: 0,
                 align: 0,
                 addr: {

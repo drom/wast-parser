@@ -139,7 +139,7 @@
           body: [{
             kind: 'store',
             type: 'i32',
-            size: '8',
+            size: 8,
             offset: 0,
             align: 0,
             addr: {
@@ -154,7 +154,7 @@
               left: {
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 0,
                 align: 0,
@@ -190,7 +190,7 @@
             expr: {
               kind: 'load',
               type: 'i32',
-              size: '8',
+              size: 8,
               sign: false,
               offset: 0,
               align: 0,
@@ -339,7 +339,7 @@
           body: [{
             kind: 'store',
             type: 'i32',
-            size: '8',
+            size: 8,
             offset: 0,
             align: 0,
             addr: {
@@ -354,7 +354,7 @@
               left: {
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 0,
                 align: 0,
@@ -390,7 +390,7 @@
             expr: {
               kind: 'load',
               type: 'i32',
-              size: '8',
+              size: 8,
               sign: false,
               offset: 0,
               align: 0,

@@ -280,7 +280,7 @@ expr
             return {
                 kind: kind,
                 type: type,
-                size: sufix ? sufix[0] : null,
+                size: sufix ? parseInt(sufix[0], 10) : null,
                 sign: (sufix && sufix[1]) ? (sufix[1][1] === 's') : null,
                 offset: offset ? parseInt(offset[2], 10) : 0,
                 align: align ? parseInt(align[2], 10) : 0,
@@ -292,9 +292,9 @@ expr
             return {
                 kind: kind,
                 type: type,
-                size: sufix ? sufix[0] : null,
-                offset: offset ? offset[2] : 0,
-                align: align ? align[2] : 0,
+                size: sufix ? parseInt(sufix[0], 10) : null,
+                offset: offset ? parseInt(offset[2], 10) : 0,
+                align: align ? parseInt(align[2], 10) : 0,
                 addr: addr,
                 data: data
             };

@@ -59,7 +59,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 0,
                 align: 0,
@@ -81,7 +81,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 1,
                 align: 0,
@@ -103,7 +103,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 2,
                 align: 0,
@@ -125,7 +125,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '8',
+                size: 8,
                 sign: false,
                 offset: 25,
                 align: 0,
@@ -147,7 +147,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '16',
+                size: 16,
                 sign: false,
                 offset: 0,
                 align: 0,
@@ -169,7 +169,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '16',
+                size: 16,
                 sign: false,
                 offset: 1,
                 align: 1,
@@ -191,7 +191,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '16',
+                size: 16,
                 sign: false,
                 offset: 2,
                 align: 0,
@@ -213,7 +213,7 @@
               expr: [{
                 kind: 'load',
                 type: 'i32',
-                size: '16',
+                size: 16,
                 sign: false,
                 offset: 25,
                 align: 1,
