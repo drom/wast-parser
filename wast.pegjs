@@ -20,9 +20,11 @@ LineTerminatorSequence "end of line"
 
 LineTerminator = [\n\r\u2028\u2029]
 
+multiLineComment = "(;" ( multiLineComment / !";)" . )* ";)" { return null; }
+
 comment "comment"
     = ";;" ( !LineTerminator . )* { return null; }
-    / "(;" ( !";)" . )* ";)" { return null; }
+    / multiLineComment
 
 __ = ( white_space / LineTerminatorSequence / comment )*
 
@@ -483,7 +485,7 @@ import = kind:"import" id:( __ "$" name )? __ ["] name1:name ["] __ ["] name2:na
     };
 }
 
-export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:var {
+export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "memory" ) {
     return {
         kind: kind,
         id:id,

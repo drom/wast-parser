@@ -316,6 +316,58 @@
         type: 'i32',
         init: '43'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '0',
+          int1: '0',
+          segment: []
+        },
+        {
+          kind: 'export',
+          id: 'memory',
+          name: 'a'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '0',
+          int1: '0',
+          segment: []
+        },
+        {
+          kind: 'export',
+          id: 'memory',
+          name: 'a'
+        },
+        {
+          kind: 'export',
+          id: 'memory',
+          name: 'b'
+        }
+      ]
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'export',
+          id: 'memory',
+          name: 'a'
+        }]
+      },
+      failure: {
+        kind: 'failure',
+        value: 'no memory to export'
+      }
     }
   ]
 }

@@ -1,0 +1,4 @@
+{
+  kind: 'script',
+  body: []
+}

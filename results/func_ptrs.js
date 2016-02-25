@@ -938,6 +938,172 @@
         kind: 'failure',
         value: 'undefined table index -1'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'T'
+          }
+        },
+        {
+          kind: 'table',
+          items: [
+            {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            }
+          ]
+        },
+        {
+          kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32'
+          },
+          name1: 'spectest',
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: null
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 't1'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 't2'
+          },
+          type: {
+            kind: 'type',
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            }
+          },
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '2'
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'callt'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'call_indirect',
+            id: {
+              kind: 'identifier',
+              id: 'T'
+            },
+            expr: [{
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'i'
+              }
+            }]
+          }]
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'callt'
+          },
+          name: 'callt'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'callt',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'callt',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '2'
+      }
     }
   ]
 }

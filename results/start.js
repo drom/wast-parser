@@ -513,6 +513,113 @@
         type: 'i32',
         init: '70'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32'
+          },
+          name1: 'spectest',
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: null
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'main'
+          },
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'call_import',
+            id: {
+              kind: 'identifier',
+              id: 'print_i32'
+            },
+            expr: [{
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }]
+          }]
+        },
+        {
+          kind: 'start',
+          id: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'import',
+          id: {
+            kind: 'identifier',
+            name: 'print_i32'
+          },
+          name1: 'spectest',
+          name2: 'print',
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: null
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'main'
+          },
+          type: null,
+          param: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'call_import',
+            id: {
+              kind: 'identifier',
+              id: 'print_i32'
+            },
+            expr: [{
+              kind: 'const',
+              type: 'i32',
+              init: '2'
+            }]
+          }]
+        },
+        {
+          kind: 'start',
+          id: {
+            kind: 'identifier',
+            id: 'main'
+          }
+        }
+      ]
     }
   ]
 }
