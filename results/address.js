@@ -61,7 +61,7 @@
                 type: 'i32',
                 size: '8',
                 sign: false,
-                offset: '0',
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -83,7 +83,7 @@
                 type: 'i32',
                 size: '8',
                 sign: false,
-                offset: '1',
+                offset: 1,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -105,7 +105,7 @@
                 type: 'i32',
                 size: '8',
                 sign: false,
-                offset: '2',
+                offset: 2,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -127,7 +127,7 @@
                 type: 'i32',
                 size: '8',
                 sign: false,
-                offset: '25',
+                offset: 25,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -149,7 +149,7 @@
                 type: 'i32',
                 size: '16',
                 sign: false,
-                offset: '0',
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -171,8 +171,8 @@
                 type: 'i32',
                 size: '16',
                 sign: false,
-                offset: '1',
-                align: '1',
+                offset: 1,
+                align: 1,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -193,7 +193,7 @@
                 type: 'i32',
                 size: '16',
                 sign: false,
-                offset: '2',
+                offset: 2,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -215,8 +215,8 @@
                 type: 'i32',
                 size: '16',
                 sign: false,
-                offset: '25',
-                align: '1',
+                offset: 25,
+                align: 1,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -237,7 +237,7 @@
                 type: 'i32',
                 size: null,
                 sign: null,
-                offset: '0',
+                offset: 0,
                 align: 0,
                 expr: {
                   kind: 'get_local',
@@ -259,8 +259,8 @@
                 type: 'i32',
                 size: null,
                 sign: null,
-                offset: '1',
-                align: '1',
+                offset: 1,
+                align: 1,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -281,8 +281,8 @@
                 type: 'i32',
                 size: null,
                 sign: null,
-                offset: '2',
-                align: '2',
+                offset: 2,
+                align: 2,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -303,8 +303,8 @@
                 type: 'i32',
                 size: null,
                 sign: null,
-                offset: '25',
-                align: '1',
+                offset: 25,
+                align: 1,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -346,7 +346,7 @@
             type: 'i32',
             size: null,
             sign: null,
-            offset: '4294967295',
+            offset: 4294967295,
             align: 0,
             expr: {
               kind: 'get_local',
@@ -474,7 +474,7 @@
               type: 'i32',
               size: null,
               sign: null,
-              offset: '4294967296',
+              offset: 4294967296,
               align: 0,
               expr: {
                 kind: 'get_local',

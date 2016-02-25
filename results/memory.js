@@ -270,7 +270,7 @@
             size: '8',
             sign: false,
             offset: 0,
-            align: '2',
+            align: 2,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -302,7 +302,7 @@
             size: '16',
             sign: false,
             offset: 0,
-            align: '4',
+            align: 4,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -334,7 +334,7 @@
             size: null,
             sign: null,
             offset: 0,
-            align: '8',
+            align: 8,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -366,7 +366,7 @@
             size: null,
             sign: null,
             offset: 0,
-            align: '8',
+            align: 8,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -400,7 +400,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '0',
+              align: 0,
               expr: {
                 kind: 'const',
                 type: 'i32',
@@ -439,7 +439,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '3',
+              align: 3,
               expr: {
                 kind: 'const',
                 type: 'i32',
@@ -478,7 +478,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '5',
+              align: 5,
               expr: {
                 kind: 'const',
                 type: 'i32',
@@ -517,7 +517,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '6',
+              align: 6,
               expr: {
                 kind: 'const',
                 type: 'i32',
@@ -556,7 +556,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '7',
+              align: 7,
               expr: {
                 kind: 'const',
                 type: 'i32',
@@ -1186,7 +1186,7 @@
                     size: null,
                     sign: null,
                     offset: 0,
-                    align: '1',
+                    align: 1,
                     expr: {
                       kind: 'get_local',
                       id: {
@@ -1386,7 +1386,7 @@
               size: null,
               sign: null,
               offset: 0,
-              align: '1',
+              align: 1,
               expr: {
                 kind: 'const',
                 type: 'i32',

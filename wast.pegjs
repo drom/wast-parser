@@ -282,8 +282,8 @@ expr
                 type: type,
                 size: sufix ? sufix[0] : null,
                 sign: (sufix && sufix[1]) ? (sufix[1][1] === 's') : null,
-                offset: offset ? offset[2] : 0,
-                align: align ? align[2] : 0,
+                offset: offset ? parseInt(offset[2], 10) : 0,
+                align: align ? parseInt(align[2], 10) : 0,
                 expr: expr
             };
         }
