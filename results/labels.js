@@ -1428,6 +1428,63 @@
           }]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'redefinition'
+          },
+          type: null,
+          param: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              id: 'l1'
+            },
+            body: [{
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: {
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  id: 'l1'
+                },
+                body: [{
+                  kind: 'const',
+                  type: 'i32',
+                  init: '2'
+                }]
+              },
+              right: {
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  id: 'l1'
+                },
+                body: [{
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    id: 'l1'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '3'
+                  }
+                }]
+              }
+            }]
+          }]
+        },
+        {
           kind: 'export',
           id: {
             kind: 'identifier',
@@ -1538,6 +1595,14 @@
             id: 'misc2'
           },
           name: 'misc2'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'redefinition'
+          },
+          name: 'redefinition'
         }
       ]
     },
@@ -1852,6 +1917,19 @@
         kind: 'const',
         type: 'i32',
         init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'redefinition',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '5'
       }
     },
     {

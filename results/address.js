@@ -368,30 +368,22 @@
       ]
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'good',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      expr: null
+      kind: 'invoke',
+      name: 'good',
+      body: [{
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }]
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'good',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '995'
-        }]
-      },
-      expr: null
+      kind: 'invoke',
+      name: 'good',
+      body: [{
+        kind: 'const',
+        type: 'i32',
+        init: '995'
+      }]
     },
     {
       kind: 'assert_trap',

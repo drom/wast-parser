@@ -110,20 +110,6 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
-              },
-              expr: [{
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  id: 'i'
-                }
-              }]
-            },
-            {
-              kind: 'call_import',
-              id: {
-                kind: 'identifier',
                 id: 'print_i32_f32'
               },
               expr: [
@@ -150,6 +136,20 @@
                   init: '42'
                 }
               ]
+            },
+            {
+              kind: 'call_import',
+              id: {
+                kind: 'identifier',
+                id: 'print_i32'
+              },
+              expr: [{
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
+                }
+              }]
             }
           ]
         },
@@ -171,20 +171,6 @@
           result: null,
           local: [],
           body: [
-            {
-              kind: 'call_import',
-              id: {
-                kind: 'identifier',
-                id: 'print_i64'
-              },
-              expr: [{
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  id: 'i'
-                }
-              }]
-            },
             {
               kind: 'call_import',
               id: {
@@ -215,6 +201,20 @@
                   init: '53'
                 }
               ]
+            },
+            {
+              kind: 'call_import',
+              id: {
+                kind: 'identifier',
+                id: 'print_i64'
+              },
+              expr: [{
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  id: 'i'
+                }
+              }]
             }
           ]
         },
@@ -237,22 +237,30 @@
       ]
     },
     {
-      kind: 'invoke',
-      name: 'print32',
-      body: [{
-        kind: 'const',
-        type: 'i32',
-        init: '13'
-      }]
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'print32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '13'
+        }]
+      },
+      expr: null
     },
     {
-      kind: 'invoke',
-      name: 'print64',
-      body: [{
-        kind: 'const',
-        type: 'i64',
-        init: '24'
-      }]
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'print64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '24'
+        }]
+      },
+      expr: null
     }
   ]
 }
