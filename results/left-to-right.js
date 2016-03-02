@@ -2957,7 +2957,6 @@
             },
             {
               kind: 'select',
-              type: 'i32',
               test: {
                 kind: 'call',
                 id: {
@@ -4578,7 +4577,6 @@
             },
             {
               kind: 'select',
-              type: 'i64',
               test: {
                 kind: 'call',
                 id: {
@@ -5504,7 +5502,6 @@
             },
             {
               kind: 'select',
-              type: 'f32',
               test: {
                 kind: 'call',
                 id: {
@@ -6430,7 +6427,6 @@
             },
             {
               kind: 'select',
-              type: 'f64',
               test: {
                 kind: 'call',
                 id: {

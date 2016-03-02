@@ -300,10 +300,9 @@ expr
             };
         }
 
-        / type:local_type ".select" __ test:expr __ consequent:expr __ alternate:expr {
+        / kind:"select" __ test:expr __ consequent:expr __ alternate:expr {
             return {
-                kind: 'select',
-                type: type,
+                kind: kind,
                 test: test,
                 consequent: consequent,
                 alternate: alternate

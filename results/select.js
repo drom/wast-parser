@@ -44,7 +44,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'i32',
             test: {
               kind: 'get_local',
               id: {
@@ -108,7 +107,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'i64',
             test: {
               kind: 'get_local',
               id: {
@@ -172,7 +170,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'f32',
             test: {
               kind: 'get_local',
               id: {
@@ -236,7 +233,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'f64',
             test: {
               kind: 'get_local',
               id: {
@@ -282,7 +278,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'i32',
             test: {kind: 'unreachable'},
             consequent: {
               kind: 'const',
@@ -320,7 +315,6 @@
           local: [],
           body: [{
             kind: 'select',
-            type: 'i32',
             test: {
               kind: 'const',
               type: 'i32',
