@@ -21,7 +21,7 @@
           },
           local: [],
           body: [{
-            kind: 'if_else',
+            kind: 'if',
             test: {
               kind: 'relop',
               type: 'i64',
@@ -107,7 +107,7 @@
           },
           local: [],
           body: [{
-            kind: 'if_else',
+            kind: 'if',
             test: {
               kind: 'relop',
               type: 'i64',
@@ -230,7 +230,7 @@
               kind: 'loop',
               body: [
                 {
-                  kind: 'if_else',
+                  kind: 'if',
                   test: {
                     kind: 'relop',
                     type: 'i64',
@@ -253,13 +253,14 @@
                     kind: 'br',
                     id: {
                       kind: 'literal',
-                      value: 1,
-                      raw: '1'
+                      value: 2,
+                      raw: '2'
                     },
                     expr: null
                   },
                   alternate: {
                     kind: 'block',
+                    id: null,
                     body: [
                       {
                         kind: 'set_local',
@@ -416,7 +417,7 @@
               },
               body: [
                 {
-                  kind: 'if_else',
+                  kind: 'if',
                   test: {
                     kind: 'relop',
                     type: 'i64',
@@ -444,6 +445,7 @@
                   },
                   alternate: {
                     kind: 'block',
+                    id: null,
                     body: [
                       {
                         kind: 'set_local',
@@ -558,6 +560,7 @@
             },
             {
               kind: 'block',
+              id: null,
               body: [
                 {
                   kind: 'br_if',

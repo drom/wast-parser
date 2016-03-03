@@ -120,38 +120,28 @@ expr
             };
         }
 
-        / kind:"block" body:( __ expr )+ {
+        / kind:"block" id:( __ var )? body:( __ expr )* {
             return {
                 kind: kind,
+                id: id ? id[1] : id,
                 body: body.map(function (e) { return e[1]; })
             };
         }
 
-        // = (label <var> (block <expr>+))
-        / kind:"block" __ id:var body:( __ expr )+ {
+        / kind:"if" __ test:expr __ consequent:expr alternate:( __ expr )? {
             return {
                 kind: kind,
-                id: id,
+                test: test,
+                consequent: consequent,
+                alternate: alternate ? alternate[1] : null
+            };
+        }
+
+        / kind:( "then" / "else" ) id:( __ var )? body:( __ expr )* {
+            return {
+                kind: kind,
+                id: id ? id[1] : id,
                 body: body.map(function (e) { return e[1]; })
-            };
-        }
-
-        / kind:"if_else" __ test:expr __ consequent:expr __ alternate:expr {
-            return {
-                kind: kind,
-                test: test,
-                consequent: consequent,
-                alternate: alternate || null
-            };
-        }
-
-        // ;; = (if <expr> <expr> (nop))
-        / kind:"if" __ test:expr __ consequent:expr {
-            return {
-                kind: kind,
-                test: test,
-                consequent: consequent,
-                alternate: null
             };
         }
 

@@ -46,6 +46,7 @@
             },
             {
               kind: 'block',
+              id: null,
               body: [{
                 kind: 'tableswitch',
                 id: null,
@@ -1055,12 +1056,15 @@
           body: [
             {
               kind: 'block',
+              id: null,
               body: [
                 {
                   kind: 'block',
+                  id: null,
                   body: [
                     {
                       kind: 'block',
+                      id: null,
                       body: [
                         {
                           kind: 'tableswitch',

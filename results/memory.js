@@ -894,8 +894,8 @@
                     kind: 'br',
                     id: {
                       kind: 'literal',
-                      value: 1,
-                      raw: '1'
+                      value: 2,
+                      raw: '2'
                     },
                     expr: null
                   },
@@ -1121,8 +1121,8 @@
                     kind: 'br',
                     id: {
                       kind: 'literal',
-                      value: 1,
-                      raw: '1'
+                      value: 2,
+                      raw: '2'
                     },
                     expr: null
                   },

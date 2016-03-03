@@ -54,7 +54,7 @@
           },
           local: [],
           body: [{
-            kind: 'if_else',
+            kind: 'if',
             test: {
               kind: 'get_local',
               id: {
@@ -83,6 +83,7 @@
           local: [],
           body: [{
             kind: 'block',
+            id: null,
             body: [
               {
                 kind: 'const',
