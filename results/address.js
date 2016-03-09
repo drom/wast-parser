@@ -6,7 +6,7 @@
       body: [
         {
           kind: 'memory',
-          int: '1024',
+          int: '1',
           int1: null,
           segment: [{
             kind: 'segment',
@@ -151,6 +151,28 @@
                 sign: false,
                 offset: 0,
                 align: 0,
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    id: 'i'
+                  }
+                }
+              }]
+            },
+            {
+              kind: 'call_import',
+              id: {
+                kind: 'identifier',
+                id: 'print'
+              },
+              expr: [{
+                kind: 'load',
+                type: 'i32',
+                size: 16,
+                sign: false,
+                offset: 0,
+                align: 1,
                 expr: {
                   kind: 'get_local',
                   id: {
@@ -382,7 +404,7 @@
       body: [{
         kind: 'const',
         type: 'i32',
-        init: '995'
+        init: '65507'
       }]
     },
     {
@@ -393,7 +415,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '996'
+          init: '65508'
         }]
       },
       failure: {
@@ -440,7 +462,7 @@
         body: [
           {
             kind: 'memory',
-            int: '1024',
+            int: '1',
             int1: null,
             segment: []
           },

@@ -6,8 +6,8 @@
       body: [
         {
           kind: 'memory',
-          int: '4',
-          int1: '4',
+          int: '1',
+          int1: '1',
           segment: []
         },
         {
@@ -303,8 +303,8 @@
       body: [
         {
           kind: 'memory',
-          int: '8',
-          int1: '8',
+          int: '1',
+          int1: '1',
           segment: []
         },
         {

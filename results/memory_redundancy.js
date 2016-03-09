@@ -6,8 +6,8 @@
       body: [
         {
           kind: 'memory',
-          int: '16',
-          int1: '16',
+          int: '1',
+          int1: '1',
           segment: []
         },
         {

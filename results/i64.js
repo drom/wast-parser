@@ -658,6 +658,106 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'rotl'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rotl',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'rotr'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rotr',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'clz'
           },
           type: null,
@@ -1356,6 +1456,22 @@
             id: 'shr_u'
           },
           name: 'shr_u'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rotl'
+          },
+          name: 'rotl'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rotr'
+          },
+          name: 'rotr'
         },
         {
           kind: 'export',
@@ -5364,6 +5480,270 @@
         kind: 'const',
         type: 'i64',
         init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xabd1234ef567809c'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '63'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x55e891a77ab3c04e'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xabd1234ef567809c'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x800000000000003f'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x55e891a77ab3c04e'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x8000000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xabcd1234ef567809'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '53'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x6891a77ab3c04d5e'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xabcd1234ef567809'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x35'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x6891a77ab3c04d5e'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xabcd1234ef567809'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0xf5'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x6891a77ab3c04d5e'
       }
     },
     {

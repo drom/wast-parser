@@ -23,8 +23,8 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '4096',
-        int1: '16777216',
+        int: '1',
+        int1: '256',
         segment: []
       }]
     },
@@ -58,8 +58,8 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '100',
-        int1: '1000',
+        int: '1',
+        int1: '2',
         segment: [
           {
             kind: 'segment',
@@ -68,7 +68,7 @@
           },
           {
             kind: 'segment',
-            int: '99',
+            int: '65535',
             name: 'b'
           }
         ]
@@ -78,8 +78,8 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '100',
-        int1: '1000',
+        int: '1',
+        int1: '2',
         segment: [
           {
             kind: 'segment',
@@ -112,7 +112,7 @@
       },
       failure: {
         kind: 'failure',
-        value: 'initial memory size must be less than maximum'
+        value: 'initial memory pages must be less than or equal to the maximum'
       }
     },
     {
@@ -141,8 +141,8 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '100',
-          int1: '1000',
+          int: '1',
+          int1: '2',
           segment: [
             {
               kind: 'segment',
@@ -151,7 +151,7 @@
             },
             {
               kind: 'segment',
-              int: '500',
+              int: '98304',
               name: 'b'
             }
           ]
@@ -168,8 +168,8 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '100',
-          int1: '1000',
+          int: '1',
+          int1: '2',
           segment: [
             {
               kind: 'segment',
@@ -195,8 +195,8 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '100',
-          int1: '1000',
+          int: '1',
+          int1: '2',
           segment: [
             {
               kind: 'segment',
@@ -222,8 +222,8 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '100',
-          int1: '1000',
+          int: '1',
+          int1: '2',
           segment: [
             {
               kind: 'segment',
@@ -576,7 +576,7 @@
       body: [
         {
           kind: 'memory',
-          int: '1024',
+          int: '1',
           int1: null,
           segment: [
             {

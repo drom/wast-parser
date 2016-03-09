@@ -1085,7 +1085,7 @@
       body: [
         {
           kind: 'memory',
-          int: '8',
+          int: '1',
           int1: null,
           segment: []
         },
@@ -1263,7 +1263,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '8'
+          init: '65536'
         }]
       },
       failure: {
@@ -1279,7 +1279,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '8'
+          init: '65536'
         }]
       },
       failure: {
@@ -1295,7 +1295,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '8'
+          init: '65536'
         }]
       },
       failure: {
@@ -1311,7 +1311,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '8'
+          init: '65536'
         }]
       },
       failure: {

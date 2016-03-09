@@ -46,207 +46,202 @@
             },
             {
               kind: 'block',
-              id: null,
+              id: {
+                kind: 'identifier',
+                id: 'switch'
+              },
               body: [{
-                kind: 'tableswitch',
-                id: null,
-                test: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'identifier',
-                    id: 'i'
-                  }
-                },
-                table: {
-                  kind: 'table',
-                  items: [
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '0'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '1'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '2'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '3'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '4'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '5'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '6'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '7'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    }
-                  ]
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  id: '7'
                 },
                 body: [
                   {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      'default'
-                    ],
-                    body: [],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '0'
-                    ],
-                    body: [{
-                      kind: 'return',
-                      expr: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'i'
-                        }
-                      }
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '1'
-                    ],
-                    body: [{kind: 'nop'}],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '2'
-                    ],
-                    body: [],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '3'
-                    ],
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      id: 'default'
+                    },
                     body: [
                       {
-                        kind: 'set_local',
+                        kind: 'block',
                         id: {
                           kind: 'identifier',
-                          id: 'j'
+                          id: '6'
                         },
-                        init: {
-                          kind: 'binop',
-                          type: 'i32',
-                          operator: 'sub',
-                          left: {
-                            kind: 'const',
-                            type: 'i32',
-                            init: '0'
-                          },
-                          right: {
-                            kind: 'get_local',
+                        body: [
+                          {
+                            kind: 'block',
                             id: {
                               kind: 'identifier',
-                              id: 'i'
+                              id: '5'
+                            },
+                            body: [
+                              {
+                                kind: 'block',
+                                id: {
+                                  kind: 'identifier',
+                                  id: '4'
+                                },
+                                body: [
+                                  {
+                                    kind: 'block',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: '3'
+                                    },
+                                    body: [{
+                                      kind: 'block',
+                                      id: {
+                                        kind: 'identifier',
+                                        id: '2'
+                                      },
+                                      body: [
+                                        {
+                                          kind: 'block',
+                                          id: {
+                                            kind: 'identifier',
+                                            id: '1'
+                                          },
+                                          body: [
+                                            {
+                                              kind: 'block',
+                                              id: {
+                                                kind: 'identifier',
+                                                id: '0'
+                                              },
+                                              body: [{
+                                                kind: 'br_table',
+                                                expr: [{
+                                                  kind: 'get_local',
+                                                  id: {
+                                                    kind: 'identifier',
+                                                    id: 'i'
+                                                  }
+                                                }],
+                                                body: [
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '0'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '1'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '2'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '3'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '4'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '5'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '6'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '7'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: 'default'
+                                                  }
+                                                ]
+                                              }]
+                                            },
+                                            {
+                                              kind: 'return',
+                                              expr: {
+                                                kind: 'get_local',
+                                                id: {
+                                                  kind: 'identifier',
+                                                  id: 'i'
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {kind: 'nop'}
+                                      ]
+                                    }]
+                                  },
+                                  {
+                                    kind: 'set_local',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: 'j'
+                                    },
+                                    init: {
+                                      kind: 'binop',
+                                      type: 'i32',
+                                      operator: 'sub',
+                                      left: {
+                                        kind: 'const',
+                                        type: 'i32',
+                                        init: '0'
+                                      },
+                                      right: {
+                                        kind: 'get_local',
+                                        id: {
+                                          kind: 'identifier',
+                                          id: 'i'
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    kind: 'br',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: 'switch'
+                                    },
+                                    expr: null
+                                  }
+                                ]
+                              },
+                              {
+                                kind: 'br',
+                                id: {
+                                  kind: 'identifier',
+                                  id: 'switch'
+                                },
+                                expr: null
+                              }
+                            ]
+                          },
+                          {
+                            kind: 'set_local',
+                            id: {
+                              kind: 'identifier',
+                              id: 'j'
+                            },
+                            init: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '101'
                             }
+                          },
+                          {
+                            kind: 'br',
+                            id: {
+                              kind: 'identifier',
+                              id: 'switch'
+                            },
+                            expr: null
                           }
-                        }
+                        ]
                       },
-                      {
-                        kind: 'br',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        },
-                        expr: null
-                      }
-                    ],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '4'
-                    ],
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      },
-                      expr: null
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '5'
-                    ],
-                    body: [
                       {
                         kind: 'set_local',
                         id: {
@@ -258,67 +253,20 @@
                           type: 'i32',
                           init: '101'
                         }
-                      },
-                      {
-                        kind: 'br',
-                        id: {
-                          kind: 'literal',
-                          value: 0,
-                          raw: '0'
-                        },
-                        expr: null
                       }
-                    ],
-                    fallthrough: false
+                    ]
                   },
                   {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '6'
-                    ],
-                    body: [{
-                      kind: 'set_local',
-                      id: {
-                        kind: 'identifier',
-                        id: 'j'
-                      },
-                      init: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '101'
-                      }
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      'default'
-                    ],
-                    body: [{
-                      kind: 'set_local',
-                      id: {
-                        kind: 'identifier',
-                        id: 'j'
-                      },
-                      init: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '102'
-                      }
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '7'
-                    ],
-                    body: [],
-                    fallthrough: false
+                    kind: 'set_local',
+                    id: {
+                      kind: 'identifier',
+                      id: 'j'
+                    },
+                    init: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '102'
+                    }
                   }
                 ]
               }]
@@ -381,228 +329,186 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'l'
+                  id: 'switch'
                 },
-                body: [{
-                  kind: 'tableswitch',
-                  id: null,
-                  test: {
-                    kind: 'cvtop',
-                    type: 'i32',
-                    type1: 'i64',
-                    operator: 'wrap',
-                    expr: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'identifier',
-                        id: 'i'
-                      }
-                    }
-                  },
-                  table: {
-                    kind: 'table',
-                    items: [
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '0'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '1'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '2'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '3'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '4'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '5'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '6'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      },
-                      {
-                        kind: 'case',
-                        test: [
-                          '$',
-                          '7'
-                        ],
-                        body: [],
-                        fallthrough: false
-                      }
-                    ]
-                  },
-                  body: [
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        'default'
-                      ],
-                      body: [],
-                      fallthrough: false
+                body: [
+                  {
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      id: '7'
                     },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '0'
-                      ],
-                      body: [{
-                        kind: 'return',
-                        expr: {
-                          kind: 'get_local',
+                    body: [
+                      {
+                        kind: 'block',
+                        id: {
+                          kind: 'identifier',
+                          id: 'default'
+                        },
+                        body: [{
+                          kind: 'block',
                           id: {
                             kind: 'identifier',
-                            id: 'i'
-                          }
-                        }
-                      }],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '1'
-                      ],
-                      body: [{kind: 'nop'}],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '2'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '3'
-                      ],
-                      body: [{
-                        kind: 'br',
-                        id: {
-                          kind: 'identifier',
-                          id: 'l'
-                        },
-                        expr: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'sub',
-                          left: {
-                            kind: 'const',
-                            type: 'i64',
-                            init: '0'
+                            id: '4'
                           },
-                          right: {
-                            kind: 'get_local',
+                          body: [{
+                            kind: 'block',
                             id: {
                               kind: 'identifier',
-                              id: 'i'
-                            }
-                          }
-                        }
-                      }],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '6'
-                      ],
-                      body: [{
-                        kind: 'set_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'j'
-                        },
-                        init: {
-                          kind: 'const',
-                          type: 'i64',
-                          init: '101'
-                        }
-                      }],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '4'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '5'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        'default'
-                      ],
-                      body: [{
+                              id: '5'
+                            },
+                            body: [
+                              {
+                                kind: 'block',
+                                id: {
+                                  kind: 'identifier',
+                                  id: '6'
+                                },
+                                body: [
+                                  {
+                                    kind: 'block',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: '3'
+                                    },
+                                    body: [{
+                                      kind: 'block',
+                                      id: {
+                                        kind: 'identifier',
+                                        id: '2'
+                                      },
+                                      body: [
+                                        {
+                                          kind: 'block',
+                                          id: {
+                                            kind: 'identifier',
+                                            id: '1'
+                                          },
+                                          body: [
+                                            {
+                                              kind: 'block',
+                                              id: {
+                                                kind: 'identifier',
+                                                id: '0'
+                                              },
+                                              body: [{
+                                                kind: 'br_table',
+                                                expr: [{
+                                                  kind: 'cvtop',
+                                                  type: 'i32',
+                                                  type1: 'i64',
+                                                  operator: 'wrap',
+                                                  expr: {
+                                                    kind: 'get_local',
+                                                    id: {
+                                                      kind: 'identifier',
+                                                      id: 'i'
+                                                    }
+                                                  }
+                                                }],
+                                                body: [
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '0'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '1'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '2'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '3'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '4'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '5'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '6'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: '7'
+                                                  },
+                                                  {
+                                                    kind: 'identifier',
+                                                    id: 'default'
+                                                  }
+                                                ]
+                                              }]
+                                            },
+                                            {
+                                              kind: 'return',
+                                              expr: {
+                                                kind: 'get_local',
+                                                id: {
+                                                  kind: 'identifier',
+                                                  id: 'i'
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {kind: 'nop'}
+                                      ]
+                                    }]
+                                  },
+                                  {
+                                    kind: 'br',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: 'switch'
+                                    },
+                                    expr: {
+                                      kind: 'binop',
+                                      type: 'i64',
+                                      operator: 'sub',
+                                      left: {
+                                        kind: 'const',
+                                        type: 'i64',
+                                        init: '0'
+                                      },
+                                      right: {
+                                        kind: 'get_local',
+                                        id: {
+                                          kind: 'identifier',
+                                          id: 'i'
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                kind: 'set_local',
+                                id: {
+                                  kind: 'identifier',
+                                  id: 'j'
+                                },
+                                init: {
+                                  kind: 'const',
+                                  type: 'i64',
+                                  init: '101'
+                                }
+                              }
+                            ]
+                          }]
+                        }]
+                      },
+                      {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          id: 'switch'
                         },
                         expr: {
                           kind: 'get_local',
@@ -611,27 +517,157 @@
                             id: 'j'
                           }
                         }
-                      }],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '7'
-                      ],
-                      body: [{
-                        kind: 'const',
-                        type: 'i64',
-                        init: '-5'
-                      }],
-                      fallthrough: false
-                    }
-                  ]
-                }]
+                      }
+                    ]
+                  },
+                  {
+                    kind: 'const',
+                    type: 'i64',
+                    init: '-5'
+                  }
+                ]
               }
             }
           ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'arg'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'block',
+              id: {
+                kind: 'identifier',
+                id: '2'
+              },
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '10'
+                },
+                right: {
+                  kind: 'block',
+                  id: {
+                    kind: 'identifier',
+                    id: '1'
+                  },
+                  body: [{
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '100'
+                    },
+                    right: {
+                      kind: 'block',
+                      id: {
+                        kind: 'identifier',
+                        id: '0'
+                      },
+                      body: [{
+                        kind: 'binop',
+                        type: 'i32',
+                        operator: 'add',
+                        left: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '1000'
+                        },
+                        right: {
+                          kind: 'block',
+                          id: {
+                            kind: 'identifier',
+                            id: 'default'
+                          },
+                          body: [{
+                            kind: 'br_table',
+                            expr: [
+                              {
+                                kind: 'binop',
+                                type: 'i32',
+                                operator: 'mul',
+                                left: {
+                                  kind: 'const',
+                                  type: 'i32',
+                                  init: '2'
+                                },
+                                right: {
+                                  kind: 'get_local',
+                                  id: {
+                                    kind: 'identifier',
+                                    id: 'i'
+                                  }
+                                }
+                              },
+                              {
+                                kind: 'binop',
+                                type: 'i32',
+                                operator: 'and',
+                                left: {
+                                  kind: 'const',
+                                  type: 'i32',
+                                  init: '3'
+                                },
+                                right: {
+                                  kind: 'get_local',
+                                  id: {
+                                    kind: 'identifier',
+                                    id: 'i'
+                                  }
+                                }
+                              }
+                            ],
+                            body: [
+                              {
+                                kind: 'identifier',
+                                id: '0'
+                              },
+                              {
+                                kind: 'identifier',
+                                id: '1'
+                              },
+                              {
+                                kind: 'identifier',
+                                id: '2'
+                              },
+                              {
+                                kind: 'identifier',
+                                id: 'default'
+                              }
+                            ]
+                          }]
+                        }
+                      }]
+                    }
+                  }]
+                }
+              }]
+            }
+          }]
         },
         {
           kind: 'func',
@@ -645,517 +681,29 @@
             kind: 'result',
             type: 'i32'
           },
-          local: [{
-            kind: 'local',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          body: [
-            {
-              kind: 'tableswitch',
-              id: null,
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              },
-              table: {
-                kind: 'table',
-                items: []
-              },
-              body: [
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [],
-                  fallthrough: false
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [],
-                  fallthrough: false
-                }
-              ]
-            },
-            {
-              kind: 'tableswitch',
-              id: null,
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              },
-              table: {
-                kind: 'table',
-                items: []
-              },
-              body: [
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [],
-                  fallthrough: false
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [{
-                    kind: 'set_local',
-                    id: {
-                      kind: 'identifier',
-                      id: 'x'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'add',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'x'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
-                    }
-                  }],
-                  fallthrough: false
-                }
-              ]
-            },
-            {
-              kind: 'tableswitch',
-              id: null,
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              },
-              table: {
-                kind: 'table',
-                items: [{
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '0'
-                  ],
-                  body: [],
-                  fallthrough: false
-                }]
-              },
-              body: [
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [],
-                  fallthrough: false
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [{
-                    kind: 'set_local',
-                    id: {
-                      kind: 'identifier',
-                      id: 'x'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'add',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'x'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '2'
-                      }
-                    }
-                  }],
-                  fallthrough: false
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '0'
-                  ],
-                  body: [{
-                    kind: 'set_local',
-                    id: {
-                      kind: 'identifier',
-                      id: 'x'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'add',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'x'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '4'
-                      }
-                    }
-                  }],
-                  fallthrough: false
-                }
-              ]
-            },
-            {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                id: 'x'
-              }
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'break'
-          },
-          type: null,
-          param: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [{
-            kind: 'local',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          body: [
-            {
-              kind: 'tableswitch',
-              id: {
-                kind: 'identifier',
-                id: 'l'
-              },
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              },
-              table: {
-                kind: 'table',
-                items: []
-              },
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'identifier',
-                  id: 'l'
-                },
-                expr: null
-              }]
-            },
-            {
-              kind: 'tableswitch',
-              id: {
-                kind: 'identifier',
-                id: 'l'
-              },
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              },
-              table: {
-                kind: 'table',
-                items: [{
-                  kind: 'br',
-                  id: {
-                    kind: 'identifier',
-                    id: 'l'
-                  },
-                  expr: null
-                }]
-              },
-              body: [
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [],
-                  fallthrough: false
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    'default'
-                  ],
-                  body: [{
-                    kind: 'set_local',
-                    id: {
-                      kind: 'identifier',
-                      id: 'x'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'add',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'x'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
-                    }
-                  }],
-                  fallthrough: false
-                }
-              ]
-            },
-            {
-              kind: 'tableswitch',
-              id: {
-                kind: 'identifier',
-                id: 'l'
-              },
-              test: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              },
-              table: {
-                kind: 'table',
-                items: [{
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '0'
-                  ],
-                  body: [],
-                  fallthrough: false
-                }]
-              },
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'identifier',
-                    id: 'l'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '0'
-                  ],
-                  body: [{
-                    kind: 'set_local',
-                    id: {
-                      kind: 'identifier',
-                      id: 'x'
-                    },
-                    init: {
-                      kind: 'binop',
-                      type: 'i32',
-                      operator: 'add',
-                      left: {
-                        kind: 'get_local',
-                        id: {
-                          kind: 'identifier',
-                          id: 'x'
-                        }
-                      },
-                      right: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '2'
-                      }
-                    }
-                  }],
-                  fallthrough: false
-                }
-              ]
-            },
-            {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                id: 'x'
-              }
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'nested'
-          },
-          type: null,
-          param: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
           local: [],
           body: [
             {
               kind: 'block',
               id: null,
-              body: [
-                {
-                  kind: 'block',
-                  id: null,
-                  body: [
-                    {
-                      kind: 'block',
-                      id: null,
-                      body: [
-                        {
-                          kind: 'tableswitch',
-                          id: null,
-                          test: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'literal',
-                              value: 0,
-                              raw: '0'
-                            }
-                          },
-                          table: {
-                            kind: 'table',
-                            items: [
-                              {
-                                kind: 'br',
-                                id: {
-                                  kind: 'literal',
-                                  value: 0,
-                                  raw: '0'
-                                },
-                                expr: null
-                              },
-                              {
-                                kind: 'br',
-                                id: {
-                                  kind: 'literal',
-                                  value: 1,
-                                  raw: '1'
-                                },
-                                expr: null
-                              },
-                              {
-                                kind: 'br',
-                                id: {
-                                  kind: 'literal',
-                                  value: 2,
-                                  raw: '2'
-                                },
-                                expr: null
-                              }
-                            ]
-                          },
-                          body: [{
-                            kind: 'br',
-                            id: {
-                              kind: 'literal',
-                              value: 3,
-                              raw: '3'
-                            },
-                            expr: null
-                          }]
-                        },
-                        {
-                          kind: 'return',
-                          expr: {
-                            kind: 'const',
-                            type: 'i32',
-                            init: '1'
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      kind: 'return',
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '2'
-                      }
-                    }
-                  ]
-                },
-                {
-                  kind: 'return',
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '3'
-                  }
-                }
-              ]
+              body: [{
+                kind: 'br_table',
+                expr: [{
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                }],
+                body: [{
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                }]
+              }]
             },
             {
-              kind: 'return',
-              expr: {
-                kind: 'const',
-                type: 'i32',
-                init: '4'
-              }
+              kind: 'const',
+              type: 'i32',
+              init: '1'
             }
           ]
         },
@@ -1179,25 +727,17 @@
           kind: 'export',
           id: {
             kind: 'identifier',
+            id: 'arg'
+          },
+          name: 'arg'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
             id: 'corner'
           },
           name: 'corner'
-        },
-        {
-          kind: 'export',
-          id: {
-            kind: 'identifier',
-            id: 'break'
-          },
-          name: 'break'
-        },
-        {
-          kind: 'export',
-          id: {
-            kind: 'identifier',
-            id: 'nested'
-          },
-          name: 'nested'
         }
       ]
     },
@@ -1477,33 +1017,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'corner',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '7'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'break',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'nested',
+        name: 'arg',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1513,14 +1027,14 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '1'
+        init: '110'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'nested',
+        name: 'arg',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1530,14 +1044,14 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '2'
+        init: '12'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'nested',
+        name: 'arg',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1547,14 +1061,14 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '3'
+        init: '4'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'nested',
+        name: 'arg',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1564,14 +1078,14 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '4'
+        init: '1116'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'nested',
+        name: 'arg',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1581,7 +1095,88 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '4'
+        init: '118'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'arg',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '5'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '20'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'arg',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '6'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '12'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'arg',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '7'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1124'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'arg',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '126'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'corner',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
       }
     },
     {
@@ -1596,72 +1191,23 @@
           result: null,
           local: [],
           body: [{
-            kind: 'tableswitch',
-            id: null,
-            test: {
+            kind: 'br_table',
+            expr: [{
               kind: 'const',
               type: 'i32',
               init: '0'
-            },
-            table: {
-              kind: 'table',
-              items: []
-            },
+            }],
             body: [{
-              kind: 'case',
-              test: '0',
-              body: [],
-              fallthrough: false
+              kind: 'literal',
+              value: 3,
+              raw: '3'
             }]
           }]
         }]
       },
       failure: {
         kind: 'failure',
-        value: 'invalid target'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: null,
-          type: null,
-          param: [],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'tableswitch',
-            id: null,
-            test: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            table: {
-              kind: 'table',
-              items: []
-            },
-            body: [
-              {
-                kind: 'case',
-                test: '1',
-                body: [],
-                fallthrough: false
-              },
-              {
-                kind: 'case',
-                test: null
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'failure',
-        value: 'invalid target'
+        value: 'unknown label'
       }
     }
   ]

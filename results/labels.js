@@ -1066,148 +1066,126 @@
                 init: '10'
               },
               right: {
-                kind: 'tableswitch',
+                kind: 'block',
                 id: {
                   kind: 'identifier',
                   id: 'exit'
                 },
-                test: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                table: {
-                  kind: 'table',
-                  items: [
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '0'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '1'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '2'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    },
-                    {
-                      kind: 'case',
-                      test: [
-                        '$',
-                        '3'
-                      ],
-                      body: [],
-                      fallthrough: false
-                    }
-                  ]
-                },
                 body: [
                   {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      'default'
-                    ],
-                    body: [],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '1'
-                    ],
-                    body: [{
-                      kind: 'const',
-                      type: 'i32',
-                      init: '1'
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '2'
-                    ],
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'identifier',
-                        id: 'exit'
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      id: '0'
+                    },
+                    body: [
+                      {
+                        kind: 'block',
+                        id: {
+                          kind: 'identifier',
+                          id: 'default'
+                        },
+                        body: [
+                          {
+                            kind: 'block',
+                            id: {
+                              kind: 'identifier',
+                              id: '3'
+                            },
+                            body: [
+                              {
+                                kind: 'block',
+                                id: {
+                                  kind: 'identifier',
+                                  id: '2'
+                                },
+                                body: [
+                                  {
+                                    kind: 'block',
+                                    id: {
+                                      kind: 'identifier',
+                                      id: '1'
+                                    },
+                                    body: [{
+                                      kind: 'br_table',
+                                      expr: [{
+                                        kind: 'get_local',
+                                        id: {
+                                          kind: 'literal',
+                                          value: 0,
+                                          raw: '0'
+                                        }
+                                      }],
+                                      body: [
+                                        {
+                                          kind: 'identifier',
+                                          id: '0'
+                                        },
+                                        {
+                                          kind: 'identifier',
+                                          id: '1'
+                                        },
+                                        {
+                                          kind: 'identifier',
+                                          id: '2'
+                                        },
+                                        {
+                                          kind: 'identifier',
+                                          id: '3'
+                                        },
+                                        {
+                                          kind: 'identifier',
+                                          id: 'default'
+                                        }
+                                      ]
+                                    }]
+                                  },
+                                  {
+                                    kind: 'const',
+                                    type: 'i32',
+                                    init: '1'
+                                  }
+                                ]
+                              },
+                              {
+                                kind: 'br',
+                                id: {
+                                  kind: 'identifier',
+                                  id: 'exit'
+                                },
+                                expr: {
+                                  kind: 'const',
+                                  type: 'i32',
+                                  init: '2'
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            kind: 'br',
+                            id: {
+                              kind: 'identifier',
+                              id: 'ret'
+                            },
+                            expr: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '3'
+                            }
+                          }
+                        ]
                       },
-                      expr: {
+                      {
                         kind: 'const',
                         type: 'i32',
-                        init: '2'
+                        init: '4'
                       }
-                    }],
-                    fallthrough: false
+                    ]
                   },
                   {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '3'
-                    ],
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'identifier',
-                        id: 'ret'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '3'
-                      }
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      'default'
-                    ],
-                    body: [{
-                      kind: 'const',
-                      type: 'i32',
-                      init: '4'
-                    }],
-                    fallthrough: false
-                  },
-                  {
-                    kind: 'case',
-                    test: [
-                      '$',
-                      '0'
-                    ],
-                    body: [{
-                      kind: 'const',
-                      type: 'i32',
-                      init: '5'
-                    }],
-                    fallthrough: false
+                    kind: 'const',
+                    type: 'i32',
+                    init: '5'
                   }
                 ]
               }
@@ -1233,94 +1211,82 @@
             type: 'i32'
           },
           local: [],
-          body: [{
-            kind: 'tableswitch',
-            id: null,
-            test: {
-              kind: 'get_local',
+          body: [
+            {
+              kind: 'block',
               id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              }
-            },
-            table: {
-              kind: 'table',
-              items: [
+                kind: 'identifier',
+                id: 'default'
+              },
+              body: [
                 {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '0'
-                  ],
-                  body: [],
-                  fallthrough: false
+                  kind: 'block',
+                  id: {
+                    kind: 'identifier',
+                    id: '1'
+                  },
+                  body: [
+                    {
+                      kind: 'block',
+                      id: {
+                        kind: 'identifier',
+                        id: '0'
+                      },
+                      body: [
+                        {
+                          kind: 'br_table',
+                          expr: [{
+                            kind: 'get_local',
+                            id: {
+                              kind: 'literal',
+                              value: 0,
+                              raw: '0'
+                            }
+                          }],
+                          body: [
+                            {
+                              kind: 'identifier',
+                              id: '0'
+                            },
+                            {
+                              kind: 'identifier',
+                              id: '1'
+                            }
+                          ]
+                        },
+                        {
+                          kind: 'br',
+                          id: {
+                            kind: 'identifier',
+                            id: 'default'
+                          },
+                          expr: null
+                        }
+                      ]
+                    },
+                    {
+                      kind: 'return',
+                      expr: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '0'
+                      }
+                    }
+                  ]
                 },
                 {
-                  kind: 'case',
-                  test: [
-                    '$',
-                    '1'
-                  ],
-                  body: [],
-                  fallthrough: false
-                }
-              ]
-            },
-            body: [
-              {
-                kind: 'case',
-                test: [
-                  '$',
-                  'default'
-                ],
-                body: [],
-                fallthrough: false
-              },
-              {
-                kind: 'case',
-                test: [
-                  '$',
-                  '0'
-                ],
-                body: [{
-                  kind: 'return',
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '0'
-                  }
-                }],
-                fallthrough: false
-              },
-              {
-                kind: 'case',
-                test: [
-                  '$',
-                  '1'
-                ],
-                body: [{
                   kind: 'const',
                   type: 'i32',
                   init: '1'
-                }],
-                fallthrough: false
-              },
-              {
-                kind: 'case',
-                test: [
-                  '$',
-                  'default'
-                ],
-                body: [{
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                }],
-                fallthrough: false
-              }
-            ]
-          }]
+                }
+              ]
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '2'
+            }
+          ]
         },
         {
           kind: 'func',

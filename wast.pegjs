@@ -38,7 +38,7 @@ float = "-"? [0-9.]+
 
 binop
     = "add" / "sub" / "mul" / "div_s" / "div_u" / "rem_s" / "rem_u"
-    / "and" / "or" / "xor" / "shl" / "shr_u" / "shr_s" // int
+    / "and" / "or" / "xor" / "shl" / "shr_u" / "shr_s" / "rotl" / "rotr" // int
     / "add" / "sub" / "mul" / "div" / "copysign" / "min" / "max" // float
 
 unop
@@ -205,14 +205,11 @@ expr
             };
         }
 
-        / kind:"tableswitch" id:( __ var )? __ test:expr __ table:tableswitchtable __ body:( __ case )* {
+        / kind:"br_table" body:( __ var )* expr:( __ expr )* {
             return {
                 kind: kind,
-                id: id ? id[1] : null,
-                test: test,
-                table: table,
-                body: body.map(function (e) { return e[1]; }),
-
+                expr: expr.map(function (e) { return e[1]; }),
+                body: body.map(function (e) { return e[1]; })
             };
         }
 

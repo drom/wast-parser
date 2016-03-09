@@ -118,7 +118,7 @@
       body: [
         {
           kind: 'memory',
-          int: '1024',
+          int: '1',
           int1: null,
           segment: [{
             kind: 'segment',
@@ -318,7 +318,7 @@
       body: [
         {
           kind: 'memory',
-          int: '1024',
+          int: '1',
           int1: null,
           segment: [{
             kind: 'segment',

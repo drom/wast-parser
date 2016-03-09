@@ -658,6 +658,106 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'rotl'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rotl',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'rotr'
+          },
+          type: null,
+          param: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rotr',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'clz'
           },
           type: null,
@@ -1356,6 +1456,22 @@
             id: 'shr_u'
           },
           name: 'shr_u'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rotl'
+          },
+          name: 'rotl'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'rotr'
+          },
+          name: 'rotr'
         },
         {
           kind: 'export',
@@ -5364,6 +5480,222 @@
         kind: 'const',
         type: 'i32',
         init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xfe00dc00'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '4'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xe00dc00f'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xabcd9876'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x579b30ed'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x00008000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '37'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x00100000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x769abcdf'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x8000000d'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x579beed3'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xb0c1d2e3'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x0005'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1d860e97'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xb0c1d2e3'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xff05'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x1d860e97'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xff00cc00'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7f806600'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x00080000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '4'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x00008000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x769abcdf'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0xffffffed'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xe6fbb4d5'
       }
     },
     {
