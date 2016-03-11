@@ -3,7 +3,7 @@
 [![Travis](https://travis-ci.org/drom/wast-parser.svg)](https://travis-ci.org/drom/wast-parser)
 [![appVeyor](https://ci.appveyor.com/api/projects/status/vg09awtk5rgargkb?svg=true)](https://ci.appveyor.com/project/drom/wast-parser)
 
-Takes WebAssembly S-expression (WAST) string and returns abstract syntax tree (AST).
+Takes WebAssembly S-expression (WAST) string and returns abstract syntax tree ([AST](https://github.com/drom/wast-spec)).
 
 Inspired by [esprima](https://github.com/jquery/esprima)
 
