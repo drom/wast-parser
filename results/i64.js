@@ -857,6 +857,39 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'eqz'
+          },
+          type: null,
+          param: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i64',
+            operator: 'eqz',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                id: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'eq'
           },
           type: null,
@@ -1496,6 +1529,14 @@
             id: 'popcnt'
           },
           name: 'popcnt'
+        },
+        {
+          kind: 'export',
+          id: {
+            kind: 'identifier',
+            id: 'eqz'
+          },
+          name: 'eqz'
         },
         {
           kind: 'export',
@@ -5999,6 +6040,57 @@
         kind: 'const',
         type: 'i64',
         init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eqz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eqz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eqz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x8000000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
       }
     },
     {

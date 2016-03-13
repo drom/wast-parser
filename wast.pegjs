@@ -42,7 +42,7 @@ binop
     / "add" / "sub" / "mul" / "div" / "copysign" / "min" / "max" // float
 
 unop
-    = "clz" / "ctz" / "popcnt" // int
+    = "clz" / "ctz" / "popcnt" / "eqz" // int
     / "neg" / "abs" / "ceil" / "floor" / "trunc" / "nearest" / "sqrt" // float
 
 cvtop = res:[a-z\_]+ { return res.join(''); }
