@@ -47,5 +47,5 @@ describe('parse', function () {
                 );
             });
         }
-    })
+    });
 });
