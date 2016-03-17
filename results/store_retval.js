@@ -130,13 +130,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
+                name: 'print_i32'
               },
               expr: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i32'
+                  name: 'i32'
                 },
                 init: {
                   kind: 'const',
@@ -149,13 +149,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i64'
+                  name: 'i64'
                 },
                 init: {
                   kind: 'const',
@@ -168,13 +168,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_f32'
+                name: 'print_f32'
               },
               expr: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
-                  id: 'f32'
+                  name: 'f32'
                 },
                 init: {
                   kind: 'const',
@@ -187,13 +187,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_f64'
+                name: 'print_f64'
               },
               expr: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
-                  id: 'f64'
+                  name: 'f64'
                 },
                 init: {
                   kind: 'const',
@@ -206,7 +206,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
+                name: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -230,7 +230,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -254,7 +254,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_f32'
+                name: 'print_f32'
               },
               expr: [{
                 kind: 'store',
@@ -278,7 +278,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_f64'
+                name: 'print_f64'
               },
               expr: [{
                 kind: 'store',
@@ -302,7 +302,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
+                name: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -326,7 +326,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
+                name: 'print_i32'
               },
               expr: [{
                 kind: 'store',
@@ -350,7 +350,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -374,7 +374,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -398,7 +398,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'store',
@@ -424,7 +424,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'run'
+            name: 'run'
           },
           name: 'run'
         }
@@ -467,13 +467,13 @@
             kind: 'set_local',
             id: {
               kind: 'identifier',
-              id: 'i64'
+              name: 'i64'
             },
             init: {
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i32'
+                name: 'i32'
               },
               init: {
                 kind: 'const',
@@ -521,13 +521,13 @@
             kind: 'set_local',
             id: {
               kind: 'identifier',
-              id: 'i32'
+              name: 'i32'
             },
             init: {
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i64'
+                name: 'i64'
               },
               init: {
                 kind: 'const',
@@ -575,13 +575,13 @@
             kind: 'set_local',
             id: {
               kind: 'identifier',
-              id: 'f64'
+              name: 'f64'
             },
             init: {
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'f32'
+                name: 'f32'
               },
               init: {
                 kind: 'const',
@@ -629,13 +629,13 @@
             kind: 'set_local',
             id: {
               kind: 'identifier',
-              id: 'f32'
+              name: 'f32'
             },
             init: {
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'f64'
+                name: 'f64'
               },
               init: {
                 kind: 'const',

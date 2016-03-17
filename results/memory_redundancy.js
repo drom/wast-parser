@@ -14,7 +14,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'zero_everything'
+            name: 'zero_everything'
           },
           name: 'zero_everything'
         },
@@ -103,7 +103,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'test_store_to_load'
+            name: 'test_store_to_load'
           },
           name: 'test_store_to_load'
         },
@@ -174,7 +174,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'test_redundant_load'
+            name: 'test_redundant_load'
           },
           name: 'test_redundant_load'
         },
@@ -241,7 +241,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'test_dead_store'
+            name: 'test_dead_store'
           },
           name: 'test_dead_store'
         },
@@ -287,7 +287,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 't'
+                name: 't'
               },
               init: {
                 kind: 'load',
@@ -324,7 +324,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 't'
+                name: 't'
               }
             }
           ]

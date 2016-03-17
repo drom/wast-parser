@@ -45,7 +45,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -112,7 +112,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -148,7 +148,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_i32'
+            name: 'store_i32'
           },
           name: 'store_i32'
         },
@@ -156,7 +156,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_i32'
+            name: 'load_i32'
           },
           name: 'load_i32'
         },
@@ -164,7 +164,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_f32'
+            name: 'store_f32'
           },
           name: 'store_f32'
         },
@@ -172,7 +172,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_f32'
+            name: 'load_f32'
           },
           name: 'load_f32'
         }
@@ -342,7 +342,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -409,7 +409,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -445,7 +445,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_i64'
+            name: 'store_i64'
           },
           name: 'store_i64'
         },
@@ -453,7 +453,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_i64'
+            name: 'load_i64'
           },
           name: 'load_i64'
         },
@@ -461,7 +461,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_f64'
+            name: 'store_f64'
           },
           name: 'store_f64'
         },
@@ -469,7 +469,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_f64'
+            name: 'load_f64'
           },
           name: 'load_f64'
         }

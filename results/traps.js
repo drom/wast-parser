@@ -39,14 +39,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -86,14 +86,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -133,14 +133,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -180,14 +180,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -196,7 +196,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.div_s'
+            name: 'no_dce.i32.div_s'
           },
           name: 'no_dce.i32.div_s'
         },
@@ -204,7 +204,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.div_u'
+            name: 'no_dce.i32.div_u'
           },
           name: 'no_dce.i32.div_u'
         },
@@ -212,7 +212,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.div_s'
+            name: 'no_dce.i64.div_s'
           },
           name: 'no_dce.i64.div_s'
         },
@@ -220,7 +220,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.div_u'
+            name: 'no_dce.i64.div_u'
           },
           name: 'no_dce.i64.div_u'
         }
@@ -356,14 +356,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -403,14 +403,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -450,14 +450,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -497,14 +497,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -513,7 +513,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.rem_s'
+            name: 'no_dce.i32.rem_s'
           },
           name: 'no_dce.i32.rem_s'
         },
@@ -521,7 +521,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.rem_u'
+            name: 'no_dce.i32.rem_u'
           },
           name: 'no_dce.i32.rem_u'
         },
@@ -529,7 +529,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.rem_s'
+            name: 'no_dce.i64.rem_s'
           },
           name: 'no_dce.i64.rem_s'
         },
@@ -537,7 +537,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.rem_u'
+            name: 'no_dce.i64.rem_u'
           },
           name: 'no_dce.i64.rem_u'
         }
@@ -664,7 +664,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -695,7 +695,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -726,7 +726,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -757,7 +757,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -788,7 +788,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -819,7 +819,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -850,7 +850,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -881,7 +881,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -890,7 +890,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.trunc_s_f32'
+            name: 'no_dce.i32.trunc_s_f32'
           },
           name: 'no_dce.i32.trunc_s_f32'
         },
@@ -898,7 +898,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.trunc_u_f32'
+            name: 'no_dce.i32.trunc_u_f32'
           },
           name: 'no_dce.i32.trunc_u_f32'
         },
@@ -906,7 +906,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.trunc_s_f64'
+            name: 'no_dce.i32.trunc_s_f64'
           },
           name: 'no_dce.i32.trunc_s_f64'
         },
@@ -914,7 +914,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.trunc_u_f64'
+            name: 'no_dce.i32.trunc_u_f64'
           },
           name: 'no_dce.i32.trunc_u_f64'
         },
@@ -922,7 +922,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.trunc_s_f32'
+            name: 'no_dce.i64.trunc_s_f32'
           },
           name: 'no_dce.i64.trunc_s_f32'
         },
@@ -930,7 +930,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.trunc_u_f32'
+            name: 'no_dce.i64.trunc_u_f32'
           },
           name: 'no_dce.i64.trunc_u_f32'
         },
@@ -938,7 +938,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.trunc_s_f64'
+            name: 'no_dce.i64.trunc_s_f64'
           },
           name: 'no_dce.i64.trunc_s_f64'
         },
@@ -946,7 +946,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.trunc_u_f64'
+            name: 'no_dce.i64.trunc_u_f64'
           },
           name: 'no_dce.i64.trunc_u_f64'
         }
@@ -1093,7 +1093,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i32.load'
+            name: 'no_dce.i32.load'
           },
           name: 'no_dce.i32.load'
         },
@@ -1125,7 +1125,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]
@@ -1134,7 +1134,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.i64.load'
+            name: 'no_dce.i64.load'
           },
           name: 'no_dce.i64.load'
         },
@@ -1166,7 +1166,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]
@@ -1175,7 +1175,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.f32.load'
+            name: 'no_dce.f32.load'
           },
           name: 'no_dce.f32.load'
         },
@@ -1207,7 +1207,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]
@@ -1216,7 +1216,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_dce.f64.load'
+            name: 'no_dce.f64.load'
           },
           name: 'no_dce.f64.load'
         },
@@ -1248,7 +1248,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]

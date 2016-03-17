@@ -76,7 +76,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'S'
+              name: 'S'
             }
           },
           param: [],
@@ -111,7 +111,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'one'
+            name: 'one'
           },
           name: 'one'
         },
@@ -125,7 +125,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -154,7 +154,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'two'
+            name: 'two'
           },
           name: 'two'
         },
@@ -168,7 +168,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [{
@@ -207,7 +207,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'three'
+            name: 'three'
           },
           name: 'three'
         },
@@ -240,7 +240,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'U'
+              name: 'U'
             }
           },
           param: [],
@@ -250,7 +250,7 @@
             kind: 'call_import',
             id: {
               kind: 'identifier',
-              id: 'print'
+              name: 'print'
             },
             expr: [{
               kind: 'get_local',
@@ -266,7 +266,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'four'
+            name: 'four'
           },
           name: 'four'
         }
@@ -402,31 +402,31 @@
           items: [
             {
               kind: 'identifier',
-              id: 't1'
+              name: 't1'
             },
             {
               kind: 'identifier',
-              id: 't2'
+              name: 't2'
             },
             {
               kind: 'identifier',
-              id: 't3'
+              name: 't3'
             },
             {
               kind: 'identifier',
-              id: 'u1'
+              name: 'u1'
             },
             {
               kind: 'identifier',
-              id: 'u2'
+              name: 'u2'
             },
             {
               kind: 'identifier',
-              id: 't1'
+              name: 't1'
             },
             {
               kind: 'identifier',
-              id: 't3'
+              name: 't3'
             }
           ]
         },
@@ -440,7 +440,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -462,7 +462,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -484,7 +484,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -506,7 +506,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'U'
+              name: 'U'
             }
           },
           param: [],
@@ -528,7 +528,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'U'
+              name: 'U'
             }
           },
           param: [],
@@ -564,13 +564,13 @@
             kind: 'call_indirect',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             },
             expr: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }]
           }]
@@ -579,7 +579,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'callt'
+            name: 'callt'
           },
           name: 'callt'
         },
@@ -607,13 +607,13 @@
             kind: 'call_indirect',
             id: {
               kind: 'identifier',
-              id: 'U'
+              name: 'U'
             },
             expr: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }]
           }]
@@ -622,7 +622,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'callu'
+            name: 'callu'
           },
           name: 'callu'
         }
@@ -992,7 +992,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -1014,7 +1014,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             }
           },
           param: [],
@@ -1050,13 +1050,13 @@
             kind: 'call_indirect',
             id: {
               kind: 'identifier',
-              id: 'T'
+              name: 'T'
             },
             expr: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }]
           }]
@@ -1065,7 +1065,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'callt'
+            name: 'callt'
           },
           name: 'callt'
         }

@@ -36,7 +36,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'j'
+                name: 'j'
               },
               init: {
                 kind: 'const',
@@ -48,68 +48,68 @@
               kind: 'block',
               id: {
                 kind: 'identifier',
-                id: 'switch'
+                name: 'switch'
               },
               body: [{
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: '7'
+                  name: '7'
                 },
                 body: [
                   {
                     kind: 'block',
                     id: {
                       kind: 'identifier',
-                      id: 'default'
+                      name: 'default'
                     },
                     body: [
                       {
                         kind: 'block',
                         id: {
                           kind: 'identifier',
-                          id: '6'
+                          name: '6'
                         },
                         body: [
                           {
                             kind: 'block',
                             id: {
                               kind: 'identifier',
-                              id: '5'
+                              name: '5'
                             },
                             body: [
                               {
                                 kind: 'block',
                                 id: {
                                   kind: 'identifier',
-                                  id: '4'
+                                  name: '4'
                                 },
                                 body: [
                                   {
                                     kind: 'block',
                                     id: {
                                       kind: 'identifier',
-                                      id: '3'
+                                      name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
                                       id: {
                                         kind: 'identifier',
-                                        id: '2'
+                                        name: '2'
                                       },
                                       body: [
                                         {
                                           kind: 'block',
                                           id: {
                                             kind: 'identifier',
-                                            id: '1'
+                                            name: '1'
                                           },
                                           body: [
                                             {
                                               kind: 'block',
                                               id: {
                                                 kind: 'identifier',
-                                                id: '0'
+                                                name: '0'
                                               },
                                               body: [{
                                                 kind: 'br_table',
@@ -117,45 +117,45 @@
                                                   kind: 'get_local',
                                                   id: {
                                                     kind: 'identifier',
-                                                    id: 'i'
+                                                    name: 'i'
                                                   }
                                                 }],
                                                 body: [
                                                   {
                                                     kind: 'identifier',
-                                                    id: '0'
+                                                    name: '0'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '1'
+                                                    name: '1'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '2'
+                                                    name: '2'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '3'
+                                                    name: '3'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '4'
+                                                    name: '4'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '5'
+                                                    name: '5'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '6'
+                                                    name: '6'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '7'
+                                                    name: '7'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: 'default'
+                                                    name: 'default'
                                                   }
                                                 ]
                                               }]
@@ -166,7 +166,7 @@
                                                 kind: 'get_local',
                                                 id: {
                                                   kind: 'identifier',
-                                                  id: 'i'
+                                                  name: 'i'
                                                 }
                                               }
                                             }
@@ -180,7 +180,7 @@
                                     kind: 'set_local',
                                     id: {
                                       kind: 'identifier',
-                                      id: 'j'
+                                      name: 'j'
                                     },
                                     init: {
                                       kind: 'binop',
@@ -195,7 +195,7 @@
                                         kind: 'get_local',
                                         id: {
                                           kind: 'identifier',
-                                          id: 'i'
+                                          name: 'i'
                                         }
                                       }
                                     }
@@ -204,7 +204,7 @@
                                     kind: 'br',
                                     id: {
                                       kind: 'identifier',
-                                      id: 'switch'
+                                      name: 'switch'
                                     },
                                     expr: null
                                   }
@@ -214,7 +214,7 @@
                                 kind: 'br',
                                 id: {
                                   kind: 'identifier',
-                                  id: 'switch'
+                                  name: 'switch'
                                 },
                                 expr: null
                               }
@@ -224,7 +224,7 @@
                             kind: 'set_local',
                             id: {
                               kind: 'identifier',
-                              id: 'j'
+                              name: 'j'
                             },
                             init: {
                               kind: 'const',
@@ -236,7 +236,7 @@
                             kind: 'br',
                             id: {
                               kind: 'identifier',
-                              id: 'switch'
+                              name: 'switch'
                             },
                             expr: null
                           }
@@ -246,7 +246,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'j'
+                          name: 'j'
                         },
                         init: {
                           kind: 'const',
@@ -260,7 +260,7 @@
                     kind: 'set_local',
                     id: {
                       kind: 'identifier',
-                      id: 'j'
+                      name: 'j'
                     },
                     init: {
                       kind: 'const',
@@ -277,7 +277,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'j'
+                  name: 'j'
                 }
               }
             }
@@ -315,7 +315,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'j'
+                name: 'j'
               },
               init: {
                 kind: 'const',
@@ -329,67 +329,67 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'switch'
+                  name: 'switch'
                 },
                 body: [
                   {
                     kind: 'block',
                     id: {
                       kind: 'identifier',
-                      id: '7'
+                      name: '7'
                     },
                     body: [
                       {
                         kind: 'block',
                         id: {
                           kind: 'identifier',
-                          id: 'default'
+                          name: 'default'
                         },
                         body: [{
                           kind: 'block',
                           id: {
                             kind: 'identifier',
-                            id: '4'
+                            name: '4'
                           },
                           body: [{
                             kind: 'block',
                             id: {
                               kind: 'identifier',
-                              id: '5'
+                              name: '5'
                             },
                             body: [
                               {
                                 kind: 'block',
                                 id: {
                                   kind: 'identifier',
-                                  id: '6'
+                                  name: '6'
                                 },
                                 body: [
                                   {
                                     kind: 'block',
                                     id: {
                                       kind: 'identifier',
-                                      id: '3'
+                                      name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
                                       id: {
                                         kind: 'identifier',
-                                        id: '2'
+                                        name: '2'
                                       },
                                       body: [
                                         {
                                           kind: 'block',
                                           id: {
                                             kind: 'identifier',
-                                            id: '1'
+                                            name: '1'
                                           },
                                           body: [
                                             {
                                               kind: 'block',
                                               id: {
                                                 kind: 'identifier',
-                                                id: '0'
+                                                name: '0'
                                               },
                                               body: [{
                                                 kind: 'br_table',
@@ -402,46 +402,46 @@
                                                     kind: 'get_local',
                                                     id: {
                                                       kind: 'identifier',
-                                                      id: 'i'
+                                                      name: 'i'
                                                     }
                                                   }
                                                 }],
                                                 body: [
                                                   {
                                                     kind: 'identifier',
-                                                    id: '0'
+                                                    name: '0'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '1'
+                                                    name: '1'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '2'
+                                                    name: '2'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '3'
+                                                    name: '3'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '4'
+                                                    name: '4'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '5'
+                                                    name: '5'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '6'
+                                                    name: '6'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: '7'
+                                                    name: '7'
                                                   },
                                                   {
                                                     kind: 'identifier',
-                                                    id: 'default'
+                                                    name: 'default'
                                                   }
                                                 ]
                                               }]
@@ -452,7 +452,7 @@
                                                 kind: 'get_local',
                                                 id: {
                                                   kind: 'identifier',
-                                                  id: 'i'
+                                                  name: 'i'
                                                 }
                                               }
                                             }
@@ -466,7 +466,7 @@
                                     kind: 'br',
                                     id: {
                                       kind: 'identifier',
-                                      id: 'switch'
+                                      name: 'switch'
                                     },
                                     expr: {
                                       kind: 'binop',
@@ -481,7 +481,7 @@
                                         kind: 'get_local',
                                         id: {
                                           kind: 'identifier',
-                                          id: 'i'
+                                          name: 'i'
                                         }
                                       }
                                     }
@@ -492,7 +492,7 @@
                                 kind: 'set_local',
                                 id: {
                                   kind: 'identifier',
-                                  id: 'j'
+                                  name: 'j'
                                 },
                                 init: {
                                   kind: 'const',
@@ -508,13 +508,13 @@
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'switch'
+                          name: 'switch'
                         },
                         expr: {
                           kind: 'get_local',
                           id: {
                             kind: 'identifier',
-                            id: 'j'
+                            name: 'j'
                           }
                         }
                       }
@@ -556,7 +556,7 @@
               kind: 'block',
               id: {
                 kind: 'identifier',
-                id: '2'
+                name: '2'
               },
               body: [{
                 kind: 'binop',
@@ -571,7 +571,7 @@
                   kind: 'block',
                   id: {
                     kind: 'identifier',
-                    id: '1'
+                    name: '1'
                   },
                   body: [{
                     kind: 'binop',
@@ -586,7 +586,7 @@
                       kind: 'block',
                       id: {
                         kind: 'identifier',
-                        id: '0'
+                        name: '0'
                       },
                       body: [{
                         kind: 'binop',
@@ -601,7 +601,7 @@
                           kind: 'block',
                           id: {
                             kind: 'identifier',
-                            id: 'default'
+                            name: 'default'
                           },
                           body: [{
                             kind: 'br_table',
@@ -619,7 +619,7 @@
                                   kind: 'get_local',
                                   id: {
                                     kind: 'identifier',
-                                    id: 'i'
+                                    name: 'i'
                                   }
                                 }
                               },
@@ -636,7 +636,7 @@
                                   kind: 'get_local',
                                   id: {
                                     kind: 'identifier',
-                                    id: 'i'
+                                    name: 'i'
                                   }
                                 }
                               }
@@ -644,19 +644,19 @@
                             body: [
                               {
                                 kind: 'identifier',
-                                id: '0'
+                                name: '0'
                               },
                               {
                                 kind: 'identifier',
-                                id: '1'
+                                name: '1'
                               },
                               {
                                 kind: 'identifier',
-                                id: '2'
+                                name: '2'
                               },
                               {
                                 kind: 'identifier',
-                                id: 'default'
+                                name: 'default'
                               }
                             ]
                           }]
@@ -711,7 +711,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'stmt'
+            name: 'stmt'
           },
           name: 'stmt'
         },
@@ -719,7 +719,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'expr'
+            name: 'expr'
           },
           name: 'expr'
         },
@@ -727,7 +727,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'arg'
+            name: 'arg'
           },
           name: 'arg'
         },
@@ -735,7 +735,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'corner'
+            name: 'corner'
           },
           name: 'corner'
         }

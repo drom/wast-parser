@@ -1431,7 +1431,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1486,7 +1486,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1541,7 +1541,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1596,7 +1596,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1651,7 +1651,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1706,7 +1706,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1761,7 +1761,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1816,7 +1816,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1871,7 +1871,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1926,7 +1926,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -1949,7 +1949,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'data'
+            name: 'data'
           },
           name: 'data'
         },
@@ -1957,7 +1957,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'aligned'
+            name: 'aligned'
           },
           name: 'aligned'
         },
@@ -1965,7 +1965,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'unaligned'
+            name: 'unaligned'
           },
           name: 'unaligned'
         },
@@ -1973,7 +1973,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'cast'
+            name: 'cast'
           },
           name: 'cast'
         },
@@ -1981,7 +1981,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load8_s'
+            name: 'i32_load8_s'
           },
           name: 'i32_load8_s'
         },
@@ -1989,7 +1989,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load8_u'
+            name: 'i32_load8_u'
           },
           name: 'i32_load8_u'
         },
@@ -1997,7 +1997,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load16_s'
+            name: 'i32_load16_s'
           },
           name: 'i32_load16_s'
         },
@@ -2005,7 +2005,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load16_u'
+            name: 'i32_load16_u'
           },
           name: 'i32_load16_u'
         },
@@ -2013,7 +2013,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load8_s'
+            name: 'i64_load8_s'
           },
           name: 'i64_load8_s'
         },
@@ -2021,7 +2021,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load8_u'
+            name: 'i64_load8_u'
           },
           name: 'i64_load8_u'
         },
@@ -2029,7 +2029,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load16_s'
+            name: 'i64_load16_s'
           },
           name: 'i64_load16_s'
         },
@@ -2037,7 +2037,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load16_u'
+            name: 'i64_load16_u'
           },
           name: 'i64_load16_u'
         },
@@ -2045,7 +2045,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load32_s'
+            name: 'i64_load32_s'
           },
           name: 'i64_load32_s'
         },
@@ -2053,7 +2053,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load32_u'
+            name: 'i64_load32_u'
           },
           name: 'i64_load32_u'
         }

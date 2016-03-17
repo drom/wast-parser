@@ -116,7 +116,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               },
               right: {
@@ -138,14 +138,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               },
               right: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'fac-rec'
+                  name: 'fac-rec'
                 },
                 expr: [{
                   kind: 'binop',
@@ -155,7 +155,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'n'
+                      name: 'n'
                     }
                   },
                   right: {
@@ -383,13 +383,13 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               }
             },
@@ -397,7 +397,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'res'
+                name: 'res'
               },
               init: {
                 kind: 'const',
@@ -409,11 +409,11 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'done'
+                name: 'done'
               },
               extra: {
                 kind: 'identifier',
-                id: 'loop'
+                name: 'loop'
               },
               body: [
                 {
@@ -426,7 +426,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -439,7 +439,7 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'done'
+                      name: 'done'
                     },
                     expr: null
                   },
@@ -451,7 +451,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'res'
+                          name: 'res'
                         },
                         init: {
                           kind: 'binop',
@@ -461,14 +461,14 @@
                             kind: 'get_local',
                             id: {
                               kind: 'identifier',
-                              id: 'i'
+                              name: 'i'
                             }
                           },
                           right: {
                             kind: 'get_local',
                             id: {
                               kind: 'identifier',
-                              id: 'res'
+                              name: 'res'
                             }
                           }
                         }
@@ -477,7 +477,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'binop',
@@ -487,7 +487,7 @@
                             kind: 'get_local',
                             id: {
                               kind: 'identifier',
-                              id: 'i'
+                              name: 'i'
                             }
                           },
                           right: {
@@ -504,7 +504,7 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'loop'
+                    name: 'loop'
                   },
                   expr: null
                 }
@@ -514,7 +514,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'res'
+                name: 'res'
               }
             }
           ]
@@ -710,7 +710,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'fac-rec'
+            name: 'fac-rec'
           },
           name: 'fac-rec-named'
         },
@@ -718,7 +718,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'fac-iter'
+            name: 'fac-iter'
           },
           name: 'fac-iter-named'
         },
@@ -726,7 +726,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'fac-opt'
+            name: 'fac-opt'
           },
           name: 'fac-opt'
         }

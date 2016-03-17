@@ -8,7 +8,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'even'
+            name: 'even'
           },
           name: 'even'
         },
@@ -16,7 +16,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'odd'
+            name: 'odd'
           },
           name: 'odd'
         },
@@ -50,7 +50,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               },
               right: {
@@ -68,7 +68,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'odd'
+                name: 'odd'
               },
               expr: [{
                 kind: 'binop',
@@ -78,7 +78,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'n'
+                    name: 'n'
                   }
                 },
                 right: {
@@ -120,7 +120,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               },
               right: {
@@ -138,7 +138,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'even'
+                name: 'even'
               },
               expr: [{
                 kind: 'binop',
@@ -148,7 +148,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'n'
+                    name: 'n'
                   }
                 },
                 right: {

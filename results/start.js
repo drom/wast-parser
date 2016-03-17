@@ -65,7 +65,7 @@
             kind: 'start',
             id: {
               kind: 'identifier',
-              id: 'main'
+              name: 'main'
             }
           }
         ]
@@ -103,7 +103,7 @@
             kind: 'start',
             id: {
               kind: 'identifier',
-              id: 'main'
+              name: 'main'
             }
           }
         ]
@@ -217,7 +217,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             },
@@ -225,7 +225,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             },
@@ -233,7 +233,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             }
@@ -243,14 +243,14 @@
           kind: 'start',
           id: {
             kind: 'identifier',
-            id: 'main'
+            name: 'main'
           }
         },
         {
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'inc'
+            name: 'inc'
           },
           name: 'inc'
         },
@@ -258,7 +258,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'get'
+            name: 'get'
           },
           name: 'get'
         }
@@ -417,7 +417,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             },
@@ -425,7 +425,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             },
@@ -433,7 +433,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'inc'
+                name: 'inc'
               },
               expr: []
             }
@@ -451,7 +451,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'inc'
+            name: 'inc'
           },
           name: 'inc'
         },
@@ -459,7 +459,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'get'
+            name: 'get'
           },
           name: 'get'
         }
@@ -549,7 +549,7 @@
             kind: 'call_import',
             id: {
               kind: 'identifier',
-              id: 'print_i32'
+              name: 'print_i32'
             },
             expr: [{
               kind: 'const',
@@ -603,7 +603,7 @@
             kind: 'call_import',
             id: {
               kind: 'identifier',
-              id: 'print_i32'
+              name: 'print_i32'
             },
             expr: [{
               kind: 'const',
@@ -616,7 +616,7 @@
           kind: 'start',
           id: {
             kind: 'identifier',
-            id: 'main'
+            name: 'main'
           }
         }
       ]

@@ -54,7 +54,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -67,7 +67,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -76,7 +76,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -89,7 +89,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -98,7 +98,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -111,7 +111,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -120,7 +120,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -133,7 +133,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -142,7 +142,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -155,7 +155,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -164,7 +164,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -177,7 +177,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -186,7 +186,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -199,7 +199,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -208,7 +208,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -221,7 +221,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -230,7 +230,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -243,7 +243,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -252,7 +252,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -265,7 +265,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -274,7 +274,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -287,7 +287,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -296,7 +296,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -309,7 +309,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -318,7 +318,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print'
+                name: 'print'
               },
               expr: [{
                 kind: 'load',
@@ -331,7 +331,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               }]
@@ -342,7 +342,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'good'
+            name: 'good'
           },
           name: 'good'
         },
@@ -374,7 +374,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]
@@ -383,7 +383,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'bad2'
+            name: 'bad2'
           },
           name: 'bad2'
         }
@@ -494,7 +494,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             }]

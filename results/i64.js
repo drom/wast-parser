@@ -42,14 +42,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -92,14 +92,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -142,14 +142,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -192,14 +192,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -242,14 +242,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -292,14 +292,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -342,14 +342,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -392,14 +392,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -442,14 +442,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -492,14 +492,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -542,14 +542,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -592,14 +592,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -642,14 +642,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -692,14 +692,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -742,14 +742,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -782,7 +782,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -815,7 +815,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -848,7 +848,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -881,7 +881,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -924,14 +924,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -974,14 +974,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1024,14 +1024,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1074,14 +1074,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1124,14 +1124,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1174,14 +1174,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1224,14 +1224,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1274,14 +1274,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1324,14 +1324,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1374,14 +1374,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -1390,7 +1390,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'add'
+            name: 'add'
           },
           name: 'add'
         },
@@ -1398,7 +1398,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'sub'
+            name: 'sub'
           },
           name: 'sub'
         },
@@ -1406,7 +1406,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'mul'
+            name: 'mul'
           },
           name: 'mul'
         },
@@ -1414,7 +1414,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'div_s'
+            name: 'div_s'
           },
           name: 'div_s'
         },
@@ -1422,7 +1422,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'div_u'
+            name: 'div_u'
           },
           name: 'div_u'
         },
@@ -1430,7 +1430,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'rem_s'
+            name: 'rem_s'
           },
           name: 'rem_s'
         },
@@ -1438,7 +1438,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'rem_u'
+            name: 'rem_u'
           },
           name: 'rem_u'
         },
@@ -1446,7 +1446,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'and'
+            name: 'and'
           },
           name: 'and'
         },
@@ -1454,7 +1454,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'or'
+            name: 'or'
           },
           name: 'or'
         },
@@ -1462,7 +1462,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'xor'
+            name: 'xor'
           },
           name: 'xor'
         },
@@ -1470,7 +1470,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'shl'
+            name: 'shl'
           },
           name: 'shl'
         },
@@ -1478,7 +1478,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'shr_s'
+            name: 'shr_s'
           },
           name: 'shr_s'
         },
@@ -1486,7 +1486,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'shr_u'
+            name: 'shr_u'
           },
           name: 'shr_u'
         },
@@ -1494,7 +1494,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'rotl'
+            name: 'rotl'
           },
           name: 'rotl'
         },
@@ -1502,7 +1502,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'rotr'
+            name: 'rotr'
           },
           name: 'rotr'
         },
@@ -1510,7 +1510,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'clz'
+            name: 'clz'
           },
           name: 'clz'
         },
@@ -1518,7 +1518,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ctz'
+            name: 'ctz'
           },
           name: 'ctz'
         },
@@ -1526,7 +1526,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'popcnt'
+            name: 'popcnt'
           },
           name: 'popcnt'
         },
@@ -1534,7 +1534,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'eqz'
+            name: 'eqz'
           },
           name: 'eqz'
         },
@@ -1542,7 +1542,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'eq'
+            name: 'eq'
           },
           name: 'eq'
         },
@@ -1550,7 +1550,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ne'
+            name: 'ne'
           },
           name: 'ne'
         },
@@ -1558,7 +1558,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'lt_s'
+            name: 'lt_s'
           },
           name: 'lt_s'
         },
@@ -1566,7 +1566,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'lt_u'
+            name: 'lt_u'
           },
           name: 'lt_u'
         },
@@ -1574,7 +1574,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'le_s'
+            name: 'le_s'
           },
           name: 'le_s'
         },
@@ -1582,7 +1582,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'le_u'
+            name: 'le_u'
           },
           name: 'le_u'
         },
@@ -1590,7 +1590,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'gt_s'
+            name: 'gt_s'
           },
           name: 'gt_s'
         },
@@ -1598,7 +1598,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'gt_u'
+            name: 'gt_u'
           },
           name: 'gt_u'
         },
@@ -1606,7 +1606,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ge_s'
+            name: 'ge_s'
           },
           name: 'ge_s'
         },
@@ -1614,7 +1614,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ge_u'
+            name: 'ge_u'
           },
           name: 'ge_u'
         }

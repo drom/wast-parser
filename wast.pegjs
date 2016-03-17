@@ -82,7 +82,7 @@ var
     / "$" id:name {
         return {
             kind: 'identifier',
-            id: id
+            name: id
         };
     }
 

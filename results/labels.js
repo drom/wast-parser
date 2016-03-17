@@ -21,14 +21,14 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'exit'
+              name: 'exit'
             },
             body: [
               {
                 kind: 'br',
                 id: {
                   kind: 'identifier',
-                  id: 'exit'
+                  name: 'exit'
                 },
                 expr: {
                   kind: 'const',
@@ -69,7 +69,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -81,18 +81,18 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'exit'
+                name: 'exit'
               },
               extra: {
                 kind: 'identifier',
-                id: 'cont'
+                name: 'cont'
               },
               body: [
                 {
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -102,7 +102,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -122,7 +122,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -135,13 +135,13 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'exit'
+                      name: 'exit'
                     },
                     expr: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     }
                   },
@@ -151,7 +151,7 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'cont'
+                    name: 'cont'
                   },
                   expr: null
                 }
@@ -184,7 +184,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -196,18 +196,18 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'exit'
+                name: 'exit'
               },
               extra: {
                 kind: 'identifier',
-                id: 'cont'
+                name: 'cont'
               },
               body: [
                 {
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -217,7 +217,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -237,7 +237,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -250,7 +250,7 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'cont'
+                      name: 'cont'
                     },
                     expr: null
                   },
@@ -266,7 +266,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -279,13 +279,13 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'exit'
+                      name: 'exit'
                     },
                     expr: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     }
                   },
@@ -295,7 +295,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -305,7 +305,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -319,7 +319,7 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'cont'
+                    name: 'cont'
                   },
                   expr: null
                 }
@@ -352,7 +352,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -364,18 +364,18 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'exit'
+                name: 'exit'
               },
               extra: {
                 kind: 'identifier',
-                id: 'cont'
+                name: 'cont'
               },
               body: [
                 {
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -385,7 +385,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -405,7 +405,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -418,13 +418,13 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'exit'
+                      name: 'exit'
                     },
                     expr: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     }
                   },
@@ -434,7 +434,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   }
                 }
               ]
@@ -473,7 +473,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -485,18 +485,18 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'exit'
+                name: 'exit'
               },
               extra: {
                 kind: 'identifier',
-                id: 'cont'
+                name: 'cont'
               },
               body: [
                 {
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -506,14 +506,14 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     }
                   }
@@ -528,14 +528,14 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'max'
+                        name: 'max'
                       }
                     }
                   },
@@ -543,13 +543,13 @@
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'exit'
+                      name: 'exit'
                     },
                     expr: {
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     }
                   },
@@ -559,7 +559,7 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'cont'
+                    name: 'cont'
                   },
                   expr: null
                 }
@@ -588,11 +588,11 @@
               kind: 'loop',
               id: {
                 kind: 'identifier',
-                id: 'l0'
+                name: 'l0'
               },
               extra: {
                 kind: 'identifier',
-                id: 'l1'
+                name: 'l1'
               },
               body: [{
                 kind: 'const',
@@ -632,7 +632,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -655,14 +655,14 @@
                     kind: 'then',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [
                       {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          name: 'l'
                         },
                         expr: null
                       },
@@ -670,7 +670,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'const',
@@ -686,7 +686,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -696,7 +696,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -717,14 +717,14 @@
                     kind: 'then',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [
                       {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          name: 'l'
                         },
                         expr: null
                       },
@@ -732,7 +732,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'const',
@@ -749,7 +749,7 @@
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'const',
@@ -763,7 +763,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -773,7 +773,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -794,14 +794,14 @@
                     kind: 'then',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [
                       {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          name: 'l'
                         },
                         expr: null
                       },
@@ -809,7 +809,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'const',
@@ -823,13 +823,13 @@
                     kind: 'else',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [{
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'const',
@@ -843,7 +843,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -853,7 +853,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -877,7 +877,7 @@
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'const',
@@ -890,14 +890,14 @@
                     kind: 'else',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [
                       {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          name: 'l'
                         },
                         expr: null
                       },
@@ -905,7 +905,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'const',
@@ -920,7 +920,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -930,7 +930,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -951,13 +951,13 @@
                     kind: 'then',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [{
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'const',
@@ -970,14 +970,14 @@
                     kind: 'else',
                     id: {
                       kind: 'identifier',
-                      id: 'l'
+                      name: 'l'
                     },
                     body: [
                       {
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l'
+                          name: 'l'
                         },
                         expr: null
                       },
@@ -985,7 +985,7 @@
                         kind: 'set_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         },
                         init: {
                           kind: 'const',
@@ -1000,7 +1000,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -1010,7 +1010,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -1026,7 +1026,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           ]
@@ -1054,7 +1054,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'ret'
+              name: 'ret'
             },
             body: [{
               kind: 'binop',
@@ -1069,42 +1069,42 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'exit'
+                  name: 'exit'
                 },
                 body: [
                   {
                     kind: 'block',
                     id: {
                       kind: 'identifier',
-                      id: '0'
+                      name: '0'
                     },
                     body: [
                       {
                         kind: 'block',
                         id: {
                           kind: 'identifier',
-                          id: 'default'
+                          name: 'default'
                         },
                         body: [
                           {
                             kind: 'block',
                             id: {
                               kind: 'identifier',
-                              id: '3'
+                              name: '3'
                             },
                             body: [
                               {
                                 kind: 'block',
                                 id: {
                                   kind: 'identifier',
-                                  id: '2'
+                                  name: '2'
                                 },
                                 body: [
                                   {
                                     kind: 'block',
                                     id: {
                                       kind: 'identifier',
-                                      id: '1'
+                                      name: '1'
                                     },
                                     body: [{
                                       kind: 'br_table',
@@ -1119,23 +1119,23 @@
                                       body: [
                                         {
                                           kind: 'identifier',
-                                          id: '0'
+                                          name: '0'
                                         },
                                         {
                                           kind: 'identifier',
-                                          id: '1'
+                                          name: '1'
                                         },
                                         {
                                           kind: 'identifier',
-                                          id: '2'
+                                          name: '2'
                                         },
                                         {
                                           kind: 'identifier',
-                                          id: '3'
+                                          name: '3'
                                         },
                                         {
                                           kind: 'identifier',
-                                          id: 'default'
+                                          name: 'default'
                                         }
                                       ]
                                     }]
@@ -1151,7 +1151,7 @@
                                 kind: 'br',
                                 id: {
                                   kind: 'identifier',
-                                  id: 'exit'
+                                  name: 'exit'
                                 },
                                 expr: {
                                   kind: 'const',
@@ -1165,7 +1165,7 @@
                             kind: 'br',
                             id: {
                               kind: 'identifier',
-                              id: 'ret'
+                              name: 'ret'
                             },
                             expr: {
                               kind: 'const',
@@ -1216,21 +1216,21 @@
               kind: 'block',
               id: {
                 kind: 'identifier',
-                id: 'default'
+                name: 'default'
               },
               body: [
                 {
                   kind: 'block',
                   id: {
                     kind: 'identifier',
-                    id: '1'
+                    name: '1'
                   },
                   body: [
                     {
                       kind: 'block',
                       id: {
                         kind: 'identifier',
-                        id: '0'
+                        name: '0'
                       },
                       body: [
                         {
@@ -1246,11 +1246,11 @@
                           body: [
                             {
                               kind: 'identifier',
-                              id: '0'
+                              name: '0'
                             },
                             {
                               kind: 'identifier',
-                              id: '1'
+                              name: '1'
                             }
                           ]
                         },
@@ -1258,7 +1258,7 @@
                           kind: 'br',
                           id: {
                             kind: 'identifier',
-                            id: 'default'
+                            name: 'default'
                           },
                           expr: null
                         }
@@ -1313,7 +1313,7 @@
               kind: 'set_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               },
               init: {
                 kind: 'const',
@@ -1325,14 +1325,14 @@
               kind: 'block',
               id: {
                 kind: 'identifier',
-                id: 'outer'
+                name: 'outer'
               },
               body: [
                 {
                   kind: 'block',
                   id: {
                     kind: 'identifier',
-                    id: 'inner'
+                    name: 'inner'
                   },
                   body: [
                     {
@@ -1344,7 +1344,7 @@
                       },
                       id: {
                         kind: 'identifier',
-                        id: 'inner'
+                        name: 'inner'
                       },
                       expr: null
                     },
@@ -1352,7 +1352,7 @@
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'binop',
@@ -1362,7 +1362,7 @@
                           kind: 'get_local',
                           id: {
                             kind: 'identifier',
-                            id: 'i'
+                            name: 'i'
                           }
                         },
                         right: {
@@ -1381,7 +1381,7 @@
                       },
                       id: {
                         kind: 'identifier',
-                        id: 'inner'
+                        name: 'inner'
                       },
                       expr: null
                     },
@@ -1389,7 +1389,7 @@
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       },
                       init: {
                         kind: 'binop',
@@ -1399,7 +1399,7 @@
                           kind: 'get_local',
                           id: {
                             kind: 'identifier',
-                            id: 'i'
+                            name: 'i'
                           }
                         },
                         right: {
@@ -1417,7 +1417,7 @@
                     kind: 'set_local',
                     id: {
                       kind: 'identifier',
-                      id: 'i'
+                      name: 'i'
                     },
                     init: {
                       kind: 'binop',
@@ -1427,7 +1427,7 @@
                         kind: 'get_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         }
                       },
                       right: {
@@ -1439,7 +1439,7 @@
                   },
                   id: {
                     kind: 'identifier',
-                    id: 'outer'
+                    name: 'outer'
                   },
                   expr: {
                     kind: 'const',
@@ -1451,7 +1451,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -1461,7 +1461,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -1477,7 +1477,7 @@
                     kind: 'set_local',
                     id: {
                       kind: 'identifier',
-                      id: 'i'
+                      name: 'i'
                     },
                     init: {
                       kind: 'binop',
@@ -1487,7 +1487,7 @@
                         kind: 'get_local',
                         id: {
                           kind: 'identifier',
-                          id: 'i'
+                          name: 'i'
                         }
                       },
                       right: {
@@ -1499,7 +1499,7 @@
                   },
                   id: {
                     kind: 'identifier',
-                    id: 'outer'
+                    name: 'outer'
                   },
                   expr: {
                     kind: 'const',
@@ -1511,7 +1511,7 @@
                   kind: 'set_local',
                   id: {
                     kind: 'identifier',
-                    id: 'i'
+                    name: 'i'
                   },
                   init: {
                     kind: 'binop',
@@ -1521,7 +1521,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i'
+                        name: 'i'
                       }
                     },
                     right: {
@@ -1552,7 +1552,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l0'
+              name: 'l0'
             },
             body: [
               {
@@ -1561,13 +1561,13 @@
                   kind: 'block',
                   id: {
                     kind: 'identifier',
-                    id: 'l1'
+                    name: 'l1'
                   },
                   body: [{
                     kind: 'br',
                     id: {
                       kind: 'identifier',
-                      id: 'l1'
+                      name: 'l1'
                     },
                     expr: {
                       kind: 'const',
@@ -1578,7 +1578,7 @@
                 },
                 id: {
                   kind: 'identifier',
-                  id: 'l0'
+                  name: 'l0'
                 },
                 expr: {
                   kind: 'const',
@@ -1611,7 +1611,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l0'
+              name: 'l0'
             },
             body: [
               {
@@ -1625,19 +1625,19 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'l0'
+                    name: 'l0'
                   },
                   expr: {
                     kind: 'block',
                     id: {
                       kind: 'identifier',
-                      id: 'l1'
+                      name: 'l1'
                     },
                     body: [{
                       kind: 'br',
                       id: {
                         kind: 'identifier',
-                        id: 'l1'
+                        name: 'l1'
                       },
                       expr: {
                         kind: 'const',
@@ -1686,7 +1686,7 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'l0'
+                  name: 'l0'
                 },
                 body: [
                   {
@@ -1695,7 +1695,7 @@
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i1'
+                        name: 'i1'
                       },
                       init: {
                         kind: 'const',
@@ -1705,13 +1705,13 @@
                     },
                     id: {
                       kind: 'identifier',
-                      id: 'l0'
+                      name: 'l0'
                     },
                     expr: {
                       kind: 'set_local',
                       id: {
                         kind: 'identifier',
-                        id: 'i1'
+                        name: 'i1'
                       },
                       init: {
                         kind: 'const',
@@ -1737,7 +1737,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i1'
+                name: 'i1'
               }
             }
           ]
@@ -1759,7 +1759,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l1'
+              name: 'l1'
             },
             body: [{
               kind: 'binop',
@@ -1769,7 +1769,7 @@
                 kind: 'br',
                 id: {
                   kind: 'identifier',
-                  id: 'l1'
+                  name: 'l1'
                 },
                 expr: {
                   kind: 'const',
@@ -1834,7 +1834,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l1'
+              name: 'l1'
             },
             body: [{
               kind: 'binop',
@@ -1844,7 +1844,7 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'l1'
+                  name: 'l1'
                 },
                 body: [{
                   kind: 'const',
@@ -1856,13 +1856,13 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'l1'
+                  name: 'l1'
                 },
                 body: [{
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'l1'
+                    name: 'l1'
                   },
                   expr: {
                     kind: 'const',
@@ -1878,7 +1878,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'block'
+            name: 'block'
           },
           name: 'block'
         },
@@ -1886,7 +1886,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'loop1'
+            name: 'loop1'
           },
           name: 'loop1'
         },
@@ -1894,7 +1894,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'loop2'
+            name: 'loop2'
           },
           name: 'loop2'
         },
@@ -1902,7 +1902,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'loop3'
+            name: 'loop3'
           },
           name: 'loop3'
         },
@@ -1910,7 +1910,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'loop4'
+            name: 'loop4'
           },
           name: 'loop4'
         },
@@ -1918,7 +1918,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'loop5'
+            name: 'loop5'
           },
           name: 'loop5'
         },
@@ -1926,7 +1926,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'if'
+            name: 'if'
           },
           name: 'if'
         },
@@ -1934,7 +1934,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'switch'
+            name: 'switch'
           },
           name: 'switch'
         },
@@ -1942,7 +1942,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'return'
+            name: 'return'
           },
           name: 'return'
         },
@@ -1950,7 +1950,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'br_if0'
+            name: 'br_if0'
           },
           name: 'br_if0'
         },
@@ -1958,7 +1958,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'br_if1'
+            name: 'br_if1'
           },
           name: 'br_if1'
         },
@@ -1966,7 +1966,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'br_if2'
+            name: 'br_if2'
           },
           name: 'br_if2'
         },
@@ -1974,7 +1974,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'br_if3'
+            name: 'br_if3'
           },
           name: 'br_if3'
         },
@@ -1982,7 +1982,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'misc1'
+            name: 'misc1'
           },
           name: 'misc1'
         },
@@ -1990,7 +1990,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'misc2'
+            name: 'misc2'
           },
           name: 'misc2'
         },
@@ -1998,7 +1998,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'redefinition'
+            name: 'redefinition'
           },
           name: 'redefinition'
         }
@@ -2358,14 +2358,14 @@
             kind: 'loop',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             extra: null,
             body: [{
               kind: 'br',
               id: {
                 kind: 'identifier',
-                id: 'l'
+                name: 'l'
               },
               expr: {
                 kind: 'const',
@@ -2396,7 +2396,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [
               {
@@ -2412,7 +2412,7 @@
                   },
                   id: {
                     kind: 'identifier',
-                    id: 'l'
+                    name: 'l'
                   },
                   expr: null
                 }
@@ -2445,7 +2445,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [{
               kind: 'br_if',
@@ -2456,7 +2456,7 @@
               },
               id: {
                 kind: 'identifier',
-                id: 'l'
+                name: 'l'
               },
               expr: {
                 kind: 'const',
@@ -2490,7 +2490,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [{
               kind: 'br_if',
@@ -2501,7 +2501,7 @@
               },
               id: {
                 kind: 'identifier',
-                id: 'l'
+                name: 'l'
               },
               expr: {
                 kind: 'const',
@@ -2532,7 +2532,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [{
               kind: 'unop',
@@ -2547,7 +2547,7 @@
                 },
                 id: {
                   kind: 'identifier',
-                  id: 'l'
+                  name: 'l'
                 },
                 expr: {
                   kind: 'const',
@@ -2588,7 +2588,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [{
               kind: 'unop',
@@ -2603,7 +2603,7 @@
                 },
                 id: {
                   kind: 'identifier',
-                  id: 'l'
+                  name: 'l'
                 },
                 expr: {
                   kind: 'get_local',
@@ -2647,7 +2647,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l'
+              name: 'l'
             },
             body: [{
               kind: 'unop',
@@ -2657,7 +2657,7 @@
                 kind: 'block',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 },
                 body: [{
                   kind: 'br_if',
@@ -2668,7 +2668,7 @@
                   },
                   id: {
                     kind: 'identifier',
-                    id: 'l'
+                    name: 'l'
                   },
                   expr: {
                     kind: 'get_local',
@@ -2704,14 +2704,14 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l0'
+              name: 'l0'
             },
             body: [{
               kind: 'br_if',
               test: {kind: 'nop'},
               id: {
                 kind: 'identifier',
-                id: 'l0'
+                name: 'l0'
               },
               expr: {
                 kind: 'const',
@@ -2745,7 +2745,7 @@
             kind: 'block',
             id: {
               kind: 'identifier',
-              id: 'l0'
+              name: 'l0'
             },
             body: [
               {
@@ -2759,19 +2759,19 @@
                   kind: 'br',
                   id: {
                     kind: 'identifier',
-                    id: 'l0'
+                    name: 'l0'
                   },
                   expr: {
                     kind: 'block',
                     id: {
                       kind: 'identifier',
-                      id: 'l1'
+                      name: 'l1'
                     },
                     body: [{
                       kind: 'br',
                       id: {
                         kind: 'identifier',
-                        id: 'l1'
+                        name: 'l1'
                       },
                       expr: {
                         kind: 'const',
@@ -2789,13 +2789,13 @@
                       kind: 'block',
                       id: {
                         kind: 'identifier',
-                        id: 'l1'
+                        name: 'l1'
                       },
                       body: [{
                         kind: 'br',
                         id: {
                           kind: 'identifier',
-                          id: 'l1'
+                          name: 'l1'
                         },
                         expr: {
                           kind: 'const',

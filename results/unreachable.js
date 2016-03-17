@@ -142,7 +142,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'return_i32'
+                name: 'return_i32'
               },
               expr: []
             },
@@ -178,7 +178,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'return_i32'
+            name: 'return_i32'
           },
           name: 'return_i32'
         },
@@ -186,7 +186,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'return_f64'
+            name: 'return_f64'
           },
           name: 'return_f64'
         },
@@ -194,7 +194,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'if'
+            name: 'if'
           },
           name: 'if'
         },
@@ -202,7 +202,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'block'
+            name: 'block'
           },
           name: 'block'
         },
@@ -210,7 +210,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'return_i64'
+            name: 'return_i64'
           },
           name: 'return_i64'
         },
@@ -218,7 +218,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'call'
+            name: 'call'
           },
           name: 'call'
         },
@@ -226,7 +226,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'misc1'
+            name: 'misc1'
           },
           name: 'misc1'
         }

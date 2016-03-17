@@ -110,7 +110,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32_f32'
+                name: 'print_i32_f32'
               },
               expr: [
                 {
@@ -121,7 +121,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'i'
+                      name: 'i'
                     }
                   },
                   right: {
@@ -141,13 +141,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i32'
+                name: 'print_i32'
               },
               expr: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }]
             }
@@ -175,7 +175,7 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64_f64'
+                name: 'print_i64_f64'
               },
               expr: [
                 {
@@ -186,7 +186,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'i'
+                      name: 'i'
                     }
                   },
                   right: {
@@ -206,13 +206,13 @@
               kind: 'call_import',
               id: {
                 kind: 'identifier',
-                id: 'print_i64'
+                name: 'print_i64'
               },
               expr: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }]
             }
@@ -222,7 +222,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'print32'
+            name: 'print32'
           },
           name: 'print32'
         },
@@ -230,7 +230,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'print64'
+            name: 'print64'
           },
           name: 'print64'
         }

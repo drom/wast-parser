@@ -48,14 +48,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'address'
+                  name: 'address'
                 }
               },
               data: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -73,7 +73,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'address'
+                    name: 'address'
                   }
                 },
                 right: {
@@ -90,7 +90,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 },
                 right: {
@@ -134,21 +134,21 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'address'
+                    name: 'address'
                   }
                 },
                 {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 }
               ]
@@ -157,7 +157,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
@@ -168,7 +168,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'address'
+                      name: 'address'
                     }
                   },
                   right: {
@@ -185,7 +185,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   },
                   right: {
@@ -230,14 +230,14 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'address'
+                    name: 'address'
                   }
                 },
                 {
@@ -249,7 +249,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -259,7 +259,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
@@ -270,7 +270,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'address'
+                      name: 'address'
                     }
                   },
                   right: {
@@ -292,7 +292,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'value'
+                        name: 'value'
                       }
                     },
                     right: {
@@ -341,7 +341,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'address'
+                  name: 'address'
                 }
               }
             },
@@ -364,7 +364,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'address'
+                      name: 'address'
                     }
                   },
                   right: {
@@ -410,13 +410,13 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_load_little'
+                name: 'i16_load_little'
               },
               expr: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'address'
+                  name: 'address'
                 }
               }]
             },
@@ -428,7 +428,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i16_load_little'
+                  name: 'i16_load_little'
                 },
                 expr: [{
                   kind: 'binop',
@@ -438,7 +438,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'address'
+                      name: 'address'
                     }
                   },
                   right: {
@@ -489,13 +489,13 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_load_little'
+                  name: 'i32_load_little'
                 },
                 expr: [{
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'address'
+                    name: 'address'
                   }
                 }]
               }
@@ -513,7 +513,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_load_little'
+                    name: 'i32_load_little'
                   },
                   expr: [{
                     kind: 'binop',
@@ -523,7 +523,7 @@
                       kind: 'get_local',
                       id: {
                         kind: 'identifier',
-                        id: 'address'
+                        name: 'address'
                       }
                     },
                     right: {
@@ -567,7 +567,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
@@ -579,7 +579,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 }
               ]
@@ -624,7 +624,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
@@ -636,7 +636,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 }
               ]
@@ -681,7 +681,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
@@ -693,7 +693,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 }
               ]
@@ -738,7 +738,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
@@ -755,7 +755,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -801,7 +801,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_store_little'
+                name: 'i16_store_little'
               },
               expr: [
                 {
@@ -818,7 +818,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -864,7 +864,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
@@ -881,7 +881,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -927,7 +927,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
@@ -944,7 +944,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -990,7 +990,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i64_store_little'
+                name: 'i64_store_little'
               },
               expr: [
                 {
@@ -1002,7 +1002,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'value'
+                    name: 'value'
                   }
                 }
               ]
@@ -1047,7 +1047,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_store_little'
+                name: 'i32_store_little'
               },
               expr: [
                 {
@@ -1064,7 +1064,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -1110,7 +1110,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i64_store_little'
+                name: 'i64_store_little'
               },
               expr: [
                 {
@@ -1127,7 +1127,7 @@
                     kind: 'get_local',
                     id: {
                       kind: 'identifier',
-                      id: 'value'
+                      name: 'value'
                     }
                   }
                 }
@@ -1184,7 +1184,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1192,7 +1192,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i16_load_little'
+                name: 'i16_load_little'
               },
               expr: [{
                 kind: 'const',
@@ -1238,7 +1238,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1246,7 +1246,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_load_little'
+                name: 'i32_load_little'
               },
               expr: [{
                 kind: 'const',
@@ -1292,7 +1292,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1305,7 +1305,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i16_load_little'
+                  name: 'i16_load_little'
                 },
                 expr: [{
                   kind: 'const',
@@ -1352,7 +1352,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1365,7 +1365,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_load_little'
+                  name: 'i32_load_little'
                 },
                 expr: [{
                   kind: 'const',
@@ -1412,7 +1412,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1420,7 +1420,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i64_load_little'
+                name: 'i64_load_little'
               },
               expr: [{
                 kind: 'const',
@@ -1466,7 +1466,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1479,7 +1479,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_load_little'
+                  name: 'i32_load_little'
                 },
                 expr: [{
                   kind: 'const',
@@ -1526,7 +1526,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'value'
+                  name: 'value'
                 }
               }
             },
@@ -1539,7 +1539,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_load_little'
+                  name: 'i64_load_little'
                 },
                 expr: [{
                   kind: 'const',
@@ -1554,7 +1554,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load16_s'
+            name: 'i32_load16_s'
           },
           name: 'i32_load16_s'
         },
@@ -1562,7 +1562,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load16_u'
+            name: 'i32_load16_u'
           },
           name: 'i32_load16_u'
         },
@@ -1570,7 +1570,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_load'
+            name: 'i32_load'
           },
           name: 'i32_load'
         },
@@ -1578,7 +1578,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load16_s'
+            name: 'i64_load16_s'
           },
           name: 'i64_load16_s'
         },
@@ -1586,7 +1586,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load16_u'
+            name: 'i64_load16_u'
           },
           name: 'i64_load16_u'
         },
@@ -1594,7 +1594,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load32_s'
+            name: 'i64_load32_s'
           },
           name: 'i64_load32_s'
         },
@@ -1602,7 +1602,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load32_u'
+            name: 'i64_load32_u'
           },
           name: 'i64_load32_u'
         },
@@ -1610,7 +1610,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_load'
+            name: 'i64_load'
           },
           name: 'i64_load'
         },
@@ -1618,7 +1618,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_load'
+            name: 'f32_load'
           },
           name: 'f32_load'
         },
@@ -1626,7 +1626,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_load'
+            name: 'f64_load'
           },
           name: 'f64_load'
         },
@@ -1634,7 +1634,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_store16'
+            name: 'i32_store16'
           },
           name: 'i32_store16'
         },
@@ -1642,7 +1642,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_store'
+            name: 'i32_store'
           },
           name: 'i32_store'
         },
@@ -1650,7 +1650,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store16'
+            name: 'i64_store16'
           },
           name: 'i64_store16'
         },
@@ -1658,7 +1658,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store32'
+            name: 'i64_store32'
           },
           name: 'i64_store32'
         },
@@ -1666,7 +1666,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store'
+            name: 'i64_store'
           },
           name: 'i64_store'
         },
@@ -1674,7 +1674,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_store'
+            name: 'f32_store'
           },
           name: 'f32_store'
         },
@@ -1682,7 +1682,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_store'
+            name: 'f64_store'
           },
           name: 'f64_store'
         }

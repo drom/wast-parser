@@ -24,7 +24,7 @@
               kind: 'block',
               id: {
                 kind: 'identifier',
-                id: 'l'
+                name: 'l'
               },
               body: []
             }
@@ -224,7 +224,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'empty'
+            name: 'empty'
           },
           name: 'empty'
         },
@@ -232,7 +232,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'singular'
+            name: 'singular'
           },
           name: 'singular'
         },
@@ -240,7 +240,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'multi'
+            name: 'multi'
           },
           name: 'multi'
         },
@@ -248,7 +248,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'effects'
+            name: 'effects'
           },
           name: 'effects'
         }

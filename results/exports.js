@@ -279,7 +279,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'n'
+                  name: 'n'
                 }
               },
               right: {
@@ -294,7 +294,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f'
+            name: 'f'
           },
           name: 'e'
         }

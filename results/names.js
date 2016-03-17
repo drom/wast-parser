@@ -27,7 +27,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'foo'
+            name: 'foo'
           },
           name: 'foo'
         }
@@ -72,7 +72,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'foo'
+            name: 'foo'
           },
           name: 'foo'
         }
@@ -142,7 +142,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'malloc'
+            name: 'malloc'
           },
           name: 'malloc'
         },
@@ -204,7 +204,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: '_malloc'
+            name: '_malloc'
           },
           name: '_malloc'
         },
@@ -212,7 +212,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: '__malloc'
+            name: '__malloc'
           },
           name: '__malloc'
         },
@@ -289,7 +289,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: '_'
+            name: '_'
           },
           name: '_'
         },
@@ -404,7 +404,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'NaN'
+            name: 'NaN'
           },
           name: 'NaN'
         },
@@ -412,7 +412,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'Infinity'
+            name: 'Infinity'
           },
           name: 'Infinity'
         },
@@ -420,7 +420,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'if'
+            name: 'if'
           },
           name: 'if'
         }

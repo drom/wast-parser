@@ -14,7 +14,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store'
+            name: 'store'
           },
           name: 'store'
         },
@@ -63,7 +63,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             },
@@ -71,7 +71,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'v'
+                name: 'v'
               }
             }
           }]
@@ -80,7 +80,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load'
+            name: 'load'
           },
           name: 'load'
         },
@@ -120,7 +120,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'i'
+                  name: 'i'
                 }
               }
             }
@@ -130,7 +130,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'grow_memory'
+            name: 'grow_memory'
           },
           name: 'grow_memory'
         },
@@ -157,7 +157,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'i'
+                name: 'i'
               }
             }
           }]
@@ -166,7 +166,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'overflow_memory_size'
+            name: 'overflow_memory_size'
           },
           name: 'overflow_memory_size'
         },

@@ -44,7 +44,7 @@
             kind: 'call',
             id: {
               kind: 'identifier',
-              id: 'b'
+              name: 'b'
             },
             expr: []
           }]
@@ -63,7 +63,7 @@
             kind: 'call',
             id: {
               kind: 'identifier',
-              id: 'a'
+              name: 'a'
             },
             expr: []
           }]
@@ -72,7 +72,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'a'
+            name: 'a'
           },
           name: 'mutual_runaway'
         }

@@ -14,7 +14,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'round_up_to_page'
+            name: 'round_up_to_page'
           },
           name: 'round_up_to_page'
         },
@@ -70,7 +70,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_at_zero'
+            name: 'load_at_zero'
           },
           name: 'load_at_zero'
         },
@@ -105,7 +105,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_at_zero'
+            name: 'store_at_zero'
           },
           name: 'store_at_zero'
         },
@@ -144,7 +144,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'load_at_page_size'
+            name: 'load_at_page_size'
           },
           name: 'load_at_page_size'
         },
@@ -179,7 +179,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'store_at_page_size'
+            name: 'store_at_page_size'
           },
           name: 'store_at_page_size'
         },
@@ -218,7 +218,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'grow'
+            name: 'grow'
           },
           name: 'grow'
         },
@@ -248,13 +248,13 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'round_up_to_page'
+                name: 'round_up_to_page'
               },
               expr: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'sz'
+                  name: 'sz'
                 }
               }]
             }
@@ -264,7 +264,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'size_at_least'
+            name: 'size_at_least'
           },
           name: 'size_at_least'
         },
@@ -306,7 +306,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'size'
+            name: 'size'
           },
           name: 'size'
         },

@@ -48,21 +48,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                name: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                name: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -111,21 +111,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                name: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                name: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -174,21 +174,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                name: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                name: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -237,21 +237,21 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'lhs'
+                name: 'lhs'
               }
             },
             consequent: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'rhs'
+                name: 'rhs'
               }
             },
             alternate: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -288,7 +288,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -325,7 +325,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'cond'
+                name: 'cond'
               }
             }
           }]
@@ -334,7 +334,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_i32'
+            name: 'select_i32'
           },
           name: 'select_i32'
         },
@@ -342,7 +342,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_i64'
+            name: 'select_i64'
           },
           name: 'select_i64'
         },
@@ -350,7 +350,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_f32'
+            name: 'select_f32'
           },
           name: 'select_f32'
         },
@@ -358,7 +358,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_f64'
+            name: 'select_f64'
           },
           name: 'select_f64'
         },
@@ -366,7 +366,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_trap_l'
+            name: 'select_trap_l'
           },
           name: 'select_trap_l'
         },
@@ -374,7 +374,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'select_trap_r'
+            name: 'select_trap_r'
           },
           name: 'select_trap_r'
         }

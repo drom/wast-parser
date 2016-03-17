@@ -24,7 +24,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'return-none'
+            name: 'return-none'
           },
           name: 'return-none'
         },
@@ -44,7 +44,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'empty'
+            name: 'empty'
           },
           name: 'empty'
         }

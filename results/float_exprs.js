@@ -54,14 +54,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -69,7 +69,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'z'
+                name: 'z'
               }
             }
           }]
@@ -78,7 +78,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_contraction'
+            name: 'f64.no_contraction'
           },
           name: 'f64.no_contraction'
         }
@@ -282,14 +282,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -297,7 +297,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'z'
+                name: 'z'
               }
             }
           }]
@@ -306,7 +306,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fma'
+            name: 'f32.no_fma'
           },
           name: 'f32.no_fma'
         },
@@ -360,14 +360,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -375,7 +375,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'z'
+                name: 'z'
               }
             }
           }]
@@ -384,7 +384,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fma'
+            name: 'f64.no_fma'
           },
           name: 'f64.no_fma'
         }
@@ -711,7 +711,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -725,7 +725,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_add_zero'
+            name: 'f32.no_fold_add_zero'
           },
           name: 'f32.no_fold_add_zero'
         },
@@ -757,7 +757,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -771,7 +771,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_add_zero'
+            name: 'f64.no_fold_add_zero'
           },
           name: 'f64.no_fold_add_zero'
         }
@@ -847,7 +847,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -856,7 +856,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_zero_sub'
+            name: 'f32.no_fold_zero_sub'
           },
           name: 'f32.no_fold_zero_sub'
         },
@@ -893,7 +893,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -902,7 +902,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_zero_sub'
+            name: 'f64.no_fold_zero_sub'
           },
           name: 'f64.no_fold_zero_sub'
         }
@@ -973,7 +973,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -987,7 +987,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_mul_zero'
+            name: 'f32.no_fold_mul_zero'
           },
           name: 'f32.no_fold_mul_zero'
         },
@@ -1019,7 +1019,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -1033,7 +1033,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_mul_zero'
+            name: 'f64.no_fold_mul_zero'
           },
           name: 'f64.no_fold_mul_zero'
         }
@@ -1177,7 +1177,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1186,7 +1186,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_zero_div'
+            name: 'f32.no_fold_zero_div'
           },
           name: 'f32.no_fold_zero_div'
         },
@@ -1223,7 +1223,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1232,7 +1232,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_zero_div'
+            name: 'f64.no_fold_zero_div'
           },
           name: 'f64.no_fold_zero_div'
         }
@@ -1351,14 +1351,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1367,7 +1367,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_eq_self'
+            name: 'f32.no_fold_eq_self'
           },
           name: 'f32.no_fold_eq_self'
         },
@@ -1399,14 +1399,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1415,7 +1415,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_eq_self'
+            name: 'f64.no_fold_eq_self'
           },
           name: 'f64.no_fold_eq_self'
         }
@@ -1486,14 +1486,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1502,7 +1502,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_ne_self'
+            name: 'f32.no_fold_ne_self'
           },
           name: 'f32.no_fold_ne_self'
         },
@@ -1534,14 +1534,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1550,7 +1550,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_ne_self'
+            name: 'f64.no_fold_ne_self'
           },
           name: 'f64.no_fold_ne_self'
         }
@@ -1621,14 +1621,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1637,7 +1637,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_sub_self'
+            name: 'f32.no_fold_sub_self'
           },
           name: 'f32.no_fold_sub_self'
         },
@@ -1669,14 +1669,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -1685,7 +1685,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_sub_self'
+            name: 'f64.no_fold_sub_self'
           },
           name: 'f64.no_fold_sub_self'
         }
@@ -1780,7 +1780,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -1794,7 +1794,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_div_3'
+            name: 'f32.no_fold_div_3'
           },
           name: 'f32.no_fold_div_3'
         },
@@ -1826,7 +1826,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -1840,7 +1840,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_div_3'
+            name: 'f64.no_fold_div_3'
           },
           name: 'f64.no_fold_div_3'
         }
@@ -2069,14 +2069,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -2088,14 +2088,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             }
@@ -2105,7 +2105,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_distribute'
+            name: 'f32.no_distribute'
           },
           name: 'f32.no_distribute'
         },
@@ -2159,14 +2159,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -2178,14 +2178,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             }
@@ -2195,7 +2195,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_distribute'
+            name: 'f64.no_distribute'
           },
           name: 'f64.no_distribute'
         }
@@ -2556,14 +2556,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               },
@@ -2571,7 +2571,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -2579,7 +2579,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'w'
+                name: 'w'
               }
             }
           }]
@@ -2588,7 +2588,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_reassociate_add'
+            name: 'f32.no_reassociate_add'
           },
           name: 'f32.no_reassociate_add'
         },
@@ -2654,14 +2654,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               },
@@ -2669,7 +2669,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -2677,7 +2677,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'w'
+                name: 'w'
               }
             }
           }]
@@ -2686,7 +2686,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_reassociate_add'
+            name: 'f64.no_reassociate_add'
           },
           name: 'f64.no_reassociate_add'
         }
@@ -3097,14 +3097,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               },
@@ -3112,7 +3112,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -3120,7 +3120,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'w'
+                name: 'w'
               }
             }
           }]
@@ -3129,7 +3129,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_reassociate_mul'
+            name: 'f32.no_reassociate_mul'
           },
           name: 'f32.no_reassociate_mul'
         },
@@ -3195,14 +3195,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               },
@@ -3210,7 +3210,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'z'
+                  name: 'z'
                 }
               }
             },
@@ -3218,7 +3218,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'w'
+                name: 'w'
               }
             }
           }]
@@ -3227,7 +3227,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_reassociate_mul'
+            name: 'f64.no_reassociate_mul'
           },
           name: 'f64.no_reassociate_mul'
         }
@@ -3604,7 +3604,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -3618,7 +3618,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_div_0'
+            name: 'f32.no_fold_div_0'
           },
           name: 'f32.no_fold_div_0'
         },
@@ -3650,7 +3650,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -3664,7 +3664,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_div_0'
+            name: 'f64.no_fold_div_0'
           },
           name: 'f64.no_fold_div_0'
         }
@@ -3919,7 +3919,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -3933,7 +3933,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_div_neg0'
+            name: 'f32.no_fold_div_neg0'
           },
           name: 'f32.no_fold_div_neg0'
         },
@@ -3965,7 +3965,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
@@ -3979,7 +3979,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_div_neg0'
+            name: 'f64.no_fold_div_neg0'
           },
           name: 'f64.no_fold_div_neg0'
         }
@@ -4252,14 +4252,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 }
               },
@@ -4271,14 +4271,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               }
@@ -4289,7 +4289,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_to_hypot'
+            name: 'f32.no_fold_to_hypot'
           },
           name: 'f32.no_fold_to_hypot'
         },
@@ -4339,14 +4339,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'x'
+                    name: 'x'
                   }
                 }
               },
@@ -4358,14 +4358,14 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 },
                 right: {
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               }
@@ -4376,7 +4376,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_to_hypot'
+            name: 'f64.no_fold_to_hypot'
           },
           name: 'f64.no_fold_to_hypot'
         }
@@ -4668,7 +4668,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             }
           }]
@@ -4677,7 +4677,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_approximate_reciprocal'
+            name: 'f32.no_approximate_reciprocal'
           },
           name: 'f32.no_approximate_reciprocal'
         }
@@ -4853,7 +4853,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -4863,7 +4863,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_approximate_reciprocal_sqrt'
+            name: 'f32.no_approximate_reciprocal_sqrt'
           },
           name: 'f32.no_approximate_reciprocal_sqrt'
         }
@@ -5039,7 +5039,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -5049,7 +5049,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_approximate_sqrt_reciprocal'
+            name: 'f32.no_approximate_sqrt_reciprocal'
           },
           name: 'f32.no_approximate_sqrt_reciprocal'
         }
@@ -5222,7 +5222,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32.no_fold_f32_s'
+            name: 'i32.no_fold_f32_s'
           },
           name: 'i32.no_fold_f32_s'
         },
@@ -5270,7 +5270,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32.no_fold_f32_u'
+            name: 'i32.no_fold_f32_u'
           },
           name: 'i32.no_fold_f32_u'
         },
@@ -5318,7 +5318,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64.no_fold_f64_s'
+            name: 'i64.no_fold_f64_s'
           },
           name: 'i64.no_fold_f64_s'
         },
@@ -5366,7 +5366,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64.no_fold_f64_u'
+            name: 'i64.no_fold_f64_u'
           },
           name: 'i64.no_fold_f64_u'
         }
@@ -5621,14 +5621,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -5636,7 +5636,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -5645,7 +5645,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_add_sub'
+            name: 'f32.no_fold_add_sub'
           },
           name: 'f32.no_fold_add_sub'
         },
@@ -5691,14 +5691,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -5706,7 +5706,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -5715,7 +5715,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_add_sub'
+            name: 'f64.no_fold_add_sub'
           },
           name: 'f64.no_fold_add_sub'
         }
@@ -6006,14 +6006,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6021,7 +6021,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6030,7 +6030,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_sub_add'
+            name: 'f32.no_fold_sub_add'
           },
           name: 'f32.no_fold_sub_add'
         },
@@ -6076,14 +6076,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6091,7 +6091,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6100,7 +6100,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_sub_add'
+            name: 'f64.no_fold_sub_add'
           },
           name: 'f64.no_fold_sub_add'
         }
@@ -6391,14 +6391,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6406,7 +6406,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6415,7 +6415,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_mul_div'
+            name: 'f32.no_fold_mul_div'
           },
           name: 'f32.no_fold_mul_div'
         },
@@ -6461,14 +6461,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6476,7 +6476,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6485,7 +6485,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_mul_div'
+            name: 'f64.no_fold_mul_div'
           },
           name: 'f64.no_fold_mul_div'
         }
@@ -6776,14 +6776,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6791,7 +6791,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6800,7 +6800,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.no_fold_div_mul'
+            name: 'f32.no_fold_div_mul'
           },
           name: 'f32.no_fold_div_mul'
         },
@@ -6846,14 +6846,14 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'y'
+                  name: 'y'
                 }
               }
             },
@@ -6861,7 +6861,7 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -6870,7 +6870,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.no_fold_div_mul'
+            name: 'f64.no_fold_div_mul'
           },
           name: 'f64.no_fold_div_mul'
         }
@@ -7153,7 +7153,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -7163,7 +7163,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_fold_demote_promote'
+            name: 'no_fold_demote_promote'
           },
           name: 'no_fold_demote_promote'
         }
@@ -7300,7 +7300,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
@@ -7312,7 +7312,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               }
@@ -7323,7 +7323,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_demote_mixed_add'
+            name: 'no_demote_mixed_add'
           },
           name: 'no_demote_mixed_add'
         },
@@ -7375,7 +7375,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               },
@@ -7383,7 +7383,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -7393,7 +7393,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_demote_mixed_add_commuted'
+            name: 'no_demote_mixed_add_commuted'
           },
           name: 'no_demote_mixed_add_commuted'
         }
@@ -7685,7 +7685,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               },
               right: {
@@ -7697,7 +7697,7 @@
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
-                    id: 'y'
+                    name: 'y'
                   }
                 }
               }
@@ -7708,7 +7708,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'no_demote_mixed_sub'
+            name: 'no_demote_mixed_sub'
           },
           name: 'no_demote_mixed_sub'
         }
@@ -7871,7 +7871,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -7881,7 +7881,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i32.no_fold_trunc_s_convert_s'
+            name: 'f32.i32.no_fold_trunc_s_convert_s'
           },
           name: 'f32.i32.no_fold_trunc_s_convert_s'
         },
@@ -7919,7 +7919,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -7929,7 +7929,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i32.no_fold_trunc_u_convert_s'
+            name: 'f32.i32.no_fold_trunc_u_convert_s'
           },
           name: 'f32.i32.no_fold_trunc_u_convert_s'
         },
@@ -7967,7 +7967,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -7977,7 +7977,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i32.no_fold_trunc_s_convert_u'
+            name: 'f32.i32.no_fold_trunc_s_convert_u'
           },
           name: 'f32.i32.no_fold_trunc_s_convert_u'
         },
@@ -8015,7 +8015,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8025,7 +8025,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i32.no_fold_trunc_u_convert_u'
+            name: 'f32.i32.no_fold_trunc_u_convert_u'
           },
           name: 'f32.i32.no_fold_trunc_u_convert_u'
         },
@@ -8063,7 +8063,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8073,7 +8073,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i32.no_fold_trunc_s_convert_s'
+            name: 'f64.i32.no_fold_trunc_s_convert_s'
           },
           name: 'f64.i32.no_fold_trunc_s_convert_s'
         },
@@ -8111,7 +8111,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8121,7 +8121,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i32.no_fold_trunc_u_convert_s'
+            name: 'f64.i32.no_fold_trunc_u_convert_s'
           },
           name: 'f64.i32.no_fold_trunc_u_convert_s'
         },
@@ -8159,7 +8159,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8169,7 +8169,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i32.no_fold_trunc_s_convert_u'
+            name: 'f64.i32.no_fold_trunc_s_convert_u'
           },
           name: 'f64.i32.no_fold_trunc_s_convert_u'
         },
@@ -8207,7 +8207,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8217,7 +8217,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i32.no_fold_trunc_u_convert_u'
+            name: 'f64.i32.no_fold_trunc_u_convert_u'
           },
           name: 'f64.i32.no_fold_trunc_u_convert_u'
         },
@@ -8255,7 +8255,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8265,7 +8265,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i64.no_fold_trunc_s_convert_s'
+            name: 'f32.i64.no_fold_trunc_s_convert_s'
           },
           name: 'f32.i64.no_fold_trunc_s_convert_s'
         },
@@ -8303,7 +8303,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8313,7 +8313,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i64.no_fold_trunc_u_convert_s'
+            name: 'f32.i64.no_fold_trunc_u_convert_s'
           },
           name: 'f32.i64.no_fold_trunc_u_convert_s'
         },
@@ -8351,7 +8351,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8361,7 +8361,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i64.no_fold_trunc_s_convert_u'
+            name: 'f32.i64.no_fold_trunc_s_convert_u'
           },
           name: 'f32.i64.no_fold_trunc_s_convert_u'
         },
@@ -8399,7 +8399,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8409,7 +8409,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32.i64.no_fold_trunc_u_convert_u'
+            name: 'f32.i64.no_fold_trunc_u_convert_u'
           },
           name: 'f32.i64.no_fold_trunc_u_convert_u'
         },
@@ -8447,7 +8447,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8457,7 +8457,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i64.no_fold_trunc_s_convert_s'
+            name: 'f64.i64.no_fold_trunc_s_convert_s'
           },
           name: 'f64.i64.no_fold_trunc_s_convert_s'
         },
@@ -8495,7 +8495,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8505,7 +8505,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i64.no_fold_trunc_u_convert_s'
+            name: 'f64.i64.no_fold_trunc_u_convert_s'
           },
           name: 'f64.i64.no_fold_trunc_u_convert_s'
         },
@@ -8543,7 +8543,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8553,7 +8553,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i64.no_fold_trunc_s_convert_u'
+            name: 'f64.i64.no_fold_trunc_s_convert_u'
           },
           name: 'f64.i64.no_fold_trunc_s_convert_u'
         },
@@ -8591,7 +8591,7 @@
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
-                  id: 'x'
+                  name: 'x'
                 }
               }
             }
@@ -8601,7 +8601,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64.i64.no_fold_trunc_u_convert_u'
+            name: 'f64.i64.no_fold_trunc_u_convert_u'
           },
           name: 'f64.i64.no_fold_trunc_u_convert_u'
         }

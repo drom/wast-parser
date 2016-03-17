@@ -42,14 +42,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -92,14 +92,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -142,14 +142,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -192,14 +192,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -242,14 +242,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -292,14 +292,14 @@
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'x'
+                name: 'x'
               }
             },
             right: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
-                id: 'y'
+                name: 'y'
               }
             }
           }]
@@ -308,7 +308,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'eq'
+            name: 'eq'
           },
           name: 'eq'
         },
@@ -316,7 +316,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ne'
+            name: 'ne'
           },
           name: 'ne'
         },
@@ -324,7 +324,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'lt'
+            name: 'lt'
           },
           name: 'lt'
         },
@@ -332,7 +332,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'le'
+            name: 'le'
           },
           name: 'le'
         },
@@ -340,7 +340,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'gt'
+            name: 'gt'
           },
           name: 'gt'
         },
@@ -348,7 +348,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'ge'
+            name: 'ge'
           },
           name: 'ge'
         }

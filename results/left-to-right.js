@@ -43,35 +43,35 @@
           items: [
             {
               kind: 'identifier',
-              id: 'i32_t0'
+              name: 'i32_t0'
             },
             {
               kind: 'identifier',
-              id: 'i32_t1'
+              name: 'i32_t1'
             },
             {
               kind: 'identifier',
-              id: 'i64_t0'
+              name: 'i64_t0'
             },
             {
               kind: 'identifier',
-              id: 'i64_t1'
+              name: 'i64_t1'
             },
             {
               kind: 'identifier',
-              id: 'f32_t0'
+              name: 'f32_t0'
             },
             {
               kind: 'identifier',
-              id: 'f32_t1'
+              name: 'f32_t1'
             },
             {
               kind: 'identifier',
-              id: 'f64_t0'
+              name: 'f64_t0'
             },
             {
               kind: 'identifier',
-              id: 'f64_t1'
+              name: 'f64_t1'
             }
           ]
         },
@@ -85,7 +85,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'i32_T'
+              name: 'i32_T'
             }
           },
           param: [],
@@ -107,7 +107,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'i32_T'
+              name: 'i32_T'
             }
           },
           param: [],
@@ -129,7 +129,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'i64_T'
+              name: 'i64_T'
             }
           },
           param: [],
@@ -151,7 +151,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'i64_T'
+              name: 'i64_T'
             }
           },
           param: [],
@@ -173,7 +173,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'f32_T'
+              name: 'f32_T'
             }
           },
           param: [],
@@ -195,7 +195,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'f32_T'
+              name: 'f32_T'
             }
           },
           param: [],
@@ -217,7 +217,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'f64_T'
+              name: 'f64_T'
             }
           },
           param: [],
@@ -239,7 +239,7 @@
             kind: 'type',
             id: {
               kind: 'identifier',
-              id: 'f64_T'
+              name: 'f64_T'
             }
           },
           param: [],
@@ -429,7 +429,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -475,7 +475,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -521,7 +521,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -567,7 +567,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -613,7 +613,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -659,7 +659,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -705,7 +705,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -751,7 +751,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -797,7 +797,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -843,7 +843,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -889,7 +889,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -935,7 +935,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -981,7 +981,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1027,7 +1027,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1073,7 +1073,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1119,7 +1119,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1165,7 +1165,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1211,7 +1211,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1257,7 +1257,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1303,7 +1303,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'bump'
+                name: 'bump'
               },
               expr: []
             },
@@ -1445,7 +1445,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1457,7 +1457,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1465,7 +1465,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1474,7 +1474,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1498,7 +1498,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1510,7 +1510,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1518,7 +1518,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1527,7 +1527,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1551,7 +1551,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1563,7 +1563,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1571,7 +1571,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1580,7 +1580,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1604,7 +1604,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1616,7 +1616,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1624,7 +1624,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1633,7 +1633,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1657,7 +1657,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1669,7 +1669,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1677,7 +1677,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1686,7 +1686,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1710,7 +1710,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1722,7 +1722,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1730,7 +1730,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1739,7 +1739,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1763,7 +1763,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1775,7 +1775,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1783,7 +1783,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1792,7 +1792,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1816,7 +1816,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1828,7 +1828,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1836,7 +1836,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1845,7 +1845,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1869,7 +1869,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1881,7 +1881,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1889,7 +1889,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1898,7 +1898,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1922,7 +1922,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1934,7 +1934,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1942,7 +1942,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -1951,7 +1951,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -1975,7 +1975,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -1987,7 +1987,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -1995,7 +1995,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2004,7 +2004,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2028,7 +2028,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2040,7 +2040,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2048,7 +2048,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2057,7 +2057,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2081,7 +2081,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2093,7 +2093,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2101,7 +2101,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2110,7 +2110,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2134,7 +2134,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2146,7 +2146,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2154,7 +2154,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2163,7 +2163,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2187,7 +2187,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2199,7 +2199,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2207,7 +2207,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2216,7 +2216,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2240,7 +2240,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2252,7 +2252,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2260,7 +2260,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2269,7 +2269,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2293,7 +2293,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2305,7 +2305,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2313,7 +2313,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2322,7 +2322,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2346,7 +2346,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2358,7 +2358,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2366,7 +2366,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2375,7 +2375,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2399,7 +2399,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2411,7 +2411,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2419,7 +2419,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2428,7 +2428,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2452,7 +2452,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2464,7 +2464,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2472,7 +2472,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2481,7 +2481,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2505,7 +2505,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2517,7 +2517,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2525,7 +2525,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2534,7 +2534,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2558,7 +2558,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2570,7 +2570,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2578,7 +2578,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2587,7 +2587,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2611,7 +2611,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2623,7 +2623,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2631,7 +2631,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2640,7 +2640,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2664,7 +2664,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2678,7 +2678,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2686,7 +2686,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2695,7 +2695,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2719,7 +2719,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2733,7 +2733,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2741,7 +2741,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2750,7 +2750,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2774,7 +2774,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2788,7 +2788,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2796,7 +2796,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               }
@@ -2805,7 +2805,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2829,7 +2829,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2837,14 +2837,14 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i32_dummy'
+                name: 'i32_dummy'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_left'
+                    name: 'i32_left'
                   },
                   expr: []
                 },
@@ -2852,7 +2852,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_right'
+                    name: 'i32_right'
                   },
                   expr: []
                 }
@@ -2862,7 +2862,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2886,7 +2886,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2894,14 +2894,14 @@
               kind: 'call_indirect',
               id: {
                 kind: 'identifier',
-                id: 'i32_T'
+                name: 'i32_T'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_callee'
+                    name: 'i32_callee'
                   },
                   expr: []
                 },
@@ -2909,7 +2909,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_right'
+                    name: 'i32_right'
                   },
                   expr: []
                 },
@@ -2917,7 +2917,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i32_another'
+                    name: 'i32_another'
                   },
                   expr: []
                 }
@@ -2927,7 +2927,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -2951,7 +2951,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -2961,7 +2961,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -2969,7 +2969,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_right'
+                  name: 'i32_right'
                 },
                 expr: []
               },
@@ -2977,7 +2977,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_bool'
+                  name: 'i32_bool'
                 },
                 expr: []
               }
@@ -2986,7 +2986,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3010,7 +3010,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3022,7 +3022,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3030,7 +3030,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3039,7 +3039,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3063,7 +3063,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3075,7 +3075,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3083,7 +3083,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3092,7 +3092,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3116,7 +3116,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3128,7 +3128,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3136,7 +3136,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3145,7 +3145,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3169,7 +3169,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3181,7 +3181,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3189,7 +3189,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3198,7 +3198,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3222,7 +3222,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3234,7 +3234,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3242,7 +3242,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3251,7 +3251,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3275,7 +3275,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3287,7 +3287,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3295,7 +3295,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3304,7 +3304,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3328,7 +3328,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3340,7 +3340,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3348,7 +3348,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3357,7 +3357,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3381,7 +3381,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3393,7 +3393,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3401,7 +3401,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3410,7 +3410,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3434,7 +3434,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3446,7 +3446,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3454,7 +3454,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3463,7 +3463,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3487,7 +3487,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3499,7 +3499,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3507,7 +3507,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3516,7 +3516,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3540,7 +3540,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3552,7 +3552,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3560,7 +3560,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3569,7 +3569,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3593,7 +3593,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3605,7 +3605,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3613,7 +3613,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3622,7 +3622,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3646,7 +3646,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3658,7 +3658,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3666,7 +3666,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3675,7 +3675,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3699,7 +3699,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3711,7 +3711,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3719,7 +3719,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3728,7 +3728,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3752,7 +3752,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3764,7 +3764,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3772,7 +3772,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3781,7 +3781,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3805,7 +3805,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3817,7 +3817,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3825,7 +3825,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3834,7 +3834,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3858,7 +3858,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3870,7 +3870,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3878,7 +3878,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3887,7 +3887,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3911,7 +3911,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3923,7 +3923,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3931,7 +3931,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3940,7 +3940,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -3964,7 +3964,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -3976,7 +3976,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -3984,7 +3984,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -3993,7 +3993,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4017,7 +4017,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4029,7 +4029,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -4037,7 +4037,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4046,7 +4046,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4070,7 +4070,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4082,7 +4082,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -4090,7 +4090,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4099,7 +4099,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4123,7 +4123,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4135,7 +4135,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -4143,7 +4143,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4152,7 +4152,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4176,7 +4176,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4188,7 +4188,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -4196,7 +4196,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4205,7 +4205,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4229,7 +4229,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4243,7 +4243,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -4251,7 +4251,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4260,7 +4260,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4284,7 +4284,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4298,7 +4298,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -4306,7 +4306,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4315,7 +4315,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4339,7 +4339,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4353,7 +4353,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -4361,7 +4361,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4370,7 +4370,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4394,7 +4394,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4408,7 +4408,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -4416,7 +4416,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               }
@@ -4425,7 +4425,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4449,7 +4449,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4457,14 +4457,14 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'i64_dummy'
+                name: 'i64_dummy'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i64_left'
+                    name: 'i64_left'
                   },
                   expr: []
                 },
@@ -4472,7 +4472,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i64_right'
+                    name: 'i64_right'
                   },
                   expr: []
                 }
@@ -4482,7 +4482,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4506,7 +4506,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4514,14 +4514,14 @@
               kind: 'call_indirect',
               id: {
                 kind: 'identifier',
-                id: 'i64_T'
+                name: 'i64_T'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i64_callee'
+                    name: 'i64_callee'
                   },
                   expr: []
                 },
@@ -4529,7 +4529,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i64_right'
+                    name: 'i64_right'
                   },
                   expr: []
                 },
@@ -4537,7 +4537,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'i64_another'
+                    name: 'i64_another'
                   },
                   expr: []
                 }
@@ -4547,7 +4547,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4571,7 +4571,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4581,7 +4581,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_left'
+                  name: 'i64_left'
                 },
                 expr: []
               },
@@ -4589,7 +4589,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_right'
+                  name: 'i64_right'
                 },
                 expr: []
               },
@@ -4597,7 +4597,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i64_bool'
+                  name: 'i64_bool'
                 },
                 expr: []
               }
@@ -4606,7 +4606,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4630,7 +4630,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4642,7 +4642,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4650,7 +4650,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4659,7 +4659,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4683,7 +4683,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4695,7 +4695,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4703,7 +4703,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4712,7 +4712,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4736,7 +4736,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4748,7 +4748,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4756,7 +4756,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4765,7 +4765,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4789,7 +4789,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4801,7 +4801,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4809,7 +4809,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4818,7 +4818,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4842,7 +4842,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4854,7 +4854,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4862,7 +4862,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4871,7 +4871,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4895,7 +4895,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4907,7 +4907,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4915,7 +4915,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4924,7 +4924,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -4948,7 +4948,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -4960,7 +4960,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -4968,7 +4968,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -4977,7 +4977,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5001,7 +5001,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5013,7 +5013,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5021,7 +5021,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5030,7 +5030,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5054,7 +5054,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5066,7 +5066,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5074,7 +5074,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5083,7 +5083,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5107,7 +5107,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5119,7 +5119,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5127,7 +5127,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5136,7 +5136,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5160,7 +5160,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5172,7 +5172,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5180,7 +5180,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5189,7 +5189,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5213,7 +5213,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5225,7 +5225,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5233,7 +5233,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5242,7 +5242,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5266,7 +5266,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5278,7 +5278,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5286,7 +5286,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5295,7 +5295,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5319,7 +5319,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5333,7 +5333,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -5341,7 +5341,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               }
@@ -5350,7 +5350,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5374,7 +5374,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5382,14 +5382,14 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'f32_dummy'
+                name: 'f32_dummy'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f32_left'
+                    name: 'f32_left'
                   },
                   expr: []
                 },
@@ -5397,7 +5397,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f32_right'
+                    name: 'f32_right'
                   },
                   expr: []
                 }
@@ -5407,7 +5407,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5431,7 +5431,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5439,14 +5439,14 @@
               kind: 'call_indirect',
               id: {
                 kind: 'identifier',
-                id: 'f32_T'
+                name: 'f32_T'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f32_callee'
+                    name: 'f32_callee'
                   },
                   expr: []
                 },
@@ -5454,7 +5454,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f32_right'
+                    name: 'f32_right'
                   },
                   expr: []
                 },
@@ -5462,7 +5462,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f32_another'
+                    name: 'f32_another'
                   },
                   expr: []
                 }
@@ -5472,7 +5472,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5496,7 +5496,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5506,7 +5506,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_left'
+                  name: 'f32_left'
                 },
                 expr: []
               },
@@ -5514,7 +5514,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_right'
+                  name: 'f32_right'
                 },
                 expr: []
               },
@@ -5522,7 +5522,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f32_bool'
+                  name: 'f32_bool'
                 },
                 expr: []
               }
@@ -5531,7 +5531,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5555,7 +5555,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5567,7 +5567,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5575,7 +5575,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5584,7 +5584,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5608,7 +5608,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5620,7 +5620,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5628,7 +5628,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5637,7 +5637,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5661,7 +5661,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5673,7 +5673,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5681,7 +5681,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5690,7 +5690,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5714,7 +5714,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5726,7 +5726,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5734,7 +5734,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5743,7 +5743,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5767,7 +5767,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5779,7 +5779,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5787,7 +5787,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5796,7 +5796,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5820,7 +5820,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5832,7 +5832,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5840,7 +5840,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5849,7 +5849,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5873,7 +5873,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5885,7 +5885,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5893,7 +5893,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5902,7 +5902,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5926,7 +5926,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5938,7 +5938,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5946,7 +5946,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -5955,7 +5955,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -5979,7 +5979,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -5991,7 +5991,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -5999,7 +5999,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6008,7 +6008,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6032,7 +6032,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6044,7 +6044,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -6052,7 +6052,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6061,7 +6061,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6085,7 +6085,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6097,7 +6097,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -6105,7 +6105,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6114,7 +6114,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6138,7 +6138,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6150,7 +6150,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -6158,7 +6158,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6167,7 +6167,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6191,7 +6191,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6203,7 +6203,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -6211,7 +6211,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6220,7 +6220,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6244,7 +6244,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6258,7 +6258,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'i32_left'
+                  name: 'i32_left'
                 },
                 expr: []
               },
@@ -6266,7 +6266,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               }
@@ -6275,7 +6275,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6299,7 +6299,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6307,14 +6307,14 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'f64_dummy'
+                name: 'f64_dummy'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f64_left'
+                    name: 'f64_left'
                   },
                   expr: []
                 },
@@ -6322,7 +6322,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f64_right'
+                    name: 'f64_right'
                   },
                   expr: []
                 }
@@ -6332,7 +6332,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6356,7 +6356,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6364,14 +6364,14 @@
               kind: 'call_indirect',
               id: {
                 kind: 'identifier',
-                id: 'f64_T'
+                name: 'f64_T'
               },
               expr: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f64_callee'
+                    name: 'f64_callee'
                   },
                   expr: []
                 },
@@ -6379,7 +6379,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f64_right'
+                    name: 'f64_right'
                   },
                   expr: []
                 },
@@ -6387,7 +6387,7 @@
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    id: 'f64_another'
+                    name: 'f64_another'
                   },
                   expr: []
                 }
@@ -6397,7 +6397,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6421,7 +6421,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'reset'
+                name: 'reset'
               },
               expr: []
             },
@@ -6431,7 +6431,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_left'
+                  name: 'f64_left'
                 },
                 expr: []
               },
@@ -6439,7 +6439,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_right'
+                  name: 'f64_right'
                 },
                 expr: []
               },
@@ -6447,7 +6447,7 @@
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  id: 'f64_bool'
+                  name: 'f64_bool'
                 },
                 expr: []
               }
@@ -6456,7 +6456,7 @@
               kind: 'call',
               id: {
                 kind: 'identifier',
-                id: 'get'
+                name: 'get'
               },
               expr: []
             }
@@ -6466,7 +6466,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_add'
+            name: 'i32_add'
           },
           name: 'i32_add'
         },
@@ -6474,7 +6474,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_add'
+            name: 'i64_add'
           },
           name: 'i64_add'
         },
@@ -6482,7 +6482,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_sub'
+            name: 'i32_sub'
           },
           name: 'i32_sub'
         },
@@ -6490,7 +6490,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_sub'
+            name: 'i64_sub'
           },
           name: 'i64_sub'
         },
@@ -6498,7 +6498,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_mul'
+            name: 'i32_mul'
           },
           name: 'i32_mul'
         },
@@ -6506,7 +6506,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_mul'
+            name: 'i64_mul'
           },
           name: 'i64_mul'
         },
@@ -6514,7 +6514,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_div_s'
+            name: 'i32_div_s'
           },
           name: 'i32_div_s'
         },
@@ -6522,7 +6522,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_div_s'
+            name: 'i64_div_s'
           },
           name: 'i64_div_s'
         },
@@ -6530,7 +6530,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_div_u'
+            name: 'i32_div_u'
           },
           name: 'i32_div_u'
         },
@@ -6538,7 +6538,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_div_u'
+            name: 'i64_div_u'
           },
           name: 'i64_div_u'
         },
@@ -6546,7 +6546,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_rem_s'
+            name: 'i32_rem_s'
           },
           name: 'i32_rem_s'
         },
@@ -6554,7 +6554,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_rem_s'
+            name: 'i64_rem_s'
           },
           name: 'i64_rem_s'
         },
@@ -6562,7 +6562,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_rem_u'
+            name: 'i32_rem_u'
           },
           name: 'i32_rem_u'
         },
@@ -6570,7 +6570,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_rem_u'
+            name: 'i64_rem_u'
           },
           name: 'i64_rem_u'
         },
@@ -6578,7 +6578,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_and'
+            name: 'i32_and'
           },
           name: 'i32_and'
         },
@@ -6586,7 +6586,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_and'
+            name: 'i64_and'
           },
           name: 'i64_and'
         },
@@ -6594,7 +6594,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_or'
+            name: 'i32_or'
           },
           name: 'i32_or'
         },
@@ -6602,7 +6602,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_or'
+            name: 'i64_or'
           },
           name: 'i64_or'
         },
@@ -6610,7 +6610,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_xor'
+            name: 'i32_xor'
           },
           name: 'i32_xor'
         },
@@ -6618,7 +6618,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_xor'
+            name: 'i64_xor'
           },
           name: 'i64_xor'
         },
@@ -6626,7 +6626,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_shl'
+            name: 'i32_shl'
           },
           name: 'i32_shl'
         },
@@ -6634,7 +6634,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_shl'
+            name: 'i64_shl'
           },
           name: 'i64_shl'
         },
@@ -6642,7 +6642,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_shr_u'
+            name: 'i32_shr_u'
           },
           name: 'i32_shr_u'
         },
@@ -6650,7 +6650,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_shr_u'
+            name: 'i64_shr_u'
           },
           name: 'i64_shr_u'
         },
@@ -6658,7 +6658,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_shr_s'
+            name: 'i32_shr_s'
           },
           name: 'i32_shr_s'
         },
@@ -6666,7 +6666,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_shr_s'
+            name: 'i64_shr_s'
           },
           name: 'i64_shr_s'
         },
@@ -6674,7 +6674,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_eq'
+            name: 'i32_eq'
           },
           name: 'i32_eq'
         },
@@ -6682,7 +6682,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_eq'
+            name: 'i64_eq'
           },
           name: 'i64_eq'
         },
@@ -6690,7 +6690,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_ne'
+            name: 'i32_ne'
           },
           name: 'i32_ne'
         },
@@ -6698,7 +6698,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_ne'
+            name: 'i64_ne'
           },
           name: 'i64_ne'
         },
@@ -6706,7 +6706,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_lt_s'
+            name: 'i32_lt_s'
           },
           name: 'i32_lt_s'
         },
@@ -6714,7 +6714,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_lt_s'
+            name: 'i64_lt_s'
           },
           name: 'i64_lt_s'
         },
@@ -6722,7 +6722,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_le_s'
+            name: 'i32_le_s'
           },
           name: 'i32_le_s'
         },
@@ -6730,7 +6730,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_le_s'
+            name: 'i64_le_s'
           },
           name: 'i64_le_s'
         },
@@ -6738,7 +6738,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_lt_u'
+            name: 'i32_lt_u'
           },
           name: 'i32_lt_u'
         },
@@ -6746,7 +6746,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_lt_u'
+            name: 'i64_lt_u'
           },
           name: 'i64_lt_u'
         },
@@ -6754,7 +6754,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_le_u'
+            name: 'i32_le_u'
           },
           name: 'i32_le_u'
         },
@@ -6762,7 +6762,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_le_u'
+            name: 'i64_le_u'
           },
           name: 'i64_le_u'
         },
@@ -6770,7 +6770,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_gt_s'
+            name: 'i32_gt_s'
           },
           name: 'i32_gt_s'
         },
@@ -6778,7 +6778,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_gt_s'
+            name: 'i64_gt_s'
           },
           name: 'i64_gt_s'
         },
@@ -6786,7 +6786,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_ge_s'
+            name: 'i32_ge_s'
           },
           name: 'i32_ge_s'
         },
@@ -6794,7 +6794,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_ge_s'
+            name: 'i64_ge_s'
           },
           name: 'i64_ge_s'
         },
@@ -6802,7 +6802,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_gt_u'
+            name: 'i32_gt_u'
           },
           name: 'i32_gt_u'
         },
@@ -6810,7 +6810,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_gt_u'
+            name: 'i64_gt_u'
           },
           name: 'i64_gt_u'
         },
@@ -6818,7 +6818,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_ge_u'
+            name: 'i32_ge_u'
           },
           name: 'i32_ge_u'
         },
@@ -6826,7 +6826,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_ge_u'
+            name: 'i64_ge_u'
           },
           name: 'i64_ge_u'
         },
@@ -6834,7 +6834,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_store'
+            name: 'i32_store'
           },
           name: 'i32_store'
         },
@@ -6842,7 +6842,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store'
+            name: 'i64_store'
           },
           name: 'i64_store'
         },
@@ -6850,7 +6850,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_store8'
+            name: 'i32_store8'
           },
           name: 'i32_store8'
         },
@@ -6858,7 +6858,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store8'
+            name: 'i64_store8'
           },
           name: 'i64_store8'
         },
@@ -6866,7 +6866,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_store16'
+            name: 'i32_store16'
           },
           name: 'i32_store16'
         },
@@ -6874,7 +6874,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store16'
+            name: 'i64_store16'
           },
           name: 'i64_store16'
         },
@@ -6882,7 +6882,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_store32'
+            name: 'i64_store32'
           },
           name: 'i64_store32'
         },
@@ -6890,7 +6890,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_call'
+            name: 'i32_call'
           },
           name: 'i32_call'
         },
@@ -6898,7 +6898,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_call'
+            name: 'i64_call'
           },
           name: 'i64_call'
         },
@@ -6906,7 +6906,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_call_indirect'
+            name: 'i32_call_indirect'
           },
           name: 'i32_call_indirect'
         },
@@ -6914,7 +6914,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_call_indirect'
+            name: 'i64_call_indirect'
           },
           name: 'i64_call_indirect'
         },
@@ -6922,7 +6922,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i32_select'
+            name: 'i32_select'
           },
           name: 'i32_select'
         },
@@ -6930,7 +6930,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'i64_select'
+            name: 'i64_select'
           },
           name: 'i64_select'
         },
@@ -6938,7 +6938,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_add'
+            name: 'f32_add'
           },
           name: 'f32_add'
         },
@@ -6946,7 +6946,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_add'
+            name: 'f64_add'
           },
           name: 'f64_add'
         },
@@ -6954,7 +6954,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_sub'
+            name: 'f32_sub'
           },
           name: 'f32_sub'
         },
@@ -6962,7 +6962,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_sub'
+            name: 'f64_sub'
           },
           name: 'f64_sub'
         },
@@ -6970,7 +6970,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_mul'
+            name: 'f32_mul'
           },
           name: 'f32_mul'
         },
@@ -6978,7 +6978,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_mul'
+            name: 'f64_mul'
           },
           name: 'f64_mul'
         },
@@ -6986,7 +6986,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_div'
+            name: 'f32_div'
           },
           name: 'f32_div'
         },
@@ -6994,7 +6994,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_div'
+            name: 'f64_div'
           },
           name: 'f64_div'
         },
@@ -7002,7 +7002,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_copysign'
+            name: 'f32_copysign'
           },
           name: 'f32_copysign'
         },
@@ -7010,7 +7010,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_copysign'
+            name: 'f64_copysign'
           },
           name: 'f64_copysign'
         },
@@ -7018,7 +7018,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_eq'
+            name: 'f32_eq'
           },
           name: 'f32_eq'
         },
@@ -7026,7 +7026,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_eq'
+            name: 'f64_eq'
           },
           name: 'f64_eq'
         },
@@ -7034,7 +7034,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_ne'
+            name: 'f32_ne'
           },
           name: 'f32_ne'
         },
@@ -7042,7 +7042,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_ne'
+            name: 'f64_ne'
           },
           name: 'f64_ne'
         },
@@ -7050,7 +7050,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_lt'
+            name: 'f32_lt'
           },
           name: 'f32_lt'
         },
@@ -7058,7 +7058,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_lt'
+            name: 'f64_lt'
           },
           name: 'f64_lt'
         },
@@ -7066,7 +7066,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_le'
+            name: 'f32_le'
           },
           name: 'f32_le'
         },
@@ -7074,7 +7074,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_le'
+            name: 'f64_le'
           },
           name: 'f64_le'
         },
@@ -7082,7 +7082,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_gt'
+            name: 'f32_gt'
           },
           name: 'f32_gt'
         },
@@ -7090,7 +7090,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_gt'
+            name: 'f64_gt'
           },
           name: 'f64_gt'
         },
@@ -7098,7 +7098,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_ge'
+            name: 'f32_ge'
           },
           name: 'f32_ge'
         },
@@ -7106,7 +7106,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_ge'
+            name: 'f64_ge'
           },
           name: 'f64_ge'
         },
@@ -7114,7 +7114,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_min'
+            name: 'f32_min'
           },
           name: 'f32_min'
         },
@@ -7122,7 +7122,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_min'
+            name: 'f64_min'
           },
           name: 'f64_min'
         },
@@ -7130,7 +7130,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_max'
+            name: 'f32_max'
           },
           name: 'f32_max'
         },
@@ -7138,7 +7138,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_max'
+            name: 'f64_max'
           },
           name: 'f64_max'
         },
@@ -7146,7 +7146,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_store'
+            name: 'f32_store'
           },
           name: 'f32_store'
         },
@@ -7154,7 +7154,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_store'
+            name: 'f64_store'
           },
           name: 'f64_store'
         },
@@ -7162,7 +7162,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_call'
+            name: 'f32_call'
           },
           name: 'f32_call'
         },
@@ -7170,7 +7170,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_call'
+            name: 'f64_call'
           },
           name: 'f64_call'
         },
@@ -7178,7 +7178,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_call_indirect'
+            name: 'f32_call_indirect'
           },
           name: 'f32_call_indirect'
         },
@@ -7186,7 +7186,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_call_indirect'
+            name: 'f64_call_indirect'
           },
           name: 'f64_call_indirect'
         },
@@ -7194,7 +7194,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f32_select'
+            name: 'f32_select'
           },
           name: 'f32_select'
         },
@@ -7202,7 +7202,7 @@
           kind: 'export',
           id: {
             kind: 'identifier',
-            id: 'f64_select'
+            name: 'f64_select'
           },
           name: 'f64_select'
         }
