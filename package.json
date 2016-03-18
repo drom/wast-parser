@@ -4,12 +4,16 @@
   "description": "wast parser",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "bin/wast-parser.js"
   ],
   "scripts": {
     "test": "git submodule init && git submodule update --remote && git submodule status && mocha",
     "testgen": "bin/wast2ast.js",
     "prepublish": "pegjs wast.pegjs index.js"
+  },
+  "bin": {
+    "wast-parser": "./bin/wast-parser.js"  
   },
   "repository": {
     "type": "git",

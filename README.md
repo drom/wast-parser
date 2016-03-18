@@ -18,6 +18,10 @@ npm i wast-parser --save
 var parser = require('wast-parser');
 ```
 
+### CLI
+First install globally `npm i wast-parser -g`  
+then invoke with a wast file `wast-parser <path/to/wast/file> > parsed_wast.json`  
+
 ## Functions
 ### .parse()
 
