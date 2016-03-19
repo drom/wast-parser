@@ -6464,7 +6464,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_add',
+          name: {
+            kind: 'literal',
+            value: 'i32_add'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_add'
@@ -6472,7 +6475,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_add',
+          name: {
+            kind: 'literal',
+            value: 'i64_add'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_add'
@@ -6480,7 +6486,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_sub',
+          name: {
+            kind: 'literal',
+            value: 'i32_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_sub'
@@ -6488,7 +6497,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_sub',
+          name: {
+            kind: 'literal',
+            value: 'i64_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_sub'
@@ -6496,7 +6508,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_mul',
+          name: {
+            kind: 'literal',
+            value: 'i32_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_mul'
@@ -6504,7 +6519,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_mul',
+          name: {
+            kind: 'literal',
+            value: 'i64_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_mul'
@@ -6512,7 +6530,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_div_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_div_s'
@@ -6520,7 +6541,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_div_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_div_s'
@@ -6528,7 +6552,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_div_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_div_u'
@@ -6536,7 +6563,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_div_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_div_u'
@@ -6544,7 +6574,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_rem_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_rem_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_rem_s'
@@ -6552,7 +6585,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_rem_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_rem_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_rem_s'
@@ -6560,7 +6596,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_rem_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_rem_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_rem_u'
@@ -6568,7 +6607,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_rem_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_rem_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_rem_u'
@@ -6576,7 +6618,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_and',
+          name: {
+            kind: 'literal',
+            value: 'i32_and'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_and'
@@ -6584,7 +6629,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_and',
+          name: {
+            kind: 'literal',
+            value: 'i64_and'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_and'
@@ -6592,7 +6640,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_or',
+          name: {
+            kind: 'literal',
+            value: 'i32_or'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_or'
@@ -6600,7 +6651,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_or',
+          name: {
+            kind: 'literal',
+            value: 'i64_or'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_or'
@@ -6608,7 +6662,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_xor',
+          name: {
+            kind: 'literal',
+            value: 'i32_xor'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_xor'
@@ -6616,7 +6673,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_xor',
+          name: {
+            kind: 'literal',
+            value: 'i64_xor'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_xor'
@@ -6624,7 +6684,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_shl',
+          name: {
+            kind: 'literal',
+            value: 'i32_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_shl'
@@ -6632,7 +6695,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_shl',
+          name: {
+            kind: 'literal',
+            value: 'i64_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_shl'
@@ -6640,7 +6706,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_shr_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_shr_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_shr_u'
@@ -6648,7 +6717,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_shr_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_shr_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_shr_u'
@@ -6656,7 +6728,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_shr_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_shr_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_shr_s'
@@ -6664,7 +6739,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_shr_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_shr_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_shr_s'
@@ -6672,7 +6750,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_eq',
+          name: {
+            kind: 'literal',
+            value: 'i32_eq'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_eq'
@@ -6680,7 +6761,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_eq',
+          name: {
+            kind: 'literal',
+            value: 'i64_eq'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_eq'
@@ -6688,7 +6772,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_ne',
+          name: {
+            kind: 'literal',
+            value: 'i32_ne'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_ne'
@@ -6696,7 +6783,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_ne',
+          name: {
+            kind: 'literal',
+            value: 'i64_ne'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_ne'
@@ -6704,7 +6794,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_lt_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_lt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_lt_s'
@@ -6712,7 +6805,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_lt_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_lt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_lt_s'
@@ -6720,7 +6816,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_le_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_le_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_le_s'
@@ -6728,7 +6827,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_le_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_le_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_le_s'
@@ -6736,7 +6838,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_lt_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_lt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_lt_u'
@@ -6744,7 +6849,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_lt_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_lt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_lt_u'
@@ -6752,7 +6860,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_le_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_le_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_le_u'
@@ -6760,7 +6871,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_le_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_le_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_le_u'
@@ -6768,7 +6882,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_gt_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_gt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_gt_s'
@@ -6776,7 +6893,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_gt_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_gt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_gt_s'
@@ -6784,7 +6904,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_ge_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_ge_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_ge_s'
@@ -6792,7 +6915,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_ge_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_ge_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_ge_s'
@@ -6800,7 +6926,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_gt_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_gt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_gt_u'
@@ -6808,7 +6937,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_gt_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_gt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_gt_u'
@@ -6816,7 +6948,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_ge_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_ge_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_ge_u'
@@ -6824,7 +6959,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_ge_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_ge_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_ge_u'
@@ -6832,7 +6970,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_store',
+          name: {
+            kind: 'literal',
+            value: 'i32_store'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_store'
@@ -6840,7 +6981,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_store',
+          name: {
+            kind: 'literal',
+            value: 'i64_store'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_store'
@@ -6848,7 +6992,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_store8',
+          name: {
+            kind: 'literal',
+            value: 'i32_store8'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_store8'
@@ -6856,7 +7003,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_store8',
+          name: {
+            kind: 'literal',
+            value: 'i64_store8'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_store8'
@@ -6864,7 +7014,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_store16',
+          name: {
+            kind: 'literal',
+            value: 'i32_store16'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_store16'
@@ -6872,7 +7025,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_store16',
+          name: {
+            kind: 'literal',
+            value: 'i64_store16'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_store16'
@@ -6880,7 +7036,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_store32',
+          name: {
+            kind: 'literal',
+            value: 'i64_store32'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_store32'
@@ -6888,7 +7047,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_call',
+          name: {
+            kind: 'literal',
+            value: 'i32_call'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_call'
@@ -6896,7 +7058,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_call',
+          name: {
+            kind: 'literal',
+            value: 'i64_call'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_call'
@@ -6904,7 +7069,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_call_indirect',
+          name: {
+            kind: 'literal',
+            value: 'i32_call_indirect'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_call_indirect'
@@ -6912,7 +7080,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_call_indirect',
+          name: {
+            kind: 'literal',
+            value: 'i64_call_indirect'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_call_indirect'
@@ -6920,7 +7091,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_select',
+          name: {
+            kind: 'literal',
+            value: 'i32_select'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_select'
@@ -6928,7 +7102,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_select',
+          name: {
+            kind: 'literal',
+            value: 'i64_select'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_select'
@@ -6936,7 +7113,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_add',
+          name: {
+            kind: 'literal',
+            value: 'f32_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_add'
@@ -6944,7 +7124,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_add',
+          name: {
+            kind: 'literal',
+            value: 'f64_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_add'
@@ -6952,7 +7135,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_sub',
+          name: {
+            kind: 'literal',
+            value: 'f32_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_sub'
@@ -6960,7 +7146,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_sub',
+          name: {
+            kind: 'literal',
+            value: 'f64_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_sub'
@@ -6968,7 +7157,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_mul',
+          name: {
+            kind: 'literal',
+            value: 'f32_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_mul'
@@ -6976,7 +7168,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_mul',
+          name: {
+            kind: 'literal',
+            value: 'f64_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_mul'
@@ -6984,7 +7179,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_div',
+          name: {
+            kind: 'literal',
+            value: 'f32_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_div'
@@ -6992,7 +7190,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_div',
+          name: {
+            kind: 'literal',
+            value: 'f64_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_div'
@@ -7000,7 +7201,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_copysign',
+          name: {
+            kind: 'literal',
+            value: 'f32_copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_copysign'
@@ -7008,7 +7212,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_copysign',
+          name: {
+            kind: 'literal',
+            value: 'f64_copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_copysign'
@@ -7016,7 +7223,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_eq',
+          name: {
+            kind: 'literal',
+            value: 'f32_eq'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_eq'
@@ -7024,7 +7234,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_eq',
+          name: {
+            kind: 'literal',
+            value: 'f64_eq'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_eq'
@@ -7032,7 +7245,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_ne',
+          name: {
+            kind: 'literal',
+            value: 'f32_ne'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_ne'
@@ -7040,7 +7256,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_ne',
+          name: {
+            kind: 'literal',
+            value: 'f64_ne'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_ne'
@@ -7048,7 +7267,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_lt',
+          name: {
+            kind: 'literal',
+            value: 'f32_lt'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_lt'
@@ -7056,7 +7278,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_lt',
+          name: {
+            kind: 'literal',
+            value: 'f64_lt'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_lt'
@@ -7064,7 +7289,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_le',
+          name: {
+            kind: 'literal',
+            value: 'f32_le'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_le'
@@ -7072,7 +7300,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_le',
+          name: {
+            kind: 'literal',
+            value: 'f64_le'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_le'
@@ -7080,7 +7311,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_gt',
+          name: {
+            kind: 'literal',
+            value: 'f32_gt'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_gt'
@@ -7088,7 +7322,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_gt',
+          name: {
+            kind: 'literal',
+            value: 'f64_gt'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_gt'
@@ -7096,7 +7333,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_ge',
+          name: {
+            kind: 'literal',
+            value: 'f32_ge'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_ge'
@@ -7104,7 +7344,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_ge',
+          name: {
+            kind: 'literal',
+            value: 'f64_ge'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_ge'
@@ -7112,7 +7355,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_min',
+          name: {
+            kind: 'literal',
+            value: 'f32_min'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_min'
@@ -7120,7 +7366,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_min',
+          name: {
+            kind: 'literal',
+            value: 'f64_min'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_min'
@@ -7128,7 +7377,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_max',
+          name: {
+            kind: 'literal',
+            value: 'f32_max'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_max'
@@ -7136,7 +7388,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_max',
+          name: {
+            kind: 'literal',
+            value: 'f64_max'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_max'
@@ -7144,7 +7399,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_store',
+          name: {
+            kind: 'literal',
+            value: 'f32_store'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_store'
@@ -7152,7 +7410,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_store',
+          name: {
+            kind: 'literal',
+            value: 'f64_store'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_store'
@@ -7160,7 +7421,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_call',
+          name: {
+            kind: 'literal',
+            value: 'f32_call'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_call'
@@ -7168,7 +7432,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_call',
+          name: {
+            kind: 'literal',
+            value: 'f64_call'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_call'
@@ -7176,7 +7443,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_call_indirect',
+          name: {
+            kind: 'literal',
+            value: 'f32_call_indirect'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_call_indirect'
@@ -7184,7 +7454,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_call_indirect',
+          name: {
+            kind: 'literal',
+            value: 'f64_call_indirect'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_call_indirect'
@@ -7192,7 +7465,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_select',
+          name: {
+            kind: 'literal',
+            value: 'f32_select'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_select'
@@ -7200,7 +7476,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_select',
+          name: {
+            kind: 'literal',
+            value: 'f64_select'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_select'

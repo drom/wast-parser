@@ -222,7 +222,10 @@
         },
         {
           kind: 'export',
-          name: 'empty',
+          name: {
+            kind: 'literal',
+            value: 'empty'
+          },
           id: {
             kind: 'identifier',
             name: 'empty'
@@ -230,7 +233,10 @@
         },
         {
           kind: 'export',
-          name: 'singular',
+          name: {
+            kind: 'literal',
+            value: 'singular'
+          },
           id: {
             kind: 'identifier',
             name: 'singular'
@@ -238,7 +244,10 @@
         },
         {
           kind: 'export',
-          name: 'multi',
+          name: {
+            kind: 'literal',
+            value: 'multi'
+          },
           id: {
             kind: 'identifier',
             name: 'multi'
@@ -246,7 +255,10 @@
         },
         {
           kind: 'export',
-          name: 'effects',
+          name: {
+            kind: 'literal',
+            value: 'effects'
+          },
           id: {
             kind: 'identifier',
             name: 'effects'

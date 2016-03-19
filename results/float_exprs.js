@@ -76,7 +76,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_contraction',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_contraction'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_contraction'
@@ -304,7 +307,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fma',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fma'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fma'
@@ -382,7 +388,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fma',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fma'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fma'
@@ -723,7 +732,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_add_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_add_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_add_zero'
@@ -769,7 +781,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_add_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_add_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_add_zero'
@@ -854,7 +869,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_zero_sub',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_zero_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_zero_sub'
@@ -900,7 +918,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_zero_sub',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_zero_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_zero_sub'
@@ -985,7 +1006,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_mul_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_mul_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_mul_zero'
@@ -1031,7 +1055,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_mul_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_mul_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_mul_zero'
@@ -1184,7 +1211,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_zero_div',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_zero_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_zero_div'
@@ -1230,7 +1260,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_zero_div',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_zero_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_zero_div'
@@ -1365,7 +1398,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_eq_self',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_eq_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_eq_self'
@@ -1413,7 +1449,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_eq_self',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_eq_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_eq_self'
@@ -1500,7 +1539,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_ne_self',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_ne_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_ne_self'
@@ -1548,7 +1590,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_ne_self',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_ne_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_ne_self'
@@ -1635,7 +1680,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_sub_self',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_sub_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_sub_self'
@@ -1683,7 +1731,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_sub_self',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_sub_self'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_sub_self'
@@ -1792,7 +1843,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_div_3',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_3'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_div_3'
@@ -1838,7 +1892,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_div_3',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_3'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_div_3'
@@ -2103,7 +2160,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_distribute',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_distribute'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_distribute'
@@ -2193,7 +2253,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_distribute',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_distribute'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_distribute'
@@ -2586,7 +2649,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_reassociate_add',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_reassociate_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_reassociate_add'
@@ -2684,7 +2750,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_reassociate_add',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_reassociate_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_reassociate_add'
@@ -3127,7 +3196,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_reassociate_mul',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_reassociate_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_reassociate_mul'
@@ -3225,7 +3297,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_reassociate_mul',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_reassociate_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_reassociate_mul'
@@ -3616,7 +3691,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_div_0',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_0'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_div_0'
@@ -3662,7 +3740,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_div_0',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_0'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_div_0'
@@ -3931,7 +4012,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_div_neg0',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_neg0'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_div_neg0'
@@ -3977,7 +4061,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_div_neg0',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_neg0'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_div_neg0'
@@ -4287,7 +4374,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_to_hypot',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_to_hypot'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_to_hypot'
@@ -4374,7 +4464,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_to_hypot',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_to_hypot'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_to_hypot'
@@ -4675,7 +4768,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_approximate_reciprocal',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_approximate_reciprocal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_approximate_reciprocal'
@@ -4861,7 +4957,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_approximate_reciprocal_sqrt',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_approximate_reciprocal_sqrt'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_approximate_reciprocal_sqrt'
@@ -5047,7 +5146,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_approximate_sqrt_reciprocal',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_approximate_sqrt_reciprocal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_approximate_sqrt_reciprocal'
@@ -5220,7 +5322,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_f32_s',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_f32_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_f32_s'
@@ -5268,7 +5373,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_f32_u',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_f32_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_f32_u'
@@ -5316,7 +5424,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_f64_s',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_f64_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_f64_s'
@@ -5364,7 +5475,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_f64_u',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_f64_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_f64_u'
@@ -5643,7 +5757,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_add_sub',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_add_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_add_sub'
@@ -5713,7 +5830,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_add_sub',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_add_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_add_sub'
@@ -6028,7 +6148,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_sub_add',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_sub_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_sub_add'
@@ -6098,7 +6221,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_sub_add',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_sub_add'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_sub_add'
@@ -6413,7 +6539,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_mul_div',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_mul_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_mul_div'
@@ -6483,7 +6612,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_mul_div',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_mul_div'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_mul_div'
@@ -6798,7 +6930,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.no_fold_div_mul',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.no_fold_div_mul'
@@ -6868,7 +7003,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.no_fold_div_mul',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.no_fold_div_mul'
@@ -7161,7 +7299,10 @@
         },
         {
           kind: 'export',
-          name: 'no_fold_demote_promote',
+          name: {
+            kind: 'literal',
+            value: 'no_fold_demote_promote'
+          },
           id: {
             kind: 'identifier',
             name: 'no_fold_demote_promote'
@@ -7321,7 +7462,10 @@
         },
         {
           kind: 'export',
-          name: 'no_demote_mixed_add',
+          name: {
+            kind: 'literal',
+            value: 'no_demote_mixed_add'
+          },
           id: {
             kind: 'identifier',
             name: 'no_demote_mixed_add'
@@ -7391,7 +7535,10 @@
         },
         {
           kind: 'export',
-          name: 'no_demote_mixed_add_commuted',
+          name: {
+            kind: 'literal',
+            value: 'no_demote_mixed_add_commuted'
+          },
           id: {
             kind: 'identifier',
             name: 'no_demote_mixed_add_commuted'
@@ -7706,7 +7853,10 @@
         },
         {
           kind: 'export',
-          name: 'no_demote_mixed_sub',
+          name: {
+            kind: 'literal',
+            value: 'no_demote_mixed_sub'
+          },
           id: {
             kind: 'identifier',
             name: 'no_demote_mixed_sub'
@@ -7879,7 +8029,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i32.no_fold_trunc_s_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f32.i32.no_fold_trunc_s_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_s_convert_s'
@@ -7927,7 +8080,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i32.no_fold_trunc_u_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f32.i32.no_fold_trunc_u_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_u_convert_s'
@@ -7975,7 +8131,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i32.no_fold_trunc_s_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f32.i32.no_fold_trunc_s_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_s_convert_u'
@@ -8023,7 +8182,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i32.no_fold_trunc_u_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f32.i32.no_fold_trunc_u_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_u_convert_u'
@@ -8071,7 +8233,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i32.no_fold_trunc_s_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f64.i32.no_fold_trunc_s_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_s_convert_s'
@@ -8119,7 +8284,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i32.no_fold_trunc_u_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f64.i32.no_fold_trunc_u_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_u_convert_s'
@@ -8167,7 +8335,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i32.no_fold_trunc_s_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f64.i32.no_fold_trunc_s_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_s_convert_u'
@@ -8215,7 +8386,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i32.no_fold_trunc_u_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f64.i32.no_fold_trunc_u_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_u_convert_u'
@@ -8263,7 +8437,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i64.no_fold_trunc_s_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f32.i64.no_fold_trunc_s_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_s_convert_s'
@@ -8311,7 +8488,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i64.no_fold_trunc_u_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f32.i64.no_fold_trunc_u_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_u_convert_s'
@@ -8359,7 +8539,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i64.no_fold_trunc_s_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f32.i64.no_fold_trunc_s_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_s_convert_u'
@@ -8407,7 +8590,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.i64.no_fold_trunc_u_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f32.i64.no_fold_trunc_u_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_u_convert_u'
@@ -8455,7 +8641,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i64.no_fold_trunc_s_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f64.i64.no_fold_trunc_s_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_s_convert_s'
@@ -8503,7 +8692,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i64.no_fold_trunc_u_convert_s',
+          name: {
+            kind: 'literal',
+            value: 'f64.i64.no_fold_trunc_u_convert_s'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_u_convert_s'
@@ -8551,7 +8743,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i64.no_fold_trunc_s_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f64.i64.no_fold_trunc_s_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_s_convert_u'
@@ -8599,7 +8794,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.i64.no_fold_trunc_u_convert_u',
+          name: {
+            kind: 'literal',
+            value: 'f64.i64.no_fold_trunc_u_convert_u'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_u_convert_u'

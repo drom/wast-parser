@@ -968,7 +968,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.add',
+          name: {
+            kind: 'literal',
+            value: 'f32.add'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.add'
@@ -976,7 +979,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.sub',
+          name: {
+            kind: 'literal',
+            value: 'f32.sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.sub'
@@ -984,7 +990,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.mul',
+          name: {
+            kind: 'literal',
+            value: 'f32.mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.mul'
@@ -992,7 +1001,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.div',
+          name: {
+            kind: 'literal',
+            value: 'f32.div'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.div'
@@ -1000,7 +1012,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.sqrt',
+          name: {
+            kind: 'literal',
+            value: 'f32.sqrt'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.sqrt'
@@ -1008,7 +1023,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.abs',
+          name: {
+            kind: 'literal',
+            value: 'f32.abs'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.abs'
@@ -1016,7 +1034,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.neg',
+          name: {
+            kind: 'literal',
+            value: 'f32.neg'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.neg'
@@ -1024,7 +1045,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.copysign',
+          name: {
+            kind: 'literal',
+            value: 'f32.copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.copysign'
@@ -1032,7 +1056,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.ceil',
+          name: {
+            kind: 'literal',
+            value: 'f32.ceil'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.ceil'
@@ -1040,7 +1067,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.floor',
+          name: {
+            kind: 'literal',
+            value: 'f32.floor'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.floor'
@@ -1048,7 +1078,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.trunc',
+          name: {
+            kind: 'literal',
+            value: 'f32.trunc'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.trunc'
@@ -1056,7 +1089,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.nearest',
+          name: {
+            kind: 'literal',
+            value: 'f32.nearest'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.nearest'
@@ -1064,7 +1100,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.add',
+          name: {
+            kind: 'literal',
+            value: 'f64.add'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.add'
@@ -1072,7 +1111,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.sub',
+          name: {
+            kind: 'literal',
+            value: 'f64.sub'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.sub'
@@ -1080,7 +1122,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.mul',
+          name: {
+            kind: 'literal',
+            value: 'f64.mul'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.mul'
@@ -1088,7 +1133,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.div',
+          name: {
+            kind: 'literal',
+            value: 'f64.div'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.div'
@@ -1096,7 +1144,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.sqrt',
+          name: {
+            kind: 'literal',
+            value: 'f64.sqrt'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.sqrt'
@@ -1104,7 +1155,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.abs',
+          name: {
+            kind: 'literal',
+            value: 'f64.abs'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.abs'
@@ -1112,7 +1166,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.neg',
+          name: {
+            kind: 'literal',
+            value: 'f64.neg'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.neg'
@@ -1120,7 +1177,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.copysign',
+          name: {
+            kind: 'literal',
+            value: 'f64.copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.copysign'
@@ -1128,7 +1188,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.ceil',
+          name: {
+            kind: 'literal',
+            value: 'f64.ceil'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.ceil'
@@ -1136,7 +1199,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.floor',
+          name: {
+            kind: 'literal',
+            value: 'f64.floor'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.floor'
@@ -1144,7 +1210,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.trunc',
+          name: {
+            kind: 'literal',
+            value: 'f64.trunc'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.trunc'
@@ -1152,7 +1221,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.nearest',
+          name: {
+            kind: 'literal',
+            value: 'f64.nearest'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.nearest'

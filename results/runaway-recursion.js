@@ -23,7 +23,10 @@
         },
         {
           kind: 'export',
-          name: 'runaway',
+          name: {
+            kind: 'literal',
+            value: 'runaway'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -70,7 +73,10 @@
         },
         {
           kind: 'export',
-          name: 'mutual_runaway',
+          name: {
+            kind: 'literal',
+            value: 'mutual_runaway'
+          },
           id: {
             kind: 'identifier',
             name: 'a'
@@ -86,7 +92,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'call stack exhausted'
       }
     },
@@ -98,7 +104,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'call stack exhausted'
       }
     }

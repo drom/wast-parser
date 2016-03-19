@@ -76,7 +76,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_cmp_s_offset',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_cmp_s_offset'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_cmp_s_offset'
@@ -154,7 +157,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_cmp_u_offset',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_cmp_u_offset'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_cmp_u_offset'
@@ -232,7 +238,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_cmp_s_offset',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_cmp_s_offset'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_cmp_s_offset'
@@ -310,7 +319,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_cmp_u_offset',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_cmp_u_offset'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_cmp_u_offset'
@@ -459,7 +471,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_wrap_extend_s',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_wrap_extend_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_s'
@@ -546,7 +561,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_wrap_extend_u',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_wrap_extend_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_u'
@@ -624,7 +642,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_shl_shr_s',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_shl_shr_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_s'
@@ -680,7 +701,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_shl_shr_u',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_shl_shr_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_u'
@@ -736,7 +760,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_shl_shr_s',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_shl_shr_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_s'
@@ -792,7 +819,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_shl_shr_u',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_shl_shr_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_u'
@@ -921,7 +951,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_shr_s_shl',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_shr_s_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shr_s_shl'
@@ -977,7 +1010,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_shr_u_shl',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_shr_u_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shr_u_shl'
@@ -1033,7 +1069,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_shr_s_shl',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_shr_s_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shr_s_shl'
@@ -1089,7 +1128,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_shr_u_shl',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_shr_u_shl'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shr_u_shl'
@@ -1218,7 +1260,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_div_s_mul',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_s_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_s_mul'
@@ -1274,7 +1319,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_div_u_mul',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_u_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_u_mul'
@@ -1330,7 +1378,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_div_s_mul',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_s_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_s_mul'
@@ -1386,7 +1437,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_div_u_mul',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_u_mul'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_u_mul'
@@ -1515,7 +1569,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_mul_div_s',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_mul_div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_s'
@@ -1571,7 +1628,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_mul_div_u',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_mul_div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_u'
@@ -1627,7 +1687,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_mul_div_s',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_mul_div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_s'
@@ -1683,7 +1746,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_mul_div_u',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_mul_div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_u'
@@ -1802,7 +1868,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_div_s_2',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_s_2'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_s_2'
@@ -1848,7 +1917,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_div_s_2',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_s_2'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_s_2'
@@ -1933,7 +2005,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.no_fold_rem_s_2',
+          name: {
+            kind: 'literal',
+            value: 'i32.no_fold_rem_s_2'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_rem_s_2'
@@ -1979,7 +2054,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.no_fold_rem_s_2',
+          name: {
+            kind: 'literal',
+            value: 'i64.no_fold_rem_s_2'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_rem_s_2'
@@ -2064,7 +2142,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_s_3',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_s_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_s_3'
@@ -2110,7 +2191,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_u_3',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_u_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_u_3'
@@ -2156,7 +2240,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_s_3',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_s_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_s_3'
@@ -2202,7 +2289,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_u_3',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_u_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_u_3'
@@ -2389,7 +2479,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_s_5',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_s_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_s_5'
@@ -2435,7 +2528,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_u_5',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_u_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_u_5'
@@ -2481,7 +2577,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_s_5',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_s_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_s_5'
@@ -2527,7 +2626,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_u_5',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_u_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_u_5'
@@ -2714,7 +2816,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_s_7',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_s_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_s_7'
@@ -2760,7 +2865,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.div_u_7',
+          name: {
+            kind: 'literal',
+            value: 'i32.div_u_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.div_u_7'
@@ -2806,7 +2914,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_s_7',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_s_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_s_7'
@@ -2852,7 +2963,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.div_u_7',
+          name: {
+            kind: 'literal',
+            value: 'i64.div_u_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.div_u_7'
@@ -3039,7 +3153,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_s_3',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_s_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_3'
@@ -3085,7 +3202,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_u_3',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_u_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_3'
@@ -3131,7 +3251,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_s_3',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_s_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_3'
@@ -3177,7 +3300,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_u_3',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_u_3'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_3'
@@ -3364,7 +3490,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_s_5',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_s_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_5'
@@ -3410,7 +3539,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_u_5',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_u_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_5'
@@ -3456,7 +3588,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_s_5',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_s_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_5'
@@ -3502,7 +3637,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_u_5',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_u_5'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_5'
@@ -3689,7 +3827,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_s_7',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_s_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_7'
@@ -3735,7 +3876,10 @@
         },
         {
           kind: 'export',
-          name: 'i32.rem_u_7',
+          name: {
+            kind: 'literal',
+            value: 'i32.rem_u_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_7'
@@ -3781,7 +3925,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_s_7',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_s_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_7'
@@ -3827,7 +3974,10 @@
         },
         {
           kind: 'export',
-          name: 'i64.rem_u_7',
+          name: {
+            kind: 'literal',
+            value: 'i64.rem_u_7'
+          },
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_7'

@@ -22,7 +22,10 @@
         },
         {
           kind: 'export',
-          name: 'return-none',
+          name: {
+            kind: 'literal',
+            value: 'return-none'
+          },
           id: {
             kind: 'identifier',
             name: 'return-none'
@@ -42,7 +45,10 @@
         },
         {
           kind: 'export',
-          name: 'empty',
+          name: {
+            kind: 'literal',
+            value: 'empty'
+          },
           id: {
             kind: 'identifier',
             name: 'empty'

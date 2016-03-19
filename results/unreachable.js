@@ -176,7 +176,10 @@
         },
         {
           kind: 'export',
-          name: 'return_i32',
+          name: {
+            kind: 'literal',
+            value: 'return_i32'
+          },
           id: {
             kind: 'identifier',
             name: 'return_i32'
@@ -184,7 +187,10 @@
         },
         {
           kind: 'export',
-          name: 'return_f64',
+          name: {
+            kind: 'literal',
+            value: 'return_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'return_f64'
@@ -192,7 +198,10 @@
         },
         {
           kind: 'export',
-          name: 'if',
+          name: {
+            kind: 'literal',
+            value: 'if'
+          },
           id: {
             kind: 'identifier',
             name: 'if'
@@ -200,7 +209,10 @@
         },
         {
           kind: 'export',
-          name: 'block',
+          name: {
+            kind: 'literal',
+            value: 'block'
+          },
           id: {
             kind: 'identifier',
             name: 'block'
@@ -208,7 +220,10 @@
         },
         {
           kind: 'export',
-          name: 'return_i64',
+          name: {
+            kind: 'literal',
+            value: 'return_i64'
+          },
           id: {
             kind: 'identifier',
             name: 'return_i64'
@@ -216,7 +231,10 @@
         },
         {
           kind: 'export',
-          name: 'call',
+          name: {
+            kind: 'literal',
+            value: 'call'
+          },
           id: {
             kind: 'identifier',
             name: 'call'
@@ -224,7 +242,10 @@
         },
         {
           kind: 'export',
-          name: 'misc1',
+          name: {
+            kind: 'literal',
+            value: 'misc1'
+          },
           id: {
             kind: 'identifier',
             name: 'misc1'
@@ -240,7 +261,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -252,7 +273,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -268,7 +289,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -297,7 +318,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -322,7 +343,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -334,7 +355,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     }

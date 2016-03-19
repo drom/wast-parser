@@ -97,7 +97,10 @@
         },
         {
           kind: 'export',
-          name: 'one',
+          name: {
+            kind: 'literal',
+            value: 'one'
+          },
           id: {
             kind: 'identifier',
             name: 'one'
@@ -140,7 +143,10 @@
         },
         {
           kind: 'export',
-          name: 'two',
+          name: {
+            kind: 'literal',
+            value: 'two'
+          },
           id: {
             kind: 'identifier',
             name: 'two'
@@ -193,7 +199,10 @@
         },
         {
           kind: 'export',
-          name: 'three',
+          name: {
+            kind: 'literal',
+            value: 'three'
+          },
           id: {
             kind: 'identifier',
             name: 'three'
@@ -205,8 +214,14 @@
             kind: 'identifier',
             name: 'print'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: {
             kind: 'type',
             id: {
@@ -252,7 +267,10 @@
         },
         {
           kind: 'export',
-          name: 'four',
+          name: {
+            kind: 'literal',
+            value: 'four'
+          },
           id: {
             kind: 'identifier',
             name: 'four'
@@ -338,7 +356,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unknown function type 42'
       }
     },
@@ -349,8 +367,14 @@
         body: [{
           kind: 'import',
           id: null,
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: {
             kind: 'type',
             id: {
@@ -364,7 +388,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unknown function type 43'
       }
     },
@@ -565,7 +589,10 @@
         },
         {
           kind: 'export',
-          name: 'callt',
+          name: {
+            kind: 'literal',
+            value: 'callt'
+          },
           id: {
             kind: 'identifier',
             name: 'callt'
@@ -608,7 +635,10 @@
         },
         {
           kind: 'export',
-          name: 'callu',
+          name: {
+            kind: 'literal',
+            value: 'callu'
+          },
           id: {
             kind: 'identifier',
             name: 'callu'
@@ -679,7 +709,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -695,7 +725,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -745,7 +775,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'undefined table index 7'
       }
     },
@@ -761,7 +791,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'undefined table index 100'
       }
     },
@@ -777,7 +807,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'undefined table index -1'
       }
     },
@@ -793,7 +823,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -809,7 +839,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -825,7 +855,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -875,7 +905,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -891,7 +921,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'indirect call signature mismatch'
       }
     },
@@ -907,7 +937,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'undefined table index 7'
       }
     },
@@ -923,7 +953,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'undefined table index -1'
       }
     },
@@ -958,8 +988,14 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -1051,7 +1087,10 @@
         },
         {
           kind: 'export',
-          name: 'callt',
+          name: {
+            kind: 'literal',
+            value: 'callt'
+          },
           id: {
             kind: 'identifier',
             name: 'callt'

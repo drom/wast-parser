@@ -6,7 +6,10 @@
       body: [
         {
           kind: 'export',
-          name: 'even',
+          name: {
+            kind: 'literal',
+            value: 'even'
+          },
           id: {
             kind: 'identifier',
             name: 'even'
@@ -14,7 +17,10 @@
         },
         {
           kind: 'export',
-          name: 'odd',
+          name: {
+            kind: 'literal',
+            value: 'odd'
+          },
           id: {
             kind: 'identifier',
             name: 'odd'

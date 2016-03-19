@@ -587,7 +587,10 @@
         },
         {
           kind: 'export',
-          name: 'add',
+          name: {
+            kind: 'literal',
+            value: 'add'
+          },
           id: {
             kind: 'identifier',
             name: 'add'
@@ -595,7 +598,10 @@
         },
         {
           kind: 'export',
-          name: 'sub',
+          name: {
+            kind: 'literal',
+            value: 'sub'
+          },
           id: {
             kind: 'identifier',
             name: 'sub'
@@ -603,7 +609,10 @@
         },
         {
           kind: 'export',
-          name: 'mul',
+          name: {
+            kind: 'literal',
+            value: 'mul'
+          },
           id: {
             kind: 'identifier',
             name: 'mul'
@@ -611,7 +620,10 @@
         },
         {
           kind: 'export',
-          name: 'div',
+          name: {
+            kind: 'literal',
+            value: 'div'
+          },
           id: {
             kind: 'identifier',
             name: 'div'
@@ -619,7 +631,10 @@
         },
         {
           kind: 'export',
-          name: 'sqrt',
+          name: {
+            kind: 'literal',
+            value: 'sqrt'
+          },
           id: {
             kind: 'identifier',
             name: 'sqrt'
@@ -627,7 +642,10 @@
         },
         {
           kind: 'export',
-          name: 'min',
+          name: {
+            kind: 'literal',
+            value: 'min'
+          },
           id: {
             kind: 'identifier',
             name: 'min'
@@ -635,7 +653,10 @@
         },
         {
           kind: 'export',
-          name: 'max',
+          name: {
+            kind: 'literal',
+            value: 'max'
+          },
           id: {
             kind: 'identifier',
             name: 'max'
@@ -643,7 +664,10 @@
         },
         {
           kind: 'export',
-          name: 'ceil',
+          name: {
+            kind: 'literal',
+            value: 'ceil'
+          },
           id: {
             kind: 'identifier',
             name: 'ceil'
@@ -651,7 +675,10 @@
         },
         {
           kind: 'export',
-          name: 'floor',
+          name: {
+            kind: 'literal',
+            value: 'floor'
+          },
           id: {
             kind: 'identifier',
             name: 'floor'
@@ -659,7 +686,10 @@
         },
         {
           kind: 'export',
-          name: 'trunc',
+          name: {
+            kind: 'literal',
+            value: 'trunc'
+          },
           id: {
             kind: 'identifier',
             name: 'trunc'
@@ -667,7 +697,10 @@
         },
         {
           kind: 'export',
-          name: 'nearest',
+          name: {
+            kind: 'literal',
+            value: 'nearest'
+          },
           id: {
             kind: 'identifier',
             name: 'nearest'
@@ -675,7 +708,10 @@
         },
         {
           kind: 'export',
-          name: 'abs',
+          name: {
+            kind: 'literal',
+            value: 'abs'
+          },
           id: {
             kind: 'identifier',
             name: 'abs'
@@ -683,7 +719,10 @@
         },
         {
           kind: 'export',
-          name: 'neg',
+          name: {
+            kind: 'literal',
+            value: 'neg'
+          },
           id: {
             kind: 'identifier',
             name: 'neg'
@@ -691,7 +730,10 @@
         },
         {
           kind: 'export',
-          name: 'copysign',
+          name: {
+            kind: 'literal',
+            value: 'copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'copysign'
@@ -2427,7 +2469,10 @@
         },
         {
           kind: 'export',
-          name: 'add',
+          name: {
+            kind: 'literal',
+            value: 'add'
+          },
           id: {
             kind: 'identifier',
             name: 'add'
@@ -2435,7 +2480,10 @@
         },
         {
           kind: 'export',
-          name: 'sub',
+          name: {
+            kind: 'literal',
+            value: 'sub'
+          },
           id: {
             kind: 'identifier',
             name: 'sub'
@@ -2443,7 +2491,10 @@
         },
         {
           kind: 'export',
-          name: 'mul',
+          name: {
+            kind: 'literal',
+            value: 'mul'
+          },
           id: {
             kind: 'identifier',
             name: 'mul'
@@ -2451,7 +2502,10 @@
         },
         {
           kind: 'export',
-          name: 'div',
+          name: {
+            kind: 'literal',
+            value: 'div'
+          },
           id: {
             kind: 'identifier',
             name: 'div'
@@ -2459,7 +2513,10 @@
         },
         {
           kind: 'export',
-          name: 'sqrt',
+          name: {
+            kind: 'literal',
+            value: 'sqrt'
+          },
           id: {
             kind: 'identifier',
             name: 'sqrt'
@@ -2467,7 +2524,10 @@
         },
         {
           kind: 'export',
-          name: 'min',
+          name: {
+            kind: 'literal',
+            value: 'min'
+          },
           id: {
             kind: 'identifier',
             name: 'min'
@@ -2475,7 +2535,10 @@
         },
         {
           kind: 'export',
-          name: 'max',
+          name: {
+            kind: 'literal',
+            value: 'max'
+          },
           id: {
             kind: 'identifier',
             name: 'max'
@@ -2483,7 +2546,10 @@
         },
         {
           kind: 'export',
-          name: 'ceil',
+          name: {
+            kind: 'literal',
+            value: 'ceil'
+          },
           id: {
             kind: 'identifier',
             name: 'ceil'
@@ -2491,7 +2557,10 @@
         },
         {
           kind: 'export',
-          name: 'floor',
+          name: {
+            kind: 'literal',
+            value: 'floor'
+          },
           id: {
             kind: 'identifier',
             name: 'floor'
@@ -2499,7 +2568,10 @@
         },
         {
           kind: 'export',
-          name: 'trunc',
+          name: {
+            kind: 'literal',
+            value: 'trunc'
+          },
           id: {
             kind: 'identifier',
             name: 'trunc'
@@ -2507,7 +2579,10 @@
         },
         {
           kind: 'export',
-          name: 'nearest',
+          name: {
+            kind: 'literal',
+            value: 'nearest'
+          },
           id: {
             kind: 'identifier',
             name: 'nearest'
@@ -2515,7 +2590,10 @@
         },
         {
           kind: 'export',
-          name: 'abs',
+          name: {
+            kind: 'literal',
+            value: 'abs'
+          },
           id: {
             kind: 'identifier',
             name: 'abs'
@@ -2523,7 +2601,10 @@
         },
         {
           kind: 'export',
-          name: 'neg',
+          name: {
+            kind: 'literal',
+            value: 'neg'
+          },
           id: {
             kind: 'identifier',
             name: 'neg'
@@ -2531,7 +2612,10 @@
         },
         {
           kind: 'export',
-          name: 'copysign',
+          name: {
+            kind: 'literal',
+            value: 'copysign'
+          },
           id: {
             kind: 'identifier',
             name: 'copysign'
@@ -3720,7 +3804,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.promote_f32',
+          name: {
+            kind: 'literal',
+            value: 'f64.promote_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.promote_f32'
@@ -3762,7 +3849,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.demote_f64',
+          name: {
+            kind: 'literal',
+            value: 'f32.demote_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.demote_f64'
@@ -3804,7 +3894,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.reinterpret_i32',
+          name: {
+            kind: 'literal',
+            value: 'f32.reinterpret_i32'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.reinterpret_i32'
@@ -3846,7 +3939,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.reinterpret_i64',
+          name: {
+            kind: 'literal',
+            value: 'f64.reinterpret_i64'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.reinterpret_i64'

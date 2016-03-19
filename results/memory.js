@@ -37,7 +37,10 @@
         segment: [{
           kind: 'segment',
           int: '0',
-          name: ''
+          name: {
+            kind: 'literal',
+            value: ''
+          }
         }]
       }]
     },
@@ -50,7 +53,10 @@
         segment: [{
           kind: 'segment',
           int: '0',
-          name: 'a'
+          name: {
+            kind: 'literal',
+            value: 'a'
+          }
         }]
       }]
     },
@@ -64,12 +70,18 @@
           {
             kind: 'segment',
             int: '0',
-            name: 'a'
+            name: {
+              kind: 'literal',
+              value: 'a'
+            }
           },
           {
             kind: 'segment',
             int: '65535',
-            name: 'b'
+            name: {
+              kind: 'literal',
+              value: 'b'
+            }
           }
         ]
       }]
@@ -84,17 +96,26 @@
           {
             kind: 'segment',
             int: '0',
-            name: 'a'
+            name: {
+              kind: 'literal',
+              value: 'a'
+            }
           },
           {
             kind: 'segment',
             int: '1',
-            name: 'b'
+            name: {
+              kind: 'literal',
+              value: 'b'
+            }
           },
           {
             kind: 'segment',
             int: '2',
-            name: 'c'
+            name: {
+              kind: 'literal',
+              value: 'c'
+            }
           }
         ]
       }]
@@ -111,7 +132,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'initial memory pages must be less than or equal to the maximum'
       }
     },
@@ -126,12 +147,15 @@
           segment: [{
             kind: 'segment',
             int: '0',
-            name: 'a'
+            name: {
+              kind: 'literal',
+              value: 'a'
+            }
           }]
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'data segment does not fit memory'
       }
     },
@@ -147,18 +171,24 @@
             {
               kind: 'segment',
               int: '0',
-              name: 'a'
+              name: {
+                kind: 'literal',
+                value: 'a'
+              }
             },
             {
               kind: 'segment',
               int: '98304',
-              name: 'b'
+              name: {
+                kind: 'literal',
+                value: 'b'
+              }
             }
           ]
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'data segment does not fit memory'
       }
     },
@@ -174,18 +204,24 @@
             {
               kind: 'segment',
               int: '0',
-              name: 'abc'
+              name: {
+                kind: 'literal',
+                value: 'abc'
+              }
             },
             {
               kind: 'segment',
               int: '0',
-              name: 'def'
+              name: {
+                kind: 'literal',
+                value: 'def'
+              }
             }
           ]
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'data segment not disjoint and ordered'
       }
     },
@@ -201,18 +237,24 @@
             {
               kind: 'segment',
               int: '3',
-              name: 'ab'
+              name: {
+                kind: 'literal',
+                value: 'ab'
+              }
             },
             {
               kind: 'segment',
               int: '0',
-              name: 'de'
+              name: {
+                kind: 'literal',
+                value: 'de'
+              }
             }
           ]
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'data segment not disjoint and ordered'
       }
     },
@@ -228,23 +270,32 @@
             {
               kind: 'segment',
               int: '0',
-              name: 'a'
+              name: {
+                kind: 'literal',
+                value: 'a'
+              }
             },
             {
               kind: 'segment',
               int: '2',
-              name: 'b'
+              name: {
+                kind: 'literal',
+                value: 'b'
+              }
             },
             {
               kind: 'segment',
               int: '1',
-              name: 'c'
+              name: {
+                kind: 'literal',
+                value: 'c'
+              }
             }
           ]
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'data segment not disjoint and ordered'
       }
     },
@@ -411,7 +462,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'non-power-of-two alignment'
       }
     },
@@ -450,7 +501,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'non-power-of-two alignment'
       }
     },
@@ -489,7 +540,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'non-power-of-two alignment'
       }
     },
@@ -528,7 +579,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'non-power-of-two alignment'
       }
     },
@@ -567,7 +618,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'non-power-of-two alignment'
       }
     },
@@ -582,12 +633,18 @@
             {
               kind: 'segment',
               int: '0',
-              name: 'ABC\a7D'
+              name: {
+                kind: 'literal',
+                value: 'ABC\a7D'
+              }
             },
             {
               kind: 'segment',
               int: '20',
-              name: 'WASM'
+              name: {
+                kind: 'literal',
+                value: 'WASM'
+              }
             }
           ]
         },
@@ -1947,7 +2004,10 @@
         },
         {
           kind: 'export',
-          name: 'data',
+          name: {
+            kind: 'literal',
+            value: 'data'
+          },
           id: {
             kind: 'identifier',
             name: 'data'
@@ -1955,7 +2015,10 @@
         },
         {
           kind: 'export',
-          name: 'aligned',
+          name: {
+            kind: 'literal',
+            value: 'aligned'
+          },
           id: {
             kind: 'identifier',
             name: 'aligned'
@@ -1963,7 +2026,10 @@
         },
         {
           kind: 'export',
-          name: 'unaligned',
+          name: {
+            kind: 'literal',
+            value: 'unaligned'
+          },
           id: {
             kind: 'identifier',
             name: 'unaligned'
@@ -1971,7 +2037,10 @@
         },
         {
           kind: 'export',
-          name: 'cast',
+          name: {
+            kind: 'literal',
+            value: 'cast'
+          },
           id: {
             kind: 'identifier',
             name: 'cast'
@@ -1979,7 +2048,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_load8_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_load8_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_load8_s'
@@ -1987,7 +2059,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_load8_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_load8_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_load8_u'
@@ -1995,7 +2070,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_load16_s',
+          name: {
+            kind: 'literal',
+            value: 'i32_load16_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_load16_s'
@@ -2003,7 +2081,10 @@
         },
         {
           kind: 'export',
-          name: 'i32_load16_u',
+          name: {
+            kind: 'literal',
+            value: 'i32_load16_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i32_load16_u'
@@ -2011,7 +2092,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load8_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_load8_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load8_s'
@@ -2019,7 +2103,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load8_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_load8_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load8_u'
@@ -2027,7 +2114,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load16_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_load16_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load16_s'
@@ -2035,7 +2125,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load16_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_load16_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load16_u'
@@ -2043,7 +2136,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load32_s',
+          name: {
+            kind: 'literal',
+            value: 'i64_load32_s'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load32_s'
@@ -2051,7 +2147,10 @@
         },
         {
           kind: 'export',
-          name: 'i64_load32_u',
+          name: {
+            kind: 'literal',
+            value: 'i64_load32_u'
+          },
           id: {
             kind: 'identifier',
             name: 'i64_load32_u'

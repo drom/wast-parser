@@ -12,7 +12,10 @@
         },
         {
           kind: 'export',
-          name: 'round_up_to_page',
+          name: {
+            kind: 'literal',
+            value: 'round_up_to_page'
+          },
           id: {
             kind: 'identifier',
             name: 'round_up_to_page'
@@ -68,7 +71,10 @@
         },
         {
           kind: 'export',
-          name: 'load_at_zero',
+          name: {
+            kind: 'literal',
+            value: 'load_at_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'load_at_zero'
@@ -103,7 +109,10 @@
         },
         {
           kind: 'export',
-          name: 'store_at_zero',
+          name: {
+            kind: 'literal',
+            value: 'store_at_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'store_at_zero'
@@ -142,7 +151,10 @@
         },
         {
           kind: 'export',
-          name: 'load_at_page_size',
+          name: {
+            kind: 'literal',
+            value: 'load_at_page_size'
+          },
           id: {
             kind: 'identifier',
             name: 'load_at_page_size'
@@ -177,7 +189,10 @@
         },
         {
           kind: 'export',
-          name: 'store_at_page_size',
+          name: {
+            kind: 'literal',
+            value: 'store_at_page_size'
+          },
           id: {
             kind: 'identifier',
             name: 'store_at_page_size'
@@ -216,7 +231,10 @@
         },
         {
           kind: 'export',
-          name: 'grow',
+          name: {
+            kind: 'literal',
+            value: 'grow'
+          },
           id: {
             kind: 'identifier',
             name: 'grow'
@@ -262,7 +280,10 @@
         },
         {
           kind: 'export',
-          name: 'size_at_least',
+          name: {
+            kind: 'literal',
+            value: 'size_at_least'
+          },
           id: {
             kind: 'identifier',
             name: 'size_at_least'
@@ -304,7 +325,10 @@
         },
         {
           kind: 'export',
-          name: 'size',
+          name: {
+            kind: 'literal',
+            value: 'size'
+          },
           id: {
             kind: 'identifier',
             name: 'size'
@@ -365,7 +389,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -377,7 +401,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -389,7 +413,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -401,7 +425,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -486,7 +510,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -498,7 +522,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },

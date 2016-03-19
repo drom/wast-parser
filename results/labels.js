@@ -1876,7 +1876,10 @@
         },
         {
           kind: 'export',
-          name: 'block',
+          name: {
+            kind: 'literal',
+            value: 'block'
+          },
           id: {
             kind: 'identifier',
             name: 'block'
@@ -1884,7 +1887,10 @@
         },
         {
           kind: 'export',
-          name: 'loop1',
+          name: {
+            kind: 'literal',
+            value: 'loop1'
+          },
           id: {
             kind: 'identifier',
             name: 'loop1'
@@ -1892,7 +1898,10 @@
         },
         {
           kind: 'export',
-          name: 'loop2',
+          name: {
+            kind: 'literal',
+            value: 'loop2'
+          },
           id: {
             kind: 'identifier',
             name: 'loop2'
@@ -1900,7 +1909,10 @@
         },
         {
           kind: 'export',
-          name: 'loop3',
+          name: {
+            kind: 'literal',
+            value: 'loop3'
+          },
           id: {
             kind: 'identifier',
             name: 'loop3'
@@ -1908,7 +1920,10 @@
         },
         {
           kind: 'export',
-          name: 'loop4',
+          name: {
+            kind: 'literal',
+            value: 'loop4'
+          },
           id: {
             kind: 'identifier',
             name: 'loop4'
@@ -1916,7 +1931,10 @@
         },
         {
           kind: 'export',
-          name: 'loop5',
+          name: {
+            kind: 'literal',
+            value: 'loop5'
+          },
           id: {
             kind: 'identifier',
             name: 'loop5'
@@ -1924,7 +1942,10 @@
         },
         {
           kind: 'export',
-          name: 'if',
+          name: {
+            kind: 'literal',
+            value: 'if'
+          },
           id: {
             kind: 'identifier',
             name: 'if'
@@ -1932,7 +1953,10 @@
         },
         {
           kind: 'export',
-          name: 'switch',
+          name: {
+            kind: 'literal',
+            value: 'switch'
+          },
           id: {
             kind: 'identifier',
             name: 'switch'
@@ -1940,7 +1964,10 @@
         },
         {
           kind: 'export',
-          name: 'return',
+          name: {
+            kind: 'literal',
+            value: 'return'
+          },
           id: {
             kind: 'identifier',
             name: 'return'
@@ -1948,7 +1975,10 @@
         },
         {
           kind: 'export',
-          name: 'br_if0',
+          name: {
+            kind: 'literal',
+            value: 'br_if0'
+          },
           id: {
             kind: 'identifier',
             name: 'br_if0'
@@ -1956,7 +1986,10 @@
         },
         {
           kind: 'export',
-          name: 'br_if1',
+          name: {
+            kind: 'literal',
+            value: 'br_if1'
+          },
           id: {
             kind: 'identifier',
             name: 'br_if1'
@@ -1964,7 +1997,10 @@
         },
         {
           kind: 'export',
-          name: 'br_if2',
+          name: {
+            kind: 'literal',
+            value: 'br_if2'
+          },
           id: {
             kind: 'identifier',
             name: 'br_if2'
@@ -1972,7 +2008,10 @@
         },
         {
           kind: 'export',
-          name: 'br_if3',
+          name: {
+            kind: 'literal',
+            value: 'br_if3'
+          },
           id: {
             kind: 'identifier',
             name: 'br_if3'
@@ -1980,7 +2019,10 @@
         },
         {
           kind: 'export',
-          name: 'misc1',
+          name: {
+            kind: 'literal',
+            value: 'misc1'
+          },
           id: {
             kind: 'identifier',
             name: 'misc1'
@@ -1988,7 +2030,10 @@
         },
         {
           kind: 'export',
-          name: 'misc2',
+          name: {
+            kind: 'literal',
+            value: 'misc2'
+          },
           id: {
             kind: 'identifier',
             name: 'misc2'
@@ -1996,7 +2041,10 @@
         },
         {
           kind: 'export',
-          name: 'redefinition',
+          name: {
+            kind: 'literal',
+            value: 'redefinition'
+          },
           id: {
             kind: 'identifier',
             name: 'redefinition'
@@ -2377,7 +2425,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'arity mismatch'
       }
     },
@@ -2423,7 +2471,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch'
       }
     },
@@ -2468,7 +2516,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch'
       }
     },
@@ -2513,7 +2561,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch'
       }
     },
@@ -2560,7 +2608,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'arity mismatch'
       }
     },
@@ -2619,7 +2667,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch'
       }
     },
@@ -2685,7 +2733,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch'
       }
     },
@@ -2723,7 +2771,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'arity mismatch'
       }
     },
@@ -2818,7 +2866,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'arity mismatch'
       }
     }

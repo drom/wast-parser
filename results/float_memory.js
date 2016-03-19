@@ -146,7 +146,10 @@
         },
         {
           kind: 'export',
-          name: 'store_i32',
+          name: {
+            kind: 'literal',
+            value: 'store_i32'
+          },
           id: {
             kind: 'identifier',
             name: 'store_i32'
@@ -154,7 +157,10 @@
         },
         {
           kind: 'export',
-          name: 'load_i32',
+          name: {
+            kind: 'literal',
+            value: 'load_i32'
+          },
           id: {
             kind: 'identifier',
             name: 'load_i32'
@@ -162,7 +168,10 @@
         },
         {
           kind: 'export',
-          name: 'store_f32',
+          name: {
+            kind: 'literal',
+            value: 'store_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'store_f32'
@@ -170,7 +179,10 @@
         },
         {
           kind: 'export',
-          name: 'load_f32',
+          name: {
+            kind: 'literal',
+            value: 'load_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'load_f32'
@@ -443,7 +455,10 @@
         },
         {
           kind: 'export',
-          name: 'store_i64',
+          name: {
+            kind: 'literal',
+            value: 'store_i64'
+          },
           id: {
             kind: 'identifier',
             name: 'store_i64'
@@ -451,7 +466,10 @@
         },
         {
           kind: 'export',
-          name: 'load_i64',
+          name: {
+            kind: 'literal',
+            value: 'load_i64'
+          },
           id: {
             kind: 'identifier',
             name: 'load_i64'
@@ -459,7 +477,10 @@
         },
         {
           kind: 'export',
-          name: 'store_f64',
+          name: {
+            kind: 'literal',
+            value: 'store_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'store_f64'
@@ -467,7 +488,10 @@
         },
         {
           kind: 'export',
-          name: 'load_f64',
+          name: {
+            kind: 'literal',
+            value: 'load_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'load_f64'

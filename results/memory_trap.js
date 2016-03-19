@@ -12,7 +12,10 @@
         },
         {
           kind: 'export',
-          name: 'store',
+          name: {
+            kind: 'literal',
+            value: 'store'
+          },
           id: {
             kind: 'identifier',
             name: 'store'
@@ -78,7 +81,10 @@
         },
         {
           kind: 'export',
-          name: 'load',
+          name: {
+            kind: 'literal',
+            value: 'load'
+          },
           id: {
             kind: 'identifier',
             name: 'load'
@@ -128,7 +134,10 @@
         },
         {
           kind: 'export',
-          name: 'grow_memory',
+          name: {
+            kind: 'literal',
+            value: 'grow_memory'
+          },
           id: {
             kind: 'identifier',
             name: 'grow_memory'
@@ -164,7 +173,10 @@
         },
         {
           kind: 'export',
-          name: 'overflow_memory_size',
+          name: {
+            kind: 'literal',
+            value: 'overflow_memory_size'
+          },
           id: {
             kind: 'identifier',
             name: 'overflow_memory_size'
@@ -271,7 +283,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -287,7 +299,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -310,7 +322,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -326,7 +338,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -349,7 +361,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -365,7 +377,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -388,7 +400,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -404,7 +416,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -427,7 +439,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -443,7 +455,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -459,7 +471,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'growing memory by non-multiple of page size'
       }
     },
@@ -471,7 +483,7 @@
         body: []
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'memory size exceeds implementation limit'
       }
     }

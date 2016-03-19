@@ -11,7 +11,10 @@
           segment: [{
             kind: 'segment',
             int: '0',
-            name: 'abcdefghijklmnopqrstuvwxyz'
+            name: {
+              kind: 'literal',
+              value: 'abcdefghijklmnopqrstuvwxyz'
+            }
           }]
         },
         {
@@ -20,8 +23,14 @@
             kind: 'identifier',
             name: 'print'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -340,7 +349,10 @@
         },
         {
           kind: 'export',
-          name: 'good',
+          name: {
+            kind: 'literal',
+            value: 'good'
+          },
           id: {
             kind: 'identifier',
             name: 'good'
@@ -381,7 +393,10 @@
         },
         {
           kind: 'export',
-          name: 'bad2',
+          name: {
+            kind: 'literal',
+            value: 'bad2'
+          },
           id: {
             kind: 'identifier',
             name: 'bad2'
@@ -419,7 +434,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -435,7 +450,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -451,7 +466,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -502,7 +517,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'offset too large'
       }
     }

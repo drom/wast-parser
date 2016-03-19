@@ -1388,7 +1388,10 @@
         },
         {
           kind: 'export',
-          name: 'add',
+          name: {
+            kind: 'literal',
+            value: 'add'
+          },
           id: {
             kind: 'identifier',
             name: 'add'
@@ -1396,7 +1399,10 @@
         },
         {
           kind: 'export',
-          name: 'sub',
+          name: {
+            kind: 'literal',
+            value: 'sub'
+          },
           id: {
             kind: 'identifier',
             name: 'sub'
@@ -1404,7 +1410,10 @@
         },
         {
           kind: 'export',
-          name: 'mul',
+          name: {
+            kind: 'literal',
+            value: 'mul'
+          },
           id: {
             kind: 'identifier',
             name: 'mul'
@@ -1412,7 +1421,10 @@
         },
         {
           kind: 'export',
-          name: 'div_s',
+          name: {
+            kind: 'literal',
+            value: 'div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'div_s'
@@ -1420,7 +1432,10 @@
         },
         {
           kind: 'export',
-          name: 'div_u',
+          name: {
+            kind: 'literal',
+            value: 'div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'div_u'
@@ -1428,7 +1443,10 @@
         },
         {
           kind: 'export',
-          name: 'rem_s',
+          name: {
+            kind: 'literal',
+            value: 'rem_s'
+          },
           id: {
             kind: 'identifier',
             name: 'rem_s'
@@ -1436,7 +1454,10 @@
         },
         {
           kind: 'export',
-          name: 'rem_u',
+          name: {
+            kind: 'literal',
+            value: 'rem_u'
+          },
           id: {
             kind: 'identifier',
             name: 'rem_u'
@@ -1444,7 +1465,10 @@
         },
         {
           kind: 'export',
-          name: 'and',
+          name: {
+            kind: 'literal',
+            value: 'and'
+          },
           id: {
             kind: 'identifier',
             name: 'and'
@@ -1452,7 +1476,10 @@
         },
         {
           kind: 'export',
-          name: 'or',
+          name: {
+            kind: 'literal',
+            value: 'or'
+          },
           id: {
             kind: 'identifier',
             name: 'or'
@@ -1460,7 +1487,10 @@
         },
         {
           kind: 'export',
-          name: 'xor',
+          name: {
+            kind: 'literal',
+            value: 'xor'
+          },
           id: {
             kind: 'identifier',
             name: 'xor'
@@ -1468,7 +1498,10 @@
         },
         {
           kind: 'export',
-          name: 'shl',
+          name: {
+            kind: 'literal',
+            value: 'shl'
+          },
           id: {
             kind: 'identifier',
             name: 'shl'
@@ -1476,7 +1509,10 @@
         },
         {
           kind: 'export',
-          name: 'shr_s',
+          name: {
+            kind: 'literal',
+            value: 'shr_s'
+          },
           id: {
             kind: 'identifier',
             name: 'shr_s'
@@ -1484,7 +1520,10 @@
         },
         {
           kind: 'export',
-          name: 'shr_u',
+          name: {
+            kind: 'literal',
+            value: 'shr_u'
+          },
           id: {
             kind: 'identifier',
             name: 'shr_u'
@@ -1492,7 +1531,10 @@
         },
         {
           kind: 'export',
-          name: 'rotl',
+          name: {
+            kind: 'literal',
+            value: 'rotl'
+          },
           id: {
             kind: 'identifier',
             name: 'rotl'
@@ -1500,7 +1542,10 @@
         },
         {
           kind: 'export',
-          name: 'rotr',
+          name: {
+            kind: 'literal',
+            value: 'rotr'
+          },
           id: {
             kind: 'identifier',
             name: 'rotr'
@@ -1508,7 +1553,10 @@
         },
         {
           kind: 'export',
-          name: 'clz',
+          name: {
+            kind: 'literal',
+            value: 'clz'
+          },
           id: {
             kind: 'identifier',
             name: 'clz'
@@ -1516,7 +1564,10 @@
         },
         {
           kind: 'export',
-          name: 'ctz',
+          name: {
+            kind: 'literal',
+            value: 'ctz'
+          },
           id: {
             kind: 'identifier',
             name: 'ctz'
@@ -1524,7 +1575,10 @@
         },
         {
           kind: 'export',
-          name: 'popcnt',
+          name: {
+            kind: 'literal',
+            value: 'popcnt'
+          },
           id: {
             kind: 'identifier',
             name: 'popcnt'
@@ -1532,7 +1586,10 @@
         },
         {
           kind: 'export',
-          name: 'eqz',
+          name: {
+            kind: 'literal',
+            value: 'eqz'
+          },
           id: {
             kind: 'identifier',
             name: 'eqz'
@@ -1540,7 +1597,10 @@
         },
         {
           kind: 'export',
-          name: 'eq',
+          name: {
+            kind: 'literal',
+            value: 'eq'
+          },
           id: {
             kind: 'identifier',
             name: 'eq'
@@ -1548,7 +1608,10 @@
         },
         {
           kind: 'export',
-          name: 'ne',
+          name: {
+            kind: 'literal',
+            value: 'ne'
+          },
           id: {
             kind: 'identifier',
             name: 'ne'
@@ -1556,7 +1619,10 @@
         },
         {
           kind: 'export',
-          name: 'lt_s',
+          name: {
+            kind: 'literal',
+            value: 'lt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'lt_s'
@@ -1564,7 +1630,10 @@
         },
         {
           kind: 'export',
-          name: 'lt_u',
+          name: {
+            kind: 'literal',
+            value: 'lt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'lt_u'
@@ -1572,7 +1641,10 @@
         },
         {
           kind: 'export',
-          name: 'le_s',
+          name: {
+            kind: 'literal',
+            value: 'le_s'
+          },
           id: {
             kind: 'identifier',
             name: 'le_s'
@@ -1580,7 +1652,10 @@
         },
         {
           kind: 'export',
-          name: 'le_u',
+          name: {
+            kind: 'literal',
+            value: 'le_u'
+          },
           id: {
             kind: 'identifier',
             name: 'le_u'
@@ -1588,7 +1663,10 @@
         },
         {
           kind: 'export',
-          name: 'gt_s',
+          name: {
+            kind: 'literal',
+            value: 'gt_s'
+          },
           id: {
             kind: 'identifier',
             name: 'gt_s'
@@ -1596,7 +1674,10 @@
         },
         {
           kind: 'export',
-          name: 'gt_u',
+          name: {
+            kind: 'literal',
+            value: 'gt_u'
+          },
           id: {
             kind: 'identifier',
             name: 'gt_u'
@@ -1604,7 +1685,10 @@
         },
         {
           kind: 'export',
-          name: 'ge_s',
+          name: {
+            kind: 'literal',
+            value: 'ge_s'
+          },
           id: {
             kind: 'identifier',
             name: 'ge_s'
@@ -1612,7 +1696,10 @@
         },
         {
           kind: 'export',
-          name: 'ge_u',
+          name: {
+            kind: 'literal',
+            value: 'ge_u'
+          },
           id: {
             kind: 'identifier',
             name: 'ge_u'
@@ -2191,7 +2278,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -2214,7 +2301,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -2237,7 +2324,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer overflow'
       }
     },
@@ -2620,7 +2707,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -2643,7 +2730,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -3002,7 +3089,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -3025,7 +3112,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -3456,7 +3543,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -3479,7 +3566,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },

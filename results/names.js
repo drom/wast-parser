@@ -25,7 +25,10 @@
         },
         {
           kind: 'export',
-          name: 'foo',
+          name: {
+            kind: 'literal',
+            value: 'foo'
+          },
           id: {
             kind: 'identifier',
             name: 'foo'
@@ -70,7 +73,10 @@
         },
         {
           kind: 'export',
-          name: 'foo',
+          name: {
+            kind: 'literal',
+            value: 'foo'
+          },
           id: {
             kind: 'identifier',
             name: 'foo'
@@ -112,7 +118,10 @@
         },
         {
           kind: 'export',
-          name: '',
+          name: {
+            kind: 'literal',
+            value: ''
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -140,7 +149,10 @@
         },
         {
           kind: 'export',
-          name: 'malloc',
+          name: {
+            kind: 'literal',
+            value: 'malloc'
+          },
           id: {
             kind: 'identifier',
             name: 'malloc'
@@ -202,7 +214,10 @@
         },
         {
           kind: 'export',
-          name: '_malloc',
+          name: {
+            kind: 'literal',
+            value: '_malloc'
+          },
           id: {
             kind: 'identifier',
             name: '_malloc'
@@ -210,7 +225,10 @@
         },
         {
           kind: 'export',
-          name: '__malloc',
+          name: {
+            kind: 'literal',
+            value: '__malloc'
+          },
           id: {
             kind: 'identifier',
             name: '__malloc'
@@ -234,7 +252,10 @@
         },
         {
           kind: 'export',
-          name: '~!@#$%^&*()_+\`-={}|[]\\:\";\'<>?,./ ',
+          name: {
+            kind: 'literal',
+            value: '~!@#$%^&*()_+\`-={}|[]\\:\";\'<>?,./ '
+          },
           id: {
             kind: 'literal',
             value: 5,
@@ -259,7 +280,10 @@
         },
         {
           kind: 'export',
-          name: '0',
+          name: {
+            kind: 'literal',
+            value: '0'
+          },
           id: {
             kind: 'literal',
             value: 6,
@@ -287,7 +311,10 @@
         },
         {
           kind: 'export',
-          name: '_',
+          name: {
+            kind: 'literal',
+            value: '_'
+          },
           id: {
             kind: 'identifier',
             name: '_'
@@ -311,7 +338,10 @@
         },
         {
           kind: 'export',
-          name: '$',
+          name: {
+            kind: 'literal',
+            value: '$'
+          },
           id: {
             kind: 'literal',
             value: 8,
@@ -336,7 +366,10 @@
         },
         {
           kind: 'export',
-          name: '@',
+          name: {
+            kind: 'literal',
+            value: '@'
+          },
           id: {
             kind: 'literal',
             value: 9,
@@ -402,7 +435,10 @@
         },
         {
           kind: 'export',
-          name: 'NaN',
+          name: {
+            kind: 'literal',
+            value: 'NaN'
+          },
           id: {
             kind: 'identifier',
             name: 'NaN'
@@ -410,7 +446,10 @@
         },
         {
           kind: 'export',
-          name: 'Infinity',
+          name: {
+            kind: 'literal',
+            value: 'Infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'Infinity'
@@ -418,7 +457,10 @@
         },
         {
           kind: 'export',
-          name: 'if',
+          name: {
+            kind: 'literal',
+            value: 'if'
+          },
           id: {
             kind: 'identifier',
             name: 'if'
@@ -588,8 +630,14 @@
         {
           kind: 'import',
           id: null,
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -603,8 +651,14 @@
         {
           kind: 'import',
           id: null,
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -674,7 +728,10 @@
         },
         {
           kind: 'export',
-          name: 'print32',
+          name: {
+            kind: 'literal',
+            value: 'print32'
+          },
           id: {
             kind: 'literal',
             value: 0,

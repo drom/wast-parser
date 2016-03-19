@@ -194,7 +194,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.div_s',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.div_s'
@@ -202,7 +205,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.div_u',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.div_u'
@@ -210,7 +216,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.div_s',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.div_s'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.div_s'
@@ -218,7 +227,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.div_u',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.div_u'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.div_u'
@@ -245,7 +257,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -268,7 +280,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -291,7 +303,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -314,7 +326,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -511,7 +523,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.rem_s',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.rem_s'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.rem_s'
@@ -519,7 +534,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.rem_u',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.rem_u'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.rem_u'
@@ -527,7 +545,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.rem_s',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.rem_s'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.rem_s'
@@ -535,7 +556,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.rem_u',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.rem_u'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.rem_u'
@@ -562,7 +586,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -585,7 +609,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -608,7 +632,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -631,7 +655,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'integer divide by zero'
       }
     },
@@ -888,7 +912,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.trunc_s_f32',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.trunc_s_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f32'
@@ -896,7 +923,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.trunc_u_f32',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.trunc_u_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f32'
@@ -904,7 +934,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.trunc_s_f64',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.trunc_s_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f64'
@@ -912,7 +945,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.trunc_u_f64',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.trunc_u_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f64'
@@ -920,7 +956,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.trunc_s_f32',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.trunc_s_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f32'
@@ -928,7 +967,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.trunc_u_f32',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.trunc_u_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f32'
@@ -936,7 +978,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.trunc_s_f64',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.trunc_s_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f64'
@@ -944,7 +989,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.trunc_u_f64',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.trunc_u_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f64'
@@ -964,7 +1012,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -980,7 +1028,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -996,7 +1044,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1012,7 +1060,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1028,7 +1076,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1044,7 +1092,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1060,7 +1108,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1076,7 +1124,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'invalid conversion to integer'
       }
     },
@@ -1091,7 +1139,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i32.load',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i32.load'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.load'
@@ -1132,7 +1183,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.i64.load',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.i64.load'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.load'
@@ -1173,7 +1227,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.f32.load',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.f32.load'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.f32.load'
@@ -1214,7 +1271,10 @@
         },
         {
           kind: 'export',
-          name: 'no_dce.f64.load',
+          name: {
+            kind: 'literal',
+            value: 'no_dce.f64.load'
+          },
           id: {
             kind: 'identifier',
             name: 'no_dce.f64.load'
@@ -1267,7 +1327,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -1283,7 +1343,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -1299,7 +1359,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     },
@@ -1315,7 +1375,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'out of bounds memory access'
       }
     }

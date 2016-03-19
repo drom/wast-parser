@@ -1506,7 +1506,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.nan'
@@ -1514,7 +1517,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.positive_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.positive_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.positive_nan'
@@ -1522,7 +1528,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.negative_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.negative_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.negative_nan'
@@ -1530,7 +1539,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.plain_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.plain_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.plain_nan'
@@ -1538,7 +1550,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.informally_known_as_plain_snan',
+          name: {
+            kind: 'literal',
+            value: 'f32.informally_known_as_plain_snan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.informally_known_as_plain_snan'
@@ -1546,7 +1561,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.allones_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.allones_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.allones_nan'
@@ -1554,7 +1572,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.misc_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.misc_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.misc_nan'
@@ -1562,7 +1583,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.misc_positive_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.misc_positive_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.misc_positive_nan'
@@ -1570,7 +1594,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.misc_negative_nan',
+          name: {
+            kind: 'literal',
+            value: 'f32.misc_negative_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.misc_negative_nan'
@@ -1578,7 +1605,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.infinity',
+          name: {
+            kind: 'literal',
+            value: 'f32.infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.infinity'
@@ -1586,7 +1616,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.positive_infinity',
+          name: {
+            kind: 'literal',
+            value: 'f32.positive_infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.positive_infinity'
@@ -1594,7 +1627,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.negative_infinity',
+          name: {
+            kind: 'literal',
+            value: 'f32.negative_infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.negative_infinity'
@@ -1602,7 +1638,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.zero',
+          name: {
+            kind: 'literal',
+            value: 'f32.zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.zero'
@@ -1610,7 +1649,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.positive_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32.positive_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.positive_zero'
@@ -1618,7 +1660,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.negative_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32.negative_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.negative_zero'
@@ -1626,7 +1671,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.misc',
+          name: {
+            kind: 'literal',
+            value: 'f32.misc'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.misc'
@@ -1634,7 +1682,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.min_positive',
+          name: {
+            kind: 'literal',
+            value: 'f32.min_positive'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.min_positive'
@@ -1642,7 +1693,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.min_normal',
+          name: {
+            kind: 'literal',
+            value: 'f32.min_normal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.min_normal'
@@ -1650,7 +1704,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.max_subnormal',
+          name: {
+            kind: 'literal',
+            value: 'f32.max_subnormal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.max_subnormal'
@@ -1658,7 +1715,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.max_finite',
+          name: {
+            kind: 'literal',
+            value: 'f32.max_finite'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.max_finite'
@@ -1666,7 +1726,10 @@
         },
         {
           kind: 'export',
-          name: 'f32.trailing_dot',
+          name: {
+            kind: 'literal',
+            value: 'f32.trailing_dot'
+          },
           id: {
             kind: 'identifier',
             name: 'f32.trailing_dot'
@@ -1674,7 +1737,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.zero',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.zero'
@@ -1682,7 +1748,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.positive_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.positive_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.positive_zero'
@@ -1690,7 +1759,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.negative_zero',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.negative_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.negative_zero'
@@ -1698,7 +1770,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.misc',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.misc'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.misc'
@@ -1706,7 +1781,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.min_positive',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.min_positive'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.min_positive'
@@ -1714,7 +1792,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.min_normal',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.min_normal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.min_normal'
@@ -1722,7 +1803,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.max_subnormal',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.max_subnormal'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.max_subnormal'
@@ -1730,7 +1814,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.max_finite',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.max_finite'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.max_finite'
@@ -1738,7 +1825,10 @@
         },
         {
           kind: 'export',
-          name: 'f32_dec.trailing_dot',
+          name: {
+            kind: 'literal',
+            value: 'f32_dec.trailing_dot'
+          },
           id: {
             kind: 'identifier',
             name: 'f32_dec.trailing_dot'
@@ -1746,7 +1836,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.nan'
@@ -1754,7 +1847,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.positive_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.positive_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.positive_nan'
@@ -1762,7 +1858,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.negative_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.negative_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.negative_nan'
@@ -1770,7 +1869,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.plain_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.plain_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.plain_nan'
@@ -1778,7 +1880,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.informally_known_as_plain_snan',
+          name: {
+            kind: 'literal',
+            value: 'f64.informally_known_as_plain_snan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.informally_known_as_plain_snan'
@@ -1786,7 +1891,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.allones_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.allones_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.allones_nan'
@@ -1794,7 +1902,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.misc_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.misc_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.misc_nan'
@@ -1802,7 +1913,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.misc_positive_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.misc_positive_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.misc_positive_nan'
@@ -1810,7 +1924,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.misc_negative_nan',
+          name: {
+            kind: 'literal',
+            value: 'f64.misc_negative_nan'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.misc_negative_nan'
@@ -1818,7 +1935,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.infinity',
+          name: {
+            kind: 'literal',
+            value: 'f64.infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.infinity'
@@ -1826,7 +1946,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.positive_infinity',
+          name: {
+            kind: 'literal',
+            value: 'f64.positive_infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.positive_infinity'
@@ -1834,7 +1957,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.negative_infinity',
+          name: {
+            kind: 'literal',
+            value: 'f64.negative_infinity'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.negative_infinity'
@@ -1842,7 +1968,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.zero',
+          name: {
+            kind: 'literal',
+            value: 'f64.zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.zero'
@@ -1850,7 +1979,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.positive_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64.positive_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.positive_zero'
@@ -1858,7 +1990,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.negative_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64.negative_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.negative_zero'
@@ -1866,7 +2001,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.misc',
+          name: {
+            kind: 'literal',
+            value: 'f64.misc'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.misc'
@@ -1874,7 +2012,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.min_positive',
+          name: {
+            kind: 'literal',
+            value: 'f64.min_positive'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.min_positive'
@@ -1882,7 +2023,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.min_normal',
+          name: {
+            kind: 'literal',
+            value: 'f64.min_normal'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.min_normal'
@@ -1890,7 +2034,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.max_subnormal',
+          name: {
+            kind: 'literal',
+            value: 'f64.max_subnormal'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.max_subnormal'
@@ -1898,7 +2045,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.max_finite',
+          name: {
+            kind: 'literal',
+            value: 'f64.max_finite'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.max_finite'
@@ -1906,7 +2056,10 @@
         },
         {
           kind: 'export',
-          name: 'f64.trailing_dot',
+          name: {
+            kind: 'literal',
+            value: 'f64.trailing_dot'
+          },
           id: {
             kind: 'identifier',
             name: 'f64.trailing_dot'
@@ -1914,7 +2067,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.zero',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.zero'
@@ -1922,7 +2078,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.positive_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.positive_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.positive_zero'
@@ -1930,7 +2089,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.negative_zero',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.negative_zero'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.negative_zero'
@@ -1938,7 +2100,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.misc',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.misc'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.misc'
@@ -1946,7 +2111,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.min_positive',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.min_positive'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.min_positive'
@@ -1954,7 +2122,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.min_normal',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.min_normal'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.min_normal'
@@ -1962,7 +2133,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.max_subnormal',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.max_subnormal'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.max_subnormal'
@@ -1970,7 +2144,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.max_finite',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.max_finite'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.max_finite'
@@ -1978,7 +2155,10 @@
         },
         {
           kind: 'export',
-          name: 'f64_dec.trailing_dot',
+          name: {
+            kind: 'literal',
+            value: 'f64_dec.trailing_dot'
+          },
           id: {
             kind: 'identifier',
             name: 'f64_dec.trailing_dot'

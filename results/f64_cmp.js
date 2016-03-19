@@ -306,7 +306,10 @@
         },
         {
           kind: 'export',
-          name: 'eq',
+          name: {
+            kind: 'literal',
+            value: 'eq'
+          },
           id: {
             kind: 'identifier',
             name: 'eq'
@@ -314,7 +317,10 @@
         },
         {
           kind: 'export',
-          name: 'ne',
+          name: {
+            kind: 'literal',
+            value: 'ne'
+          },
           id: {
             kind: 'identifier',
             name: 'ne'
@@ -322,7 +328,10 @@
         },
         {
           kind: 'export',
-          name: 'lt',
+          name: {
+            kind: 'literal',
+            value: 'lt'
+          },
           id: {
             kind: 'identifier',
             name: 'lt'
@@ -330,7 +339,10 @@
         },
         {
           kind: 'export',
-          name: 'le',
+          name: {
+            kind: 'literal',
+            value: 'le'
+          },
           id: {
             kind: 'identifier',
             name: 'le'
@@ -338,7 +350,10 @@
         },
         {
           kind: 'export',
-          name: 'gt',
+          name: {
+            kind: 'literal',
+            value: 'gt'
+          },
           id: {
             kind: 'identifier',
             name: 'gt'
@@ -346,7 +361,10 @@
         },
         {
           kind: 'export',
-          name: 'ge',
+          name: {
+            kind: 'literal',
+            value: 'ge'
+          },
           id: {
             kind: 'identifier',
             name: 'ge'

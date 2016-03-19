@@ -690,7 +690,10 @@
         },
         {
           kind: 'export',
-          name: 'fac-rec',
+          name: {
+            kind: 'literal',
+            value: 'fac-rec'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -699,7 +702,10 @@
         },
         {
           kind: 'export',
-          name: 'fac-iter',
+          name: {
+            kind: 'literal',
+            value: 'fac-iter'
+          },
           id: {
             kind: 'literal',
             value: 2,
@@ -708,7 +714,10 @@
         },
         {
           kind: 'export',
-          name: 'fac-rec-named',
+          name: {
+            kind: 'literal',
+            value: 'fac-rec-named'
+          },
           id: {
             kind: 'identifier',
             name: 'fac-rec'
@@ -716,7 +725,10 @@
         },
         {
           kind: 'export',
-          name: 'fac-iter-named',
+          name: {
+            kind: 'literal',
+            value: 'fac-iter-named'
+          },
           id: {
             kind: 'identifier',
             name: 'fac-iter'
@@ -724,7 +736,10 @@
         },
         {
           kind: 'export',
-          name: 'fac-opt',
+          name: {
+            kind: 'literal',
+            value: 'fac-opt'
+          },
           id: {
             kind: 'identifier',
             name: 'fac-opt'
@@ -829,7 +844,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'call stack exhausted'
       }
     }

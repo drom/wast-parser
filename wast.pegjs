@@ -188,10 +188,10 @@ expr
             };
         }
 
-        / kind:"has_feature" __ ["] name:[a-zA-Z0-9_\-\\]* ["] {
+        / kind:"has_feature" __ name:literal {
             return {
                 kind: kind,
-                name: name.join('')
+                name: literal
             };
         }
 
@@ -352,9 +352,9 @@ expr
         return body;
     }
 
-failure = ["] value:( !["] . )* ["] {
+literal = ["] value:( !["] . )* ["] {
     return {
-        kind: 'failure',
+        kind: 'literal',
         value: value.reduce(function (res, e) { return res + e[1]; }, '')
     };
 }
@@ -394,11 +394,11 @@ result = "(" kind:"result" __ type:local_type __ ")" {
     };
 }
 
-segment = "(" kind:"segment" __ int:int __ ["] name:[a-zA-Z0-9_\-\\]* ["] __ ")" {
+segment = "(" kind:"segment" __ int:int __ name:literal __ ")" {
     return {
         kind: kind,
         int: int,
-        name: name.join('')
+        name: name
     }
 }
 
@@ -459,7 +459,7 @@ type_def = kind:"type" id:( __ var )? __ func_def {
     };
 }
 
-import = kind:"import" id:( __ var )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
+import = kind:"import" id:( __ var )? __ name1:literal __ name2:literal type:( __ func_type )? params:( __ param )* result:( __ result )? {
     return {
         kind: kind,
         id: id ? id[1] : id,
@@ -474,9 +474,10 @@ import = kind:"import" id:( __ var )? __ ["] name1:name ["] __ ["] name2:name ["
 export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "memory" ) {
     return {
         kind: kind,
-        name: name.map(function (e) {
-            return e[1];
-        }).join(''),
+        name: {
+            kind: 'literal',
+            value: name.map(function (e) { return e[1]; }).join('')
+        },
         id: id
     };
 }
@@ -530,7 +531,7 @@ assert_return_nan = kind:"assert_return_nan" __ invoke:invoke {
     };
 }
 
-assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:failure {
+assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:literal {
     return {
         kind: kind,
         invoke: invoke,
@@ -538,7 +539,7 @@ assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:failure {
     };
 }
 
-assert_invalid = kind:"assert_invalid" __ "(" module:module __ ")" __ failure:failure {
+assert_invalid = kind:"assert_invalid" __ "(" module:module __ ")" __ failure:literal {
     return {
         kind: kind,
         module: module,

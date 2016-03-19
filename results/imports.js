@@ -10,8 +10,14 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -28,8 +34,14 @@
             kind: 'identifier',
             name: 'print_i64'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -46,8 +58,14 @@
             kind: 'identifier',
             name: 'print_i32_f32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -70,8 +88,14 @@
             kind: 'identifier',
             name: 'print_i64_f64'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -220,7 +244,10 @@
         },
         {
           kind: 'export',
-          name: 'print32',
+          name: {
+            kind: 'literal',
+            value: 'print32'
+          },
           id: {
             kind: 'identifier',
             name: 'print32'
@@ -228,7 +255,10 @@
         },
         {
           kind: 'export',
-          name: 'print64',
+          name: {
+            kind: 'literal',
+            value: 'print64'
+          },
           id: {
             kind: 'identifier',
             name: 'print64'

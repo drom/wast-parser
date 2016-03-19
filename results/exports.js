@@ -19,7 +19,10 @@
         },
         {
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -46,7 +49,10 @@
         },
         {
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -55,7 +61,10 @@
         },
         {
           kind: 'export',
-          name: 'b',
+          name: {
+            kind: 'literal',
+            value: 'b'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -95,7 +104,10 @@
         },
         {
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: {
             kind: 'literal',
             value: 0,
@@ -104,7 +116,10 @@
         },
         {
           kind: 'export',
-          name: 'b',
+          name: {
+            kind: 'literal',
+            value: 'b'
+          },
           id: {
             kind: 'literal',
             value: 1,
@@ -133,7 +148,10 @@
           },
           {
             kind: 'export',
-            name: 'a',
+            name: {
+              kind: 'literal',
+              value: 'a'
+            },
             id: {
               kind: 'literal',
               value: 1,
@@ -143,7 +161,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unknown function 1'
       }
     },
@@ -180,7 +198,10 @@
           },
           {
             kind: 'export',
-            name: 'a',
+            name: {
+              kind: 'literal',
+              value: 'a'
+            },
             id: {
               kind: 'literal',
               value: 0,
@@ -189,7 +210,10 @@
           },
           {
             kind: 'export',
-            name: 'a',
+            name: {
+              kind: 'literal',
+              value: 'a'
+            },
             id: {
               kind: 'literal',
               value: 1,
@@ -199,7 +223,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'duplicate export name'
       }
     },
@@ -223,7 +247,10 @@
           },
           {
             kind: 'export',
-            name: 'a',
+            name: {
+              kind: 'literal',
+              value: 'a'
+            },
             id: {
               kind: 'literal',
               value: 0,
@@ -232,7 +259,10 @@
           },
           {
             kind: 'export',
-            name: 'a',
+            name: {
+              kind: 'literal',
+              value: 'a'
+            },
             id: {
               kind: 'literal',
               value: 0,
@@ -242,7 +272,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'duplicate export name'
       }
     },
@@ -292,7 +322,10 @@
         },
         {
           kind: 'export',
-          name: 'e',
+          name: {
+            kind: 'literal',
+            value: 'e'
+          },
           id: {
             kind: 'identifier',
             name: 'f'
@@ -328,7 +361,10 @@
         },
         {
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: 'memory'
         }
       ]
@@ -344,12 +380,18 @@
         },
         {
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: 'memory'
         },
         {
           kind: 'export',
-          name: 'b',
+          name: {
+            kind: 'literal',
+            value: 'b'
+          },
           id: 'memory'
         }
       ]
@@ -360,12 +402,15 @@
         kind: 'module',
         body: [{
           kind: 'export',
-          name: 'a',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
           id: 'memory'
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'no memory to export'
       }
     }

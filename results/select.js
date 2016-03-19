@@ -332,7 +332,10 @@
         },
         {
           kind: 'export',
-          name: 'select_i32',
+          name: {
+            kind: 'literal',
+            value: 'select_i32'
+          },
           id: {
             kind: 'identifier',
             name: 'select_i32'
@@ -340,7 +343,10 @@
         },
         {
           kind: 'export',
-          name: 'select_i64',
+          name: {
+            kind: 'literal',
+            value: 'select_i64'
+          },
           id: {
             kind: 'identifier',
             name: 'select_i64'
@@ -348,7 +354,10 @@
         },
         {
           kind: 'export',
-          name: 'select_f32',
+          name: {
+            kind: 'literal',
+            value: 'select_f32'
+          },
           id: {
             kind: 'identifier',
             name: 'select_f32'
@@ -356,7 +365,10 @@
         },
         {
           kind: 'export',
-          name: 'select_f64',
+          name: {
+            kind: 'literal',
+            value: 'select_f64'
+          },
           id: {
             kind: 'identifier',
             name: 'select_f64'
@@ -364,7 +376,10 @@
         },
         {
           kind: 'export',
-          name: 'select_trap_l',
+          name: {
+            kind: 'literal',
+            value: 'select_trap_l'
+          },
           id: {
             kind: 'identifier',
             name: 'select_trap_l'
@@ -372,7 +387,10 @@
         },
         {
           kind: 'export',
-          name: 'select_trap_r',
+          name: {
+            kind: 'literal',
+            value: 'select_trap_r'
+          },
           id: {
             kind: 'identifier',
             name: 'select_trap_r'
@@ -1088,7 +1106,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -1104,7 +1122,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -1120,7 +1138,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     },
@@ -1136,7 +1154,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unreachable executed'
       }
     }

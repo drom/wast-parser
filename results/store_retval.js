@@ -16,8 +16,14 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -34,8 +40,14 @@
             kind: 'identifier',
             name: 'print_i64'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -52,8 +64,14 @@
             kind: 'identifier',
             name: 'print_f32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -70,8 +88,14 @@
             kind: 'identifier',
             name: 'print_f64'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -422,7 +446,10 @@
         },
         {
           kind: 'export',
-          name: 'run',
+          name: {
+            kind: 'literal',
+            value: 'run'
+          },
           id: {
             kind: 'identifier',
             name: 'run'
@@ -485,7 +512,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch: expression has type i32 but the context requires i64'
       }
     },
@@ -539,7 +566,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch: expression has type i64 but the context requires i32'
       }
     },
@@ -593,7 +620,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch: expression has type f32 but the context requires f64'
       }
     },
@@ -647,7 +674,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'type mismatch: expression has type f64 but the context requires f32'
       }
     }

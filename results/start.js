@@ -30,7 +30,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unknown function 1'
       }
     },
@@ -71,7 +71,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'start function must not return anything'
       }
     },
@@ -109,7 +109,7 @@
         ]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'start function must be nullary'
       }
     },
@@ -123,7 +123,10 @@
           segment: [{
             kind: 'segment',
             int: '0',
-            name: 'A'
+            name: {
+              kind: 'literal',
+              value: 'A'
+            }
           }]
         },
         {
@@ -248,7 +251,10 @@
         },
         {
           kind: 'export',
-          name: 'inc',
+          name: {
+            kind: 'literal',
+            value: 'inc'
+          },
           id: {
             kind: 'identifier',
             name: 'inc'
@@ -256,7 +262,10 @@
         },
         {
           kind: 'export',
-          name: 'get',
+          name: {
+            kind: 'literal',
+            value: 'get'
+          },
           id: {
             kind: 'identifier',
             name: 'get'
@@ -323,7 +332,10 @@
           segment: [{
             kind: 'segment',
             int: '0',
-            name: 'A'
+            name: {
+              kind: 'literal',
+              value: 'A'
+            }
           }]
         },
         {
@@ -449,7 +461,10 @@
         },
         {
           kind: 'export',
-          name: 'inc',
+          name: {
+            kind: 'literal',
+            value: 'inc'
+          },
           id: {
             kind: 'identifier',
             name: 'inc'
@@ -457,7 +472,10 @@
         },
         {
           kind: 'export',
-          name: 'get',
+          name: {
+            kind: 'literal',
+            value: 'get'
+          },
           id: {
             kind: 'identifier',
             name: 'get'
@@ -523,8 +541,14 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',
@@ -577,8 +601,14 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: 'spectest',
-          name2: 'print',
+          name1: {
+            kind: 'literal',
+            value: 'spectest'
+          },
+          name2: {
+            kind: 'literal',
+            value: 'print'
+          },
           type: null,
           params: [{
             kind: 'param',

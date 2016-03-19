@@ -709,7 +709,10 @@
         },
         {
           kind: 'export',
-          name: 'stmt',
+          name: {
+            kind: 'literal',
+            value: 'stmt'
+          },
           id: {
             kind: 'identifier',
             name: 'stmt'
@@ -717,7 +720,10 @@
         },
         {
           kind: 'export',
-          name: 'expr',
+          name: {
+            kind: 'literal',
+            value: 'expr'
+          },
           id: {
             kind: 'identifier',
             name: 'expr'
@@ -725,7 +731,10 @@
         },
         {
           kind: 'export',
-          name: 'arg',
+          name: {
+            kind: 'literal',
+            value: 'arg'
+          },
           id: {
             kind: 'identifier',
             name: 'arg'
@@ -733,7 +742,10 @@
         },
         {
           kind: 'export',
-          name: 'corner',
+          name: {
+            kind: 'literal',
+            value: 'corner'
+          },
           id: {
             kind: 'identifier',
             name: 'corner'
@@ -1206,7 +1218,7 @@
         }]
       },
       failure: {
-        kind: 'failure',
+        kind: 'literal',
         value: 'unknown label'
       }
     }
