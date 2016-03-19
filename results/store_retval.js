@@ -422,11 +422,11 @@
         },
         {
           kind: 'export',
+          name: 'run',
           id: {
             kind: 'identifier',
             name: 'run'
-          },
-          name: 'run'
+          }
         }
       ]
     },

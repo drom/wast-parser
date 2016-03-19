@@ -709,35 +709,35 @@
         },
         {
           kind: 'export',
+          name: 'stmt',
           id: {
             kind: 'identifier',
             name: 'stmt'
-          },
-          name: 'stmt'
+          }
         },
         {
           kind: 'export',
+          name: 'expr',
           id: {
             kind: 'identifier',
             name: 'expr'
-          },
-          name: 'expr'
+          }
         },
         {
           kind: 'export',
+          name: 'arg',
           id: {
             kind: 'identifier',
             name: 'arg'
-          },
-          name: 'arg'
+          }
         },
         {
           kind: 'export',
+          name: 'corner',
           id: {
             kind: 'identifier',
             name: 'corner'
-          },
-          name: 'corner'
+          }
         }
       ]
     },

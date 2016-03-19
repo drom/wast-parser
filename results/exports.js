@@ -19,12 +19,12 @@
         },
         {
           kind: 'export',
+          name: 'a',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'a'
+          }
         }
       ]
     },
@@ -46,21 +46,21 @@
         },
         {
           kind: 'export',
+          name: 'a',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'a'
+          }
         },
         {
           kind: 'export',
+          name: 'b',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'b'
+          }
         }
       ]
     },
@@ -95,21 +95,21 @@
         },
         {
           kind: 'export',
+          name: 'a',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'a'
+          }
         },
         {
           kind: 'export',
+          name: 'b',
           id: {
             kind: 'literal',
             value: 1,
             raw: '1'
-          },
-          name: 'b'
+          }
         }
       ]
     },
@@ -133,12 +133,12 @@
           },
           {
             kind: 'export',
+            name: 'a',
             id: {
               kind: 'literal',
               value: 1,
               raw: '1'
-            },
-            name: 'a'
+            }
           }
         ]
       },
@@ -180,21 +180,21 @@
           },
           {
             kind: 'export',
+            name: 'a',
             id: {
               kind: 'literal',
               value: 0,
               raw: '0'
-            },
-            name: 'a'
+            }
           },
           {
             kind: 'export',
+            name: 'a',
             id: {
               kind: 'literal',
               value: 1,
               raw: '1'
-            },
-            name: 'a'
+            }
           }
         ]
       },
@@ -223,21 +223,21 @@
           },
           {
             kind: 'export',
+            name: 'a',
             id: {
               kind: 'literal',
               value: 0,
               raw: '0'
-            },
-            name: 'a'
+            }
           },
           {
             kind: 'export',
+            name: 'a',
             id: {
               kind: 'literal',
               value: 0,
               raw: '0'
-            },
-            name: 'a'
+            }
           }
         ]
       },
@@ -292,11 +292,11 @@
         },
         {
           kind: 'export',
+          name: 'e',
           id: {
             kind: 'identifier',
             name: 'f'
-          },
-          name: 'e'
+          }
         }
       ]
     },
@@ -328,8 +328,8 @@
         },
         {
           kind: 'export',
-          id: 'memory',
-          name: 'a'
+          name: 'a',
+          id: 'memory'
         }
       ]
     },
@@ -344,13 +344,13 @@
         },
         {
           kind: 'export',
-          id: 'memory',
-          name: 'a'
+          name: 'a',
+          id: 'memory'
         },
         {
           kind: 'export',
-          id: 'memory',
-          name: 'b'
+          name: 'b',
+          id: 'memory'
         }
       ]
     },
@@ -360,8 +360,8 @@
         kind: 'module',
         body: [{
           kind: 'export',
-          id: 'memory',
-          name: 'a'
+          name: 'a',
+          id: 'memory'
         }]
       },
       failure: {

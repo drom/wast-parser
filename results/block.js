@@ -222,35 +222,35 @@
         },
         {
           kind: 'export',
+          name: 'empty',
           id: {
             kind: 'identifier',
             name: 'empty'
-          },
-          name: 'empty'
+          }
         },
         {
           kind: 'export',
+          name: 'singular',
           id: {
             kind: 'identifier',
             name: 'singular'
-          },
-          name: 'singular'
+          }
         },
         {
           kind: 'export',
+          name: 'multi',
           id: {
             kind: 'identifier',
             name: 'multi'
-          },
-          name: 'multi'
+          }
         },
         {
           kind: 'export',
+          name: 'effects',
           id: {
             kind: 'identifier',
             name: 'effects'
-          },
-          name: 'effects'
+          }
         }
       ]
     },

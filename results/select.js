@@ -332,51 +332,51 @@
         },
         {
           kind: 'export',
+          name: 'select_i32',
           id: {
             kind: 'identifier',
             name: 'select_i32'
-          },
-          name: 'select_i32'
+          }
         },
         {
           kind: 'export',
+          name: 'select_i64',
           id: {
             kind: 'identifier',
             name: 'select_i64'
-          },
-          name: 'select_i64'
+          }
         },
         {
           kind: 'export',
+          name: 'select_f32',
           id: {
             kind: 'identifier',
             name: 'select_f32'
-          },
-          name: 'select_f32'
+          }
         },
         {
           kind: 'export',
+          name: 'select_f64',
           id: {
             kind: 'identifier',
             name: 'select_f64'
-          },
-          name: 'select_f64'
+          }
         },
         {
           kind: 'export',
+          name: 'select_trap_l',
           id: {
             kind: 'identifier',
             name: 'select_trap_l'
-          },
-          name: 'select_trap_l'
+          }
         },
         {
           kind: 'export',
+          name: 'select_trap_r',
           id: {
             kind: 'identifier',
             name: 'select_trap_r'
-          },
-          name: 'select_trap_r'
+          }
         }
       ]
     },

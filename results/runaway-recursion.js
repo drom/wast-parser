@@ -23,12 +23,12 @@
         },
         {
           kind: 'export',
+          name: 'runaway',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'runaway'
+          }
         },
         {
           kind: 'func',
@@ -70,11 +70,11 @@
         },
         {
           kind: 'export',
+          name: 'mutual_runaway',
           id: {
             kind: 'identifier',
             name: 'a'
-          },
-          name: 'mutual_runaway'
+          }
         }
       ]
     },

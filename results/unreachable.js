@@ -176,59 +176,59 @@
         },
         {
           kind: 'export',
+          name: 'return_i32',
           id: {
             kind: 'identifier',
             name: 'return_i32'
-          },
-          name: 'return_i32'
+          }
         },
         {
           kind: 'export',
+          name: 'return_f64',
           id: {
             kind: 'identifier',
             name: 'return_f64'
-          },
-          name: 'return_f64'
+          }
         },
         {
           kind: 'export',
+          name: 'if',
           id: {
             kind: 'identifier',
             name: 'if'
-          },
-          name: 'if'
+          }
         },
         {
           kind: 'export',
+          name: 'block',
           id: {
             kind: 'identifier',
             name: 'block'
-          },
-          name: 'block'
+          }
         },
         {
           kind: 'export',
+          name: 'return_i64',
           id: {
             kind: 'identifier',
             name: 'return_i64'
-          },
-          name: 'return_i64'
+          }
         },
         {
           kind: 'export',
+          name: 'call',
           id: {
             kind: 'identifier',
             name: 'call'
-          },
-          name: 'call'
+          }
         },
         {
           kind: 'export',
+          name: 'misc1',
           id: {
             kind: 'identifier',
             name: 'misc1'
-          },
-          name: 'misc1'
+          }
         }
       ]
     },

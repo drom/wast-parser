@@ -306,51 +306,51 @@
         },
         {
           kind: 'export',
+          name: 'eq',
           id: {
             kind: 'identifier',
             name: 'eq'
-          },
-          name: 'eq'
+          }
         },
         {
           kind: 'export',
+          name: 'ne',
           id: {
             kind: 'identifier',
             name: 'ne'
-          },
-          name: 'ne'
+          }
         },
         {
           kind: 'export',
+          name: 'lt',
           id: {
             kind: 'identifier',
             name: 'lt'
-          },
-          name: 'lt'
+          }
         },
         {
           kind: 'export',
+          name: 'le',
           id: {
             kind: 'identifier',
             name: 'le'
-          },
-          name: 'le'
+          }
         },
         {
           kind: 'export',
+          name: 'gt',
           id: {
             kind: 'identifier',
             name: 'gt'
-          },
-          name: 'gt'
+          }
         },
         {
           kind: 'export',
+          name: 'ge',
           id: {
             kind: 'identifier',
             name: 'ge'
-          },
-          name: 'ge'
+          }
         }
       ]
     },

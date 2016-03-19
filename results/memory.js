@@ -1947,115 +1947,115 @@
         },
         {
           kind: 'export',
+          name: 'data',
           id: {
             kind: 'identifier',
             name: 'data'
-          },
-          name: 'data'
+          }
         },
         {
           kind: 'export',
+          name: 'aligned',
           id: {
             kind: 'identifier',
             name: 'aligned'
-          },
-          name: 'aligned'
+          }
         },
         {
           kind: 'export',
+          name: 'unaligned',
           id: {
             kind: 'identifier',
             name: 'unaligned'
-          },
-          name: 'unaligned'
+          }
         },
         {
           kind: 'export',
+          name: 'cast',
           id: {
             kind: 'identifier',
             name: 'cast'
-          },
-          name: 'cast'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load8_s',
           id: {
             kind: 'identifier',
             name: 'i32_load8_s'
-          },
-          name: 'i32_load8_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load8_u',
           id: {
             kind: 'identifier',
             name: 'i32_load8_u'
-          },
-          name: 'i32_load8_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load16_s',
           id: {
             kind: 'identifier',
             name: 'i32_load16_s'
-          },
-          name: 'i32_load16_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load16_u',
           id: {
             kind: 'identifier',
             name: 'i32_load16_u'
-          },
-          name: 'i32_load16_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load8_s',
           id: {
             kind: 'identifier',
             name: 'i64_load8_s'
-          },
-          name: 'i64_load8_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load8_u',
           id: {
             kind: 'identifier',
             name: 'i64_load8_u'
-          },
-          name: 'i64_load8_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load16_s',
           id: {
             kind: 'identifier',
             name: 'i64_load16_s'
-          },
-          name: 'i64_load16_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load16_u',
           id: {
             kind: 'identifier',
             name: 'i64_load16_u'
-          },
-          name: 'i64_load16_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load32_s',
           id: {
             kind: 'identifier',
             name: 'i64_load32_s'
-          },
-          name: 'i64_load32_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load32_u',
           id: {
             kind: 'identifier',
             name: 'i64_load32_u'
-          },
-          name: 'i64_load32_u'
+          }
         }
       ]
     },

@@ -6,19 +6,19 @@
       body: [
         {
           kind: 'export',
+          name: 'even',
           id: {
             kind: 'identifier',
             name: 'even'
-          },
-          name: 'even'
+          }
         },
         {
           kind: 'export',
+          name: 'odd',
           id: {
             kind: 'identifier',
             name: 'odd'
-          },
-          name: 'odd'
+          }
         },
         {
           kind: 'func',

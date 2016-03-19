@@ -1388,235 +1388,235 @@
         },
         {
           kind: 'export',
+          name: 'add',
           id: {
             kind: 'identifier',
             name: 'add'
-          },
-          name: 'add'
+          }
         },
         {
           kind: 'export',
+          name: 'sub',
           id: {
             kind: 'identifier',
             name: 'sub'
-          },
-          name: 'sub'
+          }
         },
         {
           kind: 'export',
+          name: 'mul',
           id: {
             kind: 'identifier',
             name: 'mul'
-          },
-          name: 'mul'
+          }
         },
         {
           kind: 'export',
+          name: 'div_s',
           id: {
             kind: 'identifier',
             name: 'div_s'
-          },
-          name: 'div_s'
+          }
         },
         {
           kind: 'export',
+          name: 'div_u',
           id: {
             kind: 'identifier',
             name: 'div_u'
-          },
-          name: 'div_u'
+          }
         },
         {
           kind: 'export',
+          name: 'rem_s',
           id: {
             kind: 'identifier',
             name: 'rem_s'
-          },
-          name: 'rem_s'
+          }
         },
         {
           kind: 'export',
+          name: 'rem_u',
           id: {
             kind: 'identifier',
             name: 'rem_u'
-          },
-          name: 'rem_u'
+          }
         },
         {
           kind: 'export',
+          name: 'and',
           id: {
             kind: 'identifier',
             name: 'and'
-          },
-          name: 'and'
+          }
         },
         {
           kind: 'export',
+          name: 'or',
           id: {
             kind: 'identifier',
             name: 'or'
-          },
-          name: 'or'
+          }
         },
         {
           kind: 'export',
+          name: 'xor',
           id: {
             kind: 'identifier',
             name: 'xor'
-          },
-          name: 'xor'
+          }
         },
         {
           kind: 'export',
+          name: 'shl',
           id: {
             kind: 'identifier',
             name: 'shl'
-          },
-          name: 'shl'
+          }
         },
         {
           kind: 'export',
+          name: 'shr_s',
           id: {
             kind: 'identifier',
             name: 'shr_s'
-          },
-          name: 'shr_s'
+          }
         },
         {
           kind: 'export',
+          name: 'shr_u',
           id: {
             kind: 'identifier',
             name: 'shr_u'
-          },
-          name: 'shr_u'
+          }
         },
         {
           kind: 'export',
+          name: 'rotl',
           id: {
             kind: 'identifier',
             name: 'rotl'
-          },
-          name: 'rotl'
+          }
         },
         {
           kind: 'export',
+          name: 'rotr',
           id: {
             kind: 'identifier',
             name: 'rotr'
-          },
-          name: 'rotr'
+          }
         },
         {
           kind: 'export',
+          name: 'clz',
           id: {
             kind: 'identifier',
             name: 'clz'
-          },
-          name: 'clz'
+          }
         },
         {
           kind: 'export',
+          name: 'ctz',
           id: {
             kind: 'identifier',
             name: 'ctz'
-          },
-          name: 'ctz'
+          }
         },
         {
           kind: 'export',
+          name: 'popcnt',
           id: {
             kind: 'identifier',
             name: 'popcnt'
-          },
-          name: 'popcnt'
+          }
         },
         {
           kind: 'export',
+          name: 'eqz',
           id: {
             kind: 'identifier',
             name: 'eqz'
-          },
-          name: 'eqz'
+          }
         },
         {
           kind: 'export',
+          name: 'eq',
           id: {
             kind: 'identifier',
             name: 'eq'
-          },
-          name: 'eq'
+          }
         },
         {
           kind: 'export',
+          name: 'ne',
           id: {
             kind: 'identifier',
             name: 'ne'
-          },
-          name: 'ne'
+          }
         },
         {
           kind: 'export',
+          name: 'lt_s',
           id: {
             kind: 'identifier',
             name: 'lt_s'
-          },
-          name: 'lt_s'
+          }
         },
         {
           kind: 'export',
+          name: 'lt_u',
           id: {
             kind: 'identifier',
             name: 'lt_u'
-          },
-          name: 'lt_u'
+          }
         },
         {
           kind: 'export',
+          name: 'le_s',
           id: {
             kind: 'identifier',
             name: 'le_s'
-          },
-          name: 'le_s'
+          }
         },
         {
           kind: 'export',
+          name: 'le_u',
           id: {
             kind: 'identifier',
             name: 'le_u'
-          },
-          name: 'le_u'
+          }
         },
         {
           kind: 'export',
+          name: 'gt_s',
           id: {
             kind: 'identifier',
             name: 'gt_s'
-          },
-          name: 'gt_s'
+          }
         },
         {
           kind: 'export',
+          name: 'gt_u',
           id: {
             kind: 'identifier',
             name: 'gt_u'
-          },
-          name: 'gt_u'
+          }
         },
         {
           kind: 'export',
+          name: 'ge_s',
           id: {
             kind: 'identifier',
             name: 'ge_s'
-          },
-          name: 'ge_s'
+          }
         },
         {
           kind: 'export',
+          name: 'ge_u',
           id: {
             kind: 'identifier',
             name: 'ge_u'
-          },
-          name: 'ge_u'
+          }
         }
       ]
     },

@@ -6,10 +6,7 @@
       body: [
         {
           kind: 'type',
-          id: {
-            kind: 'identifier',
-            name: null
-          }
+          id: null
         },
         {
           kind: 'type',
@@ -20,24 +17,15 @@
         },
         {
           kind: 'type',
-          id: {
-            kind: 'identifier',
-            name: null
-          }
+          id: null
         },
         {
           kind: 'type',
-          id: {
-            kind: 'identifier',
-            name: null
-          }
+          id: null
         },
         {
           kind: 'type',
-          id: {
-            kind: 'identifier',
-            name: null
-          }
+          id: null
         },
         {
           kind: 'type',
@@ -109,11 +97,11 @@
         },
         {
           kind: 'export',
+          name: 'one',
           id: {
             kind: 'identifier',
             name: 'one'
-          },
-          name: 'one'
+          }
         },
         {
           kind: 'func',
@@ -152,11 +140,11 @@
         },
         {
           kind: 'export',
+          name: 'two',
           id: {
             kind: 'identifier',
             name: 'two'
-          },
-          name: 'two'
+          }
         },
         {
           kind: 'func',
@@ -205,11 +193,11 @@
         },
         {
           kind: 'export',
+          name: 'three',
           id: {
             kind: 'identifier',
             name: 'three'
-          },
-          name: 'three'
+          }
         },
         {
           kind: 'import',
@@ -264,11 +252,11 @@
         },
         {
           kind: 'export',
+          name: 'four',
           id: {
             kind: 'identifier',
             name: 'four'
-          },
-          name: 'four'
+          }
         }
       ]
     },
@@ -577,11 +565,11 @@
         },
         {
           kind: 'export',
+          name: 'callt',
           id: {
             kind: 'identifier',
             name: 'callt'
-          },
-          name: 'callt'
+          }
         },
         {
           kind: 'func',
@@ -620,11 +608,11 @@
         },
         {
           kind: 'export',
+          name: 'callu',
           id: {
             kind: 'identifier',
             name: 'callu'
-          },
-          name: 'callu'
+          }
         }
       ]
     },
@@ -1063,11 +1051,11 @@
         },
         {
           kind: 'export',
+          name: 'callt',
           id: {
             kind: 'identifier',
             name: 'callt'
-          },
-          name: 'callt'
+          }
         }
       ]
     },

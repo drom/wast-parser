@@ -25,11 +25,11 @@
         },
         {
           kind: 'export',
+          name: 'foo',
           id: {
             kind: 'identifier',
             name: 'foo'
-          },
-          name: 'foo'
+          }
         }
       ]
     },
@@ -70,11 +70,11 @@
         },
         {
           kind: 'export',
+          name: 'foo',
           id: {
             kind: 'identifier',
             name: 'foo'
-          },
-          name: 'foo'
+          }
         }
       ]
     },
@@ -112,12 +112,12 @@
         },
         {
           kind: 'export',
+          name: '',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: ''
+          }
         },
         {
           kind: 'func',
@@ -140,11 +140,11 @@
         },
         {
           kind: 'export',
+          name: 'malloc',
           id: {
             kind: 'identifier',
             name: 'malloc'
-          },
-          name: 'malloc'
+          }
         },
         {
           kind: 'func',
@@ -202,19 +202,19 @@
         },
         {
           kind: 'export',
+          name: '_malloc',
           id: {
             kind: 'identifier',
             name: '_malloc'
-          },
-          name: '_malloc'
+          }
         },
         {
           kind: 'export',
+          name: '__malloc',
           id: {
             kind: 'identifier',
             name: '__malloc'
-          },
-          name: '__malloc'
+          }
         },
         {
           kind: 'func',
@@ -234,12 +234,12 @@
         },
         {
           kind: 'export',
+          name: '~!@#$%^&*()_+\`-={}|[]\\:\";\'<>?,./ ',
           id: {
             kind: 'literal',
             value: 5,
             raw: '5'
-          },
-          name: '~!@#$%^&*()_+\`-={}|[]\\:\";\'<>?,./ '
+          }
         },
         {
           kind: 'func',
@@ -259,12 +259,12 @@
         },
         {
           kind: 'export',
+          name: '0',
           id: {
             kind: 'literal',
             value: 6,
             raw: '6'
-          },
-          name: '0'
+          }
         },
         {
           kind: 'func',
@@ -287,11 +287,11 @@
         },
         {
           kind: 'export',
+          name: '_',
           id: {
             kind: 'identifier',
             name: '_'
-          },
-          name: '_'
+          }
         },
         {
           kind: 'func',
@@ -311,12 +311,12 @@
         },
         {
           kind: 'export',
+          name: '$',
           id: {
             kind: 'literal',
             value: 8,
             raw: '8'
-          },
-          name: '$'
+          }
         },
         {
           kind: 'func',
@@ -336,12 +336,12 @@
         },
         {
           kind: 'export',
+          name: '@',
           id: {
             kind: 'literal',
             value: 9,
             raw: '9'
-          },
-          name: '@'
+          }
         },
         {
           kind: 'func',
@@ -402,27 +402,27 @@
         },
         {
           kind: 'export',
+          name: 'NaN',
           id: {
             kind: 'identifier',
             name: 'NaN'
-          },
-          name: 'NaN'
+          }
         },
         {
           kind: 'export',
+          name: 'Infinity',
           id: {
             kind: 'identifier',
             name: 'Infinity'
-          },
-          name: 'Infinity'
+          }
         },
         {
           kind: 'export',
+          name: 'if',
           id: {
             kind: 'identifier',
             name: 'if'
-          },
-          name: 'if'
+          }
         }
       ]
     },
@@ -674,12 +674,12 @@
         },
         {
           kind: 'export',
+          name: 'print32',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'print32'
+          }
         }
       ]
     },

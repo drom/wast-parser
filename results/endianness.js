@@ -1552,139 +1552,139 @@
         },
         {
           kind: 'export',
+          name: 'i32_load16_s',
           id: {
             kind: 'identifier',
             name: 'i32_load16_s'
-          },
-          name: 'i32_load16_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load16_u',
           id: {
             kind: 'identifier',
             name: 'i32_load16_u'
-          },
-          name: 'i32_load16_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_load',
           id: {
             kind: 'identifier',
             name: 'i32_load'
-          },
-          name: 'i32_load'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load16_s',
           id: {
             kind: 'identifier',
             name: 'i64_load16_s'
-          },
-          name: 'i64_load16_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load16_u',
           id: {
             kind: 'identifier',
             name: 'i64_load16_u'
-          },
-          name: 'i64_load16_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load32_s',
           id: {
             kind: 'identifier',
             name: 'i64_load32_s'
-          },
-          name: 'i64_load32_s'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load32_u',
           id: {
             kind: 'identifier',
             name: 'i64_load32_u'
-          },
-          name: 'i64_load32_u'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_load',
           id: {
             kind: 'identifier',
             name: 'i64_load'
-          },
-          name: 'i64_load'
+          }
         },
         {
           kind: 'export',
+          name: 'f32_load',
           id: {
             kind: 'identifier',
             name: 'f32_load'
-          },
-          name: 'f32_load'
+          }
         },
         {
           kind: 'export',
+          name: 'f64_load',
           id: {
             kind: 'identifier',
             name: 'f64_load'
-          },
-          name: 'f64_load'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_store16',
           id: {
             kind: 'identifier',
             name: 'i32_store16'
-          },
-          name: 'i32_store16'
+          }
         },
         {
           kind: 'export',
+          name: 'i32_store',
           id: {
             kind: 'identifier',
             name: 'i32_store'
-          },
-          name: 'i32_store'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_store16',
           id: {
             kind: 'identifier',
             name: 'i64_store16'
-          },
-          name: 'i64_store16'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_store32',
           id: {
             kind: 'identifier',
             name: 'i64_store32'
-          },
-          name: 'i64_store32'
+          }
         },
         {
           kind: 'export',
+          name: 'i64_store',
           id: {
             kind: 'identifier',
             name: 'i64_store'
-          },
-          name: 'i64_store'
+          }
         },
         {
           kind: 'export',
+          name: 'f32_store',
           id: {
             kind: 'identifier',
             name: 'f32_store'
-          },
-          name: 'f32_store'
+          }
         },
         {
           kind: 'export',
+          name: 'f64_store',
           id: {
             kind: 'identifier',
             name: 'f64_store'
-          },
-          name: 'f64_store'
+          }
         }
       ]
     },

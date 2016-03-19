@@ -248,19 +248,19 @@
         },
         {
           kind: 'export',
+          name: 'inc',
           id: {
             kind: 'identifier',
             name: 'inc'
-          },
-          name: 'inc'
+          }
         },
         {
           kind: 'export',
+          name: 'get',
           id: {
             kind: 'identifier',
             name: 'get'
-          },
-          name: 'get'
+          }
         }
       ]
     },
@@ -449,19 +449,19 @@
         },
         {
           kind: 'export',
+          name: 'inc',
           id: {
             kind: 'identifier',
             name: 'inc'
-          },
-          name: 'inc'
+          }
         },
         {
           kind: 'export',
+          name: 'get',
           id: {
             kind: 'identifier',
             name: 'get'
-          },
-          name: 'get'
+          }
         }
       ]
     },

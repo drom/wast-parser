@@ -968,195 +968,195 @@
         },
         {
           kind: 'export',
+          name: 'f32.add',
           id: {
             kind: 'identifier',
             name: 'f32.add'
-          },
-          name: 'f32.add'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.sub',
           id: {
             kind: 'identifier',
             name: 'f32.sub'
-          },
-          name: 'f32.sub'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.mul',
           id: {
             kind: 'identifier',
             name: 'f32.mul'
-          },
-          name: 'f32.mul'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.div',
           id: {
             kind: 'identifier',
             name: 'f32.div'
-          },
-          name: 'f32.div'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.sqrt',
           id: {
             kind: 'identifier',
             name: 'f32.sqrt'
-          },
-          name: 'f32.sqrt'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.abs',
           id: {
             kind: 'identifier',
             name: 'f32.abs'
-          },
-          name: 'f32.abs'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.neg',
           id: {
             kind: 'identifier',
             name: 'f32.neg'
-          },
-          name: 'f32.neg'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.copysign',
           id: {
             kind: 'identifier',
             name: 'f32.copysign'
-          },
-          name: 'f32.copysign'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.ceil',
           id: {
             kind: 'identifier',
             name: 'f32.ceil'
-          },
-          name: 'f32.ceil'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.floor',
           id: {
             kind: 'identifier',
             name: 'f32.floor'
-          },
-          name: 'f32.floor'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.trunc',
           id: {
             kind: 'identifier',
             name: 'f32.trunc'
-          },
-          name: 'f32.trunc'
+          }
         },
         {
           kind: 'export',
+          name: 'f32.nearest',
           id: {
             kind: 'identifier',
             name: 'f32.nearest'
-          },
-          name: 'f32.nearest'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.add',
           id: {
             kind: 'identifier',
             name: 'f64.add'
-          },
-          name: 'f64.add'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.sub',
           id: {
             kind: 'identifier',
             name: 'f64.sub'
-          },
-          name: 'f64.sub'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.mul',
           id: {
             kind: 'identifier',
             name: 'f64.mul'
-          },
-          name: 'f64.mul'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.div',
           id: {
             kind: 'identifier',
             name: 'f64.div'
-          },
-          name: 'f64.div'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.sqrt',
           id: {
             kind: 'identifier',
             name: 'f64.sqrt'
-          },
-          name: 'f64.sqrt'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.abs',
           id: {
             kind: 'identifier',
             name: 'f64.abs'
-          },
-          name: 'f64.abs'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.neg',
           id: {
             kind: 'identifier',
             name: 'f64.neg'
-          },
-          name: 'f64.neg'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.copysign',
           id: {
             kind: 'identifier',
             name: 'f64.copysign'
-          },
-          name: 'f64.copysign'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.ceil',
           id: {
             kind: 'identifier',
             name: 'f64.ceil'
-          },
-          name: 'f64.ceil'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.floor',
           id: {
             kind: 'identifier',
             name: 'f64.floor'
-          },
-          name: 'f64.floor'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.trunc',
           id: {
             kind: 'identifier',
             name: 'f64.trunc'
-          },
-          name: 'f64.trunc'
+          }
         },
         {
           kind: 'export',
+          name: 'f64.nearest',
           id: {
             kind: 'identifier',
             name: 'f64.nearest'
-          },
-          name: 'f64.nearest'
+          }
         }
       ]
     },

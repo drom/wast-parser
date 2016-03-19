@@ -194,35 +194,35 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.div_s',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.div_s'
-          },
-          name: 'no_dce.i32.div_s'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.div_u',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.div_u'
-          },
-          name: 'no_dce.i32.div_u'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.div_s',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.div_s'
-          },
-          name: 'no_dce.i64.div_s'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.div_u',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.div_u'
-          },
-          name: 'no_dce.i64.div_u'
+          }
         }
       ]
     },
@@ -511,35 +511,35 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.rem_s',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.rem_s'
-          },
-          name: 'no_dce.i32.rem_s'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.rem_u',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.rem_u'
-          },
-          name: 'no_dce.i32.rem_u'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.rem_s',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.rem_s'
-          },
-          name: 'no_dce.i64.rem_s'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.rem_u',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.rem_u'
-          },
-          name: 'no_dce.i64.rem_u'
+          }
         }
       ]
     },
@@ -888,67 +888,67 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.trunc_s_f32',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f32'
-          },
-          name: 'no_dce.i32.trunc_s_f32'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.trunc_u_f32',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f32'
-          },
-          name: 'no_dce.i32.trunc_u_f32'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.trunc_s_f64',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f64'
-          },
-          name: 'no_dce.i32.trunc_s_f64'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.trunc_u_f64',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f64'
-          },
-          name: 'no_dce.i32.trunc_u_f64'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.trunc_s_f32',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f32'
-          },
-          name: 'no_dce.i64.trunc_s_f32'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.trunc_u_f32',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f32'
-          },
-          name: 'no_dce.i64.trunc_u_f32'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.trunc_s_f64',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f64'
-          },
-          name: 'no_dce.i64.trunc_s_f64'
+          }
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.trunc_u_f64',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f64'
-          },
-          name: 'no_dce.i64.trunc_u_f64'
+          }
         }
       ]
     },
@@ -1091,11 +1091,11 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.i32.load',
           id: {
             kind: 'identifier',
             name: 'no_dce.i32.load'
-          },
-          name: 'no_dce.i32.load'
+          }
         },
         {
           kind: 'func',
@@ -1132,11 +1132,11 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.i64.load',
           id: {
             kind: 'identifier',
             name: 'no_dce.i64.load'
-          },
-          name: 'no_dce.i64.load'
+          }
         },
         {
           kind: 'func',
@@ -1173,11 +1173,11 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.f32.load',
           id: {
             kind: 'identifier',
             name: 'no_dce.f32.load'
-          },
-          name: 'no_dce.f32.load'
+          }
         },
         {
           kind: 'func',
@@ -1214,11 +1214,11 @@
         },
         {
           kind: 'export',
+          name: 'no_dce.f64.load',
           id: {
             kind: 'identifier',
             name: 'no_dce.f64.load'
-          },
-          name: 'no_dce.f64.load'
+          }
         },
         {
           kind: 'func',

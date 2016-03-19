@@ -340,11 +340,11 @@
         },
         {
           kind: 'export',
+          name: 'good',
           id: {
             kind: 'identifier',
             name: 'good'
-          },
-          name: 'good'
+          }
         },
         {
           kind: 'func',
@@ -381,11 +381,11 @@
         },
         {
           kind: 'export',
+          name: 'bad2',
           id: {
             kind: 'identifier',
             name: 'bad2'
-          },
-          name: 'bad2'
+          }
         }
       ]
     },

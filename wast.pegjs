@@ -182,8 +182,8 @@ expr
         / kind:"br_if" __ id:var __ test:expr __ expr:( __ expr )? {
             return {
                 kind: kind,
-                test: test,
                 id: id,
+                test: test,
                 expr: expr ? expr[1] : expr
             };
         }
@@ -409,10 +409,10 @@ func_type = "(" kind:"type" __ id:var __ ")" {
     };
 }
 
-func = kind:"func" name:( __ "$" name )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func" id:( __ var )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
-        id: (name ? { kind: 'identifier', name: name[2] } : null),
+        id: id ? id[1] : id,
         type: type ? type[1] : type,
         param: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
@@ -452,17 +452,17 @@ func_def = "(" kind:"func" param:( __ param_def )* result:( __ result_def )? __ 
     };
 }
 
-type_def = kind:"type" name:( __ "$" name )? __ func_def {
+type_def = kind:"type" id:( __ var )? __ func_def {
     return {
         kind: kind,
-        id: { kind: 'identifier', name: name ? name[2] : name }
+        id: id ? id[1] : id
     };
 }
 
-import = kind:"import" id:( __ "$" name )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
+import = kind:"import" id:( __ var )? __ ["] name1:name ["] __ ["] name2:name ["] type:( __ func_type )? params:( __ param )* result:( __ result )? {
     return {
         kind: kind,
-        id: (id ? { kind: 'identifier', name: id[2] } : null),
+        id: id ? id[1] : id,
         name1: name1,
         name2: name2,
         type: type ? type[1] : type,
@@ -474,10 +474,10 @@ import = kind:"import" id:( __ "$" name )? __ ["] name1:name ["] __ ["] name2:na
 export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "memory" ) {
     return {
         kind: kind,
-        id:id,
         name: name.map(function (e) {
             return e[1];
-        }).join('')
+        }).join(''),
+        id: id
     };
 }
 

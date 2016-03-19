@@ -76,11 +76,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_cmp_s_offset',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_cmp_s_offset'
-          },
-          name: 'i32.no_fold_cmp_s_offset'
+          }
         },
         {
           kind: 'func',
@@ -154,11 +154,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_cmp_u_offset',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_cmp_u_offset'
-          },
-          name: 'i32.no_fold_cmp_u_offset'
+          }
         },
         {
           kind: 'func',
@@ -232,11 +232,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_cmp_s_offset',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_cmp_s_offset'
-          },
-          name: 'i64.no_fold_cmp_s_offset'
+          }
         },
         {
           kind: 'func',
@@ -310,11 +310,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_cmp_u_offset',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_cmp_u_offset'
-          },
-          name: 'i64.no_fold_cmp_u_offset'
+          }
         }
       ]
     },
@@ -459,11 +459,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_wrap_extend_s',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_s'
-          },
-          name: 'i64.no_fold_wrap_extend_s'
+          }
         }
       ]
     },
@@ -546,11 +546,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_wrap_extend_u',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_u'
-          },
-          name: 'i64.no_fold_wrap_extend_u'
+          }
         }
       ]
     },
@@ -624,11 +624,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_shl_shr_s',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_s'
-          },
-          name: 'i32.no_fold_shl_shr_s'
+          }
         },
         {
           kind: 'func',
@@ -680,11 +680,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_shl_shr_u',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_u'
-          },
-          name: 'i32.no_fold_shl_shr_u'
+          }
         },
         {
           kind: 'func',
@@ -736,11 +736,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_shl_shr_s',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_s'
-          },
-          name: 'i64.no_fold_shl_shr_s'
+          }
         },
         {
           kind: 'func',
@@ -792,11 +792,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_shl_shr_u',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_u'
-          },
-          name: 'i64.no_fold_shl_shr_u'
+          }
         }
       ]
     },
@@ -921,11 +921,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_shr_s_shl',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shr_s_shl'
-          },
-          name: 'i32.no_fold_shr_s_shl'
+          }
         },
         {
           kind: 'func',
@@ -977,11 +977,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_shr_u_shl',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_shr_u_shl'
-          },
-          name: 'i32.no_fold_shr_u_shl'
+          }
         },
         {
           kind: 'func',
@@ -1033,11 +1033,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_shr_s_shl',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shr_s_shl'
-          },
-          name: 'i64.no_fold_shr_s_shl'
+          }
         },
         {
           kind: 'func',
@@ -1089,11 +1089,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_shr_u_shl',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_shr_u_shl'
-          },
-          name: 'i64.no_fold_shr_u_shl'
+          }
         }
       ]
     },
@@ -1218,11 +1218,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_div_s_mul',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_s_mul'
-          },
-          name: 'i32.no_fold_div_s_mul'
+          }
         },
         {
           kind: 'func',
@@ -1274,11 +1274,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_div_u_mul',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_u_mul'
-          },
-          name: 'i32.no_fold_div_u_mul'
+          }
         },
         {
           kind: 'func',
@@ -1330,11 +1330,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_div_s_mul',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_s_mul'
-          },
-          name: 'i64.no_fold_div_s_mul'
+          }
         },
         {
           kind: 'func',
@@ -1386,11 +1386,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_div_u_mul',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_u_mul'
-          },
-          name: 'i64.no_fold_div_u_mul'
+          }
         }
       ]
     },
@@ -1515,11 +1515,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_mul_div_s',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_s'
-          },
-          name: 'i32.no_fold_mul_div_s'
+          }
         },
         {
           kind: 'func',
@@ -1571,11 +1571,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_mul_div_u',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_u'
-          },
-          name: 'i32.no_fold_mul_div_u'
+          }
         },
         {
           kind: 'func',
@@ -1627,11 +1627,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_mul_div_s',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_s'
-          },
-          name: 'i64.no_fold_mul_div_s'
+          }
         },
         {
           kind: 'func',
@@ -1683,11 +1683,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_mul_div_u',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_u'
-          },
-          name: 'i64.no_fold_mul_div_u'
+          }
         }
       ]
     },
@@ -1802,11 +1802,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_div_s_2',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_div_s_2'
-          },
-          name: 'i32.no_fold_div_s_2'
+          }
         },
         {
           kind: 'func',
@@ -1848,11 +1848,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_div_s_2',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_div_s_2'
-          },
-          name: 'i64.no_fold_div_s_2'
+          }
         }
       ]
     },
@@ -1933,11 +1933,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.no_fold_rem_s_2',
           id: {
             kind: 'identifier',
             name: 'i32.no_fold_rem_s_2'
-          },
-          name: 'i32.no_fold_rem_s_2'
+          }
         },
         {
           kind: 'func',
@@ -1979,11 +1979,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.no_fold_rem_s_2',
           id: {
             kind: 'identifier',
             name: 'i64.no_fold_rem_s_2'
-          },
-          name: 'i64.no_fold_rem_s_2'
+          }
         }
       ]
     },
@@ -2064,11 +2064,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_s_3',
           id: {
             kind: 'identifier',
             name: 'i32.div_s_3'
-          },
-          name: 'i32.div_s_3'
+          }
         },
         {
           kind: 'func',
@@ -2110,11 +2110,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_u_3',
           id: {
             kind: 'identifier',
             name: 'i32.div_u_3'
-          },
-          name: 'i32.div_u_3'
+          }
         },
         {
           kind: 'func',
@@ -2156,11 +2156,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_s_3',
           id: {
             kind: 'identifier',
             name: 'i64.div_s_3'
-          },
-          name: 'i64.div_s_3'
+          }
         },
         {
           kind: 'func',
@@ -2202,11 +2202,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_u_3',
           id: {
             kind: 'identifier',
             name: 'i64.div_u_3'
-          },
-          name: 'i64.div_u_3'
+          }
         }
       ]
     },
@@ -2389,11 +2389,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_s_5',
           id: {
             kind: 'identifier',
             name: 'i32.div_s_5'
-          },
-          name: 'i32.div_s_5'
+          }
         },
         {
           kind: 'func',
@@ -2435,11 +2435,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_u_5',
           id: {
             kind: 'identifier',
             name: 'i32.div_u_5'
-          },
-          name: 'i32.div_u_5'
+          }
         },
         {
           kind: 'func',
@@ -2481,11 +2481,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_s_5',
           id: {
             kind: 'identifier',
             name: 'i64.div_s_5'
-          },
-          name: 'i64.div_s_5'
+          }
         },
         {
           kind: 'func',
@@ -2527,11 +2527,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_u_5',
           id: {
             kind: 'identifier',
             name: 'i64.div_u_5'
-          },
-          name: 'i64.div_u_5'
+          }
         }
       ]
     },
@@ -2714,11 +2714,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_s_7',
           id: {
             kind: 'identifier',
             name: 'i32.div_s_7'
-          },
-          name: 'i32.div_s_7'
+          }
         },
         {
           kind: 'func',
@@ -2760,11 +2760,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.div_u_7',
           id: {
             kind: 'identifier',
             name: 'i32.div_u_7'
-          },
-          name: 'i32.div_u_7'
+          }
         },
         {
           kind: 'func',
@@ -2806,11 +2806,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_s_7',
           id: {
             kind: 'identifier',
             name: 'i64.div_s_7'
-          },
-          name: 'i64.div_s_7'
+          }
         },
         {
           kind: 'func',
@@ -2852,11 +2852,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.div_u_7',
           id: {
             kind: 'identifier',
             name: 'i64.div_u_7'
-          },
-          name: 'i64.div_u_7'
+          }
         }
       ]
     },
@@ -3039,11 +3039,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_s_3',
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_3'
-          },
-          name: 'i32.rem_s_3'
+          }
         },
         {
           kind: 'func',
@@ -3085,11 +3085,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_u_3',
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_3'
-          },
-          name: 'i32.rem_u_3'
+          }
         },
         {
           kind: 'func',
@@ -3131,11 +3131,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_s_3',
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_3'
-          },
-          name: 'i64.rem_s_3'
+          }
         },
         {
           kind: 'func',
@@ -3177,11 +3177,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_u_3',
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_3'
-          },
-          name: 'i64.rem_u_3'
+          }
         }
       ]
     },
@@ -3364,11 +3364,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_s_5',
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_5'
-          },
-          name: 'i32.rem_s_5'
+          }
         },
         {
           kind: 'func',
@@ -3410,11 +3410,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_u_5',
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_5'
-          },
-          name: 'i32.rem_u_5'
+          }
         },
         {
           kind: 'func',
@@ -3456,11 +3456,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_s_5',
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_5'
-          },
-          name: 'i64.rem_s_5'
+          }
         },
         {
           kind: 'func',
@@ -3502,11 +3502,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_u_5',
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_5'
-          },
-          name: 'i64.rem_u_5'
+          }
         }
       ]
     },
@@ -3689,11 +3689,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_s_7',
           id: {
             kind: 'identifier',
             name: 'i32.rem_s_7'
-          },
-          name: 'i32.rem_s_7'
+          }
         },
         {
           kind: 'func',
@@ -3735,11 +3735,11 @@
         },
         {
           kind: 'export',
+          name: 'i32.rem_u_7',
           id: {
             kind: 'identifier',
             name: 'i32.rem_u_7'
-          },
-          name: 'i32.rem_u_7'
+          }
         },
         {
           kind: 'func',
@@ -3781,11 +3781,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_s_7',
           id: {
             kind: 'identifier',
             name: 'i64.rem_s_7'
-          },
-          name: 'i64.rem_s_7'
+          }
         },
         {
           kind: 'func',
@@ -3827,11 +3827,11 @@
         },
         {
           kind: 'export',
+          name: 'i64.rem_u_7',
           id: {
             kind: 'identifier',
             name: 'i64.rem_u_7'
-          },
-          name: 'i64.rem_u_7'
+          }
         }
       ]
     },

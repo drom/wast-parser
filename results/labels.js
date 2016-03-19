@@ -1337,14 +1337,14 @@
                   body: [
                     {
                       kind: 'br_if',
+                      id: {
+                        kind: 'identifier',
+                        name: 'inner'
+                      },
                       test: {
                         kind: 'const',
                         type: 'i32',
                         init: '0'
-                      },
-                      id: {
-                        kind: 'identifier',
-                        name: 'inner'
                       },
                       expr: null
                     },
@@ -1374,14 +1374,14 @@
                     },
                     {
                       kind: 'br_if',
+                      id: {
+                        kind: 'identifier',
+                        name: 'inner'
+                      },
                       test: {
                         kind: 'const',
                         type: 'i32',
                         init: '1'
-                      },
-                      id: {
-                        kind: 'identifier',
-                        name: 'inner'
                       },
                       expr: null
                     },
@@ -1413,6 +1413,10 @@
                 },
                 {
                   kind: 'br_if',
+                  id: {
+                    kind: 'identifier',
+                    name: 'outer'
+                  },
                   test: {
                     kind: 'set_local',
                     id: {
@@ -1436,10 +1440,6 @@
                         init: '0x4'
                       }
                     }
-                  },
-                  id: {
-                    kind: 'identifier',
-                    name: 'outer'
                   },
                   expr: {
                     kind: 'const',
@@ -1473,6 +1473,10 @@
                 },
                 {
                   kind: 'br_if',
+                  id: {
+                    kind: 'identifier',
+                    name: 'outer'
+                  },
                   test: {
                     kind: 'set_local',
                     id: {
@@ -1496,10 +1500,6 @@
                         init: '0x10'
                       }
                     }
-                  },
-                  id: {
-                    kind: 'identifier',
-                    name: 'outer'
                   },
                   expr: {
                     kind: 'const',
@@ -1557,6 +1557,10 @@
             body: [
               {
                 kind: 'br_if',
+                id: {
+                  kind: 'identifier',
+                  name: 'l0'
+                },
                 test: {
                   kind: 'block',
                   id: {
@@ -1575,10 +1579,6 @@
                       init: '1'
                     }
                   }]
-                },
-                id: {
-                  kind: 'identifier',
-                  name: 'l0'
                 },
                 expr: {
                   kind: 'const',
@@ -1691,6 +1691,10 @@
                 body: [
                   {
                     kind: 'br_if',
+                    id: {
+                      kind: 'identifier',
+                      name: 'l0'
+                    },
                     test: {
                       kind: 'set_local',
                       id: {
@@ -1702,10 +1706,6 @@
                         type: 'i32',
                         init: '1'
                       }
-                    },
-                    id: {
-                      kind: 'identifier',
-                      name: 'l0'
                     },
                     expr: {
                       kind: 'set_local',
@@ -1876,131 +1876,131 @@
         },
         {
           kind: 'export',
+          name: 'block',
           id: {
             kind: 'identifier',
             name: 'block'
-          },
-          name: 'block'
+          }
         },
         {
           kind: 'export',
+          name: 'loop1',
           id: {
             kind: 'identifier',
             name: 'loop1'
-          },
-          name: 'loop1'
+          }
         },
         {
           kind: 'export',
+          name: 'loop2',
           id: {
             kind: 'identifier',
             name: 'loop2'
-          },
-          name: 'loop2'
+          }
         },
         {
           kind: 'export',
+          name: 'loop3',
           id: {
             kind: 'identifier',
             name: 'loop3'
-          },
-          name: 'loop3'
+          }
         },
         {
           kind: 'export',
+          name: 'loop4',
           id: {
             kind: 'identifier',
             name: 'loop4'
-          },
-          name: 'loop4'
+          }
         },
         {
           kind: 'export',
+          name: 'loop5',
           id: {
             kind: 'identifier',
             name: 'loop5'
-          },
-          name: 'loop5'
+          }
         },
         {
           kind: 'export',
+          name: 'if',
           id: {
             kind: 'identifier',
             name: 'if'
-          },
-          name: 'if'
+          }
         },
         {
           kind: 'export',
+          name: 'switch',
           id: {
             kind: 'identifier',
             name: 'switch'
-          },
-          name: 'switch'
+          }
         },
         {
           kind: 'export',
+          name: 'return',
           id: {
             kind: 'identifier',
             name: 'return'
-          },
-          name: 'return'
+          }
         },
         {
           kind: 'export',
+          name: 'br_if0',
           id: {
             kind: 'identifier',
             name: 'br_if0'
-          },
-          name: 'br_if0'
+          }
         },
         {
           kind: 'export',
+          name: 'br_if1',
           id: {
             kind: 'identifier',
             name: 'br_if1'
-          },
-          name: 'br_if1'
+          }
         },
         {
           kind: 'export',
+          name: 'br_if2',
           id: {
             kind: 'identifier',
             name: 'br_if2'
-          },
-          name: 'br_if2'
+          }
         },
         {
           kind: 'export',
+          name: 'br_if3',
           id: {
             kind: 'identifier',
             name: 'br_if3'
-          },
-          name: 'br_if3'
+          }
         },
         {
           kind: 'export',
+          name: 'misc1',
           id: {
             kind: 'identifier',
             name: 'misc1'
-          },
-          name: 'misc1'
+          }
         },
         {
           kind: 'export',
+          name: 'misc2',
           id: {
             kind: 'identifier',
             name: 'misc2'
-          },
-          name: 'misc2'
+          }
         },
         {
           kind: 'export',
+          name: 'redefinition',
           id: {
             kind: 'identifier',
             name: 'redefinition'
-          },
-          name: 'redefinition'
+          }
         }
       ]
     },
@@ -2405,14 +2405,14 @@
                 operator: 'neg',
                 expr: {
                   kind: 'br_if',
+                  id: {
+                    kind: 'identifier',
+                    name: 'l'
+                  },
                   test: {
                     kind: 'const',
                     type: 'i32',
                     init: '1'
-                  },
-                  id: {
-                    kind: 'identifier',
-                    name: 'l'
                   },
                   expr: null
                 }
@@ -2449,14 +2449,14 @@
             },
             body: [{
               kind: 'br_if',
+              id: {
+                kind: 'identifier',
+                name: 'l'
+              },
               test: {
                 kind: 'const',
                 type: 'f32',
                 init: '0'
-              },
-              id: {
-                kind: 'identifier',
-                name: 'l'
               },
               expr: {
                 kind: 'const',
@@ -2494,14 +2494,14 @@
             },
             body: [{
               kind: 'br_if',
+              id: {
+                kind: 'identifier',
+                name: 'l'
+              },
               test: {
                 kind: 'const',
                 type: 'f32',
                 init: '0'
-              },
-              id: {
-                kind: 'identifier',
-                name: 'l'
               },
               expr: {
                 kind: 'const',
@@ -2540,14 +2540,14 @@
               operator: 'neg',
               expr: {
                 kind: 'br_if',
+                id: {
+                  kind: 'identifier',
+                  name: 'l'
+                },
                 test: {
                   kind: 'const',
                   type: 'f32',
                   init: '0'
-                },
-                id: {
-                  kind: 'identifier',
-                  name: 'l'
                 },
                 expr: {
                   kind: 'const',
@@ -2596,14 +2596,14 @@
               operator: 'neg',
               expr: {
                 kind: 'br_if',
+                id: {
+                  kind: 'identifier',
+                  name: 'l'
+                },
                 test: {
                   kind: 'const',
                   type: 'f32',
                   init: '0'
-                },
-                id: {
-                  kind: 'identifier',
-                  name: 'l'
                 },
                 expr: {
                   kind: 'get_local',
@@ -2661,14 +2661,14 @@
                 },
                 body: [{
                   kind: 'br_if',
+                  id: {
+                    kind: 'identifier',
+                    name: 'l'
+                  },
                   test: {
                     kind: 'const',
                     type: 'f32',
                     init: '3'
-                  },
-                  id: {
-                    kind: 'identifier',
-                    name: 'l'
                   },
                   expr: {
                     kind: 'get_local',
@@ -2708,11 +2708,11 @@
             },
             body: [{
               kind: 'br_if',
-              test: {kind: 'nop'},
               id: {
                 kind: 'identifier',
                 name: 'l0'
               },
+              test: {kind: 'nop'},
               expr: {
                 kind: 'const',
                 type: 'i32',

@@ -22,11 +22,11 @@
         },
         {
           kind: 'export',
+          name: 'return-none',
           id: {
             kind: 'identifier',
             name: 'return-none'
-          },
-          name: 'return-none'
+          }
         },
         {
           kind: 'func',
@@ -42,11 +42,11 @@
         },
         {
           kind: 'export',
+          name: 'empty',
           id: {
             kind: 'identifier',
             name: 'empty'
-          },
-          name: 'empty'
+          }
         }
       ]
     },

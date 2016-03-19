@@ -564,6 +564,11 @@
               body: [
                 {
                   kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
                   test: {
                     kind: 'relop',
                     type: 'i64',
@@ -581,11 +586,6 @@
                       type: 'i64',
                       init: '2'
                     }
-                  },
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
                   },
                   expr: null
                 },
@@ -649,6 +649,11 @@
                     },
                     {
                       kind: 'br_if',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      },
                       test: {
                         kind: 'relop',
                         type: 'i64',
@@ -666,11 +671,6 @@
                           type: 'i64',
                           init: '1'
                         }
-                      },
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
                       },
                       expr: null
                     }
@@ -690,45 +690,45 @@
         },
         {
           kind: 'export',
+          name: 'fac-rec',
           id: {
             kind: 'literal',
             value: 0,
             raw: '0'
-          },
-          name: 'fac-rec'
+          }
         },
         {
           kind: 'export',
+          name: 'fac-iter',
           id: {
             kind: 'literal',
             value: 2,
             raw: '2'
-          },
-          name: 'fac-iter'
+          }
         },
         {
           kind: 'export',
+          name: 'fac-rec-named',
           id: {
             kind: 'identifier',
             name: 'fac-rec'
-          },
-          name: 'fac-rec-named'
+          }
         },
         {
           kind: 'export',
+          name: 'fac-iter-named',
           id: {
             kind: 'identifier',
             name: 'fac-iter'
-          },
-          name: 'fac-iter-named'
+          }
         },
         {
           kind: 'export',
+          name: 'fac-opt',
           id: {
             kind: 'identifier',
             name: 'fac-opt'
-          },
-          name: 'fac-opt'
+          }
         }
       ]
     },

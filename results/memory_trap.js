@@ -12,11 +12,11 @@
         },
         {
           kind: 'export',
+          name: 'store',
           id: {
             kind: 'identifier',
             name: 'store'
-          },
-          name: 'store'
+          }
         },
         {
           kind: 'func',
@@ -78,11 +78,11 @@
         },
         {
           kind: 'export',
+          name: 'load',
           id: {
             kind: 'identifier',
             name: 'load'
-          },
-          name: 'load'
+          }
         },
         {
           kind: 'func',
@@ -128,11 +128,11 @@
         },
         {
           kind: 'export',
+          name: 'grow_memory',
           id: {
             kind: 'identifier',
             name: 'grow_memory'
-          },
-          name: 'grow_memory'
+          }
         },
         {
           kind: 'func',
@@ -164,11 +164,11 @@
         },
         {
           kind: 'export',
+          name: 'overflow_memory_size',
           id: {
             kind: 'identifier',
             name: 'overflow_memory_size'
-          },
-          name: 'overflow_memory_size'
+          }
         },
         {
           kind: 'func',

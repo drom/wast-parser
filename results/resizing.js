@@ -12,11 +12,11 @@
         },
         {
           kind: 'export',
+          name: 'round_up_to_page',
           id: {
             kind: 'identifier',
             name: 'round_up_to_page'
-          },
-          name: 'round_up_to_page'
+          }
         },
         {
           kind: 'func',
@@ -68,11 +68,11 @@
         },
         {
           kind: 'export',
+          name: 'load_at_zero',
           id: {
             kind: 'identifier',
             name: 'load_at_zero'
-          },
-          name: 'load_at_zero'
+          }
         },
         {
           kind: 'func',
@@ -103,11 +103,11 @@
         },
         {
           kind: 'export',
+          name: 'store_at_zero',
           id: {
             kind: 'identifier',
             name: 'store_at_zero'
-          },
-          name: 'store_at_zero'
+          }
         },
         {
           kind: 'func',
@@ -142,11 +142,11 @@
         },
         {
           kind: 'export',
+          name: 'load_at_page_size',
           id: {
             kind: 'identifier',
             name: 'load_at_page_size'
-          },
-          name: 'load_at_page_size'
+          }
         },
         {
           kind: 'func',
@@ -177,11 +177,11 @@
         },
         {
           kind: 'export',
+          name: 'store_at_page_size',
           id: {
             kind: 'identifier',
             name: 'store_at_page_size'
-          },
-          name: 'store_at_page_size'
+          }
         },
         {
           kind: 'func',
@@ -216,11 +216,11 @@
         },
         {
           kind: 'export',
+          name: 'grow',
           id: {
             kind: 'identifier',
             name: 'grow'
-          },
-          name: 'grow'
+          }
         },
         {
           kind: 'func',
@@ -262,11 +262,11 @@
         },
         {
           kind: 'export',
+          name: 'size_at_least',
           id: {
             kind: 'identifier',
             name: 'size_at_least'
-          },
-          name: 'size_at_least'
+          }
         },
         {
           kind: 'func',
@@ -304,11 +304,11 @@
         },
         {
           kind: 'export',
+          name: 'size',
           id: {
             kind: 'identifier',
             name: 'size'
-          },
-          name: 'size'
+          }
         },
         {
           kind: 'func',
