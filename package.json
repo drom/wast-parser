@@ -1,6 +1,6 @@
 {
   "name": "wast-parser",
-  "version": "0.13.1",
+  "version": "0.14.0",
   "description": "wast parser",
   "main": "index.js",
   "files": [
@@ -13,7 +13,7 @@
     "prepublish": "pegjs wast.pegjs index.js"
   },
   "bin": {
-    "wast-parser": "./bin/wast-parser.js"  
+    "wast-parser": "./bin/wast-parser.js"
   },
   "repository": {
     "type": "git",
