@@ -136,45 +136,6 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'grow_memory'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'grow_memory'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'grow_memory'
-          },
-          type: null,
-          param: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'grow_memory',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'i'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
             value: 'overflow_memory_size'
           },
           id: {
@@ -457,22 +418,6 @@
       failure: {
         kind: 'literal',
         value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        name: 'grow_memory',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '3'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'growing memory by non-multiple of page size'
       }
     },
     {

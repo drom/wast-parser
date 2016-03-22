@@ -14,65 +14,6 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'round_up_to_page'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'round_up_to_page'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'round_up_to_page'
-          },
-          type: null,
-          param: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'and',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'add',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '0xFFFF'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '0xFFFF0000'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
             value: 'load_at_zero'
           },
           id: {
@@ -263,62 +204,10 @@
           body: [{
             kind: 'grow_memory',
             expr: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'round_up_to_page'
-              },
-              expr: [{
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'sz'
-                }
-              }]
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'size_at_least'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'size_at_least'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'size_at_least'
-          },
-          type: null,
-          param: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'relop',
-            type: 'i32',
-            operator: 'ge_u',
-            left: {kind: 'memory_size'},
-            right: {
               kind: 'get_local',
               id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
+                kind: 'identifier',
+                name: 'sz'
               }
             }
           }]
@@ -365,23 +254,6 @@
       }
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'size_at_least',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
@@ -437,7 +309,7 @@
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '4'
+          init: '1'
         }]
       },
       expr: {
@@ -450,17 +322,13 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'size_at_least',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '4'
-        }]
+        name: 'size',
+        body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '1'
+        init: '0x10000'
       }
     },
     {
@@ -540,24 +408,20 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '65536'
+        init: '0x10000'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'size_at_least',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '8'
-        }]
+        name: 'size',
+        body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '1'
+        init: '0x50000'
       }
     },
     {
