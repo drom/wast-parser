@@ -459,12 +459,12 @@ type_def = kind:"type" id:( __ var )? __ func_def {
     };
 }
 
-import = kind:"import" id:( __ var )? __ name1:literal __ name2:literal type:( __ func_type )? params:( __ param )* result:( __ result )? {
+import = kind:"import" id:( __ var )? __ modName:literal __ funcName:literal type:( __ func_type )? params:( __ param )* result:( __ result )? {
     return {
         kind: kind,
         id: id ? id[1] : id,
-        name1: name1,
-        name2: name2,
+        modName: modName,
+        funcName: funcName,
         type: type ? type[1] : type,
         params: params.map(function (e) { return e[1]; }),
         result: result ? result[1] : result
