@@ -10,11 +10,11 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },
@@ -34,11 +34,11 @@
             kind: 'identifier',
             name: 'print_i64'
           },
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },
@@ -58,11 +58,11 @@
             kind: 'identifier',
             name: 'print_i32_f32'
           },
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },
@@ -88,11 +88,11 @@
             kind: 'identifier',
             name: 'print_i64_f64'
           },
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },

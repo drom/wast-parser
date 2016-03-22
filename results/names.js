@@ -630,11 +630,11 @@
         {
           kind: 'import',
           id: null,
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },
@@ -651,11 +651,11 @@
         {
           kind: 'import',
           id: null,
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },

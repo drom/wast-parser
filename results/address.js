@@ -23,11 +23,11 @@
             kind: 'identifier',
             name: 'print'
           },
-          name1: {
+          modName: {
             kind: 'literal',
             value: 'spectest'
           },
-          name2: {
+          funcName: {
             kind: 'literal',
             value: 'print'
           },
