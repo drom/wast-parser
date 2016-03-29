@@ -44,21 +44,21 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {
+            then: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'lhs'
               }
             },
-            consequent: {
+            else: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'rhs'
               }
             },
-            alternate: {
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -107,21 +107,21 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {
+            then: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'lhs'
               }
             },
-            consequent: {
+            else: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'rhs'
               }
             },
-            alternate: {
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -170,21 +170,21 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {
+            then: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'lhs'
               }
             },
-            consequent: {
+            else: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'rhs'
               }
             },
-            alternate: {
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -233,21 +233,21 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {
+            then: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'lhs'
               }
             },
-            consequent: {
+            else: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
                 name: 'rhs'
               }
             },
-            alternate: {
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -278,13 +278,13 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {kind: 'unreachable'},
-            consequent: {
+            then: {kind: 'unreachable'},
+            else: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            alternate: {
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -315,13 +315,13 @@
           local: [],
           body: [{
             kind: 'select',
-            test: {
+            then: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            consequent: {kind: 'unreachable'},
-            alternate: {
+            else: {kind: 'unreachable'},
+            test: {
               kind: 'get_local',
               id: {
                 kind: 'identifier',

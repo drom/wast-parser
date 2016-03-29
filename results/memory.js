@@ -947,7 +947,7 @@
                       init: '0'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'literal',
@@ -956,7 +956,7 @@
                     },
                     expr: null
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -1054,7 +1054,7 @@
                       }
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'return',
                     expr: {
                       kind: 'const',
@@ -1062,7 +1062,7 @@
                       init: '0'
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -1174,7 +1174,7 @@
                       init: '0'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'literal',
@@ -1183,7 +1183,7 @@
                     },
                     expr: null
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -1277,7 +1277,7 @@
                       }
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'return',
                     expr: {
                       kind: 'const',
@@ -1285,7 +1285,7 @@
                       init: '0'
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -1393,7 +1393,7 @@
                   }
                 }
               },
-              consequent: {
+              then: {
                 kind: 'return',
                 expr: {
                   kind: 'const',
@@ -1401,7 +1401,7 @@
                   init: '0'
                 }
               },
-              alternate: null
+              else: null
             },
             {
               kind: 'store',

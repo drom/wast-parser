@@ -128,12 +128,12 @@ expr
             };
         }
 
-        / kind:"if" __ test:expr __ consequent:expr alternate:( __ expr )? {
+        / kind:"if" __ test:expr __ thene:expr elsee:( __ expr )? {
             return {
                 kind: kind,
                 test: test,
-                consequent: consequent,
-                alternate: alternate ? alternate[1] : null
+                then: thene,
+                else: elsee ? elsee[1] : null
             };
         }
 
@@ -287,12 +287,12 @@ expr
             };
         }
 
-        / kind:"select" __ test:expr __ consequent:expr __ alternate:expr {
+        / kind:"select" __ thene:expr __ elsee:expr __ test:expr {
             return {
                 kind: kind,
-                test: test,
-                consequent: consequent,
-                alternate: alternate
+                then: thene,
+                else: elsee,
+                test: test
             };
         }
 

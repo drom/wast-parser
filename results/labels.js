@@ -131,7 +131,7 @@
                       init: '5'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -145,7 +145,7 @@
                       }
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'br',
@@ -246,7 +246,7 @@
                       init: '5'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -254,7 +254,7 @@
                     },
                     expr: null
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'if',
@@ -275,7 +275,7 @@
                       init: '8'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -289,7 +289,7 @@
                       }
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -414,7 +414,7 @@
                       init: '5'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -428,7 +428,7 @@
                       }
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'get_local',
@@ -539,7 +539,7 @@
                       }
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -553,7 +553,7 @@
                       }
                     }
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'br',
@@ -651,7 +651,7 @@
                     type: 'i32',
                     init: '1'
                   },
-                  consequent: {
+                  then: {
                     kind: 'then',
                     id: {
                       kind: 'identifier',
@@ -680,7 +680,7 @@
                       }
                     ]
                   },
-                  alternate: null
+                  else: null
                 },
                 {
                   kind: 'set_local',
@@ -713,7 +713,7 @@
                     type: 'i32',
                     init: '1'
                   },
-                  consequent: {
+                  then: {
                     kind: 'then',
                     id: {
                       kind: 'identifier',
@@ -742,7 +742,7 @@
                       }
                     ]
                   },
-                  alternate: {
+                  else: {
                     kind: 'else',
                     id: null,
                     body: [{
@@ -790,7 +790,7 @@
                     type: 'i32',
                     init: '1'
                   },
-                  consequent: {
+                  then: {
                     kind: 'then',
                     id: {
                       kind: 'identifier',
@@ -819,7 +819,7 @@
                       }
                     ]
                   },
-                  alternate: {
+                  else: {
                     kind: 'else',
                     id: {
                       kind: 'identifier',
@@ -870,7 +870,7 @@
                     type: 'i32',
                     init: '0'
                   },
-                  consequent: {
+                  then: {
                     kind: 'then',
                     id: null,
                     body: [{
@@ -886,7 +886,7 @@
                       }
                     }]
                   },
-                  alternate: {
+                  else: {
                     kind: 'else',
                     id: {
                       kind: 'identifier',
@@ -947,7 +947,7 @@
                     type: 'i32',
                     init: '0'
                   },
-                  consequent: {
+                  then: {
                     kind: 'then',
                     id: {
                       kind: 'identifier',
@@ -966,7 +966,7 @@
                       }
                     }]
                   },
-                  alternate: {
+                  else: {
                     kind: 'else',
                     id: {
                       kind: 'identifier',
@@ -1621,7 +1621,7 @@
                   type: 'i32',
                   init: '1'
                 },
-                consequent: {
+                then: {
                   kind: 'br',
                   id: {
                     kind: 'identifier',
@@ -1647,7 +1647,7 @@
                     }]
                   }
                 },
-                alternate: null
+                else: null
               },
               {
                 kind: 'const',
@@ -2803,7 +2803,7 @@
                   type: 'i32',
                   init: '1'
                 },
-                consequent: {
+                then: {
                   kind: 'br',
                   id: {
                     kind: 'identifier',
@@ -2829,7 +2829,7 @@
                     }]
                   }
                 },
-                alternate: {
+                else: {
                   kind: 'block',
                   id: null,
                   body: [

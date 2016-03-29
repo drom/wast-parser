@@ -2957,7 +2957,7 @@
             },
             {
               kind: 'select',
-              test: {
+              then: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -2965,7 +2965,7 @@
                 },
                 expr: []
               },
-              consequent: {
+              else: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -2973,7 +2973,7 @@
                 },
                 expr: []
               },
-              alternate: {
+              test: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -4577,7 +4577,7 @@
             },
             {
               kind: 'select',
-              test: {
+              then: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -4585,7 +4585,7 @@
                 },
                 expr: []
               },
-              consequent: {
+              else: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -4593,7 +4593,7 @@
                 },
                 expr: []
               },
-              alternate: {
+              test: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -5502,7 +5502,7 @@
             },
             {
               kind: 'select',
-              test: {
+              then: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -5510,7 +5510,7 @@
                 },
                 expr: []
               },
-              consequent: {
+              else: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -5518,7 +5518,7 @@
                 },
                 expr: []
               },
-              alternate: {
+              test: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -6427,7 +6427,7 @@
             },
             {
               kind: 'select',
-              test: {
+              then: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -6435,7 +6435,7 @@
                 },
                 expr: []
               },
-              consequent: {
+              else: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
@@ -6443,7 +6443,7 @@
                 },
                 expr: []
               },
-              alternate: {
+              test: {
                 kind: 'call',
                 id: {
                   kind: 'identifier',

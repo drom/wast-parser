@@ -65,12 +65,12 @@
                 init: '0'
               }
             },
-            consequent: {
+            then: {
               kind: 'const',
               type: 'i32',
               init: '1'
             },
-            alternate: {
+            else: {
               kind: 'call',
               id: {
                 kind: 'identifier',
@@ -135,12 +135,12 @@
                 init: '0'
               }
             },
-            consequent: {
+            then: {
               kind: 'const',
               type: 'i32',
               init: '0'
             },
-            alternate: {
+            else: {
               kind: 'call',
               id: {
                 kind: 'identifier',

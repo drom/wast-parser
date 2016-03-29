@@ -40,12 +40,12 @@
                 init: '0'
               }
             },
-            consequent: {
+            then: {
               kind: 'const',
               type: 'i64',
               init: '1'
             },
-            alternate: {
+            else: {
               kind: 'binop',
               type: 'i64',
               operator: 'mul',
@@ -125,12 +125,12 @@
                 init: '0'
               }
             },
-            consequent: {
+            then: {
               kind: 'const',
               type: 'i64',
               init: '1'
             },
-            alternate: {
+            else: {
               kind: 'binop',
               type: 'i64',
               operator: 'mul',
@@ -249,7 +249,7 @@
                       init: '0'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'literal',
@@ -258,7 +258,7 @@
                     },
                     expr: null
                   },
-                  alternate: {
+                  else: {
                     kind: 'block',
                     id: null,
                     body: [
@@ -435,7 +435,7 @@
                       init: '0'
                     }
                   },
-                  consequent: {
+                  then: {
                     kind: 'br',
                     id: {
                       kind: 'identifier',
@@ -443,7 +443,7 @@
                     },
                     expr: null
                   },
-                  alternate: {
+                  else: {
                     kind: 'block',
                     id: null,
                     body: [

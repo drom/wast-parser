@@ -63,8 +63,8 @@
                 raw: '0'
               }
             },
-            consequent: {kind: 'unreachable'},
-            alternate: {
+            then: {kind: 'unreachable'},
+            else: {
               kind: 'const',
               type: 'f32',
               init: '0'
