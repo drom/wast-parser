@@ -11,7 +11,7 @@
             name: 'no_dce.i32.div_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -58,7 +58,7 @@
             name: 'no_dce.i32.div_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -105,7 +105,7 @@
             name: 'no_dce.i64.div_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -152,7 +152,7 @@
             name: 'no_dce.i64.div_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -340,7 +340,7 @@
             name: 'no_dce.i32.rem_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -387,7 +387,7 @@
             name: 'no_dce.i32.rem_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -434,7 +434,7 @@
             name: 'no_dce.i64.rem_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -481,7 +481,7 @@
             name: 'no_dce.i64.rem_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -669,7 +669,7 @@
             name: 'no_dce.i32.trunc_s_f32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -700,7 +700,7 @@
             name: 'no_dce.i32.trunc_u_f32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -731,7 +731,7 @@
             name: 'no_dce.i32.trunc_s_f64'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -762,7 +762,7 @@
             name: 'no_dce.i32.trunc_u_f64'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -793,7 +793,7 @@
             name: 'no_dce.i64.trunc_s_f32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -824,7 +824,7 @@
             name: 'no_dce.i64.trunc_u_f32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -855,7 +855,7 @@
             name: 'no_dce.i64.trunc_s_f64'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -886,7 +886,7 @@
             name: 'no_dce.i64.trunc_u_f64'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1155,7 +1155,7 @@
             name: 'no_dce.i32.load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1199,7 +1199,7 @@
             name: 'no_dce.i64.load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1243,7 +1243,7 @@
             name: 'no_dce.f32.load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1287,7 +1287,7 @@
             name: 'no_dce.f64.load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

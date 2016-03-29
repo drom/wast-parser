@@ -11,7 +11,7 @@
             name: 'f32.add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -61,7 +61,7 @@
             name: 'f32.sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -111,7 +111,7 @@
             name: 'f32.mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -161,7 +161,7 @@
             name: 'f32.div'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -211,7 +211,7 @@
             name: 'f32.sqrt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -244,7 +244,7 @@
             name: 'f32.abs'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -277,7 +277,7 @@
             name: 'f32.neg'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -310,7 +310,7 @@
             name: 'f32.copysign'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -360,7 +360,7 @@
             name: 'f32.ceil'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -393,7 +393,7 @@
             name: 'f32.floor'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -426,7 +426,7 @@
             name: 'f32.trunc'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -459,7 +459,7 @@
             name: 'f32.nearest'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -492,7 +492,7 @@
             name: 'f64.add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -542,7 +542,7 @@
             name: 'f64.sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -592,7 +592,7 @@
             name: 'f64.mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -642,7 +642,7 @@
             name: 'f64.div'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -692,7 +692,7 @@
             name: 'f64.sqrt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -725,7 +725,7 @@
             name: 'f64.abs'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -758,7 +758,7 @@
             name: 'f64.neg'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -791,7 +791,7 @@
             name: 'f64.copysign'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -841,7 +841,7 @@
             name: 'f64.ceil'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -874,7 +874,7 @@
             name: 'f64.floor'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -907,7 +907,7 @@
             name: 'f64.trunc'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -940,7 +940,7 @@
             name: 'f64.nearest'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

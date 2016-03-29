@@ -11,7 +11,7 @@
             name: 'foo'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -59,7 +59,7 @@
             name: 'foo'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -104,7 +104,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -135,7 +135,7 @@
             name: 'malloc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -165,7 +165,7 @@
             name: '_malloc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -184,7 +184,7 @@
             name: '__malloc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -200,7 +200,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -238,7 +238,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -266,7 +266,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -297,7 +297,7 @@
             name: '_'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -324,7 +324,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -352,7 +352,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -383,7 +383,7 @@
             name: 'NaN'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -402,7 +402,7 @@
             name: 'Infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -421,7 +421,7 @@
             name: 'if'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -673,7 +673,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{

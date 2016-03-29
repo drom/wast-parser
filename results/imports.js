@@ -119,7 +119,7 @@
             name: 'print32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -184,7 +184,7 @@
             name: 'print64'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

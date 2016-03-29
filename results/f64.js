@@ -11,7 +11,7 @@
             name: 'add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -61,7 +61,7 @@
             name: 'sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -111,7 +111,7 @@
             name: 'mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -161,7 +161,7 @@
             name: 'div'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -211,7 +211,7 @@
             name: 'sqrt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -244,7 +244,7 @@
             name: 'min'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -294,7 +294,7 @@
             name: 'max'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -344,7 +344,7 @@
             name: 'ceil'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -377,7 +377,7 @@
             name: 'floor'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -410,7 +410,7 @@
             name: 'trunc'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -443,7 +443,7 @@
             name: 'nearest'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -476,7 +476,7 @@
             name: 'abs'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -509,7 +509,7 @@
             name: 'neg'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -542,7 +542,7 @@
             name: 'copysign'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{

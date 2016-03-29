@@ -48,7 +48,7 @@
             name: 'good'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -365,7 +365,7 @@
             name: 'bad2'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -488,7 +488,7 @@
               name: 'bad1'
             },
             type: null,
-            param: [{
+            params: [{
               kind: 'param',
               items: [{
                 kind: 'item',

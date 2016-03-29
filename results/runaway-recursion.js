@@ -8,7 +8,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -40,7 +40,7 @@
             name: 'a'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -59,7 +59,7 @@
             name: 'b'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{

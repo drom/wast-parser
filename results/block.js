@@ -11,7 +11,7 @@
             name: 'empty'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [
@@ -37,7 +37,7 @@
             name: 'singular'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -60,7 +60,7 @@
             name: 'multi'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -100,7 +100,7 @@
             name: 'effects'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'

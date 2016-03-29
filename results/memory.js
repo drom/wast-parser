@@ -312,7 +312,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -344,7 +344,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -376,7 +376,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -408,7 +408,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -442,7 +442,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -481,7 +481,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -520,7 +520,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -559,7 +559,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -598,7 +598,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -655,7 +655,7 @@
             name: 'data'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -888,7 +888,7 @@
             name: 'aligned'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1115,7 +1115,7 @@
             name: 'unaligned'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1338,7 +1338,7 @@
             name: 'cast'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -1459,7 +1459,7 @@
             name: 'i32_load8_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1514,7 +1514,7 @@
             name: 'i32_load8_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1569,7 +1569,7 @@
             name: 'i32_load16_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1624,7 +1624,7 @@
             name: 'i32_load16_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1679,7 +1679,7 @@
             name: 'i64_load8_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1734,7 +1734,7 @@
             name: 'i64_load8_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1789,7 +1789,7 @@
             name: 'i64_load16_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1844,7 +1844,7 @@
             name: 'i64_load16_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1899,7 +1899,7 @@
             name: 'i64_load32_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1954,7 +1954,7 @@
             name: 'i64_load32_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

@@ -11,7 +11,7 @@
             name: 'return-none'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -38,7 +38,7 @@
             name: 'empty'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: []

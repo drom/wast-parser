@@ -11,7 +11,7 @@
             name: 'add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -61,7 +61,7 @@
             name: 'sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -111,7 +111,7 @@
             name: 'mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -161,7 +161,7 @@
             name: 'div_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -211,7 +211,7 @@
             name: 'div_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -261,7 +261,7 @@
             name: 'rem_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -311,7 +311,7 @@
             name: 'rem_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -361,7 +361,7 @@
             name: 'and'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -411,7 +411,7 @@
             name: 'or'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -461,7 +461,7 @@
             name: 'xor'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -511,7 +511,7 @@
             name: 'shl'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -561,7 +561,7 @@
             name: 'shr_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -611,7 +611,7 @@
             name: 'shr_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -661,7 +661,7 @@
             name: 'rotl'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -711,7 +711,7 @@
             name: 'rotr'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -761,7 +761,7 @@
             name: 'clz'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -794,7 +794,7 @@
             name: 'ctz'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -827,7 +827,7 @@
             name: 'popcnt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -860,7 +860,7 @@
             name: 'eqz'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -893,7 +893,7 @@
             name: 'eq'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -943,7 +943,7 @@
             name: 'ne'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -993,7 +993,7 @@
             name: 'lt_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1043,7 +1043,7 @@
             name: 'lt_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1093,7 +1093,7 @@
             name: 'le_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1143,7 +1143,7 @@
             name: 'le_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1193,7 +1193,7 @@
             name: 'gt_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1243,7 +1243,7 @@
             name: 'gt_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1293,7 +1293,7 @@
             name: 'ge_s'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -1343,7 +1343,7 @@
             name: 'ge_u'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{

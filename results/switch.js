@@ -11,7 +11,7 @@
             name: 'stmt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -113,7 +113,7 @@
                                               },
                                               body: [{
                                                 kind: 'br_table',
-                                                expr: [{
+                                                exprs: [{
                                                   kind: 'get_local',
                                                   id: {
                                                     kind: 'identifier',
@@ -290,7 +290,7 @@
             name: 'expr'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -393,7 +393,7 @@
                                               },
                                               body: [{
                                                 kind: 'br_table',
-                                                expr: [{
+                                                exprs: [{
                                                   kind: 'cvtop',
                                                   type: 'i32',
                                                   type1: 'i64',
@@ -537,7 +537,7 @@
             name: 'arg'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -605,7 +605,7 @@
                           },
                           body: [{
                             kind: 'br_table',
-                            expr: [
+                            exprs: [
                               {
                                 kind: 'binop',
                                 type: 'i32',
@@ -676,7 +676,7 @@
             name: 'corner'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -688,7 +688,7 @@
               id: null,
               body: [{
                 kind: 'br_table',
-                expr: [{
+                exprs: [{
                   kind: 'const',
                   type: 'i32',
                   init: '0'
@@ -1199,12 +1199,12 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
             kind: 'br_table',
-            expr: [{
+            exprs: [{
               kind: 'const',
               type: 'i32',
               init: '0'

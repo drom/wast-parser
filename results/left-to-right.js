@@ -88,7 +88,7 @@
               name: 'i32_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -110,7 +110,7 @@
               name: 'i32_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -132,7 +132,7 @@
               name: 'i64_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -154,7 +154,7 @@
               name: 'i64_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -176,7 +176,7 @@
               name: 'f32_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -198,7 +198,7 @@
               name: 'f32_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -220,7 +220,7 @@
               name: 'f64_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -242,7 +242,7 @@
               name: 'f64_T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -258,7 +258,7 @@
             name: 'reset'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -286,7 +286,7 @@
             name: 'bump'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [
@@ -391,7 +391,7 @@
             name: 'get'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -418,7 +418,7 @@
             name: 'i32_left'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -464,7 +464,7 @@
             name: 'i32_right'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -510,7 +510,7 @@
             name: 'i32_another'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -556,7 +556,7 @@
             name: 'i32_callee'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -602,7 +602,7 @@
             name: 'i32_bool'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -648,7 +648,7 @@
             name: 'i64_left'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -694,7 +694,7 @@
             name: 'i64_right'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -740,7 +740,7 @@
             name: 'i64_another'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -786,7 +786,7 @@
             name: 'i64_callee'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -832,7 +832,7 @@
             name: 'i64_bool'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -878,7 +878,7 @@
             name: 'f32_left'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -924,7 +924,7 @@
             name: 'f32_right'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -970,7 +970,7 @@
             name: 'f32_another'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -1016,7 +1016,7 @@
             name: 'f32_callee'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1062,7 +1062,7 @@
             name: 'f32_bool'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1108,7 +1108,7 @@
             name: 'f64_left'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -1154,7 +1154,7 @@
             name: 'f64_right'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -1200,7 +1200,7 @@
             name: 'f64_another'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -1246,7 +1246,7 @@
             name: 'f64_callee'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1292,7 +1292,7 @@
             name: 'f64_bool'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1338,7 +1338,7 @@
             name: 'i32_dummy'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [
               {
@@ -1362,7 +1362,7 @@
             name: 'i64_dummy'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [
               {
@@ -1386,7 +1386,7 @@
             name: 'f32_dummy'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [
               {
@@ -1410,7 +1410,7 @@
             name: 'f64_dummy'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [
               {
@@ -1434,7 +1434,7 @@
             name: 'i32_add'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1487,7 +1487,7 @@
             name: 'i32_sub'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1540,7 +1540,7 @@
             name: 'i32_mul'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1593,7 +1593,7 @@
             name: 'i32_div_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1646,7 +1646,7 @@
             name: 'i32_div_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1699,7 +1699,7 @@
             name: 'i32_rem_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1752,7 +1752,7 @@
             name: 'i32_rem_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1805,7 +1805,7 @@
             name: 'i32_and'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1858,7 +1858,7 @@
             name: 'i32_or'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1911,7 +1911,7 @@
             name: 'i32_xor'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1964,7 +1964,7 @@
             name: 'i32_shl'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2017,7 +2017,7 @@
             name: 'i32_shr_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2070,7 +2070,7 @@
             name: 'i32_shr_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2123,7 +2123,7 @@
             name: 'i32_eq'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2176,7 +2176,7 @@
             name: 'i32_ne'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2229,7 +2229,7 @@
             name: 'i32_lt_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2282,7 +2282,7 @@
             name: 'i32_le_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2335,7 +2335,7 @@
             name: 'i32_lt_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2388,7 +2388,7 @@
             name: 'i32_le_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2441,7 +2441,7 @@
             name: 'i32_gt_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2494,7 +2494,7 @@
             name: 'i32_ge_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2547,7 +2547,7 @@
             name: 'i32_gt_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2600,7 +2600,7 @@
             name: 'i32_ge_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2653,7 +2653,7 @@
             name: 'i32_store'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2708,7 +2708,7 @@
             name: 'i32_store8'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2763,7 +2763,7 @@
             name: 'i32_store16'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2818,7 +2818,7 @@
             name: 'i32_call'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2875,7 +2875,7 @@
             name: 'i32_call_indirect'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2940,7 +2940,7 @@
             name: 'i32_select'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2999,7 +2999,7 @@
             name: 'i64_add'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3052,7 +3052,7 @@
             name: 'i64_sub'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3105,7 +3105,7 @@
             name: 'i64_mul'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3158,7 +3158,7 @@
             name: 'i64_div_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3211,7 +3211,7 @@
             name: 'i64_div_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3264,7 +3264,7 @@
             name: 'i64_rem_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3317,7 +3317,7 @@
             name: 'i64_rem_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3370,7 +3370,7 @@
             name: 'i64_and'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3423,7 +3423,7 @@
             name: 'i64_or'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3476,7 +3476,7 @@
             name: 'i64_xor'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3529,7 +3529,7 @@
             name: 'i64_shl'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3582,7 +3582,7 @@
             name: 'i64_shr_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3635,7 +3635,7 @@
             name: 'i64_shr_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3688,7 +3688,7 @@
             name: 'i64_eq'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3741,7 +3741,7 @@
             name: 'i64_ne'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3794,7 +3794,7 @@
             name: 'i64_lt_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3847,7 +3847,7 @@
             name: 'i64_le_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3900,7 +3900,7 @@
             name: 'i64_lt_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -3953,7 +3953,7 @@
             name: 'i64_le_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4006,7 +4006,7 @@
             name: 'i64_gt_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4059,7 +4059,7 @@
             name: 'i64_ge_s'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4112,7 +4112,7 @@
             name: 'i64_gt_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4165,7 +4165,7 @@
             name: 'i64_ge_u'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4218,7 +4218,7 @@
             name: 'i64_store'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4273,7 +4273,7 @@
             name: 'i64_store8'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4328,7 +4328,7 @@
             name: 'i64_store16'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4383,7 +4383,7 @@
             name: 'i64_store32'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4438,7 +4438,7 @@
             name: 'i64_call'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4495,7 +4495,7 @@
             name: 'i64_call_indirect'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4560,7 +4560,7 @@
             name: 'i64_select'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4619,7 +4619,7 @@
             name: 'f32_add'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4672,7 +4672,7 @@
             name: 'f32_sub'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4725,7 +4725,7 @@
             name: 'f32_mul'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4778,7 +4778,7 @@
             name: 'f32_div'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4831,7 +4831,7 @@
             name: 'f32_copysign'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4884,7 +4884,7 @@
             name: 'f32_eq'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4937,7 +4937,7 @@
             name: 'f32_ne'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -4990,7 +4990,7 @@
             name: 'f32_lt'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5043,7 +5043,7 @@
             name: 'f32_le'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5096,7 +5096,7 @@
             name: 'f32_gt'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5149,7 +5149,7 @@
             name: 'f32_ge'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5202,7 +5202,7 @@
             name: 'f32_min'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5255,7 +5255,7 @@
             name: 'f32_max'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5308,7 +5308,7 @@
             name: 'f32_store'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5363,7 +5363,7 @@
             name: 'f32_call'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5420,7 +5420,7 @@
             name: 'f32_call_indirect'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5485,7 +5485,7 @@
             name: 'f32_select'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5544,7 +5544,7 @@
             name: 'f64_add'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5597,7 +5597,7 @@
             name: 'f64_sub'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5650,7 +5650,7 @@
             name: 'f64_mul'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5703,7 +5703,7 @@
             name: 'f64_div'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5756,7 +5756,7 @@
             name: 'f64_copysign'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5809,7 +5809,7 @@
             name: 'f64_eq'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5862,7 +5862,7 @@
             name: 'f64_ne'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5915,7 +5915,7 @@
             name: 'f64_lt'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -5968,7 +5968,7 @@
             name: 'f64_le'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6021,7 +6021,7 @@
             name: 'f64_gt'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6074,7 +6074,7 @@
             name: 'f64_ge'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6127,7 +6127,7 @@
             name: 'f64_min'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6180,7 +6180,7 @@
             name: 'f64_max'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6233,7 +6233,7 @@
             name: 'f64_store'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6288,7 +6288,7 @@
             name: 'f64_call'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6345,7 +6345,7 @@
             name: 'f64_call_indirect'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -6410,7 +6410,7 @@
             name: 'f64_select'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'

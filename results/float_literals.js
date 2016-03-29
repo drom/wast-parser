@@ -11,7 +11,7 @@
             name: 'f32.nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -36,7 +36,7 @@
             name: 'f32.positive_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -61,7 +61,7 @@
             name: 'f32.negative_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -86,7 +86,7 @@
             name: 'f32.plain_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -111,7 +111,7 @@
             name: 'f32.informally_known_as_plain_snan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -136,7 +136,7 @@
             name: 'f32.allones_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -161,7 +161,7 @@
             name: 'f32.misc_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -186,7 +186,7 @@
             name: 'f32.misc_positive_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -211,7 +211,7 @@
             name: 'f32.misc_negative_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -236,7 +236,7 @@
             name: 'f32.infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -261,7 +261,7 @@
             name: 'f32.positive_infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -286,7 +286,7 @@
             name: 'f32.negative_infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -311,7 +311,7 @@
             name: 'f32.zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -336,7 +336,7 @@
             name: 'f32.positive_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -361,7 +361,7 @@
             name: 'f32.negative_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -386,7 +386,7 @@
             name: 'f32.misc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -411,7 +411,7 @@
             name: 'f32.min_positive'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -436,7 +436,7 @@
             name: 'f32.min_normal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -461,7 +461,7 @@
             name: 'f32.max_finite'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -486,7 +486,7 @@
             name: 'f32.max_subnormal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -511,7 +511,7 @@
             name: 'f32.trailing_dot'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -536,7 +536,7 @@
             name: 'f32_dec.zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -561,7 +561,7 @@
             name: 'f32_dec.positive_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -586,7 +586,7 @@
             name: 'f32_dec.negative_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -611,7 +611,7 @@
             name: 'f32_dec.misc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -636,7 +636,7 @@
             name: 'f32_dec.min_positive'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -661,7 +661,7 @@
             name: 'f32_dec.min_normal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -686,7 +686,7 @@
             name: 'f32_dec.max_subnormal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -711,7 +711,7 @@
             name: 'f32_dec.max_finite'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -736,7 +736,7 @@
             name: 'f32_dec.trailing_dot'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -761,7 +761,7 @@
             name: 'f64.nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -786,7 +786,7 @@
             name: 'f64.positive_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -811,7 +811,7 @@
             name: 'f64.negative_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -836,7 +836,7 @@
             name: 'f64.plain_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -861,7 +861,7 @@
             name: 'f64.informally_known_as_plain_snan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -886,7 +886,7 @@
             name: 'f64.allones_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -911,7 +911,7 @@
             name: 'f64.misc_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -936,7 +936,7 @@
             name: 'f64.misc_positive_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -961,7 +961,7 @@
             name: 'f64.misc_negative_nan'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -986,7 +986,7 @@
             name: 'f64.infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1011,7 +1011,7 @@
             name: 'f64.positive_infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1036,7 +1036,7 @@
             name: 'f64.negative_infinity'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1061,7 +1061,7 @@
             name: 'f64.zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1086,7 +1086,7 @@
             name: 'f64.positive_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1111,7 +1111,7 @@
             name: 'f64.negative_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1136,7 +1136,7 @@
             name: 'f64.misc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1161,7 +1161,7 @@
             name: 'f64.min_positive'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1186,7 +1186,7 @@
             name: 'f64.min_normal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1211,7 +1211,7 @@
             name: 'f64.max_subnormal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1236,7 +1236,7 @@
             name: 'f64.max_finite'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1261,7 +1261,7 @@
             name: 'f64.trailing_dot'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1286,7 +1286,7 @@
             name: 'f64_dec.zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1311,7 +1311,7 @@
             name: 'f64_dec.positive_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1336,7 +1336,7 @@
             name: 'f64_dec.negative_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1361,7 +1361,7 @@
             name: 'f64_dec.misc'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1386,7 +1386,7 @@
             name: 'f64_dec.min_positive'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1411,7 +1411,7 @@
             name: 'f64_dec.min_normal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1436,7 +1436,7 @@
             name: 'f64_dec.max_subnormal'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1461,7 +1461,7 @@
             name: 'f64_dec.max_finite'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -1486,7 +1486,7 @@
             name: 'f64_dec.trailing_dot'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'

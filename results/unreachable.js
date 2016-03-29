@@ -11,7 +11,7 @@
             name: 'return_i32'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -26,7 +26,7 @@
             name: 'return_f64'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -41,7 +41,7 @@
             name: 'if'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -78,7 +78,7 @@
             name: 'block'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -106,7 +106,7 @@
             name: 'return_i64'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i64'
@@ -131,7 +131,7 @@
             name: 'call'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f64'
@@ -156,7 +156,7 @@
             name: 'misc1'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'

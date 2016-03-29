@@ -28,7 +28,7 @@
             name: 'load_at_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -66,7 +66,7 @@
             name: 'store_at_zero'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -108,7 +108,7 @@
             name: 'load_at_page_size'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -146,7 +146,7 @@
             name: 'store_at_page_size'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -188,7 +188,7 @@
             name: 'grow'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -230,7 +230,7 @@
             name: 'size'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'

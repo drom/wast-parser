@@ -8,7 +8,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -93,7 +93,7 @@
             name: 'fac-rec'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -172,7 +172,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -348,7 +348,7 @@
             name: 'fac-iter'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -526,7 +526,7 @@
             name: 'fac-opt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

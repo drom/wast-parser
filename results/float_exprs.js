@@ -11,7 +11,7 @@
             name: 'f64.no_contraction'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -242,7 +242,7 @@
             name: 'f32.no_fma'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -323,7 +323,7 @@
             name: 'f64.no_fma'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -699,7 +699,7 @@
             name: 'f32.no_fold_add_zero'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -748,7 +748,7 @@
             name: 'f64.no_fold_add_zero'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -836,7 +836,7 @@
             name: 'f32.no_fold_zero_sub'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -885,7 +885,7 @@
             name: 'f64.no_fold_zero_sub'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -973,7 +973,7 @@
             name: 'f32.no_fold_mul_zero'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1022,7 +1022,7 @@
             name: 'f64.no_fold_mul_zero'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1178,7 +1178,7 @@
             name: 'f32.no_fold_zero_div'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1227,7 +1227,7 @@
             name: 'f64.no_fold_zero_div'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1363,7 +1363,7 @@
             name: 'f32.no_fold_eq_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1414,7 +1414,7 @@
             name: 'f64.no_fold_eq_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1504,7 +1504,7 @@
             name: 'f32.no_fold_ne_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1555,7 +1555,7 @@
             name: 'f64.no_fold_ne_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1645,7 +1645,7 @@
             name: 'f32.no_fold_sub_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1696,7 +1696,7 @@
             name: 'f64.no_fold_sub_self'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1810,7 +1810,7 @@
             name: 'f32.no_fold_div_3'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1859,7 +1859,7 @@
             name: 'f64.no_fold_div_3'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -2083,7 +2083,7 @@
             name: 'f32.no_distribute'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -2176,7 +2176,7 @@
             name: 'f64.no_distribute'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -2564,7 +2564,7 @@
             name: 'f32.no_reassociate_add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -2665,7 +2665,7 @@
             name: 'f64.no_reassociate_add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -3111,7 +3111,7 @@
             name: 'f32.no_reassociate_mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -3212,7 +3212,7 @@
             name: 'f64.no_reassociate_mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -3658,7 +3658,7 @@
             name: 'f32.no_fold_div_0'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -3707,7 +3707,7 @@
             name: 'f64.no_fold_div_0'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -3979,7 +3979,7 @@
             name: 'f32.no_fold_div_neg0'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -4028,7 +4028,7 @@
             name: 'f64.no_fold_div_neg0'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -4300,7 +4300,7 @@
             name: 'f32.no_fold_to_hypot'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -4390,7 +4390,7 @@
             name: 'f64.no_fold_to_hypot'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -4725,7 +4725,7 @@
             name: 'f32.no_approximate_reciprocal'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -4909,7 +4909,7 @@
             name: 'f32.no_approximate_reciprocal_sqrt'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -5098,7 +5098,7 @@
             name: 'f32.no_approximate_sqrt_reciprocal'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -5287,7 +5287,7 @@
             name: 'i32.no_fold_f32_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -5338,7 +5338,7 @@
             name: 'i32.no_fold_f32_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -5389,7 +5389,7 @@
             name: 'i64.no_fold_f64_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -5440,7 +5440,7 @@
             name: 'i64.no_fold_f64_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -5700,7 +5700,7 @@
             name: 'f32.no_fold_add_sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -5773,7 +5773,7 @@
             name: 'f64.no_fold_add_sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6091,7 +6091,7 @@
             name: 'f32.no_fold_sub_add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6164,7 +6164,7 @@
             name: 'f64.no_fold_sub_add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6482,7 +6482,7 @@
             name: 'f32.no_fold_mul_div'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6555,7 +6555,7 @@
             name: 'f64.no_fold_mul_div'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6873,7 +6873,7 @@
             name: 'f32.no_fold_div_mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -6946,7 +6946,7 @@
             name: 'f64.no_fold_div_mul'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -7264,7 +7264,7 @@
             name: 'no_fold_demote_promote'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -7405,7 +7405,7 @@
             name: 'no_demote_mixed_add'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -7478,7 +7478,7 @@
             name: 'no_demote_mixed_add_commuted'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -7796,7 +7796,7 @@
             name: 'no_demote_mixed_sub'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -7994,7 +7994,7 @@
             name: 'f32.i32.no_fold_trunc_s_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8045,7 +8045,7 @@
             name: 'f32.i32.no_fold_trunc_u_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8096,7 +8096,7 @@
             name: 'f32.i32.no_fold_trunc_s_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8147,7 +8147,7 @@
             name: 'f32.i32.no_fold_trunc_u_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8198,7 +8198,7 @@
             name: 'f64.i32.no_fold_trunc_s_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8249,7 +8249,7 @@
             name: 'f64.i32.no_fold_trunc_u_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8300,7 +8300,7 @@
             name: 'f64.i32.no_fold_trunc_s_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8351,7 +8351,7 @@
             name: 'f64.i32.no_fold_trunc_u_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8402,7 +8402,7 @@
             name: 'f32.i64.no_fold_trunc_s_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8453,7 +8453,7 @@
             name: 'f32.i64.no_fold_trunc_u_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8504,7 +8504,7 @@
             name: 'f32.i64.no_fold_trunc_s_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8555,7 +8555,7 @@
             name: 'f32.i64.no_fold_trunc_u_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8606,7 +8606,7 @@
             name: 'f64.i64.no_fold_trunc_s_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8657,7 +8657,7 @@
             name: 'f64.i64.no_fold_trunc_u_convert_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8708,7 +8708,7 @@
             name: 'f64.i64.no_fold_trunc_s_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -8759,7 +8759,7 @@
             name: 'f64.i64.no_fold_trunc_u_convert_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

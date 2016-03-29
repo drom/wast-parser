@@ -11,7 +11,7 @@
             name: 'block'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -51,7 +51,7 @@
             name: 'loop1'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -166,7 +166,7 @@
             name: 'loop2'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -334,7 +334,7 @@
             name: 'loop3'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -448,7 +448,7 @@
             name: 'loop4'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -574,7 +574,7 @@
             name: 'loop5'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -614,7 +614,7 @@
             name: 'if'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1038,7 +1038,7 @@
             name: 'switch'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1108,7 +1108,7 @@
                                     },
                                     body: [{
                                       kind: 'br_table',
-                                      expr: [{
+                                      exprs: [{
                                         kind: 'get_local',
                                         id: {
                                           kind: 'literal',
@@ -1199,7 +1199,7 @@
             name: 'return'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1235,7 +1235,7 @@
                       body: [
                         {
                           kind: 'br_table',
-                          expr: [{
+                          exprs: [{
                             kind: 'get_local',
                             id: {
                               kind: 'literal',
@@ -1295,7 +1295,7 @@
             name: 'br_if0'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1542,7 +1542,7 @@
             name: 'br_if1'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1601,7 +1601,7 @@
             name: 'br_if2'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1664,7 +1664,7 @@
             name: 'br_if3'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1749,7 +1749,7 @@
             name: 'misc1'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1792,7 +1792,7 @@
             name: 'misc2'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -1824,7 +1824,7 @@
             name: 'redefinition'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2399,7 +2399,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -2437,7 +2437,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -2483,7 +2483,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'
@@ -2528,7 +2528,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -2573,7 +2573,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -2620,7 +2620,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -2679,7 +2679,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -2745,7 +2745,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -2783,7 +2783,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'

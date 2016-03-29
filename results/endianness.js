@@ -17,7 +17,7 @@
             name: 'i16_store_little'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -109,7 +109,7 @@
             name: 'i32_store_little'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -205,7 +205,7 @@
             name: 'i64_store_little'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -313,7 +313,7 @@
             name: 'i16_load_little'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -389,7 +389,7 @@
             name: 'i32_load_little'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -463,7 +463,7 @@
             name: 'i64_load_little'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -549,7 +549,7 @@
             name: 'i32_load16_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -606,7 +606,7 @@
             name: 'i32_load16_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -663,7 +663,7 @@
             name: 'i32_load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -720,7 +720,7 @@
             name: 'i64_load16_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -783,7 +783,7 @@
             name: 'i64_load16_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -846,7 +846,7 @@
             name: 'i64_load32_s'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -909,7 +909,7 @@
             name: 'i64_load32_u'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -972,7 +972,7 @@
             name: 'i64_load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1029,7 +1029,7 @@
             name: 'f32_load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1092,7 +1092,7 @@
             name: 'f64_load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1155,7 +1155,7 @@
             name: 'i32_store16'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1209,7 +1209,7 @@
             name: 'i32_store'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1263,7 +1263,7 @@
             name: 'i64_store16'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1323,7 +1323,7 @@
             name: 'i64_store32'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1383,7 +1383,7 @@
             name: 'i64_store'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1437,7 +1437,7 @@
             name: 'f32_store'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1497,7 +1497,7 @@
             name: 'f64_store'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

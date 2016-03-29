@@ -28,7 +28,7 @@
             name: 'zero_everything'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [
@@ -120,7 +120,7 @@
             name: 'test_store_to_load'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -194,7 +194,7 @@
             name: 'test_redundant_load'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -264,7 +264,7 @@
             name: 'test_dead_store'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'f32'

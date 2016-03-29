@@ -10,7 +10,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -46,7 +46,7 @@
               name: 'main'
             },
             type: null,
-            param: [],
+            params: [],
             result: {
               kind: 'result',
               type: 'i32'
@@ -87,7 +87,7 @@
               name: 'main'
             },
             type: null,
-            param: [{
+            params: [{
               kind: 'param',
               items: [{
                 kind: 'item',
@@ -136,7 +136,7 @@
             name: 'inc'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -182,7 +182,7 @@
             name: 'get'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -212,7 +212,7 @@
             name: 'main'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [
@@ -345,7 +345,7 @@
             name: 'inc'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -391,7 +391,7 @@
             name: 'get'
           },
           type: null,
-          param: [],
+          params: [],
           result: {
             kind: 'result',
             type: 'i32'
@@ -421,7 +421,7 @@
             name: 'main'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [
@@ -566,7 +566,7 @@
             name: 'main'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -626,7 +626,7 @@
             name: 'main'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{

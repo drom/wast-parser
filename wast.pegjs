@@ -208,7 +208,7 @@ expr
         / kind:"br_table" body:( __ var )* expr:( __ expr )* {
             return {
                 kind: kind,
-                expr: expr.map(function (e) { return e[1]; }),
+                exprs: expr.map(function (e) { return e[1]; }),
                 body: body.map(function (e) { return e[1]; })
             };
         }
@@ -414,7 +414,7 @@ func = kind:"func" id:( __ var )? type:( __ func_type )? param:( __ param )* res
         kind: kind,
         id: id ? id[1] : id,
         type: type ? type[1] : type,
-        param: param.map(function (e) { return e[1]; }),
+        params: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: local.map(function (e) { return e[1]; }),
         body: body.map(function (e) { return e[1]; })
@@ -445,7 +445,7 @@ result_def = "(" kind:"result" __ type:local_type __ ")" {
 func_def = "(" kind:"func" param:( __ param_def )* result:( __ result_def )? __ ")" {
     return {
         kind: kind,
-        param: param.map(function (e) { return e[1]; }),
+        params: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: [],
         body: []

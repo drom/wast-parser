@@ -113,7 +113,7 @@
             name: 'run'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [
             {
@@ -470,7 +470,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [
             {
@@ -524,7 +524,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [
             {
@@ -578,7 +578,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [
             {
@@ -632,7 +632,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [
             {

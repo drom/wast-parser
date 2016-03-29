@@ -8,7 +8,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -38,7 +38,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -80,7 +80,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -93,7 +93,7 @@
           kind: 'func',
           id: null,
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -137,7 +137,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -174,7 +174,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -187,7 +187,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -236,7 +236,7 @@
             kind: 'func',
             id: null,
             type: null,
-            param: [],
+            params: [],
             result: null,
             local: [],
             body: [{
@@ -286,7 +286,7 @@
             name: 'f'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

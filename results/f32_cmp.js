@@ -11,7 +11,7 @@
             name: 'eq'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -61,7 +61,7 @@
             name: 'ne'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -111,7 +111,7 @@
             name: 'lt'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -161,7 +161,7 @@
             name: 'le'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -211,7 +211,7 @@
             name: 'gt'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -261,7 +261,7 @@
             name: 'ge'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{

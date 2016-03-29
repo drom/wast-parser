@@ -28,7 +28,7 @@
             name: 'store'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -97,7 +97,7 @@
             name: 'load'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -150,7 +150,7 @@
             name: 'overflow_memory_size'
           },
           type: null,
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{

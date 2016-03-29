@@ -52,7 +52,7 @@
               raw: '0'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: []
@@ -67,7 +67,7 @@
               name: 'S'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: []
@@ -86,7 +86,7 @@
               raw: '4'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -119,7 +119,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -165,7 +165,7 @@
               name: 'T'
             }
           },
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -246,7 +246,7 @@
               name: 'U'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -349,7 +349,7 @@
               raw: '42'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: []
@@ -455,7 +455,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -477,7 +477,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -499,7 +499,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -521,7 +521,7 @@
               name: 'U'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -543,7 +543,7 @@
               name: 'U'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -559,7 +559,7 @@
             name: 'callt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -605,7 +605,7 @@
             name: 'callu'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -1019,7 +1019,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -1041,7 +1041,7 @@
               name: 'T'
             }
           },
-          param: [],
+          params: [],
           result: null,
           local: [],
           body: [{
@@ -1057,7 +1057,7 @@
             name: 'callt'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',

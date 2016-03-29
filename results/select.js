@@ -11,7 +11,7 @@
             name: 'select_i32'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -74,7 +74,7 @@
             name: 'select_i64'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -137,7 +137,7 @@
             name: 'select_f32'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -200,7 +200,7 @@
             name: 'select_f64'
           },
           type: null,
-          param: [
+          params: [
             {
               kind: 'param',
               items: [{
@@ -263,7 +263,7 @@
             name: 'select_trap_l'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
@@ -300,7 +300,7 @@
             name: 'select_trap_r'
           },
           type: null,
-          param: [{
+          params: [{
             kind: 'param',
             items: [{
               kind: 'item',
