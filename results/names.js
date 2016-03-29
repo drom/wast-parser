@@ -699,7 +699,7 @@
                 value: 0,
                 raw: '0'
               },
-              expr: [{
+              exprs: [{
                 kind: 'get_local',
                 id: {
                   kind: 'literal',
@@ -715,7 +715,7 @@
                 value: 1,
                 raw: '1'
               },
-              expr: [{
+              exprs: [{
                 kind: 'get_local',
                 id: {
                   kind: 'literal',

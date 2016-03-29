@@ -18,7 +18,7 @@
               value: 0,
               raw: '0'
             },
-            expr: []
+            exprs: []
           }]
         },
         {
@@ -49,7 +49,7 @@
               kind: 'identifier',
               name: 'b'
             },
-            expr: []
+            exprs: []
           }]
         },
         {
@@ -68,7 +68,7 @@
               kind: 'identifier',
               name: 'a'
             },
-            expr: []
+            exprs: []
           }]
         },
         {

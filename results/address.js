@@ -65,7 +65,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 8,
@@ -87,7 +87,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 8,
@@ -109,7 +109,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 8,
@@ -131,7 +131,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 8,
@@ -153,7 +153,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 16,
@@ -175,7 +175,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 16,
@@ -197,7 +197,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 16,
@@ -219,7 +219,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 16,
@@ -241,7 +241,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: 16,
@@ -263,7 +263,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: null,
@@ -285,7 +285,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: null,
@@ -307,7 +307,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: null,
@@ -329,7 +329,7 @@
                 kind: 'identifier',
                 name: 'print'
               },
-              expr: [{
+              exprs: [{
                 kind: 'load',
                 type: 'i32',
                 size: null,

@@ -255,7 +255,7 @@
               kind: 'identifier',
               name: 'print'
             },
-            expr: [{
+            exprs: [{
               kind: 'get_local',
               id: {
                 kind: 'literal',
@@ -578,7 +578,7 @@
               kind: 'identifier',
               name: 'T'
             },
-            expr: [{
+            exprs: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -624,7 +624,7 @@
               kind: 'identifier',
               name: 'U'
             },
-            expr: [{
+            exprs: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',
@@ -1076,7 +1076,7 @@
               kind: 'identifier',
               name: 'T'
             },
-            expr: [{
+            exprs: [{
               kind: 'get_local',
               id: {
                 kind: 'identifier',

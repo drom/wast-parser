@@ -229,7 +229,7 @@ expr
             return {
                 kind: kind,
                 id: id,
-                expr: expr.map(function (e) { return e[1]; })
+                exprs: expr.map(function (e) { return e[1]; })
             };
         }
 
@@ -237,7 +237,7 @@ expr
             return {
                 kind: kind,
                 id: id,
-                expr: expr.map(function (e) { return e[1]; })
+                exprs: expr.map(function (e) { return e[1]; })
             }
         }
 

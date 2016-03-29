@@ -156,7 +156,7 @@
                 kind: 'identifier',
                 name: 'print_i32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
@@ -175,7 +175,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
@@ -194,7 +194,7 @@
                 kind: 'identifier',
                 name: 'print_f32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
@@ -213,7 +213,7 @@
                 kind: 'identifier',
                 name: 'print_f64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'set_local',
                 id: {
                   kind: 'identifier',
@@ -232,7 +232,7 @@
                 kind: 'identifier',
                 name: 'print_i32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i32',
                 size: null,
@@ -256,7 +256,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i64',
                 size: null,
@@ -280,7 +280,7 @@
                 kind: 'identifier',
                 name: 'print_f32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'f32',
                 size: null,
@@ -304,7 +304,7 @@
                 kind: 'identifier',
                 name: 'print_f64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'f64',
                 size: null,
@@ -328,7 +328,7 @@
                 kind: 'identifier',
                 name: 'print_i32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i32',
                 size: 8,
@@ -352,7 +352,7 @@
                 kind: 'identifier',
                 name: 'print_i32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i32',
                 size: 1,
@@ -376,7 +376,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i64',
                 size: 8,
@@ -400,7 +400,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i64',
                 size: 1,
@@ -424,7 +424,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'store',
                 type: 'i64',
                 size: 3,

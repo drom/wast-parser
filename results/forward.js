@@ -76,7 +76,7 @@
                 kind: 'identifier',
                 name: 'odd'
               },
-              expr: [{
+              exprs: [{
                 kind: 'binop',
                 type: 'i32',
                 operator: 'sub',
@@ -146,7 +146,7 @@
                 kind: 'identifier',
                 name: 'even'
               },
-              expr: [{
+              exprs: [{
                 kind: 'binop',
                 type: 'i32',
                 operator: 'sub',

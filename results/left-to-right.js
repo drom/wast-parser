@@ -431,7 +431,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -477,7 +477,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -523,7 +523,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -569,7 +569,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -615,7 +615,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -661,7 +661,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -707,7 +707,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -753,7 +753,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -799,7 +799,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -845,7 +845,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -891,7 +891,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -937,7 +937,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -983,7 +983,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1029,7 +1029,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1075,7 +1075,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1121,7 +1121,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1167,7 +1167,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1213,7 +1213,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1259,7 +1259,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1305,7 +1305,7 @@
                 kind: 'identifier',
                 name: 'bump'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -1447,7 +1447,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1459,7 +1459,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1467,7 +1467,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1476,7 +1476,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1500,7 +1500,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1512,7 +1512,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1520,7 +1520,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1529,7 +1529,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1553,7 +1553,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1565,7 +1565,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1573,7 +1573,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1582,7 +1582,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1606,7 +1606,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1618,7 +1618,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1626,7 +1626,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1635,7 +1635,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1659,7 +1659,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1671,7 +1671,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1679,7 +1679,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1688,7 +1688,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1712,7 +1712,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1724,7 +1724,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1732,7 +1732,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1741,7 +1741,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1765,7 +1765,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1777,7 +1777,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1785,7 +1785,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1794,7 +1794,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1818,7 +1818,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1830,7 +1830,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1838,7 +1838,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1847,7 +1847,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1871,7 +1871,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1883,7 +1883,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1891,7 +1891,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1900,7 +1900,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1924,7 +1924,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1936,7 +1936,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1944,7 +1944,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -1953,7 +1953,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -1977,7 +1977,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -1989,7 +1989,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -1997,7 +1997,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2006,7 +2006,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2030,7 +2030,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -2042,7 +2042,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2050,7 +2050,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2059,7 +2059,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2083,7 +2083,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -2095,7 +2095,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2103,7 +2103,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2112,7 +2112,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2136,7 +2136,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2148,7 +2148,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2156,7 +2156,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2165,7 +2165,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2189,7 +2189,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2201,7 +2201,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2209,7 +2209,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2218,7 +2218,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2242,7 +2242,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2254,7 +2254,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2262,7 +2262,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2271,7 +2271,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2295,7 +2295,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2307,7 +2307,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2315,7 +2315,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2324,7 +2324,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2348,7 +2348,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2360,7 +2360,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2368,7 +2368,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2377,7 +2377,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2401,7 +2401,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2413,7 +2413,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2421,7 +2421,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2430,7 +2430,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2454,7 +2454,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2466,7 +2466,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2474,7 +2474,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2483,7 +2483,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2507,7 +2507,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2519,7 +2519,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2527,7 +2527,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2536,7 +2536,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2560,7 +2560,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2572,7 +2572,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2580,7 +2580,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2589,7 +2589,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2613,7 +2613,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -2625,7 +2625,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -2633,7 +2633,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2642,7 +2642,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2666,7 +2666,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -2680,7 +2680,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -2688,7 +2688,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2697,7 +2697,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2721,7 +2721,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -2735,7 +2735,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -2743,7 +2743,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2752,7 +2752,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2776,7 +2776,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -2790,7 +2790,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -2798,7 +2798,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2807,7 +2807,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2831,7 +2831,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -2839,14 +2839,14 @@
                 kind: 'identifier',
                 name: 'i32_dummy'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'i32_left'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -2854,7 +2854,7 @@
                     kind: 'identifier',
                     name: 'i32_right'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -2864,7 +2864,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2888,7 +2888,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call_indirect',
@@ -2896,14 +2896,14 @@
                 kind: 'identifier',
                 name: 'i32_T'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'i32_callee'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -2911,7 +2911,7 @@
                     kind: 'identifier',
                     name: 'i32_right'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -2919,7 +2919,7 @@
                     kind: 'identifier',
                     name: 'i32_another'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -2929,7 +2929,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -2953,7 +2953,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'select',
@@ -2963,7 +2963,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               else: {
                 kind: 'call',
@@ -2971,7 +2971,7 @@
                   kind: 'identifier',
                   name: 'i32_right'
                 },
-                expr: []
+                exprs: []
               },
               test: {
                 kind: 'call',
@@ -2979,7 +2979,7 @@
                   kind: 'identifier',
                   name: 'i32_bool'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -2988,7 +2988,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3012,7 +3012,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3024,7 +3024,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3032,7 +3032,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3041,7 +3041,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3065,7 +3065,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3077,7 +3077,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3085,7 +3085,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3094,7 +3094,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3118,7 +3118,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3130,7 +3130,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3138,7 +3138,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3147,7 +3147,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3171,7 +3171,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3183,7 +3183,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3191,7 +3191,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3200,7 +3200,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3224,7 +3224,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3236,7 +3236,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3244,7 +3244,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3253,7 +3253,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3277,7 +3277,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3289,7 +3289,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3297,7 +3297,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3306,7 +3306,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3330,7 +3330,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3342,7 +3342,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3350,7 +3350,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3359,7 +3359,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3383,7 +3383,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3395,7 +3395,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3403,7 +3403,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3412,7 +3412,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3436,7 +3436,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3448,7 +3448,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3456,7 +3456,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3465,7 +3465,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3489,7 +3489,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3501,7 +3501,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3509,7 +3509,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3518,7 +3518,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3542,7 +3542,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3554,7 +3554,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3562,7 +3562,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3571,7 +3571,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3595,7 +3595,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3607,7 +3607,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3615,7 +3615,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3624,7 +3624,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3648,7 +3648,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -3660,7 +3660,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3668,7 +3668,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3677,7 +3677,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3701,7 +3701,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3713,7 +3713,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3721,7 +3721,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3730,7 +3730,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3754,7 +3754,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3766,7 +3766,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3774,7 +3774,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3783,7 +3783,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3807,7 +3807,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3819,7 +3819,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3827,7 +3827,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3836,7 +3836,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3860,7 +3860,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3872,7 +3872,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3880,7 +3880,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3889,7 +3889,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3913,7 +3913,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3925,7 +3925,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3933,7 +3933,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3942,7 +3942,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -3966,7 +3966,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -3978,7 +3978,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -3986,7 +3986,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -3995,7 +3995,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4019,7 +4019,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4031,7 +4031,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4039,7 +4039,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4048,7 +4048,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4072,7 +4072,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4084,7 +4084,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4092,7 +4092,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4101,7 +4101,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4125,7 +4125,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4137,7 +4137,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4145,7 +4145,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4154,7 +4154,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4178,7 +4178,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4190,7 +4190,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4198,7 +4198,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4207,7 +4207,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4231,7 +4231,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -4245,7 +4245,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -4253,7 +4253,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4262,7 +4262,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4286,7 +4286,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -4300,7 +4300,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -4308,7 +4308,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4317,7 +4317,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4341,7 +4341,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -4355,7 +4355,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -4363,7 +4363,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4372,7 +4372,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4396,7 +4396,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -4410,7 +4410,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -4418,7 +4418,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4427,7 +4427,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4451,7 +4451,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -4459,14 +4459,14 @@
                 kind: 'identifier',
                 name: 'i64_dummy'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'i64_left'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -4474,7 +4474,7 @@
                     kind: 'identifier',
                     name: 'i64_right'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -4484,7 +4484,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4508,7 +4508,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call_indirect',
@@ -4516,14 +4516,14 @@
                 kind: 'identifier',
                 name: 'i64_T'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'i64_callee'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -4531,7 +4531,7 @@
                     kind: 'identifier',
                     name: 'i64_right'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -4539,7 +4539,7 @@
                     kind: 'identifier',
                     name: 'i64_another'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -4549,7 +4549,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4573,7 +4573,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'select',
@@ -4583,7 +4583,7 @@
                   kind: 'identifier',
                   name: 'i64_left'
                 },
-                expr: []
+                exprs: []
               },
               else: {
                 kind: 'call',
@@ -4591,7 +4591,7 @@
                   kind: 'identifier',
                   name: 'i64_right'
                 },
-                expr: []
+                exprs: []
               },
               test: {
                 kind: 'call',
@@ -4599,7 +4599,7 @@
                   kind: 'identifier',
                   name: 'i64_bool'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4608,7 +4608,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4632,7 +4632,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -4644,7 +4644,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4652,7 +4652,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4661,7 +4661,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4685,7 +4685,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -4697,7 +4697,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4705,7 +4705,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4714,7 +4714,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4738,7 +4738,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -4750,7 +4750,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4758,7 +4758,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4767,7 +4767,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4791,7 +4791,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -4803,7 +4803,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4811,7 +4811,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4820,7 +4820,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4844,7 +4844,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -4856,7 +4856,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4864,7 +4864,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4873,7 +4873,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4897,7 +4897,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4909,7 +4909,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4917,7 +4917,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4926,7 +4926,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -4950,7 +4950,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -4962,7 +4962,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -4970,7 +4970,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -4979,7 +4979,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5003,7 +5003,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5015,7 +5015,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5023,7 +5023,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5032,7 +5032,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5056,7 +5056,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5068,7 +5068,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5076,7 +5076,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5085,7 +5085,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5109,7 +5109,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5121,7 +5121,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5129,7 +5129,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5138,7 +5138,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5162,7 +5162,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5174,7 +5174,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5182,7 +5182,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5191,7 +5191,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5215,7 +5215,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5227,7 +5227,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5235,7 +5235,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5244,7 +5244,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5268,7 +5268,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5280,7 +5280,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5288,7 +5288,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5297,7 +5297,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5321,7 +5321,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -5335,7 +5335,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -5343,7 +5343,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5352,7 +5352,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5376,7 +5376,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -5384,14 +5384,14 @@
                 kind: 'identifier',
                 name: 'f32_dummy'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'f32_left'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -5399,7 +5399,7 @@
                     kind: 'identifier',
                     name: 'f32_right'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -5409,7 +5409,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5433,7 +5433,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call_indirect',
@@ -5441,14 +5441,14 @@
                 kind: 'identifier',
                 name: 'f32_T'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'f32_callee'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -5456,7 +5456,7 @@
                     kind: 'identifier',
                     name: 'f32_right'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -5464,7 +5464,7 @@
                     kind: 'identifier',
                     name: 'f32_another'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -5474,7 +5474,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5498,7 +5498,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'select',
@@ -5508,7 +5508,7 @@
                   kind: 'identifier',
                   name: 'f32_left'
                 },
-                expr: []
+                exprs: []
               },
               else: {
                 kind: 'call',
@@ -5516,7 +5516,7 @@
                   kind: 'identifier',
                   name: 'f32_right'
                 },
-                expr: []
+                exprs: []
               },
               test: {
                 kind: 'call',
@@ -5524,7 +5524,7 @@
                   kind: 'identifier',
                   name: 'f32_bool'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5533,7 +5533,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5557,7 +5557,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5569,7 +5569,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5577,7 +5577,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5586,7 +5586,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5610,7 +5610,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5622,7 +5622,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5630,7 +5630,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5639,7 +5639,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5663,7 +5663,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5675,7 +5675,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5683,7 +5683,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5692,7 +5692,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5716,7 +5716,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5728,7 +5728,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5736,7 +5736,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5745,7 +5745,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5769,7 +5769,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -5781,7 +5781,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5789,7 +5789,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5798,7 +5798,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5822,7 +5822,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5834,7 +5834,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5842,7 +5842,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5851,7 +5851,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5875,7 +5875,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5887,7 +5887,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5895,7 +5895,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5904,7 +5904,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5928,7 +5928,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5940,7 +5940,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -5948,7 +5948,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -5957,7 +5957,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -5981,7 +5981,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -5993,7 +5993,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -6001,7 +6001,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6010,7 +6010,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6034,7 +6034,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -6046,7 +6046,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -6054,7 +6054,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6063,7 +6063,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6087,7 +6087,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'relop',
@@ -6099,7 +6099,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -6107,7 +6107,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6116,7 +6116,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6140,7 +6140,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -6152,7 +6152,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -6160,7 +6160,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6169,7 +6169,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6193,7 +6193,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'binop',
@@ -6205,7 +6205,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               right: {
                 kind: 'call',
@@ -6213,7 +6213,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6222,7 +6222,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6246,7 +6246,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'store',
@@ -6260,7 +6260,7 @@
                   kind: 'identifier',
                   name: 'i32_left'
                 },
-                expr: []
+                exprs: []
               },
               data: {
                 kind: 'call',
@@ -6268,7 +6268,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6277,7 +6277,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6301,7 +6301,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -6309,14 +6309,14 @@
                 kind: 'identifier',
                 name: 'f64_dummy'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'f64_left'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -6324,7 +6324,7 @@
                     kind: 'identifier',
                     name: 'f64_right'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -6334,7 +6334,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6358,7 +6358,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call_indirect',
@@ -6366,14 +6366,14 @@
                 kind: 'identifier',
                 name: 'f64_T'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
                     name: 'f64_callee'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -6381,7 +6381,7 @@
                     kind: 'identifier',
                     name: 'f64_right'
                   },
-                  expr: []
+                  exprs: []
                 },
                 {
                   kind: 'call',
@@ -6389,7 +6389,7 @@
                     kind: 'identifier',
                     name: 'f64_another'
                   },
-                  expr: []
+                  exprs: []
                 }
               ]
             },
@@ -6399,7 +6399,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -6423,7 +6423,7 @@
                 kind: 'identifier',
                 name: 'reset'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'select',
@@ -6433,7 +6433,7 @@
                   kind: 'identifier',
                   name: 'f64_left'
                 },
-                expr: []
+                exprs: []
               },
               else: {
                 kind: 'call',
@@ -6441,7 +6441,7 @@
                   kind: 'identifier',
                   name: 'f64_right'
                 },
-                expr: []
+                exprs: []
               },
               test: {
                 kind: 'call',
@@ -6449,7 +6449,7 @@
                   kind: 'identifier',
                   name: 'f64_bool'
                 },
-                expr: []
+                exprs: []
               }
             },
             {
@@ -6458,7 +6458,7 @@
                 kind: 'identifier',
                 name: 'get'
               },
-              expr: []
+              exprs: []
             }
           ]
         },

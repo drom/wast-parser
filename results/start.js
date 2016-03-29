@@ -222,7 +222,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -230,7 +230,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -238,7 +238,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -431,7 +431,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -439,7 +439,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             },
             {
               kind: 'call',
@@ -447,7 +447,7 @@
                 kind: 'identifier',
                 name: 'inc'
               },
-              expr: []
+              exprs: []
             }
           ]
         },
@@ -575,7 +575,7 @@
               kind: 'identifier',
               name: 'print_i32'
             },
-            expr: [{
+            exprs: [{
               kind: 'const',
               type: 'i32',
               init: '1'
@@ -635,7 +635,7 @@
               kind: 'identifier',
               name: 'print_i32'
             },
-            expr: [{
+            exprs: [{
               kind: 'const',
               type: 'i32',
               init: '2'

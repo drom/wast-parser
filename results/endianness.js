@@ -136,7 +136,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'get_local',
                   id: {
@@ -159,7 +159,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'binop',
                   type: 'i32',
@@ -232,7 +232,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'get_local',
                   id: {
@@ -261,7 +261,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'binop',
                   type: 'i32',
@@ -412,7 +412,7 @@
                 kind: 'identifier',
                 name: 'i16_load_little'
               },
-              expr: [{
+              exprs: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
@@ -430,7 +430,7 @@
                   kind: 'identifier',
                   name: 'i16_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'binop',
                   type: 'i32',
                   operator: 'add',
@@ -491,7 +491,7 @@
                   kind: 'identifier',
                   name: 'i32_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'get_local',
                   id: {
                     kind: 'identifier',
@@ -515,7 +515,7 @@
                     kind: 'identifier',
                     name: 'i32_load_little'
                   },
-                  expr: [{
+                  exprs: [{
                     kind: 'binop',
                     type: 'i32',
                     operator: 'add',
@@ -569,7 +569,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -626,7 +626,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -683,7 +683,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -740,7 +740,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -803,7 +803,7 @@
                 kind: 'identifier',
                 name: 'i16_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -866,7 +866,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -929,7 +929,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -992,7 +992,7 @@
                 kind: 'identifier',
                 name: 'i64_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -1049,7 +1049,7 @@
                 kind: 'identifier',
                 name: 'i32_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -1112,7 +1112,7 @@
                 kind: 'identifier',
                 name: 'i64_store_little'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'const',
                   type: 'i32',
@@ -1194,7 +1194,7 @@
                 kind: 'identifier',
                 name: 'i16_load_little'
               },
-              expr: [{
+              exprs: [{
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -1248,7 +1248,7 @@
                 kind: 'identifier',
                 name: 'i32_load_little'
               },
-              expr: [{
+              exprs: [{
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -1307,7 +1307,7 @@
                   kind: 'identifier',
                   name: 'i16_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'const',
                   type: 'i32',
                   init: '0'
@@ -1367,7 +1367,7 @@
                   kind: 'identifier',
                   name: 'i32_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'const',
                   type: 'i32',
                   init: '0'
@@ -1422,7 +1422,7 @@
                 kind: 'identifier',
                 name: 'i64_load_little'
               },
-              expr: [{
+              exprs: [{
                 kind: 'const',
                 type: 'i32',
                 init: '0'
@@ -1481,7 +1481,7 @@
                   kind: 'identifier',
                   name: 'i32_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'const',
                   type: 'i32',
                   init: '0'
@@ -1541,7 +1541,7 @@
                   kind: 'identifier',
                   name: 'i64_load_little'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'const',
                   type: 'i32',
                   init: '0'

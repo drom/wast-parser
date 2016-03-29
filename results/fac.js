@@ -64,7 +64,7 @@
                   value: 0,
                   raw: '0'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'binop',
                   type: 'i64',
                   operator: 'sub',
@@ -147,7 +147,7 @@
                   kind: 'identifier',
                   name: 'fac-rec'
                 },
-                expr: [{
+                exprs: [{
                   kind: 'binop',
                   type: 'i64',
                   operator: 'sub',

@@ -144,7 +144,7 @@
                 kind: 'identifier',
                 name: 'return_i32'
               },
-              expr: []
+              exprs: []
             },
             {kind: 'unreachable'}
           ]

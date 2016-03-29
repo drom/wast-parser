@@ -136,7 +136,7 @@
                 kind: 'identifier',
                 name: 'print_i32_f32'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'binop',
                   type: 'i32',
@@ -167,7 +167,7 @@
                 kind: 'identifier',
                 name: 'print_i32'
               },
-              expr: [{
+              exprs: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
@@ -201,7 +201,7 @@
                 kind: 'identifier',
                 name: 'print_i64_f64'
               },
-              expr: [
+              exprs: [
                 {
                   kind: 'binop',
                   type: 'i64',
@@ -232,7 +232,7 @@
                 kind: 'identifier',
                 name: 'print_i64'
               },
-              expr: [{
+              exprs: [{
                 kind: 'get_local',
                 id: {
                   kind: 'identifier',
