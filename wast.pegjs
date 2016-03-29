@@ -478,7 +478,10 @@ export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "me
             kind: 'literal',
             value: name.map(function (e) { return e[1]; }).join('')
         },
-        id: id
+        id: (id === 'memory') ? {
+            kind: 'literal',
+            value: id
+        } : id
     };
 }
 

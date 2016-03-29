@@ -365,7 +365,10 @@
             kind: 'literal',
             value: 'a'
           },
-          id: 'memory'
+          id: {
+            kind: 'literal',
+            value: 'memory'
+          }
         }
       ]
     },
@@ -384,7 +387,10 @@
             kind: 'literal',
             value: 'a'
           },
-          id: 'memory'
+          id: {
+            kind: 'literal',
+            value: 'memory'
+          }
         },
         {
           kind: 'export',
@@ -392,7 +398,10 @@
             kind: 'literal',
             value: 'b'
           },
-          id: 'memory'
+          id: {
+            kind: 'literal',
+            value: 'memory'
+          }
         }
       ]
     },
@@ -406,7 +415,10 @@
             kind: 'literal',
             value: 'a'
           },
-          id: 'memory'
+          id: {
+            kind: 'literal',
+            value: 'memory'
+          }
         }]
       },
       failure: {
