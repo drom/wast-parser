@@ -103,13 +103,14 @@ case
     }
     / expr
 
+/*
 tableswitchtable = "(" kind:"table" items:( __ case )* __ ")" {
         return {
             kind: kind,
             items: items.map(function (e) { return e[1]; })
         };
     }
-
+*/
 expr
     = "("
         body:( type:local_type "." kind:"const" __ init:value {
@@ -394,7 +395,7 @@ result = "(" kind:"result" __ type:local_type __ ")" {
     };
 }
 
-segment = "(" kind:"segment" __ int:int __ name:literal __ ")" {
+segment = kind:"segment" __ int:int __ name:literal {
     return {
         kind: kind,
         int: int,
@@ -492,7 +493,7 @@ table = kind:"table" items:( __ var )* {
     };
 }
 
-memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
+memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ cmd )* {
     return {
         kind: kind,
         int: int,
@@ -501,7 +502,7 @@ memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ segment )* {
     };
 }
 
-invoke = "(" kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* __ ")" {
+invoke = kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* {
     return {
         kind: kind,
         name: name.map(function (e) {
@@ -511,15 +512,15 @@ invoke = "(" kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )
     };
 }
 
-module = kind:"module" body:( __ "(" ( func / import / export / table / memory / type_def / _start) __ ")" )* {
+module = kind:"module" body:( __ cmd )* {
     var result = [];
     return {
         kind: kind,
-        body: body.map(function (e) { return e[2]; })
+        body: body.map(function (e) { return e[1]; })
     };
 }
 
-assert_return = kind:"assert_return" __ invoke:invoke __ expr:( expr )? {
+assert_return = kind:"assert_return" __ invoke:cmd __ expr:( expr )? {
     return {
         kind: kind,
         invoke: invoke,
@@ -527,14 +528,14 @@ assert_return = kind:"assert_return" __ invoke:invoke __ expr:( expr )? {
     };
 }
 
-assert_return_nan = kind:"assert_return_nan" __ invoke:invoke {
+assert_return_nan = kind:"assert_return_nan" __ invoke:cmd {
     return {
         kind: kind,
         invoke: invoke
     };
 }
 
-assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:literal {
+assert_trap = kind:"assert_trap" __ invoke:cmd __ failure:literal {
     return {
         kind: kind,
         invoke: invoke,
@@ -542,7 +543,7 @@ assert_trap = kind:"assert_trap" __ invoke:invoke __ failure:literal {
     };
 }
 
-assert_invalid = kind:"assert_invalid" __ "(" module:module __ ")" __ failure:literal {
+assert_invalid = kind:"assert_invalid" __ module:cmd __ failure:literal {
     return {
         kind: kind,
         module: module,
@@ -551,12 +552,21 @@ assert_invalid = kind:"assert_invalid" __ "(" module:module __ ")" __ failure:li
 }
 
 cmd
-    = invoke:invoke { return invoke; }
-    / "("
+    = "("
         node:( module
+        / invoke
         / assert_return
         / assert_return_nan
         / assert_trap
         / assert_invalid
+        / segment
+        / func
+        / import
+        / export
+        / table
+        / memory
+        / type_def
+        / _start
         ) __
     ")" { return node; }
+    / node:expr { return node; }
