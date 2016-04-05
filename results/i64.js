@@ -6133,6 +6133,74 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'popcnt',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x8000800080008000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '4'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'popcnt',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xAAAAAAAA55555555'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '32'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'popcnt',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x99999999AAAAAAAA'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '32'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'popcnt',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xDEADBEEFDEADBEEF'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '48'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'eqz',
         body: [{
           kind: 'const',
