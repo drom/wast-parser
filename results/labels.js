@@ -1746,6 +1746,125 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'br_if4'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              name: 'l0'
+            },
+            body: [{
+              kind: 'br_if',
+              id: {
+                kind: 'identifier',
+                name: 'l0'
+              },
+              test: {kind: 'nop'},
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            }]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              name: 'l0'
+            },
+            body: [
+              {
+                kind: 'if',
+                test: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                },
+                then: {
+                  kind: 'br',
+                  id: {
+                    kind: 'identifier',
+                    name: 'l0'
+                  },
+                  expr: {
+                    kind: 'block',
+                    id: {
+                      kind: 'identifier',
+                      name: 'l1'
+                    },
+                    body: [{
+                      kind: 'br',
+                      id: {
+                        kind: 'identifier',
+                        name: 'l1'
+                      },
+                      expr: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '1'
+                      }
+                    }]
+                  }
+                },
+                else: {
+                  kind: 'block',
+                  id: null,
+                  body: [
+                    {
+                      kind: 'block',
+                      id: {
+                        kind: 'identifier',
+                        name: 'l1'
+                      },
+                      body: [{
+                        kind: 'br',
+                        id: {
+                          kind: 'identifier',
+                          name: 'l1'
+                        },
+                        expr: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '1'
+                        }
+                      }]
+                    },
+                    {kind: 'nop'}
+                  ]
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'misc1'
           },
           type: null,
@@ -2015,6 +2134,28 @@
           id: {
             kind: 'identifier',
             name: 'br_if3'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'br_if4'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'br_if4'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'br'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'br'
           }
         },
         {
@@ -2356,6 +2497,28 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'br_if4',
+        body: []
+      },
+      expr: null
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'misc1',
         body: []
       },
@@ -2389,44 +2552,6 @@
         kind: 'const',
         type: 'i32',
         init: '5'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: null,
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'loop',
-            id: {
-              kind: 'identifier',
-              name: 'l'
-            },
-            extra: null,
-            body: [{
-              kind: 'br',
-              id: {
-                kind: 'identifier',
-                name: 'l'
-              },
-              expr: {
-                kind: 'const',
-                type: 'i32',
-                init: '0'
-              }
-            }]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
       }
     },
     {
@@ -2609,7 +2734,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'arity mismatch'
+        value: 'type mismatch'
       }
     },
     {
@@ -2735,139 +2860,6 @@
       failure: {
         kind: 'literal',
         value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: null,
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'block',
-            id: {
-              kind: 'identifier',
-              name: 'l0'
-            },
-            body: [{
-              kind: 'br_if',
-              id: {
-                kind: 'identifier',
-                name: 'l0'
-              },
-              test: {kind: 'nop'},
-              expr: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            }]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'block',
-            id: {
-              kind: 'identifier',
-              name: 'l0'
-            },
-            body: [
-              {
-                kind: 'if',
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                },
-                then: {
-                  kind: 'br',
-                  id: {
-                    kind: 'identifier',
-                    name: 'l0'
-                  },
-                  expr: {
-                    kind: 'block',
-                    id: {
-                      kind: 'identifier',
-                      name: 'l1'
-                    },
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'identifier',
-                        name: 'l1'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
-                    }]
-                  }
-                },
-                else: {
-                  kind: 'block',
-                  id: null,
-                  body: [
-                    {
-                      kind: 'block',
-                      id: {
-                        kind: 'identifier',
-                        name: 'l1'
-                      },
-                      body: [{
-                        kind: 'br',
-                        id: {
-                          kind: 'identifier',
-                          name: 'l1'
-                        },
-                        expr: {
-                          kind: 'const',
-                          type: 'i32',
-                          init: '1'
-                        }
-                      }]
-                    },
-                    {kind: 'nop'}
-                  ]
-                }
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
       }
     }
   ]

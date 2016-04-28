@@ -336,7 +336,7 @@ expr
             };
         }
 
-        / kind:("nop" / "page_size" / "memory_size" / "unreachable") {
+        / kind:("nop" / "page_size" / "memory_size" / "unreachable" / "current_memory") {
             return {
                 kind: kind
             };

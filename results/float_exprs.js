@@ -964,6 +964,40 @@
       }
     },
     {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_zero_sub',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_zero_sub',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
       kind: 'module',
       body: [
         {
@@ -1351,6 +1385,554 @@
         kind: 'const',
         type: 'f64',
         init: 'nan'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_div_one'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_one'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_div_one'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_div_one'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f64',
+              init: '1.0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_one'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_div_one'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_one',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_one',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_div_neg1'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f32',
+              init: '-1.0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_div_neg1'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_div_neg1'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_div_neg1'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f64',
+              init: '-1.0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_div_neg1'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_div_neg1'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_div_neg1',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_div_neg1',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_neg0_sub'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'sub',
+            left: {
+              kind: 'const',
+              type: 'f32',
+              init: '-0.0'
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_neg0_sub'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_neg0_sub'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_neg0_sub'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'sub',
+            left: {
+              kind: 'const',
+              type: 'f64',
+              init: '-0.0'
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_neg0_sub'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_neg0_sub'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_neg0_sub',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_neg0_sub',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_neg1_mul'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'const',
+              type: 'f32',
+              init: '-1.0'
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_neg1_mul'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_neg1_mul'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_neg1_mul'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'const',
+              type: 'f64',
+              init: '-1.0'
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_neg1_mul'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_neg1_mul'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_neg1_mul',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_neg1_mul',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
       }
     },
     {
@@ -2080,7 +2662,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f32.no_distribute'
+            name: 'f32.no_factor'
           },
           type: null,
           params: [
@@ -2162,18 +2744,18 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'f32.no_distribute'
+            value: 'f32.no_factor'
           },
           id: {
             kind: 'identifier',
-            name: 'f32.no_distribute'
+            name: 'f32.no_factor'
           }
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'f64.no_distribute'
+            name: 'f64.no_factor'
           },
           type: null,
           params: [
@@ -2255,6 +2837,463 @@
           kind: 'export',
           name: {
             kind: 'literal',
+            value: 'f64.no_factor'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_factor'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.4e2352p+40'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.842e2cp+49'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.eea602p+59'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.77a7dp+109'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.b4e7f6p-6'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.8c990cp-5'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.70cc02p-9'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.00a342p-14'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.06722ep-41'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.eed3cep-64'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.5c5558p+123'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.651aaep+82'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.f8c6a4p-64'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.08c806p-83'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.b5ceccp+118'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.afa15p+55'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.3aaa1ep-84'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c6d5eep-71'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.8d2924p+20'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.60c9cep-50'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.3adeda9144977p-424'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.c15af887049e1p-462'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.905179c4c4778p-225'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.ec606bcb87b1ap-649'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.3c84821c1d348p-662'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.4ffd4c77ad037p-1009'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.dd275335c6f4p-957'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.074f372347051p-334'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.aaeef661f4c96p-282'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.9bd34abe8696dp+479'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.5767029593e2p+198'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.c4ded58a6f389p-289'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.ba6fdef5d59c9p-260'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.c1201c0470205p-253'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.841ada2e0f184p-512'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_factor',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.9d3688f8e375ap-608'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.bf91311588256p-579'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.1605a6b5d5ff8p+489'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.e6118ca76af53p-90'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_distribute'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_distribute'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_distribute'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_distribute'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
             value: 'f64.no_distribute'
           },
           id: {
@@ -2290,7 +3329,7 @@
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0x1.77a7dp+109'
+        init: '-0x1.77a7d2p+109'
       }
     },
     {
@@ -2319,7 +3358,7 @@
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0x1.00a342p-14'
+        init: '-0x1.00a34p-14'
       }
     },
     {
@@ -2348,7 +3387,7 @@
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0x1.651aaep+82'
+        init: '-0x1.651abp+82'
       }
     },
     {
@@ -2377,7 +3416,7 @@
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0x1.afa15p+55'
+        init: '-0x1.afa14ep+55'
       }
     },
     {
@@ -2406,7 +3445,7 @@
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '0x1.60c9cep-50'
+        init: '0x1.60c9ccp-50'
       }
     },
     {
@@ -2435,7 +3474,7 @@
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '-0x1.ec606bcb87b1ap-649'
+        init: '-0x1.ec606bcb87b1bp-649'
       }
     },
     {
@@ -2464,7 +3503,7 @@
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '0x0p+0'
+        init: '-0x0p+0'
       }
     },
     {
@@ -2493,7 +3532,7 @@
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '0x1.5767029593e2p+198'
+        init: '0x1.5767029593e1fp+198'
       }
     },
     {
@@ -2522,7 +3561,7 @@
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '-0x1.841ada2e0f184p-512'
+        init: '-0x1.841ada2e0f183p-512'
       }
     },
     {
@@ -2551,7 +3590,921 @@
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '-0x1.e6118ca76af53p-90'
+        init: '-0x1.e6118ca76af52p-90'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_regroup_div_mul'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'div',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'z'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_regroup_div_mul'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_regroup_div_mul'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_regroup_div_mul'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'div',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'z'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_regroup_div_mul'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_regroup_div_mul'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.2d14a6p-115'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.575a6cp-64'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.5cee0ep-116'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.2844cap-63'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.454738p+91'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.b28a66p-115'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.f53908p+72'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.6be56ep+16'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.b46fc6p-21'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.a51df6p-123'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.792258p+118'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.c343f8p-94'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.e4d906p+73'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.be69f8p+68'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.ea1df2p-89'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c6ae76p+112'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fc953cp+24'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.60b3e8p+71'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.47d0eap+66'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.3c04b815e30bp-423'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.379646fd98127p-119'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.bddb158506031p-642'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.b9b3301f2dd2dp+99'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.46b3a402f86d5p+337'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6fbf1b9e1798dp-447'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.bd9704a5a6a06p+797'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6c9765bb4347fp-479'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.a4af42e34a141p+902'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.d2dde70eb68f9p-448'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.706023645be72p+480'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.6c229f7d9101dp+611'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.4d50fa68d3d9ep+836'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.926fa3cacc651p+255'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_div_mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8cc63d8caf4c7p-599'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8671ac4c35753p-878'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.ef35b1695e659p-838'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.38d55f56406dp-639'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_regroup_mul_div'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_regroup_mul_div'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_regroup_mul_div'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_regroup_mul_div'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_regroup_mul_div'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_regroup_mul_div'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.2d14a6p-115'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.575a6cp-64'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.5cee0ep-116'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.454738p+91'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.b28a66p-115'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.f53908p+72'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.1a00e8p-96'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.6be56ep+16'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.b46fc6p-21'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.a51df6p-123'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.79225ap+118'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.c343f8p-94'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.e4d906p+73'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.be69f8p+68'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.ea1df4p-89'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.c6ae76p+112'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fc953cp+24'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0x1.60b3e8p+71'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.3c04b815e30bp-423'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.379646fd98127p-119'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.bddb158506031p-642'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.b9b3301f2dd2ep+99'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.46b3a402f86d5p+337'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6fbf1b9e1798dp-447'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.bd9704a5a6a06p+797'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.0da0b6328e09p-907'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6c9765bb4347fp-479'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.a4af42e34a141p+902'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.d2dde70eb68f9p-448'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4886b6d9a9a79p+871'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.706023645be72p+480'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.6c229f7d9101dp+611'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.4d50fa68d3d9ep+836'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_regroup_mul_div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8cc63d8caf4c7p-599'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.8671ac4c35753p-878'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0x1.ef35b1695e659p-838'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x0p+0'
       }
     },
     {
@@ -9347,6 +11300,8656 @@
         kind: 'const',
         type: 'f64',
         init: '0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '1',
+          int1: '1',
+          segment: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'init'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'i',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              }
+            },
+            data: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'init'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'init'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'run'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'n',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: null,
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          body: [{
+            kind: 'loop',
+            id: {
+              kind: 'identifier',
+              name: 'exit'
+            },
+            extra: {
+              kind: 'identifier',
+              name: 'cont'
+            },
+            body: [
+              {
+                kind: 'store',
+                type: 'f32',
+                size: null,
+                offset: 0,
+                align: 0,
+                addr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  }
+                },
+                data: {
+                  kind: 'binop',
+                  type: 'f32',
+                  operator: 'div',
+                  left: {
+                    kind: 'load',
+                    type: 'f32',
+                    size: null,
+                    sign: null,
+                    offset: 0,
+                    align: 0,
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'z'
+                    }
+                  }
+                }
+              },
+              {
+                kind: 'set_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'i'
+                },
+                init: {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i'
+                    }
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '4'
+                  }
+                }
+              },
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'identifier',
+                  name: 'cont'
+                },
+                test: {
+                  kind: 'relop',
+                  type: 'i32',
+                  operator: 'lt_u',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i'
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'n'
+                    }
+                  }
+                },
+                expr: null
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'run'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'run'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'check'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'f32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'check'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'check'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        },
+        {
+          kind: 'const',
+          type: 'f32',
+          init: '15.1'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        },
+        {
+          kind: 'const',
+          type: 'f32',
+          init: '15.2'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        },
+        {
+          kind: 'const',
+          type: 'f32',
+          init: '15.3'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '12'
+        },
+        {
+          kind: 'const',
+          type: 'f32',
+          init: '15.4'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '15.1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '15.2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '15.3'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '12'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '15.4'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'run',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '16'
+        },
+        {
+          kind: 'const',
+          type: 'f32',
+          init: '3.0'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.422222p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '4'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.444444p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.466666p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '12'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.488888p+2'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '1',
+          int1: '1',
+          segment: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'init'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'i',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              }
+            },
+            data: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'init'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'init'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'run'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'n',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: null,
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          body: [{
+            kind: 'loop',
+            id: {
+              kind: 'identifier',
+              name: 'exit'
+            },
+            extra: {
+              kind: 'identifier',
+              name: 'cont'
+            },
+            body: [
+              {
+                kind: 'store',
+                type: 'f64',
+                size: null,
+                offset: 0,
+                align: 0,
+                addr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  }
+                },
+                data: {
+                  kind: 'binop',
+                  type: 'f64',
+                  operator: 'div',
+                  left: {
+                    kind: 'load',
+                    type: 'f64',
+                    size: null,
+                    sign: null,
+                    offset: 0,
+                    align: 0,
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'z'
+                    }
+                  }
+                }
+              },
+              {
+                kind: 'set_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'i'
+                },
+                init: {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i'
+                    }
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '8'
+                  }
+                }
+              },
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'identifier',
+                  name: 'cont'
+                },
+                test: {
+                  kind: 'relop',
+                  type: 'i32',
+                  operator: 'lt_u',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i'
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'n'
+                    }
+                  }
+                },
+                expr: null
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'run'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'run'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'check'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'f64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'check'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'check'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        },
+        {
+          kind: 'const',
+          type: 'f64',
+          init: '15.1'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        },
+        {
+          kind: 'const',
+          type: 'f64',
+          init: '15.2'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '16'
+        },
+        {
+          kind: 'const',
+          type: 'f64',
+          init: '15.3'
+        }
+      ]
+    },
+    {
+      kind: 'invoke',
+      name: 'init',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '24'
+        },
+        {
+          kind: 'const',
+          type: 'f64',
+          init: '15.4'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '15.1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '15.2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '15.3'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '15.4'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'run',
+      body: [
+        {
+          kind: 'const',
+          type: 'i32',
+          init: '32'
+        },
+        {
+          kind: 'const',
+          type: 'f64',
+          init: '3.0'
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4222222222222p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '8'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4444444444444p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4666666666667p+2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'check',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.4888888888889p+2'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.ult'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.ule'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.ugt'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.uge'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.ult'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.ule'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.ugt'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.uge'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'i32',
+            operator: 'eqz',
+            expr: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.ult'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.ult'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.ule'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.ule'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.ugt'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.ugt'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.uge'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.uge'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.ult'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.ult'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.ule'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.ule'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.ugt'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.ugt'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.uge'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.uge'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ult',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ule',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.ugt',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '3.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.uge',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '2.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_lt_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_le_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_gt_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_ge_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_lt_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_le_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_gt_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_select'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_select'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_ge_select'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_select'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_lt_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_le_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_gt_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_ge_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_lt_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_le_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_gt_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_if'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_if'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_ge_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_if'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'nan'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '-0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_lt_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '-0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_le_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '-0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_gt_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_ge_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_lt_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '-0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_le_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '-0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_gt_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_select_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_select_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '0.0'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_ge_select_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_select_to_abs'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_select_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '0.0'
+              }
+            },
+            then: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_lt_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_lt_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '-0.0'
+              }
+            },
+            then: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_le_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_le_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '-0.0'
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_gt_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_gt_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f32',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '0.0'
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f32',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_fold_ge_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_fold_ge_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'lt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '0.0'
+              }
+            },
+            then: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_lt_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_lt_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'le',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '-0.0'
+              }
+            },
+            then: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            },
+            else: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_le_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_le_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'gt',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '-0.0'
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_gt_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_gt_if_to_abs'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_if_to_abs'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            test: {
+              kind: 'relop',
+              type: 'f64',
+              operator: 'ge',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '0.0'
+              }
+            },
+            then: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            else: {
+              kind: 'unop',
+              type: 'f64',
+              operator: 'neg',
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_fold_ge_if_to_abs'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_fold_ge_if_to_abs'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_lt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_le_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_gt_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_fold_ge_if_to_abs',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'incorrect_correction'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'sub',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'sub',
+              left: {
+                kind: 'binop',
+                type: 'f32',
+                operator: 'add',
+                left: {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '1.333'
+                },
+                right: {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '1.225'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f32',
+                init: '1.333'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.225'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'incorrect_correction'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'incorrect_correction'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'incorrect_correction',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-23'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'incorrect_correction'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'sub',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'sub',
+              left: {
+                kind: 'binop',
+                type: 'f64',
+                operator: 'add',
+                left: {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '1.333'
+                },
+                right: {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '1.225'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'f64',
+                init: '1.333'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f64',
+              init: '1.225'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'incorrect_correction'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'incorrect_correction'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'incorrect_correction',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1p-52'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'calculate'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'r',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'q',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'z0',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'z1',
+                type: 'f32'
+              }]
+            }
+          ],
+          body: [
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
+              init: {
+                kind: 'const',
+                type: 'f32',
+                init: '156.25'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'r'
+              },
+              init: {
+                kind: 'const',
+                type: 'f32',
+                init: '208.333333334'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'q'
+              },
+              init: {
+                kind: 'const',
+                type: 'f32',
+                init: '1.77951304201'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'z0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'f32',
+                operator: 'div',
+                left: {
+                  kind: 'binop',
+                  type: 'f32',
+                  operator: 'mul',
+                  left: {
+                    kind: 'unop',
+                    type: 'f32',
+                    operator: 'neg',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'r'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'x'
+                    }
+                  }
+                },
+                right: {
+                  kind: 'binop',
+                  type: 'f32',
+                  operator: 'sub',
+                  left: {
+                    kind: 'binop',
+                    type: 'f32',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'x'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'q'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'r'
+                    }
+                  }
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'z1'
+              },
+              init: {
+                kind: 'binop',
+                type: 'f32',
+                operator: 'div',
+                left: {
+                  kind: 'binop',
+                  type: 'f32',
+                  operator: 'mul',
+                  left: {
+                    kind: 'unop',
+                    type: 'f32',
+                    operator: 'neg',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'r'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'x'
+                    }
+                  }
+                },
+                right: {
+                  kind: 'binop',
+                  type: 'f32',
+                  operator: 'sub',
+                  left: {
+                    kind: 'binop',
+                    type: 'f32',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'x'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'q'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'r'
+                    }
+                  }
+                }
+              }
+            },
+            {
+              kind: 'block',
+              id: null,
+              body: [
+                {
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  test: {
+                    kind: 'relop',
+                    type: 'f32',
+                    operator: 'eq',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'z0'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'z1'
+                      }
+                    }
+                  },
+                  expr: null
+                },
+                {kind: 'unreachable'}
+              ]
+            },
+            {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z1'
+              }
+            }
+          ]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'calculate'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'calculate'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'calculate',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.d2ed46p+8'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'calculate'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'r',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'q',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'z0',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'z1',
+                type: 'f64'
+              }]
+            }
+          ],
+          body: [
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
+              init: {
+                kind: 'const',
+                type: 'f64',
+                init: '156.25'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'r'
+              },
+              init: {
+                kind: 'const',
+                type: 'f64',
+                init: '208.333333334'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'q'
+              },
+              init: {
+                kind: 'const',
+                type: 'f64',
+                init: '1.77951304201'
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'z0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'f64',
+                operator: 'div',
+                left: {
+                  kind: 'binop',
+                  type: 'f64',
+                  operator: 'mul',
+                  left: {
+                    kind: 'unop',
+                    type: 'f64',
+                    operator: 'neg',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'r'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'x'
+                    }
+                  }
+                },
+                right: {
+                  kind: 'binop',
+                  type: 'f64',
+                  operator: 'sub',
+                  left: {
+                    kind: 'binop',
+                    type: 'f64',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'x'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'q'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'r'
+                    }
+                  }
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'z1'
+              },
+              init: {
+                kind: 'binop',
+                type: 'f64',
+                operator: 'div',
+                left: {
+                  kind: 'binop',
+                  type: 'f64',
+                  operator: 'mul',
+                  left: {
+                    kind: 'unop',
+                    type: 'f64',
+                    operator: 'neg',
+                    expr: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'r'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'x'
+                    }
+                  }
+                },
+                right: {
+                  kind: 'binop',
+                  type: 'f64',
+                  operator: 'sub',
+                  left: {
+                    kind: 'binop',
+                    type: 'f64',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'x'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'q'
+                      }
+                    }
+                  },
+                  right: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'r'
+                    }
+                  }
+                }
+              }
+            },
+            {
+              kind: 'block',
+              id: null,
+              body: [
+                {
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  test: {
+                    kind: 'relop',
+                    type: 'f64',
+                    operator: 'eq',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'z0'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'z1'
+                      }
+                    }
+                  },
+                  expr: null
+                },
+                {kind: 'unreachable'}
+              ]
+            },
+            {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z1'
+              }
+            }
+          ]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'calculate'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'calculate'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'calculate',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1.d2ed4d0218c93p+8'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'llvm_pr26746'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'sub',
+            left: {
+              kind: 'const',
+              type: 'f32',
+              init: '0.0'
+            },
+            right: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'sub',
+              left: {
+                kind: 'const',
+                type: 'f32',
+                init: '-0.0'
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'llvm_pr26746'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'llvm_pr26746'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'llvm_pr26746',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'llvm_pr27153'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'add',
+            left: {
+              kind: 'cvtop',
+              type: 'f32',
+              type1: 'i32',
+              operator: 'convert_s',
+              expr: {
+                kind: 'binop',
+                type: 'i32',
+                operator: 'and',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'x'
+                  }
+                },
+                right: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '268435455'
+                }
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'f32',
+              init: '-8388608.0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'llvm_pr27153'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'llvm_pr27153'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'llvm_pr27153',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '33554434'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '25165824.000000'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'thepast0'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'a',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'b',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'c',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'd',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'a'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'b'
+                }
+              }
+            },
+            right: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'c'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'd'
+                }
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'thepast0'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'thepast0'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'thepast1'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'a',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'b',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'c',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'sub',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'a'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'b'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'c'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'thepast1'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'thepast1'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'thepast2'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'a',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'b',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'c',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'a'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'b'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'c'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'thepast2'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'thepast2'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'thepast0',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1021'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.fffffffffffffp-1'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p1'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.fffffffffffffp-1022'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'thepast1',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-54'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.fffffffffffffp-1'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-54'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x1p-107'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'thepast2',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-125'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-1'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-126'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'inverse'
+          },
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'const',
+              type: 'f32',
+              init: '1.0'
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'inverse'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'inverse'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'inverse',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '96.0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.555556p-7'
       }
     }
   ]

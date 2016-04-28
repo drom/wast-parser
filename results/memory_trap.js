@@ -11,6 +11,31 @@
           segment: []
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'addr_limit'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'mul',
+            left: {kind: 'current_memory'},
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '0x10000'
+            }
+          }]
+        },
+        {
           kind: 'export',
           name: {
             kind: 'literal',
@@ -61,7 +86,14 @@
               kind: 'binop',
               type: 'i32',
               operator: 'add',
-              left: {kind: 'memory_size'},
+              left: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'addr_limit'
+                },
+                exprs: []
+              },
               right: {
                 kind: 'get_local',
                 id: {
@@ -121,7 +153,14 @@
               kind: 'binop',
               type: 'i32',
               operator: 'add',
-              left: {kind: 'memory_size'},
+              left: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'addr_limit'
+                },
+                exprs: []
+              },
               right: {
                 kind: 'get_local',
                 id: {
@@ -136,48 +175,37 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'overflow_memory_size'
+            value: 'grow_memory'
           },
           id: {
             kind: 'identifier',
-            name: 'overflow_memory_size'
+            name: 'grow_memory'
           }
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'overflow_memory_size'
+            name: 'grow_memory'
           },
           type: null,
-          params: [],
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
           result: null,
           local: [],
           body: [{
             kind: 'grow_memory',
             expr: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'xor',
-              left: {
-                kind: 'const',
-                type: 'i32',
-                init: '-1'
-              },
-              right: {
-                kind: 'binop',
-                type: 'i32',
-                operator: 'sub',
-                left: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0x10000'
-                },
-                right: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
+              kind: 'get_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
               }
             }
           }]
@@ -424,8 +452,12 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'overflow_memory_size',
-        body: []
+        name: 'grow_memory',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x80000000'
+        }]
       },
       failure: {
         kind: 'literal',

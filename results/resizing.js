@@ -236,7 +236,7 @@
             type: 'i32'
           },
           local: [],
-          body: [{kind: 'memory_size'}]
+          body: [{kind: 'current_memory'}]
         }
       ]
     },
@@ -328,7 +328,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x10000'
+        init: '1'
       }
     },
     {
@@ -408,7 +408,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x10000'
+        init: '1'
       }
     },
     {
@@ -421,7 +421,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x50000'
+        init: '5'
       }
     },
     {

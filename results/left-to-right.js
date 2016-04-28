@@ -6463,6 +6463,153 @@
           ]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_if'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: null,
+            body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'reset'
+                },
+                exprs: []
+              },
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                test: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
+                },
+                expr: {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'and',
+                  left: {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i32_right'
+                    },
+                    exprs: []
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                }
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'get'
+                },
+                exprs: []
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_table'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
+            body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'reset'
+                },
+                exprs: []
+              },
+              {
+                kind: 'block',
+                id: {
+                  kind: 'identifier',
+                  name: 'b'
+                },
+                body: [{
+                  kind: 'br_table',
+                  exprs: [
+                    {
+                      kind: 'call',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i32_left'
+                      },
+                      exprs: []
+                    },
+                    {
+                      kind: 'call',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i32_right'
+                      },
+                      exprs: []
+                    }
+                  ],
+                  body: [
+                    {
+                      kind: 'identifier',
+                      name: 'a'
+                    },
+                    {
+                      kind: 'identifier',
+                      name: 'b'
+                    }
+                  ]
+                }]
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'get'
+                },
+                exprs: []
+              }
+            ]
+          }]
+        },
+        {
           kind: 'export',
           name: {
             kind: 'literal',
@@ -7483,6 +7630,28 @@
           id: {
             kind: 'identifier',
             name: 'f64_select'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'br_if'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'br_if'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'br_table'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'br_table'
           }
         }
       ]
@@ -8694,6 +8863,32 @@
         kind: 'const',
         type: 'i32',
         init: '0x010205'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br_if',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x0102'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'br_table',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x0102'
       }
     }
   ]

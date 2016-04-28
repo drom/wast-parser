@@ -133,7 +133,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'initial memory pages must be less than or equal to the maximum'
+        value: 'minimum memory pages must be less than or equal to the maximum'
       }
     },
     {

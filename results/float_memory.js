@@ -8,45 +8,12 @@
           kind: 'memory',
           int: '1',
           int1: '1',
-          segment: []
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_i32'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'i32',
-            size: null,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
+          segment: [{
+            kind: 'segment',
+            int: '0',
+            name: {
+              kind: 'literal',
+              value: '\00\00\a0\7f'
             }
           }]
         },
@@ -54,74 +21,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'load_i32'
-          },
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'load',
-            type: 'i32',
-            size: null,
-            sign: null,
-            offset: 0,
-            align: 0,
-            expr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_f32'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'f32',
-            size: null,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'load_f32'
+            name: 'f32.load'
           },
           type: null,
           params: [],
@@ -148,44 +48,166 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'store_i32'
+            value: 'f32.load'
           },
           id: {
             kind: 'identifier',
-            name: 'store_i32'
+            name: 'f32.load'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'i32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'load_i32'
+            value: 'i32.load'
           },
           id: {
             kind: 'identifier',
-            name: 'load_i32'
+            name: 'i32.load'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'f32',
+              init: 'n0x200000'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'store_f32'
+            value: 'f32.store'
           },
           id: {
             kind: 'identifier',
-            name: 'store_f32'
+            name: 'f32.store'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i32',
+              init: '0x7fa00000'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'load_f32'
+            value: 'i32.store'
           },
           id: {
             kind: 'identifier',
-            name: 'load_f32'
+            name: 'i32.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'reset'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'reset'
           }
         }
       ]
@@ -194,120 +216,150 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'store_i32',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0x7f800001'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0x7f800001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_f32',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x000001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'store_i32',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0x80000000'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0x80000000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_f32',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-0.0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'store_f32',
-        body: [{
-          kind: 'const',
-          type: 'f32',
-          init: 'n0x000001'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x000001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_i32',
+        name: 'i32.load',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x7f800001'
+        init: '0x7fa00000'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'store_f32',
-        body: [{
-          kind: 'const',
-          type: 'f32',
-          init: '-0.0'
-        }]
+        name: 'f32.load',
+        body: []
       },
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0.0'
+        init: 'n0x200000'
       }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'load_i32',
+        name: 'i32.load',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x80000000'
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'f32.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fa00000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'i32.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fa00000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
       }
     },
     {
@@ -317,45 +369,12 @@
           kind: 'memory',
           int: '1',
           int1: '1',
-          segment: []
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_i64'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'i64',
-            size: null,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
+          segment: [{
+            kind: 'segment',
+            int: '0',
+            name: {
+              kind: 'literal',
+              value: '\00\00\00\00\00\00\f4\7f'
             }
           }]
         },
@@ -363,74 +382,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'load_i64'
-          },
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
-          local: [],
-          body: [{
-            kind: 'load',
-            type: 'i64',
-            size: null,
-            sign: null,
-            offset: 0,
-            align: 0,
-            expr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_f64'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'f64',
-            size: null,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'load_f64'
+            name: 'f64.load'
           },
           type: null,
           params: [],
@@ -457,44 +409,166 @@
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'store_i64'
+            value: 'f64.load'
           },
           id: {
             kind: 'identifier',
-            name: 'store_i64'
+            name: 'f64.load'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'i64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'load_i64'
+            value: 'i64.load'
           },
           id: {
             kind: 'identifier',
-            name: 'load_i64'
+            name: 'i64.load'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'f64',
+              init: 'n0x4000000000000'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'store_f64'
+            value: 'f64.store'
           },
           id: {
             kind: 'identifier',
-            name: 'store_f64'
+            name: 'f64.store'
           }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i64',
+              init: '0x7ff4000000000000'
+            }
+          }]
         },
         {
           kind: 'export',
           name: {
             kind: 'literal',
-            value: 'load_f64'
+            value: 'i64.store'
           },
           id: {
             kind: 'identifier',
-            name: 'load_f64'
+            name: 'i64.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i64',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'reset'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'reset'
           }
         }
       ]
@@ -503,120 +577,872 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'store_i64',
-        body: [{
-          kind: 'const',
-          type: 'i64',
-          init: '0x7ff0000000000001'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x7ff0000000000001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_f64',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0x0000000000001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'store_i64',
-        body: [{
-          kind: 'const',
-          type: 'i64',
-          init: '0x8000000000000000'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x8000000000000000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_f64',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: '-0.0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'store_f64',
-        body: [{
-          kind: 'const',
-          type: 'f64',
-          init: 'n0x0000000000001'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0x0000000000001'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'load_i64',
+        name: 'i64.load',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0x7ff0000000000001'
+        init: '0x7ff4000000000000'
       }
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'store_f64',
-        body: [{
-          kind: 'const',
-          type: 'f64',
-          init: '-0.0'
-        }]
+        name: 'f64.load',
+        body: []
       },
       expr: {
         kind: 'const',
         type: 'f64',
-        init: '-0.0'
+        init: 'n0x4000000000000'
       }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
     },
     {
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'load_i64',
+        name: 'i64.load',
         body: []
       },
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0x8000000000000000'
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'f64.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ff4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'i64.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ff4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '1',
+          int1: '1',
+          segment: [{
+            kind: 'segment',
+            int: '0',
+            name: {
+              kind: 'literal',
+              value: '\01\00\d0\7f'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'f32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.load'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.load'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'i32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i32.load'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i32.load'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'f32',
+              init: 'n0x500001'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.store'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i32',
+              init: '0x7fd00001'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i32.store'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i32.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i32',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'reset'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fd00001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x500001'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'f32.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fd00001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x500001'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'i32.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fd00001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x500001'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: '1',
+          int1: '1',
+          segment: [{
+            kind: 'segment',
+            int: '0',
+            name: {
+              kind: 'literal',
+              value: '\01\00\00\00\00\00\fc\7f'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'f64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.load'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.load'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.load'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'load',
+            type: 'i64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i64.load'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i64.load'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'f64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'f64',
+              init: 'n0xc000000000001'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.store'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.store'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i64',
+              init: '0x7ffc000000000001'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i64.store'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i64.store'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'store',
+            type: 'i64',
+            size: null,
+            offset: 0,
+            align: 0,
+            addr: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            data: {
+              kind: 'const',
+              type: 'i64',
+              init: '0'
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'reset'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'reset'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ffc000000000001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000001'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'f64.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ffc000000000001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000001'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'reset',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0.0'
+      }
+    },
+    {
+      kind: 'invoke',
+      name: 'i64.store',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ffc000000000001'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.load',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000001'
       }
     }
   ]

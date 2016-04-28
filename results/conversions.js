@@ -4186,6 +4186,74 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.convert_s_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '-16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777220.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '-16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-16777220.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.convert_s_i64',
         body: [{
           kind: 'const',
@@ -4282,6 +4350,74 @@
         kind: 'const',
         type: 'f32',
         init: '0x1.1db9e8p+48'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '-16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777220.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '-16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-16777220.0'
       }
     },
     {
@@ -4492,6 +4628,74 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f64.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '9007199254740993'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '9007199254740992'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '-9007199254740993'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-9007199254740992'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '9007199254740995'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '9007199254740996'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.convert_s_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '-9007199254740995'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-9007199254740996'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.convert_u_i32',
         body: [{
           kind: 'const',
@@ -4594,6 +4798,40 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.convert_u_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_u_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777220.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.convert_u_i64',
         body: [{
           kind: 'const',
@@ -4673,6 +4911,40 @@
         kind: 'const',
         type: 'f32',
         init: '18446744073709551616.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_u_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '16777217'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777216.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.convert_u_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '16777219'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '16777220.0'
       }
     },
     {
@@ -4843,6 +5115,40 @@
         kind: 'const',
         type: 'f64',
         init: '18446744073709551616.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.convert_u_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '9007199254740993'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '9007199254740992'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.convert_u_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '9007199254740995'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '9007199254740996'
       }
     },
     {

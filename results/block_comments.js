@@ -1,4 +1,7 @@
 {
   kind: 'script',
-  body: []
+  body: [{
+    kind: 'module',
+    body: []
+  }]
 }
