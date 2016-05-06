@@ -356,7 +356,7 @@ expr
 literal = ["] value:( !["] . )* ["] {
     return {
         kind: 'literal',
-        value: value.reduce(function (res, e) { return res + e[1]; }, '')
+        value: value.map(function (e) { return e[1]; }).join('').replace(/\\/g, '\\\\')
     };
 }
 

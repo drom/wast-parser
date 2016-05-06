@@ -635,7 +635,7 @@
               int: '0',
               name: {
                 kind: 'literal',
-                value: 'ABC\a7D'
+                value: 'ABC\\a7D'
               }
             },
             {
