@@ -489,6 +489,106 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'f32.min'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'min',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.max'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'max',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'f64.add'
           },
           type: null,
@@ -967,6 +1067,106 @@
           }]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.min'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'min',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.max'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'max',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
+        },
+        {
           kind: 'export',
           name: {
             kind: 'literal',
@@ -1102,6 +1302,28 @@
           kind: 'export',
           name: {
             kind: 'literal',
+            value: 'f32.min'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.min'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.max'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.max'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
             value: 'f64.add'
           },
           id: {
@@ -1228,6 +1450,28 @@
           id: {
             kind: 'identifier',
             name: 'f64.nearest'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.min'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.min'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.max'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.max'
           }
         }
       ]
@@ -5196,6 +5440,102 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-75'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-75'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.000002p-75'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.000002p-75'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6a09e667f3bccp-538'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6a09e667f3bccp-538'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6a09e667f3bcdp-538'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.6a09e667f3bcdp-538'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0.0000000000001p-1022'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.div',
         body: [
           {
@@ -6684,6 +7024,294 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-126'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fffffcp-127'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000002p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fffffcp-127'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-126'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffcp-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1022'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x0.fffffffffffffp-1022'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.0000000000001p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x0.fffffffffffffp-1022'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1022'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.ffffffffffffep-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fffffep-23'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fffffep+127'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-22'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.fffffep+127'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.fffffffffffffp-52'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.fffffffffffffp+1023'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-51'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1.fffffffffffffp+1023'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0.0000000000001p-1022'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '1.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-128'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '1.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1.000008p-128'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffp+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '1.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x0.4p-1022'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '1.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x0.4000000000001p-1022'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.ffffffffffff8p+1023'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -6797,6 +7425,23 @@
         kind: 'const',
         type: 'f64',
         init: '0x1.3c5142a48fcadp-185'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.sqrt',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffffffffffp-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.fffffffffffffp-1'
       }
     },
     {
@@ -8417,6 +9062,198 @@
         kind: 'const',
         type: 'f64',
         init: '-4.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.min',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'n0x200000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.min',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'n0x200000'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.max',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'n0x200000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.max',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: 'n0x200000'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x600000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.min',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'n0x4000000000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.min',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'n0x4000000000000'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.max',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'n0x4000000000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.max',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: 'n0x4000000000000'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0.0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0xc000000000000'
       }
     }
   ]

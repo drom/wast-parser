@@ -1632,7 +1632,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '1.1'
+          init: '0x1.19999ap+0'
         }]
       },
       expr: {
@@ -1683,7 +1683,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '-1.1'
+          init: '-0x1.19999ap+0'
         }]
       },
       expr: {
@@ -1950,7 +1950,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '1.1'
+          init: '0x1.19999ap+0'
         }]
       },
       expr: {
@@ -2052,7 +2052,24 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '-0.9'
+          init: '-0x1.ccccccp-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.trunc_u_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0x1.fffffep-1'
         }]
       },
       expr: {
@@ -2234,7 +2251,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '1.1'
+          init: '0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -2285,7 +2302,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-1.1'
+          init: '-0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -2552,7 +2569,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '1.1'
+          init: '0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -2654,7 +2671,24 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-0.9'
+          init: '-0x1.ccccccccccccdp-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.trunc_u_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffffffffffp-1'
         }]
       },
       expr: {
@@ -2901,7 +2935,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '1.1'
+          init: '0x1.19999ap+0'
         }]
       },
       expr: {
@@ -2952,7 +2986,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '-1.1'
+          init: '-0x1.19999ap+0'
         }]
       },
       expr: {
@@ -3253,7 +3287,7 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '1.1'
+          init: '0x1.19999ap+0'
         }]
       },
       expr: {
@@ -3321,7 +3355,24 @@
         body: [{
           kind: 'const',
           type: 'f32',
-          init: '-0.9'
+          init: '-0x1.ccccccp-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.trunc_u_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0x1.fffffep-1'
         }]
       },
       expr: {
@@ -3503,7 +3554,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '1.1'
+          init: '0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -3554,7 +3605,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-1.1'
+          init: '-0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -3855,7 +3906,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '1.1'
+          init: '0x1.199999999999ap+0'
         }]
       },
       expr: {
@@ -3940,7 +3991,24 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-0.9'
+          init: '-0x1.ccccccccccccdp-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.trunc_u_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffffffffffp-1'
         }]
       },
       expr: {
@@ -6009,6 +6077,23 @@
         body: [{
           kind: 'const',
           type: 'i32',
+          init: '-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x7fffff'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
           init: '123456789'
         }]
       },
@@ -6033,6 +6118,108 @@
         kind: 'const',
         type: 'f32',
         init: '-0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x7f800000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0xff800000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x7fc00000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0xffc00000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x7fa00000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: 'n0x200000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.reinterpret_i32',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0xffa00000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x200000'
       }
     },
     {
@@ -6067,6 +6254,23 @@
         kind: 'const',
         type: 'f64',
         init: '0x0.0000000000001p-1022'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '-1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0xfffffffffffff'
       }
     },
     {
@@ -6124,6 +6328,108 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7ff0000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xfff0000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-infinity'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7ff8000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xfff8000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-nan'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7ff4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: 'n0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.reinterpret_i64',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xfff4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '-0x4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'i32.reinterpret_f32',
         body: [{
           kind: 'const',
@@ -6169,6 +6475,23 @@
         kind: 'const',
         type: 'i32',
         init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.reinterpret_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0x7fffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '-1'
       }
     },
     {
@@ -6311,6 +6634,57 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'i32.reinterpret_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xffc00000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.reinterpret_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: 'n0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0x7fa00000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.reinterpret_f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '-0x200000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0xffa00000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'i64.reinterpret_f64',
         body: [{
           kind: 'const',
@@ -6356,6 +6730,23 @@
         kind: 'const',
         type: 'i64',
         init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.reinterpret_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0xfffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '-1'
       }
     },
     {
@@ -6492,6 +6883,57 @@
         kind: 'const',
         type: 'i64',
         init: '0x7ff8000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.reinterpret_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-nan'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0xfff8000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.reinterpret_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: 'n0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x7ff4000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.reinterpret_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x4000000000000'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0xfff4000000000000'
       }
     }
   ]
