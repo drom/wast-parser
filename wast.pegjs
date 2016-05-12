@@ -512,7 +512,7 @@ invoke = kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* {
     };
 }
 
-module = kind:"module" body:( __ cmd )* {
+module = kind:"module" body:( __ ( cmd / literal ) )* {
     var result = [];
     return {
         kind: kind,
