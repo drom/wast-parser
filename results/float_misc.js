@@ -5536,6 +5536,54 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-126'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-23'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.mul',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1022'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-52'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x0.0000000000001p-1022'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.div',
         body: [
           {
@@ -7312,6 +7360,54 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-126'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-149'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p+23'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.div',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1022'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x0.0000000000001p-1022'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1p+52'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8915,6 +9011,23 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'f32.nearest',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0x1.fffffep+47'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffep+47'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -8960,6 +9073,23 @@
         kind: 'const',
         type: 'f64',
         init: '0.0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.nearest',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffffffffffp+105'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1.fffffffffffffp+105'
       }
     },
     {

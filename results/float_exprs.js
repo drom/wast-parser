@@ -26700,6 +26700,231 @@
         type: 'f64',
         init: '0x1.4468072f54294p-317'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_flush_intermediate_subnormal'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f32',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f32.no_flush_intermediate_subnormal'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f32.no_flush_intermediate_subnormal'
+          }
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_flush_intermediate_subnormal'
+          },
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'z',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'f64',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'z'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'f64.no_flush_intermediate_subnormal'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'f64.no_flush_intermediate_subnormal'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.no_flush_intermediate_subnormal',
+        body: [
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-126'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p-23'
+          },
+          {
+            kind: 'const',
+            type: 'f32',
+            init: '0x1p23'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1p-126'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f64.no_flush_intermediate_subnormal',
+        body: [
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-1022'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p-52'
+          },
+          {
+            kind: 'const',
+            type: 'f64',
+            init: '0x1p52'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f64',
+        init: '0x1p-1022'
+      }
     }
   ]
 }

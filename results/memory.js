@@ -33,6 +33,15 @@
       body: [{
         kind: 'memory',
         int: '0',
+        int1: '65535',
+        segment: []
+      }]
+    },
+    {
+      kind: 'module',
+      body: [{
+        kind: 'memory',
+        int: '0',
         int1: '0',
         segment: [{
           kind: 'segment',
@@ -297,6 +306,54 @@
       failure: {
         kind: 'literal',
         value: 'data segment not disjoint and ordered'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'memory',
+          int: '0',
+          int1: '65536',
+          segment: []
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'linear memory pages must be less or equal to 65535 (4GiB)'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'memory',
+          int: '0',
+          int1: '2147483648',
+          segment: []
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'linear memory pages must be less or equal to 65535 (4GiB)'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'memory',
+          int: '0',
+          int1: '4294967296',
+          segment: []
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'linear memory pages must be less or equal to 65535 (4GiB)'
       }
     },
     {
