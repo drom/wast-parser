@@ -87,7 +87,7 @@ var
     }
 
 case
-    = "(" kind:"case" __ test:( "$" name / value ) body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
+    = "(" __ kind:"case" __ test:( "$" name / value ) body:( __ expr )* fallthrough:( __ "fallthrough")? __ ")" {
         return {
             kind: kind,
             test: test,
@@ -95,7 +95,7 @@ case
             fallthrough: fallthrough ? true : false
         };
     }
-    / "(" kind:"case" test:( __ value )? __ ")" {
+    / "(" __ kind:"case" test:( __ value )? __ ")" {
         return {
             kind: kind,
             test: test ? value[1] : null
@@ -112,7 +112,7 @@ tableswitchtable = "(" kind:"table" items:( __ case )* __ ")" {
     }
 */
 expr
-    = "("
+    = "(" __
         body:( type:local_type "." kind:"const" __ init:value {
             return {
                 kind: kind,
@@ -361,13 +361,13 @@ literal = ["] value:( !["] . )* ["] {
 }
 
 param
-    = "(" kind:"param" items:( __ local_type )* __ ")" {
+    = "(" __ kind:"param" items:( __ local_type )* __ ")" {
         return {
             kind: kind,
             items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
         };
     }
-    / "(" kind:"param" __ "$" name:name __ type:local_type __ ")" {
+    / "(" __ kind:"param" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
             items: [{ kind: 'item', name: name, type: type }]
@@ -375,20 +375,20 @@ param
     }
 
 local
-    = "(" kind:"local" items:( __ local_type )* __ ")" {
+    = "(" __ kind:"local" items:( __ local_type )* __ ")" {
         return {
             kind: kind,
             items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
         };
     }
-    / "(" kind:"local" __ "$" name:name __ type:local_type __ ")" {
+    / "(" __ kind:"local" __ "$" name:name __ type:local_type __ ")" {
         return {
             kind: kind,
             items: [{ kind: 'item', name: name, type: type }]
         };
     }
 
-result = "(" kind:"result" __ type:local_type __ ")" {
+result = "(" __ kind:"result" __ type:local_type __ ")" {
     return {
         kind: kind,
         type: type
@@ -403,7 +403,7 @@ segment = kind:"segment" __ int:int __ name:literal {
     }
 }
 
-func_type = "(" kind:"type" __ id:var __ ")" {
+func_type = "(" __ kind:"type" __ id:var __ ")" {
     return {
         kind: kind,
         id: id
@@ -430,21 +430,21 @@ _start = kind:"start" __ id:var {
     };
 }
 
-param_def = "(" kind:"param" items:( __ local_type )* __ ")" {
+param_def = "(" __ kind:"param" items:( __ local_type )* __ ")" {
     return {
         kind: kind,
         items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
     }
 }
 
-result_def = "(" kind:"result" __ type:local_type __ ")" {
+result_def = "(" __ kind:"result" __ type:local_type __ ")" {
     return {
         kind: kind,
         type: type
     }
 }
 
-func_def = "(" kind:"func" param:( __ param_def )* result:( __ result_def )? __ ")" {
+func_def = "(" __ kind:"func" param:( __ param_def )* result:( __ result_def )? __ ")" {
     return {
         kind: kind,
         params: param.map(function (e) { return e[1]; }),
@@ -553,7 +553,7 @@ assert_invalid = kind:"assert_invalid" __ module:cmd __ failure:literal {
 }
 
 cmd
-    = "("
+    = "(" __
         node:( module
         / invoke
         / assert_return
