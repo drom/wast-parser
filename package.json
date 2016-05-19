@@ -1,6 +1,6 @@
 {
   "name": "wast-parser",
-  "version": "0.19.1",
+  "version": "0.20.0",
   "description": "wast parser",
   "main": "index.js",
   "files": [
