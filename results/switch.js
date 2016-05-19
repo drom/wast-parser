@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'stmt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -289,6 +290,7 @@
             kind: 'identifier',
             name: 'expr'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -536,6 +538,7 @@
             kind: 'identifier',
             name: 'arg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -675,6 +678,7 @@
             kind: 'identifier',
             name: 'corner'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1198,6 +1202,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,

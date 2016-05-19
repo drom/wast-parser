@@ -47,6 +47,7 @@
             kind: 'identifier',
             name: 'good'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -364,6 +365,7 @@
             kind: 'identifier',
             name: 'bad2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -487,6 +489,7 @@
               kind: 'identifier',
               name: 'bad1'
             },
+            expo: null,
             type: null,
             params: [{
               kind: 'param',

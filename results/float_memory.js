@@ -23,6 +23,7 @@
             kind: 'identifier',
             name: 'f32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -61,6 +62,7 @@
             kind: 'identifier',
             name: 'i32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -99,6 +101,7 @@
             kind: 'identifier',
             name: 'f32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -138,6 +141,7 @@
             kind: 'identifier',
             name: 'i32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -177,6 +181,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -384,6 +389,7 @@
             kind: 'identifier',
             name: 'f64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -422,6 +428,7 @@
             kind: 'identifier',
             name: 'i64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -460,6 +467,7 @@
             kind: 'identifier',
             name: 'f64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -499,6 +507,7 @@
             kind: 'identifier',
             name: 'i64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -538,6 +547,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -745,6 +755,7 @@
             kind: 'identifier',
             name: 'f32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -783,6 +794,7 @@
             kind: 'identifier',
             name: 'i32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -821,6 +833,7 @@
             kind: 'identifier',
             name: 'f32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -860,6 +873,7 @@
             kind: 'identifier',
             name: 'i32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -899,6 +913,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1106,6 +1121,7 @@
             kind: 'identifier',
             name: 'f64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1144,6 +1160,7 @@
             kind: 'identifier',
             name: 'i64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1182,6 +1199,7 @@
             kind: 'identifier',
             name: 'f64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1221,6 +1239,7 @@
             kind: 'identifier',
             name: 'i64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1260,6 +1279,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1467,6 +1487,7 @@
             kind: 'identifier',
             name: 'f32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1505,6 +1526,7 @@
             kind: 'identifier',
             name: 'i32.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1543,6 +1565,7 @@
             kind: 'identifier',
             name: 'f32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1582,6 +1605,7 @@
             kind: 'identifier',
             name: 'i32.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1621,6 +1645,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1828,6 +1853,7 @@
             kind: 'identifier',
             name: 'f64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1866,6 +1892,7 @@
             kind: 'identifier',
             name: 'i64.load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1904,6 +1931,7 @@
             kind: 'identifier',
             name: 'f64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1943,6 +1971,7 @@
             kind: 'identifier',
             name: 'i64.store'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1982,6 +2011,7 @@
             kind: 'identifier',
             name: 'reset'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,

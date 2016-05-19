@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'i32.test'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -32,6 +33,7 @@
             kind: 'identifier',
             name: 'i32.umax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -54,6 +56,7 @@
             kind: 'identifier',
             name: 'i32.smax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -76,6 +79,7 @@
             kind: 'identifier',
             name: 'i32.neg_smax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -98,6 +102,7 @@
             kind: 'identifier',
             name: 'i32.smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -120,6 +125,7 @@
             kind: 'identifier',
             name: 'i32.alt_smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -142,6 +148,7 @@
             kind: 'identifier',
             name: 'i32.inc_smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -174,6 +181,7 @@
             kind: 'identifier',
             name: 'i32.neg_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -196,6 +204,7 @@
             kind: 'identifier',
             name: 'i32.not_octal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -218,6 +227,7 @@
             kind: 'identifier',
             name: 'i64.test'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -240,6 +250,7 @@
             kind: 'identifier',
             name: 'i64.umax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -262,6 +273,7 @@
             kind: 'identifier',
             name: 'i64.smax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -284,6 +296,7 @@
             kind: 'identifier',
             name: 'i64.neg_smax'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -306,6 +319,7 @@
             kind: 'identifier',
             name: 'i64.smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -328,6 +342,7 @@
             kind: 'identifier',
             name: 'i64.alt_smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -350,6 +365,7 @@
             kind: 'identifier',
             name: 'i64.inc_smin'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -382,6 +398,7 @@
             kind: 'identifier',
             name: 'i64.neg_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -404,6 +421,7 @@
             kind: 'identifier',
             name: 'i64.not_octal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {

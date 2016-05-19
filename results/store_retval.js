@@ -112,6 +112,7 @@
             kind: 'identifier',
             name: 'run'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -469,6 +470,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -523,6 +525,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -577,6 +580,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -631,6 +635,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,

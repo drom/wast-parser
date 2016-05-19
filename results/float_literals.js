@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'f32.nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -35,6 +36,7 @@
             kind: 'identifier',
             name: 'f32.positive_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -60,6 +62,7 @@
             kind: 'identifier',
             name: 'f32.negative_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -85,6 +88,7 @@
             kind: 'identifier',
             name: 'f32.plain_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -110,6 +114,7 @@
             kind: 'identifier',
             name: 'f32.informally_known_as_plain_snan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -135,6 +140,7 @@
             kind: 'identifier',
             name: 'f32.allones_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -160,6 +166,7 @@
             kind: 'identifier',
             name: 'f32.misc_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -185,6 +192,7 @@
             kind: 'identifier',
             name: 'f32.misc_positive_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -210,6 +218,7 @@
             kind: 'identifier',
             name: 'f32.misc_negative_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -235,6 +244,7 @@
             kind: 'identifier',
             name: 'f32.infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -260,6 +270,7 @@
             kind: 'identifier',
             name: 'f32.positive_infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -285,6 +296,7 @@
             kind: 'identifier',
             name: 'f32.negative_infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -310,6 +322,7 @@
             kind: 'identifier',
             name: 'f32.zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -335,6 +348,7 @@
             kind: 'identifier',
             name: 'f32.positive_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -360,6 +374,7 @@
             kind: 'identifier',
             name: 'f32.negative_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -385,6 +400,7 @@
             kind: 'identifier',
             name: 'f32.misc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -410,6 +426,7 @@
             kind: 'identifier',
             name: 'f32.min_positive'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -435,6 +452,7 @@
             kind: 'identifier',
             name: 'f32.min_normal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -460,6 +478,7 @@
             kind: 'identifier',
             name: 'f32.max_finite'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -485,6 +504,7 @@
             kind: 'identifier',
             name: 'f32.max_subnormal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -510,6 +530,7 @@
             kind: 'identifier',
             name: 'f32.trailing_dot'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -535,6 +556,7 @@
             kind: 'identifier',
             name: 'f32_dec.zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -560,6 +582,7 @@
             kind: 'identifier',
             name: 'f32_dec.positive_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -585,6 +608,7 @@
             kind: 'identifier',
             name: 'f32_dec.negative_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -610,6 +634,7 @@
             kind: 'identifier',
             name: 'f32_dec.misc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -635,6 +660,7 @@
             kind: 'identifier',
             name: 'f32_dec.min_positive'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -660,6 +686,7 @@
             kind: 'identifier',
             name: 'f32_dec.min_normal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -685,6 +712,7 @@
             kind: 'identifier',
             name: 'f32_dec.max_subnormal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -710,6 +738,7 @@
             kind: 'identifier',
             name: 'f32_dec.max_finite'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -735,6 +764,7 @@
             kind: 'identifier',
             name: 'f32_dec.trailing_dot'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -760,6 +790,7 @@
             kind: 'identifier',
             name: 'f64.nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -785,6 +816,7 @@
             kind: 'identifier',
             name: 'f64.positive_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -810,6 +842,7 @@
             kind: 'identifier',
             name: 'f64.negative_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -835,6 +868,7 @@
             kind: 'identifier',
             name: 'f64.plain_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -860,6 +894,7 @@
             kind: 'identifier',
             name: 'f64.informally_known_as_plain_snan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -885,6 +920,7 @@
             kind: 'identifier',
             name: 'f64.allones_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -910,6 +946,7 @@
             kind: 'identifier',
             name: 'f64.misc_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -935,6 +972,7 @@
             kind: 'identifier',
             name: 'f64.misc_positive_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -960,6 +998,7 @@
             kind: 'identifier',
             name: 'f64.misc_negative_nan'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -985,6 +1024,7 @@
             kind: 'identifier',
             name: 'f64.infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1010,6 +1050,7 @@
             kind: 'identifier',
             name: 'f64.positive_infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1035,6 +1076,7 @@
             kind: 'identifier',
             name: 'f64.negative_infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1060,6 +1102,7 @@
             kind: 'identifier',
             name: 'f64.zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1085,6 +1128,7 @@
             kind: 'identifier',
             name: 'f64.positive_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1110,6 +1154,7 @@
             kind: 'identifier',
             name: 'f64.negative_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1135,6 +1180,7 @@
             kind: 'identifier',
             name: 'f64.misc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1160,6 +1206,7 @@
             kind: 'identifier',
             name: 'f64.min_positive'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1185,6 +1232,7 @@
             kind: 'identifier',
             name: 'f64.min_normal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1210,6 +1258,7 @@
             kind: 'identifier',
             name: 'f64.max_subnormal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1235,6 +1284,7 @@
             kind: 'identifier',
             name: 'f64.max_finite'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1260,6 +1310,7 @@
             kind: 'identifier',
             name: 'f64.trailing_dot'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1285,6 +1336,7 @@
             kind: 'identifier',
             name: 'f64_dec.zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1310,6 +1362,7 @@
             kind: 'identifier',
             name: 'f64_dec.positive_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1335,6 +1388,7 @@
             kind: 'identifier',
             name: 'f64_dec.negative_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1360,6 +1414,7 @@
             kind: 'identifier',
             name: 'f64_dec.misc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1385,6 +1440,7 @@
             kind: 'identifier',
             name: 'f64_dec.min_positive'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1410,6 +1466,7 @@
             kind: 'identifier',
             name: 'f64_dec.min_normal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1435,6 +1492,7 @@
             kind: 'identifier',
             name: 'f64_dec.max_subnormal'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1460,6 +1518,7 @@
             kind: 'identifier',
             name: 'f64_dec.max_finite'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1485,6 +1544,7 @@
             kind: 'identifier',
             name: 'f64_dec.trailing_dot'
           },
+          expo: null,
           type: null,
           params: [],
           result: {

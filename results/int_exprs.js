@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_cmp_s_offset'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -91,6 +92,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_cmp_u_offset'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -172,6 +174,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_cmp_s_offset'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -253,6 +256,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_cmp_u_offset'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -435,6 +439,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -525,6 +530,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_wrap_extend_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -598,6 +604,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -657,6 +664,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_shl_shr_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -716,6 +724,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -775,6 +784,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_shl_shr_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -907,6 +917,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_shr_s_shl'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -966,6 +977,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_shr_u_shl'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1025,6 +1037,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_shr_s_shl'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1084,6 +1097,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_shr_u_shl'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1216,6 +1230,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_div_s_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1275,6 +1290,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_div_u_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1334,6 +1350,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_div_s_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1393,6 +1410,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_div_u_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1525,6 +1543,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1584,6 +1603,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_mul_div_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1643,6 +1663,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1702,6 +1723,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_mul_div_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1834,6 +1856,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_div_s_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1883,6 +1906,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_div_s_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1971,6 +1995,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_rem_s_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2020,6 +2045,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_rem_s_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2108,6 +2134,7 @@
             kind: 'identifier',
             name: 'i32.div_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2157,6 +2184,7 @@
             kind: 'identifier',
             name: 'i32.div_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2206,6 +2234,7 @@
             kind: 'identifier',
             name: 'i64.div_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2255,6 +2284,7 @@
             kind: 'identifier',
             name: 'i64.div_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2373,6 +2403,7 @@
             kind: 'identifier',
             name: 'i32.div_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2422,6 +2453,7 @@
             kind: 'identifier',
             name: 'i32.div_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2471,6 +2503,7 @@
             kind: 'identifier',
             name: 'i64.div_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2520,6 +2553,7 @@
             kind: 'identifier',
             name: 'i64.div_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2710,6 +2744,7 @@
             kind: 'identifier',
             name: 'i32.div_s_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2759,6 +2794,7 @@
             kind: 'identifier',
             name: 'i32.div_u_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2808,6 +2844,7 @@
             kind: 'identifier',
             name: 'i64.div_s_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2857,6 +2894,7 @@
             kind: 'identifier',
             name: 'i64.div_u_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3047,6 +3085,7 @@
             kind: 'identifier',
             name: 'i32.div_s_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3096,6 +3135,7 @@
             kind: 'identifier',
             name: 'i32.div_u_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3145,6 +3185,7 @@
             kind: 'identifier',
             name: 'i64.div_s_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3194,6 +3235,7 @@
             kind: 'identifier',
             name: 'i64.div_u_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3384,6 +3426,7 @@
             kind: 'identifier',
             name: 'i32.rem_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3433,6 +3476,7 @@
             kind: 'identifier',
             name: 'i32.rem_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3482,6 +3526,7 @@
             kind: 'identifier',
             name: 'i64.rem_s_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3531,6 +3576,7 @@
             kind: 'identifier',
             name: 'i64.rem_u_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3721,6 +3767,7 @@
             kind: 'identifier',
             name: 'i32.rem_s_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3770,6 +3817,7 @@
             kind: 'identifier',
             name: 'i32.rem_u_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3819,6 +3867,7 @@
             kind: 'identifier',
             name: 'i64.rem_s_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3868,6 +3917,7 @@
             kind: 'identifier',
             name: 'i64.rem_u_5'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4058,6 +4108,7 @@
             kind: 'identifier',
             name: 'i32.rem_s_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4107,6 +4158,7 @@
             kind: 'identifier',
             name: 'i32.rem_u_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4156,6 +4208,7 @@
             kind: 'identifier',
             name: 'i64.rem_s_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4205,6 +4258,7 @@
             kind: 'identifier',
             name: 'i64.rem_u_7'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

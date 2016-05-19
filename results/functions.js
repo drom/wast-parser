@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'empty'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -33,6 +34,7 @@
             kind: 'identifier',
             name: 'result-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -56,6 +58,7 @@
             kind: 'identifier',
             name: 'result-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -83,6 +86,7 @@
             kind: 'identifier',
             name: 'result-block-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -117,6 +121,7 @@
             kind: 'identifier',
             name: 'result-block-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -151,6 +156,7 @@
             kind: 'identifier',
             name: 'return'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -177,6 +183,7 @@
             kind: 'identifier',
             name: 'return-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -203,6 +210,7 @@
             kind: 'identifier',
             name: 'return-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -233,6 +241,7 @@
             kind: 'identifier',
             name: 'return-block-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -270,6 +279,7 @@
             kind: 'identifier',
             name: 'return-block-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,

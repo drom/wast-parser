@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'block'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -50,6 +51,7 @@
             kind: 'identifier',
             name: 'loop1'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -165,6 +167,7 @@
             kind: 'identifier',
             name: 'loop2'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -333,6 +336,7 @@
             kind: 'identifier',
             name: 'loop3'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -447,6 +451,7 @@
             kind: 'identifier',
             name: 'loop4'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -573,6 +578,7 @@
             kind: 'identifier',
             name: 'loop5'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -613,6 +619,7 @@
             kind: 'identifier',
             name: 'if'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1037,6 +1044,7 @@
             kind: 'identifier',
             name: 'switch'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1198,6 +1206,7 @@
             kind: 'identifier',
             name: 'return'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1294,6 +1303,7 @@
             kind: 'identifier',
             name: 'br_if0'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1541,6 +1551,7 @@
             kind: 'identifier',
             name: 'br_if1'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1600,6 +1611,7 @@
             kind: 'identifier',
             name: 'br_if2'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1663,6 +1675,7 @@
             kind: 'identifier',
             name: 'br_if3'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1748,6 +1761,7 @@
             kind: 'identifier',
             name: 'br_if4'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1779,6 +1793,7 @@
             kind: 'identifier',
             name: 'br'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1867,6 +1882,7 @@
             kind: 'identifier',
             name: 'misc1'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1910,6 +1926,7 @@
             kind: 'identifier',
             name: 'misc2'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -1942,6 +1959,7 @@
             kind: 'identifier',
             name: 'redefinition'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -2561,6 +2579,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2607,6 +2626,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -2652,6 +2672,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -2697,6 +2718,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2744,6 +2766,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2803,6 +2826,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

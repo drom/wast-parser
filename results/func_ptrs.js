@@ -44,6 +44,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -60,6 +61,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -78,6 +80,7 @@
             kind: 'identifier',
             name: 'one'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -112,6 +115,7 @@
             kind: 'identifier',
             name: 'two'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -158,6 +162,7 @@
             kind: 'identifier',
             name: 'three'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -239,6 +244,7 @@
             kind: 'identifier',
             name: 'four'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -341,6 +347,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -448,6 +455,7 @@
             kind: 'identifier',
             name: 't1'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -470,6 +478,7 @@
             kind: 'identifier',
             name: 't2'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -492,6 +501,7 @@
             kind: 'identifier',
             name: 't3'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -514,6 +524,7 @@
             kind: 'identifier',
             name: 'u1'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -536,6 +547,7 @@
             kind: 'identifier',
             name: 'u2'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -558,6 +570,7 @@
             kind: 'identifier',
             name: 'callt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -604,6 +617,7 @@
             kind: 'identifier',
             name: 'callu'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1012,6 +1026,7 @@
             kind: 'identifier',
             name: 't1'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -1034,6 +1049,7 @@
             kind: 'identifier',
             name: 't2'
           },
+          expo: null,
           type: {
             kind: 'type',
             id: {
@@ -1056,6 +1072,7 @@
             kind: 'identifier',
             name: 'callt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

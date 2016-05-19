@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -60,6 +61,7 @@
             kind: 'identifier',
             name: 'sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -110,6 +112,7 @@
             kind: 'identifier',
             name: 'mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -160,6 +163,7 @@
             kind: 'identifier',
             name: 'div_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -210,6 +214,7 @@
             kind: 'identifier',
             name: 'div_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -260,6 +265,7 @@
             kind: 'identifier',
             name: 'rem_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -310,6 +316,7 @@
             kind: 'identifier',
             name: 'rem_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -360,6 +367,7 @@
             kind: 'identifier',
             name: 'and'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -410,6 +418,7 @@
             kind: 'identifier',
             name: 'or'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -460,6 +469,7 @@
             kind: 'identifier',
             name: 'xor'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -510,6 +520,7 @@
             kind: 'identifier',
             name: 'shl'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -560,6 +571,7 @@
             kind: 'identifier',
             name: 'shr_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -610,6 +622,7 @@
             kind: 'identifier',
             name: 'shr_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -660,6 +673,7 @@
             kind: 'identifier',
             name: 'rotl'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -710,6 +724,7 @@
             kind: 'identifier',
             name: 'rotr'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -760,6 +775,7 @@
             kind: 'identifier',
             name: 'clz'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -793,6 +809,7 @@
             kind: 'identifier',
             name: 'ctz'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -826,6 +843,7 @@
             kind: 'identifier',
             name: 'popcnt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -859,6 +877,7 @@
             kind: 'identifier',
             name: 'eqz'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -892,6 +911,7 @@
             kind: 'identifier',
             name: 'eq'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -942,6 +962,7 @@
             kind: 'identifier',
             name: 'ne'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -992,6 +1013,7 @@
             kind: 'identifier',
             name: 'lt_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1042,6 +1064,7 @@
             kind: 'identifier',
             name: 'lt_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1092,6 +1115,7 @@
             kind: 'identifier',
             name: 'le_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1142,6 +1166,7 @@
             kind: 'identifier',
             name: 'le_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1192,6 +1217,7 @@
             kind: 'identifier',
             name: 'gt_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1242,6 +1268,7 @@
             kind: 'identifier',
             name: 'gt_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1292,6 +1319,7 @@
             kind: 'identifier',
             name: 'ge_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1342,6 +1370,7 @@
             kind: 'identifier',
             name: 'ge_u'
           },
+          expo: null,
           type: null,
           params: [
             {

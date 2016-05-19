@@ -27,6 +27,7 @@
             kind: 'identifier',
             name: 'load_at_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -65,6 +66,7 @@
             kind: 'identifier',
             name: 'store_at_zero'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -107,6 +109,7 @@
             kind: 'identifier',
             name: 'load_at_page_size'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -145,6 +148,7 @@
             kind: 'identifier',
             name: 'store_at_page_size'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -187,6 +191,7 @@
             kind: 'identifier',
             name: 'grow'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -229,6 +234,7 @@
             kind: 'identifier',
             name: 'size'
           },
+          expo: null,
           type: null,
           params: [],
           result: {

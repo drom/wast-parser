@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -37,6 +38,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -79,6 +81,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -92,6 +95,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -136,6 +140,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -173,6 +178,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -186,6 +192,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -235,6 +242,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -285,6 +293,7 @@
             kind: 'identifier',
             name: 'f'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

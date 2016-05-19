@@ -16,6 +16,7 @@
             kind: 'identifier',
             name: 'addr_limit'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -52,6 +53,7 @@
             kind: 'identifier',
             name: 'store'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -128,6 +130,7 @@
             kind: 'identifier',
             name: 'load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -188,6 +191,7 @@
             kind: 'identifier',
             name: 'grow_memory'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

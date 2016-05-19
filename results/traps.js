@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.div_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -57,6 +58,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.div_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -104,6 +106,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.div_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -151,6 +154,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.div_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -339,6 +343,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.rem_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -386,6 +391,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.rem_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -433,6 +439,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.rem_s'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -480,6 +487,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.rem_u'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -668,6 +676,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -699,6 +708,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -730,6 +740,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.trunc_s_f64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -761,6 +772,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.trunc_u_f64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -792,6 +804,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -823,6 +836,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -854,6 +868,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.trunc_s_f64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -885,6 +900,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.trunc_u_f64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1154,6 +1170,7 @@
             kind: 'identifier',
             name: 'no_dce.i32.load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1198,6 +1215,7 @@
             kind: 'identifier',
             name: 'no_dce.i64.load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1242,6 +1260,7 @@
             kind: 'identifier',
             name: 'no_dce.f32.load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1286,6 +1305,7 @@
             kind: 'identifier',
             name: 'no_dce.f64.load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

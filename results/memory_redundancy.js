@@ -27,6 +27,7 @@
             kind: 'identifier',
             name: 'zero_everything'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -119,6 +120,7 @@
             kind: 'identifier',
             name: 'test_store_to_load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -193,6 +195,7 @@
             kind: 'identifier',
             name: 'test_redundant_load'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -263,6 +266,7 @@
             kind: 'identifier',
             name: 'test_dead_store'
           },
+          expo: null,
           type: null,
           params: [],
           result: {

@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'foo'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -58,6 +59,7 @@
             kind: 'identifier',
             name: 'foo'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -103,6 +105,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -134,6 +137,7 @@
             kind: 'identifier',
             name: 'malloc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -164,6 +168,7 @@
             kind: 'identifier',
             name: '_malloc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -183,6 +188,7 @@
             kind: 'identifier',
             name: '__malloc'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -199,6 +205,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -237,6 +244,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -265,6 +273,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -296,6 +305,7 @@
             kind: 'identifier',
             name: '_'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -323,6 +333,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -351,6 +362,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -382,6 +394,7 @@
             kind: 'identifier',
             name: 'NaN'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -401,6 +414,7 @@
             kind: 'identifier',
             name: 'Infinity'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -420,6 +434,7 @@
             kind: 'identifier',
             name: 'if'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -672,6 +687,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [
             {

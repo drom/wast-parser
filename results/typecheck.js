@@ -12,6 +12,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -40,6 +41,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -76,6 +78,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -112,6 +115,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [{
               kind: 'param',
@@ -127,6 +131,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -181,6 +186,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -218,6 +224,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: {
               kind: 'type',
               id: {
@@ -242,6 +249,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -286,6 +294,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: {
               kind: 'type',
               id: {
@@ -310,6 +319,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -342,6 +352,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -371,6 +382,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -415,6 +427,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -454,6 +467,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -493,6 +507,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -532,6 +547,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -571,6 +587,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -610,6 +627,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -649,6 +667,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -688,6 +707,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -727,6 +747,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -766,6 +787,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -805,6 +827,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -844,6 +867,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -883,6 +907,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -922,6 +947,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -961,6 +987,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1004,6 +1031,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1047,6 +1075,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1090,6 +1119,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1133,6 +1163,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1176,6 +1207,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1219,6 +1251,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1262,6 +1295,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1305,6 +1339,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1348,6 +1383,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1391,6 +1427,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1434,6 +1471,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1477,6 +1515,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1520,6 +1559,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1563,6 +1603,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1606,6 +1647,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1649,6 +1691,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1692,6 +1735,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -1728,6 +1772,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1761,6 +1806,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1794,6 +1840,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1827,6 +1874,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1860,6 +1908,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1893,6 +1942,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1926,6 +1976,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1959,6 +2010,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -1992,6 +2044,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2025,6 +2078,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2058,6 +2112,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2091,6 +2146,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2124,6 +2180,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2157,6 +2214,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2190,6 +2248,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2223,6 +2282,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2256,6 +2316,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2289,6 +2350,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2322,6 +2384,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2355,6 +2418,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2388,6 +2452,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2421,6 +2486,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2454,6 +2520,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2487,6 +2554,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2520,6 +2588,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2553,6 +2622,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2586,6 +2656,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2619,6 +2690,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2652,6 +2724,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2685,6 +2758,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2718,6 +2792,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2751,6 +2826,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2784,6 +2860,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2817,6 +2894,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2850,6 +2928,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2883,6 +2962,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2916,6 +2996,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2949,6 +3030,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -2982,6 +3064,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3015,6 +3098,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3048,6 +3132,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3081,6 +3166,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3114,6 +3200,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3147,6 +3234,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3180,6 +3268,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3208,6 +3297,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3236,6 +3326,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3264,6 +3355,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3292,6 +3384,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3320,6 +3413,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3348,6 +3442,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3376,6 +3471,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3404,6 +3500,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3432,6 +3529,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3460,6 +3558,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3488,6 +3587,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3516,6 +3616,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3544,6 +3645,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3572,6 +3674,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3600,6 +3703,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3628,6 +3732,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3656,6 +3761,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3684,6 +3790,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3712,6 +3819,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3740,6 +3848,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3768,6 +3877,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3796,6 +3906,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3829,6 +3940,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3862,6 +3974,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3895,6 +4008,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3928,6 +4042,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3961,6 +4076,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -3994,6 +4110,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4027,6 +4144,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4060,6 +4178,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4093,6 +4212,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4126,6 +4246,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4159,6 +4280,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4192,6 +4314,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4225,6 +4348,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4258,6 +4382,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4291,6 +4416,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4324,6 +4450,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4357,6 +4484,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4390,6 +4518,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4423,6 +4552,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4456,6 +4586,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4489,6 +4620,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4522,6 +4654,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4555,6 +4688,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4588,6 +4722,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4621,6 +4756,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4654,6 +4790,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4687,6 +4824,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4720,6 +4858,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4753,6 +4892,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4786,6 +4926,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4819,6 +4960,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4852,6 +4994,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4881,6 +5024,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4910,6 +5054,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4939,6 +5084,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4968,6 +5114,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -4997,6 +5144,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5026,6 +5174,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5055,6 +5204,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5084,6 +5234,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5113,6 +5264,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5142,6 +5294,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5171,6 +5324,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5200,6 +5354,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5229,6 +5384,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5258,6 +5414,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5287,6 +5444,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5316,6 +5474,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5345,6 +5504,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5374,6 +5534,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5403,6 +5564,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5432,6 +5594,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5461,6 +5624,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5490,6 +5654,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5519,6 +5684,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5548,6 +5714,7 @@
         body: [{
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -5584,6 +5751,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,

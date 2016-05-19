@@ -9,6 +9,7 @@
           {
             kind: 'func',
             id: null,
+            expo: null,
             type: null,
             params: [],
             result: null,
@@ -45,6 +46,7 @@
               kind: 'identifier',
               name: 'main'
             },
+            expo: null,
             type: null,
             params: [],
             result: {
@@ -86,6 +88,7 @@
               kind: 'identifier',
               name: 'main'
             },
+            expo: null,
             type: null,
             params: [{
               kind: 'param',
@@ -135,6 +138,7 @@
             kind: 'identifier',
             name: 'inc'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -181,6 +185,7 @@
             kind: 'identifier',
             name: 'get'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -211,6 +216,7 @@
             kind: 'identifier',
             name: 'main'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -344,6 +350,7 @@
             kind: 'identifier',
             name: 'inc'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -390,6 +397,7 @@
             kind: 'identifier',
             name: 'get'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -420,6 +428,7 @@
             kind: 'identifier',
             name: 'main'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -565,6 +574,7 @@
             kind: 'identifier',
             name: 'main'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -625,6 +635,7 @@
             kind: 'identifier',
             name: 'main'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,

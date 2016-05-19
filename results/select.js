@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'select_i32'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -73,6 +74,7 @@
             kind: 'identifier',
             name: 'select_i64'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -136,6 +138,7 @@
             kind: 'identifier',
             name: 'select_f32'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -199,6 +202,7 @@
             kind: 'identifier',
             name: 'select_f64'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -262,6 +266,7 @@
             kind: 'identifier',
             name: 'select_trap_l'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -299,6 +304,7 @@
             kind: 'identifier',
             name: 'select_trap_r'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

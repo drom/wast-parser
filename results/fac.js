@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -92,6 +93,7 @@
             kind: 'identifier',
             name: 'fac-rec'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -171,6 +173,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -347,6 +350,7 @@
             kind: 'identifier',
             name: 'fac-iter'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -525,6 +529,7 @@
             kind: 'identifier',
             name: 'fac-opt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

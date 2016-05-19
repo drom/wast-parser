@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'f64.no_contraction'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -241,6 +242,7 @@
             kind: 'identifier',
             name: 'f32.no_fma'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -322,6 +324,7 @@
             kind: 'identifier',
             name: 'f64.no_fma'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -698,6 +701,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_add_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -747,6 +751,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_add_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -869,6 +874,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_zero_sub'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -918,6 +924,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_zero_sub'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1040,6 +1047,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_sub_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1089,6 +1097,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_sub_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1177,6 +1186,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1226,6 +1236,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_zero'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1416,6 +1427,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_one'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1465,6 +1477,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_one'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1553,6 +1566,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_zero_div'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1602,6 +1616,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_zero_div'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1772,6 +1787,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_one'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1821,6 +1837,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_one'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1909,6 +1926,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_neg1'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1958,6 +1976,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_neg1'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2046,6 +2065,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_neg0_sub'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2095,6 +2115,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_neg0_sub'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2183,6 +2204,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_neg1_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2232,6 +2254,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_neg1_mul'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2320,6 +2343,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_eq_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2371,6 +2395,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_eq_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2461,6 +2486,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_ne_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2512,6 +2538,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_ne_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2602,6 +2629,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_sub_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2653,6 +2681,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_sub_self'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2767,6 +2796,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2816,6 +2846,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_3'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3040,6 +3071,7 @@
             kind: 'identifier',
             name: 'f32.no_factor'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -3133,6 +3165,7 @@
             kind: 'identifier',
             name: 'f64.no_factor'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -3521,6 +3554,7 @@
             kind: 'identifier',
             name: 'f32.no_distribute'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -3602,6 +3636,7 @@
             kind: 'identifier',
             name: 'f64.no_distribute'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -3978,6 +4013,7 @@
             kind: 'identifier',
             name: 'f32.no_regroup_div_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -4059,6 +4095,7 @@
             kind: 'identifier',
             name: 'f64.no_regroup_div_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -4435,6 +4472,7 @@
             kind: 'identifier',
             name: 'f32.no_regroup_mul_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -4516,6 +4554,7 @@
             kind: 'identifier',
             name: 'f64.no_regroup_mul_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -4892,6 +4931,7 @@
             kind: 'identifier',
             name: 'f32.no_reassociate_add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -4993,6 +5033,7 @@
             kind: 'identifier',
             name: 'f64.no_reassociate_add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -5439,6 +5480,7 @@
             kind: 'identifier',
             name: 'f32.no_reassociate_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -5540,6 +5582,7 @@
             kind: 'identifier',
             name: 'f64.no_reassociate_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -5986,6 +6029,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_0'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -6035,6 +6079,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_0'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -6341,6 +6386,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_neg0'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -6390,6 +6436,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_neg0'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -6696,6 +6743,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_to_hypot'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -6786,6 +6834,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_to_hypot'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -7121,6 +7170,7 @@
             kind: 'identifier',
             name: 'f32.no_approximate_reciprocal'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -7305,6 +7355,7 @@
             kind: 'identifier',
             name: 'f32.no_approximate_reciprocal_sqrt'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -7494,6 +7545,7 @@
             kind: 'identifier',
             name: 'f32.no_approximate_sqrt_reciprocal'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -7683,6 +7735,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_f32_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -7734,6 +7787,7 @@
             kind: 'identifier',
             name: 'i32.no_fold_f32_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -7785,6 +7839,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_f64_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -7836,6 +7891,7 @@
             kind: 'identifier',
             name: 'i64.no_fold_f64_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -8096,6 +8152,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_add_sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -8169,6 +8226,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_add_sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -8487,6 +8545,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_sub_add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -8560,6 +8619,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_sub_add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -8878,6 +8938,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -8951,6 +9012,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -9269,6 +9331,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -9342,6 +9405,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -9660,6 +9724,7 @@
             kind: 'identifier',
             name: 'no_fold_demote_promote'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -9801,6 +9866,7 @@
             kind: 'identifier',
             name: 'no_fold_promote_demote'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -9874,6 +9940,7 @@
             kind: 'identifier',
             name: 'no_demote_mixed_add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -9947,6 +10014,7 @@
             kind: 'identifier',
             name: 'no_demote_mixed_add_commuted'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -10265,6 +10333,7 @@
             kind: 'identifier',
             name: 'no_demote_mixed_sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -10463,6 +10532,7 @@
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_s_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10514,6 +10584,7 @@
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_u_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10565,6 +10636,7 @@
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_s_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10616,6 +10688,7 @@
             kind: 'identifier',
             name: 'f32.i32.no_fold_trunc_u_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10667,6 +10740,7 @@
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_s_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10718,6 +10792,7 @@
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_u_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10769,6 +10844,7 @@
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_s_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10820,6 +10896,7 @@
             kind: 'identifier',
             name: 'f64.i32.no_fold_trunc_u_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10871,6 +10948,7 @@
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_s_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10922,6 +11000,7 @@
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_u_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -10973,6 +11052,7 @@
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_s_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11024,6 +11104,7 @@
             kind: 'identifier',
             name: 'f32.i64.no_fold_trunc_u_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11075,6 +11156,7 @@
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_s_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11126,6 +11208,7 @@
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_u_convert_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11177,6 +11260,7 @@
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_s_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11228,6 +11312,7 @@
             kind: 'identifier',
             name: 'f64.i64.no_fold_trunc_u_convert_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -11834,6 +11919,7 @@
             kind: 'identifier',
             name: 'init'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -11894,6 +11980,7 @@
             kind: 'identifier',
             name: 'run'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12045,6 +12132,7 @@
             kind: 'identifier',
             name: 'check'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -12319,6 +12407,7 @@
             kind: 'identifier',
             name: 'init'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12379,6 +12468,7 @@
             kind: 'identifier',
             name: 'run'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12530,6 +12620,7 @@
             kind: 'identifier',
             name: 'check'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -12798,6 +12889,7 @@
             kind: 'identifier',
             name: 'f32.ult'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12853,6 +12945,7 @@
             kind: 'identifier',
             name: 'f32.ule'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12908,6 +13001,7 @@
             kind: 'identifier',
             name: 'f32.ugt'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -12963,6 +13057,7 @@
             kind: 'identifier',
             name: 'f32.uge'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -13018,6 +13113,7 @@
             kind: 'identifier',
             name: 'f64.ult'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -13073,6 +13169,7 @@
             kind: 'identifier',
             name: 'f64.ule'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -13128,6 +13225,7 @@
             kind: 'identifier',
             name: 'f64.ugt'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -13183,6 +13281,7 @@
             kind: 'identifier',
             name: 'f64.uge'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14099,6 +14198,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_lt_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14177,6 +14277,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_le_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14255,6 +14356,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_gt_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14333,6 +14435,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_ge_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14411,6 +14514,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_lt_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14489,6 +14593,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_le_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14567,6 +14672,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_gt_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -14645,6 +14751,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_ge_select'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15496,6 +15603,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_lt_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15574,6 +15682,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_le_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15652,6 +15761,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_gt_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15730,6 +15840,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_ge_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15808,6 +15919,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_lt_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15886,6 +15998,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_le_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -15964,6 +16077,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_gt_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -16042,6 +16156,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_ge_if'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -16893,6 +17008,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_lt_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -16964,6 +17080,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_le_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17035,6 +17152,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_gt_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17106,6 +17224,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_ge_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17177,6 +17296,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_lt_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17248,6 +17368,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_le_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17319,6 +17440,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_gt_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -17390,6 +17512,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_ge_select_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18010,6 +18133,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_lt_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18081,6 +18205,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_le_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18152,6 +18277,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_gt_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18223,6 +18349,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_ge_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18294,6 +18421,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_lt_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18365,6 +18493,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_le_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18436,6 +18565,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_gt_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -18507,6 +18637,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_ge_if_to_abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -19127,6 +19258,7 @@
             kind: 'identifier',
             name: 'incorrect_correction'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -19205,6 +19337,7 @@
             kind: 'identifier',
             name: 'incorrect_correction'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -19283,6 +19416,7 @@
             kind: 'identifier',
             name: 'calculate'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -19581,6 +19715,7 @@
             kind: 'identifier',
             name: 'calculate'
           },
+          expo: null,
           type: null,
           params: [],
           result: {
@@ -19879,6 +20014,7 @@
             kind: 'identifier',
             name: 'llvm_pr26746'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -19960,6 +20096,7 @@
             kind: 'identifier',
             name: 'llvm_pr27153'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -20047,6 +20184,7 @@
             kind: 'identifier',
             name: 'llvm_pr27036'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -20169,6 +20307,7 @@
             kind: 'identifier',
             name: 'thepast0'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -20270,6 +20409,7 @@
             kind: 'identifier',
             name: 'thepast1'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -20351,6 +20491,7 @@
             kind: 'identifier',
             name: 'thepast2'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -20529,6 +20670,7 @@
             kind: 'identifier',
             name: 'inverse'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -20600,6 +20742,7 @@
             kind: 'identifier',
             name: 'f32_sqrt_minus_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -20654,6 +20797,7 @@
             kind: 'identifier',
             name: 'f64_sqrt_minus_2'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -20747,6 +20891,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_recip_recip'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -20806,6 +20951,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_recip_recip'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -21040,6 +21186,7 @@
             kind: 'identifier',
             name: 'f32.no_algebraic_factoring'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -21125,6 +21272,7 @@
             kind: 'identifier',
             name: 'f64.no_algebraic_factoring'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -21455,6 +21603,7 @@
             kind: 'identifier',
             name: 'f32.no_algebraic_factoring'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -21540,6 +21689,7 @@
             kind: 'identifier',
             name: 'f64.no_algebraic_factoring'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -21883,6 +22033,7 @@
             kind: 'identifier',
             name: 'f32.kahan_sum'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -22126,6 +22277,7 @@
             kind: 'identifier',
             name: 'f32.plain_sum'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -22360,6 +22512,7 @@
             kind: 'identifier',
             name: 'f64.kahan_sum'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -22603,6 +22756,7 @@
             kind: 'identifier',
             name: 'f64.plain_sum'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -22824,6 +22978,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_neg_sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -22890,6 +23045,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_neg_sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -23153,6 +23309,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_add_neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -23209,6 +23366,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_add_neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -23386,6 +23544,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_7x_via_add'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -23497,6 +23656,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_7x_via_add'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -23783,6 +23943,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -23864,6 +24025,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -24240,6 +24402,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_divs'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -24341,6 +24504,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_divs'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -24787,6 +24951,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_add_divs'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -24880,6 +25045,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_add_divs'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -25268,6 +25434,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_sqrt_square'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -25324,6 +25491,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_sqrt_square'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -25555,6 +25723,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_sqrts'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -25626,6 +25795,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_sqrts'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -25932,6 +26102,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_div_sqrts'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -26003,6 +26174,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_div_sqrts'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -26309,6 +26481,7 @@
             kind: 'identifier',
             name: 'f32.no_fold_mul_sqrt_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -26387,6 +26560,7 @@
             kind: 'identifier',
             name: 'f64.no_fold_mul_sqrt_div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -26710,6 +26884,7 @@
             kind: 'identifier',
             name: 'f32.no_flush_intermediate_subnormal'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -26791,6 +26966,7 @@
             kind: 'identifier',
             name: 'f64.no_flush_intermediate_subnormal'
           },
+          expo: null,
           type: null,
           params: [
             {

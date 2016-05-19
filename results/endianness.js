@@ -16,6 +16,7 @@
             kind: 'identifier',
             name: 'i16_store_little'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -108,6 +109,7 @@
             kind: 'identifier',
             name: 'i32_store_little'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -204,6 +206,7 @@
             kind: 'identifier',
             name: 'i64_store_little'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -312,6 +315,7 @@
             kind: 'identifier',
             name: 'i16_load_little'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -388,6 +392,7 @@
             kind: 'identifier',
             name: 'i32_load_little'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -462,6 +467,7 @@
             kind: 'identifier',
             name: 'i64_load_little'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -548,6 +554,7 @@
             kind: 'identifier',
             name: 'i32_load16_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -605,6 +612,7 @@
             kind: 'identifier',
             name: 'i32_load16_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -662,6 +670,7 @@
             kind: 'identifier',
             name: 'i32_load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -719,6 +728,7 @@
             kind: 'identifier',
             name: 'i64_load16_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -782,6 +792,7 @@
             kind: 'identifier',
             name: 'i64_load16_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -845,6 +856,7 @@
             kind: 'identifier',
             name: 'i64_load32_s'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -908,6 +920,7 @@
             kind: 'identifier',
             name: 'i64_load32_u'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -971,6 +984,7 @@
             kind: 'identifier',
             name: 'i64_load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1028,6 +1042,7 @@
             kind: 'identifier',
             name: 'f32_load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1091,6 +1106,7 @@
             kind: 'identifier',
             name: 'f64_load'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1154,6 +1170,7 @@
             kind: 'identifier',
             name: 'i32_store16'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1208,6 +1225,7 @@
             kind: 'identifier',
             name: 'i32_store'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1262,6 +1280,7 @@
             kind: 'identifier',
             name: 'i64_store16'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1322,6 +1341,7 @@
             kind: 'identifier',
             name: 'i64_store32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1382,6 +1402,7 @@
             kind: 'identifier',
             name: 'i64_store'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1436,6 +1457,7 @@
             kind: 'identifier',
             name: 'f32_store'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1496,6 +1518,7 @@
             kind: 'identifier',
             name: 'f64_store'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

@@ -7,6 +7,7 @@
         {
           kind: 'func',
           id: null,
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -39,6 +40,7 @@
             kind: 'identifier',
             name: 'a'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -58,6 +60,7 @@
             kind: 'identifier',
             name: 'b'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,

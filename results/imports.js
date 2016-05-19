@@ -118,6 +118,7 @@
             kind: 'identifier',
             name: 'print32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -183,6 +184,7 @@
             kind: 'identifier',
             name: 'print64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

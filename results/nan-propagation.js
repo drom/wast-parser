@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -60,6 +61,7 @@
             kind: 'identifier',
             name: 'sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -110,6 +112,7 @@
             kind: 'identifier',
             name: 'mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -160,6 +163,7 @@
             kind: 'identifier',
             name: 'div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -210,6 +214,7 @@
             kind: 'identifier',
             name: 'sqrt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -243,6 +248,7 @@
             kind: 'identifier',
             name: 'min'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -293,6 +299,7 @@
             kind: 'identifier',
             name: 'max'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -343,6 +350,7 @@
             kind: 'identifier',
             name: 'ceil'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -376,6 +384,7 @@
             kind: 'identifier',
             name: 'floor'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -409,6 +418,7 @@
             kind: 'identifier',
             name: 'trunc'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -442,6 +452,7 @@
             kind: 'identifier',
             name: 'nearest'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -475,6 +486,7 @@
             kind: 'identifier',
             name: 'abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -508,6 +520,7 @@
             kind: 'identifier',
             name: 'neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -541,6 +554,7 @@
             kind: 'identifier',
             name: 'copysign'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1892,6 +1906,7 @@
             kind: 'identifier',
             name: 'add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1942,6 +1957,7 @@
             kind: 'identifier',
             name: 'sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1992,6 +2008,7 @@
             kind: 'identifier',
             name: 'mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -2042,6 +2059,7 @@
             kind: 'identifier',
             name: 'div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -2092,6 +2110,7 @@
             kind: 'identifier',
             name: 'sqrt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2125,6 +2144,7 @@
             kind: 'identifier',
             name: 'min'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -2175,6 +2195,7 @@
             kind: 'identifier',
             name: 'max'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -2225,6 +2246,7 @@
             kind: 'identifier',
             name: 'ceil'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2258,6 +2280,7 @@
             kind: 'identifier',
             name: 'floor'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2291,6 +2314,7 @@
             kind: 'identifier',
             name: 'trunc'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2324,6 +2348,7 @@
             kind: 'identifier',
             name: 'nearest'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2357,6 +2382,7 @@
             kind: 'identifier',
             name: 'abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2390,6 +2416,7 @@
             kind: 'identifier',
             name: 'neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2423,6 +2450,7 @@
             kind: 'identifier',
             name: 'copysign'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -3774,6 +3802,7 @@
             kind: 'identifier',
             name: 'f64.promote_f32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3819,6 +3848,7 @@
             kind: 'identifier',
             name: 'f32.demote_f64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3864,6 +3894,7 @@
             kind: 'identifier',
             name: 'f32.reinterpret_i32'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3909,6 +3940,7 @@
             kind: 'identifier',
             name: 'f64.reinterpret_i64'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

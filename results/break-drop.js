@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'br'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -45,6 +46,7 @@
             kind: 'identifier',
             name: 'br-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -80,6 +82,7 @@
             kind: 'identifier',
             name: 'br-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -119,6 +122,7 @@
             kind: 'identifier',
             name: 'br-block-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -165,6 +169,7 @@
             kind: 'identifier',
             name: 'br-block-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -211,6 +216,7 @@
             kind: 'identifier',
             name: 'br_if'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -251,6 +257,7 @@
             kind: 'identifier',
             name: 'br_if-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -291,6 +298,7 @@
             kind: 'identifier',
             name: 'br_if-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -335,6 +343,7 @@
             kind: 'identifier',
             name: 'br_if-block-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -386,6 +395,7 @@
             kind: 'identifier',
             name: 'br_if-block-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -437,6 +447,7 @@
             kind: 'identifier',
             name: 'br_table'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -476,6 +487,7 @@
             kind: 'identifier',
             name: 'br_table-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -518,6 +530,7 @@
             kind: 'identifier',
             name: 'br_table-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -564,6 +577,7 @@
             kind: 'identifier',
             name: 'br_table-block-nop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,
@@ -617,6 +631,7 @@
             kind: 'identifier',
             name: 'br_table-block-drop'
           },
+          expo: null,
           type: null,
           params: [],
           result: null,

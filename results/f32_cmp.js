@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'eq'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -60,6 +61,7 @@
             kind: 'identifier',
             name: 'ne'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -110,6 +112,7 @@
             kind: 'identifier',
             name: 'lt'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -160,6 +163,7 @@
             kind: 'identifier',
             name: 'le'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -210,6 +214,7 @@
             kind: 'identifier',
             name: 'gt'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -260,6 +265,7 @@
             kind: 'identifier',
             name: 'ge'
           },
+          expo: null,
           type: null,
           params: [
             {

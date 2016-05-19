@@ -410,10 +410,11 @@ func_type = "(" kind:"type" __ id:var __ ")" {
     };
 }
 
-func = kind:"func" id:( __ var )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func" expo:( __ literal )? id:( __ var )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
         id: id ? id[1] : id,
+        expo: expo ? expo[1] : expo,
         type: type ? type[1] : type,
         params: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,

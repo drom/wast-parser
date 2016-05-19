@@ -32,6 +32,7 @@
             kind: 'identifier',
             name: 'even'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -102,6 +103,7 @@
             kind: 'identifier',
             name: 'odd'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',

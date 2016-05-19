@@ -10,6 +10,7 @@
             kind: 'identifier',
             name: 'f32.add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -60,6 +61,7 @@
             kind: 'identifier',
             name: 'f32.sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -110,6 +112,7 @@
             kind: 'identifier',
             name: 'f32.mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -160,6 +163,7 @@
             kind: 'identifier',
             name: 'f32.div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -210,6 +214,7 @@
             kind: 'identifier',
             name: 'f32.sqrt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -243,6 +248,7 @@
             kind: 'identifier',
             name: 'f32.abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -276,6 +282,7 @@
             kind: 'identifier',
             name: 'f32.neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -309,6 +316,7 @@
             kind: 'identifier',
             name: 'f32.copysign'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -359,6 +367,7 @@
             kind: 'identifier',
             name: 'f32.ceil'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -392,6 +401,7 @@
             kind: 'identifier',
             name: 'f32.floor'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -425,6 +435,7 @@
             kind: 'identifier',
             name: 'f32.trunc'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -458,6 +469,7 @@
             kind: 'identifier',
             name: 'f32.nearest'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -491,6 +503,7 @@
             kind: 'identifier',
             name: 'f32.min'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -541,6 +554,7 @@
             kind: 'identifier',
             name: 'f32.max'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -591,6 +605,7 @@
             kind: 'identifier',
             name: 'f64.add'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -641,6 +656,7 @@
             kind: 'identifier',
             name: 'f64.sub'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -691,6 +707,7 @@
             kind: 'identifier',
             name: 'f64.mul'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -741,6 +758,7 @@
             kind: 'identifier',
             name: 'f64.div'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -791,6 +809,7 @@
             kind: 'identifier',
             name: 'f64.sqrt'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -824,6 +843,7 @@
             kind: 'identifier',
             name: 'f64.abs'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -857,6 +877,7 @@
             kind: 'identifier',
             name: 'f64.neg'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -890,6 +911,7 @@
             kind: 'identifier',
             name: 'f64.copysign'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -940,6 +962,7 @@
             kind: 'identifier',
             name: 'f64.ceil'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -973,6 +996,7 @@
             kind: 'identifier',
             name: 'f64.floor'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1006,6 +1030,7 @@
             kind: 'identifier',
             name: 'f64.trunc'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1039,6 +1064,7 @@
             kind: 'identifier',
             name: 'f64.nearest'
           },
+          expo: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1072,6 +1098,7 @@
             kind: 'identifier',
             name: 'f64.min'
           },
+          expo: null,
           type: null,
           params: [
             {
@@ -1122,6 +1149,7 @@
             kind: 'identifier',
             name: 'f64.max'
           },
+          expo: null,
           type: null,
           params: [
             {
