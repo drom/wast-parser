@@ -1042,6 +1042,415 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'if2'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              name: 'i',
+              type: 'i32'
+            }]
+          }],
+          body: [
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              },
+              init: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            },
+            {
+              kind: 'block',
+              id: null,
+              body: [
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  },
+                  then: {
+                    kind: 'then',
+                    id: null,
+                    body: [
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      },
+                      {
+                        kind: 'set_local',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i'
+                        },
+                        init: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '666'
+                        }
+                      }
+                    ]
+                  },
+                  else: null
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  },
+                  then: {
+                    kind: 'then',
+                    id: null,
+                    body: [
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      },
+                      {
+                        kind: 'set_local',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i'
+                        },
+                        init: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '666'
+                        }
+                      }
+                    ]
+                  },
+                  else: {
+                    kind: 'else',
+                    id: null,
+                    body: [{
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '888'
+                      }
+                    }]
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  },
+                  then: {
+                    kind: 'then',
+                    id: null,
+                    body: [
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      },
+                      {
+                        kind: 'set_local',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i'
+                        },
+                        init: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '666'
+                        }
+                      }
+                    ]
+                  },
+                  else: {
+                    kind: 'else',
+                    id: null,
+                    body: [{
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '888'
+                      }
+                    }]
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  },
+                  then: {
+                    kind: 'then',
+                    id: null,
+                    body: [{
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '888'
+                      }
+                    }]
+                  },
+                  else: {
+                    kind: 'else',
+                    id: null,
+                    body: [
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      },
+                      {
+                        kind: 'set_local',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i'
+                        },
+                        init: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '666'
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                },
+                {
+                  kind: 'if',
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  },
+                  then: {
+                    kind: 'then',
+                    id: null,
+                    body: [{
+                      kind: 'set_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      },
+                      init: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '888'
+                      }
+                    }]
+                  },
+                  else: {
+                    kind: 'else',
+                    id: null,
+                    body: [
+                      {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      },
+                      {
+                        kind: 'set_local',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i'
+                        },
+                        init: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '666'
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  kind: 'set_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i'
+                  },
+                  init: {
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'i'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              }
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'switch'
           },
           expo: null,
@@ -2092,6 +2501,17 @@
           kind: 'export',
           name: {
             kind: 'literal',
+            value: 'if2'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'if2'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
             value: 'switch'
           },
           id: {
@@ -2298,6 +2718,19 @@
       invoke: {
         kind: 'invoke',
         name: 'if',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '5'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'if2',
         body: []
       },
       expr: {
