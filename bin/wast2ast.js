@@ -35,7 +35,8 @@ var wastFileNames = fs.readdirSync(src);
 
 wastFileNames.forEach(function (wastFileName) {
     var matchArr = wastFileName.match('^(.*).wast$');
-    if (matchArr) {
+    var matchFail = wastFileName.match('^(.*).fail.wast$');
+    if (matchArr && !matchFail) {
         fs.readFile(
             path.resolve(src, wastFileName),
             'utf8',

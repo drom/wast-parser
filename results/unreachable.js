@@ -6,6 +6,19 @@
       body: [
         {
           kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'dummy'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
           id: null,
           expo: {
             kind: 'literal',
@@ -73,7 +86,110 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'block-first'
+            value: 'as-func-first'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {kind: 'unreachable'},
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '-1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-func-mid'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'dummy'
+              },
+              exprs: []
+            },
+            {kind: 'unreachable'},
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '-1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-func-last'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'dummy'
+              },
+              exprs: []
+            },
+            {kind: 'unreachable'}
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-func-value'
+          },
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'dummy'
+              },
+              exprs: []
+            },
+            {kind: 'unreachable'}
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-block-first'
           },
           type: null,
           params: [],
@@ -100,7 +216,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'block-mid'
+            value: 'as-block-mid'
           },
           type: null,
           params: [],
@@ -114,9 +230,12 @@
             id: null,
             body: [
               {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
               },
               {kind: 'unreachable'},
               {
@@ -132,7 +251,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'block-last'
+            value: 'as-block-last'
           },
           type: null,
           params: [],
@@ -144,9 +263,12 @@
             body: [
               {kind: 'nop'},
               {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
               },
               {kind: 'unreachable'}
             ]
@@ -157,7 +279,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'block-value'
+            value: 'as-block-value'
           },
           type: null,
           params: [],
@@ -172,9 +294,12 @@
             body: [
               {kind: 'nop'},
               {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
               },
               {kind: 'unreachable'}
             ]
@@ -185,7 +310,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'block-broke'
+            value: 'as-block-broke'
           },
           type: null,
           params: [],
@@ -198,6 +323,14 @@
             kind: 'block',
             id: null,
             body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
+              },
               {
                 kind: 'br',
                 id: {
@@ -220,7 +353,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'loop-first'
+            value: 'as-loop-first'
           },
           type: null,
           params: [],
@@ -246,7 +379,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'loop-mid'
+            value: 'as-loop-mid'
           },
           type: null,
           params: [],
@@ -259,9 +392,12 @@
             kind: 'loop',
             body: [
               {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
               },
               {kind: 'unreachable'},
               {
@@ -277,7 +413,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'loop-last'
+            value: 'as-loop-last'
           },
           type: null,
           params: [],
@@ -288,9 +424,12 @@
             body: [
               {kind: 'nop'},
               {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
               },
               {kind: 'unreachable'}
             ]
@@ -301,7 +440,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'loop-broke'
+            value: 'as-loop-broke'
           },
           type: null,
           params: [],
@@ -313,6 +452,14 @@
           body: [{
             kind: 'loop',
             body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
+              },
               {
                 kind: 'br',
                 id: {
@@ -335,7 +482,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br-value'
+            value: 'as-br-value'
           },
           type: null,
           params: [],
@@ -363,7 +510,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_if-cond'
+            value: 'as-br_if-cond'
           },
           type: null,
           params: [],
@@ -389,7 +536,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_if-value'
+            value: 'as-br_if-value'
           },
           type: null,
           params: [],
@@ -429,7 +576,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_if-value-cond'
+            value: 'as-br_if-value-cond'
           },
           type: null,
           params: [],
@@ -469,7 +616,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_table-index'
+            value: 'as-br_table-index'
           },
           type: null,
           params: [],
@@ -506,7 +653,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_table-value'
+            value: 'as-br_table-value'
           },
           type: null,
           params: [],
@@ -560,7 +707,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'br_table-value-index'
+            value: 'as-br_table-value-index'
           },
           type: null,
           params: [],
@@ -609,7 +756,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'return-value'
+            value: 'as-return-value'
           },
           type: null,
           params: [],
@@ -628,7 +775,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'if-cond'
+            value: 'as-if-cond'
           },
           type: null,
           params: [],
@@ -657,7 +804,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'if-then'
+            value: 'as-if-then'
           },
           type: null,
           params: [{
@@ -704,7 +851,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'if-else'
+            value: 'as-if-else'
           },
           type: null,
           params: [{
@@ -751,7 +898,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'select-first'
+            value: 'as-select-first'
           },
           type: null,
           params: [{
@@ -798,7 +945,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'select-second'
+            value: 'as-select-second'
           },
           type: null,
           params: [{
@@ -845,7 +992,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'select-cond'
+            value: 'as-select-cond'
           },
           type: null,
           params: [],
@@ -873,7 +1020,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'nop'
+            name: 'dummy3'
           },
           expo: null,
           type: null,
@@ -903,7 +1050,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call-first'
+            value: 'as-call-first'
           },
           type: null,
           params: [],
@@ -913,7 +1060,7 @@
             kind: 'call',
             id: {
               kind: 'identifier',
-              name: 'nop'
+              name: 'dummy3'
             },
             exprs: [
               {kind: 'unreachable'},
@@ -935,7 +1082,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call-mid'
+            value: 'as-call-mid'
           },
           type: null,
           params: [],
@@ -945,7 +1092,7 @@
             kind: 'call',
             id: {
               kind: 'identifier',
-              name: 'nop'
+              name: 'dummy3'
             },
             exprs: [
               {
@@ -967,7 +1114,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call-last'
+            value: 'as-call-last'
           },
           type: null,
           params: [],
@@ -977,7 +1124,7 @@
             kind: 'call',
             id: {
               kind: 'identifier',
-              name: 'nop'
+              name: 'dummy3'
             },
             exprs: [
               {
@@ -1030,7 +1177,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_import-first'
+            value: 'as-call_import-first'
           },
           type: null,
           params: [],
@@ -1063,7 +1210,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_import-mid'
+            value: 'as-call_import-mid'
           },
           type: null,
           params: [],
@@ -1096,7 +1243,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_import-last'
+            value: 'as-call_import-last'
           },
           type: null,
           params: [],
@@ -1135,7 +1282,7 @@
           kind: 'table',
           items: [{
             kind: 'identifier',
-            name: 'nop'
+            name: 'dummy3'
           }]
         },
         {
@@ -1143,7 +1290,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_indirect-func'
+            value: 'as-call_indirect-func'
           },
           type: null,
           params: [],
@@ -1180,7 +1327,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_indirect-first'
+            value: 'as-call_indirect-first'
           },
           type: null,
           params: [],
@@ -1217,7 +1364,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_indirect-mid'
+            value: 'as-call_indirect-mid'
           },
           type: null,
           params: [],
@@ -1254,7 +1401,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'call_indirect-last'
+            value: 'as-call_indirect-last'
           },
           type: null,
           params: [],
@@ -1291,7 +1438,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'set_local-value'
+            value: 'as-set_local-value'
           },
           type: null,
           params: [],
@@ -1324,7 +1471,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'load-address'
+            value: 'as-load-address'
           },
           type: null,
           params: [],
@@ -1348,7 +1495,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'loadN-address'
+            value: 'as-loadN-address'
           },
           type: null,
           params: [],
@@ -1372,7 +1519,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'store-address'
+            value: 'as-store-address'
           },
           type: null,
           params: [],
@@ -1397,7 +1544,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'store-value'
+            value: 'as-store-value'
           },
           type: null,
           params: [],
@@ -1422,7 +1569,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'storeN-address'
+            value: 'as-storeN-address'
           },
           type: null,
           params: [],
@@ -1447,7 +1594,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'storeN-value'
+            value: 'as-storeN-value'
           },
           type: null,
           params: [],
@@ -1472,7 +1619,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'unary-operand'
+            value: 'as-unary-operand'
           },
           type: null,
           params: [],
@@ -1493,7 +1640,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'binary-left'
+            value: 'as-binary-left'
           },
           type: null,
           params: [],
@@ -1519,7 +1666,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'binary-right'
+            value: 'as-binary-right'
           },
           type: null,
           params: [],
@@ -1545,7 +1692,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'test-operand'
+            value: 'as-test-operand'
           },
           type: null,
           params: [],
@@ -1566,7 +1713,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'compare-left'
+            value: 'as-compare-left'
           },
           type: null,
           params: [],
@@ -1592,7 +1739,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'compare-right'
+            value: 'as-compare-right'
           },
           type: null,
           params: [],
@@ -1618,7 +1765,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'convert-operand'
+            value: 'as-convert-operand'
           },
           type: null,
           params: [],
@@ -1640,7 +1787,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'grow_memory-size'
+            value: 'as-grow_memory-size'
           },
           type: null,
           params: [],
@@ -1708,7 +1855,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'block-first',
+        name: 'as-func-first',
         body: []
       },
       failure: {
@@ -1720,7 +1867,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'block-mid',
+        name: 'as-func-mid',
         body: []
       },
       failure: {
@@ -1732,7 +1879,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'block-last',
+        name: 'as-func-last',
         body: []
       },
       failure: {
@@ -1744,7 +1891,55 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'block-value',
+        name: 'as-func-value',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-block-first',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-block-mid',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-block-last',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-block-value',
         body: []
       },
       failure: {
@@ -1756,7 +1951,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'block-broke',
+        name: 'as-block-broke',
         body: []
       },
       expr: {
@@ -1769,7 +1964,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'loop-first',
+        name: 'as-loop-first',
         body: []
       },
       failure: {
@@ -1781,7 +1976,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'loop-mid',
+        name: 'as-loop-mid',
         body: []
       },
       failure: {
@@ -1793,7 +1988,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'loop-last',
+        name: 'as-loop-last',
         body: []
       },
       failure: {
@@ -1805,7 +2000,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'loop-broke',
+        name: 'as-loop-broke',
         body: []
       },
       expr: {
@@ -1818,7 +2013,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br-value',
+        name: 'as-br-value',
         body: []
       },
       failure: {
@@ -1830,7 +2025,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_if-cond',
+        name: 'as-br_if-cond',
         body: []
       },
       failure: {
@@ -1842,7 +2037,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_if-value',
+        name: 'as-br_if-value',
         body: []
       },
       failure: {
@@ -1854,7 +2049,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_if-value-cond',
+        name: 'as-br_if-value-cond',
         body: []
       },
       failure: {
@@ -1866,7 +2061,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_table-index',
+        name: 'as-br_table-index',
         body: []
       },
       failure: {
@@ -1878,7 +2073,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_table-value',
+        name: 'as-br_table-value',
         body: []
       },
       failure: {
@@ -1890,7 +2085,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'br_table-value-index',
+        name: 'as-br_table-value-index',
         body: []
       },
       failure: {
@@ -1902,7 +2097,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'if-cond',
+        name: 'as-return-value',
         body: []
       },
       failure: {
@@ -1914,7 +2109,19 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'if-then',
+        name: 'as-if-cond',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-if-then',
         body: [
           {
             kind: 'const',
@@ -1937,7 +2144,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'if-then',
+        name: 'as-if-then',
         body: [
           {
             kind: 'const',
@@ -1961,7 +2168,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'if-else',
+        name: 'as-if-else',
         body: [
           {
             kind: 'const',
@@ -1984,7 +2191,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'if-else',
+        name: 'as-if-else',
         body: [
           {
             kind: 'const',
@@ -2008,7 +2215,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'select-first',
+        name: 'as-select-first',
         body: [
           {
             kind: 'const',
@@ -2031,7 +2238,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'select-first',
+        name: 'as-select-first',
         body: [
           {
             kind: 'const',
@@ -2054,7 +2261,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'select-second',
+        name: 'as-select-second',
         body: [
           {
             kind: 'const',
@@ -2077,7 +2284,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'select-second',
+        name: 'as-select-second',
         body: [
           {
             kind: 'const',
@@ -2100,7 +2307,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'select-cond',
+        name: 'as-select-cond',
         body: []
       },
       failure: {
@@ -2112,7 +2319,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'return-value',
+        name: 'as-call-first',
         body: []
       },
       failure: {
@@ -2124,7 +2331,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call-first',
+        name: 'as-call-mid',
         body: []
       },
       failure: {
@@ -2136,7 +2343,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call-mid',
+        name: 'as-call-last',
         body: []
       },
       failure: {
@@ -2148,7 +2355,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call-last',
+        name: 'as-call_import-first',
         body: []
       },
       failure: {
@@ -2160,7 +2367,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_import-first',
+        name: 'as-call_import-mid',
         body: []
       },
       failure: {
@@ -2172,7 +2379,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_import-mid',
+        name: 'as-call_import-last',
         body: []
       },
       failure: {
@@ -2184,7 +2391,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_import-last',
+        name: 'as-call_indirect-func',
         body: []
       },
       failure: {
@@ -2196,7 +2403,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_indirect-func',
+        name: 'as-call_indirect-first',
         body: []
       },
       failure: {
@@ -2208,7 +2415,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_indirect-first',
+        name: 'as-call_indirect-mid',
         body: []
       },
       failure: {
@@ -2220,7 +2427,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_indirect-mid',
+        name: 'as-call_indirect-last',
         body: []
       },
       failure: {
@@ -2232,7 +2439,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'call_indirect-last',
+        name: 'as-set_local-value',
         body: []
       },
       failure: {
@@ -2244,7 +2451,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'set_local-value',
+        name: 'as-load-address',
         body: []
       },
       failure: {
@@ -2256,7 +2463,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'load-address',
+        name: 'as-loadN-address',
         body: []
       },
       failure: {
@@ -2268,7 +2475,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'loadN-address',
+        name: 'as-store-address',
         body: []
       },
       failure: {
@@ -2280,7 +2487,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'store-address',
+        name: 'as-store-value',
         body: []
       },
       failure: {
@@ -2292,7 +2499,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'store-value',
+        name: 'as-storeN-address',
         body: []
       },
       failure: {
@@ -2304,7 +2511,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'storeN-address',
+        name: 'as-storeN-value',
         body: []
       },
       failure: {
@@ -2316,7 +2523,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'storeN-value',
+        name: 'as-unary-operand',
         body: []
       },
       failure: {
@@ -2328,7 +2535,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'unary-operand',
+        name: 'as-binary-left',
         body: []
       },
       failure: {
@@ -2340,7 +2547,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'binary-left',
+        name: 'as-binary-right',
         body: []
       },
       failure: {
@@ -2352,7 +2559,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'binary-right',
+        name: 'as-test-operand',
         body: []
       },
       failure: {
@@ -2364,7 +2571,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'test-operand',
+        name: 'as-compare-left',
         body: []
       },
       failure: {
@@ -2376,7 +2583,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'compare-left',
+        name: 'as-compare-right',
         body: []
       },
       failure: {
@@ -2388,7 +2595,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'compare-right',
+        name: 'as-convert-operand',
         body: []
       },
       failure: {
@@ -2400,19 +2607,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
-        name: 'convert-operand',
-        body: []
-      },
-      failure: {
-        kind: 'literal',
-        value: 'unreachable'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        name: 'grow_memory-size',
+        name: 'as-grow_memory-size',
         body: []
       },
       failure: {

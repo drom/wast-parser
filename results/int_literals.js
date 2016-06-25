@@ -225,6 +225,52 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'i32.unsigned_decimal'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '4294967295'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i32.plus_sign'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i32',
+              init: '+42'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'i64.test'
           },
           expo: null,
@@ -439,6 +485,52 @@
           }]
         },
         {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.unsigned_decimal'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i64',
+              init: '18446744073709551615'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'i64.plus_sign'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: {
+              kind: 'const',
+              type: 'i64',
+              init: '+42'
+            }
+          }]
+        },
+        {
           kind: 'export',
           name: {
             kind: 'literal',
@@ -541,6 +633,28 @@
           kind: 'export',
           name: {
             kind: 'literal',
+            value: 'i32.unsigned_decimal'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i32.unsigned_decimal'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i32.plus_sign'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i32.plus_sign'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
             value: 'i64.test'
           },
           id: {
@@ -634,6 +748,28 @@
           id: {
             kind: 'identifier',
             name: 'i64.not_octal'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i64.unsigned_decimal'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i64.unsigned_decimal'
+          }
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'i64.plus_sign'
+          },
+          id: {
+            kind: 'identifier',
+            name: 'i64.plus_sign'
           }
         }
       ]
@@ -759,6 +895,32 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'i32.unsigned_decimal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i32.plus_sign',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '42'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'i64.test',
         body: []
       },
@@ -870,6 +1032,32 @@
         kind: 'const',
         type: 'i64',
         init: '10'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.unsigned_decimal',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '-1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'i64.plus_sign',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '42'
       }
     }
   ]
