@@ -2729,6 +2729,525 @@
               raw: '0'
             }
           }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'empty-sig-1'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'complex-sig-1'
+          },
+          expo: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f32'
+              },
+              {
+                kind: 'item',
+                type: 'i32'
+              }
+            ]
+          }],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'empty-sig-2'
+          },
+          expo: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'complex-sig-2'
+          },
+          expo: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f32'
+              },
+              {
+                kind: 'item',
+                type: 'i32'
+              }
+            ]
+          }],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'complex-sig-3'
+          },
+          expo: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f64'
+              },
+              {
+                kind: 'item',
+                type: 'i64'
+              },
+              {
+                kind: 'item',
+                type: 'f32'
+              },
+              {
+                kind: 'item',
+                type: 'i32'
+              }
+            ]
+          }],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'empty-sig-duplicate'
+          }
+        },
+        {
+          kind: 'type',
+          id: {
+            kind: 'identifier',
+            name: 'complex-sig-duplicate'
+          }
+        },
+        {
+          kind: 'table',
+          items: [
+            {
+              kind: 'identifier',
+              name: 'complex-sig-3'
+            },
+            {
+              kind: 'identifier',
+              name: 'empty-sig-2'
+            },
+            {
+              kind: 'identifier',
+              name: 'complex-sig-1'
+            },
+            {
+              kind: 'identifier',
+              name: 'complex-sig-3'
+            },
+            {
+              kind: 'identifier',
+              name: 'empty-sig-1'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'signature-explicit-reused'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                name: 'sig'
+              },
+              exprs: [{
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }]
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'identifier',
+                name: 'sig'
+              },
+              exprs: [{
+                kind: 'const',
+                type: 'i32',
+                init: '4'
+              }]
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'signature-implicit-reused'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'literal',
+                value: 16,
+                raw: '16'
+              },
+              exprs: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                }
+              ]
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'literal',
+                value: 16,
+                raw: '16'
+              },
+              exprs: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '2'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                }
+              ]
+            },
+            {
+              kind: 'call_indirect',
+              id: {
+                kind: 'literal',
+                value: 16,
+                raw: '16'
+              },
+              exprs: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '3'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'f32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                }
+              ]
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'signature-explicit-duplicate'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'call_indirect',
+            id: {
+              kind: 'identifier',
+              name: 'empty-sig-duplicate'
+            },
+            exprs: [{
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'signature-implicit-duplicate'
+          },
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'call_indirect',
+            id: {
+              kind: 'identifier',
+              name: 'complex-sig-duplicate'
+            },
+            exprs: [
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'f64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'f64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'f64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'f32',
+                init: '0'
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            ]
+          }]
         }
       ]
     },
@@ -3843,6 +4362,48 @@
         kind: 'const',
         type: 'f64',
         init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'signature-explicit-reused',
+        body: []
+      },
+      expr: null
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'signature-implicit-reused',
+        body: []
+      },
+      expr: null
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'signature-explicit-duplicate',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'indirect call signature mismatch'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'signature-implicit-duplicate',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'indirect call signature mismatch'
       }
     },
     {
