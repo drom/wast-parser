@@ -28,7 +28,7 @@ comment "comment"
 
 __ = ( white_space / LineTerminatorSequence / comment )*
 
-name = name:[a-zA-Z0-9\-\_\.]+ { return name.join(''); }
+name = name:[a-zA-Z0-9\-\_\$\.]+ { return name.join(''); }
 
 local_type = "i32" / "i64" / "f32" / "f64"
 

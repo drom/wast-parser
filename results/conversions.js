@@ -5575,13 +5575,64 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-0x1p-149'
+          init: '0x1.fffffe0000000p-127'
         }]
       },
       expr: {
         kind: 'const',
         type: 'f32',
-        init: '-0x1p-149'
+        init: '0x1p-126'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffe0000000p-127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1p-126'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffdfffffffp-127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffcp-127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffdfffffffp-127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.fffffcp-127'
       }
     },
     {
@@ -5599,6 +5650,91 @@
         kind: 'const',
         type: 'f32',
         init: '0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1p-149'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1p-149'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffd0000000p+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffcp+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffd0000000p+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.fffffcp+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffd0000001p+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffep+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffd0000001p+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.fffffep+127'
       }
     },
     {
@@ -5627,6 +5763,40 @@
           kind: 'const',
           type: 'f64',
           init: '-0x1.fffffep+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '-0x1.fffffep+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.fffffefffffffp+127'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.fffffep+127'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '-0x1.fffffefffffffp+127'
         }]
       },
       expr: {
@@ -5779,6 +5949,57 @@
         body: [{
           kind: 'const',
           type: 'f64',
+          init: '0x1.0000010000000p+0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000000p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.0000010000001p+0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000002p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.000002fffffffp+0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000002p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
           init: '0x1.0000030000000p+0'
         }]
       },
@@ -5803,6 +6024,74 @@
         kind: 'const',
         type: 'f32',
         init: '0x1.000004p+0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.0000010000000p+24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.0p+24'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.0000010000001p+24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000002p+24'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.000002fffffffp+24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000002p+24'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'f32.demote_f64',
+        body: [{
+          kind: 'const',
+          type: 'f64',
+          init: '0x1.0000030000000p+24'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'f32',
+        init: '0x1.000004p+24'
       }
     },
     {
@@ -5949,7 +6238,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '0x0.0000000000001p-1022'
+          init: '0x1.0p-150'
         }]
       },
       expr: {
@@ -5966,41 +6255,7 @@
         body: [{
           kind: 'const',
           type: 'f64',
-          init: '-0x0.0000000000001p-1022'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-0.0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.demote_f64',
-        body: [{
-          kind: 'const',
-          type: 'f64',
-          init: '0x0.8p-149'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '0.0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.demote_f64',
-        body: [{
-          kind: 'const',
-          type: 'f64',
-          init: '-0x0.8p-149'
+          init: '-0x1.0p-150'
         }]
       },
       expr: {

@@ -32488,7 +32488,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -32504,15 +32504,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -32528,15 +32523,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -32552,15 +32542,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -32576,11 +32561,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -33352,7 +33332,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -33368,15 +33348,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -33392,15 +33367,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -33416,15 +33386,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -33440,11 +33405,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -34216,7 +34176,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -34232,15 +34192,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -34256,15 +34211,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -34280,15 +34230,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -34304,11 +34249,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -35080,7 +35020,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35096,15 +35036,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35120,15 +35055,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35144,15 +35074,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35168,11 +35093,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -35944,7 +35864,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35960,15 +35880,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -35984,15 +35899,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36008,15 +35918,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36032,11 +35937,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -36808,7 +36708,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36824,15 +36724,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36848,15 +36743,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36872,15 +36762,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -36896,11 +36781,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -37672,7 +37552,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -37688,15 +37568,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -37712,15 +37587,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -37736,15 +37606,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -37760,11 +37625,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -38536,7 +38396,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38552,15 +38412,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38576,15 +38431,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38600,15 +38450,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38624,15 +38469,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38648,15 +38488,10 @@
             init: '-0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38672,15 +38507,10 @@
             init: '0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38696,15 +38526,10 @@
             init: '-0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38720,15 +38545,10 @@
             init: '0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38744,15 +38564,10 @@
             init: '-0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38768,15 +38583,10 @@
             init: '0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38792,15 +38602,10 @@
             init: '-0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38816,15 +38621,10 @@
             init: '0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38840,15 +38640,10 @@
             init: '-0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38864,15 +38659,10 @@
             init: '0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38888,15 +38678,10 @@
             init: '-0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38912,15 +38697,10 @@
             init: '0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38936,15 +38716,10 @@
             init: '-0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38960,15 +38735,10 @@
             init: '0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -38984,15 +38754,10 @@
             init: '-0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39008,15 +38773,10 @@
             init: '0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39032,15 +38792,10 @@
             init: '-0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39056,15 +38811,10 @@
             init: '0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39080,15 +38830,10 @@
             init: '-0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39104,15 +38849,10 @@
             init: '0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39128,15 +38868,10 @@
             init: '-0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39152,15 +38887,10 @@
             init: '0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39176,15 +38906,10 @@
             init: '-0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39200,15 +38925,10 @@
             init: '0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39224,15 +38944,10 @@
             init: '-0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39248,15 +38963,10 @@
             init: '0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39272,15 +38982,10 @@
             init: '-0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39296,15 +39001,10 @@
             init: '0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39320,15 +39020,10 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39344,15 +39039,10 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39368,15 +39058,10 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39392,15 +39077,10 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39416,11 +39096,6 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
@@ -39462,7 +39137,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'min',
@@ -39478,11 +39153,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -40254,7 +39924,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -40270,15 +39940,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -40294,15 +39959,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -40318,15 +39978,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -40342,11 +39997,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -41118,7 +40768,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -41134,15 +40784,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -41158,15 +40803,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -41182,15 +40822,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -41206,11 +40841,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -41982,7 +41612,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -41998,15 +41628,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42022,15 +41647,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42046,15 +41666,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42070,11 +41685,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -42846,7 +42456,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42862,15 +42472,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42886,15 +42491,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42910,15 +42510,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -42934,11 +42529,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -43710,7 +43300,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -43726,15 +43316,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -43750,15 +43335,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -43774,15 +43354,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -43798,11 +43373,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -44574,7 +44144,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -44590,15 +44160,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -44614,15 +44179,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -44638,15 +44198,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -44662,11 +44217,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -45438,7 +44988,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -45454,15 +45004,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -45478,15 +45023,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -45502,15 +45042,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -45526,11 +45061,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
@@ -46302,7 +45832,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46318,15 +45848,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46342,15 +45867,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46366,15 +45886,10 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46390,15 +45905,10 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46414,15 +45924,10 @@
             init: '-0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46438,15 +45943,10 @@
             init: '0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46462,15 +45962,10 @@
             init: '-0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46486,15 +45981,10 @@
             init: '0x0p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46510,15 +46000,10 @@
             init: '-0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46534,15 +46019,10 @@
             init: '0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46558,15 +46038,10 @@
             init: '-0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46582,15 +46057,10 @@
             init: '0x1p-149'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46606,15 +46076,10 @@
             init: '-0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46630,15 +46095,10 @@
             init: '0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46654,15 +46114,10 @@
             init: '-0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46678,15 +46133,10 @@
             init: '0x1p-126'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46702,15 +46152,10 @@
             init: '-0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46726,15 +46171,10 @@
             init: '0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46750,15 +46190,10 @@
             init: '-0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46774,15 +46209,10 @@
             init: '0x1p-1'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46798,15 +46228,10 @@
             init: '-0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46822,15 +46247,10 @@
             init: '0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46846,15 +46266,10 @@
             init: '-0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46870,15 +46285,10 @@
             init: '0x1p+0'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46894,15 +46304,10 @@
             init: '-0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46918,15 +46323,10 @@
             init: '0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46942,15 +46342,10 @@
             init: '-0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46966,15 +46361,10 @@
             init: '0x1.921fb6p+2'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -46990,15 +46380,10 @@
             init: '-0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47014,15 +46399,10 @@
             init: '0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47038,15 +46418,10 @@
             init: '-0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47062,15 +46437,10 @@
             init: '0x1.fffffep+127'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47086,15 +46456,10 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47110,15 +46475,10 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47134,15 +46494,10 @@
             init: '-infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47158,15 +46513,10 @@
             init: 'infinity'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47182,11 +46532,6 @@
             init: '-nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '-nan'
       }
     },
     {
@@ -47228,7 +46573,7 @@
       }
     },
     {
-      kind: 'assert_return',
+      kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
         name: 'max',
@@ -47244,11 +46589,6 @@
             init: 'nan'
           }
         ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'nan'
       }
     },
     {

@@ -5763,6 +5763,54 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '63'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x8000000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotl',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'rotr',
         body: [
           {
@@ -5907,6 +5955,54 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0x8000000000000000'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'rotr',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '63'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'clz',
         body: [{
           kind: 'const',
@@ -6026,6 +6122,23 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'clz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7fffffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -6111,6 +6224,23 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'ctz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7fffffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -6173,6 +6303,23 @@
         kind: 'const',
         type: 'i64',
         init: '4'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'popcnt',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7fffffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '63'
       }
     },
     {
@@ -6281,6 +6428,23 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        name: 'eqz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x7fffffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
         name: 'eq',
         body: [
           {
@@ -6454,12 +6618,60 @@
           {
             kind: 'const',
             type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eq',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
             init: '0x8000000000000000'
           },
           {
             kind: 'const',
             type: 'i64',
             init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eq',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
           }
         ]
       },
@@ -6502,12 +6714,60 @@
           {
             kind: 'const',
             type: 'i64',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eq',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
             init: '0x8000000000000000'
           },
           {
             kind: 'const',
             type: 'i64',
             init: '0x7fffffffffffffff'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'eq',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x7fffffffffffffff'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
           }
         ]
       },
@@ -6694,12 +6954,60 @@
           {
             kind: 'const',
             type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'ne',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
             init: '0x8000000000000000'
           },
           {
             kind: 'const',
             type: 'i64',
             init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'ne',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
           }
         ]
       },
@@ -6742,12 +7050,60 @@
           {
             kind: 'const',
             type: 'i64',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'ne',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
             init: '0x8000000000000000'
           },
           {
             kind: 'const',
             type: 'i64',
             init: '0x7fffffffffffffff'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'ne',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x7fffffffffffffff'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
           }
         ]
       },

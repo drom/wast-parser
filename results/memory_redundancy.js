@@ -202,24 +202,48 @@
             kind: 'result',
             type: 'i32'
           },
-          local: [],
+          local: [
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 't',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 's',
+                type: 'i32'
+              }]
+            }
+          ],
           body: [
             {
-              kind: 'load',
-              type: 'i32',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'const',
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 't'
+              },
+              init: {
+                kind: 'load',
                 type: 'i32',
-                init: '8'
+                size: null,
+                sign: null,
+                offset: 0,
+                align: 0,
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '8'
+                }
               }
             },
             {
               kind: 'store',
-              type: 'f32',
+              type: 'i32',
               size: null,
               offset: 0,
               align: 0,
@@ -230,21 +254,47 @@
               },
               data: {
                 kind: 'const',
-                type: 'f32',
-                init: '-0.0'
+                type: 'i32',
+                init: '0x80000000'
               }
             },
             {
-              kind: 'load',
-              type: 'i32',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'const',
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 's'
+              },
+              init: {
+                kind: 'load',
                 type: 'i32',
-                init: '8'
+                size: null,
+                sign: null,
+                offset: 0,
+                align: 0,
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '8'
+                }
+              }
+            },
+            {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 't'
+                }
+              },
+              right: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 's'
+                }
               }
             }
           ]
