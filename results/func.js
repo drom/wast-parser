@@ -9,6 +9,13 @@
           id: {
             kind: 'identifier',
             name: 'sig'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -2908,6 +2915,13 @@
           id: {
             kind: 'identifier',
             name: 'empty-sig-duplicate'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -2915,6 +2929,49 @@
           id: {
             kind: 'identifier',
             name: 'complex-sig-duplicate'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'f64'
+                },
+                {
+                  kind: 'item',
+                  type: 'i64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f64'
+                },
+                {
+                  kind: 'item',
+                  type: 'i64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f64'
+                },
+                {
+                  kind: 'item',
+                  type: 'i64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i32'
+                }
+              ]
+            }],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {

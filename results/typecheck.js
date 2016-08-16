@@ -219,7 +219,20 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [{
+                  kind: 'item',
+                  type: 'i32'
+                }]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -289,7 +302,14 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',

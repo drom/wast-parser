@@ -454,10 +454,11 @@ func_def = "(" __ kind:"func" param:( __ param_def )* result:( __ result_def )? 
     };
 }
 
-type_def = kind:"type" id:( __ var )? __ func_def {
+type_def = kind:"type" id:( __ var )? expr:( __ func_def ) {
     return {
         kind: kind,
-        id: id ? id[1] : id
+        id: id ? id[1] : id,
+        expr: expr ? expr[1] : expr
     };
 }
 

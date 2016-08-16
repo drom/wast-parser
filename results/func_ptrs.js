@@ -6,32 +6,95 @@
       body: [
         {
           kind: 'type',
-          id: null
+          id: null,
+          expr: {
+            kind: 'func',
+            params: [],
+            result: null,
+            local: [],
+            body: []
+          }
         },
         {
           kind: 'type',
           id: {
             kind: 'identifier',
             name: 'S'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
           kind: 'type',
-          id: null
+          id: null,
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: []
+            }],
+            result: null,
+            local: [],
+            body: []
+          }
         },
         {
           kind: 'type',
-          id: null
+          id: null,
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
+          }
         },
         {
           kind: 'type',
-          id: null
+          id: null,
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: []
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
+          }
         },
         {
           kind: 'type',
           id: {
             kind: 'identifier',
             name: 'T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i32'
+              }]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -39,6 +102,19 @@
           id: {
             kind: 'identifier',
             name: 'U'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i32'
+              }]
+            }],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -407,6 +483,19 @@
           id: {
             kind: 'identifier',
             name: 'T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: []
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -414,6 +503,19 @@
           id: {
             kind: 'identifier',
             name: 'U'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: []
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -979,6 +1081,16 @@
           id: {
             kind: 'identifier',
             name: 'T'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {

@@ -15,6 +15,28 @@
           id: {
             kind: 'identifier',
             name: 'i32_T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'i32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i32'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -22,6 +44,28 @@
           id: {
             kind: 'identifier',
             name: 'i64_T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'i64'
+                },
+                {
+                  kind: 'item',
+                  type: 'i64'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -29,6 +73,28 @@
           id: {
             kind: 'identifier',
             name: 'f32_T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'f32'
+                },
+                {
+                  kind: 'item',
+                  type: 'f32'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -36,6 +102,28 @@
           id: {
             kind: 'identifier',
             name: 'f64_T'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'f64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f64'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {

@@ -1276,6 +1276,29 @@
           id: {
             kind: 'identifier',
             name: 'sig'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'i32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i32'
+                }
+              ]
+            }],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {

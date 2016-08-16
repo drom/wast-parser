@@ -9,6 +9,13 @@
           id: {
             kind: 'identifier',
             name: 'proc'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -16,6 +23,16 @@
           id: {
             kind: 'identifier',
             name: 'out-i32'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -23,6 +40,16 @@
           id: {
             kind: 'identifier',
             name: 'out-i64'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'i64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -30,6 +57,16 @@
           id: {
             kind: 'identifier',
             name: 'out-f32'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'f32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -37,6 +74,16 @@
           id: {
             kind: 'identifier',
             name: 'out-f64'
+          },
+          expr: {
+            kind: 'func',
+            params: [],
+            result: {
+              kind: 'result',
+              type: 'f64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -44,6 +91,22 @@
           id: {
             kind: 'identifier',
             name: 'over-i32'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i32'
+              }]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -51,6 +114,22 @@
           id: {
             kind: 'identifier',
             name: 'over-i64'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'i64'
+              }]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -58,6 +137,22 @@
           id: {
             kind: 'identifier',
             name: 'over-f32'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'f32'
+              }]
+            }],
+            result: {
+              kind: 'result',
+              type: 'f32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -65,6 +160,22 @@
           id: {
             kind: 'identifier',
             name: 'over-f64'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                type: 'f64'
+              }]
+            }],
+            result: {
+              kind: 'result',
+              type: 'f64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -72,6 +183,28 @@
           id: {
             kind: 'identifier',
             name: 'f32-i32'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'f32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i32'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -79,6 +212,28 @@
           id: {
             kind: 'identifier',
             name: 'i32-i64'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'i32'
+                },
+                {
+                  kind: 'item',
+                  type: 'i64'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'i64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -86,6 +241,28 @@
           id: {
             kind: 'identifier',
             name: 'f64-f32'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'f64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f32'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'f32'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -93,6 +270,28 @@
           id: {
             kind: 'identifier',
             name: 'i64-f64'
+          },
+          expr: {
+            kind: 'func',
+            params: [{
+              kind: 'param',
+              items: [
+                {
+                  kind: 'item',
+                  type: 'i64'
+                },
+                {
+                  kind: 'item',
+                  type: 'f64'
+                }
+              ]
+            }],
+            result: {
+              kind: 'result',
+              type: 'f64'
+            },
+            local: [],
+            body: []
           }
         },
         {
@@ -2105,7 +2304,14 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2151,7 +2357,17 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [],
+              result: {
+                kind: 'result',
+                type: 'i64'
+              },
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2197,7 +2413,20 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [{
+                  kind: 'item',
+                  type: 'i32'
+                }]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2238,7 +2467,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'f64'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2279,7 +2527,14 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2327,7 +2582,14 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2380,7 +2642,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2434,7 +2715,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2488,7 +2788,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2542,7 +2861,20 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [{
+                  kind: 'item',
+                  type: 'i32'
+                }]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2586,7 +2918,20 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [{
+                  kind: 'item',
+                  type: 'i32'
+                }]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2634,7 +2979,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2683,7 +3047,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2732,7 +3115,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'f64'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
@@ -2785,7 +3187,26 @@
         body: [
           {
             kind: 'type',
-            id: null
+            id: null,
+            expr: {
+              kind: 'func',
+              params: [{
+                kind: 'param',
+                items: [
+                  {
+                    kind: 'item',
+                    type: 'f64'
+                  },
+                  {
+                    kind: 'item',
+                    type: 'i32'
+                  }
+                ]
+              }],
+              result: null,
+              local: [],
+              body: []
+            }
           },
           {
             kind: 'func',
