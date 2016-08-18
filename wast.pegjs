@@ -498,8 +498,16 @@ table = kind:"table" items:( __ var )* {
 memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ cmd )* {
     return {
         kind: kind,
-        int: int,
-        int1: int1 ? int1[1] : int1,
+        int: {
+          kind: 'literal',
+          value: Number(int),
+          raw: int
+        },
+        int1: int1 ? {
+          kind: 'literal',
+          value: Number(int1[1]),
+          raw: int1[1]
+        } : int1,
         segment: segment.map(function (e) { return e[1]; })
     };
 }

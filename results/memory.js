@@ -5,8 +5,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '0',
-        int1: '0',
+        int: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
+        int1: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
         segment: []
       }]
     },
@@ -14,8 +22,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '0',
-        int1: '1',
+        int: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
+        int1: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
         segment: []
       }]
     },
@@ -23,8 +39,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1',
-        int1: '256',
+        int: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
+        int1: {
+          kind: 'literal',
+          value: 256,
+          raw: '256'
+        },
         segment: []
       }]
     },
@@ -32,8 +56,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '0',
-        int1: '65535',
+        int: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
+        int1: {
+          kind: 'literal',
+          value: 65535,
+          raw: '65535'
+        },
         segment: []
       }]
     },
@@ -41,8 +73,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '0',
-        int1: '0',
+        int: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
+        int1: {
+          kind: 'literal',
+          value: 0,
+          raw: '0'
+        },
         segment: [{
           kind: 'segment',
           int: '0',
@@ -57,8 +97,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1',
-        int1: '1',
+        int: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
+        int1: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
         segment: [{
           kind: 'segment',
           int: '0',
@@ -73,8 +121,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1',
-        int1: '2',
+        int: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
+        int1: {
+          kind: 'literal',
+          value: 2,
+          raw: '2'
+        },
         segment: [
           {
             kind: 'segment',
@@ -99,8 +155,16 @@
       kind: 'module',
       body: [{
         kind: 'memory',
-        int: '1',
-        int1: '2',
+        int: {
+          kind: 'literal',
+          value: 1,
+          raw: '1'
+        },
+        int1: {
+          kind: 'literal',
+          value: 2,
+          raw: '2'
+        },
         segment: [
           {
             kind: 'segment',
@@ -135,8 +199,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1',
-          int1: '0',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
+          int1: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           segment: []
         }]
       },
@@ -151,8 +223,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '0',
-          int1: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          int1: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           segment: [{
             kind: 'segment',
             int: '0',
@@ -174,8 +254,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1',
-          int1: '2',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
+          int1: {
+            kind: 'literal',
+            value: 2,
+            raw: '2'
+          },
           segment: [
             {
               kind: 'segment',
@@ -207,8 +295,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1',
-          int1: '2',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
+          int1: {
+            kind: 'literal',
+            value: 2,
+            raw: '2'
+          },
           segment: [
             {
               kind: 'segment',
@@ -240,8 +336,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1',
-          int1: '2',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
+          int1: {
+            kind: 'literal',
+            value: 2,
+            raw: '2'
+          },
           segment: [
             {
               kind: 'segment',
@@ -273,8 +377,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '1',
-          int1: '2',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
+          int1: {
+            kind: 'literal',
+            value: 2,
+            raw: '2'
+          },
           segment: [
             {
               kind: 'segment',
@@ -314,8 +426,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '0',
-          int1: '65536',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          int1: {
+            kind: 'literal',
+            value: 65536,
+            raw: '65536'
+          },
           segment: []
         }]
       },
@@ -330,8 +450,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '0',
-          int1: '2147483648',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          int1: {
+            kind: 'literal',
+            value: 2147483648,
+            raw: '2147483648'
+          },
           segment: []
         }]
       },
@@ -346,8 +474,16 @@
         kind: 'module',
         body: [{
           kind: 'memory',
-          int: '0',
-          int1: '4294967296',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          int1: {
+            kind: 'literal',
+            value: 4294967296,
+            raw: '4294967296'
+          },
           segment: []
         }]
       },
@@ -361,7 +497,11 @@
       body: [
         {
           kind: 'memory',
-          int: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           int1: null,
           segment: []
         },
@@ -394,7 +534,11 @@
       body: [
         {
           kind: 'memory',
-          int: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           int1: null,
           segment: []
         },
@@ -427,7 +571,11 @@
       body: [
         {
           kind: 'memory',
-          int: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           int1: null,
           segment: []
         },
@@ -460,7 +608,11 @@
       body: [
         {
           kind: 'memory',
-          int: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           int1: null,
           segment: []
         },
@@ -495,7 +647,11 @@
         body: [
           {
             kind: 'memory',
-            int: '0',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             int1: null,
             segment: []
           },
@@ -535,7 +691,11 @@
         body: [
           {
             kind: 'memory',
-            int: '0',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             int1: null,
             segment: []
           },
@@ -575,7 +735,11 @@
         body: [
           {
             kind: 'memory',
-            int: '0',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             int1: null,
             segment: []
           },
@@ -615,7 +779,11 @@
         body: [
           {
             kind: 'memory',
-            int: '0',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             int1: null,
             segment: []
           },
@@ -655,7 +823,11 @@
         body: [
           {
             kind: 'memory',
-            int: '0',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
             int1: null,
             segment: []
           },
@@ -693,7 +865,11 @@
       body: [
         {
           kind: 'memory',
-          int: '1',
+          int: {
+            kind: 'literal',
+            value: 1,
+            raw: '1'
+          },
           int1: null,
           segment: [
             {

@@ -6,7 +6,11 @@
       body: [
         {
           kind: 'memory',
-          int: '0',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
           int1: null,
           segment: []
         },
