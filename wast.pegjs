@@ -483,7 +483,8 @@ export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "me
         },
         id: (id === 'memory') ? {
             kind: 'literal',
-            value: id
+            value: id,
+            bare: true
         } : id
     };
 }

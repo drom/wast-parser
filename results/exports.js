@@ -384,7 +384,8 @@
           },
           id: {
             kind: 'literal',
-            value: 'memory'
+            value: 'memory',
+            bare: true
           }
         }
       ]
@@ -414,7 +415,8 @@
           },
           id: {
             kind: 'literal',
-            value: 'memory'
+            value: 'memory',
+            bare: true
           }
         },
         {
@@ -425,7 +427,8 @@
           },
           id: {
             kind: 'literal',
-            value: 'memory'
+            value: 'memory',
+            bare: true
           }
         }
       ]
@@ -442,7 +445,8 @@
           },
           id: {
             kind: 'literal',
-            value: 'memory'
+            value: 'memory',
+            bare: true
           }
         }]
       },
