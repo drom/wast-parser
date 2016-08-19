@@ -280,7 +280,7 @@ expr
             return {
                 kind: kind,
                 type: type,
-                size: sufix ? parseInt(sufix[0], 10) : null,
+                size: sufix ? parseInt(sufix, 10) : null,
                 offset: offset ? parseInt(offset[2], 10) : 0,
                 align: align ? parseInt(align[2], 10) : 0,
                 addr: addr,
@@ -395,11 +395,15 @@ result = "(" __ kind:"result" __ type:local_type __ ")" {
     };
 }
 
-segment = kind:"segment" __ int:int __ name:literal {
+segment = kind:"segment" __ int:int __ init:literal {
     return {
         kind: kind,
-        int: int,
-        name: name
+        offset: {
+          kind: 'literal',
+          value: Number(int),
+          raw: int
+        },
+        init: init
     }
 }
 

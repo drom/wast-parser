@@ -14,8 +14,12 @@
           int1: null,
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: 'abcdefghijklmnopqrstuvwxyz'
             }

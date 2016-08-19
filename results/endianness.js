@@ -1193,7 +1193,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -1303,7 +1303,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -1364,7 +1364,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 3,
+              size: 32,
               offset: 0,
               align: 0,
               addr: {

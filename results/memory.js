@@ -85,8 +85,12 @@
         },
         segment: [{
           kind: 'segment',
-          int: '0',
-          name: {
+          offset: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          init: {
             kind: 'literal',
             value: ''
           }
@@ -109,8 +113,12 @@
         },
         segment: [{
           kind: 'segment',
-          int: '0',
-          name: {
+          offset: {
+            kind: 'literal',
+            value: 0,
+            raw: '0'
+          },
+          init: {
             kind: 'literal',
             value: 'a'
           }
@@ -134,16 +142,24 @@
         segment: [
           {
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: 'a'
             }
           },
           {
             kind: 'segment',
-            int: '65535',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 65535,
+              raw: '65535'
+            },
+            init: {
               kind: 'literal',
               value: 'b'
             }
@@ -168,24 +184,36 @@
         segment: [
           {
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: 'a'
             }
           },
           {
             kind: 'segment',
-            int: '1',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            },
+            init: {
               kind: 'literal',
               value: 'b'
             }
           },
           {
             kind: 'segment',
-            int: '2',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 2,
+              raw: '2'
+            },
+            init: {
               kind: 'literal',
               value: 'c'
             }
@@ -235,8 +263,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: 'a'
             }
@@ -267,16 +299,24 @@
           segment: [
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'a'
               }
             },
             {
               kind: 'segment',
-              int: '98304',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 98304,
+                raw: '98304'
+              },
+              init: {
                 kind: 'literal',
                 value: 'b'
               }
@@ -308,16 +348,24 @@
           segment: [
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'abc'
               }
             },
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'def'
               }
@@ -349,16 +397,24 @@
           segment: [
             {
               kind: 'segment',
-              int: '3',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 3,
+                raw: '3'
+              },
+              init: {
                 kind: 'literal',
                 value: 'ab'
               }
             },
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'de'
               }
@@ -390,24 +446,36 @@
           segment: [
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'a'
               }
             },
             {
               kind: 'segment',
-              int: '2',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 2,
+                raw: '2'
+              },
+              init: {
                 kind: 'literal',
                 value: 'b'
               }
             },
             {
               kind: 'segment',
-              int: '1',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 1,
+                raw: '1'
+              },
+              init: {
                 kind: 'literal',
                 value: 'c'
               }
@@ -874,16 +942,24 @@
           segment: [
             {
               kind: 'segment',
-              int: '0',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
                 kind: 'literal',
                 value: 'ABC\\a7D'
               }
             },
             {
               kind: 'segment',
-              int: '20',
-              name: {
+              offset: {
+                kind: 'literal',
+                value: 20,
+                raw: '20'
+              },
+              init: {
                 kind: 'literal',
                 value: 'WASM'
               }
@@ -1669,7 +1745,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 1,
               addr: {
@@ -1835,7 +1911,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -1891,7 +1967,7 @@
             {
               kind: 'store',
               type: 'i32',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -2059,7 +2135,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -2115,7 +2191,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
@@ -2171,7 +2247,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 3,
+              size: 32,
               offset: 0,
               align: 0,
               addr: {
@@ -2227,7 +2303,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 3,
+              size: 32,
               offset: 0,
               align: 0,
               addr: {

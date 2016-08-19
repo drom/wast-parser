@@ -18,8 +18,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: '\\00\\00\\a0\\7f'
             }
@@ -392,8 +396,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
             }
@@ -766,8 +774,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '1',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            },
+            init: {
               kind: 'literal',
               value: '\\00\\00\\a0\\7f'
             }
@@ -1140,8 +1152,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '1',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 1,
+              raw: '1'
+            },
+            init: {
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
             }
@@ -1514,8 +1530,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: '\\01\\00\\d0\\7f'
             }
@@ -1888,8 +1908,12 @@
           },
           segment: [{
             kind: 'segment',
-            int: '0',
-            name: {
+            offset: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {
               kind: 'literal',
               value: '\\01\\00\\00\\00\\00\\00\\fc\\7f'
             }

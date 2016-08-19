@@ -1906,7 +1906,7 @@
             {
               kind: 'store',
               type: 'i64',
-              size: 1,
+              size: 16,
               offset: 0,
               align: 0,
               addr: {
