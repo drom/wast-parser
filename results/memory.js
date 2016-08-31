@@ -587,7 +587,7 @@
             size: 8,
             sign: false,
             offset: 0,
-            align: 2,
+            align: 1,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -624,7 +624,7 @@
             size: 16,
             sign: false,
             offset: 0,
-            align: 4,
+            align: 2,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -661,7 +661,7 @@
             size: null,
             sign: null,
             offset: 0,
-            align: 8,
+            align: 4,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -698,7 +698,7 @@
             size: null,
             sign: null,
             offset: 0,
-            align: 8,
+            align: 4,
             expr: {
               kind: 'const',
               type: 'i32',
@@ -749,7 +749,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'non-power-of-two alignment'
+        value: 'alignment must be a power of two'
       }
     },
     {
@@ -793,7 +793,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'non-power-of-two alignment'
+        value: 'alignment must be a power of two'
       }
     },
     {
@@ -837,7 +837,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'non-power-of-two alignment'
+        value: 'alignment must be a power of two'
       }
     },
     {
@@ -881,7 +881,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'non-power-of-two alignment'
+        value: 'alignment must be a power of two'
       }
     },
     {
@@ -925,7 +925,275 @@
       },
       failure: {
         kind: 'literal',
-        value: 'non-power-of-two alignment'
+        value: 'alignment must be a power of two'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i64',
+              size: null,
+              sign: null,
+              offset: 0,
+              align: 16,
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i64',
+              size: null,
+              sign: null,
+              offset: 0,
+              align: 32,
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i32',
+              size: null,
+              sign: null,
+              offset: 0,
+              align: 8,
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i32',
+              size: 16,
+              sign: false,
+              offset: 0,
+              align: 4,
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'load',
+              type: 'i32',
+              size: 8,
+              sign: false,
+              offset: 0,
+              align: 2,
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'memory',
+            int: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            int1: null,
+            segment: []
+          },
+          {
+            kind: 'func',
+            id: null,
+            expo: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{
+              kind: 'store',
+              type: 'i32',
+              size: 8,
+              offset: 0,
+              align: 2,
+              addr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'alignment must not be larger than natural'
       }
     },
     {
