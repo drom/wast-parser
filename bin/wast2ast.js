@@ -7,27 +7,25 @@ var fs = require('fs'),
     jsof = require('jsof'),
     parser = require('../');
 
-var pass = 0;
-var fail = 0;
-
-function runner (name) {
+function runner (name, report) {
     return function (err, data) {
         var result;
         if (err) { throw err; }
         try {
             result = parser.parse(data);
         } catch (err1) {
-            fail++;
-            console.log(name, err1, pass, fail);
+            console.log('\x1b[31m' + name + '\x1b[0m');
+            console.log(err1);
+            report.fail++;
             return;
         }
-        pass++;
-        console.log(name, pass, fail);
+        console.log('\x1b[32m' + name + '\x1b[0m');
         fs.writeFile(
             path.resolve(dst, name + '.js'),
             jsof.s(result) + '\n',
             function (err2) {
                 if (err2) { throw err2; }
+                report.pass++;
             }
         );
     };
@@ -38,6 +36,8 @@ var dst = path.resolve(__dirname, '../results/');
 
 var wastFileNames = fs.readdirSync(src);
 
+var report = { pass: 0, fail: 0 };
+
 wastFileNames.forEach(function (wastFileName) {
     var matchArr = wastFileName.match('^(.*).wast$');
     var matchFail = wastFileName.match('^(.*).fail.wast$');
@@ -45,7 +45,11 @@ wastFileNames.forEach(function (wastFileName) {
         fs.readFile(
             path.resolve(src, wastFileName),
             'utf8',
-            runner(matchArr[1])
+            runner(matchArr[1], report)
         );
     }
+});
+
+process.on('exit', function () {
+    console.log('\x1b[32mpass: ' + report.pass + '\x1b[0m / \x1b[31mfail: ' + report.fail + '\x1b[0m');
 });
