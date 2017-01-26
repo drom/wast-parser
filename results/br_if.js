@@ -11,6 +11,7 @@
             name: 'dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -24,6 +25,7 @@
             kind: 'literal',
             value: 'as-block-first'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -40,6 +42,7 @@
           body: [
             {
               kind: 'block',
+              type: null,
               id: null,
               body: [
                 {
@@ -83,6 +86,7 @@
             kind: 'literal',
             value: 'as-block-mid'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -99,6 +103,7 @@
           body: [
             {
               kind: 'block',
+              type: null,
               id: null,
               body: [
                 {
@@ -150,6 +155,7 @@
             kind: 'literal',
             value: 'as-block-last'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -162,6 +168,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [
               {
@@ -207,6 +214,7 @@
             kind: 'literal',
             value: 'as-block-first-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -222,33 +230,40 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '10'
-                },
-                expr: {
-                  kind: 'get_local',
+                kind: 'drop',
+                body: [{
+                  kind: 'br_if',
                   id: {
                     kind: 'literal',
                     value: 0,
                     raw: '0'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '10'
+                  },
+                  expr: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
                   }
-                }
+                }]
               },
               {
-                kind: 'const',
-                type: 'i32',
-                init: '11'
+                kind: 'return',
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '11'
+                }
               }
             ]
           }]
@@ -260,6 +275,7 @@
             kind: 'literal',
             value: 'as-block-mid-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -275,8 +291,86 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
+              },
+              {
+                kind: 'drop',
+                body: [{
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '20'
+                  },
+                  expr: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
+                  }
+                }]
+              },
+              {
+                kind: 'return',
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '21'
+                }
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-block-last-value'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'dummy'
+                },
+                exprs: []
+              },
               {
                 kind: 'call',
                 id: {
@@ -295,7 +389,7 @@
                 test: {
                   kind: 'const',
                   type: 'i32',
-                  init: '20'
+                  init: '11'
                 },
                 expr: {
                   kind: 'get_local',
@@ -305,11 +399,6 @@
                     raw: '0'
                   }
                 }
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '21'
               }
             ]
           }]
@@ -321,6 +410,7 @@
             kind: 'literal',
             value: 'as-loop-first'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -334,37 +424,51 @@
             type: 'i32'
           },
           local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '3'
-                },
-                expr: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
+          body: [
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    expr: null
+                  },
+                  {
+                    kind: 'return',
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '2'
+                    }
                   }
-                }
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '2'
-              }
-            ]
-          }]
+                ]
+              }]
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '3'
+            }
+          ]
         },
         {
           kind: 'func',
@@ -373,6 +477,7 @@
             kind: 'literal',
             value: 'as-loop-mid'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -386,45 +491,59 @@
             type: 'i32'
           },
           local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'dummy'
-                },
-                exprs: []
-              },
-              {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '4'
-                },
-                expr: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
+          body: [
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'dummy'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    expr: null
+                  },
+                  {
+                    kind: 'return',
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '2'
+                    }
                   }
-                }
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '2'
-              }
-            ]
-          }]
+                ]
+              }]
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '4'
+            }
+          ]
         },
         {
           kind: 'func',
@@ -433,6 +552,7 @@
             kind: 'literal',
             value: 'as-loop-last'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -445,6 +565,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: [
               {
                 kind: 'call',
@@ -479,55 +602,9 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'as-br-value'
+            value: 'as-if-then'
           },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'block',
-            id: null,
-            body: [{
-              kind: 'br',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              expr: {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                expr: null
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'as-br_if-value'
-          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -546,22 +623,13 @@
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
-              kind: 'br_if',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              test: {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
+              kind: 'if',
+              type: null,
+              body: [
+                {
                   kind: 'get_local',
                   id: {
                     kind: 'literal',
@@ -569,89 +637,30 @@
                     raw: '0'
                   }
                 },
-                expr: null
-              },
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'as-br_table-value'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [
-              {
-                kind: 'item',
-                type: 'i32'
-              },
-              {
-                kind: 'item',
-                type: 'i32'
-              }
-            ]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'block',
-            id: null,
-            body: [{
-              kind: 'br_table',
-              exprs: [
                 {
                   kind: 'br_if',
                   id: {
                     kind: 'literal',
-                    value: 0,
-                    raw: '0'
+                    value: 1,
+                    raw: '1'
                   },
                   test: {
                     kind: 'get_local',
                     id: {
                       kind: 'literal',
-                      value: 0,
-                      raw: '0'
+                      value: 1,
+                      raw: '1'
                     }
                   },
                   expr: null
                 },
                 {
-                  kind: 'get_local',
+                  kind: 'call',
                   id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                }
-              ],
-              body: [
-                {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
+                    kind: 'identifier',
+                    name: 'dummy'
+                  },
+                  exprs: []
                 }
               ]
             }]
@@ -662,31 +671,34 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'as-return-value'
+            value: 'as-if-else'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i32'
-            }]
+            items: [
+              {
+                kind: 'item',
+                type: 'i32'
+              },
+              {
+                kind: 'item',
+                type: 'i32'
+              }
+            ]
           }],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
-              kind: 'return',
-              expr: {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
+              kind: 'if',
+              type: null,
+              body: [
+                {
                   kind: 'get_local',
                   id: {
                     kind: 'literal',
@@ -694,144 +706,32 @@
                     raw: '0'
                   }
                 },
-                expr: null
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'as-if-then'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [
-              {
-                kind: 'item',
-                type: 'i32'
-              },
-              {
-                kind: 'item',
-                type: 'i32'
-              }
-            ]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'block',
-            id: null,
-            body: [{
-              kind: 'if',
-              test: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              },
-              then: {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
+                {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'dummy'
+                  },
+                  exprs: []
                 },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '3'
-                },
-                expr: {
-                  kind: 'get_local',
+                {
+                  kind: 'br_if',
                   id: {
                     kind: 'literal',
                     value: 1,
                     raw: '1'
-                  }
+                  },
+                  test: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    }
+                  },
+                  expr: null
                 }
-              },
-              else: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'dummy'
-                },
-                exprs: []
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'as-if-else'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [
-              {
-                kind: 'item',
-                type: 'i32'
-              },
-              {
-                kind: 'item',
-                type: 'i32'
-              }
-            ]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'block',
-            id: null,
-            body: [{
-              kind: 'if',
-              test: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              },
-              then: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'dummy'
-                },
-                exprs: []
-              },
-              else: {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '4'
-                },
-                expr: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                }
-              }
+              ]
             }]
           }]
         },
@@ -842,6 +742,7 @@
             kind: 'literal',
             value: 'nested-block-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -866,12 +767,16 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
+                  kind: 'drop',
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '2'
+                  }]
                 },
                 {
                   kind: 'binop',
@@ -884,28 +789,32 @@
                   },
                   right: {
                     kind: 'block',
+                    type: 'i32',
                     id: null,
                     body: [
                       {
-                        kind: 'br_if',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        },
-                        test: {
-                          kind: 'const',
-                          type: 'i32',
-                          init: '8'
-                        },
-                        expr: {
-                          kind: 'get_local',
+                        kind: 'drop',
+                        body: [{
+                          kind: 'br_if',
                           id: {
                             kind: 'literal',
-                            value: 0,
-                            raw: '0'
+                            value: 1,
+                            raw: '1'
+                          },
+                          test: {
+                            kind: 'const',
+                            type: 'i32',
+                            init: '8'
+                          },
+                          expr: {
+                            kind: 'get_local',
+                            id: {
+                              kind: 'literal',
+                              value: 0,
+                              raw: '0'
+                            }
                           }
-                        }
+                        }]
                       },
                       {
                         kind: 'const',
@@ -926,6 +835,7 @@
             kind: 'literal',
             value: 'nested-br-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -950,12 +860,16 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
+                  kind: 'drop',
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '2'
+                  }]
                 },
                 {
                   kind: 'br',
@@ -966,28 +880,32 @@
                   },
                   expr: {
                     kind: 'block',
+                    type: 'i32',
                     id: null,
                     body: [
                       {
-                        kind: 'br_if',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        },
-                        test: {
-                          kind: 'const',
-                          type: 'i32',
-                          init: '8'
-                        },
-                        expr: {
-                          kind: 'get_local',
+                        kind: 'drop',
+                        body: [{
+                          kind: 'br_if',
                           id: {
                             kind: 'literal',
-                            value: 0,
-                            raw: '0'
+                            value: 1,
+                            raw: '1'
+                          },
+                          test: {
+                            kind: 'const',
+                            type: 'i32',
+                            init: '8'
+                          },
+                          expr: {
+                            kind: 'get_local',
+                            id: {
+                              kind: 'literal',
+                              value: 0,
+                              raw: '0'
+                            }
                           }
-                        }
+                        }]
                       },
                       {
                         kind: 'const',
@@ -1013,6 +931,7 @@
             kind: 'literal',
             value: 'nested-br_if-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1037,57 +956,68 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                },
-                {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  test: {
-                    kind: 'block',
-                    id: null,
-                    body: [
-                      {
-                        kind: 'br_if',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        },
-                        test: {
-                          kind: 'const',
-                          type: 'i32',
-                          init: '8'
-                        },
-                        expr: {
-                          kind: 'get_local',
-                          id: {
-                            kind: 'literal',
-                            value: 0,
-                            raw: '0'
-                          }
-                        }
-                      },
-                      {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '4'
-                      }
-                    ]
-                  },
-                  expr: {
+                  kind: 'drop',
+                  body: [{
                     kind: 'const',
                     type: 'i32',
-                    init: '1'
-                  }
+                    init: '2'
+                  }]
+                },
+                {
+                  kind: 'drop',
+                  body: [{
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    test: {
+                      kind: 'block',
+                      type: 'i32',
+                      id: null,
+                      body: [
+                        {
+                          kind: 'drop',
+                          body: [{
+                            kind: 'br_if',
+                            id: {
+                              kind: 'literal',
+                              value: 1,
+                              raw: '1'
+                            },
+                            test: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '8'
+                            },
+                            expr: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 0,
+                                raw: '0'
+                              }
+                            }
+                          }]
+                        },
+                        {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '4'
+                        }
+                      ]
+                    },
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }]
                 },
                 {
                   kind: 'const',
@@ -1105,6 +1035,7 @@
             kind: 'literal',
             value: 'nested-br_if-value-cond'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1129,57 +1060,68 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                },
-                {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  test: {
+                  kind: 'drop',
+                  body: [{
                     kind: 'const',
                     type: 'i32',
-                    init: '4'
-                  },
-                  expr: {
-                    kind: 'block',
-                    id: null,
-                    body: [
-                      {
-                        kind: 'br_if',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
+                    init: '2'
+                  }]
+                },
+                {
+                  kind: 'drop',
+                  body: [{
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    test: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '4'
+                    },
+                    expr: {
+                      kind: 'block',
+                      type: 'i32',
+                      id: null,
+                      body: [
+                        {
+                          kind: 'drop',
+                          body: [{
+                            kind: 'br_if',
+                            id: {
+                              kind: 'literal',
+                              value: 1,
+                              raw: '1'
+                            },
+                            test: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '8'
+                            },
+                            expr: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 0,
+                                raw: '0'
+                              }
+                            }
+                          }]
                         },
-                        test: {
+                        {
                           kind: 'const',
                           type: 'i32',
-                          init: '8'
-                        },
-                        expr: {
-                          kind: 'get_local',
-                          id: {
-                            kind: 'literal',
-                            value: 0,
-                            raw: '0'
-                          }
+                          init: '1'
                         }
-                      },
-                      {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '1'
-                      }
-                    ]
-                  }
+                      ]
+                    }
+                  }]
                 },
                 {
                   kind: 'const',
@@ -1197,6 +1139,7 @@
             kind: 'literal',
             value: 'nested-br_table-value'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1221,40 +1164,48 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
+                  kind: 'drop',
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '2'
+                  }]
                 },
                 {
                   kind: 'br_table',
                   exprs: [
                     {
                       kind: 'block',
+                      type: 'i32',
                       id: null,
                       body: [
                         {
-                          kind: 'br_if',
-                          id: {
-                            kind: 'literal',
-                            value: 1,
-                            raw: '1'
-                          },
-                          test: {
-                            kind: 'const',
-                            type: 'i32',
-                            init: '8'
-                          },
-                          expr: {
-                            kind: 'get_local',
+                          kind: 'drop',
+                          body: [{
+                            kind: 'br_if',
                             id: {
                               kind: 'literal',
-                              value: 0,
-                              raw: '0'
+                              value: 1,
+                              raw: '1'
+                            },
+                            test: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '8'
+                            },
+                            expr: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 0,
+                                raw: '0'
+                              }
                             }
-                          }
+                          }]
                         },
                         {
                           kind: 'const',
@@ -1291,6 +1242,7 @@
             kind: 'literal',
             value: 'nested-br_table-value-index'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1315,12 +1267,16 @@
             },
             right: {
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [
                 {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
+                  kind: 'drop',
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '2'
+                  }]
                 },
                 {
                   kind: 'br_table',
@@ -1332,28 +1288,32 @@
                     },
                     {
                       kind: 'block',
+                      type: 'i32',
                       id: null,
                       body: [
                         {
-                          kind: 'br_if',
-                          id: {
-                            kind: 'literal',
-                            value: 1,
-                            raw: '1'
-                          },
-                          test: {
-                            kind: 'const',
-                            type: 'i32',
-                            init: '8'
-                          },
-                          expr: {
-                            kind: 'get_local',
+                          kind: 'drop',
+                          body: [{
+                            kind: 'br_if',
                             id: {
                               kind: 'literal',
-                              value: 0,
-                              raw: '0'
+                              value: 1,
+                              raw: '1'
+                            },
+                            test: {
+                              kind: 'const',
+                              type: 'i32',
+                              init: '8'
+                            },
+                            expr: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 0,
+                                raw: '0'
+                              }
                             }
-                          }
+                          }]
                         },
                         {
                           kind: 'const',
@@ -1478,7 +1438,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'as-block-first-value',
+        name: 'as-block-last-value',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1495,7 +1455,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'as-block-first-value',
+        name: 'as-block-last-value',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -1505,41 +1465,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '10'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-block-mid-value',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '21'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-block-mid-value',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '1'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '20'
+        init: '11'
       }
     },
     {
@@ -1628,258 +1554,6 @@
       invoke: {
         kind: 'invoke',
         name: 'as-loop-last',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '1'
-        }]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br-value',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br-value',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '1'
-        }]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_if-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_if-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_if-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_if-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '10'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-br_table-value',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '10'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-return-value',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0'
-        }]
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'as-return-value',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -2263,12 +1937,14 @@
             name: 'type-false-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2308,12 +1984,14 @@
             name: 'type-false-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2353,12 +2031,14 @@
             name: 'type-false-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2398,12 +2078,14 @@
             name: 'type-false-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2443,12 +2125,14 @@
             name: 'type-true-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2488,12 +2172,14 @@
             name: 'type-true-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2533,12 +2219,14 @@
             name: 'type-true-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2578,12 +2266,14 @@
             name: 'type-true-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2623,6 +2313,7 @@
             name: 'type-false-arg-void-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2632,6 +2323,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2673,6 +2365,7 @@
             name: 'type-true-arg-void-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2682,6 +2375,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2720,9 +2414,102 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'type-false-arg-num-vs-num'
+            name: 'type-false-arg-num-vs-void'
           },
           expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'block',
+            type: null,
+            id: null,
+            body: [{
+              kind: 'br_if',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              test: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-true-arg-num-vs-void'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'block',
+            type: null,
+            id: null,
+            body: [{
+              kind: 'br_if',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              test: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              expr: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-false-arg-void-vs-num'
+          },
+          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2732,6 +2519,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2741,16 +2529,123 @@
                   value: 0,
                   raw: '0'
                 },
-                test: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                },
+                test: {kind: 'nop'},
                 expr: {
                   kind: 'const',
                   type: 'i32',
                   init: '0'
                 }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-true-arg-void-vs-num'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                test: {kind: 'nop'},
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '1'
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-false-arg-num-vs-num'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [
+              {
+                kind: 'drop',
+                body: [{
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i64',
+                    init: '1'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                }]
               },
               {
                 kind: 'const',
@@ -2777,6 +2672,7 @@
             name: 'type-true-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2786,25 +2682,29 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
+                kind: 'drop',
+                body: [{
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i64',
+                    init: '1'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                }]
               },
               {
                 kind: 'const',
@@ -2831,12 +2731,14 @@
             name: 'type-cond-void-vs-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2867,12 +2769,14 @@
             name: 'type-cond-num-vs-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2907,6 +2811,7 @@
             name: 'type-arg-cond-void-vs-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2916,6 +2821,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2957,6 +2863,7 @@
             name: 'type-arg-cond-num-vs-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2966,6 +2873,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -3011,6 +2919,7 @@
             name: 'unbound-label'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3047,15 +2956,18 @@
             name: 'unbound-nested-label'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'block',
+              type: null,
               id: null,
               body: [{
                 kind: 'br_if',
@@ -3091,6 +3003,7 @@
             name: 'large-label'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3099,8 +3012,8 @@
             kind: 'br_if',
             id: {
               kind: 'literal',
-              value: 4294967297,
-              raw: '0x100000001'
+              value: 268435457,
+              raw: '0x10000001'
             },
             test: {
               kind: 'const',

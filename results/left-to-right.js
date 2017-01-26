@@ -9,7 +9,10 @@
           int: {
             kind: 'literal',
             value: 1,
-            raw: '1'
+            raw: [
+              [' '],
+              '1'
+            ]
           },
           int1: null,
           segment: []
@@ -132,40 +135,44 @@
         },
         {
           kind: 'table',
-          items: [
-            {
-              kind: 'identifier',
-              name: 'i32_t0'
-            },
-            {
-              kind: 'identifier',
-              name: 'i32_t1'
-            },
-            {
-              kind: 'identifier',
-              name: 'i64_t0'
-            },
-            {
-              kind: 'identifier',
-              name: 'i64_t1'
-            },
-            {
-              kind: 'identifier',
-              name: 'f32_t0'
-            },
-            {
-              kind: 'identifier',
-              name: 'f32_t1'
-            },
-            {
-              kind: 'identifier',
-              name: 'f64_t0'
-            },
-            {
-              kind: 'identifier',
-              name: 'f64_t1'
-            }
-          ]
+          index: null,
+          items: {
+            kind: 'elem',
+            items: [
+              {
+                kind: 'identifier',
+                name: 'i32_t0'
+              },
+              {
+                kind: 'identifier',
+                name: 'i32_t1'
+              },
+              {
+                kind: 'identifier',
+                name: 'i64_t0'
+              },
+              {
+                kind: 'identifier',
+                name: 'i64_t1'
+              },
+              {
+                kind: 'identifier',
+                name: 'f32_t0'
+              },
+              {
+                kind: 'identifier',
+                name: 'f32_t1'
+              },
+              {
+                kind: 'identifier',
+                name: 'f64_t0'
+              },
+              {
+                kind: 'identifier',
+                name: 'f64_t1'
+              }
+            ]
+          }
         },
         {
           kind: 'func',
@@ -174,6 +181,7 @@
             name: 'i32_t0'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -197,6 +205,7 @@
             name: 'i32_t1'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -220,6 +229,7 @@
             name: 'i64_t0'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -243,6 +253,7 @@
             name: 'i64_t1'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -266,6 +277,7 @@
             name: 'f32_t0'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -289,6 +301,7 @@
             name: 'f32_t1'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -312,6 +325,7 @@
             name: 'f64_t0'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -335,6 +349,7 @@
             name: 'f64_t1'
           },
           expo: null,
+          imp: null,
           type: {
             kind: 'type',
             id: {
@@ -358,6 +373,7 @@
             name: 'reset'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -387,6 +403,7 @@
             name: 'bump'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -493,6 +510,7 @@
             name: 'get'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -521,6 +539,7 @@
             name: 'i32_left'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -568,6 +587,7 @@
             name: 'i32_right'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -615,6 +635,7 @@
             name: 'i32_another'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -662,6 +683,7 @@
             name: 'i32_callee'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -709,6 +731,7 @@
             name: 'i32_bool'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -756,6 +779,7 @@
             name: 'i64_left'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -803,6 +827,7 @@
             name: 'i64_right'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -850,6 +875,7 @@
             name: 'i64_another'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -897,6 +923,7 @@
             name: 'i64_callee'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -944,6 +971,7 @@
             name: 'i64_bool'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -991,6 +1019,7 @@
             name: 'f32_left'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1038,6 +1067,7 @@
             name: 'f32_right'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1085,6 +1115,7 @@
             name: 'f32_another'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1132,6 +1163,7 @@
             name: 'f32_callee'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1179,6 +1211,7 @@
             name: 'f32_bool'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1226,6 +1259,7 @@
             name: 'f64_left'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1273,6 +1307,7 @@
             name: 'f64_right'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1320,6 +1355,7 @@
             name: 'f64_another'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1367,6 +1403,7 @@
             name: 'f64_callee'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1414,6 +1451,7 @@
             name: 'f64_bool'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1461,6 +1499,7 @@
             name: 'i32_dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1486,6 +1525,7 @@
             name: 'i64_dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1511,6 +1551,7 @@
             name: 'f32_dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1536,6 +1577,7 @@
             name: 'f64_dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1556,11 +1598,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_add'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_add'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1578,25 +1621,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'add',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1610,11 +1656,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_sub'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_sub'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1632,25 +1679,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'sub',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'sub',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1664,11 +1714,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1686,25 +1737,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'mul',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'mul',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1718,11 +1772,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_div_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_div_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1740,25 +1795,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'div_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1772,11 +1830,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_div_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_div_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1794,25 +1853,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'div_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1826,11 +1888,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_rem_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_rem_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1848,25 +1911,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'rem_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'rem_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1880,11 +1946,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_rem_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_rem_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1902,25 +1969,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'rem_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'rem_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1934,11 +2004,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_and'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_and'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1956,25 +2027,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'and',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'and',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -1988,11 +2062,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_or'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_or'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2010,25 +2085,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'or',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'or',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2042,11 +2120,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_xor'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_xor'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2064,25 +2143,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'xor',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'xor',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2096,11 +2178,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_shl'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_shl'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2118,25 +2201,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'shl',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'shl',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2150,11 +2236,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_shr_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_shr_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2172,25 +2259,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'shr_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'shr_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2204,11 +2294,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_shr_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_shr_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2226,25 +2317,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'shr_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i32',
+                operator: 'shr_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2258,11 +2352,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_eq'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_eq'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2280,25 +2375,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'eq',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'eq',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2312,11 +2410,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_ne'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_ne'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2334,25 +2433,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'ne',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'ne',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2366,11 +2468,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_lt_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_lt_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2388,25 +2491,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'lt_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'lt_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2420,11 +2526,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_le_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_le_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2442,25 +2549,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'le_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'le_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2474,11 +2584,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_lt_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_lt_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2496,25 +2607,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'lt_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'lt_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2528,11 +2642,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_le_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_le_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2550,25 +2665,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'le_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'le_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2582,11 +2700,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_gt_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_gt_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2604,25 +2723,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'gt_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'gt_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2636,11 +2758,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_ge_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_ge_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2658,25 +2781,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'ge_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'ge_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2690,11 +2816,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_gt_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_gt_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2712,25 +2839,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'gt_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'gt_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2744,11 +2874,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_ge_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_ge_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2766,25 +2897,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'ge_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i32',
+                operator: 'ge_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -2798,11 +2932,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2854,11 +2989,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_store8'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_store8'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2910,11 +3046,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_store16'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_store16'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2966,11 +3103,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_call'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_call'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3024,11 +3162,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_call_indirect'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_call_indirect'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3046,21 +3185,88 @@
               exprs: []
             },
             {
-              kind: 'call_indirect',
+              kind: 'drop',
+              body: [{
+                kind: 'call_indirect',
+                id: {
+                  kind: 'identifier',
+                  name: 'i32_T'
+                },
+                exprs: [
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i32_left'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i32_right'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i32_callee'
+                    },
+                    exprs: []
+                  }
+                ]
+              }]
+            },
+            {
+              kind: 'call',
               id: {
                 kind: 'identifier',
-                name: 'i32_T'
+                name: 'get'
               },
-              exprs: [
-                {
+              exprs: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_select'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'reset'
+              },
+              exprs: []
+            },
+            {
+              kind: 'drop',
+              body: [{
+                kind: 'select',
+                then: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'i32_callee'
+                    name: 'i32_left'
                   },
                   exprs: []
                 },
-                {
+                else: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
@@ -3068,15 +3274,15 @@
                   },
                   exprs: []
                 },
-                {
+                test: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'i32_another'
+                    name: 'i32_bool'
                   },
                   exprs: []
                 }
-              ]
+              }]
             },
             {
               kind: 'call',
@@ -3090,11 +3296,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_select'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_add'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3112,31 +3319,28 @@
               exprs: []
             },
             {
-              kind: 'select',
-              then: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'add',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              else: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_right'
-                },
-                exprs: []
-              },
-              test: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i32_bool'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3150,11 +3354,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_add'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_sub'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3172,25 +3377,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'add',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'sub',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3204,11 +3412,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_sub'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3226,25 +3435,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'sub',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'mul',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3258,11 +3470,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_div_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3280,25 +3493,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'mul',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'div_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3312,11 +3528,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_div_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_div_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3334,25 +3551,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'div_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'div_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3366,11 +3586,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_div_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_rem_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3388,25 +3609,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'div_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'rem_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3420,11 +3644,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_rem_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_rem_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3442,25 +3667,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'rem_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'rem_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3474,11 +3702,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_rem_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_and'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3496,25 +3725,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'rem_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'and',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3528,11 +3760,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_and'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_or'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3550,25 +3783,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'and',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'or',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3582,11 +3818,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_or'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_xor'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3604,25 +3841,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'or',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'xor',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3636,11 +3876,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_xor'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_shl'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3658,25 +3899,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'xor',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'shl',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3690,11 +3934,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_shl'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_shr_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3712,25 +3957,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'shl',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'shr_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3744,11 +3992,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_shr_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_shr_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3766,25 +4015,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'shr_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'i64',
+                operator: 'shr_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3798,11 +4050,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_shr_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_eq'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3820,25 +4073,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'shr_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'eq',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3852,11 +4108,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_eq'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_ne'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3874,25 +4131,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'eq',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'ne',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3906,11 +4166,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_ne'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_lt_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3928,25 +4189,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'ne',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'lt_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -3960,11 +4224,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_lt_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_le_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -3982,25 +4247,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'lt_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'le_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4014,11 +4282,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_le_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_lt_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4036,25 +4305,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'le_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'lt_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4068,11 +4340,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_lt_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_le_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4090,25 +4363,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'lt_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'le_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4122,11 +4398,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_le_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_gt_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4144,25 +4421,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'le_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'gt_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4176,11 +4456,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_gt_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_ge_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4198,25 +4479,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'gt_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'ge_s',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4230,11 +4514,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_ge_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_gt_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4252,25 +4537,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'ge_s',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'gt_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4284,11 +4572,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_gt_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_ge_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4306,25 +4595,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'gt_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'i64',
+                operator: 'ge_u',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'i64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4338,65 +4630,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_ge_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store'
           },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'reset'
-              },
-              exprs: []
-            },
-            {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'ge_u',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
-                },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              }
-            },
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'get'
-              },
-              exprs: []
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4448,11 +4687,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store8'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store8'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4504,11 +4744,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store16'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store16'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4560,11 +4801,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4616,11 +4858,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_call'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_call'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4674,11 +4917,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_call_indirect'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_call_indirect'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4696,21 +4940,88 @@
               exprs: []
             },
             {
-              kind: 'call_indirect',
+              kind: 'drop',
+              body: [{
+                kind: 'call_indirect',
+                id: {
+                  kind: 'identifier',
+                  name: 'i64_T'
+                },
+                exprs: [
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i64_left'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i64_right'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'i64_callee'
+                    },
+                    exprs: []
+                  }
+                ]
+              }]
+            },
+            {
+              kind: 'call',
               id: {
                 kind: 'identifier',
-                name: 'i64_T'
+                name: 'get'
               },
-              exprs: [
-                {
+              exprs: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_select'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'reset'
+              },
+              exprs: []
+            },
+            {
+              kind: 'drop',
+              body: [{
+                kind: 'select',
+                then: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'i64_callee'
+                    name: 'i64_left'
                   },
                   exprs: []
                 },
-                {
+                else: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
@@ -4718,15 +5029,15 @@
                   },
                   exprs: []
                 },
-                {
+                test: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'i64_another'
+                    name: 'i64_bool'
                   },
                   exprs: []
                 }
-              ]
+              }]
             },
             {
               kind: 'call',
@@ -4740,11 +5051,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_select'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_add'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4762,31 +5074,28 @@
               exprs: []
             },
             {
-              kind: 'select',
-              then: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'add',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              else: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_right'
-                },
-                exprs: []
-              },
-              test: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'i64_bool'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4800,11 +5109,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_add'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_sub'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4822,25 +5132,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'add',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'sub',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4854,11 +5167,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_sub'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4876,25 +5190,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'sub',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'mul',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4908,11 +5225,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_div'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4930,25 +5248,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'mul',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'div',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -4962,11 +5283,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_div'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_copysign'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4984,25 +5306,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'div',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'copysign',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5016,11 +5341,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_copysign'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_eq'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5038,25 +5364,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'copysign',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'eq',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5070,11 +5399,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_eq'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_ne'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5092,25 +5422,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'eq',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'ne',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5124,11 +5457,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_ne'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_lt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5146,25 +5480,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'ne',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'lt',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5178,11 +5515,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_lt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_le'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5200,25 +5538,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'lt',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'le',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5232,11 +5573,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_le'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_gt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5254,25 +5596,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'le',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'gt',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5286,11 +5631,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_gt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_ge'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5308,25 +5654,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'gt',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f32',
+                operator: 'ge',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5340,11 +5689,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_ge'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_min'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5362,25 +5712,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f32',
-              operator: 'ge',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'min',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5394,11 +5747,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_min'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_max'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5416,25 +5770,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'min',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f32',
+                operator: 'max',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f32_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5448,65 +5805,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_max'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_store'
           },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'reset'
-              },
-              exprs: []
-            },
-            {
-              kind: 'binop',
-              type: 'f32',
-              operator: 'max',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
-                },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              }
-            },
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'get'
-              },
-              exprs: []
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_store'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5558,11 +5862,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_call'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_call'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5616,11 +5921,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_call_indirect'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_call_indirect'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5638,21 +5944,88 @@
               exprs: []
             },
             {
-              kind: 'call_indirect',
+              kind: 'drop',
+              body: [{
+                kind: 'call_indirect',
+                id: {
+                  kind: 'identifier',
+                  name: 'f32_T'
+                },
+                exprs: [
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f32_left'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f32_right'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f32_callee'
+                    },
+                    exprs: []
+                  }
+                ]
+              }]
+            },
+            {
+              kind: 'call',
               id: {
                 kind: 'identifier',
-                name: 'f32_T'
+                name: 'get'
               },
-              exprs: [
-                {
+              exprs: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_select'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'reset'
+              },
+              exprs: []
+            },
+            {
+              kind: 'drop',
+              body: [{
+                kind: 'select',
+                then: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'f32_callee'
+                    name: 'f32_left'
                   },
                   exprs: []
                 },
-                {
+                else: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
@@ -5660,15 +6033,15 @@
                   },
                   exprs: []
                 },
-                {
+                test: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'f32_another'
+                    name: 'f32_bool'
                   },
                   exprs: []
                 }
-              ]
+              }]
             },
             {
               kind: 'call',
@@ -5682,11 +6055,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_select'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_add'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5704,31 +6078,28 @@
               exprs: []
             },
             {
-              kind: 'select',
-              then: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'add',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              else: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_right'
-                },
-                exprs: []
-              },
-              test: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f32_bool'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5742,11 +6113,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_add'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_sub'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5764,25 +6136,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'add',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'sub',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5796,11 +6171,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_sub'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5818,25 +6194,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'sub',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'mul',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5850,11 +6229,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_div'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5872,25 +6252,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'mul',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'div',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5904,11 +6287,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_div'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_copysign'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5926,25 +6310,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'div',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'copysign',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -5958,11 +6345,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_copysign'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_eq'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -5980,25 +6368,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'copysign',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'eq',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6012,11 +6403,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_eq'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_ne'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6034,25 +6426,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'eq',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'ne',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6066,11 +6461,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_ne'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_lt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6088,25 +6484,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'ne',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'lt',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6120,11 +6519,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_lt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_le'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6142,25 +6542,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'lt',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'le',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6174,11 +6577,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_le'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_gt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6196,25 +6600,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'le',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'gt',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6228,11 +6635,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_gt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_ge'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6250,25 +6658,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'gt',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'relop',
+                type: 'f64',
+                operator: 'ge',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6282,11 +6693,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_ge'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_min'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6304,25 +6716,28 @@
               exprs: []
             },
             {
-              kind: 'relop',
-              type: 'f64',
-              operator: 'ge',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'min',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6336,11 +6751,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_min'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_max'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6358,25 +6774,28 @@
               exprs: []
             },
             {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'min',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
+              kind: 'drop',
+              body: [{
+                kind: 'binop',
+                type: 'f64',
+                operator: 'max',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_left'
+                  },
+                  exprs: []
                 },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'f64_right'
+                  },
+                  exprs: []
+                }
+              }]
             },
             {
               kind: 'call',
@@ -6390,65 +6809,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_max'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_store'
           },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'reset'
-              },
-              exprs: []
-            },
-            {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'max',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
-                },
-                exprs: []
-              },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              }
-            },
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'get'
-              },
-              exprs: []
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_store'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6500,11 +6866,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_call'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_call'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6558,11 +6925,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_call_indirect'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_call_indirect'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6580,21 +6948,88 @@
               exprs: []
             },
             {
-              kind: 'call_indirect',
+              kind: 'drop',
+              body: [{
+                kind: 'call_indirect',
+                id: {
+                  kind: 'identifier',
+                  name: 'f64_T'
+                },
+                exprs: [
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f64_left'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f64_right'
+                    },
+                    exprs: []
+                  },
+                  {
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'f64_callee'
+                    },
+                    exprs: []
+                  }
+                ]
+              }]
+            },
+            {
+              kind: 'call',
               id: {
                 kind: 'identifier',
-                name: 'f64_T'
+                name: 'get'
               },
-              exprs: [
-                {
+              exprs: []
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_select'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'call',
+              id: {
+                kind: 'identifier',
+                name: 'reset'
+              },
+              exprs: []
+            },
+            {
+              kind: 'drop',
+              body: [{
+                kind: 'select',
+                then: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'f64_callee'
+                    name: 'f64_left'
                   },
                   exprs: []
                 },
-                {
+                else: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
@@ -6602,15 +7037,15 @@
                   },
                   exprs: []
                 },
-                {
+                test: {
                   kind: 'call',
                   id: {
                     kind: 'identifier',
-                    name: 'f64_another'
+                    name: 'f64_bool'
                   },
                   exprs: []
                 }
-              ]
+              }]
             },
             {
               kind: 'call',
@@ -6624,71 +7059,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_select'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'br_if'
           },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'reset'
-              },
-              exprs: []
-            },
-            {
-              kind: 'select',
-              then: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_left'
-                },
-                exprs: []
-              },
-              else: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_right'
-                },
-                exprs: []
-              },
-              test: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'f64_bool'
-                },
-                exprs: []
-              }
-            },
-            {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'get'
-              },
-              exprs: []
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'br_if'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -6698,6 +7074,7 @@
           local: [],
           body: [{
             kind: 'block',
+            type: 'i32',
             id: null,
             body: [
               {
@@ -6709,115 +7086,40 @@
                 exprs: []
               },
               {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'call',
+                kind: 'drop',
+                body: [{
+                  kind: 'br_if',
                   id: {
-                    kind: 'identifier',
-                    name: 'i32_left'
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
                   },
-                  exprs: []
-                },
-                expr: {
-                  kind: 'binop',
-                  type: 'i32',
-                  operator: 'and',
-                  left: {
+                  test: {
                     kind: 'call',
                     id: {
                       kind: 'identifier',
-                      name: 'i32_right'
+                      name: 'i32_left'
                     },
                     exprs: []
                   },
-                  right: {
-                    kind: 'const',
+                  expr: {
+                    kind: 'binop',
                     type: 'i32',
-                    init: '0'
-                  }
-                }
-              },
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'get'
-                },
-                exprs: []
-              }
-            ]
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'br_table'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'block',
-            id: {
-              kind: 'identifier',
-              name: 'a'
-            },
-            body: [
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'reset'
-                },
-                exprs: []
-              },
-              {
-                kind: 'block',
-                id: {
-                  kind: 'identifier',
-                  name: 'b'
-                },
-                body: [{
-                  kind: 'br_table',
-                  exprs: [
-                    {
-                      kind: 'call',
-                      id: {
-                        kind: 'identifier',
-                        name: 'i32_left'
-                      },
-                      exprs: []
-                    },
-                    {
+                    operator: 'and',
+                    left: {
                       kind: 'call',
                       id: {
                         kind: 'identifier',
                         name: 'i32_right'
                       },
                       exprs: []
-                    }
-                  ],
-                  body: [
-                    {
-                      kind: 'identifier',
-                      name: 'a'
                     },
-                    {
-                      kind: 'identifier',
-                      name: 'b'
+                    right: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
                     }
-                  ]
+                  }
                 }]
               },
               {
@@ -6832,1049 +7134,88 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_add'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_add'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_add'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_add'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_sub'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_sub'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_sub'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_sub'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_mul'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_mul'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_div_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_div_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_div_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_div_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_div_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_div_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_div_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_div_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_rem_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_rem_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_rem_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_rem_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_rem_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_rem_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_rem_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_rem_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_and'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_and'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_and'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_and'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_or'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_or'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_or'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_or'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_xor'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_xor'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_xor'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_xor'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_shl'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_shl'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_shl'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_shl'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_shr_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_shr_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_shr_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_shr_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_shr_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_shr_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_shr_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_shr_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_eq'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_eq'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_eq'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_eq'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_ne'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_ne'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_ne'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_ne'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_lt_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_lt_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_lt_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_lt_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_le_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_le_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_le_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_le_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_lt_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_lt_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_lt_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_lt_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_le_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_le_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_le_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_le_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_gt_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_gt_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_gt_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_gt_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_ge_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_ge_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_ge_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_ge_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_gt_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_gt_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_gt_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_gt_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_ge_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_ge_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_ge_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_ge_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_store8'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_store8'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store8'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store8'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_store16'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_store16'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store16'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store16'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store32'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_call'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_call'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_call'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_call'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_call_indirect'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_call_indirect'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_call_indirect'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_call_indirect'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_select'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_select'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_select'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_select'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_add'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_add'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_add'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_add'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_sub'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_sub'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_sub'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_sub'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_mul'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_mul'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_div'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_div'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_div'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_div'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_copysign'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_copysign'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_copysign'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_copysign'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_eq'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_eq'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_eq'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_eq'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_ne'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_ne'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_ne'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_ne'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_lt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_lt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_lt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_lt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_le'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_le'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_le'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_le'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_gt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_gt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_gt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_gt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_ge'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_ge'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_ge'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_ge'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_min'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_min'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_min'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_min'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_max'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_max'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_max'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_max'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_call'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_call'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_call'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_call'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_call_indirect'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_call_indirect'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_call_indirect'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_call_indirect'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_select'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_select'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_select'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_select'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'br_if'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'br_if'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'br_table'
           },
-          id: {
-            kind: 'identifier',
-            name: 'br_table'
-          }
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
+            body: [
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'reset'
+                },
+                exprs: []
+              },
+              {
+                kind: 'drop',
+                body: [{
+                  kind: 'block',
+                  type: 'i32',
+                  id: {
+                    kind: 'identifier',
+                    name: 'b'
+                  },
+                  body: [{
+                    kind: 'br_table',
+                    exprs: [
+                      {
+                        kind: 'call',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i32_left'
+                        },
+                        exprs: []
+                      },
+                      {
+                        kind: 'call',
+                        id: {
+                          kind: 'identifier',
+                          name: 'i32_right'
+                        },
+                        exprs: []
+                      }
+                    ],
+                    body: [
+                      {
+                        kind: 'identifier',
+                        name: 'a'
+                      },
+                      {
+                        kind: 'identifier',
+                        name: 'b'
+                      }
+                    ]
+                  }]
+                }]
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'get'
+                },
+                exprs: []
+              }
+            ]
+          }]
         }
       ]
     },
@@ -8603,7 +7944,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x040203'
+        init: '0x010204'
       }
     },
     {
@@ -8616,7 +7957,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x040203'
+        init: '0x010204'
       }
     },
     {
@@ -9045,7 +8386,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x040203'
+        init: '0x010204'
       }
     },
     {
@@ -9058,7 +8399,7 @@
       expr: {
         kind: 'const',
         type: 'i32',
-        init: '0x040203'
+        init: '0x010204'
       }
     },
     {

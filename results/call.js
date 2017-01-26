@@ -11,6 +11,7 @@
             name: 'const-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -31,6 +32,7 @@
             name: 'const-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -51,6 +53,7 @@
             name: 'const-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -71,6 +74,7 @@
             name: 'const-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -91,6 +95,7 @@
             name: 'id-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -120,6 +125,7 @@
             name: 'id-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -149,6 +155,7 @@
             name: 'id-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -178,6 +185,7 @@
             name: 'id-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -207,6 +215,7 @@
             name: 'f32-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -242,6 +251,7 @@
             name: 'i32-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -277,6 +287,7 @@
             name: 'f64-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -312,6 +323,7 @@
             name: 'i64-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -347,6 +359,7 @@
             kind: 'literal',
             value: 'type-i32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -370,6 +383,7 @@
             kind: 'literal',
             value: 'type-i64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -393,6 +407,7 @@
             kind: 'literal',
             value: 'type-f32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -416,6 +431,7 @@
             kind: 'literal',
             value: 'type-f64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -439,6 +455,7 @@
             kind: 'literal',
             value: 'type-first-i32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -466,6 +483,7 @@
             kind: 'literal',
             value: 'type-first-i64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -493,6 +511,7 @@
             kind: 'literal',
             value: 'type-first-f32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -520,6 +539,7 @@
             kind: 'literal',
             value: 'type-first-f64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -547,6 +567,7 @@
             kind: 'literal',
             value: 'type-second-i32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -581,6 +602,7 @@
             kind: 'literal',
             value: 'type-second-i64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -615,6 +637,7 @@
             kind: 'literal',
             value: 'type-second-f32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -649,6 +672,7 @@
             kind: 'literal',
             value: 'type-second-f64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -686,6 +710,7 @@
             kind: 'literal',
             value: 'fac'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -701,62 +726,65 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i64',
-              init: '1'
-            },
-            else: {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'mul',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
+            type: 'i64',
+            body: [
+              {
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
                 }
               },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'fac'
-                },
-                exprs: [{
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'sub',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    }
-                  },
-                  right: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '1'
+              {
+                kind: 'const',
+                type: 'i64',
+                init: '1'
+              },
+              {
+                kind: 'binop',
+                type: 'i64',
+                operator: 'mul',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
                   }
-                }]
+                },
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'fac'
+                  },
+                  exprs: [{
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '1'
+                    }
+                  }]
+                }
               }
-            }
+            ]
           }]
         },
         {
@@ -769,6 +797,7 @@
             kind: 'literal',
             value: 'fac-acc'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -790,75 +819,78 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
+            type: 'i64',
+            body: [
+              {
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                }
+              },
+              {
                 kind: 'get_local',
                 id: {
                   kind: 'literal',
-                  value: 0,
-                  raw: '0'
+                  value: 1,
+                  raw: '1'
                 }
-              }
-            },
-            then: {
-              kind: 'get_local',
-              id: {
-                kind: 'literal',
-                value: 1,
-                raw: '1'
-              }
-            },
-            else: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'fac-acc'
               },
-              exprs: [
-                {
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'sub',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    }
-                  },
-                  right: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '1'
-                  }
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'fac-acc'
                 },
-                {
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'mul',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
+                exprs: [
+                  {
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '1'
                     }
                   },
-                  right: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 1,
-                      raw: '1'
+                  {
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'mul',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
                     }
                   }
-                }
-              ]
-            }
+                ]
+              }
+            ]
           }]
         },
         {
@@ -871,6 +903,7 @@
             kind: 'literal',
             value: 'fib'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -886,63 +919,140 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'le_u',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
+            type: 'i64',
+            body: [
+              {
+                kind: 'relop',
+                type: 'i64',
+                operator: 'le_u',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '1'
                 }
               },
-              right: {
+              {
                 kind: 'const',
                 type: 'i64',
                 init: '1'
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i64',
-              init: '1'
-            },
-            else: {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'add',
-              left: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'fib'
-                },
-                exprs: [{
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'sub',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    }
-                  },
-                  right: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '2'
-                  }
-                }]
               },
-              right: {
+              {
+                kind: 'binop',
+                type: 'i64',
+                operator: 'add',
+                left: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'fib'
+                  },
+                  exprs: [{
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '2'
+                    }
+                  }]
+                },
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'fib'
+                  },
+                  exprs: [{
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '1'
+                    }
+                  }]
+                }
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'even'
+          },
+          expo: {
+            kind: 'literal',
+            value: 'even'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'if',
+            type: 'i32',
+            body: [
+              {
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '44'
+              },
+              {
                 kind: 'call',
                 id: {
                   kind: 'identifier',
-                  name: 'fib'
+                  name: 'odd'
                 },
                 exprs: [{
                   kind: 'binop',
@@ -963,77 +1073,7 @@
                   }
                 }]
               }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'even'
-          },
-          expo: {
-            kind: 'literal',
-            value: 'even'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              type: 'i64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'if',
-            test: {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i32',
-              init: '44'
-            },
-            else: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'odd'
-              },
-              exprs: [{
-                kind: 'binop',
-                type: 'i64',
-                operator: 'sub',
-                left: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                right: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                }
-              }]
-            }
+            ]
           }]
         },
         {
@@ -1046,6 +1086,7 @@
             kind: 'literal',
             value: 'odd'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1061,49 +1102,52 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i32',
-              init: '99'
-            },
-            else: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'even'
-              },
-              exprs: [{
-                kind: 'binop',
+            type: 'i32',
+            body: [
+              {
+                kind: 'unop',
                 type: 'i64',
-                operator: 'sub',
-                left: {
+                operator: 'eqz',
+                expr: {
                   kind: 'get_local',
                   id: {
                     kind: 'literal',
                     value: 0,
                     raw: '0'
                   }
-                },
-                right: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
                 }
-              }]
-            }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '99'
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'even'
+                },
+                exprs: [{
+                  kind: 'binop',
+                  type: 'i64',
+                  operator: 'sub',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    }
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i64',
+                    init: '1'
+                  }
+                }]
+              }
+            ]
           }]
         },
         {
@@ -1116,6 +1160,7 @@
             kind: 'literal',
             value: 'runaway'
           },
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1139,6 +1184,7 @@
             kind: 'literal',
             value: 'mutual-runaway'
           },
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1159,6 +1205,7 @@
             name: 'mutual-runaway2'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1716,8 +1763,8 @@
       }
     },
     {
-      kind: 'assert_trap',
-      invoke: {
+      kind: 'assert_exhaustion',
+      module: {
         kind: 'invoke',
         name: 'runaway',
         body: []
@@ -1728,8 +1775,8 @@
       }
     },
     {
-      kind: 'assert_trap',
-      invoke: {
+      kind: 'assert_exhaustion',
+      module: {
         kind: 'invoke',
         name: 'mutual-runaway',
         body: []
@@ -1751,6 +1798,7 @@
               name: 'type-void-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1774,6 +1822,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1799,6 +1848,7 @@
               name: 'type-num-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1822,6 +1872,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: {
@@ -1854,6 +1905,7 @@
               name: 'arity-0-vs-1'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1872,6 +1924,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -1888,7 +1941,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'arity mismatch'
+        value: 'type mismatch'
       }
     },
     {
@@ -1903,6 +1956,7 @@
               name: 'arity-0-vs-2'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1921,6 +1975,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -1943,7 +1998,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'arity mismatch'
+        value: 'type mismatch'
       }
     },
     {
@@ -1958,6 +2013,7 @@
               name: 'arity-1-vs-0'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1980,6 +2036,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1990,7 +2047,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'arity mismatch'
+        value: 'type mismatch'
       }
     },
     {
@@ -2005,6 +2062,7 @@
               name: 'arity-2-vs-0'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2034,6 +2092,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2044,208 +2103,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'arity mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [
-          {
-            kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: 'arity-nop-first'
-            },
-            expo: null,
-            type: null,
-            params: [],
-            result: null,
-            local: [],
-            body: [{
-              kind: 'call',
-              id: {
-                kind: 'literal',
-                value: 1,
-                raw: '1'
-              },
-              exprs: [
-                {kind: 'nop'},
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                },
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                }
-              ]
-            }]
-          },
-          {
-            kind: 'func',
-            id: null,
-            expo: null,
-            type: null,
-            params: [{
-              kind: 'param',
-              items: [
-                {
-                  kind: 'item',
-                  type: 'i32'
-                },
-                {
-                  kind: 'item',
-                  type: 'i32'
-                }
-              ]
-            }],
-            result: null,
-            local: [],
-            body: []
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [
-          {
-            kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: 'arity-nop-mid'
-            },
-            expo: null,
-            type: null,
-            params: [],
-            result: null,
-            local: [],
-            body: [{
-              kind: 'call',
-              id: {
-                kind: 'literal',
-                value: 1,
-                raw: '1'
-              },
-              exprs: [
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                },
-                {kind: 'nop'},
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                }
-              ]
-            }]
-          },
-          {
-            kind: 'func',
-            id: null,
-            expo: null,
-            type: null,
-            params: [{
-              kind: 'param',
-              items: [
-                {
-                  kind: 'item',
-                  type: 'i32'
-                },
-                {
-                  kind: 'item',
-                  type: 'i32'
-                }
-              ]
-            }],
-            result: null,
-            local: [],
-            body: []
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [
-          {
-            kind: 'func',
-            id: {
-              kind: 'identifier',
-              name: 'arity-nop-last'
-            },
-            expo: null,
-            type: null,
-            params: [],
-            result: null,
-            local: [],
-            body: [{
-              kind: 'call',
-              id: {
-                kind: 'literal',
-                value: 1,
-                raw: '1'
-              },
-              exprs: [
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                },
-                {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '2'
-                },
-                {kind: 'nop'}
-              ]
-            }]
-          },
-          {
-            kind: 'func',
-            id: null,
-            expo: null,
-            type: null,
-            params: [{
-              kind: 'param',
-              items: [
-                {
-                  kind: 'item',
-                  type: 'i32'
-                },
-                {
-                  kind: 'item',
-                  type: 'i32'
-                }
-              ]
-            }],
-            result: null,
-            local: [],
-            body: []
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'arity mismatch'
+        value: 'type mismatch'
       }
     },
     {
@@ -2260,6 +2118,7 @@
               name: 'type-first-void-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2285,6 +2144,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -2322,6 +2182,7 @@
               name: 'type-second-void-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2347,6 +2208,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -2384,6 +2246,7 @@
               name: 'type-first-num-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2413,6 +2276,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -2450,6 +2314,7 @@
               name: 'type-second-num-vs-num'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -2479,6 +2344,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -2515,6 +2381,7 @@
             name: 'unbound-func'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2546,6 +2413,7 @@
             name: 'large-func'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2554,8 +2422,8 @@
             kind: 'call',
             id: {
               kind: 'literal',
-              value: 10001232130000,
-              raw: '10001232130000'
+              value: 1012321300,
+              raw: '1012321300'
             },
             exprs: []
           }]

@@ -11,6 +11,7 @@
             kind: 'literal',
             value: 'type-local-i32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -40,6 +41,7 @@
             kind: 'literal',
             value: 'type-local-i64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -69,6 +71,7 @@
             kind: 'literal',
             value: 'type-local-f32'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -98,6 +101,7 @@
             kind: 'literal',
             value: 'type-local-f64'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -127,6 +131,7 @@
             kind: 'literal',
             value: 'type-param-i32'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -156,6 +161,7 @@
             kind: 'literal',
             value: 'type-param-i64'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -185,6 +191,7 @@
             kind: 'literal',
             value: 'type-param-f32'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -214,6 +221,7 @@
             kind: 'literal',
             value: 'type-param-f64'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -243,6 +251,7 @@
             kind: 'literal',
             value: 'type-mixed'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -269,10 +278,7 @@
               }
             ]
           }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
+          result: null,
           local: [{
             kind: 'local',
             items: [
@@ -296,121 +302,148 @@
           }],
           body: [
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'f32',
-              operator: 'neg',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'f32',
+                operator: 'neg',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'f64',
-              operator: 'neg',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 2,
-                  raw: '2'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'f64',
+                operator: 'neg',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 2,
+                    raw: '2'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'i32',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 3,
-                  raw: '3'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'i32',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 3,
+                    raw: '3'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'i32',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 4,
-                  raw: '4'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'i32',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 4,
+                    raw: '4'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'f32',
-              operator: 'neg',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 5,
-                  raw: '5'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'f32',
+                operator: 'neg',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 5,
+                    raw: '5'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 6,
-                  raw: '6'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 6,
+                    raw: '6'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 7,
-                  raw: '7'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'i64',
+                operator: 'eqz',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 7,
+                    raw: '7'
+                  }
                 }
-              }
+              }]
             },
             {
-              kind: 'unop',
-              type: 'f64',
-              operator: 'neg',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 8,
-                  raw: '8'
+              kind: 'drop',
+              body: [{
+                kind: 'unop',
+                type: 'f64',
+                operator: 'neg',
+                expr: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 8,
+                    raw: '8'
+                  }
                 }
-              }
+              }]
             }
           ]
         },
@@ -421,6 +454,7 @@
             kind: 'literal',
             value: 'read'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -823,11 +857,7 @@
           }
         ]
       },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: '-0'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -879,6 +909,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -918,6 +949,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -959,6 +991,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1006,6 +1039,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1045,6 +1079,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1086,6 +1121,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1133,6 +1169,7 @@
             name: 'unbound-local'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1175,6 +1212,7 @@
             name: 'large-local'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1217,6 +1255,7 @@
             name: 'unbound-param'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1259,6 +1298,7 @@
             name: 'large-param'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1301,6 +1341,7 @@
             name: 'unbound-mixed'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1349,6 +1390,7 @@
             name: 'large-mixed'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',

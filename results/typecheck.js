@@ -2,8 +2,1533 @@
   kind: 'script',
   body: [
     {
-      kind: 'module',
-      body: []
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'unop',
+              type: 'i32',
+              operator: 'eqz',
+              expr: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [
+                {
+                  kind: 'unop',
+                  type: 'i32',
+                  operator: 'eqz',
+                  expr: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-operand-missing-in-loop'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
+              body: [
+                {
+                  kind: 'unop',
+                  type: 'i32',
+                  operator: 'eqz',
+                  expr: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: null,
+              body: [{
+                kind: 'then',
+                id: null,
+                body: [
+                  {
+                    kind: 'unop',
+                    type: 'i32',
+                    operator: 'eqz',
+                    expr: null
+                  },
+                  {
+                    kind: 'drop',
+                    body: []
+                  }
+                ]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: 'i32',
+              body: [
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'unop',
+                    type: 'i32',
+                    operator: 'eqz',
+                    expr: null
+                  }]
+                }
+              ]
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-1st-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: null,
+              right: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-2nd-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: null,
+              right: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-1st-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-2nd-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-1st-operand-missing-in-loop'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
+              body: [
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-2nd-operand-missing-in-loop'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-1st-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: null,
+              body: [
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-2nd-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'add',
+                  left: null,
+                  right: null
+                },
+                {
+                  kind: 'drop',
+                  body: []
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-1st-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: 'i32',
+              body: [
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [
+                    {
+                      kind: 'binop',
+                      type: 'i32',
+                      operator: 'add',
+                      left: null,
+                      right: null
+                    },
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              kind: 'drop',
+              body: []
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-binary-2nd-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: 'i32',
+              body: [
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'binop',
+                    type: 'i32',
+                    operator: 'add',
+                    left: null,
+                    right: null
+                  }]
+                }
+              ]
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-if-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'if',
+            type: null,
+            body: [{
+              kind: 'then',
+              id: null,
+              body: []
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-if-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'if',
+                type: null,
+                body: [{
+                  kind: 'then',
+                  id: null,
+                  body: []
+                }]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-if-operand-missing-in-loop'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
+              body: [{
+                kind: 'if',
+                type: null,
+                body: [{
+                  kind: 'then',
+                  id: null,
+                  body: []
+                }]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-if-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: null,
+              body: [{
+                kind: 'then',
+                id: null,
+                body: [{
+                  kind: 'if',
+                  type: null,
+                  body: [{
+                    kind: 'then',
+                    id: null,
+                    body: []
+                  }]
+                }]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-if-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: 'i32',
+              body: [
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [
+                    {
+                      kind: 'if',
+                      type: null,
+                      body: [{
+                        kind: 'then',
+                        id: null,
+                        body: []
+                      }]
+                    },
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'block',
+              type: 'i32',
+              id: null,
+              body: [{
+                kind: 'br',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                expr: null
+              }]
+            },
+            {
+              kind: 'unop',
+              type: 'i32',
+              operator: 'eqz',
+              expr: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: 'i32',
+              id: null,
+              body: [{
+                kind: 'br',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                expr: null
+              }]
+            },
+            {
+              kind: 'unop',
+              type: 'i32',
+              operator: 'eqz',
+              expr: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'if',
+                  type: 'i32',
+                  body: [{
+                    kind: 'then',
+                    id: null,
+                    body: [{
+                      kind: 'br',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      },
+                      expr: null
+                    }]
+                  }]
+                }
+              ]
+            },
+            {
+              kind: 'unop',
+              type: 'i32',
+              operator: 'eqz',
+              expr: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'if',
+                  type: 'i32',
+                  body: [
+                    {
+                      kind: 'then',
+                      id: null,
+                      body: [{
+                        kind: 'const',
+                        type: 'i32',
+                        init: '0'
+                      }]
+                    },
+                    {
+                      kind: 'else',
+                      id: null,
+                      body: [{
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        },
+                        expr: null
+                      }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              kind: 'unop',
+              type: 'i32',
+              operator: 'eqz',
+              expr: null
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-return-operand-missing'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'return',
+            expr: null
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-return-operand-missing-in-block'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'return',
+                expr: null
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-return-operand-missing-in-loop'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
+              body: [{
+                kind: 'return',
+                expr: null
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-return-operand-missing-in-if'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: null,
+              body: [{
+                kind: 'then',
+                id: null,
+                body: [{
+                  kind: 'return',
+                  expr: null
+                }]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-return-operand-missing-in-else'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            },
+            {
+              kind: 'if',
+              type: 'i32',
+              body: [
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'return',
+                    expr: null
+                  }]
+                }
+              ]
+            },
+            {
+              kind: 'drop',
+              body: []
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
     },
     {
       kind: 'assert_invalid',
@@ -13,19 +1538,23 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'const',
-              type: 'f32',
-              init: '0'
-            },
-            then: {kind: 'nop'},
-            else: {kind: 'nop'}
+            type: null,
+            body: [
+              {
+                kind: 'const',
+                type: 'f32',
+                init: '0'
+              },
+              {kind: 'nop'},
+              {kind: 'nop'}
+            ]
           }]
         }]
       },
@@ -42,12 +1571,14 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -79,12 +1610,14 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
             kind: 'block',
+            type: null,
             id: null,
             body: [{
               kind: 'br_table',
@@ -116,6 +1649,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -132,67 +1666,13 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
             local: [],
             body: [{
               kind: 'call',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              exprs: [{
-                kind: 'const',
-                type: 'f32',
-                init: '0'
-              }]
-            }]
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [
-          {
-            kind: 'import',
-            id: null,
-            modName: {
-              kind: 'literal',
-              value: 'a'
-            },
-            funcName: {
-              kind: 'literal',
-              value: 'b'
-            },
-            type: null,
-            params: [{
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                type: 'i32'
-              }]
-            }],
-            result: null
-          },
-          {
-            kind: 'func',
-            id: null,
-            expo: null,
-            type: null,
-            params: [],
-            result: null,
-            local: [],
-            body: [{
-              kind: 'call_import',
               id: {
                 kind: 'literal',
                 value: 0,
@@ -238,6 +1718,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: {
               kind: 'type',
               id: {
@@ -253,16 +1734,14 @@
           },
           {
             kind: 'table',
-            items: [{
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            }]
+            index: '0',
+            items: null
           },
           {
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -315,6 +1794,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: {
               kind: 'type',
               id: {
@@ -330,16 +1810,14 @@
           },
           {
             kind: 'table',
-            items: [{
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            }]
+            index: '0',
+            items: null
           },
           {
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -373,6 +1851,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -403,6 +1882,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -443,7 +1923,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -452,6 +1935,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -487,7 +1971,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -496,6 +1983,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -531,7 +2019,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -540,6 +2031,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -575,7 +2067,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -584,6 +2079,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -619,7 +2115,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -628,6 +2127,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -663,7 +2163,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -672,6 +2175,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -707,7 +2211,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -716,6 +2223,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -751,7 +2259,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -760,6 +2271,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -795,7 +2307,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -804,6 +2319,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -839,7 +2355,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -848,6 +2367,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -883,7 +2403,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -892,6 +2415,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -927,7 +2451,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -936,6 +2463,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -971,7 +2499,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -980,6 +2511,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1015,7 +2547,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1024,6 +2559,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1059,7 +2595,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1068,6 +2607,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1107,7 +2647,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1116,6 +2659,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1155,7 +2699,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1164,6 +2711,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1203,7 +2751,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1212,6 +2763,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1251,7 +2803,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1260,6 +2815,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1299,7 +2855,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1308,6 +2867,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1347,7 +2907,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1356,6 +2919,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1395,7 +2959,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1404,6 +2971,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1443,7 +3011,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1452,6 +3023,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1491,7 +3063,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1500,6 +3075,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1539,7 +3115,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1548,6 +3127,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1587,7 +3167,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1596,6 +3179,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1635,7 +3219,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1644,6 +3231,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1683,7 +3271,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1692,6 +3283,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1731,7 +3323,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1740,6 +3335,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1779,7 +3375,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1788,6 +3387,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1827,7 +3427,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1836,6 +3439,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1875,7 +3479,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -1884,6 +3491,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
@@ -1921,6 +3529,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1955,6 +3564,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1989,6 +3599,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2023,6 +3634,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2057,6 +3669,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2091,6 +3704,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2125,6 +3739,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2159,6 +3774,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2193,6 +3809,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2227,6 +3844,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2261,6 +3879,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2295,6 +3914,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2329,6 +3949,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2363,6 +3984,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2397,6 +4019,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2431,6 +4054,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2465,6 +4089,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2499,6 +4124,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2533,6 +4159,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2567,6 +4194,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2601,6 +4229,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2635,6 +4264,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2669,6 +4299,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2703,6 +4334,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2737,6 +4369,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2771,6 +4404,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2805,6 +4439,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2839,6 +4474,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2873,6 +4509,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2907,6 +4544,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2941,6 +4579,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2975,6 +4614,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3009,6 +4649,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3043,6 +4684,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3077,6 +4719,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3111,6 +4754,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3145,6 +4789,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3179,6 +4824,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3213,6 +4859,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3247,6 +4894,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3281,6 +4929,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3315,6 +4964,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3349,6 +4999,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3383,6 +5034,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3417,6 +5069,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3446,6 +5099,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3475,6 +5129,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3504,6 +5159,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3533,6 +5189,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3562,6 +5219,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3591,6 +5249,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3620,6 +5279,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3649,6 +5309,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3678,6 +5339,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3707,6 +5369,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3736,6 +5399,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3765,6 +5429,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3794,6 +5459,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3823,6 +5489,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3852,6 +5519,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3881,6 +5549,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3910,6 +5579,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3939,6 +5609,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3968,6 +5639,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -3997,6 +5669,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4026,6 +5699,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4055,6 +5729,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4089,6 +5764,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4123,6 +5799,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4157,6 +5834,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4191,6 +5869,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4225,6 +5904,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4259,6 +5939,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4293,6 +5974,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4327,6 +6009,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4361,6 +6044,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4395,6 +6079,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4429,6 +6114,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4463,6 +6149,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4497,6 +6184,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4531,6 +6219,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4565,6 +6254,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4599,6 +6289,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4633,6 +6324,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4667,6 +6359,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4701,6 +6394,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4735,6 +6429,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4769,6 +6464,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4803,6 +6499,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4837,6 +6534,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4871,6 +6569,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4905,6 +6604,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4939,6 +6639,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -4973,6 +6674,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5007,6 +6709,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5041,6 +6744,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5075,6 +6779,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5109,6 +6814,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5143,6 +6849,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5173,6 +6880,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5203,6 +6911,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5233,6 +6942,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5263,6 +6973,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5293,6 +7004,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5323,6 +7035,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5353,6 +7066,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5383,6 +7097,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5413,6 +7128,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5443,6 +7159,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5473,6 +7190,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5503,6 +7221,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5533,6 +7252,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5563,6 +7283,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5593,6 +7314,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5623,6 +7345,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5653,6 +7376,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5683,6 +7407,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5713,6 +7438,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5743,6 +7469,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5773,6 +7500,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5803,6 +7531,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5833,6 +7562,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5863,6 +7593,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -5895,7 +7626,10 @@
             int: {
               kind: 'literal',
               value: 1,
-              raw: '1'
+              raw: [
+                [' '],
+                '1'
+              ]
             },
             int1: null,
             segment: []
@@ -5904,6 +7638,7 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,

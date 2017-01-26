@@ -5,34 +5,16 @@
       kind: 'module',
       body: [
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'even'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'even'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'odd'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'odd'
-          }
-        },
-        {
           kind: 'func',
           id: {
             kind: 'identifier',
             name: 'even'
           },
-          expo: null,
+          expo: {
+            kind: 'literal',
+            value: 'even'
+          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -49,38 +31,12 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'eq',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'n'
-                }
-              },
-              right: {
-                kind: 'const',
+            type: 'i32',
+            body: [
+              {
+                kind: 'relop',
                 type: 'i32',
-                init: '0'
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i32',
-              init: '1'
-            },
-            else: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'odd'
-              },
-              exprs: [{
-                kind: 'binop',
-                type: 'i32',
-                operator: 'sub',
+                operator: 'eq',
                 left: {
                   kind: 'get_local',
                   id: {
@@ -91,10 +47,39 @@
                 right: {
                   kind: 'const',
                   type: 'i32',
-                  init: '1'
+                  init: '0'
                 }
-              }]
-            }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'odd'
+                },
+                exprs: [{
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'sub',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'n'
+                    }
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  }
+                }]
+              }
+            ]
           }]
         },
         {
@@ -103,7 +88,11 @@
             kind: 'identifier',
             name: 'odd'
           },
-          expo: null,
+          expo: {
+            kind: 'literal',
+            value: 'odd'
+          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -120,38 +109,12 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'relop',
-              type: 'i32',
-              operator: 'eq',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'n'
-                }
-              },
-              right: {
-                kind: 'const',
+            type: 'i32',
+            body: [
+              {
+                kind: 'relop',
                 type: 'i32',
-                init: '0'
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            },
-            else: {
-              kind: 'call',
-              id: {
-                kind: 'identifier',
-                name: 'even'
-              },
-              exprs: [{
-                kind: 'binop',
-                type: 'i32',
-                operator: 'sub',
+                operator: 'eq',
                 left: {
                   kind: 'get_local',
                   id: {
@@ -162,10 +125,39 @@
                 right: {
                   kind: 'const',
                   type: 'i32',
-                  init: '1'
+                  init: '0'
                 }
-              }]
-            }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'even'
+                },
+                exprs: [{
+                  kind: 'binop',
+                  type: 'i32',
+                  operator: 'sub',
+                  left: {
+                    kind: 'get_local',
+                    id: {
+                      kind: 'identifier',
+                      name: 'n'
+                    }
+                  },
+                  right: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  }
+                }]
+              }
+            ]
           }]
         }
       ]

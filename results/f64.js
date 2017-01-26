@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'add'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'add'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -57,11 +58,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'sub'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'sub'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -108,11 +110,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -159,11 +162,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'div'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'div'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -210,11 +214,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'sqrt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'sqrt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -244,11 +249,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'min'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'min'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -295,11 +301,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'max'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'max'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -346,11 +353,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'ceil'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'ceil'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -380,11 +388,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'floor'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'floor'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -414,11 +423,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'trunc'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'trunc'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -448,11 +458,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'nearest'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'nearest'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -482,11 +493,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'abs'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'abs'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -516,11 +528,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'neg'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'neg'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -550,11 +563,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'copysign'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'copysign'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -598,160 +612,6 @@
               }
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'add'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'add'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'sub'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'sub'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'mul'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'div'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'div'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'sqrt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'sqrt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'min'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'min'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'max'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'max'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'ceil'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'ceil'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'floor'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'floor'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'trunc'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'trunc'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'nearest'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'nearest'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'abs'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'abs'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'neg'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'neg'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'copysign'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'copysign'
-          }
         }
       ]
     },

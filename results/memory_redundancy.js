@@ -9,7 +9,10 @@
           int: {
             kind: 'literal',
             value: 1,
-            raw: '1'
+            raw: [
+              [' '],
+              '1'
+            ]
           },
           int1: {
             kind: 'literal',
@@ -19,23 +22,13 @@
           segment: []
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'zero_everything'
           },
-          id: {
-            kind: 'identifier',
-            name: 'zero_everything'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'zero_everything'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -112,23 +105,13 @@
           ]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'test_store_to_load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'test_store_to_load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'test_store_to_load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -187,23 +170,13 @@
           ]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'test_redundant_load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'test_redundant_load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'test_redundant_load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -308,23 +281,13 @@
           ]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'test_dead_store'
           },
-          id: {
-            kind: 'identifier',
-            name: 'test_dead_store'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'test_dead_store'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {

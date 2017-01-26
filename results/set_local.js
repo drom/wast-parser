@@ -11,12 +11,10 @@
             kind: 'literal',
             value: 'type-local-i32'
           },
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
+          result: null,
           local: [{
             kind: 'local',
             items: [{
@@ -45,12 +43,10 @@
             kind: 'literal',
             value: 'type-local-i64'
           },
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
+          result: null,
           local: [{
             kind: 'local',
             items: [{
@@ -79,12 +75,10 @@
             kind: 'literal',
             value: 'type-local-f32'
           },
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
+          result: null,
           local: [{
             kind: 'local',
             items: [{
@@ -113,12 +107,10 @@
             kind: 'literal',
             value: 'type-local-f64'
           },
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
+          result: null,
           local: [{
             kind: 'local',
             items: [{
@@ -147,6 +139,7 @@
             kind: 'literal',
             value: 'type-param-i32'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -155,10 +148,7 @@
               type: 'i32'
             }]
           }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'set_local',
@@ -181,6 +171,7 @@
             kind: 'literal',
             value: 'type-param-i64'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -189,10 +180,7 @@
               type: 'i64'
             }]
           }],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'set_local',
@@ -215,6 +203,7 @@
             kind: 'literal',
             value: 'type-param-f32'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -223,10 +212,7 @@
               type: 'f32'
             }]
           }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'set_local',
@@ -249,6 +235,7 @@
             kind: 'literal',
             value: 'type-param-f64'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -257,10 +244,7 @@
               type: 'f64'
             }]
           }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'set_local',
@@ -283,6 +267,7 @@
             kind: 'literal',
             value: 'type-mixed'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -333,165 +318,120 @@
           }],
           body: [
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'f32',
-              operator: 'neg',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'f32',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 1,
+                raw: '1'
+              },
+              init: {
+                kind: 'const',
+                type: 'f32',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'f64',
-              operator: 'neg',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 2,
-                  raw: '2'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'f64',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 2,
+                raw: '2'
+              },
+              init: {
+                kind: 'const',
+                type: 'f64',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'i32',
-              operator: 'eqz',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 3,
-                  raw: '3'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 3,
+                raw: '3'
+              },
+              init: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'i32',
-              operator: 'eqz',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 4,
-                  raw: '4'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 4,
+                raw: '4'
+              },
+              init: {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'f32',
-              operator: 'neg',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 5,
-                  raw: '5'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'f32',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 5,
+                raw: '5'
+              },
+              init: {
+                kind: 'const',
+                type: 'f32',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 6,
-                  raw: '6'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 6,
+                raw: '6'
+              },
+              init: {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'i64',
-              operator: 'eqz',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 7,
-                  raw: '7'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 7,
+                raw: '7'
+              },
+              init: {
+                kind: 'const',
+                type: 'i64',
+                init: '0'
               }
             },
             {
-              kind: 'unop',
-              type: 'f64',
-              operator: 'neg',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 8,
-                  raw: '8'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'f64',
-                  init: '0'
-                }
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 8,
+                raw: '8'
+              },
+              init: {
+                kind: 'const',
+                type: 'f64',
+                init: '0'
               }
             }
           ]
@@ -503,6 +443,7 @@
             kind: 'literal',
             value: 'write'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -794,264 +735,6 @@
               }
             }
           ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'result'
-          },
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [
-              {
-                kind: 'item',
-                type: 'i64'
-              },
-              {
-                kind: 'item',
-                type: 'f32'
-              },
-              {
-                kind: 'item',
-                type: 'f64'
-              },
-              {
-                kind: 'item',
-                type: 'i32'
-              },
-              {
-                kind: 'item',
-                type: 'i32'
-              }
-            ]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [{
-            kind: 'local',
-            items: [
-              {
-                kind: 'item',
-                type: 'f32'
-              },
-              {
-                kind: 'item',
-                type: 'i64'
-              },
-              {
-                kind: 'item',
-                type: 'i64'
-              },
-              {
-                kind: 'item',
-                type: 'f64'
-              }
-            ]
-          }],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'add',
-            left: {
-              kind: 'cvtop',
-              type: 'f64',
-              type1: 'i64',
-              operator: 'convert_u',
-              expr: {
-                kind: 'set_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                init: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                }
-              }
-            },
-            right: {
-              kind: 'binop',
-              type: 'f64',
-              operator: 'add',
-              left: {
-                kind: 'cvtop',
-                type: 'f64',
-                type1: 'f32',
-                operator: 'promote',
-                expr: {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  init: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '2'
-                  }
-                }
-              },
-              right: {
-                kind: 'binop',
-                type: 'f64',
-                operator: 'add',
-                left: {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 2,
-                    raw: '2'
-                  },
-                  init: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '3.3'
-                  }
-                },
-                right: {
-                  kind: 'binop',
-                  type: 'f64',
-                  operator: 'add',
-                  left: {
-                    kind: 'cvtop',
-                    type: 'f64',
-                    type1: 'i32',
-                    operator: 'convert_u',
-                    expr: {
-                      kind: 'set_local',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      },
-                      init: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '4'
-                      }
-                    }
-                  },
-                  right: {
-                    kind: 'binop',
-                    type: 'f64',
-                    operator: 'add',
-                    left: {
-                      kind: 'cvtop',
-                      type: 'f64',
-                      type1: 'i32',
-                      operator: 'convert_s',
-                      expr: {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'literal',
-                          value: 4,
-                          raw: '4'
-                        },
-                        init: {
-                          kind: 'const',
-                          type: 'i32',
-                          init: '5'
-                        }
-                      }
-                    },
-                    right: {
-                      kind: 'binop',
-                      type: 'f64',
-                      operator: 'add',
-                      left: {
-                        kind: 'cvtop',
-                        type: 'f64',
-                        type1: 'f32',
-                        operator: 'promote',
-                        expr: {
-                          kind: 'set_local',
-                          id: {
-                            kind: 'literal',
-                            value: 5,
-                            raw: '5'
-                          },
-                          init: {
-                            kind: 'const',
-                            type: 'f32',
-                            init: '5.5'
-                          }
-                        }
-                      },
-                      right: {
-                        kind: 'binop',
-                        type: 'f64',
-                        operator: 'add',
-                        left: {
-                          kind: 'cvtop',
-                          type: 'f64',
-                          type1: 'i64',
-                          operator: 'convert_u',
-                          expr: {
-                            kind: 'set_local',
-                            id: {
-                              kind: 'literal',
-                              value: 6,
-                              raw: '6'
-                            },
-                            init: {
-                              kind: 'const',
-                              type: 'i64',
-                              init: '6'
-                            }
-                          }
-                        },
-                        right: {
-                          kind: 'binop',
-                          type: 'f64',
-                          operator: 'add',
-                          left: {
-                            kind: 'cvtop',
-                            type: 'f64',
-                            type1: 'i64',
-                            operator: 'convert_u',
-                            expr: {
-                              kind: 'set_local',
-                              id: {
-                                kind: 'literal',
-                                value: 7,
-                                raw: '7'
-                              },
-                              init: {
-                                kind: 'const',
-                                type: 'i64',
-                                init: '0'
-                              }
-                            }
-                          },
-                          right: {
-                            kind: 'set_local',
-                            id: {
-                              kind: 'literal',
-                              value: 8,
-                              raw: '8'
-                            },
-                            init: {
-                              kind: 'const',
-                              type: 'f64',
-                              init: '8'
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }]
         }
       ]
     },
@@ -1062,11 +745,7 @@
         name: 'type-local-i32',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1075,11 +754,7 @@
         name: 'type-local-i64',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1088,11 +763,7 @@
         name: 'type-local-f32',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '0'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1101,11 +772,7 @@
         name: 'type-local-f64',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: '0'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1118,11 +785,7 @@
           init: '2'
         }]
       },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '10'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1135,11 +798,7 @@
           init: '3'
         }]
       },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '11'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1152,11 +811,7 @@
           init: '4.4'
         }]
       },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: '11.1'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1169,11 +824,7 @@
           init: '5.5'
         }]
       },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: '12.2'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -1250,45 +901,6 @@
       }
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'result',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '-1'
-          },
-          {
-            kind: 'const',
-            type: 'f32',
-            init: '-2'
-          },
-          {
-            kind: 'const',
-            type: 'f64',
-            init: '-3.3'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-4'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-5'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: '34.8'
-      }
-    },
-    {
       kind: 'assert_invalid',
       module: {
         kind: 'module',
@@ -1299,6 +911,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1343,6 +956,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1389,6 +1003,7 @@
             name: 'type-local-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1441,6 +1056,7 @@
             name: 'type-local-arg-void-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1478,6 +1094,7 @@
             name: 'type-local-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1519,6 +1136,7 @@
             name: 'type-local-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1560,6 +1178,7 @@
             name: 'type-local-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1607,6 +1226,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1646,6 +1266,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1687,6 +1308,7 @@
             name: 'type-param-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1734,6 +1356,7 @@
             name: 'type-param-arg-void-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1771,6 +1394,7 @@
             name: 'type-param-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1812,6 +1436,7 @@
             name: 'type-param-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1853,6 +1478,7 @@
             name: 'type-param-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1900,6 +1526,7 @@
             name: 'unbound-local'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1942,6 +1569,7 @@
             name: 'large-local'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1984,6 +1612,7 @@
             name: 'unbound-param'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2026,6 +1655,7 @@
             name: 'large-param'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2068,6 +1698,7 @@
             name: 'unbound-mixed'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2116,6 +1747,7 @@
             name: 'large-mixed'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2164,6 +1796,7 @@
             name: 'type-mixed-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2211,6 +1844,7 @@
             name: 'type-mixed-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2264,6 +1898,7 @@
             name: 'type-mixed-arg-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',

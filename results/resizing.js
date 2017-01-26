@@ -9,29 +9,22 @@
           int: {
             kind: 'literal',
             value: 0,
-            raw: '0'
+            raw: [
+              [' '],
+              '0'
+            ]
           },
           int1: null,
           segment: []
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'load_at_zero'
           },
-          id: {
-            kind: 'identifier',
-            name: 'load_at_zero'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'load_at_zero'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -54,29 +47,16 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'store_at_zero'
           },
-          id: {
-            kind: 'identifier',
-            name: 'store_at_zero'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_at_zero'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'store',
@@ -97,23 +77,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'load_at_page_size'
           },
-          id: {
-            kind: 'identifier',
-            name: 'load_at_page_size'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'load_at_page_size'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -136,29 +106,16 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'store_at_page_size'
           },
-          id: {
-            kind: 'identifier',
-            name: 'store_at_page_size'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store_at_page_size'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'store',
@@ -179,23 +136,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'grow'
           },
-          id: {
-            kind: 'identifier',
-            name: 'grow'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'grow'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -222,23 +169,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'size'
           },
-          id: {
-            kind: 'identifier',
-            name: 'size'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'size'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -361,11 +298,7 @@
         name: 'store_at_zero',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '2'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -454,6 +387,15 @@
         name: 'store_at_zero',
         body: []
       },
+      expr: null
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'load_at_zero',
+        body: []
+      },
       expr: {
         kind: 'const',
         type: 'i32',
@@ -480,11 +422,7 @@
         name: 'store_at_page_size',
         body: []
       },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '3'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -497,6 +435,316 @@
         kind: 'const',
         type: 'i32',
         init: '3'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: [
+              [' '],
+              '0'
+            ]
+          },
+          int1: null,
+          segment: []
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'grow'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'grow_memory',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
+            }
+          }]
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '2'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '800'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '3'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'memory',
+          int: {
+            kind: 'literal',
+            value: 0,
+            raw: [
+              [' '],
+              '0'
+            ]
+          },
+          int1: {
+            kind: 'literal',
+            value: 10,
+            raw: '10'
+          },
+          segment: []
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'grow'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'grow_memory',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              }
+            }
+          }]
+        }
+      ]
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '2'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '6'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '4'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '10'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        name: 'grow',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '1'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '-1'
       }
     }
   ]

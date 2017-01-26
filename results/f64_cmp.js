@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'eq'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'eq'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -57,11 +58,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'ne'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'ne'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -108,11 +110,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'lt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'lt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -159,11 +162,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'le'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'le'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -210,11 +214,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'gt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'gt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -261,11 +266,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'ge'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'ge'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -309,72 +315,6 @@
               }
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'eq'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'eq'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'ne'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'ne'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'lt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'lt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'le'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'le'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'gt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'gt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'ge'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'ge'
-          }
         }
       ]
     },

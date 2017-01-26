@@ -6,239 +6,211 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.div_s'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.div_u'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_u',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.div_s'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i64'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i64',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.div_u'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i64'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i64',
-            operator: 'div_u',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.div_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.div_s'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.div_u'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.div_u'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.div_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.div_s'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.div_u'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.div_u'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         }
       ]
     },
@@ -339,239 +311,211 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.rem_s'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'rem_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.rem_u'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'rem_u',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.rem_s'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i64'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i64',
-            operator: 'rem_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.rem_u'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i64'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i64',
-            operator: 'rem_u',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.rem_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.rem_s'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.rem_u'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.rem_u'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.rem_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.rem_s'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.rem_u'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.rem_u'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         }
       ]
     },
@@ -672,347 +616,291 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_s_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_u_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'trunc_u',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_s_f64'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f64',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_u_f64'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f64',
-            operator: 'trunc_u',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_s_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f32',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_u_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f32',
-            operator: 'trunc_u',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_s_f64'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f64',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_u_f64'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f64',
-            operator: 'trunc_u',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.trunc_s_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_s_f32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.trunc_u_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_u_f32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.trunc_s_f64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_s_f64'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.trunc_u_f64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.trunc_u_f64'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f64',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.trunc_s_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_s_f32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.trunc_u_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_u_f32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f32',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.trunc_s_f64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_s_f64'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.trunc_u_f64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.trunc_u_f64'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         }
       ]
     },
@@ -1152,29 +1040,22 @@
           int: {
             kind: 'literal',
             value: 1,
-            raw: '1'
+            raw: [
+              [' '],
+              '1'
+            ]
           },
           int1: null,
           segment: []
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i32.load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i32.load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1184,7 +1065,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
             kind: 'load',
@@ -1203,23 +1087,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.i64.load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.i64.load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1229,7 +1103,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
             kind: 'load',
@@ -1248,23 +1125,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.f32.load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.f32.load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.f32.load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1274,7 +1141,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
           local: [],
           body: [{
             kind: 'load',
@@ -1293,23 +1163,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'no_dce.f64.load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.f64.load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'no_dce.f64.load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1319,7 +1179,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
           local: [],
           body: [{
             kind: 'load',

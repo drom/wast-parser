@@ -9,7 +9,10 @@
           int: {
             kind: 'literal',
             value: 1,
-            raw: '1'
+            raw: [
+              [' '],
+              '1'
+            ]
           },
           int1: null,
           segment: []
@@ -21,6 +24,7 @@
             name: 'addr_limit'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -41,23 +45,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'store'
           },
-          id: {
-            kind: 'identifier',
-            name: 'store'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'store'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -77,10 +71,7 @@
               }]
             }
           ],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
+          result: null,
           local: [],
           body: [{
             kind: 'store',
@@ -118,23 +109,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'load'
           },
-          id: {
-            kind: 'identifier',
-            name: 'load'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'load'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -179,23 +160,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'grow_memory'
           },
-          id: {
-            kind: 'identifier',
-            name: 'grow_memory'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'grow_memory'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -204,7 +175,10 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
             kind: 'grow_memory',
@@ -238,11 +212,7 @@
           }
         ]
       },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '42'
-      }
+      expr: null
     },
     {
       kind: 'assert_return',
@@ -457,19 +427,20 @@
       }
     },
     {
-      kind: 'assert_trap',
+      kind: 'assert_return',
       invoke: {
         kind: 'invoke',
         name: 'grow_memory',
         body: [{
           kind: 'const',
           type: 'i32',
-          init: '0x80000000'
+          init: '0x10001'
         }]
       },
-      failure: {
-        kind: 'literal',
-        value: 'memory size exceeds implementation limit'
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '-1'
       }
     }
   ]

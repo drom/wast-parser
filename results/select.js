@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_i32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_i32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -70,11 +71,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -134,11 +136,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_f32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_f32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -198,11 +201,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -262,11 +266,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_trap_l'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_trap_l'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -300,11 +305,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'select_trap_r'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'select_trap_r'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -335,72 +341,6 @@
               }
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_i32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_i32'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_i64'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_f32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_f32'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_f64'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_trap_l'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_trap_l'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'select_trap_r'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'select_trap_r'
-          }
         }
       ]
     },
@@ -1162,6 +1102,39 @@
       failure: {
         kind: 'literal',
         value: 'unreachable executed'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'arity-0'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'select',
+            then: {kind: 'nop'},
+            else: {kind: 'nop'},
+            test: {
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
       }
     }
   ]

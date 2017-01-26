@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -32,11 +33,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.positive_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -58,11 +60,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.negative_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -84,11 +87,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.plain_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.plain_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -110,11 +114,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.informally_known_as_plain_snan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.informally_known_as_plain_snan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -136,11 +141,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.allones_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.all_ones_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -162,11 +168,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.misc_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -188,11 +195,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_positive_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.misc_positive_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -214,11 +222,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_negative_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.misc_negative_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -240,11 +249,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -266,11 +276,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.positive_infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -292,11 +303,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.negative_infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -318,11 +330,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -344,11 +357,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.positive_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -370,11 +384,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.negative_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -396,11 +411,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.misc'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -422,11 +438,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.min_positive'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.min_positive'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -448,11 +465,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.min_normal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.min_normal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -474,11 +492,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.max_finite'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.max_finite'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -500,11 +519,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.max_subnormal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.max_subnormal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -526,11 +546,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.trailing_dot'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.trailing_dot'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -552,11 +573,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -578,11 +600,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.positive_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.positive_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -604,11 +627,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.negative_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.negative_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -630,11 +654,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.misc'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.misc'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -656,11 +681,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.min_positive'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.min_positive'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -682,11 +708,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.min_normal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.min_normal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -708,11 +735,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.max_subnormal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.max_subnormal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -734,11 +762,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.max_finite'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.max_finite'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -760,11 +789,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.trailing_dot'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_dec.trailing_dot'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -786,11 +816,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -812,11 +843,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.positive_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -838,11 +870,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.negative_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -864,11 +897,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.plain_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.plain_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -890,11 +924,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.informally_known_as_plain_snan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.informally_known_as_plain_snan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -916,11 +951,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.allones_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.all_ones_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -942,11 +978,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.misc_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -968,11 +1005,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_positive_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.misc_positive_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -994,11 +1032,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_negative_nan'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.misc_negative_nan'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1020,11 +1059,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1046,11 +1086,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.positive_infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1072,11 +1113,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_infinity'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.negative_infinity'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1098,11 +1140,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1124,11 +1167,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.positive_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1150,11 +1194,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.negative_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1176,11 +1221,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.misc'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1202,11 +1248,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.min_positive'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.min_positive'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1228,11 +1275,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.min_normal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.min_normal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1254,11 +1302,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.max_subnormal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.max_subnormal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1280,11 +1329,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.max_finite'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.max_finite'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1306,11 +1356,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.trailing_dot'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.trailing_dot'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1332,11 +1383,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1358,11 +1410,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.positive_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.positive_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1384,11 +1437,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.negative_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.negative_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1410,11 +1464,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.misc'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.misc'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1436,11 +1491,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.min_positive'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.min_positive'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1462,11 +1518,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.min_normal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.min_normal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1488,11 +1545,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.max_subnormal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.max_subnormal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1514,11 +1572,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.max_finite'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.max_finite'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1540,11 +1599,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.trailing_dot'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_dec.trailing_dot'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1563,666 +1623,6 @@
               init: '1.e100'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.positive_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.negative_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.plain_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.plain_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.informally_known_as_plain_snan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.informally_known_as_plain_snan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.allones_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.allones_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.misc_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.misc_positive_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_positive_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.misc_negative_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc_negative_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.positive_infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.negative_infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.positive_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.positive_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.negative_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.negative_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.misc'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.misc'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.min_positive'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.min_positive'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.min_normal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.min_normal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.max_subnormal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.max_subnormal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.max_finite'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.max_finite'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.trailing_dot'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.trailing_dot'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.positive_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.positive_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.negative_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.negative_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.misc'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.misc'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.min_positive'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.min_positive'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.min_normal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.min_normal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.max_subnormal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.max_subnormal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.max_finite'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.max_finite'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_dec.trailing_dot'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_dec.trailing_dot'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.positive_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.negative_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.plain_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.plain_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.informally_known_as_plain_snan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.informally_known_as_plain_snan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.allones_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.allones_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.misc_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.misc_positive_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_positive_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.misc_negative_nan'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc_negative_nan'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.positive_infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.negative_infinity'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_infinity'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.positive_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.positive_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.negative_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.negative_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.misc'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.misc'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.min_positive'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.min_positive'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.min_normal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.min_normal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.max_subnormal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.max_subnormal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.max_finite'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.max_finite'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.trailing_dot'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.trailing_dot'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.positive_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.positive_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.negative_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.negative_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.misc'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.misc'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.min_positive'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.min_positive'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.min_normal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.min_normal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.max_subnormal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.max_subnormal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.max_finite'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.max_finite'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_dec.trailing_dot'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_dec.trailing_dot'
-          }
         }
       ]
     },
@@ -2295,7 +1695,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f32.allones_nan',
+        name: 'f32.all_ones_nan',
         body: []
       },
       expr: {
@@ -2685,7 +2085,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
-        name: 'f64.allones_nan',
+        name: 'f64.all_ones_nan',
         body: []
       },
       expr: {

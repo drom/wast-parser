@@ -45,7 +45,9 @@ unop
     = "clz" / "ctz" / "popcnt" / "eqz" // int
     / "neg" / "abs" / "ceil" / "floor" / "trunc" / "nearest" / "sqrt" // float
 
-cvtop = res:[a-z\_]+ { return res.join(''); }
+cvtop
+    = "wrap" / "trunc_s" / "trunc_u" / "reinterpret" / "extend_s" / "extend_u"
+    / "convert_s" / "convert_u" / "demote" / "promote"
 
 relop
     = "eq" / "ne" / "lt_s" / "lt_u" / "le_s" / "le_u" / "gt_s" / "gt_u" / "ge_s" / "ge_u" // int
@@ -121,20 +123,27 @@ expr
             };
         }
 
-        / kind:"block" id:( __ var )? body:( __ expr )* {
+        / kind:"drop" body:( __ expr )* {
             return {
                 kind: kind,
+                body: body.map(function (e) { return e[1]; })
+            };
+        }
+
+        / kind:"block" id:( __ var )? type:( __ local_type )? body:( __ expr )* {
+            return {
+                kind: kind,
+                type: type ? type[1] : type,
                 id: id ? id[1] : id,
                 body: body.map(function (e) { return e[1]; })
             };
         }
 
-        / kind:"if" __ test:expr __ thene:expr elsee:( __ expr )? {
+        / kind:"if" type:( __ local_type )? body:( __ expr )* {
             return {
                 kind: kind,
-                test: test,
-                then: thene,
-                else: elsee ? elsee[1] : null
+                type: type ? type[1] : type,
+                body: body.map(function (e) { return e[1]; })
             };
         }
 
@@ -147,10 +156,11 @@ expr
         }
 
         // = (label <var> (loop (block <var>? <expr>*)))
-        / kind:"loop" __ id:var extra:( __ var )? body:( __ expr )* {
+        / kind:"loop" type:( __ local_type )? id:( __ var )? extra:( __ var )? body:( __ expr )* {
             return {
                 kind: kind,
-                id: id,
+                type: type ? type[1] : type,
+                id: id ? id[1] : id,
                 extra: extra ? extra[1] : extra,
                 body: body.map(function (e) { return e[1]; })
             };
@@ -256,7 +266,7 @@ expr
             };
         }
 
-        / kind:"set_local" __ id:var __ expr:expr {
+        / kind:("set_local" / "tee_local") __ id:var __ expr:expr {
             return {
                 kind: kind,
                 id: id,
@@ -297,26 +307,6 @@ expr
             };
         }
 
-        / type:local_type "." operator:binop __ left:expr __ right:expr {
-            return {
-                kind: 'binop',
-                type: type,
-                operator: operator,
-                left: left,
-                right: right
-            };
-        }
-
-        / type:local_type "." operator:relop __ left:expr __ right:expr {
-            return {
-                kind: 'relop',
-                type: type,
-                operator: operator,
-                left: left,
-                right: right
-            };
-        }
-
         / type:local_type "." operator:cvtop "/" type1:local_type __ expr:expr {
             return {
                 kind: 'cvtop',
@@ -327,12 +317,32 @@ expr
             };
         }
 
-        / type:local_type "." operator:unop __ expr:expr {
+        / type:local_type "." operator:unop expr:( __ expr )? {
             return {
                 kind: 'unop',
                 type: type,
                 operator: operator,
-                expr: expr
+                expr: expr ? expr[1] : expr
+            };
+        }
+
+        / type:local_type "." operator:binop left:( __ expr)? right:( __ expr)? {
+            return {
+                kind: 'binop',
+                type: type,
+                operator: operator,
+                left: left ? left[1] : left,
+                right: right ? right[1] : right
+            };
+        }
+
+        / type:local_type "." operator:relop left:( __ expr)? right:( __ expr)? {
+            return {
+                kind: 'relop',
+                type: type,
+                operator: operator,
+                left: left ? left[1] : left,
+                right: right ? right[1] : right
             };
         }
 
@@ -414,11 +424,14 @@ func_type = "(" __ kind:"type" __ id:var __ ")" {
     };
 }
 
-func = kind:"func" expo:( __ literal )? id:( __ var )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? imp:( __ "(" __ "import" __ literal __ literal __ ")" )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
     return {
         kind: kind,
         id: id ? id[1] : id,
-        expo: expo ? expo[1] : expo,
+        expo: expo ? expo[5] : expo,
+        imp: imp ? {
+
+        } : imp,
         type: type ? type[1] : type,
         params: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
@@ -478,7 +491,7 @@ import = kind:"import" id:( __ var )? __ modName:literal __ funcName:literal typ
     };
 }
 
-export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "memory" ) {
+export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( cmd / "memory" ) {
     return {
         kind: kind,
         name: {
@@ -493,21 +506,29 @@ export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / "me
     };
 }
 
-table = kind:"table" items:( __ var )* {
+elem = "(" __ kind:"elem" items:( __ var )* __ ")" {
     return {
         kind: kind,
         items: items.map(function (e) { return e[1]; })
+    }
+}
+
+table = kind:"table" index:( __ int )? anyfunc:( __ "anyfunc" )? items:( __ elem )? {
+    return {
+        kind: kind,
+        index: index ? index[1] : index,
+        items: items ? items[1] : items
     };
 }
 
-memory = kind:"memory" __ int:int int1:( __ int )? segment:( __ cmd )* {
+memory = kind:"memory" int:( __ int )? int1:( __ int )? segment:( __ cmd )* {
     return {
         kind: kind,
-        int: {
+        int: int ? {
           kind: 'literal',
-          value: Number(int),
+          value: Number(int[1]),
           raw: int
-        },
+        } : int,
         int1: int1 ? {
           kind: 'literal',
           value: Number(int1[1]),
@@ -527,7 +548,7 @@ invoke = kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* {
     };
 }
 
-module = kind:"module" body:( __ ( cmd / literal ) )* {
+module = kind:"module" body:( __ ( cmd / literal / name ) )* {
     var result = [];
     return {
         kind: kind,
@@ -558,11 +579,18 @@ assert_trap = kind:"assert_trap" __ invoke:cmd __ failure:literal {
     };
 }
 
-assert_invalid = kind:"assert_invalid" __ module:cmd __ failure:literal {
+assert_invalid = kind:("assert_invalid" / "assert_unlinkable" / "assert_malformed" / "assert_exhaustion")  __ module:cmd __ failure:literal {
     return {
         kind: kind,
         module: module,
         failure: failure
+    };
+}
+
+data = kind:"data" __ value:literal {
+    return {
+        kind: kind,
+        value: value
     };
 }
 
@@ -580,6 +608,7 @@ cmd
         / export
         / table
         / memory
+        / data
         / type_def
         / _start
         ) __

@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.test'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.test'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -29,11 +30,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.umax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.umax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -52,11 +54,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.smax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.smax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -75,11 +78,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.neg_smax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.neg_smax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -98,11 +102,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -121,11 +126,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.alt_smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.alt_smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -144,11 +150,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.inc_smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.inc_smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -177,11 +184,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.neg_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.neg_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -200,11 +208,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.not_octal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.not_octal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -223,11 +232,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.unsigned_decimal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.unsigned_decimal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -246,11 +256,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.plus_sign'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.plus_sign'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -269,11 +280,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.test'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.test'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -292,11 +304,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.umax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.umax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -315,11 +328,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.smax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.smax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -338,11 +352,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.neg_smax'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.neg_smax'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -361,11 +376,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -384,11 +400,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.alt_smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.alt_smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -407,11 +424,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.inc_smin'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.inc_smin'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -440,11 +458,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.neg_zero'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.neg_zero'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -463,11 +482,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.not_octal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.not_octal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -486,11 +506,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.unsigned_decimal'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.unsigned_decimal'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -509,11 +530,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.plus_sign'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.plus_sign'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -529,248 +551,6 @@
               init: '+42'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.test'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.test'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.umax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.umax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.smax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.smax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.neg_smax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.neg_smax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.alt_smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.alt_smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.inc_smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.inc_smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.neg_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.neg_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.not_octal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.not_octal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.unsigned_decimal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.unsigned_decimal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.plus_sign'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.plus_sign'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.test'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.test'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.umax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.umax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.smax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.smax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.neg_smax'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.neg_smax'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.alt_smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.alt_smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.inc_smin'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.inc_smin'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.neg_zero'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.neg_zero'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.not_octal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.not_octal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.unsigned_decimal'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.unsigned_decimal'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.plus_sign'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.plus_sign'
-          }
         }
       ]
     },

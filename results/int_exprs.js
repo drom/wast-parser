@@ -6,93 +6,84 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_cmp_s_offset'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'relop',
-            type: 'i32',
-            operator: 'lt_s',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'add',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            },
-            right: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'add',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.no_fold_cmp_s_offset'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_cmp_s_offset'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'relop',
+            type: 'i32',
+            operator: 'lt_s',
+            left: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            },
+            right: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'add',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_cmp_u_offset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_cmp_u_offset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -158,23 +149,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_cmp_u_offset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_cmp_u_offset'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_cmp_s_offset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_cmp_s_offset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -240,23 +221,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_cmp_s_offset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_cmp_s_offset'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_cmp_u_offset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_cmp_u_offset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -320,17 +291,6 @@
               }
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_cmp_u_offset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_cmp_u_offset'
-          }
         }
       ]
     },
@@ -432,60 +392,48 @@
     },
     {
       kind: 'module',
-      body: [
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_wrap_extend_s'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i64'
-            }]
-          }],
-          result: {
-            kind: 'result',
+      body: [{
+        kind: 'func',
+        id: null,
+        expo: {
+          kind: 'literal',
+          value: 'i64.no_fold_wrap_extend_s'
+        },
+        imp: null,
+        type: null,
+        params: [{
+          kind: 'param',
+          items: [{
+            kind: 'item',
+            name: 'x',
             type: 'i64'
-          },
-          local: [],
-          body: [{
+          }]
+        }],
+        result: {
+          kind: 'result',
+          type: 'i64'
+        },
+        local: [],
+        body: [{
+          kind: 'cvtop',
+          type: 'i64',
+          type1: 'i32',
+          operator: 'extend_s',
+          expr: {
             kind: 'cvtop',
-            type: 'i64',
-            type1: 'i32',
-            operator: 'extend_s',
+            type: 'i32',
+            type1: 'i64',
+            operator: 'wrap',
             expr: {
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'i64',
-              operator: 'wrap',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
             }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_wrap_extend_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_wrap_extend_s'
           }
-        }
-      ]
+        }]
+      }]
     },
     {
       kind: 'assert_return',
@@ -523,60 +471,48 @@
     },
     {
       kind: 'module',
-      body: [
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_wrap_extend_u'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i64'
-            }]
-          }],
-          result: {
-            kind: 'result',
+      body: [{
+        kind: 'func',
+        id: null,
+        expo: {
+          kind: 'literal',
+          value: 'i64.no_fold_wrap_extend_u'
+        },
+        imp: null,
+        type: null,
+        params: [{
+          kind: 'param',
+          items: [{
+            kind: 'item',
+            name: 'x',
             type: 'i64'
-          },
-          local: [],
-          body: [{
+          }]
+        }],
+        result: {
+          kind: 'result',
+          type: 'i64'
+        },
+        local: [],
+        body: [{
+          kind: 'cvtop',
+          type: 'i64',
+          type1: 'i32',
+          operator: 'extend_u',
+          expr: {
             kind: 'cvtop',
-            type: 'i64',
-            type1: 'i32',
-            operator: 'extend_u',
+            type: 'i32',
+            type1: 'i64',
+            operator: 'wrap',
             expr: {
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'i64',
-              operator: 'wrap',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
             }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_wrap_extend_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_wrap_extend_u'
           }
-        }
-      ]
+        }]
+      }]
     },
     {
       kind: 'assert_return',
@@ -600,71 +536,62 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shl_shr_s'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'shr_s',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'shl',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '1'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.no_fold_shl_shr_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shl_shr_s'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'shr_s',
+            left: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'shl',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shl_shr_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_shl_shr_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -708,23 +635,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_shl_shr_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shl_shr_u'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shl_shr_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_shl_shr_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -768,23 +685,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_shl_shr_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shl_shr_s'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shl_shr_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_shl_shr_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -826,17 +733,6 @@
               init: '1'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_shl_shr_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shl_shr_u'
-          }
         }
       ]
     },
@@ -913,71 +809,62 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shr_s_shl'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'shl',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'shr_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '1'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.no_fold_shr_s_shl'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shr_s_shl'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'shl',
+            left: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'shr_s',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '1'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shr_u_shl'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_shr_u_shl'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1021,23 +908,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_shr_u_shl'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_shr_u_shl'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shr_s_shl'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_shr_s_shl'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1081,23 +958,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_shr_s_shl'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shr_s_shl'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shr_u_shl'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_shr_u_shl'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1139,17 +1006,6 @@
               init: '1'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_shr_u_shl'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_shr_u_shl'
-          }
         }
       ]
     },
@@ -1226,71 +1082,62 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_s_mul'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'mul',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '6'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '6'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.no_fold_div_s_mul'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_s_mul'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'mul',
+            left: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'div_s',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '6'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '6'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_u_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_u_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1334,23 +1181,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_div_u_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_u_mul'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_s_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_s_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1394,23 +1231,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_div_s_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_s_mul'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_u_mul'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_u_mul'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1452,17 +1279,6 @@
               init: '6'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_div_u_mul'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_u_mul'
-          }
         }
       ]
     },
@@ -1539,71 +1355,62 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_mul_div_s'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'binop',
-              type: 'i32',
-              operator: 'mul',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'const',
-                type: 'i32',
-                init: '6'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '6'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.no_fold_mul_div_s'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_mul_div_s'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'binop',
+              type: 'i32',
+              operator: 'mul',
+              left: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              right: {
+                kind: 'const',
+                type: 'i32',
+                init: '6'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '6'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_mul_div_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_mul_div_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1647,23 +1454,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_mul_div_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_mul_div_u'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_mul_div_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_mul_div_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1707,23 +1504,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_mul_div_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_mul_div_s'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_mul_div_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_mul_div_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1765,17 +1552,6 @@
               init: '6'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_mul_div_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_mul_div_u'
-          }
         }
       ]
     },
@@ -1852,11 +1628,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_s_2'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_s_2'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1890,23 +1667,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_div_s_2'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_div_s_2'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_s_2'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_s_2'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1938,17 +1705,6 @@
               init: '2'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_div_s_2'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_div_s_2'
-          }
         }
       ]
     },
@@ -1991,11 +1747,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_rem_s_2'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_rem_s_2'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2029,23 +1786,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.no_fold_rem_s_2'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.no_fold_rem_s_2'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_rem_s_2'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_rem_s_2'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2077,17 +1824,6 @@
               init: '2'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.no_fold_rem_s_2'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.no_fold_rem_s_2'
-          }
         }
       ]
     },
@@ -2130,61 +1866,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_3'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '0'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.div_s_3'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_3'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '0'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.div_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2218,23 +1945,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.div_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_s_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2268,23 +1985,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_s_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2316,17 +2023,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_3'
-          }
         }
       ]
     },
@@ -2399,61 +2095,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_3'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '3'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.div_s_3'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_3'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '3'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.div_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2487,23 +2174,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.div_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_s_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2537,23 +2214,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_s_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2585,17 +2252,6 @@
               init: '3'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_3'
-          }
         }
       ]
     },
@@ -2740,61 +2396,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_5'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '5'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.div_s_5'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_5'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '5'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.div_u_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2828,23 +2475,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.div_u_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_5'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_s_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2878,23 +2515,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_s_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_5'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_u_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2926,17 +2553,6 @@
               init: '5'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_u_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_5'
-          }
         }
       ]
     },
@@ -3081,61 +2697,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_7'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'div_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '7'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.div_s_7'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_s_7'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '7'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.div_u_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3169,23 +2776,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.div_u_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.div_u_7'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_s_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3219,23 +2816,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_s_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_s_7'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.div_u_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3267,17 +2854,6 @@
               init: '7'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.div_u_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.div_u_7'
-          }
         }
       ]
     },
@@ -3422,61 +2998,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_3'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'rem_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '3'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.rem_s_3'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_3'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '3'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.rem_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3510,23 +3077,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.rem_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_s_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3560,23 +3117,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_s_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_3'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_3'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_u_3'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3608,17 +3155,6 @@
               init: '3'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_u_3'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_3'
-          }
         }
       ]
     },
@@ -3763,61 +3299,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_5'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'rem_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '5'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.rem_s_5'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_5'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '5'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.rem_u_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3851,23 +3378,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.rem_u_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_5'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_s_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3901,23 +3418,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_s_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_5'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_5'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_u_5'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3949,17 +3456,6 @@
               init: '5'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_u_5'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_5'
-          }
         }
       ]
     },
@@ -4104,61 +3600,52 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_7'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'i32',
-            operator: 'rem_s',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'const',
-              type: 'i32',
-              init: '7'
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.rem_s_7'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_s_7'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '7'
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.rem_u_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4192,23 +3679,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.rem_u_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.rem_u_7'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_s_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4242,23 +3719,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_s_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_s_7'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_7'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.rem_u_7'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -4290,17 +3757,6 @@
               init: '7'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.rem_u_7'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.rem_u_7'
-          }
         }
       ]
     },

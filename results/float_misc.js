@@ -6,1501 +6,1221 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.add'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'add',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.sub'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'sub',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.mul'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'mul',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.div'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'div',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.sqrt'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'sqrt',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.abs'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'abs',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.neg'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'neg',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.copysign'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'copysign',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.ceil'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'ceil',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.floor'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'floor',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.trunc'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'trunc',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.nearest'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f32',
-            operator: 'nearest',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.min'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'min',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.max'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f32'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f32',
-            operator: 'max',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.add'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'add',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.sub'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'sub',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.mul'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'mul',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.div'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'div',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.sqrt'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'sqrt',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.abs'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'abs',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.neg'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'neg',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.copysign'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'copysign',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.ceil'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'ceil',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.floor'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'floor',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.trunc'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'trunc',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.nearest'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f64'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'f64',
-            operator: 'nearest',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.min'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'min',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.max'
-          },
-          expo: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'x',
-                type: 'f64'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'y',
-                type: 'f64'
-              }]
-            }
-          ],
-          result: {
-            kind: 'result',
-            type: 'f64'
-          },
-          local: [],
-          body: [{
-            kind: 'binop',
-            type: 'f64',
-            operator: 'max',
-            left: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            },
-            right: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'y'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.add'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.add'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'add',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.sub'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.sub'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'sub',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.mul'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.mul'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'mul',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.div'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.div'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.sqrt'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.sqrt'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'sqrt',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.abs'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.abs'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'abs',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.neg'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.neg'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'neg',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.copysign'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.copysign'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'copysign',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.ceil'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.ceil'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'ceil',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.floor'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.floor'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'floor',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.trunc'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.trunc'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'trunc',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.nearest'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.nearest'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f32',
+            operator: 'nearest',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.min'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.min'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'min',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.max'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.max'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f32'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f32'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f32',
+            operator: 'max',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.add'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.add'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'add',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.sub'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.sub'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'sub',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.mul'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.mul'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'mul',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.div'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.div'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'div',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.sqrt'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.sqrt'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'sqrt',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.abs'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.abs'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'abs',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.neg'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.neg'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'neg',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.copysign'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.copysign'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'copysign',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.ceil'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.ceil'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'ceil',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.floor'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.floor'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'floor',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.trunc'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.trunc'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'trunc',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.nearest'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.nearest'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'unop',
+            type: 'f64',
+            operator: 'nearest',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.min'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.min'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'min',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.max'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.max'
-          }
+          imp: null,
+          type: null,
+          params: [
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'f64'
+              }]
+            },
+            {
+              kind: 'param',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'f64'
+              }]
+            }
+          ],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'f64',
+            operator: 'max',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
+          }]
         }
       ]
     },
@@ -10784,198 +10504,6 @@
         kind: 'const',
         type: 'f64',
         init: '0x1p+52'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.min',
-        body: [
-          {
-            kind: 'const',
-            type: 'f32',
-            init: '0.0'
-          },
-          {
-            kind: 'const',
-            type: 'f32',
-            init: 'n0x200000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x600000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.min',
-        body: [
-          {
-            kind: 'const',
-            type: 'f32',
-            init: 'n0x200000'
-          },
-          {
-            kind: 'const',
-            type: 'f32',
-            init: '0.0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x600000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.max',
-        body: [
-          {
-            kind: 'const',
-            type: 'f32',
-            init: '0.0'
-          },
-          {
-            kind: 'const',
-            type: 'f32',
-            init: 'n0x200000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x600000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f32.max',
-        body: [
-          {
-            kind: 'const',
-            type: 'f32',
-            init: 'n0x200000'
-          },
-          {
-            kind: 'const',
-            type: 'f32',
-            init: '0.0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f32',
-        init: 'n0x600000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f64.min',
-        body: [
-          {
-            kind: 'const',
-            type: 'f64',
-            init: '0.0'
-          },
-          {
-            kind: 'const',
-            type: 'f64',
-            init: 'n0x4000000000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0xc000000000000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f64.min',
-        body: [
-          {
-            kind: 'const',
-            type: 'f64',
-            init: 'n0x4000000000000'
-          },
-          {
-            kind: 'const',
-            type: 'f64',
-            init: '0.0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0xc000000000000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f64.max',
-        body: [
-          {
-            kind: 'const',
-            type: 'f64',
-            init: '0.0'
-          },
-          {
-            kind: 'const',
-            type: 'f64',
-            init: 'n0x4000000000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0xc000000000000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'f64.max',
-        body: [
-          {
-            kind: 'const',
-            type: 'f64',
-            init: 'n0x4000000000000'
-          },
-          {
-            kind: 'const',
-            type: 'f64',
-            init: '0.0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'f64',
-        init: 'n0xc000000000000'
       }
     }
   ]

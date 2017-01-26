@@ -9,7 +9,10 @@
           int: {
             kind: 'literal',
             value: 1,
-            raw: '1'
+            raw: [
+              [' '],
+              '1'
+            ]
           },
           int1: null,
           segment: []
@@ -21,6 +24,7 @@
             name: 'i16_store_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -114,6 +118,7 @@
             name: 'i32_store_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -211,6 +216,7 @@
             name: 'i64_store_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [
             {
@@ -320,6 +326,7 @@
             name: 'i16_load_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -397,6 +404,7 @@
             name: 'i32_load_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -472,6 +480,7 @@
             name: 'i64_load_little'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -554,11 +563,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_load16_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_load16_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -612,11 +622,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_load16_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_load16_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -670,11 +681,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -728,11 +740,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_load16_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_load16_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -792,11 +805,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_load16_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_load16_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -856,11 +870,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_load32_s'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_load32_s'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -920,11 +935,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_load32_u'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_load32_u'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -984,11 +1000,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1042,11 +1059,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1106,11 +1124,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1170,11 +1189,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_store16'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_store16'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1225,11 +1245,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32_store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32_store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1280,11 +1301,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store16'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store16'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1341,11 +1363,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1402,11 +1425,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64_store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64_store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1457,11 +1481,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32_store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32_store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1518,11 +1543,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64_store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64_store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1576,193 +1602,6 @@
               }
             }
           ]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_load16_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_load16_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_load16_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_load16_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_load'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_load16_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_load16_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_load16_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_load16_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_load32_s'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_load32_s'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_load32_u'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_load32_u'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_load'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_load'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_load'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_store16'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_store16'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store16'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store16'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store32'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32_store'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64_store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64_store'
-          }
         }
       ]
     },

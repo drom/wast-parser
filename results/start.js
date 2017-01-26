@@ -10,15 +10,12 @@
             kind: 'func',
             id: null,
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: null,
             local: [],
-            body: [{
-              kind: 'const',
-              type: 'i32',
-              init: '1'
-            }]
+            body: []
           },
           {
             kind: 'start',
@@ -32,7 +29,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'unknown function 1'
+        value: 'unknown function'
       }
     },
     {
@@ -47,6 +44,7 @@
               name: 'main'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [],
             result: {
@@ -74,7 +72,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'start function must not return anything'
+        value: 'start function'
       }
     },
     {
@@ -89,6 +87,7 @@
               name: 'main'
             },
             expo: null,
+            imp: null,
             type: null,
             params: [{
               kind: 'param',
@@ -113,7 +112,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'start function must be nullary'
+        value: 'start function'
       }
     },
     {
@@ -121,20 +120,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
           int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: 'A'
             }
@@ -147,6 +137,7 @@
             name: 'inc'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -194,6 +185,7 @@
             name: 'get'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -225,6 +217,7 @@
             name: 'main'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -270,8 +263,18 @@
             value: 'inc'
           },
           id: {
-            kind: 'identifier',
-            name: 'inc'
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'inc'
+            },
+            expo: null,
+            imp: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -281,8 +284,18 @@
             value: 'get'
           },
           id: {
-            kind: 'identifier',
-            name: 'get'
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'get'
+            },
+            expo: null,
+            imp: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         }
       ]
@@ -341,20 +354,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
           int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: 'A'
             }
@@ -367,6 +371,7 @@
             name: 'inc'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -414,6 +419,7 @@
             name: 'get'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -445,6 +451,7 @@
             name: 'main'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -491,8 +498,18 @@
             value: 'inc'
           },
           id: {
-            kind: 'identifier',
-            name: 'inc'
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'inc'
+            },
+            expo: null,
+            imp: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         },
         {
@@ -502,8 +519,18 @@
             value: 'get'
           },
           id: {
-            kind: 'identifier',
-            name: 'get'
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'get'
+            },
+            expo: null,
+            imp: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: []
           }
         }
       ]
@@ -561,19 +588,13 @@
       kind: 'module',
       body: [
         {
-          kind: 'import',
+          kind: 'func',
           id: {
             kind: 'identifier',
             name: 'print_i32'
           },
-          modName: {
-            kind: 'literal',
-            value: 'spectest'
-          },
-          funcName: {
-            kind: 'literal',
-            value: 'print'
-          },
+          expo: null,
+          imp: {},
           type: null,
           params: [{
             kind: 'param',
@@ -582,7 +603,9 @@
               type: 'i32'
             }]
           }],
-          result: null
+          result: null,
+          local: [],
+          body: []
         },
         {
           kind: 'func',
@@ -591,12 +614,13 @@
             name: 'main'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
-            kind: 'call_import',
+            kind: 'call',
             id: {
               kind: 'identifier',
               name: 'print_i32'
@@ -612,8 +636,8 @@
           kind: 'start',
           id: {
             kind: 'literal',
-            value: 0,
-            raw: '0'
+            value: 1,
+            raw: '1'
           }
         }
       ]
@@ -622,19 +646,13 @@
       kind: 'module',
       body: [
         {
-          kind: 'import',
+          kind: 'func',
           id: {
             kind: 'identifier',
             name: 'print_i32'
           },
-          modName: {
-            kind: 'literal',
-            value: 'spectest'
-          },
-          funcName: {
-            kind: 'literal',
-            value: 'print'
-          },
+          expo: null,
+          imp: {},
           type: null,
           params: [{
             kind: 'param',
@@ -643,7 +661,9 @@
               type: 'i32'
             }]
           }],
-          result: null
+          result: null,
+          local: [],
+          body: []
         },
         {
           kind: 'func',
@@ -652,12 +672,13 @@
             name: 'main'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
           local: [],
           body: [{
-            kind: 'call_import',
+            kind: 'call',
             id: {
               kind: 'identifier',
               name: 'print_i32'
@@ -677,6 +698,65 @@
           }
         }
       ]
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'print'
+          },
+          expo: null,
+          imp: {},
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: []
+        },
+        {
+          kind: 'start',
+          id: {
+            kind: 'identifier',
+            name: 'print'
+          }
+        }
+      ]
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'func',
+            id: {
+              kind: 'identifier',
+              name: 'main'
+            },
+            expo: null,
+            imp: null,
+            type: null,
+            params: [],
+            result: null,
+            local: [],
+            body: [{kind: 'unreachable'}]
+          },
+          {
+            kind: 'start',
+            id: {
+              kind: 'identifier',
+              name: 'main'
+            }
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
     }
   ]
 }

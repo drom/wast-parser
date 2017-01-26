@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'stmt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'stmt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -47,12 +48,14 @@
             },
             {
               kind: 'block',
+              type: null,
               id: {
                 kind: 'identifier',
                 name: 'switch'
               },
               body: [{
                 kind: 'block',
+                type: null,
                 id: {
                   kind: 'identifier',
                   name: '7'
@@ -60,6 +63,7 @@
                 body: [
                   {
                     kind: 'block',
+                    type: null,
                     id: {
                       kind: 'identifier',
                       name: 'default'
@@ -67,6 +71,7 @@
                     body: [
                       {
                         kind: 'block',
+                        type: null,
                         id: {
                           kind: 'identifier',
                           name: '6'
@@ -74,6 +79,7 @@
                         body: [
                           {
                             kind: 'block',
+                            type: null,
                             id: {
                               kind: 'identifier',
                               name: '5'
@@ -81,6 +87,7 @@
                             body: [
                               {
                                 kind: 'block',
+                                type: null,
                                 id: {
                                   kind: 'identifier',
                                   name: '4'
@@ -88,12 +95,14 @@
                                 body: [
                                   {
                                     kind: 'block',
+                                    type: null,
                                     id: {
                                       kind: 'identifier',
                                       name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
+                                      type: null,
                                       id: {
                                         kind: 'identifier',
                                         name: '2'
@@ -101,6 +110,7 @@
                                       body: [
                                         {
                                           kind: 'block',
+                                          type: null,
                                           id: {
                                             kind: 'identifier',
                                             name: '1'
@@ -108,6 +118,7 @@
                                           body: [
                                             {
                                               kind: 'block',
+                                              type: null,
                                               id: {
                                                 kind: 'identifier',
                                                 name: '0'
@@ -286,11 +297,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'expr'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'expr'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -329,6 +341,7 @@
               kind: 'return',
               expr: {
                 kind: 'block',
+                type: 'i64',
                 id: {
                   kind: 'identifier',
                   name: 'switch'
@@ -336,6 +349,7 @@
                 body: [
                   {
                     kind: 'block',
+                    type: null,
                     id: {
                       kind: 'identifier',
                       name: '7'
@@ -343,18 +357,21 @@
                     body: [
                       {
                         kind: 'block',
+                        type: null,
                         id: {
                           kind: 'identifier',
                           name: 'default'
                         },
                         body: [{
                           kind: 'block',
+                          type: null,
                           id: {
                             kind: 'identifier',
                             name: '4'
                           },
                           body: [{
                             kind: 'block',
+                            type: null,
                             id: {
                               kind: 'identifier',
                               name: '5'
@@ -362,6 +379,7 @@
                             body: [
                               {
                                 kind: 'block',
+                                type: null,
                                 id: {
                                   kind: 'identifier',
                                   name: '6'
@@ -369,12 +387,14 @@
                                 body: [
                                   {
                                     kind: 'block',
+                                    type: null,
                                     id: {
                                       kind: 'identifier',
                                       name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
+                                      type: null,
                                       id: {
                                         kind: 'identifier',
                                         name: '2'
@@ -382,6 +402,7 @@
                                       body: [
                                         {
                                           kind: 'block',
+                                          type: null,
                                           id: {
                                             kind: 'identifier',
                                             name: '1'
@@ -389,6 +410,7 @@
                                           body: [
                                             {
                                               kind: 'block',
+                                              type: null,
                                               id: {
                                                 kind: 'identifier',
                                                 name: '0'
@@ -534,11 +556,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'arg'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'arg'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -557,6 +580,7 @@
             kind: 'return',
             expr: {
               kind: 'block',
+              type: 'i32',
               id: {
                 kind: 'identifier',
                 name: '2'
@@ -572,6 +596,7 @@
                 },
                 right: {
                   kind: 'block',
+                  type: 'i32',
                   id: {
                     kind: 'identifier',
                     name: '1'
@@ -587,6 +612,7 @@
                     },
                     right: {
                       kind: 'block',
+                      type: 'i32',
                       id: {
                         kind: 'identifier',
                         name: '0'
@@ -602,6 +628,7 @@
                         },
                         right: {
                           kind: 'block',
+                          type: 'i32',
                           id: {
                             kind: 'identifier',
                             name: 'default'
@@ -674,11 +701,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'corner'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'corner'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -689,6 +717,7 @@
           body: [
             {
               kind: 'block',
+              type: null,
               id: null,
               body: [{
                 kind: 'br_table',
@@ -710,50 +739,6 @@
               init: '1'
             }
           ]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'stmt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'stmt'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'expr'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'expr'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'arg'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'arg'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'corner'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'corner'
-          }
         }
       ]
     },
@@ -1203,6 +1188,7 @@
           kind: 'func',
           id: null,
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,

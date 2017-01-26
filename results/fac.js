@@ -7,7 +7,11 @@
         {
           kind: 'func',
           id: null,
-          expo: null,
+          expo: {
+            kind: 'literal',
+            value: 'fac-rec'
+          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -23,77 +27,84 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'eq',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
+            type: 'i64',
+            body: [
+              {
+                kind: 'relop',
+                type: 'i64',
+                operator: 'eq',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
                 }
               },
-              right: {
+              {
                 kind: 'const',
                 type: 'i64',
-                init: '0'
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i64',
-              init: '1'
-            },
-            else: {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'mul',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }
+                init: '1'
               },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                exprs: [{
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'sub',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'literal',
-                      value: 0,
-                      raw: '0'
-                    }
-                  },
-                  right: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '1'
+              {
+                kind: 'binop',
+                type: 'i64',
+                operator: 'mul',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
                   }
-                }]
+                },
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  exprs: [{
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 0,
+                        raw: '0'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '1'
+                    }
+                  }]
+                }
               }
-            }
+            ]
           }]
         },
         {
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'fac-rec'
+            name: 'fac-rec-named'
           },
-          expo: null,
+          expo: {
+            kind: 'literal',
+            value: 'fac-rec-named'
+          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -110,70 +121,77 @@
           local: [],
           body: [{
             kind: 'if',
-            test: {
-              kind: 'relop',
-              type: 'i64',
-              operator: 'eq',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'n'
+            type: 'i64',
+            body: [
+              {
+                kind: 'relop',
+                type: 'i64',
+                operator: 'eq',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'n'
+                  }
+                },
+                right: {
+                  kind: 'const',
+                  type: 'i64',
+                  init: '0'
                 }
               },
-              right: {
+              {
                 kind: 'const',
                 type: 'i64',
-                init: '0'
-              }
-            },
-            then: {
-              kind: 'const',
-              type: 'i64',
-              init: '1'
-            },
-            else: {
-              kind: 'binop',
-              type: 'i64',
-              operator: 'mul',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'n'
-                }
+                init: '1'
               },
-              right: {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'fac-rec'
-                },
-                exprs: [{
-                  kind: 'binop',
-                  type: 'i64',
-                  operator: 'sub',
-                  left: {
-                    kind: 'get_local',
-                    id: {
-                      kind: 'identifier',
-                      name: 'n'
-                    }
-                  },
-                  right: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '1'
+              {
+                kind: 'binop',
+                type: 'i64',
+                operator: 'mul',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'identifier',
+                    name: 'n'
                   }
-                }]
+                },
+                right: {
+                  kind: 'call',
+                  id: {
+                    kind: 'identifier',
+                    name: 'fac-rec-named'
+                  },
+                  exprs: [{
+                    kind: 'binop',
+                    type: 'i64',
+                    operator: 'sub',
+                    left: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'identifier',
+                        name: 'n'
+                      }
+                    },
+                    right: {
+                      kind: 'const',
+                      type: 'i64',
+                      init: '1'
+                    }
+                  }]
+                }
               }
-            }
+            ]
           }]
         },
         {
           kind: 'func',
           id: null,
-          expo: null,
+          expo: {
+            kind: 'literal',
+            value: 'fac-iter'
+          },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -230,109 +248,121 @@
               }
             },
             {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'if',
-                  test: {
-                    kind: 'relop',
-                    type: 'i64',
-                    operator: 'eq',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
-                      type: 'i64',
-                      init: '0'
-                    }
-                  },
-                  then: {
-                    kind: 'br',
-                    id: {
-                      kind: 'literal',
-                      value: 2,
-                      raw: '2'
-                    },
-                    expr: null
-                  },
-                  else: {
-                    kind: 'block',
-                    id: null,
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'if',
+                    type: null,
                     body: [
                       {
-                        kind: 'set_local',
+                        kind: 'relop',
+                        type: 'i64',
+                        operator: 'eq',
+                        left: {
+                          kind: 'get_local',
+                          id: {
+                            kind: 'literal',
+                            value: 1,
+                            raw: '1'
+                          }
+                        },
+                        right: {
+                          kind: 'const',
+                          type: 'i64',
+                          init: '0'
+                        }
+                      },
+                      {
+                        kind: 'br',
                         id: {
                           kind: 'literal',
                           value: 2,
                           raw: '2'
                         },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'mul',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'literal',
-                              value: 1,
-                              raw: '1'
-                            }
-                          },
-                          right: {
-                            kind: 'get_local',
+                        expr: null
+                      },
+                      {
+                        kind: 'block',
+                        type: null,
+                        id: null,
+                        body: [
+                          {
+                            kind: 'set_local',
                             id: {
                               kind: 'literal',
                               value: 2,
                               raw: '2'
+                            },
+                            init: {
+                              kind: 'binop',
+                              type: 'i64',
+                              operator: 'mul',
+                              left: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'literal',
+                                  value: 1,
+                                  raw: '1'
+                                }
+                              },
+                              right: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'literal',
+                                  value: 2,
+                                  raw: '2'
+                                }
+                              }
                             }
-                          }
-                        }
-                      },
-                      {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'literal',
-                          value: 1,
-                          raw: '1'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'sub',
-                          left: {
-                            kind: 'get_local',
+                          },
+                          {
+                            kind: 'set_local',
                             id: {
                               kind: 'literal',
                               value: 1,
                               raw: '1'
+                            },
+                            init: {
+                              kind: 'binop',
+                              type: 'i64',
+                              operator: 'sub',
+                              left: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'literal',
+                                  value: 1,
+                                  raw: '1'
+                                }
+                              },
+                              right: {
+                                kind: 'const',
+                                type: 'i64',
+                                init: '1'
+                              }
                             }
-                          },
-                          right: {
-                            kind: 'const',
-                            type: 'i64',
-                            init: '1'
                           }
-                        }
+                        ]
                       }
                     ]
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
                   },
-                  expr: null
-                }
-              ]
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
+                  }
+                ]
+              }]
             },
             {
               kind: 'get_local',
@@ -346,11 +376,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'fac-iter'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'fac-iter-named'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -410,109 +441,119 @@
               }
             },
             {
-              kind: 'loop',
+              kind: 'block',
+              type: null,
               id: {
                 kind: 'identifier',
                 name: 'done'
               },
-              extra: {
-                kind: 'identifier',
-                name: 'loop'
-              },
-              body: [
-                {
-                  kind: 'if',
-                  test: {
-                    kind: 'relop',
-                    type: 'i64',
-                    operator: 'eq',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'identifier',
-                        name: 'i'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
-                      type: 'i64',
-                      init: '0'
-                    }
-                  },
-                  then: {
-                    kind: 'br',
-                    id: {
-                      kind: 'identifier',
-                      name: 'done'
-                    },
-                    expr: null
-                  },
-                  else: {
-                    kind: 'block',
-                    id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: {
+                  kind: 'identifier',
+                  name: 'loop'
+                },
+                extra: null,
+                body: [
+                  {
+                    kind: 'if',
+                    type: null,
                     body: [
                       {
-                        kind: 'set_local',
-                        id: {
-                          kind: 'identifier',
-                          name: 'res'
-                        },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'mul',
-                          left: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'identifier',
-                              name: 'i'
-                            }
-                          },
-                          right: {
-                            kind: 'get_local',
-                            id: {
-                              kind: 'identifier',
-                              name: 'res'
-                            }
+                        kind: 'relop',
+                        type: 'i64',
+                        operator: 'eq',
+                        left: {
+                          kind: 'get_local',
+                          id: {
+                            kind: 'identifier',
+                            name: 'i'
                           }
+                        },
+                        right: {
+                          kind: 'const',
+                          type: 'i64',
+                          init: '0'
                         }
                       },
                       {
-                        kind: 'set_local',
+                        kind: 'br',
                         id: {
                           kind: 'identifier',
-                          name: 'i'
+                          name: 'done'
                         },
-                        init: {
-                          kind: 'binop',
-                          type: 'i64',
-                          operator: 'sub',
-                          left: {
-                            kind: 'get_local',
+                        expr: null
+                      },
+                      {
+                        kind: 'block',
+                        type: null,
+                        id: null,
+                        body: [
+                          {
+                            kind: 'set_local',
+                            id: {
+                              kind: 'identifier',
+                              name: 'res'
+                            },
+                            init: {
+                              kind: 'binop',
+                              type: 'i64',
+                              operator: 'mul',
+                              left: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'identifier',
+                                  name: 'i'
+                                }
+                              },
+                              right: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'identifier',
+                                  name: 'res'
+                                }
+                              }
+                            }
+                          },
+                          {
+                            kind: 'set_local',
                             id: {
                               kind: 'identifier',
                               name: 'i'
+                            },
+                            init: {
+                              kind: 'binop',
+                              type: 'i64',
+                              operator: 'sub',
+                              left: {
+                                kind: 'get_local',
+                                id: {
+                                  kind: 'identifier',
+                                  name: 'i'
+                                }
+                              },
+                              right: {
+                                kind: 'const',
+                                type: 'i64',
+                                init: '1'
+                              }
                             }
-                          },
-                          right: {
-                            kind: 'const',
-                            type: 'i64',
-                            init: '1'
                           }
-                        }
+                        ]
                       }
                     ]
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'identifier',
-                    name: 'loop'
                   },
-                  expr: null
-                }
-              ]
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'identifier',
+                      name: 'loop'
+                    },
+                    expr: null
+                  }
+                ]
+              }]
             },
             {
               kind: 'get_local',
@@ -525,11 +566,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'fac-opt'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'fac-opt'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -565,6 +607,7 @@
             },
             {
               kind: 'block',
+              type: null,
               id: null,
               body: [
                 {
@@ -596,6 +639,9 @@
                 },
                 {
                   kind: 'loop',
+                  type: null,
+                  id: null,
+                  extra: null,
                   body: [
                     {
                       kind: 'set_local',
@@ -692,63 +738,6 @@
               }
             }
           ]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'fac-rec'
-          },
-          id: {
-            kind: 'literal',
-            value: 0,
-            raw: '0'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'fac-iter'
-          },
-          id: {
-            kind: 'literal',
-            value: 2,
-            raw: '2'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'fac-rec-named'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'fac-rec'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'fac-iter-named'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'fac-iter'
-          }
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'fac-opt'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'fac-opt'
-          }
         }
       ]
     },
@@ -838,8 +827,8 @@
       }
     },
     {
-      kind: 'assert_trap',
-      invoke: {
+      kind: 'assert_exhaustion',
+      module: {
         kind: 'invoke',
         name: 'fac-rec',
         body: [{

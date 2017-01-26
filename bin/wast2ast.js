@@ -7,17 +7,22 @@ var fs = require('fs'),
     jsof = require('jsof'),
     parser = require('../');
 
+var pass = 0;
+var fail = 0;
+
 function runner (name) {
     return function (err, data) {
         var result;
         if (err) { throw err; }
-        console.log(name);
         try {
             result = parser.parse(data);
         } catch (err1) {
-            console.log(err1);
+            fail++;
+            console.log(name, err1, pass, fail);
             return;
         }
+        pass++;
+        console.log(name, pass, fail);
         fs.writeFile(
             path.resolve(dst, name + '.js'),
             jsof.s(result) + '\n',

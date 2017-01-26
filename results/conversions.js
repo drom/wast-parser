@@ -6,11 +6,12 @@
       body: [
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.extend_s_i32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.extend_s_i32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -40,23 +41,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.extend_s_i32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.extend_s_i32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.extend_u_i32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.extend_u_i32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -86,23 +77,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.extend_u_i32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.extend_u_i32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.wrap_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.wrap_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -132,69 +113,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.wrap_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.wrap_i64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_s_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i32',
-            type1: 'f32',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.trunc_s_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_s_f32'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_u_f32'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -213,7 +138,7 @@
             kind: 'cvtop',
             type: 'i32',
             type1: 'f32',
-            operator: 'trunc_u',
+            operator: 'trunc_s',
             expr: {
               kind: 'get_local',
               id: {
@@ -224,30 +149,20 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.trunc_u_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_u_f32'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_s_f64'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
             items: [{
               kind: 'item',
               name: 'x',
-              type: 'f64'
+              type: 'f32'
             }]
           }],
           result: {
@@ -258,8 +173,8 @@
           body: [{
             kind: 'cvtop',
             type: 'i32',
-            type1: 'f64',
-            operator: 'trunc_s',
+            type1: 'f32',
+            operator: 'trunc_u',
             expr: {
               kind: 'get_local',
               id: {
@@ -270,23 +185,49 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i32.trunc_s_f64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_s_f64'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_u_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.trunc_u_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -316,69 +257,49 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.trunc_u_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.trunc_u_f64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_s_f32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'f32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'i64'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'i64',
-            type1: 'f32',
-            operator: 'trunc_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'i64.trunc_s_f32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_s_f32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'f32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_u_f32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.trunc_u_f32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -408,23 +329,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.trunc_u_f32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_u_f32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_s_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.trunc_s_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -454,23 +365,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.trunc_s_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_s_f64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_u_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.trunc_u_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -500,76 +401,20 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.trunc_u_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.trunc_u_f64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_s_i32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'f32',
-            type1: 'i32',
-            operator: 'convert_s',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.convert_s_i32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_s_i32'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_s_i64'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
             items: [{
               kind: 'item',
               name: 'x',
-              type: 'i64'
+              type: 'i32'
             }]
           }],
           result: {
@@ -580,7 +425,7 @@
           body: [{
             kind: 'cvtop',
             type: 'f32',
-            type1: 'i64',
+            type1: 'i32',
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
@@ -592,41 +437,31 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.convert_s_i64'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_s_i64'
-          }
-        },
-        {
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_s_i32'
-          },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
             items: [{
               kind: 'item',
               name: 'x',
-              type: 'i32'
+              type: 'i64'
             }]
           }],
           result: {
             kind: 'result',
-            type: 'f64'
+            type: 'f32'
           },
           local: [],
           body: [{
             kind: 'cvtop',
-            type: 'f64',
-            type1: 'i32',
+            type: 'f32',
+            type1: 'i64',
             operator: 'convert_s',
             expr: {
               kind: 'get_local',
@@ -638,23 +473,49 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
+          kind: 'func',
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f64.convert_s_i32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_s_i32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f64',
+            type1: 'i32',
+            operator: 'convert_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_s_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.convert_s_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -684,69 +545,49 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.convert_s_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_s_i64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_u_i32'
-          },
-          expo: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'x',
-              type: 'i32'
-            }]
-          }],
-          result: {
-            kind: 'result',
-            type: 'f32'
-          },
-          local: [],
-          body: [{
-            kind: 'cvtop',
-            type: 'f32',
-            type1: 'i32',
-            operator: 'convert_u',
-            expr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'x'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'export',
-          name: {
+          id: null,
+          expo: {
             kind: 'literal',
             value: 'f32.convert_u_i32'
           },
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_u_i32'
-          }
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
+          local: [],
+          body: [{
+            kind: 'cvtop',
+            type: 'f32',
+            type1: 'i32',
+            operator: 'convert_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_u_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.convert_u_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -776,23 +617,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.convert_u_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.convert_u_i64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_u_i32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.convert_u_i32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -822,23 +653,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.convert_u_i32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_u_i32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_u_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.convert_u_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -868,23 +689,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.convert_u_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.convert_u_i64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.promote_f32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.promote_f32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -914,23 +725,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.promote_f32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.promote_f32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.demote_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.demote_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -960,23 +761,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.demote_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.demote_f64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.reinterpret_i32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.reinterpret_i32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1006,23 +797,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.reinterpret_i32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.reinterpret_i32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.reinterpret_i64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.reinterpret_i64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1052,23 +833,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.reinterpret_i64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.reinterpret_i64'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.reinterpret_f32'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.reinterpret_f32'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1098,23 +869,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.reinterpret_f32'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.reinterpret_f32'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.reinterpret_f64'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.reinterpret_f64'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -1142,17 +903,6 @@
               }
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.reinterpret_f64'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.reinterpret_f64'
-          }
         }
       ]
     },

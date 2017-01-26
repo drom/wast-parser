@@ -11,6 +11,7 @@
             name: 'dummy'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -24,6 +25,7 @@
             kind: 'literal',
             value: 'empty'
           },
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -31,10 +33,14 @@
           body: [
             {
               kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
               body: []
             },
             {
               kind: 'loop',
+              type: null,
               id: {
                 kind: 'identifier',
                 name: 'l'
@@ -51,6 +57,7 @@
             kind: 'literal',
             value: 'singular'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -61,10 +68,16 @@
           body: [
             {
               kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
               body: [{kind: 'nop'}]
             },
             {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [{
                 kind: 'const',
                 type: 'i32',
@@ -80,6 +93,7 @@
             kind: 'literal',
             value: 'multi'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -90,6 +104,9 @@
           body: [
             {
               kind: 'loop',
+              type: null,
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -127,6 +144,9 @@
             },
             {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -168,6 +188,7 @@
             kind: 'literal',
             value: 'nested'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -177,9 +198,15 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: 'i32',
+            id: null,
+            extra: null,
             body: [
               {
                 kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
                 body: [
                   {
                     kind: 'call',
@@ -191,6 +218,7 @@
                   },
                   {
                     kind: 'block',
+                    type: null,
                     id: null,
                     body: []
                   },
@@ -199,6 +227,9 @@
               },
               {
                 kind: 'loop',
+                type: 'i32',
+                id: null,
+                extra: null,
                 body: [
                   {
                     kind: 'call',
@@ -225,6 +256,7 @@
             kind: 'literal',
             value: 'deep'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -234,132 +266,217 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: 'i32',
+            id: null,
+            extra: null,
             body: [{
               kind: 'block',
+              type: 'i32',
               id: null,
               body: [{
                 kind: 'loop',
+                type: 'i32',
+                id: null,
+                extra: null,
                 body: [{
                   kind: 'block',
+                  type: 'i32',
                   id: null,
                   body: [{
                     kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
                     body: [{
                       kind: 'block',
+                      type: 'i32',
                       id: null,
                       body: [{
                         kind: 'loop',
+                        type: 'i32',
+                        id: null,
+                        extra: null,
                         body: [{
                           kind: 'block',
+                          type: 'i32',
                           id: null,
                           body: [{
                             kind: 'loop',
+                            type: 'i32',
+                            id: null,
+                            extra: null,
                             body: [{
                               kind: 'block',
+                              type: 'i32',
                               id: null,
                               body: [{
                                 kind: 'loop',
+                                type: 'i32',
+                                id: null,
+                                extra: null,
                                 body: [{
                                   kind: 'block',
+                                  type: 'i32',
                                   id: null,
                                   body: [{
                                     kind: 'loop',
+                                    type: 'i32',
+                                    id: null,
+                                    extra: null,
                                     body: [{
                                       kind: 'block',
+                                      type: 'i32',
                                       id: null,
                                       body: [{
                                         kind: 'loop',
+                                        type: 'i32',
+                                        id: null,
+                                        extra: null,
                                         body: [{
                                           kind: 'block',
+                                          type: 'i32',
                                           id: null,
                                           body: [{
                                             kind: 'loop',
+                                            type: 'i32',
+                                            id: null,
+                                            extra: null,
                                             body: [{
                                               kind: 'block',
+                                              type: 'i32',
                                               id: null,
                                               body: [{
                                                 kind: 'loop',
+                                                type: 'i32',
+                                                id: null,
+                                                extra: null,
                                                 body: [{
                                                   kind: 'block',
+                                                  type: 'i32',
                                                   id: null,
                                                   body: [{
                                                     kind: 'loop',
+                                                    type: 'i32',
+                                                    id: null,
+                                                    extra: null,
                                                     body: [{
                                                       kind: 'block',
+                                                      type: 'i32',
                                                       id: null,
                                                       body: [{
                                                         kind: 'loop',
+                                                        type: 'i32',
+                                                        id: null,
+                                                        extra: null,
                                                         body: [{
                                                           kind: 'block',
+                                                          type: 'i32',
                                                           id: null,
                                                           body: [{
                                                             kind: 'loop',
+                                                            type: 'i32',
+                                                            id: null,
+                                                            extra: null,
                                                             body: [{
                                                               kind: 'block',
+                                                              type: 'i32',
                                                               id: null,
                                                               body: [{
                                                                 kind: 'loop',
+                                                                type: 'i32',
+                                                                id: null,
+                                                                extra: null,
                                                                 body: [{
                                                                   kind: 'block',
+                                                                  type: 'i32',
                                                                   id: null,
                                                                   body: [{
                                                                     kind: 'loop',
+                                                                    type: 'i32',
+                                                                    id: null,
+                                                                    extra: null,
                                                                     body: [{
                                                                       kind: 'block',
+                                                                      type: 'i32',
                                                                       id: null,
                                                                       body: [{
                                                                         kind: 'loop',
+                                                                        type: 'i32',
+                                                                        id: null,
+                                                                        extra: null,
                                                                         body: [{
                                                                           kind: 'block',
+                                                                          type: 'i32',
                                                                           id: null,
                                                                           body: [{
                                                                             kind: 'loop',
+                                                                            type: 'i32',
+                                                                            id: null,
+                                                                            extra: null,
                                                                             body: [{
                                                                               kind: 'block',
+                                                                              type: 'i32',
                                                                               id: null,
                                                                               body: [{
                                                                                 kind: 'loop',
+                                                                                type: 'i32',
+                                                                                id: null,
+                                                                                extra: null,
                                                                                 body: [{
                                                                                   kind: 'block',
+                                                                                  type: 'i32',
                                                                                   id: null,
                                                                                   body: [{
                                                                                     kind: 'loop',
+                                                                                    type: 'i32',
+                                                                                    id: null,
+                                                                                    extra: null,
                                                                                     body: [{
                                                                                       kind: 'block',
+                                                                                      type: 'i32',
                                                                                       id: null,
                                                                                       body: [{
                                                                                         kind: 'loop',
+                                                                                        type: 'i32',
+                                                                                        id: null,
+                                                                                        extra: null,
                                                                                         body: [{
                                                                                           kind: 'block',
+                                                                                          type: 'i32',
                                                                                           id: null,
                                                                                           body: [{
                                                                                             kind: 'loop',
+                                                                                            type: 'i32',
+                                                                                            id: null,
+                                                                                            extra: null,
                                                                                             body: [{
                                                                                               kind: 'block',
+                                                                                              type: 'i32',
                                                                                               id: null,
                                                                                               body: [{
                                                                                                 kind: 'loop',
+                                                                                                type: 'i32',
+                                                                                                id: null,
+                                                                                                extra: null,
                                                                                                 body: [{
                                                                                                   kind: 'block',
+                                                                                                  type: 'i32',
                                                                                                   id: null,
-                                                                                                  body: [{
-                                                                                                    kind: 'loop',
-                                                                                                    body: [
-                                                                                                      {
-                                                                                                        kind: 'call',
-                                                                                                        id: {
-                                                                                                          kind: 'identifier',
-                                                                                                          name: 'dummy'
-                                                                                                        },
-                                                                                                        exprs: []
+                                                                                                  body: [
+                                                                                                    {
+                                                                                                      kind: 'call',
+                                                                                                      id: {
+                                                                                                        kind: 'identifier',
+                                                                                                        name: 'dummy'
                                                                                                       },
-                                                                                                      {
-                                                                                                        kind: 'const',
-                                                                                                        type: 'i32',
-                                                                                                        init: '150'
-                                                                                                      }
-                                                                                                    ]
-                                                                                                  }]
+                                                                                                      exprs: []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      kind: 'const',
+                                                                                                      type: 'i32',
+                                                                                                      init: '150'
+                                                                                                    }
+                                                                                                  ]
                                                                                                 }]
                                                                                               }]
                                                                                             }]
@@ -412,6 +529,7 @@
             kind: 'literal',
             value: 'as-unary-operand'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -425,6 +543,9 @@
             operator: 'ctz',
             expr: {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -450,6 +571,7 @@
             kind: 'literal',
             value: 'as-binary-operand'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -463,6 +585,9 @@
             operator: 'mul',
             left: {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -481,6 +606,9 @@
             },
             right: {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -506,6 +634,7 @@
             kind: 'literal',
             value: 'as-test-operand'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -519,6 +648,9 @@
             operator: 'eqz',
             expr: {
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -544,6 +676,7 @@
             kind: 'literal',
             value: 'as-compare-operand'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -557,6 +690,9 @@
             operator: 'gt',
             left: {
               kind: 'loop',
+              type: 'f32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -575,6 +711,9 @@
             },
             right: {
               kind: 'loop',
+              type: 'f32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'call',
@@ -600,6 +739,7 @@
             kind: 'literal',
             value: 'break-bare'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -609,7 +749,162 @@
           local: [],
           body: [
             {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    expr: null
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
+                  },
+                  {kind: 'unreachable'}
+                ]
+              }]
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    },
+                    expr: null
+                  },
+                  {kind: 'unreachable'}
+                ]
+              }]
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_table',
+                    exprs: [{
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }],
+                    body: [{
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    }]
+                  },
+                  {kind: 'unreachable'}
+                ]
+              }]
+            },
+            {
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_table',
+                    exprs: [{
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }],
+                    body: [
+                      {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      },
+                      {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      },
+                      {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
+                    ]
+                  },
+                  {kind: 'unreachable'}
+                ]
+              }]
+            },
+            {
+              kind: 'const',
+              type: 'i32',
+              init: '19'
+            }
+          ]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'break-value'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [{
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
                   kind: 'br',
@@ -618,7 +913,11 @@
                     value: 1,
                     raw: '1'
                   },
-                  expr: null
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '18'
+                  }
                 },
                 {
                   kind: 'br',
@@ -629,58 +928,155 @@
                   },
                   expr: null
                 },
-                {kind: 'unreachable'}
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '19'
+                }
               ]
-            },
-            {
+            }]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'break-repeated'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [{
               kind: 'loop',
+              type: 'i32',
+              id: null,
+              extra: null,
               body: [
                 {
-                  kind: 'br_if',
+                  kind: 'br',
                   id: {
                     kind: 'literal',
                     value: 1,
                     raw: '1'
                   },
-                  test: {
+                  expr: {
                     kind: 'const',
                     type: 'i32',
-                    init: '1'
-                  },
-                  expr: null
+                    init: '18'
+                  }
                 },
-                {kind: 'unreachable'}
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '19'
+                  }
+                },
+                {
+                  kind: 'drop',
+                  body: [{
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '20'
+                    },
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  }]
+                },
+                {
+                  kind: 'drop',
+                  body: [{
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '20'
+                    },
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  }]
+                },
+                {
+                  kind: 'br',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '21'
+                  }
+                },
                 {
                   kind: 'br_table',
-                  exprs: [{
-                    kind: 'const',
-                    type: 'i32',
-                    init: '0'
-                  }],
+                  exprs: [
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '22'
+                    },
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  ],
                   body: [{
                     kind: 'literal',
                     value: 1,
                     raw: '1'
                   }]
                 },
-                {kind: 'unreachable'}
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
                 {
                   kind: 'br_table',
-                  exprs: [{
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }],
+                  exprs: [
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '23'
+                    },
+                    {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '1'
+                    }
+                  ],
                   body: [
                     {
                       kind: 'literal',
@@ -699,213 +1095,13 @@
                     }
                   ]
                 },
-                {kind: 'unreachable'}
-              ]
-            },
-            {
-              kind: 'const',
-              type: 'i32',
-              init: '19'
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'break-value'
-          },
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '18'
-                }
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                expr: null
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '19'
-              }
-            ]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'break-repeated'
-          },
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '18'
-                }
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '19'
-                }
-              },
-              {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '20'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              },
-              {
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '20'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
+                {
                   kind: 'const',
                   type: 'i32',
                   init: '21'
                 }
-              },
-              {
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '22'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '0'
-                  }
-                ],
-                body: [{
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                }]
-              },
-              {
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '23'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                ],
-                body: [
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                ]
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '21'
-              }
-            ]
+              ]
+            }]
           }]
         },
         {
@@ -915,6 +1111,7 @@
             kind: 'literal',
             value: 'break-inner'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -962,190 +1159,245 @@
                   }
                 },
                 right: {
-                  kind: 'loop',
+                  kind: 'block',
+                  type: 'i32',
+                  id: null,
                   body: [{
-                    kind: 'block',
+                    kind: 'loop',
+                    type: 'i32',
                     id: null,
+                    extra: null,
                     body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0x1'
-                      }
-                    }]
-                  }]
-                }
-              }
-            },
-            {
-              kind: 'set_local',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              init: {
-                kind: 'binop',
-                type: 'i32',
-                operator: 'add',
-                left: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                right: {
-                  kind: 'loop',
-                  body: [{
-                    kind: 'loop',
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0x2'
-                      }
-                    }]
-                  }]
-                }
-              }
-            },
-            {
-              kind: 'set_local',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              init: {
-                kind: 'binop',
-                type: 'i32',
-                operator: 'add',
-                left: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                right: {
-                  kind: 'loop',
-                  body: [{
-                    kind: 'loop',
-                    body: [{
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0x4'
-                      }
-                    }]
-                  }]
-                }
-              }
-            },
-            {
-              kind: 'set_local',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              init: {
-                kind: 'binop',
-                type: 'i32',
-                operator: 'add',
-                left: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                right: {
-                  kind: 'loop',
-                  body: [{
-                    kind: 'unop',
-                    type: 'i32',
-                    operator: 'ctz',
-                    expr: {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '0x8'
-                      }
-                    }
-                  }]
-                }
-              }
-            },
-            {
-              kind: 'set_local',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              init: {
-                kind: 'binop',
-                type: 'i32',
-                operator: 'add',
-                left: {
-                  kind: 'get_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  }
-                },
-                right: {
-                  kind: 'loop',
-                  body: [{
-                    kind: 'unop',
-                    type: 'i32',
-                    operator: 'ctz',
-                    expr: {
-                      kind: 'loop',
+                      kind: 'block',
+                      type: 'i32',
+                      id: null,
                       body: [{
                         kind: 'br',
                         id: {
                           kind: 'literal',
-                          value: 3,
-                          raw: '3'
+                          value: 2,
+                          raw: '2'
                         },
                         expr: {
                           kind: 'const',
                           type: 'i32',
-                          init: '0x10'
+                          init: '0x1'
                         }
                       }]
-                    }
+                    }]
+                  }]
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'block',
+                  type: 'i32',
+                  id: null,
+                  body: [{
+                    kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
+                    body: [{
+                      kind: 'loop',
+                      type: 'i32',
+                      id: null,
+                      extra: null,
+                      body: [{
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 2,
+                          raw: '2'
+                        },
+                        expr: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '0x2'
+                        }
+                      }]
+                    }]
+                  }]
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'block',
+                  type: 'i32',
+                  id: null,
+                  body: [{
+                    kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
+                    body: [{
+                      kind: 'block',
+                      type: 'i32',
+                      id: null,
+                      body: [{
+                        kind: 'loop',
+                        type: 'i32',
+                        id: null,
+                        extra: null,
+                        body: [{
+                          kind: 'br',
+                          id: {
+                            kind: 'literal',
+                            value: 1,
+                            raw: '1'
+                          },
+                          expr: {
+                            kind: 'const',
+                            type: 'i32',
+                            init: '0x4'
+                          }
+                        }]
+                      }]
+                    }]
+                  }]
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'block',
+                  type: 'i32',
+                  id: null,
+                  body: [{
+                    kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
+                    body: [{
+                      kind: 'unop',
+                      type: 'i32',
+                      operator: 'ctz',
+                      expr: {
+                        kind: 'br',
+                        id: {
+                          kind: 'literal',
+                          value: 1,
+                          raw: '1'
+                        },
+                        expr: {
+                          kind: 'const',
+                          type: 'i32',
+                          init: '0x8'
+                        }
+                      }
+                    }]
+                  }]
+                }
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'literal',
+                value: 0,
+                raw: '0'
+              },
+              init: {
+                kind: 'binop',
+                type: 'i32',
+                operator: 'add',
+                left: {
+                  kind: 'get_local',
+                  id: {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                },
+                right: {
+                  kind: 'block',
+                  type: 'i32',
+                  id: null,
+                  body: [{
+                    kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
+                    body: [{
+                      kind: 'unop',
+                      type: 'i32',
+                      operator: 'ctz',
+                      expr: {
+                        kind: 'loop',
+                        type: 'i32',
+                        id: null,
+                        extra: null,
+                        body: [{
+                          kind: 'br',
+                          id: {
+                            kind: 'literal',
+                            value: 2,
+                            raw: '2'
+                          },
+                          expr: {
+                            kind: 'const',
+                            type: 'i32',
+                            init: '0x10'
+                          }
+                        }]
+                      }
+                    }]
                   }]
                 }
               }
@@ -1167,6 +1419,7 @@
             kind: 'literal',
             value: 'cont-inner'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1215,14 +1468,20 @@
                 },
                 right: {
                   kind: 'loop',
+                  type: 'i32',
+                  id: null,
+                  extra: null,
                   body: [{
                     kind: 'loop',
+                    type: 'i32',
+                    id: null,
+                    extra: null,
                     body: [{
                       kind: 'br',
                       id: {
                         kind: 'literal',
-                        value: 2,
-                        raw: '2'
+                        value: 1,
+                        raw: '1'
                       },
                       expr: null
                     }]
@@ -1251,6 +1510,9 @@
                 },
                 right: {
                   kind: 'loop',
+                  type: 'i32',
+                  id: null,
+                  extra: null,
                   body: [{
                     kind: 'unop',
                     type: 'i32',
@@ -1289,18 +1551,24 @@
                 },
                 right: {
                   kind: 'loop',
+                  type: 'i32',
+                  id: null,
+                  extra: null,
                   body: [{
                     kind: 'unop',
                     type: 'i32',
                     operator: 'ctz',
                     expr: {
                       kind: 'loop',
+                      type: 'i32',
+                      id: null,
+                      extra: null,
                       body: [{
                         kind: 'br',
                         id: {
                           kind: 'literal',
-                          value: 2,
-                          raw: '2'
+                          value: 1,
+                          raw: '1'
                         },
                         expr: null
                       }]
@@ -1321,1295 +1589,6 @@
         },
         {
           kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-mid'
-          },
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'fx'
-                },
-                exprs: []
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '7'
-              },
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'dummy'
-                },
-                exprs: []
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '8'
-              }
-            ]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-last'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'dummy'
-                },
-                exprs: []
-              },
-              {
-                kind: 'call',
-                id: {
-                  kind: 'identifier',
-                  name: 'fx'
-                },
-                exprs: []
-              },
-              {kind: 'nop'},
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '8'
-              }
-            ]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-break-void'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {kind: 'nop'}
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {kind: 'nop'},
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {kind: 'nop'},
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {kind: 'nop'},
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '3'
-                  }
-                ],
-                body: [{
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                }]
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {kind: 'nop'},
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                ],
-                body: [
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                ]
-              }]
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-break-value'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '11'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '10'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '9'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '5'
-                  }
-                ],
-                body: [{
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                }]
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                ],
-                body: [
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                ]
-              }]
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-cont-void'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                expr: {kind: 'nop'}
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                expr: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {kind: 'nop'},
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {kind: 'nop'},
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {kind: 'nop'},
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '3'
-                  }
-                ],
-                body: [{
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }]
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {kind: 'nop'},
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                ],
-                body: [
-                  {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                ]
-              }]
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-cont-value'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '8'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '11'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '0'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_if',
-                id: {
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                },
-                test: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '10'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '9'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '5'
-                  }
-                ],
-                body: [{
-                  kind: 'literal',
-                  value: 0,
-                  raw: '0'
-                }]
-              }]
-            },
-            {
-              kind: 'loop',
-              body: [{
-                kind: 'br_table',
-                exprs: [
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  },
-                  {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                ],
-                body: [
-                  {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  }
-                ]
-              }]
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-break-value-heterogeneous'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'loop',
-                  body: [
-                    {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: null
-                    },
-                    {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '8'
-                      }
-                    }
-                  ]
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'block',
-                  id: null,
-                  body: [{
-                    kind: 'br',
-                    id: {
-                      kind: 'literal',
-                      value: 2,
-                      raw: '2'
-                    },
-                    expr: {
-                      kind: 'const',
-                      type: 'f64',
-                      init: '7'
-                    }
-                  }]
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            }
-          ]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'drop-cont-value-heterogeneous'
-          },
-          type: null,
-          params: [],
-          result: null,
-          local: [],
-          body: [
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f64',
-                    init: '8'
-                  }
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            },
-            {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'loop',
-                  body: [
-                    {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      },
-                      expr: null
-                    },
-                    {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      },
-                      expr: {
-                        kind: 'const',
-                        type: 'i32',
-                        init: '8'
-                      }
-                    }
-                  ]
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'f32',
-                    init: '8'
-                  }
-                },
-                {
-                  kind: 'block',
-                  id: null,
-                  body: [{
-                    kind: 'br',
-                    id: {
-                      kind: 'literal',
-                      value: 1,
-                      raw: '1'
-                    },
-                    expr: {
-                      kind: 'const',
-                      type: 'f64',
-                      init: '7'
-                    }
-                  }]
-                },
-                {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '3'
-                }
-              ]
-            }
-          ]
-        },
-        {
-          kind: 'func',
           id: {
             kind: 'identifier',
             name: 'fx'
@@ -2618,6 +1597,7 @@
             kind: 'literal',
             value: 'effects'
           },
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -2633,135 +1613,143 @@
           }],
           body: [
             {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'const',
-                    type: 'i32',
-                    init: '1'
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i32',
-                    operator: 'mul',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
                     },
-                    right: {
+                    init: {
                       kind: 'const',
                       type: 'i32',
-                      init: '3'
+                      init: '1'
                     }
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
                   },
-                  init: {
-                    kind: 'binop',
-                    type: 'i32',
-                    operator: 'sub',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
                     },
-                    right: {
-                      kind: 'const',
+                    init: {
+                      kind: 'binop',
                       type: 'i32',
-                      init: '5'
-                    }
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i32',
-                    operator: 'mul',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
+                      operator: 'mul',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '3'
                       }
-                    },
-                    right: {
-                      kind: 'const',
-                      type: 'i32',
-                      init: '7'
                     }
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
                   },
-                  expr: null
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i32',
-                    operator: 'mul',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i32',
+                      operator: 'sub',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '5'
                       }
+                    }
+                  },
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
                     },
-                    right: {
-                      kind: 'const',
+                    init: {
+                      kind: 'binop',
                       type: 'i32',
-                      init: '100'
+                      operator: 'mul',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '7'
+                      }
+                    }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    expr: null
+                  },
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i32',
+                      operator: 'mul',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i32',
+                        init: '100'
+                      }
                     }
                   }
-                }
-              ]
+                ]
+              }]
             },
             {
               kind: 'relop',
@@ -2790,6 +1778,7 @@
             kind: 'literal',
             value: 'while'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2824,95 +1813,103 @@
               }
             },
             {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  test: {
-                    kind: 'unop',
-                    type: 'i64',
-                    operator: 'eqz',
-                    expr: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    }
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i64',
-                    operator: 'mul',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
                     },
-                    right: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      }
-                    }
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i64',
-                    operator: 'sub',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
+                    test: {
+                      kind: 'unop',
                       type: 'i64',
-                      init: '1'
-                    }
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
+                      operator: 'eqz',
+                      expr: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      }
+                    },
+                    expr: null
                   },
-                  expr: null
-                }
-              ]
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i64',
+                      operator: 'mul',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 1,
+                          raw: '1'
+                        }
+                      }
+                    }
+                  },
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i64',
+                      operator: 'sub',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i64',
+                        init: '1'
+                      }
+                    }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
+                  }
+                ]
+              }]
             },
             {
               kind: 'get_local',
@@ -2931,6 +1928,7 @@
             kind: 'literal',
             value: 'for'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -2984,103 +1982,111 @@
               }
             },
             {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  test: {
-                    kind: 'relop',
-                    type: 'i64',
-                    operator: 'gt_u',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      }
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
                     },
-                    right: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    }
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i64',
-                    operator: 'mul',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 1,
-                        raw: '1'
-                      }
-                    },
-                    right: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      }
-                    }
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 2,
-                    raw: '2'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'i64',
-                    operator: 'add',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
+                    test: {
+                      kind: 'relop',
                       type: 'i64',
-                      init: '1'
-                    }
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
+                      operator: 'gt_u',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 2,
+                          raw: '2'
+                        }
+                      },
+                      right: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      }
+                    },
+                    expr: null
                   },
-                  expr: null
-                }
-              ]
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i64',
+                      operator: 'mul',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 1,
+                          raw: '1'
+                        }
+                      },
+                      right: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 2,
+                          raw: '2'
+                        }
+                      }
+                    }
+                  },
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 2,
+                      raw: '2'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'i64',
+                      operator: 'add',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 2,
+                          raw: '2'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'i64',
+                        init: '1'
+                      }
+                    }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
+                  }
+                ]
+              }]
             },
             {
               kind: 'get_local',
@@ -3099,6 +2105,7 @@
             kind: 'literal',
             value: 'nesting'
           },
+          imp: null,
           type: null,
           params: [{
             kind: 'param',
@@ -3132,239 +2139,255 @@
           }],
           body: [
             {
-              kind: 'loop',
-              body: [
-                {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  test: {
-                    kind: 'relop',
-                    type: 'f32',
-                    operator: 'eq',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
-                      type: 'f32',
-                      init: '0'
-                    }
-                  },
-                  expr: null
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 2,
-                    raw: '2'
-                  },
-                  init: {
-                    kind: 'get_local',
+              kind: 'block',
+              type: null,
+              id: null,
+              body: [{
+                kind: 'loop',
+                type: null,
+                id: null,
+                extra: null,
+                body: [
+                  {
+                    kind: 'br_if',
                     id: {
                       kind: 'literal',
                       value: 1,
                       raw: '1'
-                    }
-                  }
-                },
-                {
-                  kind: 'loop',
-                  body: [
-                    {
-                      kind: 'br_if',
+                    },
+                    test: {
+                      kind: 'relop',
+                      type: 'f32',
+                      operator: 'eq',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'f32',
+                        init: '0'
+                      }
+                    },
+                    expr: null
+                  },
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 2,
+                      raw: '2'
+                    },
+                    init: {
+                      kind: 'get_local',
                       id: {
                         kind: 'literal',
                         value: 1,
                         raw: '1'
-                      },
-                      test: {
-                        kind: 'relop',
-                        type: 'f32',
-                        operator: 'eq',
-                        left: {
-                          kind: 'get_local',
+                      }
+                    }
+                  },
+                  {
+                    kind: 'block',
+                    type: null,
+                    id: null,
+                    body: [{
+                      kind: 'loop',
+                      type: null,
+                      id: null,
+                      extra: null,
+                      body: [
+                        {
+                          kind: 'br_if',
                           id: {
                             kind: 'literal',
-                            value: 2,
-                            raw: '2'
-                          }
+                            value: 1,
+                            raw: '1'
+                          },
+                          test: {
+                            kind: 'relop',
+                            type: 'f32',
+                            operator: 'eq',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 2,
+                                raw: '2'
+                              }
+                            },
+                            right: {
+                              kind: 'const',
+                              type: 'f32',
+                              init: '0'
+                            }
+                          },
+                          expr: null
                         },
-                        right: {
-                          kind: 'const',
-                          type: 'f32',
-                          init: '0'
-                        }
-                      },
-                      expr: null
-                    },
-                    {
-                      kind: 'br_if',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      },
-                      test: {
-                        kind: 'relop',
-                        type: 'f32',
-                        operator: 'lt',
-                        left: {
-                          kind: 'get_local',
-                          id: {
-                            kind: 'literal',
-                            value: 2,
-                            raw: '2'
-                          }
-                        },
-                        right: {
-                          kind: 'const',
-                          type: 'f32',
-                          init: '0'
-                        }
-                      },
-                      expr: null
-                    },
-                    {
-                      kind: 'set_local',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      },
-                      init: {
-                        kind: 'binop',
-                        type: 'f32',
-                        operator: 'add',
-                        left: {
-                          kind: 'get_local',
+                        {
+                          kind: 'br_if',
                           id: {
                             kind: 'literal',
                             value: 3,
                             raw: '3'
+                          },
+                          test: {
+                            kind: 'relop',
+                            type: 'f32',
+                            operator: 'lt',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 2,
+                                raw: '2'
+                              }
+                            },
+                            right: {
+                              kind: 'const',
+                              type: 'f32',
+                              init: '0'
+                            }
+                          },
+                          expr: null
+                        },
+                        {
+                          kind: 'set_local',
+                          id: {
+                            kind: 'literal',
+                            value: 3,
+                            raw: '3'
+                          },
+                          init: {
+                            kind: 'binop',
+                            type: 'f32',
+                            operator: 'add',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 3,
+                                raw: '3'
+                              }
+                            },
+                            right: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 2,
+                                raw: '2'
+                              }
+                            }
                           }
                         },
-                        right: {
-                          kind: 'get_local',
+                        {
+                          kind: 'set_local',
                           id: {
                             kind: 'literal',
                             value: 2,
                             raw: '2'
-                          }
-                        }
-                      }
-                    },
-                    {
-                      kind: 'set_local',
-                      id: {
-                        kind: 'literal',
-                        value: 2,
-                        raw: '2'
-                      },
-                      init: {
-                        kind: 'binop',
-                        type: 'f32',
-                        operator: 'sub',
-                        left: {
-                          kind: 'get_local',
-                          id: {
-                            kind: 'literal',
-                            value: 2,
-                            raw: '2'
+                          },
+                          init: {
+                            kind: 'binop',
+                            type: 'f32',
+                            operator: 'sub',
+                            left: {
+                              kind: 'get_local',
+                              id: {
+                                kind: 'literal',
+                                value: 2,
+                                raw: '2'
+                              }
+                            },
+                            right: {
+                              kind: 'const',
+                              type: 'f32',
+                              init: '2'
+                            }
                           }
                         },
-                        right: {
-                          kind: 'const',
-                          type: 'f32',
-                          init: '2'
+                        {
+                          kind: 'br',
+                          id: {
+                            kind: 'literal',
+                            value: 0,
+                            raw: '0'
+                          },
+                          expr: null
                         }
-                      }
-                    },
-                    {
-                      kind: 'br',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      },
-                      expr: null
-                    }
-                  ]
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 3,
-                    raw: '3'
+                      ]
+                    }]
                   },
-                  init: {
-                    kind: 'binop',
-                    type: 'f32',
-                    operator: 'div',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 3,
-                        raw: '3'
-                      }
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 3,
+                      raw: '3'
                     },
-                    right: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    }
-                  }
-                },
-                {
-                  kind: 'set_local',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
-                  },
-                  init: {
-                    kind: 'binop',
-                    type: 'f32',
-                    operator: 'sub',
-                    left: {
-                      kind: 'get_local',
-                      id: {
-                        kind: 'literal',
-                        value: 0,
-                        raw: '0'
-                      }
-                    },
-                    right: {
-                      kind: 'const',
+                    init: {
+                      kind: 'binop',
                       type: 'f32',
-                      init: '1'
+                      operator: 'div',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 3,
+                          raw: '3'
+                        }
+                      },
+                      right: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      }
                     }
-                  }
-                },
-                {
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 0,
-                    raw: '0'
                   },
-                  expr: null
-                }
-              ]
+                  {
+                    kind: 'set_local',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    init: {
+                      kind: 'binop',
+                      type: 'f32',
+                      operator: 'sub',
+                      left: {
+                        kind: 'get_local',
+                        id: {
+                          kind: 'literal',
+                          value: 0,
+                          raw: '0'
+                        }
+                      },
+                      right: {
+                        kind: 'const',
+                        type: 'f32',
+                        init: '1'
+                      }
+                    }
+                  },
+                  {
+                    kind: 'br',
+                    id: {
+                      kind: 'literal',
+                      value: 0,
+                      raw: '0'
+                    },
+                    expr: null
+                  }
+                ]
+              }]
             },
             {
               kind: 'get_local',
@@ -3542,55 +2565,6 @@
         type: 'i32',
         init: '0x1f'
       }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'drop-mid',
-        body: []
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '8'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'drop-last',
-        body: []
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'drop-break-void',
-        body: []
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'drop-break-value',
-        body: []
-      },
-      expr: null
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'drop-break-value-heterogeneous',
-        body: []
-      },
-      expr: null
     },
     {
       kind: 'assert_return',
@@ -4204,6 +3178,7 @@
             name: 'type-empty-i32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4213,6 +3188,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: []
           }]
         }]
@@ -4233,6 +3211,7 @@
             name: 'type-empty-i64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4242,6 +3221,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: []
           }]
         }]
@@ -4262,6 +3244,7 @@
             name: 'type-empty-f32'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4271,6 +3254,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: []
           }]
         }]
@@ -4291,6 +3277,7 @@
             name: 'type-empty-f64'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4300,6 +3287,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: []
           }]
         }]
@@ -4320,6 +3310,7 @@
             name: 'type-value-void-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4329,6 +3320,9 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: [{kind: 'nop'}]
           }]
         }]
@@ -4349,6 +3343,7 @@
             name: 'type-value-num-vs-num'
           },
           expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -4358,546 +3353,14 @@
           local: [],
           body: [{
             kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
             body: [{
               kind: 'const',
               type: 'f32',
               init: '0'
             }]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-value-void-vs-num-after-break'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              },
-              {kind: 'nop'}
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-value-num-vs-num-after-break'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              },
-              {
-                kind: 'const',
-                type: 'f32',
-                init: '0'
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-last-void-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [{
-              kind: 'br',
-              id: {
-                kind: 'literal',
-                value: 1,
-                raw: '1'
-              },
-              expr: null
-            }]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-void-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: null
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-num-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                }
-              },
-              {
-                kind: 'const',
-                type: 'i32',
-                init: '1'
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-first-num-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '1'
-                }
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-second-num-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'f64',
-                  init: '1'
-                }
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-nested-void-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'loop',
-                body: [{
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 3,
-                    raw: '3'
-                  },
-                  expr: null
-                }]
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-nested-num-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'loop',
-            body: [
-              {
-                kind: 'loop',
-                body: [{
-                  kind: 'br',
-                  id: {
-                    kind: 'literal',
-                    value: 3,
-                    raw: '3'
-                  },
-                  expr: {
-                    kind: 'const',
-                    type: 'i64',
-                    init: '1'
-                  }
-                }]
-              },
-              {
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i32',
-                  init: '1'
-                }
-              }
-            ]
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-operand-void-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'i32',
-            operator: 'ctz',
-            expr: {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: null
-              }]
-            }
-          }]
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'type mismatch'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'type-break-operand-num-vs-num'
-          },
-          expo: null,
-          type: null,
-          params: [],
-          result: {
-            kind: 'result',
-            type: 'i32'
-          },
-          local: [],
-          body: [{
-            kind: 'unop',
-            type: 'i64',
-            operator: 'ctz',
-            expr: {
-              kind: 'loop',
-              body: [{
-                kind: 'br',
-                id: {
-                  kind: 'literal',
-                  value: 1,
-                  raw: '1'
-                },
-                expr: {
-                  kind: 'const',
-                  type: 'i64',
-                  init: '9'
-                }
-              }]
-            }
           }]
         }]
       },

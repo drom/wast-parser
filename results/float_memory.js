@@ -6,24 +6,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: '\\00\\00\\a0\\7f'
             }
@@ -31,11 +18,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -58,23 +46,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -97,23 +75,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -137,23 +105,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -177,23 +135,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -215,17 +163,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },
@@ -384,24 +321,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
             }
@@ -409,11 +333,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -436,23 +361,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -475,23 +390,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -515,23 +420,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -555,23 +450,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -593,17 +478,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },
@@ -762,36 +636,24 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
+            kind: 'data',
+            value: {
               kind: 'literal',
-              value: 1,
-              raw: '1'
-            },
-            init: {
-              kind: 'literal',
-              value: '\\00\\00\\a0\\7f'
+              value: '\\00\\00\\00\\a0\\7f'
             }
           }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -814,23 +676,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -853,23 +705,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -893,23 +735,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -933,23 +765,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -971,17 +793,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },
@@ -1140,36 +951,24 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
+            kind: 'data',
+            value: {
               kind: 'literal',
-              value: 1,
-              raw: '1'
-            },
-            init: {
-              kind: 'literal',
-              value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
+              value: '\\00\\00\\00\\00\\00\\00\\00\\f4\\7f'
             }
           }]
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1192,23 +991,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1231,23 +1020,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1271,23 +1050,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1311,23 +1080,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1349,17 +1108,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },
@@ -1518,24 +1266,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: '\\01\\00\\d0\\7f'
             }
@@ -1543,11 +1278,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1570,23 +1306,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1609,23 +1335,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1649,23 +1365,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1689,23 +1395,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i32.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i32.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -1727,17 +1423,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },
@@ -1896,24 +1581,11 @@
       body: [
         {
           kind: 'memory',
-          int: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
-          int1: {
-            kind: 'literal',
-            value: 1,
-            raw: '1'
-          },
+          int: null,
+          int1: null,
           segment: [{
-            kind: 'segment',
-            offset: {
-              kind: 'literal',
-              value: 0,
-              raw: '0'
-            },
-            init: {
+            kind: 'data',
+            value: {
               kind: 'literal',
               value: '\\01\\00\\00\\00\\00\\00\\fc\\7f'
             }
@@ -1921,11 +1593,12 @@
         },
         {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1948,23 +1621,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.load'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: {
@@ -1987,23 +1650,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.load'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.load'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'f64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2027,23 +1680,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'f64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'f64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.store'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2067,23 +1710,13 @@
           }]
         },
         {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'i64.store'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'i64.store'
-          }
-        },
-        {
           kind: 'func',
-          id: {
-            kind: 'identifier',
-            name: 'reset'
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'reset'
           },
-          expo: null,
+          imp: null,
           type: null,
           params: [],
           result: null,
@@ -2105,17 +1738,6 @@
               init: '0'
             }
           }]
-        },
-        {
-          kind: 'export',
-          name: {
-            kind: 'literal',
-            value: 'reset'
-          },
-          id: {
-            kind: 'identifier',
-            name: 'reset'
-          }
         }
       ]
     },

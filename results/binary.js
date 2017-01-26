@@ -5,7 +5,7 @@
       kind: 'module',
       body: [{
         kind: 'literal',
-        value: '\\00asm\\0b\\00\\00\\00'
+        value: '\\00asm\\0d\\00\\00\\00'
       }]
     },
     {
@@ -17,12 +17,36 @@
         },
         {
           kind: 'literal',
-          value: '\\0b\\00\\00\\00'
+          value: '\\0d\\00\\00\\00'
         }
       ]
     },
     {
-      kind: 'assert_invalid',
+      kind: 'module',
+      body: [
+        '$M1',
+        {
+          kind: 'literal',
+          value: '\\00asm\\0d\\00\\00\\00'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        '$M2',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\0d\\00\\00\\00'
+        }
+      ]
+    },
+    {
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
@@ -36,7 +60,7 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
@@ -50,7 +74,7 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
@@ -64,21 +88,7 @@
       }
     },
     {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'literal',
-          value: '\\01'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'unexpected end'
-      }
-    },
-    {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
@@ -92,7 +102,49 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'literal',
+          value: 'msa\\00'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'magic header not detected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'literal',
+          value: 'msa\\00\\0d\\00\\00\\00'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'magic header not detected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'literal',
+          value: 'msa\\00\\00\\00\\00\\0d'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'magic header not detected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
@@ -106,12 +158,12 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\0b'
+          value: '\\00asm\\0d'
         }]
       },
       failure: {
@@ -120,12 +172,12 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\0b\\00\\00'
+          value: '\\00asm\\0d\\00\\00'
         }]
       },
       failure: {
@@ -134,12 +186,26 @@
       }
     },
     {
-      kind: 'assert_invalid',
+      kind: 'assert_malformed',
       module: {
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\10\\00\\00\\00'
+          value: '\\00asm\\0e\\00\\00\\00'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown binary version'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'literal',
+          value: '\\00asm\\00\\00\\00\\0d'
         }]
       },
       failure: {
