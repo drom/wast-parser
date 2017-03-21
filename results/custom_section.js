@@ -10,7 +10,7 @@
         },
         {
           kind: 'literal',
-          value: '\\0d\\00\\00\\00'
+          value: '\\01\\00\\00\\00'
         },
         {
           kind: 'literal',
@@ -95,7 +95,7 @@
         },
         {
           kind: 'literal',
-          value: '\\0d\\00\\00\\00'
+          value: '\\01\\00\\00\\00'
         },
         {
           kind: 'literal',
@@ -412,7 +412,7 @@
         },
         {
           kind: 'literal',
-          value: '\\0d\\00\\00\\00'
+          value: '\\01\\00\\00\\00'
         },
         {
           kind: 'literal',
@@ -467,7 +467,7 @@
           },
           {
             kind: 'literal',
-            value: '\\0d\\00\\00\\00'
+            value: '\\01\\00\\00\\00'
           },
           {
             kind: 'literal',
@@ -491,7 +491,7 @@
           },
           {
             kind: 'literal',
-            value: '\\0d\\00\\00\\00'
+            value: '\\01\\00\\00\\00'
           },
           {
             kind: 'literal',
@@ -523,7 +523,7 @@
           },
           {
             kind: 'literal',
-            value: '\\0d\\00\\00\\00'
+            value: '\\01\\00\\00\\00'
           },
           {
             kind: 'literal',
@@ -567,7 +567,7 @@
           },
           {
             kind: 'literal',
-            value: '\\0d\\00\\00\\00'
+            value: '\\01\\00\\00\\00'
           },
           {
             kind: 'literal',

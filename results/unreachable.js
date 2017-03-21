@@ -795,6 +795,55 @@
           id: null,
           expo: {
             kind: 'literal',
+            value: 'as-br_table-value-2'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [{
+              kind: 'block',
+              type: 'i32',
+              id: null,
+              body: [{
+                kind: 'br_table',
+                exprs: [
+                  {kind: 'unreachable'},
+                  {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  }
+                ],
+                body: [
+                  {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  }
+                ]
+              }]
+            }]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
             value: 'as-br_table-value-index'
           },
           imp: null,
@@ -837,6 +886,50 @@
                 kind: 'const',
                 type: 'i32',
                 init: '7'
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'as-br_table-value-and-index'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [
+              {
+                kind: 'br_table',
+                exprs: [{kind: 'unreachable'}],
+                body: [
+                  {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  },
+                  {
+                    kind: 'literal',
+                    value: 0,
+                    raw: '0'
+                  }
+                ]
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '8'
               }
             ]
           }]
@@ -2088,7 +2181,31 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        name: 'as-br_table-value-2',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
         name: 'as-br_table-value-index',
+        body: []
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unreachable'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        name: 'as-br_table-value-and-index',
         body: []
       },
       failure: {

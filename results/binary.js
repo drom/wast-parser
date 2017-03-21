@@ -5,7 +5,7 @@
       kind: 'module',
       body: [{
         kind: 'literal',
-        value: '\\00asm\\0d\\00\\00\\00'
+        value: '\\00asm\\01\\00\\00\\00'
       }]
     },
     {
@@ -17,7 +17,7 @@
         },
         {
           kind: 'literal',
-          value: '\\0d\\00\\00\\00'
+          value: '\\01\\00\\00\\00'
         }
       ]
     },
@@ -27,7 +27,7 @@
         '$M1',
         {
           kind: 'literal',
-          value: '\\00asm\\0d\\00\\00\\00'
+          value: '\\00asm\\01\\00\\00\\00'
         }
       ]
     },
@@ -41,7 +41,7 @@
         },
         {
           kind: 'literal',
-          value: '\\0d\\00\\00\\00'
+          value: '\\01\\00\\00\\00'
         }
       ]
     },
@@ -121,7 +121,7 @@
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: 'msa\\00\\0d\\00\\00\\00'
+          value: 'msa\\00\\01\\00\\00\\00'
         }]
       },
       failure: {
@@ -135,7 +135,7 @@
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: 'msa\\00\\00\\00\\00\\0d'
+          value: 'msa\\00\\00\\00\\00\\01'
         }]
       },
       failure: {
@@ -163,7 +163,7 @@
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\0d'
+          value: '\\00asm\\01'
         }]
       },
       failure: {
@@ -177,12 +177,26 @@
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\0d\\00\\00'
+          value: '\\00asm\\01\\00\\00'
         }]
       },
       failure: {
         kind: 'literal',
         value: 'unexpected end'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'literal',
+          value: '\\00asm\\0d\\00\\00\\00'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown binary version'
       }
     },
     {
@@ -205,7 +219,7 @@
         kind: 'module',
         body: [{
           kind: 'literal',
-          value: '\\00asm\\00\\00\\00\\0d'
+          value: '\\00asm\\00\\00\\00\\01'
         }]
       },
       failure: {

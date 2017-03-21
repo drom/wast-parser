@@ -2860,6 +2860,63 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'type-arg-void-vs-num-nested'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: [
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              {
+                kind: 'block',
+                type: null,
+                id: null,
+                body: [{
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '1'
+                  },
+                  expr: null
+                }]
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'type-arg-cond-num-vs-i32'
           },
           expo: null,

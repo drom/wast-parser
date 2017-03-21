@@ -1736,6 +1736,38 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'type-value-empty-vs-num'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i32',
+            id: null,
+            body: []
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'type-value-void-vs-num'
           },
           expo: null,
@@ -1749,7 +1781,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [{kind: 'nop'}]
           }]
@@ -1781,12 +1813,49 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [{
               kind: 'const',
               type: 'f32',
               init: '0'
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-value-unreached-select'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            type: 'i64',
+            id: null,
+            body: [{
+              kind: 'select',
+              then: {kind: 'unreachable'},
+              else: {kind: 'unreachable'},
+              test: {kind: 'unreachable'}
             }]
           }]
         }]
@@ -1844,7 +1913,7 @@
           kind: 'func',
           id: {
             kind: 'identifier',
-            name: 'type-break-void-vs-num'
+            name: 'type-break-empty-vs-num'
           },
           expo: null,
           imp: null,
@@ -1904,7 +1973,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
@@ -1951,7 +2020,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2002,7 +2071,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2057,7 +2126,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2173,7 +2242,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
@@ -2233,12 +2302,12 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
                 kind: 'block',
-                type: null,
+                type: 'i32',
                 id: null,
                 body: [{
                   kind: 'br',
@@ -2293,12 +2362,12 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            type: 'i32',
             id: null,
             body: [
               {
                 kind: 'block',
-                type: null,
+                type: 'i32',
                 id: null,
                 body: [{
                   kind: 'br',

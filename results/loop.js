@@ -3307,6 +3307,73 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'type-value-num-vs-void'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'loop',
+            type: null,
+            id: null,
+            extra: null,
+            body: [{
+              kind: 'const',
+              type: 'i32',
+              init: '1'
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-value-empty-vs-num'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'loop',
+            type: 'i32',
+            id: null,
+            extra: null,
+            body: []
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'type-value-void-vs-num'
           },
           expo: null,
@@ -3320,7 +3387,7 @@
           local: [],
           body: [{
             kind: 'loop',
-            type: null,
+            type: 'i32',
             id: null,
             extra: null,
             body: [{kind: 'nop'}]
@@ -3353,13 +3420,51 @@
           local: [],
           body: [{
             kind: 'loop',
-            type: null,
+            type: 'i32',
             id: null,
             extra: null,
             body: [{
               kind: 'const',
               type: 'f32',
               init: '0'
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-value-unreached-select'
+          },
+          expo: null,
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'loop',
+            type: 'i64',
+            id: null,
+            extra: null,
+            body: [{
+              kind: 'select',
+              then: {kind: 'unreachable'},
+              else: {kind: 'unreachable'},
+              test: {kind: 'unreachable'}
             }]
           }]
         }]
