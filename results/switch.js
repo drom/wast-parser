@@ -746,6 +746,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -763,6 +764,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -780,6 +782,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -797,6 +800,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -814,6 +818,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -831,6 +836,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -848,6 +854,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -865,6 +872,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -882,6 +890,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'stmt',
         body: [{
           kind: 'const',
@@ -899,6 +908,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -916,6 +926,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -933,6 +944,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -950,6 +962,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -967,6 +980,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -984,6 +998,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -1001,6 +1016,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'expr',
         body: [{
           kind: 'const',
@@ -1018,6 +1034,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1035,6 +1052,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1052,6 +1070,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1069,6 +1088,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1086,6 +1106,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1103,6 +1124,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1120,6 +1142,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1137,6 +1160,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1154,6 +1178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'arg',
         body: [{
           kind: 'const',
@@ -1171,6 +1196,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'corner',
         body: []
       },

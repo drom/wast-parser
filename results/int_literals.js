@@ -558,6 +558,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.test',
         body: []
       },
@@ -571,6 +572,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.umax',
         body: []
       },
@@ -584,6 +586,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.smax',
         body: []
       },
@@ -597,6 +600,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.neg_smax',
         body: []
       },
@@ -610,6 +614,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.smin',
         body: []
       },
@@ -623,6 +628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.alt_smin',
         body: []
       },
@@ -636,6 +642,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.inc_smin',
         body: []
       },
@@ -649,6 +656,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.neg_zero',
         body: []
       },
@@ -662,6 +670,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.not_octal',
         body: []
       },
@@ -675,6 +684,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.unsigned_decimal',
         body: []
       },
@@ -688,6 +698,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.plus_sign',
         body: []
       },
@@ -701,6 +712,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.test',
         body: []
       },
@@ -714,6 +726,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.umax',
         body: []
       },
@@ -727,6 +740,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.smax',
         body: []
       },
@@ -740,6 +754,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.neg_smax',
         body: []
       },
@@ -753,6 +768,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.smin',
         body: []
       },
@@ -766,6 +782,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.alt_smin',
         body: []
       },
@@ -779,6 +796,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.inc_smin',
         body: []
       },
@@ -792,6 +810,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.neg_zero',
         body: []
       },
@@ -805,6 +824,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.not_octal',
         body: []
       },
@@ -818,6 +838,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.unsigned_decimal',
         body: []
       },
@@ -831,6 +852,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.plus_sign',
         body: []
       },

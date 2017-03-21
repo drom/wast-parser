@@ -198,6 +198,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -218,6 +219,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -235,6 +237,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -258,6 +261,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -274,6 +278,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -297,6 +302,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -313,6 +319,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -336,6 +343,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -352,6 +360,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -375,6 +384,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -391,6 +401,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store',
         body: [
           {
@@ -414,6 +425,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load',
         body: [{
           kind: 'const',
@@ -430,6 +442,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow_memory',
         body: [{
           kind: 'const',
@@ -872,6 +885,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.store16',
         body: [
           {
@@ -895,6 +909,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.store',
         body: [
           {
@@ -918,6 +933,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.store',
         body: [
           {
@@ -941,6 +957,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.store',
         body: [
           {
@@ -964,6 +981,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store16',
         body: [
           {
@@ -987,6 +1005,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store32',
         body: [
           {
@@ -1010,6 +1029,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store32',
         body: [
           {
@@ -1033,6 +1053,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store32',
         body: [
           {
@@ -1056,6 +1077,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1079,6 +1101,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1102,6 +1125,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1125,6 +1149,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1148,6 +1173,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1171,6 +1197,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1194,6 +1221,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.store',
         body: [
           {
@@ -1217,6 +1245,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.store',
         body: [
           {
@@ -1240,6 +1269,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.store',
         body: [
           {
@@ -1263,6 +1293,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.store',
         body: [
           {
@@ -1286,6 +1317,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1309,6 +1341,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1332,6 +1365,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1355,6 +1389,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1378,6 +1413,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1401,6 +1437,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1424,6 +1461,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.store',
         body: [
           {
@@ -1447,6 +1485,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: [{
           kind: 'const',

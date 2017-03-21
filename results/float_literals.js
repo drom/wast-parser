@@ -1630,6 +1630,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nan',
         body: []
       },
@@ -1643,6 +1644,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.positive_nan',
         body: []
       },
@@ -1656,6 +1658,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.negative_nan',
         body: []
       },
@@ -1669,6 +1672,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.plain_nan',
         body: []
       },
@@ -1682,6 +1686,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.informally_known_as_plain_snan',
         body: []
       },
@@ -1695,6 +1700,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.all_ones_nan',
         body: []
       },
@@ -1708,6 +1714,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.misc_nan',
         body: []
       },
@@ -1721,6 +1728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.misc_positive_nan',
         body: []
       },
@@ -1734,6 +1742,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.misc_negative_nan',
         body: []
       },
@@ -1747,6 +1756,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.infinity',
         body: []
       },
@@ -1760,6 +1770,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.positive_infinity',
         body: []
       },
@@ -1773,6 +1784,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.negative_infinity',
         body: []
       },
@@ -1786,6 +1798,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.zero',
         body: []
       },
@@ -1799,6 +1812,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.positive_zero',
         body: []
       },
@@ -1812,6 +1826,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.negative_zero',
         body: []
       },
@@ -1825,6 +1840,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.misc',
         body: []
       },
@@ -1838,6 +1854,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.min_positive',
         body: []
       },
@@ -1851,6 +1868,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.min_normal',
         body: []
       },
@@ -1864,6 +1882,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.max_subnormal',
         body: []
       },
@@ -1877,6 +1896,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.max_finite',
         body: []
       },
@@ -1890,6 +1910,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.trailing_dot',
         body: []
       },
@@ -1903,6 +1924,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.zero',
         body: []
       },
@@ -1916,6 +1938,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.positive_zero',
         body: []
       },
@@ -1929,6 +1952,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.negative_zero',
         body: []
       },
@@ -1942,6 +1966,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.misc',
         body: []
       },
@@ -1955,6 +1980,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.min_positive',
         body: []
       },
@@ -1968,6 +1994,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.min_normal',
         body: []
       },
@@ -1981,6 +2008,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.max_subnormal',
         body: []
       },
@@ -1994,6 +2022,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.max_finite',
         body: []
       },
@@ -2007,6 +2036,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32_dec.trailing_dot',
         body: []
       },
@@ -2020,6 +2050,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nan',
         body: []
       },
@@ -2033,6 +2064,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.positive_nan',
         body: []
       },
@@ -2046,6 +2078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.negative_nan',
         body: []
       },
@@ -2059,6 +2092,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.plain_nan',
         body: []
       },
@@ -2072,6 +2106,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.informally_known_as_plain_snan',
         body: []
       },
@@ -2085,6 +2120,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.all_ones_nan',
         body: []
       },
@@ -2098,6 +2134,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.misc_nan',
         body: []
       },
@@ -2111,6 +2148,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.misc_positive_nan',
         body: []
       },
@@ -2124,6 +2162,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.misc_negative_nan',
         body: []
       },
@@ -2137,6 +2176,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.infinity',
         body: []
       },
@@ -2150,6 +2190,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.positive_infinity',
         body: []
       },
@@ -2163,6 +2204,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.negative_infinity',
         body: []
       },
@@ -2176,6 +2218,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.zero',
         body: []
       },
@@ -2189,6 +2232,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.positive_zero',
         body: []
       },
@@ -2202,6 +2246,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.negative_zero',
         body: []
       },
@@ -2215,6 +2260,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.misc',
         body: []
       },
@@ -2228,6 +2274,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.min_positive',
         body: []
       },
@@ -2241,6 +2288,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.min_normal',
         body: []
       },
@@ -2254,6 +2302,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.max_subnormal',
         body: []
       },
@@ -2267,6 +2316,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.max_finite',
         body: []
       },
@@ -2280,6 +2330,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.trailing_dot',
         body: []
       },
@@ -2293,6 +2344,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.zero',
         body: []
       },
@@ -2306,6 +2358,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.positive_zero',
         body: []
       },
@@ -2319,6 +2372,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.negative_zero',
         body: []
       },
@@ -2332,6 +2386,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.misc',
         body: []
       },
@@ -2345,6 +2400,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.min_positive',
         body: []
       },
@@ -2358,6 +2414,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.min_normal',
         body: []
       },
@@ -2371,6 +2428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.max_subnormal',
         body: []
       },
@@ -2384,6 +2442,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.max_finite',
         body: []
       },
@@ -2397,6 +2456,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64_dec.trailing_dot',
         body: []
       },

@@ -304,6 +304,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },
@@ -315,6 +316,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'inc',
       body: []
     },
@@ -322,6 +324,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },
@@ -333,6 +336,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'inc',
       body: []
     },
@@ -340,6 +344,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },
@@ -539,6 +544,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },
@@ -550,6 +556,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'inc',
       body: []
     },
@@ -557,6 +564,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },
@@ -568,6 +576,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'inc',
       body: []
     },
@@ -575,6 +584,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'get',
         body: []
       },

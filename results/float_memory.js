@@ -170,6 +170,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -183,6 +184,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -194,6 +196,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -201,6 +204,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -214,6 +218,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -225,6 +230,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f32.store',
       body: []
     },
@@ -232,6 +238,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -245,6 +252,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -256,6 +264,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -263,6 +272,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -276,6 +286,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -287,6 +298,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i32.store',
       body: []
     },
@@ -294,6 +306,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -307,6 +320,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -485,6 +499,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -498,6 +513,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -509,6 +525,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -516,6 +533,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -529,6 +547,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -540,6 +559,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f64.store',
       body: []
     },
@@ -547,6 +567,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -560,6 +581,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -571,6 +593,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -578,6 +601,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -591,6 +615,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -602,6 +627,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i64.store',
       body: []
     },
@@ -609,6 +635,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -622,6 +649,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -800,6 +828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -813,6 +842,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -824,6 +854,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -831,6 +862,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -844,6 +876,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -855,6 +888,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f32.store',
       body: []
     },
@@ -862,6 +896,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -875,6 +910,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -886,6 +922,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -893,6 +930,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -906,6 +944,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -917,6 +956,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i32.store',
       body: []
     },
@@ -924,6 +964,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -937,6 +978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1115,6 +1157,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1128,6 +1171,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1139,6 +1183,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1146,6 +1191,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1159,6 +1205,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1170,6 +1217,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f64.store',
       body: []
     },
@@ -1177,6 +1225,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1190,6 +1239,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1201,6 +1251,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1208,6 +1259,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1221,6 +1273,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1232,6 +1285,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i64.store',
       body: []
     },
@@ -1239,6 +1293,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1252,6 +1307,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1430,6 +1486,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -1443,6 +1500,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1454,6 +1512,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1461,6 +1520,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -1474,6 +1534,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1485,6 +1546,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f32.store',
       body: []
     },
@@ -1492,6 +1554,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -1505,6 +1568,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1516,6 +1580,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1523,6 +1588,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -1536,6 +1602,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1547,6 +1614,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i32.store',
       body: []
     },
@@ -1554,6 +1622,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.load',
         body: []
       },
@@ -1567,6 +1636,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.load',
         body: []
       },
@@ -1745,6 +1815,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1758,6 +1829,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1769,6 +1841,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1776,6 +1849,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1789,6 +1863,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1800,6 +1875,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'f64.store',
       body: []
     },
@@ -1807,6 +1883,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1820,6 +1897,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1831,6 +1909,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'reset',
       body: []
     },
@@ -1838,6 +1917,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1851,6 +1931,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },
@@ -1862,6 +1943,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'i64.store',
       body: []
     },
@@ -1869,6 +1951,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.load',
         body: []
       },
@@ -1882,6 +1965,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.load',
         body: []
       },

@@ -1450,6 +1450,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1474,6 +1475,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1498,6 +1500,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1522,6 +1525,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1546,6 +1550,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1570,6 +1575,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1594,6 +1600,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1618,6 +1625,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'add',
         body: [
           {
@@ -1642,6 +1650,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1666,6 +1675,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1690,6 +1700,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1714,6 +1725,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1738,6 +1750,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1762,6 +1775,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1786,6 +1800,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'sub',
         body: [
           {
@@ -1810,6 +1825,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1834,6 +1850,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1858,6 +1875,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1882,6 +1900,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1906,6 +1925,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1930,6 +1950,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1954,6 +1975,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -1978,6 +2000,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'mul',
         body: [
           {
@@ -2002,6 +2025,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2025,6 +2049,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2048,6 +2073,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2071,6 +2097,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2095,6 +2122,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2119,6 +2147,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2143,6 +2172,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2167,6 +2197,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2191,6 +2222,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2215,6 +2247,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2239,6 +2272,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2263,6 +2297,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2287,6 +2322,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2311,6 +2347,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2335,6 +2372,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2359,6 +2397,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2383,6 +2422,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2407,6 +2447,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_s',
         body: [
           {
@@ -2431,6 +2472,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2454,6 +2496,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2477,6 +2520,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2501,6 +2545,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2525,6 +2570,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2549,6 +2595,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2573,6 +2620,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2597,6 +2645,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2621,6 +2670,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2645,6 +2695,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2669,6 +2720,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2693,6 +2745,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2717,6 +2770,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2741,6 +2795,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2765,6 +2820,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2789,6 +2845,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'div_u',
         body: [
           {
@@ -2813,6 +2870,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2836,6 +2894,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2859,6 +2918,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2883,6 +2943,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2907,6 +2968,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2931,6 +2993,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2955,6 +3018,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -2979,6 +3043,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3003,6 +3068,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3027,6 +3093,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3051,6 +3118,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3075,6 +3143,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3099,6 +3168,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3123,6 +3193,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3147,6 +3218,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3171,6 +3243,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3195,6 +3268,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3219,6 +3293,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3243,6 +3318,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_s',
         body: [
           {
@@ -3267,6 +3343,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3290,6 +3367,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3313,6 +3391,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3337,6 +3416,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3361,6 +3441,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3385,6 +3466,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3409,6 +3491,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3433,6 +3516,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3457,6 +3541,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3481,6 +3566,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3505,6 +3591,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3529,6 +3616,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3553,6 +3641,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3577,6 +3666,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3601,6 +3691,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3625,6 +3716,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rem_u',
         body: [
           {
@@ -3649,6 +3741,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3673,6 +3766,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3697,6 +3791,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3721,6 +3816,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3745,6 +3841,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3769,6 +3866,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3793,6 +3891,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3817,6 +3916,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'and',
         body: [
           {
@@ -3841,6 +3941,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3865,6 +3966,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3889,6 +3991,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3913,6 +4016,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3937,6 +4041,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3961,6 +4066,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -3985,6 +4091,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -4009,6 +4116,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'or',
         body: [
           {
@@ -4033,6 +4141,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4057,6 +4166,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4081,6 +4191,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4105,6 +4216,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4129,6 +4241,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4153,6 +4266,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4177,6 +4291,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4201,6 +4316,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4225,6 +4341,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4249,6 +4366,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'xor',
         body: [
           {
@@ -4273,6 +4391,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4297,6 +4416,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4321,6 +4441,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4345,6 +4466,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4369,6 +4491,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4393,6 +4516,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4417,6 +4541,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4441,6 +4566,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4465,6 +4591,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4489,6 +4616,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4513,6 +4641,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shl',
         body: [
           {
@@ -4537,6 +4666,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4561,6 +4691,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4585,6 +4716,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4609,6 +4741,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4633,6 +4766,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4657,6 +4791,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4681,6 +4816,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4705,6 +4841,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4729,6 +4866,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4753,6 +4891,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4777,6 +4916,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4801,6 +4941,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4825,6 +4966,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4849,6 +4991,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4873,6 +5016,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4897,6 +5041,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4921,6 +5066,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_s',
         body: [
           {
@@ -4945,6 +5091,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -4969,6 +5116,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -4993,6 +5141,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5017,6 +5166,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5041,6 +5191,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5065,6 +5216,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5089,6 +5241,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5113,6 +5266,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5137,6 +5291,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5161,6 +5316,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5185,6 +5341,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5209,6 +5366,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5233,6 +5391,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5257,6 +5416,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5281,6 +5441,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5305,6 +5466,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5329,6 +5491,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'shr_u',
         body: [
           {
@@ -5353,6 +5516,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5377,6 +5541,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5401,6 +5566,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5425,6 +5591,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5449,6 +5616,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5473,6 +5641,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotl',
         body: [
           {
@@ -5497,6 +5666,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5521,6 +5691,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5545,6 +5716,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5569,6 +5741,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5593,6 +5766,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5617,6 +5791,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5641,6 +5816,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'rotr',
         body: [
           {
@@ -5665,6 +5841,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5682,6 +5859,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5699,6 +5877,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5716,6 +5895,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5733,6 +5913,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5750,6 +5931,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5767,6 +5949,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5784,6 +5967,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'clz',
         body: [{
           kind: 'const',
@@ -5801,6 +5985,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5818,6 +6003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5835,6 +6021,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5852,6 +6039,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5869,6 +6057,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5886,6 +6075,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ctz',
         body: [{
           kind: 'const',
@@ -5903,6 +6093,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -5920,6 +6111,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -5937,6 +6129,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -5954,6 +6147,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -5971,6 +6165,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -5988,6 +6183,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -6005,6 +6201,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -6022,6 +6219,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'popcnt',
         body: [{
           kind: 'const',
@@ -6039,6 +6237,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eqz',
         body: [{
           kind: 'const',
@@ -6056,6 +6255,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eqz',
         body: [{
           kind: 'const',
@@ -6073,6 +6273,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eqz',
         body: [{
           kind: 'const',
@@ -6090,6 +6291,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eqz',
         body: [{
           kind: 'const',
@@ -6107,6 +6309,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6131,6 +6334,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6155,6 +6359,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6179,6 +6384,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6203,6 +6409,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6227,6 +6434,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6251,6 +6459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6275,6 +6484,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6299,6 +6509,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6323,6 +6534,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6347,6 +6559,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6371,6 +6584,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6395,6 +6609,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6419,6 +6634,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'eq',
         body: [
           {
@@ -6443,6 +6659,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6467,6 +6684,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6491,6 +6709,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6515,6 +6734,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6539,6 +6759,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6563,6 +6784,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6587,6 +6809,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6611,6 +6834,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6635,6 +6859,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6659,6 +6884,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6683,6 +6909,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6707,6 +6934,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6731,6 +6959,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6755,6 +6984,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ne',
         body: [
           {
@@ -6779,6 +7009,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6803,6 +7034,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6827,6 +7059,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6851,6 +7084,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6875,6 +7109,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6899,6 +7134,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6923,6 +7159,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6947,6 +7184,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6971,6 +7209,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -6995,6 +7234,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -7019,6 +7259,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -7043,6 +7284,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -7067,6 +7309,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -7091,6 +7334,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_s',
         body: [
           {
@@ -7115,6 +7359,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7139,6 +7384,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7163,6 +7409,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7187,6 +7434,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7211,6 +7459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7235,6 +7484,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7259,6 +7509,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7283,6 +7534,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7307,6 +7559,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7331,6 +7584,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7355,6 +7609,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7379,6 +7634,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7403,6 +7659,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7427,6 +7684,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'lt_u',
         body: [
           {
@@ -7451,6 +7709,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7475,6 +7734,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7499,6 +7759,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7523,6 +7784,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7547,6 +7809,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7571,6 +7834,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7595,6 +7859,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7619,6 +7884,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7643,6 +7909,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7667,6 +7934,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7691,6 +7959,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7715,6 +7984,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7739,6 +8009,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7763,6 +8034,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_s',
         body: [
           {
@@ -7787,6 +8059,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7811,6 +8084,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7835,6 +8109,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7859,6 +8134,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7883,6 +8159,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7907,6 +8184,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7931,6 +8209,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7955,6 +8234,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -7979,6 +8259,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8003,6 +8284,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8027,6 +8309,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8051,6 +8334,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8075,6 +8359,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8099,6 +8384,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'le_u',
         body: [
           {
@@ -8123,6 +8409,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_s',
         body: [
           {
@@ -8147,6 +8434,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_s',
         body: [
           {
@@ -8171,6 +8459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_s',
         body: [
           {
@@ -8195,6 +8484,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_s',
         body: [
           {
@@ -8219,343 +8509,8 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x7fffffff'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x7fffffff'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x7fffffff'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_s',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x7fffffff'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_u',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_u',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_u',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '-1'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_u',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x80000000'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '0'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        name: 'gt_u',
         body: [
           {
             kind: 'const',
@@ -8579,6 +8534,357 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x7fffffff'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x7fffffff'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_u',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_u',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_u',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '1'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_u',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'gt_u',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x7fffffff'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x7fffffff'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8603,6 +8909,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8627,6 +8934,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8651,6 +8959,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8675,6 +8984,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8699,6 +9009,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8723,6 +9034,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8747,6 +9059,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8771,6 +9084,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'gt_u',
         body: [
           {
@@ -8795,6 +9109,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8819,6 +9134,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8843,6 +9159,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8867,6 +9184,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8891,6 +9209,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8915,6 +9234,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8939,6 +9259,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8963,6 +9284,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -8987,6 +9309,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9011,6 +9334,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9035,6 +9359,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9059,6 +9384,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9083,6 +9409,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9107,6 +9434,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_s',
         body: [
           {
@@ -9131,6 +9459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9155,6 +9484,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9179,6 +9509,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9203,6 +9534,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9227,6 +9559,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9251,6 +9584,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9275,6 +9609,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9299,6 +9634,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9323,6 +9659,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9347,6 +9684,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9371,6 +9709,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9395,6 +9734,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9419,6 +9759,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {
@@ -9443,6 +9784,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'ge_u',
         body: [
           {

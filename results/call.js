@@ -1225,6 +1225,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-i32',
         body: []
       },
@@ -1238,6 +1239,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-i64',
         body: []
       },
@@ -1251,6 +1253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-f32',
         body: []
       },
@@ -1264,6 +1267,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-f64',
         body: []
       },
@@ -1277,6 +1281,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-first-i32',
         body: []
       },
@@ -1290,6 +1295,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-first-i64',
         body: []
       },
@@ -1303,6 +1309,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-first-f32',
         body: []
       },
@@ -1316,6 +1323,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-first-f64',
         body: []
       },
@@ -1329,6 +1337,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-second-i32',
         body: []
       },
@@ -1342,6 +1351,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-second-i64',
         body: []
       },
@@ -1355,6 +1365,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-second-f32',
         body: []
       },
@@ -1368,6 +1379,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-second-f64',
         body: []
       },
@@ -1381,6 +1393,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac',
         body: [{
           kind: 'const',
@@ -1398,6 +1411,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac',
         body: [{
           kind: 'const',
@@ -1415,6 +1429,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac',
         body: [{
           kind: 'const',
@@ -1432,6 +1447,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac',
         body: [{
           kind: 'const',
@@ -1449,6 +1465,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-acc',
         body: [
           {
@@ -1473,6 +1490,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-acc',
         body: [
           {
@@ -1497,6 +1515,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-acc',
         body: [
           {
@@ -1521,6 +1540,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-acc',
         body: [
           {
@@ -1545,6 +1565,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fib',
         body: [{
           kind: 'const',
@@ -1562,6 +1583,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fib',
         body: [{
           kind: 'const',
@@ -1579,6 +1601,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fib',
         body: [{
           kind: 'const',
@@ -1596,6 +1619,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fib',
         body: [{
           kind: 'const',
@@ -1613,6 +1637,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fib',
         body: [{
           kind: 'const',
@@ -1630,6 +1655,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -1647,6 +1673,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -1664,6 +1691,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -1681,6 +1709,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -1698,6 +1727,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',
@@ -1715,6 +1745,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',
@@ -1732,6 +1763,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',
@@ -1749,6 +1781,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',
@@ -1766,6 +1799,7 @@
       kind: 'assert_exhaustion',
       module: {
         kind: 'invoke',
+        id: null,
         name: 'runaway',
         body: []
       },
@@ -1778,6 +1812,7 @@
       kind: 'assert_exhaustion',
       module: {
         kind: 'invoke',
+        id: null,
         name: 'mutual-runaway',
         body: []
       },

@@ -40,8 +40,8 @@ var report = { pass: 0, fail: 0 };
 
 wastFileNames.forEach(function (wastFileName) {
     var matchArr = wastFileName.match('^(.*).wast$');
-    var matchFail = wastFileName.match('^(.*).fail.wast$');
-    if (matchArr && !matchFail) {
+    // var matchFail = wastFileName.match('^(.*).fail.wast$');
+    if (matchArr) { // } && !matchFail) {
         fs.readFile(
             path.resolve(src, wastFileName),
             'utf8',

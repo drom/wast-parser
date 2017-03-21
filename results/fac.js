@@ -745,6 +745,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-rec',
         body: [{
           kind: 'const',
@@ -762,6 +763,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-iter',
         body: [{
           kind: 'const',
@@ -779,6 +781,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-rec-named',
         body: [{
           kind: 'const',
@@ -796,6 +799,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-iter-named',
         body: [{
           kind: 'const',
@@ -813,6 +817,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'fac-opt',
         body: [{
           kind: 'const',
@@ -830,6 +835,7 @@
       kind: 'assert_exhaustion',
       module: {
         kind: 'invoke',
+        id: null,
         name: 'fac-rec',
         body: [{
           kind: 'const',

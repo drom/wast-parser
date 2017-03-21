@@ -218,6 +218,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.div_s',
         body: [
           {
@@ -241,6 +242,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.div_u',
         body: [
           {
@@ -264,6 +266,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.div_s',
         body: [
           {
@@ -287,6 +290,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.div_u',
         body: [
           {
@@ -523,6 +527,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.rem_s',
         body: [
           {
@@ -546,6 +551,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.rem_u',
         body: [
           {
@@ -569,6 +575,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.rem_s',
         body: [
           {
@@ -592,6 +599,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.rem_u',
         body: [
           {
@@ -908,6 +916,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.trunc_s_f32',
         body: [{
           kind: 'const',
@@ -924,6 +933,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.trunc_u_f32',
         body: [{
           kind: 'const',
@@ -940,6 +950,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.trunc_s_f64',
         body: [{
           kind: 'const',
@@ -956,6 +967,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.trunc_u_f64',
         body: [{
           kind: 'const',
@@ -972,6 +984,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.trunc_s_f32',
         body: [{
           kind: 'const',
@@ -988,6 +1001,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.trunc_u_f32',
         body: [{
           kind: 'const',
@@ -1004,6 +1018,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.trunc_s_f64',
         body: [{
           kind: 'const',
@@ -1020,6 +1035,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.trunc_u_f64',
         body: [{
           kind: 'const',
@@ -1206,6 +1222,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i32.load',
         body: [{
           kind: 'const',
@@ -1222,6 +1239,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.i64.load',
         body: [{
           kind: 'const',
@@ -1238,6 +1256,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.f32.load',
         body: [{
           kind: 'const',
@@ -1254,6 +1273,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'no_dce.f64.load',
         body: [{
           kind: 'const',

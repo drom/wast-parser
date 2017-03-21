@@ -191,6 +191,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'size',
         body: []
       },
@@ -204,6 +205,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_zero',
         body: []
       },
@@ -216,6 +218,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_zero',
         body: []
       },
@@ -228,6 +231,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_page_size',
         body: []
       },
@@ -240,6 +244,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_page_size',
         body: []
       },
@@ -252,6 +257,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -269,6 +275,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'size',
         body: []
       },
@@ -282,6 +289,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_zero',
         body: []
       },
@@ -295,6 +303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_zero',
         body: []
       },
@@ -304,6 +313,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_zero',
         body: []
       },
@@ -317,6 +327,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_page_size',
         body: []
       },
@@ -329,6 +340,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_page_size',
         body: []
       },
@@ -341,6 +353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -358,6 +371,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'size',
         body: []
       },
@@ -371,6 +385,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_zero',
         body: []
       },
@@ -384,6 +399,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_zero',
         body: []
       },
@@ -393,6 +409,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_zero',
         body: []
       },
@@ -406,6 +423,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_page_size',
         body: []
       },
@@ -419,6 +437,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'store_at_page_size',
         body: []
       },
@@ -428,6 +447,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'load_at_page_size',
         body: []
       },
@@ -492,6 +512,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -509,6 +530,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -526,6 +548,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -543,6 +566,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -560,6 +584,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -632,6 +657,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -649,6 +675,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -666,6 +693,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -683,6 +711,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -700,6 +729,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -717,6 +747,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',
@@ -734,6 +765,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'grow',
         body: [{
           kind: 'const',

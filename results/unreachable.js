@@ -1903,6 +1903,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-i32',
         body: []
       },
@@ -1915,6 +1916,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-i64',
         body: []
       },
@@ -1927,6 +1929,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-f32',
         body: []
       },
@@ -1939,6 +1942,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-f64',
         body: []
       },
@@ -1951,6 +1955,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-func-first',
         body: []
       },
@@ -1963,6 +1968,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-func-mid',
         body: []
       },
@@ -1975,6 +1981,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-func-last',
         body: []
       },
@@ -1987,6 +1994,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-func-value',
         body: []
       },
@@ -1999,6 +2007,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-first',
         body: []
       },
@@ -2011,6 +2020,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-mid',
         body: []
       },
@@ -2023,6 +2033,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-last',
         body: []
       },
@@ -2035,6 +2046,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-value',
         body: []
       },
@@ -2047,6 +2059,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-broke',
         body: []
       },
@@ -2060,6 +2073,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-first',
         body: []
       },
@@ -2072,6 +2086,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-mid',
         body: []
       },
@@ -2084,6 +2099,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-last',
         body: []
       },
@@ -2096,6 +2112,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-broke',
         body: []
       },
@@ -2109,6 +2126,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br-value',
         body: []
       },
@@ -2121,6 +2139,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_if-cond',
         body: []
       },
@@ -2133,6 +2152,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_if-value',
         body: []
       },
@@ -2145,6 +2165,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_if-value-cond',
         body: []
       },
@@ -2157,6 +2178,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_table-index',
         body: []
       },
@@ -2169,6 +2191,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_table-value',
         body: []
       },
@@ -2181,6 +2204,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_table-value-2',
         body: []
       },
@@ -2193,6 +2217,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_table-value-index',
         body: []
       },
@@ -2205,6 +2230,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-br_table-value-and-index',
         body: []
       },
@@ -2217,6 +2243,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-return-value',
         body: []
       },
@@ -2229,6 +2256,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-cond',
         body: []
       },
@@ -2241,6 +2269,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -2264,6 +2293,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -2288,6 +2318,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -2311,6 +2342,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -2335,6 +2367,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-select-first',
         body: [
           {
@@ -2358,6 +2391,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-select-first',
         body: [
           {
@@ -2381,6 +2415,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-select-second',
         body: [
           {
@@ -2404,6 +2439,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-select-second',
         body: [
           {
@@ -2427,6 +2463,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-select-cond',
         body: []
       },
@@ -2439,6 +2476,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call-first',
         body: []
       },
@@ -2451,6 +2489,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call-mid',
         body: []
       },
@@ -2463,6 +2502,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call-last',
         body: []
       },
@@ -2475,6 +2515,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call_indirect-func',
         body: []
       },
@@ -2487,6 +2528,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call_indirect-first',
         body: []
       },
@@ -2499,6 +2541,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call_indirect-mid',
         body: []
       },
@@ -2511,6 +2554,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-call_indirect-last',
         body: []
       },
@@ -2523,6 +2567,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-set_local-value',
         body: []
       },
@@ -2535,6 +2580,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-load-address',
         body: []
       },
@@ -2547,6 +2593,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loadN-address',
         body: []
       },
@@ -2559,6 +2606,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-store-address',
         body: []
       },
@@ -2571,6 +2619,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-store-value',
         body: []
       },
@@ -2583,6 +2632,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-storeN-address',
         body: []
       },
@@ -2595,6 +2645,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-storeN-value',
         body: []
       },
@@ -2607,6 +2658,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-unary-operand',
         body: []
       },
@@ -2619,6 +2671,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-binary-left',
         body: []
       },
@@ -2631,6 +2684,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-binary-right',
         body: []
       },
@@ -2643,6 +2697,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-test-operand',
         body: []
       },
@@ -2655,6 +2710,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-compare-left',
         body: []
       },
@@ -2667,6 +2723,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-compare-right',
         body: []
       },
@@ -2679,6 +2736,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-convert-operand',
         body: []
       },
@@ -2691,6 +2749,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-grow_memory-size',
         body: []
       },

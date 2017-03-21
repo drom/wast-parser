@@ -298,6 +298,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_cmp_s_offset',
         body: [
           {
@@ -322,6 +323,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_cmp_u_offset',
         body: [
           {
@@ -346,6 +348,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_cmp_s_offset',
         body: [
           {
@@ -370,6 +373,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_cmp_u_offset',
         body: [
           {
@@ -439,6 +443,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_wrap_extend_s',
         body: [{
           kind: 'const',
@@ -456,6 +461,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_wrap_extend_s',
         body: [{
           kind: 'const',
@@ -518,6 +524,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_wrap_extend_u',
         body: [{
           kind: 'const',
@@ -740,6 +747,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_shl_shr_s',
         body: [{
           kind: 'const',
@@ -757,6 +765,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_shl_shr_u',
         body: [{
           kind: 'const',
@@ -774,6 +783,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_shl_shr_s',
         body: [{
           kind: 'const',
@@ -791,6 +801,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_shl_shr_u',
         body: [{
           kind: 'const',
@@ -1013,6 +1024,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_shr_s_shl',
         body: [{
           kind: 'const',
@@ -1030,6 +1042,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_shr_u_shl',
         body: [{
           kind: 'const',
@@ -1047,6 +1060,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_shr_s_shl',
         body: [{
           kind: 'const',
@@ -1064,6 +1078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_shr_u_shl',
         body: [{
           kind: 'const',
@@ -1286,6 +1301,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_div_s_mul',
         body: [{
           kind: 'const',
@@ -1303,6 +1319,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_div_u_mul',
         body: [{
           kind: 'const',
@@ -1320,6 +1337,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_div_s_mul',
         body: [{
           kind: 'const',
@@ -1337,6 +1355,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_div_u_mul',
         body: [{
           kind: 'const',
@@ -1559,6 +1578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_mul_div_s',
         body: [{
           kind: 'const',
@@ -1576,6 +1596,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_mul_div_u',
         body: [{
           kind: 'const',
@@ -1593,6 +1614,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_mul_div_s',
         body: [{
           kind: 'const',
@@ -1610,6 +1632,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_mul_div_u',
         body: [{
           kind: 'const',
@@ -1712,6 +1735,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_div_s_2',
         body: [{
           kind: 'const',
@@ -1729,6 +1753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_div_s_2',
         body: [{
           kind: 'const',
@@ -1831,6 +1856,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.no_fold_rem_s_2',
         body: [{
           kind: 'const',
@@ -1848,6 +1874,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.no_fold_rem_s_2',
         body: [{
           kind: 'const',
@@ -2030,6 +2057,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_3',
         body: [{
           kind: 'const',
@@ -2046,6 +2074,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_3',
         body: [{
           kind: 'const',
@@ -2062,6 +2091,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_3',
         body: [{
           kind: 'const',
@@ -2078,6 +2108,7 @@
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_3',
         body: [{
           kind: 'const',
@@ -2259,6 +2290,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_3',
         body: [{
           kind: 'const',
@@ -2276,6 +2308,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_3',
         body: [{
           kind: 'const',
@@ -2293,6 +2326,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_3',
         body: [{
           kind: 'const',
@@ -2310,6 +2344,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_3',
         body: [{
           kind: 'const',
@@ -2327,6 +2362,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_3',
         body: [{
           kind: 'const',
@@ -2344,6 +2380,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_3',
         body: [{
           kind: 'const',
@@ -2361,6 +2398,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_3',
         body: [{
           kind: 'const',
@@ -2378,6 +2416,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_3',
         body: [{
           kind: 'const',
@@ -2560,6 +2599,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_5',
         body: [{
           kind: 'const',
@@ -2577,6 +2617,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_5',
         body: [{
           kind: 'const',
@@ -2594,6 +2635,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_5',
         body: [{
           kind: 'const',
@@ -2611,6 +2653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_5',
         body: [{
           kind: 'const',
@@ -2628,6 +2671,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_5',
         body: [{
           kind: 'const',
@@ -2645,6 +2689,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_5',
         body: [{
           kind: 'const',
@@ -2662,6 +2707,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_5',
         body: [{
           kind: 'const',
@@ -2679,6 +2725,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_5',
         body: [{
           kind: 'const',
@@ -2861,6 +2908,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_7',
         body: [{
           kind: 'const',
@@ -2878,6 +2926,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_s_7',
         body: [{
           kind: 'const',
@@ -2895,6 +2944,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_7',
         body: [{
           kind: 'const',
@@ -2912,6 +2962,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.div_u_7',
         body: [{
           kind: 'const',
@@ -2929,6 +2980,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_7',
         body: [{
           kind: 'const',
@@ -2946,6 +2998,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_s_7',
         body: [{
           kind: 'const',
@@ -2963,6 +3016,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_7',
         body: [{
           kind: 'const',
@@ -2980,6 +3034,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.div_u_7',
         body: [{
           kind: 'const',
@@ -3162,6 +3217,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_3',
         body: [{
           kind: 'const',
@@ -3179,6 +3235,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_3',
         body: [{
           kind: 'const',
@@ -3196,6 +3253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_3',
         body: [{
           kind: 'const',
@@ -3213,6 +3271,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_3',
         body: [{
           kind: 'const',
@@ -3230,6 +3289,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_3',
         body: [{
           kind: 'const',
@@ -3247,6 +3307,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_3',
         body: [{
           kind: 'const',
@@ -3264,6 +3325,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_3',
         body: [{
           kind: 'const',
@@ -3281,6 +3343,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_3',
         body: [{
           kind: 'const',
@@ -3463,6 +3526,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_5',
         body: [{
           kind: 'const',
@@ -3480,6 +3544,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_5',
         body: [{
           kind: 'const',
@@ -3497,6 +3562,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_5',
         body: [{
           kind: 'const',
@@ -3514,6 +3580,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_5',
         body: [{
           kind: 'const',
@@ -3531,6 +3598,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_5',
         body: [{
           kind: 'const',
@@ -3548,6 +3616,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_5',
         body: [{
           kind: 'const',
@@ -3565,6 +3634,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_5',
         body: [{
           kind: 'const',
@@ -3582,6 +3652,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_5',
         body: [{
           kind: 'const',
@@ -3764,6 +3835,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_7',
         body: [{
           kind: 'const',
@@ -3781,6 +3853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_s_7',
         body: [{
           kind: 'const',
@@ -3798,6 +3871,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_7',
         body: [{
           kind: 'const',
@@ -3815,6 +3889,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i32.rem_u_7',
         body: [{
           kind: 'const',
@@ -3832,6 +3907,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_7',
         body: [{
           kind: 'const',
@@ -3849,6 +3925,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_s_7',
         body: [{
           kind: 'const',
@@ -3866,6 +3943,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_7',
         body: [{
           kind: 'const',
@@ -3883,6 +3961,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'i64.rem_u_7',
         body: [{
           kind: 'const',

@@ -708,6 +708,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-local-i32',
         body: []
       },
@@ -721,6 +722,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-local-i64',
         body: []
       },
@@ -734,6 +736,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-local-f32',
         body: []
       },
@@ -747,6 +750,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-local-f64',
         body: []
       },
@@ -760,6 +764,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-param-i32',
         body: [{
           kind: 'const',
@@ -777,6 +782,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-param-i64',
         body: [{
           kind: 'const',
@@ -794,6 +800,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-param-f32',
         body: [{
           kind: 'const',
@@ -811,6 +818,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-param-f64',
         body: [{
           kind: 'const',
@@ -828,6 +836,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'type-mixed',
         body: [
           {
@@ -863,6 +872,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'read',
         body: [
           {

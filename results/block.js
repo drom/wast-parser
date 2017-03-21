@@ -1393,6 +1393,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'empty',
         body: []
       },
@@ -1402,6 +1403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'singular',
         body: []
       },
@@ -1415,6 +1417,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'multi',
         body: []
       },
@@ -1428,6 +1431,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested',
         body: []
       },
@@ -1441,6 +1445,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'deep',
         body: []
       },
@@ -1454,6 +1459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-unary-operand',
         body: []
       },
@@ -1467,6 +1473,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-binary-operand',
         body: []
       },
@@ -1480,6 +1487,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-test-operand',
         body: []
       },
@@ -1493,6 +1501,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-compare-operand',
         body: []
       },
@@ -1506,6 +1515,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'break-bare',
         body: []
       },
@@ -1519,6 +1529,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'break-value',
         body: []
       },
@@ -1532,6 +1543,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'break-repeated',
         body: []
       },
@@ -1545,6 +1557,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'break-inner',
         body: []
       },
@@ -1558,6 +1571,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'effects',
         body: []
       },

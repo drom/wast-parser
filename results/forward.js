@@ -166,6 +166,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -183,6 +184,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'even',
         body: [{
           kind: 'const',
@@ -200,6 +202,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',
@@ -217,6 +220,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'odd',
         body: [{
           kind: 'const',

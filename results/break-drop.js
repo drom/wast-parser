@@ -100,6 +100,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'br',
         body: []
       },
@@ -109,6 +110,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'br_if',
         body: []
       },
@@ -118,6 +120,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'br_table',
         body: []
       },

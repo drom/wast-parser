@@ -1228,6 +1228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1252,6 +1253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1276,6 +1278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1300,6 +1303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1324,6 +1328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1348,6 +1353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1372,6 +1378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1396,6 +1403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1420,6 +1428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1444,6 +1453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1468,6 +1478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1492,6 +1503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1516,6 +1528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1540,6 +1553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1564,6 +1578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1588,6 +1603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1612,6 +1628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1636,6 +1653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1660,6 +1678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1684,6 +1703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1708,6 +1728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1732,6 +1753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1756,6 +1778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1780,6 +1803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1804,6 +1828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1828,6 +1853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1852,6 +1878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -1876,6 +1903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1900,6 +1928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1924,6 +1953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1948,6 +1978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1972,6 +2003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -1996,6 +2028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2020,6 +2053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2044,6 +2078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2068,6 +2103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2092,6 +2128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2116,6 +2153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2140,6 +2178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2164,6 +2203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2188,6 +2228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2212,6 +2253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2236,6 +2278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2260,6 +2303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2284,6 +2328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2308,6 +2353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2332,6 +2378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2356,6 +2403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2380,6 +2428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2404,6 +2453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2428,6 +2478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2452,6 +2503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2476,6 +2528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2500,6 +2553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2524,6 +2578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2548,6 +2603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2572,6 +2628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2596,6 +2653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2620,6 +2678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2644,6 +2703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2668,6 +2728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2692,6 +2753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2716,6 +2778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2740,6 +2803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2764,6 +2828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2788,6 +2853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2812,6 +2878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2836,6 +2903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2860,6 +2928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2884,6 +2953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2908,6 +2978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2932,6 +3003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -2956,6 +3028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -2980,6 +3053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -3004,6 +3078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -3028,6 +3103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -3052,6 +3128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -3076,6 +3153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.add',
         body: [
           {
@@ -3100,6 +3178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.add',
         body: [
           {
@@ -3124,6 +3203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3148,6 +3228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3172,6 +3253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3196,6 +3278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3220,6 +3303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3244,6 +3328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3268,6 +3353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3292,6 +3378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3316,6 +3403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3340,6 +3428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3364,6 +3453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3388,6 +3478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3412,6 +3503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3436,6 +3528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3460,6 +3553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3484,6 +3578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3508,6 +3603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3532,6 +3628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3556,6 +3653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3580,6 +3678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3604,6 +3703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3628,6 +3728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3652,6 +3753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3676,6 +3778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3700,6 +3803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3724,6 +3828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3748,6 +3853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3772,6 +3878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3796,6 +3903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3820,6 +3928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3844,6 +3953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -3868,6 +3978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3892,6 +4003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3916,6 +4028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3940,6 +4053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3964,6 +4078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -3988,6 +4103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4012,6 +4128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4036,6 +4153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4060,6 +4178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4084,6 +4203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4108,6 +4228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4132,6 +4253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4156,6 +4278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4180,6 +4303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4204,6 +4328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4228,6 +4353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4252,6 +4378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4276,6 +4403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4300,6 +4428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4324,6 +4453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4348,6 +4478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4372,6 +4503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4396,6 +4528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4420,6 +4553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4444,6 +4578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4468,6 +4603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4492,6 +4628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4516,6 +4653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4540,6 +4678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4564,6 +4703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sub',
         body: [
           {
@@ -4588,6 +4728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sub',
         body: [
           {
@@ -4612,6 +4753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4636,6 +4778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4660,6 +4803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4684,6 +4828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4708,6 +4853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4732,6 +4878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4756,6 +4903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4780,6 +4928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4804,6 +4953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4828,6 +4978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4852,6 +5003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4876,6 +5028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4900,6 +5053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4924,6 +5078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4948,6 +5103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -4972,6 +5128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -4996,6 +5153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5020,6 +5178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5044,6 +5203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5068,6 +5228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5092,6 +5253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5116,6 +5278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5140,6 +5303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5164,6 +5328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5188,6 +5353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5212,6 +5378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5236,6 +5403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5260,6 +5428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5284,6 +5453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5308,6 +5478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5332,6 +5503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5356,6 +5528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5380,6 +5553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5404,6 +5578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5428,6 +5603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5452,6 +5628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5476,6 +5653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5500,6 +5678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5524,6 +5703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5548,6 +5728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5572,6 +5753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5596,6 +5778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5620,6 +5803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5644,6 +5828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5668,6 +5853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5692,6 +5878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5716,6 +5903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5740,6 +5928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5764,6 +5953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5788,6 +5978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5812,6 +6003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5836,6 +6028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5860,6 +6053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5884,6 +6078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5908,6 +6103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -5932,6 +6128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5956,6 +6153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -5980,6 +6178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -6004,6 +6203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -6028,6 +6228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -6052,6 +6253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -6076,6 +6278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -6100,6 +6303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -6124,6 +6328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.mul',
         body: [
           {
@@ -6148,6 +6353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.mul',
         body: [
           {
@@ -6172,6 +6378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6196,6 +6403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6220,6 +6428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6244,6 +6453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6268,6 +6478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6292,6 +6503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6316,6 +6528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6340,6 +6553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6364,6 +6578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6388,6 +6603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6412,6 +6628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6436,6 +6653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6460,6 +6678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6484,6 +6703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6508,6 +6728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6532,6 +6753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6556,6 +6778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6580,6 +6803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6604,6 +6828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6628,6 +6853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6652,6 +6878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6676,6 +6903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6700,6 +6928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6724,6 +6953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6748,6 +6978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6772,6 +7003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6796,6 +7028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6820,6 +7053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6844,6 +7078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6868,6 +7103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6892,6 +7128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6916,6 +7153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -6940,6 +7178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6964,6 +7203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -6988,6 +7228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7012,6 +7253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7036,6 +7278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7060,6 +7303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7084,6 +7328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7108,6 +7353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7132,6 +7378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7156,6 +7403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7180,6 +7428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7204,6 +7453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7228,6 +7478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7252,6 +7503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7276,6 +7528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7300,6 +7553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7324,6 +7578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7348,6 +7603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7372,6 +7628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7396,6 +7653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7420,6 +7678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7444,6 +7703,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7468,6 +7728,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7492,6 +7753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7516,6 +7778,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7540,6 +7803,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7564,6 +7828,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7588,6 +7853,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7612,6 +7878,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7636,6 +7903,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7660,6 +7928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7684,6 +7953,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7708,6 +7978,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7732,6 +8003,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7756,6 +8028,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7780,6 +8053,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7804,6 +8078,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7828,6 +8103,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7852,6 +8128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7876,6 +8153,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7900,6 +8178,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7924,6 +8203,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -7948,6 +8228,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7972,6 +8253,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -7996,6 +8278,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8020,6 +8303,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8044,6 +8328,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8068,6 +8353,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8092,6 +8378,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8116,6 +8403,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8140,6 +8428,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8164,6 +8453,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8188,6 +8478,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8212,6 +8503,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8236,6 +8528,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8260,6 +8553,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8284,6 +8578,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.div',
         body: [
           {
@@ -8308,6 +8603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8332,6 +8628,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8356,6 +8653,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.div',
         body: [
           {
@@ -8380,6 +8678,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8397,6 +8696,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8414,6 +8714,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8431,6 +8732,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8448,6 +8750,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8465,6 +8768,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8482,6 +8786,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8499,6 +8804,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8516,6 +8822,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8533,6 +8840,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8550,6 +8858,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8567,6 +8876,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8584,6 +8894,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8601,6 +8912,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8618,6 +8930,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8635,6 +8948,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8652,6 +8966,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8669,6 +8984,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8686,6 +9002,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8703,6 +9020,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8720,6 +9038,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8737,6 +9056,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8754,6 +9074,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8771,6 +9092,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8788,6 +9110,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8805,6 +9128,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8822,6 +9146,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8839,6 +9164,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8856,6 +9182,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8873,6 +9200,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8890,6 +9218,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8907,6 +9236,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8924,6 +9254,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8941,6 +9272,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8958,6 +9290,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -8975,6 +9308,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -8992,6 +9326,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9009,6 +9344,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9026,6 +9362,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9043,6 +9380,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9060,6 +9398,7 @@
       kind: 'assert_return_nan',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9072,6 +9411,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9089,6 +9429,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9106,6 +9447,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9123,6 +9465,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9140,6 +9483,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -9157,6 +9501,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.sqrt',
         body: [{
           kind: 'const',
@@ -9174,6 +9519,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9191,6 +9537,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.sqrt',
         body: [{
           kind: 'const',
@@ -9208,6 +9555,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.abs',
         body: [{
           kind: 'const',
@@ -9225,6 +9573,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.abs',
         body: [{
           kind: 'const',
@@ -9242,6 +9591,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.abs',
         body: [{
           kind: 'const',
@@ -9259,6 +9609,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.abs',
         body: [{
           kind: 'const',
@@ -9276,6 +9627,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.abs',
         body: [{
           kind: 'const',
@@ -9293,6 +9645,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.abs',
         body: [{
           kind: 'const',
@@ -9310,6 +9663,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.abs',
         body: [{
           kind: 'const',
@@ -9327,6 +9681,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.abs',
         body: [{
           kind: 'const',
@@ -9344,6 +9699,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.neg',
         body: [{
           kind: 'const',
@@ -9361,6 +9717,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.neg',
         body: [{
           kind: 'const',
@@ -9378,6 +9735,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.neg',
         body: [{
           kind: 'const',
@@ -9395,6 +9753,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.neg',
         body: [{
           kind: 'const',
@@ -9412,6 +9771,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.neg',
         body: [{
           kind: 'const',
@@ -9429,6 +9789,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.neg',
         body: [{
           kind: 'const',
@@ -9446,6 +9807,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.neg',
         body: [{
           kind: 'const',
@@ -9463,6 +9825,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.neg',
         body: [{
           kind: 'const',
@@ -9480,6 +9843,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9504,6 +9868,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9528,6 +9893,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9552,6 +9918,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9576,6 +9943,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9600,6 +9968,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9624,6 +9993,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9648,6 +10018,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.copysign',
         body: [
           {
@@ -9672,6 +10043,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9696,6 +10068,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9720,6 +10093,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9744,6 +10118,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9768,6 +10143,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9792,6 +10168,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9816,6 +10193,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9840,6 +10218,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.copysign',
         body: [
           {
@@ -9864,6 +10243,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.ceil',
         body: [{
           kind: 'const',
@@ -9881,6 +10261,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.ceil',
         body: [{
           kind: 'const',
@@ -9898,6 +10279,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.ceil',
         body: [{
           kind: 'const',
@@ -9915,6 +10297,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.ceil',
         body: [{
           kind: 'const',
@@ -9932,6 +10315,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.ceil',
         body: [{
           kind: 'const',
@@ -9949,6 +10333,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.ceil',
         body: [{
           kind: 'const',
@@ -9966,6 +10351,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.ceil',
         body: [{
           kind: 'const',
@@ -9983,6 +10369,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.ceil',
         body: [{
           kind: 'const',
@@ -10000,6 +10387,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.floor',
         body: [{
           kind: 'const',
@@ -10017,6 +10405,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.floor',
         body: [{
           kind: 'const',
@@ -10034,6 +10423,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.floor',
         body: [{
           kind: 'const',
@@ -10051,6 +10441,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.floor',
         body: [{
           kind: 'const',
@@ -10068,6 +10459,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.floor',
         body: [{
           kind: 'const',
@@ -10085,6 +10477,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.floor',
         body: [{
           kind: 'const',
@@ -10102,6 +10495,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.floor',
         body: [{
           kind: 'const',
@@ -10119,6 +10513,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.floor',
         body: [{
           kind: 'const',
@@ -10136,6 +10531,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.trunc',
         body: [{
           kind: 'const',
@@ -10153,6 +10549,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.trunc',
         body: [{
           kind: 'const',
@@ -10170,6 +10567,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.trunc',
         body: [{
           kind: 'const',
@@ -10187,6 +10585,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.trunc',
         body: [{
           kind: 'const',
@@ -10204,6 +10603,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10221,6 +10621,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10238,6 +10639,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10255,6 +10657,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10272,6 +10675,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10289,6 +10693,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10306,6 +10711,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10323,6 +10729,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10340,6 +10747,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10357,6 +10765,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10374,6 +10783,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10391,6 +10801,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10408,6 +10819,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10425,6 +10837,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10442,6 +10855,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10459,6 +10873,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f32.nearest',
         body: [{
           kind: 'const',
@@ -10476,6 +10891,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',
@@ -10493,6 +10909,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'f64.nearest',
         body: [{
           kind: 'const',

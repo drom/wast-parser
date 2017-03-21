@@ -1344,6 +1344,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-first',
         body: [{
           kind: 'const',
@@ -1361,6 +1362,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-first',
         body: [{
           kind: 'const',
@@ -1378,6 +1380,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-mid',
         body: [{
           kind: 'const',
@@ -1395,6 +1398,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-mid',
         body: [{
           kind: 'const',
@@ -1412,6 +1416,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-last',
         body: [{
           kind: 'const',
@@ -1425,6 +1430,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-last',
         body: [{
           kind: 'const',
@@ -1438,6 +1444,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-last-value',
         body: [{
           kind: 'const',
@@ -1455,6 +1462,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-block-last-value',
         body: [{
           kind: 'const',
@@ -1472,6 +1480,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-first',
         body: [{
           kind: 'const',
@@ -1489,6 +1498,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-first',
         body: [{
           kind: 'const',
@@ -1506,6 +1516,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-mid',
         body: [{
           kind: 'const',
@@ -1523,6 +1534,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-mid',
         body: [{
           kind: 'const',
@@ -1540,6 +1552,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-last',
         body: [{
           kind: 'const',
@@ -1553,6 +1566,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-loop-last',
         body: [{
           kind: 'const',
@@ -1566,6 +1580,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -1586,6 +1601,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -1606,6 +1622,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -1626,6 +1643,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-then',
         body: [
           {
@@ -1646,6 +1664,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -1666,6 +1685,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -1686,6 +1706,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -1706,6 +1727,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'as-if-else',
         body: [
           {
@@ -1726,6 +1748,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-block-value',
         body: [{
           kind: 'const',
@@ -1743,6 +1766,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-block-value',
         body: [{
           kind: 'const',
@@ -1760,6 +1784,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br-value',
         body: [{
           kind: 'const',
@@ -1777,6 +1802,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br-value',
         body: [{
           kind: 'const',
@@ -1794,6 +1820,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_if-value',
         body: [{
           kind: 'const',
@@ -1811,6 +1838,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_if-value',
         body: [{
           kind: 'const',
@@ -1828,6 +1856,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_if-value-cond',
         body: [{
           kind: 'const',
@@ -1845,6 +1874,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_if-value-cond',
         body: [{
           kind: 'const',
@@ -1862,6 +1892,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_table-value',
         body: [{
           kind: 'const',
@@ -1879,6 +1910,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_table-value',
         body: [{
           kind: 'const',
@@ -1896,6 +1928,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_table-value-index',
         body: [{
           kind: 'const',
@@ -1913,6 +1946,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'nested-br_table-value-index',
         body: [{
           kind: 'const',

@@ -274,7 +274,7 @@ expr
             };
         }
 
-        / type:local_type "." kind:"load" sufix:( ( "8" / "16" / "32") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
+        / type:local_type "." kind:"load" sufix:( ( "8" / "16" / "32" / "64") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
             return {
                 kind: kind,
                 type: type,
@@ -286,7 +286,7 @@ expr
             };
         }
 
-        / type:local_type "." kind:"store" sufix:( "8" / "16" / "32")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
+        / type:local_type "." kind:"store" sufix:( "8" / "16" / "32" / "64")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
             return {
                 kind: kind,
                 type: type,
@@ -538,9 +538,10 @@ memory = kind:"memory" int:( __ int )? int1:( __ int )? segment:( __ cmd )* {
     };
 }
 
-invoke = kind:"invoke" __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* {
+invoke = kind:"invoke" id:( __ var )? __ ["] name:( "\\\"" / !["] . )* ["] body:( __ expr )* {
     return {
         kind: kind,
+        id: id ? id[1] : id,
         name: name.map(function (e) {
             return e[1];
         }).join(''),

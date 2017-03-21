@@ -372,6 +372,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'test_store_to_load',
         body: []
       },
@@ -383,6 +384,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'zero_everything',
       body: []
     },
@@ -390,6 +392,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'test_redundant_load',
         body: []
       },
@@ -401,6 +404,7 @@
     },
     {
       kind: 'invoke',
+      id: null,
       name: 'zero_everything',
       body: []
     },
@@ -408,6 +412,7 @@
       kind: 'assert_return',
       invoke: {
         kind: 'invoke',
+        id: null,
         name: 'test_dead_store',
         body: []
       },
