@@ -298,12 +298,12 @@ expr
             };
         }
 
-        / kind:"select" __ thene:expr __ elsee:expr __ test:expr {
+        / kind:"select" args:( __ expr __ expr __ expr )? {
             return {
                 kind: kind,
-                then: thene,
-                else: elsee,
-                test: test
+                then: args ? args[1] : null,
+                else: args ? args[3] : null,
+                test: args ? args[5] : null
             };
         }
 
