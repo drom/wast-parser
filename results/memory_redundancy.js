@@ -365,6 +365,163 @@
               }
             }
           ]
+        },
+        {
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'malloc'
+          },
+          expo: {
+            kind: 'literal',
+            value: 'malloc'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'size',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'const',
+            type: 'i32',
+            init: '16'
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'malloc_aliasing'
+          },
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'x',
+                type: 'i32'
+              }]
+            },
+            {
+              kind: 'local',
+              items: [{
+                kind: 'item',
+                name: 'y',
+                type: 'i32'
+              }]
+            }
+          ],
+          body: [
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              },
+              init: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'malloc'
+                },
+                exprs: [{
+                  kind: 'const',
+                  type: 'i32',
+                  init: '4'
+                }]
+              }
+            },
+            {
+              kind: 'set_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              },
+              init: {
+                kind: 'call',
+                id: {
+                  kind: 'identifier',
+                  name: 'malloc'
+                },
+                exprs: [{
+                  kind: 'const',
+                  type: 'i32',
+                  init: '4'
+                }]
+              }
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: null,
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '42'
+              }
+            },
+            {
+              kind: 'store',
+              type: 'i32',
+              size: null,
+              offset: 0,
+              align: 0,
+              addr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'y'
+                }
+              },
+              data: {
+                kind: 'const',
+                type: 'i32',
+                init: '43'
+              }
+            },
+            {
+              kind: 'load',
+              type: 'i32',
+              size: null,
+              sign: null,
+              offset: 0,
+              align: 0,
+              expr: {
+                kind: 'get_local',
+                id: {
+                  kind: 'identifier',
+                  name: 'x'
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -420,6 +577,26 @@
         kind: 'const',
         type: 'f32',
         init: '0x1.18p-144'
+      }
+    },
+    {
+      kind: 'invoke',
+      id: null,
+      name: 'zero_everything',
+      body: []
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'malloc_aliasing',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '43'
       }
     }
   ]
