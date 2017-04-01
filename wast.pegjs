@@ -266,11 +266,11 @@ expr
             };
         }
 
-        / kind:("set_local" / "tee_local") __ id:var __ expr:expr {
+        / kind:("set_local" / "tee_local") __ id:var expr:( __ expr )? {
             return {
                 kind: kind,
                 id: id,
-                init: expr
+                init: expr ? expr[1] : null
             };
         }
 
@@ -588,10 +588,10 @@ assert_invalid = kind:("assert_invalid" / "assert_unlinkable" / "assert_malforme
     };
 }
 
-data = kind:"data" __ value:literal {
+data = kind:"data" values:( __ literal )* {
     return {
         kind: kind,
-        value: value
+        values: values.map(function (e) { return e[1]; })
     };
 }
 

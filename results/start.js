@@ -124,10 +124,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: 'A'
-            }
+            }]
           }]
         },
         {
@@ -363,10 +363,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: 'A'
-            }
+            }]
           }]
         },
         {

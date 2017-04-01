@@ -10,10 +10,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\00\\00\\a0\\7f'
-            }
+            }]
           }]
         },
         {
@@ -339,10 +339,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
-            }
+            }]
           }]
         },
         {
@@ -668,10 +668,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\a0\\7f'
-            }
+            }]
           }]
         },
         {
@@ -997,10 +997,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\00\\f4\\7f'
-            }
+            }]
           }]
         },
         {
@@ -1326,10 +1326,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\01\\00\\d0\\7f'
-            }
+            }]
           }]
         },
         {
@@ -1655,10 +1655,10 @@
           int1: null,
           segment: [{
             kind: 'data',
-            value: {
+            values: [{
               kind: 'literal',
               value: '\\01\\00\\00\\00\\00\\00\\fc\\7f'
-            }
+            }]
           }]
         },
         {
