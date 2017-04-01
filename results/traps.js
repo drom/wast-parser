@@ -31,29 +31,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -83,29 +83,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i32',
-              operator: 'div_u',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -135,29 +135,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i64',
-              operator: 'div_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -187,29 +187,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i64',
-              operator: 'div_u',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         }
       ]
@@ -340,29 +340,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i32',
-              operator: 'rem_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -392,29 +392,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i32',
-              operator: 'rem_u',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -444,29 +444,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i64',
-              operator: 'rem_s',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         },
         {
@@ -496,29 +496,29 @@
               }]
             }
           ],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'binop',
-              type: 'i64',
-              operator: 'rem_u',
-              left: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
-              },
-              right: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'y'
-                }
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'y'
+              }
+            }
           }]
         }
       ]
@@ -639,23 +639,23 @@
               type: 'f32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'f32',
-              operator: 'trunc_s',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -675,23 +675,23 @@
               type: 'f32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'f32',
-              operator: 'trunc_u',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f32',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -711,23 +711,23 @@
               type: 'f64'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'f64',
-              operator: 'trunc_s',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -747,23 +747,23 @@
               type: 'f64'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i32',
-              type1: 'f64',
-              operator: 'trunc_u',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i32',
+            type1: 'f64',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -783,23 +783,23 @@
               type: 'f32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i64',
-              type1: 'f32',
-              operator: 'trunc_s',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f32',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -819,23 +819,23 @@
               type: 'f32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i64',
-              type1: 'f32',
-              operator: 'trunc_u',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f32',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -855,23 +855,23 @@
               type: 'f64'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i64',
-              type1: 'f64',
-              operator: 'trunc_s',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_s',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         },
         {
@@ -891,23 +891,23 @@
               type: 'f64'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'cvtop',
-              type: 'i64',
-              type1: 'f64',
-              operator: 'trunc_u',
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'x'
-                }
+            kind: 'cvtop',
+            type: 'i64',
+            type1: 'f64',
+            operator: 'trunc_u',
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
               }
-            }]
+            }
           }]
         }
       ]
@@ -1081,177 +1081,25 @@
               type: 'i32'
             }]
           }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i32',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i32.load16_s'
+          result: {
+            kind: 'result',
+            type: 'i32'
           },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i32',
-              size: 16,
-              sign: true,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
+            kind: 'load',
+            type: 'i32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
               }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i32.load16_u'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i32',
-              size: 16,
-              sign: false,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i32.load8_s'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i32',
-              size: 8,
-              sign: true,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i32.load8_u'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i32',
-              size: 8,
-              sign: false,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
+            }
           }]
         },
         {
@@ -1271,253 +1119,25 @@
               type: 'i32'
             }]
           }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load32_s'
+          result: {
+            kind: 'result',
+            type: 'i64'
           },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 32,
-              sign: true,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
+            kind: 'load',
+            type: 'i64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
               }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load32_u'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 32,
-              sign: false,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load16_s'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 16,
-              sign: true,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load16_u'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 16,
-              sign: false,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load8_s'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 8,
-              sign: true,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'no_dce.i64.load8_u'
-          },
-          imp: null,
-          type: null,
-          params: [{
-            kind: 'param',
-            items: [{
-              kind: 'item',
-              name: 'i',
-              type: 'i32'
-            }]
-          }],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'i64',
-              size: 8,
-              sign: false,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
-              }
-            }]
+            }
           }]
         },
         {
@@ -1537,25 +1157,25 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'f32'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'f32',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
+            kind: 'load',
+            type: 'f32',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
               }
-            }]
+            }
           }]
         },
         {
@@ -1575,25 +1195,25 @@
               type: 'i32'
             }]
           }],
-          result: null,
+          result: {
+            kind: 'result',
+            type: 'f64'
+          },
           local: [],
           body: [{
-            kind: 'drop',
-            body: [{
-              kind: 'load',
-              type: 'f64',
-              size: null,
-              sign: null,
-              offset: 0,
-              align: 0,
-              expr: {
-                kind: 'get_local',
-                id: {
-                  kind: 'identifier',
-                  name: 'i'
-                }
+            kind: 'load',
+            type: 'f64',
+            size: null,
+            sign: null,
+            offset: 0,
+            align: 0,
+            expr: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'i'
               }
-            }]
+            }
           }]
         }
       ]
@@ -1620,177 +1240,7 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'no_dce.i32.load16_s',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i32.load16_u',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i32.load8_s',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i32.load8_u',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
         name: 'no_dce.i64.load',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load32_s',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load32_u',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load16_s',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load16_u',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load8_s',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '65536'
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'no_dce.i64.load8_u',
         body: [{
           kind: 'const',
           type: 'i32',

@@ -477,57 +477,6 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'i32.store8'
-          },
-          imp: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'a',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'v',
-                type: 'i32'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'i32',
-            size: 8,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'a'
-              }
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'v'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
             value: 'i32.store16'
           },
           imp: null,
@@ -607,57 +556,6 @@
             kind: 'store',
             type: 'i32',
             size: null,
-            offset: 0,
-            align: 0,
-            addr: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'a'
-              }
-            },
-            data: {
-              kind: 'get_local',
-              id: {
-                kind: 'identifier',
-                name: 'v'
-              }
-            }
-          }]
-        },
-        {
-          kind: 'func',
-          id: null,
-          expo: {
-            kind: 'literal',
-            value: 'i64.store8'
-          },
-          imp: null,
-          type: null,
-          params: [
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'a',
-                type: 'i32'
-              }]
-            },
-            {
-              kind: 'param',
-              items: [{
-                kind: 'item',
-                name: 'v',
-                type: 'i64'
-              }]
-            }
-          ],
-          result: null,
-          local: [],
-          body: [{
-            kind: 'store',
-            type: 'i64',
-            size: 8,
             offset: 0,
             align: 0,
             addr: {
@@ -988,30 +886,6 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'i32.store8',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x10000'
-          },
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x01234567'
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
         name: 'i32.store16',
         body: [
           {
@@ -1095,30 +969,6 @@
             kind: 'const',
             type: 'i32',
             init: '0x01234567'
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'out of bounds memory access'
-      }
-    },
-    {
-      kind: 'assert_trap',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'i64.store8',
-        body: [
-          {
-            kind: 'const',
-            type: 'i32',
-            init: '0x10000'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0x0123456701234567'
           }
         ]
       },

@@ -599,24 +599,6 @@
       }
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'grow',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0x10000'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '-1'
-      }
-    },
-    {
       kind: 'module',
       body: [
         {
@@ -789,24 +771,6 @@
           kind: 'const',
           type: 'i32',
           init: '1'
-        }]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i32',
-        init: '-1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'grow',
-        body: [{
-          kind: 'const',
-          type: 'i32',
-          init: '0x10000'
         }]
       },
       expr: {

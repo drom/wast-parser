@@ -2022,31 +2022,6 @@
       }
     },
     {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'mul',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0x7fffffffffffffff'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0x7fffffffffffffff'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '1'
-      }
-    },
-    {
       kind: 'assert_trap',
       invoke: {
         kind: 'invoke',
@@ -5622,106 +5597,6 @@
           {
             kind: 'const',
             type: 'i64',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '64'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabcd987602468ace'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x579b30ec048d159d'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xfe000000dc000000'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '4'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0xe000000dc000000f'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabcd1234ef567809'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '53'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x013579a2469deacf'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
             init: '0xabd1234ef567809c'
           },
           {
@@ -5735,56 +5610,6 @@
         kind: 'const',
         type: 'i64',
         init: '0x55e891a77ab3c04e'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabcd1234ef567809'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xf5'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x013579a2469deacf'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotl',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabcd7294ef567809'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xffffffffffffffed'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0xcf013579ae529dea'
       }
     },
     {
@@ -5947,81 +5772,6 @@
           {
             kind: 'const',
             type: 'i64',
-            init: '1'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '64'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '1'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotr',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabcd987602468ace'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '1'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x55e6cc3b01234567'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotr',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xfe000000dc000000'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '4'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x0fe000000dc00000'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotr',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
             init: '0xabcd1234ef567809'
           },
           {
@@ -6047,19 +5797,19 @@
           {
             kind: 'const',
             type: 'i64',
-            init: '0xabd1234ef567809c'
+            init: '0xabcd1234ef567809'
           },
           {
             kind: 'const',
             type: 'i64',
-            init: '63'
+            init: '0x35'
           }
         ]
       },
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '0x57a2469deacf0139'
+        init: '0x6891a77ab3c04d5e'
       }
     },
     {
@@ -6097,69 +5847,19 @@
           {
             kind: 'const',
             type: 'i64',
-            init: '0xabcd7294ef567809'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xffffffffffffffed'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x94a77ab3c04d5e6b'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotr',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0xabd1234ef567809c'
-          },
-          {
-            kind: 'const',
-            type: 'i64',
-            init: '0x800000000000003f'
-          }
-        ]
-      },
-      expr: {
-        kind: 'const',
-        type: 'i64',
-        init: '0x57a2469deacf0139'
-      }
-    },
-    {
-      kind: 'assert_return',
-      invoke: {
-        kind: 'invoke',
-        id: null,
-        name: 'rotr',
-        body: [
-          {
-            kind: 'const',
-            type: 'i64',
             init: '1'
           },
           {
             kind: 'const',
             type: 'i64',
-            init: '63'
+            init: '1'
           }
         ]
       },
       expr: {
         kind: 'const',
         type: 'i64',
-        init: '2'
+        init: '0x8000000000000000'
       }
     },
     {
