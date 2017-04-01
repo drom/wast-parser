@@ -1377,6 +1377,488 @@
           id: null,
           expo: {
             kind: 'literal',
+            value: 'i32.no_fold_div_s_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_u_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_s_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_u_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        }
+      ]
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i32.no_fold_div_s_self',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i32.no_fold_div_u_self',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i64.no_fold_div_s_self',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i64.no_fold_div_u_self',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_rem_s_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_rem_u_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_rem_s_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_rem_u_self'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'rem_u',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            }
+          }]
+        }
+      ]
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i32.no_fold_rem_s_self',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i32.no_fold_rem_u_self',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i64.no_fold_rem_s_self',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i64.no_fold_rem_u_self',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer divide by zero'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
             value: 'i32.no_fold_mul_div_s'
           },
           imp: null,
