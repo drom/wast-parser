@@ -259,7 +259,7 @@ expr
             }
         }
 
-        / kind:"get_local" __ id:var {
+        / kind:("get_local" / "get_global") __ id:var {
             return {
                 kind: kind,
                 id: id
