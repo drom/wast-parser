@@ -69,9 +69,10 @@ value
 
 sign = "s" / "u"
 
-align = digit:[0-9]* { return digit.join(''); }
-
-offset = digit:[0-9]* { return digit.join(''); }
+align =  (
+    hex:"0x" digit:[0-9A-Fa-f]* { return hex + digit.join(''); }
+    / digit:[0-9]* { return digit.join(''); }
+);
 
 var
     = int:int {
@@ -274,7 +275,7 @@ expr
             };
         }
 
-        / type:local_type "." kind:"load" sufix:( ( "8" / "16" / "32" / "64") ( "_" sign )? )? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ expr:expr {
+        / type:local_type "." kind:"load" sufix:( ( "8" / "16" / "32" / "64") ( "_" sign )? )? offset:( __ "offset=" align )? align:( __ "align=" align )? __ expr:expr {
             return {
                 kind: kind,
                 type: type,
@@ -286,7 +287,7 @@ expr
             };
         }
 
-        / type:local_type "." kind:"store" sufix:( "8" / "16" / "32" / "64")? offset:( __ "offset=" offset )? align:( __ "align=" align )? __ addr:expr __ data:expr {
+        / type:local_type "." kind:"store" sufix:( "8" / "16" / "32" / "64")? offset:( __ "offset=" align )? align:( __ "align=" align )? __ addr:expr __ data:expr {
             return {
                 kind: kind,
                 type: type,
