@@ -58,7 +58,7 @@ value
             return pre[0] + (sign || '') + hex + digits.join('')
         }
         / "nan" / "+nan" / "-nan"
-        / "infinity" / "+infinity" / "-infinity"
+        / "inf" / "+inf" / "-inf"
         / sign:("-" / "+")? hex:"0x" digits:[0-9A-Fa-f\.\-\+p]+ {
             return (sign || '') + hex + digits.join('');
         }
