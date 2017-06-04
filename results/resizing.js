@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 0,
@@ -462,6 +463,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 0,
@@ -621,6 +623,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 0,

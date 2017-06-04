@@ -1794,6 +1794,7 @@
           },
           {
             kind: 'table',
+            expo: null,
             index: '0',
             items: null
           },
@@ -1870,6 +1871,7 @@
           },
           {
             kind: 'table',
+            expo: null,
             index: '0',
             items: null
           },
@@ -1980,6 +1982,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2028,6 +2031,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2076,6 +2080,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2124,6 +2129,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2172,6 +2178,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2220,6 +2227,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2268,6 +2276,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2316,6 +2325,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2364,6 +2374,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2412,6 +2423,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2460,6 +2472,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2508,6 +2521,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2556,6 +2570,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2604,6 +2619,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2652,6 +2668,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2704,6 +2721,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2756,6 +2774,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2808,6 +2827,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2860,6 +2880,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2912,6 +2933,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -2964,6 +2986,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3016,6 +3039,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3068,6 +3092,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3120,6 +3145,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3172,6 +3198,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3224,6 +3251,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3276,6 +3304,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3328,6 +3357,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3380,6 +3410,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3432,6 +3463,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3484,6 +3516,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -3536,6 +3569,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,
@@ -7683,6 +7717,7 @@
         body: [
           {
             kind: 'memory',
+            expo: null,
             int: {
               kind: 'literal',
               value: 1,

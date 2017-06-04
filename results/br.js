@@ -1747,6 +1747,7 @@
         },
         {
           kind: 'table',
+          expo: null,
           index: null,
           items: {
             kind: 'elem',
@@ -2060,6 +2061,7 @@
         },
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 1,

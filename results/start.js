@@ -120,6 +120,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: null,
           int1: null,
           segment: [{
@@ -359,6 +360,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: null,
           int1: null,
           segment: [{

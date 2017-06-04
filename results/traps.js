@@ -1053,6 +1053,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 1,

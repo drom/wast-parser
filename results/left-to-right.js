@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          expo: null,
           int: {
             kind: 'literal',
             value: 1,
@@ -135,6 +136,7 @@
         },
         {
           kind: 'table',
+          expo: null,
           index: null,
           items: {
             kind: 'elem',

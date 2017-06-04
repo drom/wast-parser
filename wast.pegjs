@@ -442,6 +442,16 @@ func = kind:"func" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )?
     };
 }
 
+global = kind:"global" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? type:( __ local_type )? body:( __ expr )* {
+    return {
+        kind:kind,
+        id: id ? id[1] : id,
+        expo: expo ? expo[5] : expo,
+        type: type ? type[1] : type,
+        body: body.map(function (e) { return e[1]; })
+    };
+}
+
 _start = kind:"start" __ id:var {
     return {
         kind: kind,
@@ -515,17 +525,19 @@ elem = "(" __ kind:"elem" items:( __ var )* __ ")" {
     }
 }
 
-table = kind:"table" index:( __ int )? anyfunc:( __ "anyfunc" )? items:( __ elem )? {
+table = kind:"table" expo:( __ "(" __ "export" __ literal __ ")" )? index:( __ int )? anyfunc:( __ "anyfunc" )? items:( __ elem )? {
     return {
         kind: kind,
+        expo: expo ? expo[5] : expo,
         index: index ? index[1] : index,
         items: items ? items[1] : items
     };
 }
 
-memory = kind:"memory" int:( __ int )? int1:( __ int )? segment:( __ cmd )* {
+memory = kind:"memory" expo:( __ "(" __ "export" __ literal __ ")" )? int:( __ int )? int1:( __ int )? segment:( __ cmd )* {
     return {
         kind: kind,
+        expo: expo ? expo[5] : expo,
         int: int ? {
           kind: 'literal',
           value: Number(int[1]),
@@ -607,6 +619,7 @@ cmd
         / assert_invalid
         / segment
         / func
+        / global
         / import
         / export
         / table
