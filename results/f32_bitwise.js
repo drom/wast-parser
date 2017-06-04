@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'abs'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -42,10 +42,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'neg'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -77,10 +77,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'copysign'
-          },
+          }],
           imp: null,
           type: null,
           params: [

@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-rec'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -112,10 +112,10 @@
             kind: 'identifier',
             name: 'fac-rec-named'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-rec-named'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -211,10 +211,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-iter'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -405,10 +405,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-iter-named'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -599,10 +599,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-opt'
-          },
+          }],
           imp: null,
           type: null,
           params: [{

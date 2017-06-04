@@ -11,7 +11,7 @@
             kind: 'identifier',
             name: 'type-unary-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -46,7 +46,7 @@
             kind: 'identifier',
             name: 'type-unary-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -93,7 +93,7 @@
             kind: 'identifier',
             name: 'type-unary-operand-missing-in-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -141,7 +141,7 @@
             kind: 'identifier',
             name: 'type-unary-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -197,7 +197,7 @@
             kind: 'identifier',
             name: 'type-unary-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -265,7 +265,7 @@
             kind: 'identifier',
             name: 'type-binary-1st-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -301,7 +301,7 @@
             kind: 'identifier',
             name: 'type-binary-2nd-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -342,7 +342,7 @@
             kind: 'identifier',
             name: 'type-binary-1st-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -395,7 +395,7 @@
             kind: 'identifier',
             name: 'type-binary-2nd-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -448,7 +448,7 @@
             kind: 'identifier',
             name: 'type-binary-1st-operand-missing-in-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -502,7 +502,7 @@
             kind: 'identifier',
             name: 'type-binary-2nd-operand-missing-in-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -556,7 +556,7 @@
             kind: 'identifier',
             name: 'type-binary-1st-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -618,7 +618,7 @@
             kind: 'identifier',
             name: 'type-binary-2nd-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -684,7 +684,7 @@
             kind: 'identifier',
             name: 'type-binary-1st-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -769,7 +769,7 @@
             kind: 'identifier',
             name: 'type-binary-2nd-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -838,7 +838,7 @@
             kind: 'identifier',
             name: 'type-if-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -871,7 +871,7 @@
             kind: 'identifier',
             name: 'type-if-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -916,7 +916,7 @@
             kind: 'identifier',
             name: 'type-if-operand-missing-in-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -962,7 +962,7 @@
             kind: 'identifier',
             name: 'type-if-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1016,7 +1016,7 @@
             kind: 'identifier',
             name: 'type-if-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1095,7 +1095,7 @@
             kind: 'identifier',
             name: 'type-br-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1147,7 +1147,7 @@
             kind: 'identifier',
             name: 'type-br-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1204,7 +1204,7 @@
             kind: 'identifier',
             name: 'type-br-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1277,7 +1277,7 @@
             kind: 'identifier',
             name: 'type-br-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1361,7 +1361,7 @@
             kind: 'identifier',
             name: 'type-return-operand-missing'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1391,7 +1391,7 @@
             kind: 'identifier',
             name: 'type-return-operand-missing-in-block'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1433,7 +1433,7 @@
             kind: 'identifier',
             name: 'type-return-operand-missing-in-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1476,7 +1476,7 @@
             kind: 'identifier',
             name: 'type-return-operand-missing-in-if'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1527,7 +1527,7 @@
             kind: 'identifier',
             name: 'type-return-operand-missing-in-else'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1593,7 +1593,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1630,7 +1630,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1669,7 +1669,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1708,7 +1708,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -1725,7 +1725,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1762,6 +1762,7 @@
             id: null,
             expr: {
               kind: 'func',
+              id: null,
               params: [{
                 kind: 'param',
                 items: [{
@@ -1777,7 +1778,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: {
               kind: 'type',
@@ -1795,13 +1796,13 @@
           {
             kind: 'table',
             expo: null,
-            index: '0',
+            index: ['0'],
             items: null
           },
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1845,6 +1846,7 @@
             id: null,
             expr: {
               kind: 'func',
+              id: null,
               params: [],
               result: null,
               local: [],
@@ -1854,7 +1856,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: {
               kind: 'type',
@@ -1872,13 +1874,13 @@
           {
             kind: 'table',
             expo: null,
-            index: '0',
+            index: ['0'],
             items: null
           },
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1912,7 +1914,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1943,7 +1945,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1982,6 +1984,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -1997,7 +2000,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2031,6 +2034,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2046,7 +2050,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2080,6 +2084,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2095,7 +2100,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2129,6 +2134,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2144,7 +2150,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2178,6 +2184,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2193,7 +2200,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2227,6 +2234,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2242,7 +2250,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2276,6 +2284,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2291,7 +2300,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2325,6 +2334,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2340,7 +2350,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2374,6 +2384,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2389,7 +2400,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2423,6 +2434,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2438,7 +2450,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2472,6 +2484,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2487,7 +2500,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2521,6 +2534,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2536,7 +2550,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2570,6 +2584,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2585,7 +2600,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2619,6 +2634,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2634,7 +2650,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2668,6 +2684,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2683,7 +2700,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2721,6 +2738,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2736,7 +2754,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2774,6 +2792,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2789,7 +2808,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2827,6 +2846,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2842,7 +2862,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2880,6 +2900,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2895,7 +2916,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2933,6 +2954,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -2948,7 +2970,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2986,6 +3008,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3001,7 +3024,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3039,6 +3062,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3054,7 +3078,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3092,6 +3116,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3107,7 +3132,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3145,6 +3170,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3160,7 +3186,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3198,6 +3224,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3213,7 +3240,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3251,6 +3278,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3266,7 +3294,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3304,6 +3332,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3319,7 +3348,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3357,6 +3386,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3372,7 +3402,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3410,6 +3440,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3425,7 +3456,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3463,6 +3494,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3478,7 +3510,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3516,6 +3548,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3531,7 +3564,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3569,6 +3602,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -3584,7 +3618,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -3622,7 +3656,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3657,7 +3691,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3692,7 +3726,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3727,7 +3761,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3762,7 +3796,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3797,7 +3831,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3832,7 +3866,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3867,7 +3901,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3902,7 +3936,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3937,7 +3971,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3972,7 +4006,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4007,7 +4041,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4042,7 +4076,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4077,7 +4111,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4112,7 +4146,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4147,7 +4181,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4182,7 +4216,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4217,7 +4251,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4252,7 +4286,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4287,7 +4321,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4322,7 +4356,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4357,7 +4391,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4392,7 +4426,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4427,7 +4461,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4462,7 +4496,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4497,7 +4531,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4532,7 +4566,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4567,7 +4601,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4602,7 +4636,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4637,7 +4671,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4672,7 +4706,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4707,7 +4741,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4742,7 +4776,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4777,7 +4811,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4812,7 +4846,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4847,7 +4881,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4882,7 +4916,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4917,7 +4951,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4952,7 +4986,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4987,7 +5021,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5022,7 +5056,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5057,7 +5091,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5092,7 +5126,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5127,7 +5161,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5162,7 +5196,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5192,7 +5226,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5222,7 +5256,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5252,7 +5286,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5282,7 +5316,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5312,7 +5346,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5342,7 +5376,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5372,7 +5406,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5402,7 +5436,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5432,7 +5466,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5462,7 +5496,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5492,7 +5526,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5522,7 +5556,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5552,7 +5586,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5582,7 +5616,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5612,7 +5646,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5642,7 +5676,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5672,7 +5706,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5702,7 +5736,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5732,7 +5766,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5762,7 +5796,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5792,7 +5826,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5822,7 +5856,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5857,7 +5891,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5892,7 +5926,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5927,7 +5961,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5962,7 +5996,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -5997,7 +6031,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6032,7 +6066,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6067,7 +6101,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6102,7 +6136,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6137,7 +6171,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6172,7 +6206,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6207,7 +6241,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6242,7 +6276,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6277,7 +6311,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6312,7 +6346,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6347,7 +6381,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6382,7 +6416,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6417,7 +6451,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6452,7 +6486,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6487,7 +6521,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6522,7 +6556,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6557,7 +6591,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6592,7 +6626,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6627,7 +6661,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6662,7 +6696,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6697,7 +6731,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6732,7 +6766,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6767,7 +6801,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6802,7 +6836,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6837,7 +6871,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6872,7 +6906,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6907,7 +6941,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6942,7 +6976,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -6973,7 +7007,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7004,7 +7038,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7035,7 +7069,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7066,7 +7100,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7097,7 +7131,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7128,7 +7162,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7159,7 +7193,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7190,7 +7224,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7221,7 +7255,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7252,7 +7286,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7283,7 +7317,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7314,7 +7348,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7345,7 +7379,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7376,7 +7410,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7407,7 +7441,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7438,7 +7472,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7469,7 +7503,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7500,7 +7534,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7531,7 +7565,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7562,7 +7596,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7593,7 +7627,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7624,7 +7658,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7655,7 +7689,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7686,7 +7720,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -7717,6 +7751,7 @@
         body: [
           {
             kind: 'memory',
+            impo: null,
             expo: null,
             int: {
               kind: 'literal',
@@ -7732,7 +7767,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],

@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -34,10 +34,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.positive_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -61,10 +61,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.negative_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -88,10 +88,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.plain_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -115,10 +115,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.informally_known_as_plain_snan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -142,10 +142,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.all_ones_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -169,10 +169,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.misc_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -196,10 +196,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.misc_positive_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -223,10 +223,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.misc_negative_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -250,10 +250,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -277,10 +277,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.positive_infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -304,10 +304,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.negative_infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -331,10 +331,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -358,10 +358,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.positive_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -385,10 +385,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.negative_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -412,10 +412,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.misc'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -439,10 +439,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.min_positive'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -466,10 +466,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.min_normal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -493,10 +493,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.max_finite'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -520,10 +520,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.max_subnormal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -547,10 +547,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.trailing_dot'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -574,10 +574,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -601,10 +601,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.positive_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -628,10 +628,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.negative_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -655,10 +655,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.misc'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -682,10 +682,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.min_positive'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -709,10 +709,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.min_normal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -736,10 +736,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.max_subnormal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -763,10 +763,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.max_finite'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -790,10 +790,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_dec.trailing_dot'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -817,10 +817,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -844,10 +844,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.positive_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -871,10 +871,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.negative_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -898,10 +898,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.plain_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -925,10 +925,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.informally_known_as_plain_snan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -952,10 +952,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.all_ones_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -979,10 +979,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.misc_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1006,10 +1006,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.misc_positive_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1033,10 +1033,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.misc_negative_nan'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1060,10 +1060,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1087,10 +1087,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.positive_infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1114,10 +1114,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.negative_infinity'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1141,10 +1141,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1168,10 +1168,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.positive_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1195,10 +1195,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.negative_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1222,10 +1222,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.misc'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1249,10 +1249,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.min_positive'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1276,10 +1276,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.min_normal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1303,10 +1303,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.max_subnormal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1330,10 +1330,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.max_finite'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1357,10 +1357,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.trailing_dot'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1384,10 +1384,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1411,10 +1411,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.positive_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1438,10 +1438,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.negative_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1465,10 +1465,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.misc'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1492,10 +1492,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.min_positive'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1519,10 +1519,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.min_normal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1546,10 +1546,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.max_subnormal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1573,10 +1573,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.max_finite'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1600,10 +1600,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_dec.trailing_dot'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

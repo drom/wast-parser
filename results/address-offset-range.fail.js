@@ -5,6 +5,7 @@
     body: [
       {
         kind: 'memory',
+        impo: null,
         expo: null,
         int: {
           kind: 'literal',
@@ -23,7 +24,7 @@
           kind: 'identifier',
           name: 'bad'
         },
-        expo: null,
+        expos: [],
         imp: null,
         type: null,
         params: [],

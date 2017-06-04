@@ -20,7 +20,7 @@
           kind: 'identifier',
           name: 'add'
         },
-        expo: null,
+        expos: [],
         imp: null,
         type: null,
         params: [

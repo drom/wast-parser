@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -33,10 +33,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -67,10 +67,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-br-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -108,10 +108,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -146,10 +146,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-br_table-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -194,10 +194,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'func-unwind-by-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -230,10 +230,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -261,10 +261,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -310,10 +310,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-br-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -359,10 +359,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -412,10 +412,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-br_table-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -468,10 +468,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-unwind-by-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -512,10 +512,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -556,10 +556,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -616,10 +616,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-br-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -672,10 +672,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -736,10 +736,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-br_table-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -799,10 +799,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-nested-unwind-by-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -850,10 +850,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'unary-after-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -880,10 +880,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'unary-after-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -930,10 +930,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'unary-after-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -994,10 +994,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'unary-after-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1031,10 +1031,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'binary-after-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1067,10 +1067,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'binary-after-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1123,10 +1123,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'binary-after-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1186,10 +1186,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'binary-after-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1229,10 +1229,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select-after-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1269,10 +1269,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select-after-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1329,10 +1329,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select-after-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1396,10 +1396,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select-after-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1443,10 +1443,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-value-after-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1475,10 +1475,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-value-after-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1519,10 +1519,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-value-after-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1577,10 +1577,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block-value-after-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1616,10 +1616,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop-value-after-unreachable'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1649,10 +1649,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop-value-after-br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1702,10 +1702,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop-value-after-br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1769,10 +1769,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop-value-after-return'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

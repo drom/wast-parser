@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'stmt'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -298,10 +298,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'expr'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -560,10 +560,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'arg'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -717,10 +717,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'corner'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1228,7 +1228,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

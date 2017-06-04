@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -21,10 +22,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'load_at_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -50,10 +51,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'store_at_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -80,10 +81,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'load_at_page_size'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -109,10 +110,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'store_at_page_size'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -139,10 +140,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'grow'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -172,10 +173,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'size'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -463,6 +464,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -478,10 +480,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'grow'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -623,6 +625,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -642,10 +645,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'grow'
-          },
+          }],
           imp: null,
           type: null,
           params: [{

@@ -10,7 +10,7 @@
             kind: 'identifier',
             name: 'dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -21,10 +21,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'empty'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -138,10 +138,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'singular'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -243,10 +243,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'multi'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -434,10 +434,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -758,10 +758,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-unary-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -841,10 +841,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-binary-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -986,10 +986,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-test-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1069,10 +1069,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-compare-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1214,10 +1214,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-bare'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1546,10 +1546,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1634,10 +1634,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'effects'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -2733,7 +2733,7 @@
             kind: 'identifier',
             name: 'type-empty-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2776,7 +2776,7 @@
             kind: 'identifier',
             name: 'type-empty-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2819,7 +2819,7 @@
             kind: 'identifier',
             name: 'type-empty-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2862,7 +2862,7 @@
             kind: 'identifier',
             name: 'type-empty-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2905,7 +2905,7 @@
             kind: 'identifier',
             name: 'type-empty-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2953,7 +2953,7 @@
             kind: 'identifier',
             name: 'type-empty-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3001,7 +3001,7 @@
             kind: 'identifier',
             name: 'type-empty-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3049,7 +3049,7 @@
             kind: 'identifier',
             name: 'type-empty-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3097,7 +3097,7 @@
             kind: 'identifier',
             name: 'type-then-value-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3141,7 +3141,7 @@
             kind: 'identifier',
             name: 'type-then-value-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3190,7 +3190,7 @@
             kind: 'identifier',
             name: 'type-else-value-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3239,7 +3239,7 @@
             kind: 'identifier',
             name: 'type-both-value-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3292,7 +3292,7 @@
             kind: 'identifier',
             name: 'type-then-value-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3347,7 +3347,7 @@
             kind: 'identifier',
             name: 'type-then-value-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3402,7 +3402,7 @@
             kind: 'identifier',
             name: 'type-both-value-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3453,7 +3453,7 @@
             kind: 'identifier',
             name: 'type-no-else-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3503,7 +3503,7 @@
             kind: 'identifier',
             name: 'type-then-value-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3558,7 +3558,7 @@
             kind: 'identifier',
             name: 'type-then-value-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3613,7 +3613,7 @@
             kind: 'identifier',
             name: 'type-both-value-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3664,7 +3664,7 @@
             kind: 'identifier',
             name: 'type-then-value-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3723,7 +3723,7 @@
             kind: 'identifier',
             name: 'type-then-value-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3782,7 +3782,7 @@
             kind: 'identifier',
             name: 'type-both-value-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3841,7 +3841,7 @@
             kind: 'identifier',
             name: 'type-both-different-value-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3900,7 +3900,7 @@
             kind: 'identifier',
             name: 'type-then-value-unreached-select'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3960,7 +3960,7 @@
             kind: 'identifier',
             name: 'type-else-value-unreached-select'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4020,7 +4020,7 @@
             kind: 'identifier',
             name: 'type-else-value-unreached-select'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4081,7 +4081,7 @@
             kind: 'identifier',
             name: 'type-then-break-last-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4144,7 +4144,7 @@
             kind: 'identifier',
             name: 'type-else-break-last-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4207,7 +4207,7 @@
             kind: 'identifier',
             name: 'type-then-break-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4277,7 +4277,7 @@
             kind: 'identifier',
             name: 'type-else-break-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4347,7 +4347,7 @@
             kind: 'identifier',
             name: 'type-then-break-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4417,7 +4417,7 @@
             kind: 'identifier',
             name: 'type-else-break-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4487,7 +4487,7 @@
             kind: 'identifier',
             name: 'type-then-break-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4561,7 +4561,7 @@
             kind: 'identifier',
             name: 'type-else-break-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

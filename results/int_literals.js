@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.test'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -31,10 +31,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.umax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -55,10 +55,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.smax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -79,10 +79,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.neg_smax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -103,10 +103,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -127,10 +127,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.alt_smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -151,10 +151,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.inc_smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -185,10 +185,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.neg_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -209,10 +209,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.not_octal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -233,10 +233,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.unsigned_decimal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -257,10 +257,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.plus_sign'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -281,10 +281,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.test'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -305,10 +305,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.umax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -329,10 +329,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.smax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -353,10 +353,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.neg_smax'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -377,10 +377,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -401,10 +401,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.alt_smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -425,10 +425,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.inc_smin'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -459,10 +459,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.neg_zero'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -483,10 +483,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.not_octal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -507,10 +507,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.unsigned_decimal'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -531,10 +531,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.plus_sign'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

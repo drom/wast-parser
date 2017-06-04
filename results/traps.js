@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.div_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -59,10 +59,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.div_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -111,10 +111,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.div_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -163,10 +163,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.div_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -316,10 +316,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.rem_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -368,10 +368,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.rem_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -420,10 +420,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.rem_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -472,10 +472,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.rem_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -625,10 +625,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.trunc_s_f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -661,10 +661,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.trunc_u_f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -697,10 +697,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.trunc_s_f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -733,10 +733,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.trunc_u_f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -769,10 +769,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.trunc_s_f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -805,10 +805,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.trunc_u_f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -841,10 +841,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.trunc_s_f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -877,10 +877,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.trunc_u_f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1053,6 +1053,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -1068,10 +1069,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1106,10 +1107,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.load16_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1144,10 +1145,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.load16_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1182,10 +1183,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.load8_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1220,10 +1221,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i32.load8_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1258,10 +1259,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1296,10 +1297,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load32_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1334,10 +1335,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load32_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1372,10 +1373,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load16_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1410,10 +1411,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load16_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1448,10 +1449,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load8_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1486,10 +1487,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.i64.load8_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1524,10 +1525,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.f32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1562,10 +1563,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'no_dce.f64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{

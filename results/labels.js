@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'block'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -53,10 +53,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop1'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -189,10 +189,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop2'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -385,10 +385,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop3'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -520,10 +520,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop4'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -667,10 +667,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'loop5'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -710,10 +710,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'if'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1150,10 +1150,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'if2'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1580,10 +1580,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'switch'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1742,10 +1742,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'return'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1836,10 +1836,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if0'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2137,10 +2137,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if1'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2209,10 +2209,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if2'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2289,10 +2289,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if3'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2420,10 +2420,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2535,10 +2535,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'shadowing'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2584,10 +2584,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'redefinition'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3037,7 +3037,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3086,7 +3086,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3131,7 +3131,7 @@
         body: [{
           kind: 'func',
           id: null,
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

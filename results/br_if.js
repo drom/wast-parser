@@ -10,7 +10,7 @@
             kind: 'identifier',
             name: 'dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -21,10 +21,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-first'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -82,10 +82,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-mid'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -151,10 +151,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-last'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -210,10 +210,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-first-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -274,10 +274,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-mid-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -346,10 +346,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-block-last-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -415,10 +415,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-loop-first'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -482,10 +482,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-loop-mid'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -557,10 +557,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-loop-last'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -609,10 +609,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-if-then'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -687,10 +687,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-if-else'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -765,10 +765,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-block-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -864,10 +864,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-br-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -966,10 +966,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-br_if-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1076,10 +1076,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-br_if-value-cond'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1186,10 +1186,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-br_table-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1295,10 +1295,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested-br_table-value-index'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -2033,7 +2033,7 @@
             kind: 'identifier',
             name: 'type-false-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2080,7 +2080,7 @@
             kind: 'identifier',
             name: 'type-false-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2127,7 +2127,7 @@
             kind: 'identifier',
             name: 'type-false-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2174,7 +2174,7 @@
             kind: 'identifier',
             name: 'type-false-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2221,7 +2221,7 @@
             kind: 'identifier',
             name: 'type-true-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2268,7 +2268,7 @@
             kind: 'identifier',
             name: 'type-true-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2315,7 +2315,7 @@
             kind: 'identifier',
             name: 'type-true-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2362,7 +2362,7 @@
             kind: 'identifier',
             name: 'type-true-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2409,7 +2409,7 @@
             kind: 'identifier',
             name: 'type-false-arg-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2464,7 +2464,7 @@
             kind: 'identifier',
             name: 'type-true-arg-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2519,7 +2519,7 @@
             kind: 'identifier',
             name: 'type-false-arg-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2565,7 +2565,7 @@
             kind: 'identifier',
             name: 'type-true-arg-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2611,7 +2611,7 @@
             kind: 'identifier',
             name: 'type-false-arg-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2666,7 +2666,7 @@
             kind: 'identifier',
             name: 'type-true-arg-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2721,7 +2721,7 @@
             kind: 'identifier',
             name: 'type-false-arg-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2783,7 +2783,7 @@
             kind: 'identifier',
             name: 'type-true-arg-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2845,7 +2845,7 @@
             kind: 'identifier',
             name: 'type-cond-void-vs-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2883,7 +2883,7 @@
             kind: 'identifier',
             name: 'type-cond-num-vs-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2925,7 +2925,7 @@
             kind: 'identifier',
             name: 'type-arg-cond-void-vs-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2980,7 +2980,7 @@
             kind: 'identifier',
             name: 'type-arg-void-vs-num-nested'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3040,7 +3040,7 @@
             kind: 'identifier',
             name: 'type-arg-cond-num-vs-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3099,7 +3099,7 @@
             kind: 'identifier',
             name: 'unbound-label'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3136,7 +3136,7 @@
             kind: 'identifier',
             name: 'unbound-nested-label'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3183,7 +3183,7 @@
             kind: 'identifier',
             name: 'large-label'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

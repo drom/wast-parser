@@ -5,6 +5,7 @@
     body: [
       {
         kind: 'memory',
+        impo: null,
         expo: null,
         int: {
           kind: 'literal',
@@ -20,7 +21,7 @@
       {
         kind: 'func',
         id: null,
-        expo: null,
+        expos: [],
         imp: null,
         type: null,
         params: [],

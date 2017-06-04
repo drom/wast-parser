@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -26,6 +27,7 @@
           },
           expr: {
             kind: 'func',
+            id: null,
             params: [{
               kind: 'param',
               items: [
@@ -55,6 +57,7 @@
           },
           expr: {
             kind: 'func',
+            id: null,
             params: [{
               kind: 'param',
               items: [
@@ -84,6 +87,7 @@
           },
           expr: {
             kind: 'func',
+            id: null,
             params: [{
               kind: 'param',
               items: [
@@ -113,6 +117,7 @@
           },
           expr: {
             kind: 'func',
+            id: null,
             params: [{
               kind: 'param',
               items: [
@@ -137,7 +142,7 @@
         {
           kind: 'table',
           expo: null,
-          index: null,
+          index: [],
           items: {
             kind: 'elem',
             items: [
@@ -182,7 +187,7 @@
             kind: 'identifier',
             name: 'i32_t0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -206,7 +211,7 @@
             kind: 'identifier',
             name: 'i32_t1'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -230,7 +235,7 @@
             kind: 'identifier',
             name: 'i64_t0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -254,7 +259,7 @@
             kind: 'identifier',
             name: 'i64_t1'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -278,7 +283,7 @@
             kind: 'identifier',
             name: 'f32_t0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -302,7 +307,7 @@
             kind: 'identifier',
             name: 'f32_t1'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -326,7 +331,7 @@
             kind: 'identifier',
             name: 'f64_t0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -350,7 +355,7 @@
             kind: 'identifier',
             name: 'f64_t1'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: {
             kind: 'type',
@@ -374,7 +379,7 @@
             kind: 'identifier',
             name: 'reset'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -404,7 +409,7 @@
             kind: 'identifier',
             name: 'bump'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -511,7 +516,7 @@
             kind: 'identifier',
             name: 'get'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -540,7 +545,7 @@
             kind: 'identifier',
             name: 'i32_left'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -588,7 +593,7 @@
             kind: 'identifier',
             name: 'i32_right'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -636,7 +641,7 @@
             kind: 'identifier',
             name: 'i32_another'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -684,7 +689,7 @@
             kind: 'identifier',
             name: 'i32_callee'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -732,7 +737,7 @@
             kind: 'identifier',
             name: 'i32_bool'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -780,7 +785,7 @@
             kind: 'identifier',
             name: 'i64_left'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -828,7 +833,7 @@
             kind: 'identifier',
             name: 'i64_right'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -876,7 +881,7 @@
             kind: 'identifier',
             name: 'i64_another'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -924,7 +929,7 @@
             kind: 'identifier',
             name: 'i64_callee'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -972,7 +977,7 @@
             kind: 'identifier',
             name: 'i64_bool'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1020,7 +1025,7 @@
             kind: 'identifier',
             name: 'f32_left'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1068,7 +1073,7 @@
             kind: 'identifier',
             name: 'f32_right'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1116,7 +1121,7 @@
             kind: 'identifier',
             name: 'f32_another'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1164,7 +1169,7 @@
             kind: 'identifier',
             name: 'f32_callee'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1212,7 +1217,7 @@
             kind: 'identifier',
             name: 'f32_bool'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1260,7 +1265,7 @@
             kind: 'identifier',
             name: 'f64_left'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1308,7 +1313,7 @@
             kind: 'identifier',
             name: 'f64_right'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1356,7 +1361,7 @@
             kind: 'identifier',
             name: 'f64_another'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1404,7 +1409,7 @@
             kind: 'identifier',
             name: 'f64_callee'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1452,7 +1457,7 @@
             kind: 'identifier',
             name: 'f64_bool'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1500,7 +1505,7 @@
             kind: 'identifier',
             name: 'i32_dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1526,7 +1531,7 @@
             kind: 'identifier',
             name: 'i64_dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1552,7 +1557,7 @@
             kind: 'identifier',
             name: 'f32_dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1578,7 +1583,7 @@
             kind: 'identifier',
             name: 'f64_dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1601,10 +1606,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_add'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1659,10 +1664,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1717,10 +1722,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1775,10 +1780,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_div_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1833,10 +1838,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_div_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1891,10 +1896,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_rem_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1949,10 +1954,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_rem_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2007,10 +2012,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_and'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2065,10 +2070,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_or'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2123,10 +2128,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_xor'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2181,10 +2186,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_shl'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2239,10 +2244,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_shr_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2297,10 +2302,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_shr_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2355,10 +2360,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_eq'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2413,10 +2418,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_ne'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2471,10 +2476,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_lt_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2529,10 +2534,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_le_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2587,10 +2592,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_lt_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2645,10 +2650,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_le_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2703,10 +2708,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_gt_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2761,10 +2766,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_ge_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2819,10 +2824,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_gt_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2877,10 +2882,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_ge_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2935,10 +2940,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -2992,10 +2997,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_store8'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3049,10 +3054,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_store16'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3106,10 +3111,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_call'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3165,10 +3170,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_call_indirect'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3235,10 +3240,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_select'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3299,10 +3304,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_add'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3357,10 +3362,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3415,10 +3420,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3473,10 +3478,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_div_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3531,10 +3536,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_div_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3589,10 +3594,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_rem_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3647,10 +3652,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_rem_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3705,10 +3710,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_and'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3763,10 +3768,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_or'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3821,10 +3826,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_xor'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3879,10 +3884,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_shl'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3937,10 +3942,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_shr_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -3995,10 +4000,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_shr_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4053,10 +4058,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_eq'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4111,10 +4116,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_ne'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4169,10 +4174,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_lt_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4227,10 +4232,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_le_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4285,10 +4290,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_lt_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4343,10 +4348,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_le_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4401,10 +4406,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_gt_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4459,10 +4464,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_ge_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4517,10 +4522,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_gt_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4575,10 +4580,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_ge_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4633,10 +4638,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4690,10 +4695,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store8'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4747,10 +4752,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store16'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4804,10 +4809,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4861,10 +4866,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_call'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4920,10 +4925,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_call_indirect'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -4990,10 +4995,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_select'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5054,10 +5059,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_add'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5112,10 +5117,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5170,10 +5175,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5228,10 +5233,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_div'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5286,10 +5291,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_copysign'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5344,10 +5349,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_eq'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5402,10 +5407,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_ne'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5460,10 +5465,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_lt'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5518,10 +5523,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_le'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5576,10 +5581,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_gt'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5634,10 +5639,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_ge'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5692,10 +5697,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_min'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5750,10 +5755,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_max'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5808,10 +5813,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5865,10 +5870,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_call'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5924,10 +5929,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_call_indirect'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -5994,10 +5999,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_select'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6058,10 +6063,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_add'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6116,10 +6121,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6174,10 +6179,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6232,10 +6237,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_div'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6290,10 +6295,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_copysign'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6348,10 +6353,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_eq'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6406,10 +6411,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_ne'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6464,10 +6469,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_lt'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6522,10 +6527,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_le'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6580,10 +6585,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_gt'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6638,10 +6643,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_ge'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6696,10 +6701,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_min'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6754,10 +6759,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_max'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6812,10 +6817,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6869,10 +6874,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_call'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6928,10 +6933,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_call_indirect'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -6998,10 +7003,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_select'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -7062,10 +7067,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -7141,10 +7146,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

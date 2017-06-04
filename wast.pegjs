@@ -28,7 +28,7 @@ comment "comment"
 
 __ = ( white_space / LineTerminatorSequence / comment )*
 
-name = name:[a-zA-Z0-9\-\_\$\.]+ { return name.join(''); }
+name = name:[a-zA-Z0-9\-\>\_\$\.]+ { return name.join(''); }
 
 local_type = "i32" / "i64" / "f32" / "f64"
 
@@ -400,10 +400,10 @@ local
         };
     }
 
-result = "(" __ kind:"result" __ type:local_type __ ")" {
+result = "(" __ kind:"result" type:( __ local_type )? __ ")" {
     return {
         kind: kind,
-        type: type
+        type: type ? type[1] : null
     };
 }
 
@@ -426,11 +426,22 @@ func_type = "(" __ kind:"type" __ id:var __ ")" {
     };
 }
 
-func = kind:"func" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? imp:( __ "(" __ "import" __ literal __ literal __ ")" )? type:( __ func_type )? param:( __ param )* result:( __ result )? local:( __ local )* body:( __ expr )* {
+func = kind:"func"
+    id:( __ var )?
+    expos:( __ "(" __ "export" __ literal __ ")" )*
+    imp:( __ "(" __ "import" __ literal __ literal __ ")" )?
+    type:( __ func_type )?
+    param:( __ param )*
+    result:( __ result )?
+    local:( __ local )*
+    body:( __ expr )*
+{
     return {
         kind: kind,
         id: id ? id[1] : id,
-        expo: expo ? expo[5] : expo,
+        expos: expos.map(function (e) {
+            return e[5];
+        }),
         imp: imp ? {
 
         } : imp,
@@ -442,12 +453,20 @@ func = kind:"func" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )?
     };
 }
 
-global = kind:"global" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? type:( __ local_type )? mut:( __ "(" __ "mut" __ local_type __ ")" )? body:( __ expr )* {
+global = kind:"global"
+    id:( __ var )?
+    expo:( __ "(" __ "export" __ literal __ ")" )?
+    impo:( __ import_def )?
+    mut:( __ "(" __ "mut" __ local_type __ ")" )?
+    type:( __ local_type )?
+    body:( __ expr )*
+{
     return {
         kind:kind,
         id: id ? id[1] : id,
         mut: mut ? true : false,
         expo: expo ? expo[5] : expo,
+        impo: impo ? impo[1] : null,
         type: (type ? type[1] : (mut ? mut[5] : null)),
         body: body.map(function (e) { return e[1]; })
     };
@@ -474,9 +493,17 @@ result_def = "(" __ kind:"result" __ type:local_type __ ")" {
     }
 }
 
-func_def = "(" __ kind:"func" param:( __ param_def )* result:( __ result_def )? __ ")" {
+func_def =
+    "("
+    __ kind:"func"
+    id:( __ var )?
+    param:( __ param_def )*
+    result:( __ result_def )?
+    __ ")"
+{
     return {
         kind: kind,
+        id: id ? id[1] : id,
         params: param.map(function (e) { return e[1]; }),
         result: result ? result[1] : result,
         local: [],
@@ -492,7 +519,18 @@ type_def = kind:"type" id:( __ var )? expr:( __ func_def ) {
     };
 }
 
-import = kind:"import" id:( __ var )? __ modName:literal __ funcName:literal type:( __ func_type )? params:( __ param )* result:( __ result )? {
+global_def = "(" __ res:global __ ")" {
+    return res;
+}
+
+import = kind:"import"
+    id:( __ var )?
+    __ modName:literal
+    __ funcName:literal
+    type:( __ (global_def / func_def / table_def) )?
+    params:( __ param )*
+    result:( __ result )?
+{
     return {
         kind: kind,
         id: id ? id[1] : id,
@@ -503,6 +541,8 @@ import = kind:"import" id:( __ var )? __ modName:literal __ funcName:literal typ
         result: result ? result[1] : result
     };
 }
+
+import_def = "(" __ res:import __ ")" { return res; }
 
 export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / cmd / "memory" ) {
     return {
@@ -526,18 +566,34 @@ elem = "(" __ kind:"elem" items:( __ var )* __ ")" {
     }
 }
 
-table = kind:"table" expo:( __ "(" __ "export" __ literal __ ")" )? index:( __ int )? anyfunc:( __ "anyfunc" )? items:( __ elem )? {
+table = kind:"table"
+    expo:( __ "(" __ "export" __ literal __ ")" )?
+    index:( __ int )*
+    anyfunc:( __ "anyfunc" )?
+    items:( __ elem )?
+{
     return {
         kind: kind,
         expo: expo ? expo[5] : expo,
-        index: index ? index[1] : index,
+        index: index.map(function (e) {
+            return e[1];
+        }),
         items: items ? items[1] : items
     };
 }
 
-memory = kind:"memory" expo:( __ "(" __ "export" __ literal __ ")" )? int:( __ int )? int1:( __ int )? segment:( __ cmd )* {
+table_def = "(" __ res:table __ ")" { return res; }
+
+memory = kind:"memory"
+    impo:( __ import_def )?
+    expo:( __ "(" __ "export" __ literal __ ")" )?
+    int:( __ int )?
+    int1:( __ int )?
+    segment:( __ cmd )*
+{
     return {
         kind: kind,
+        impo: impo ? impo[1] : null,
         expo: expo ? expo[5] : expo,
         int: int ? {
           kind: 'literal',
@@ -603,10 +659,27 @@ assert_invalid = kind:("assert_invalid" / "assert_unlinkable" / "assert_malforme
     };
 }
 
-data = kind:"data" values:( __ literal )* {
+data = kind:"data"
+    expr:( __ expr )?
+    values:( __ literal )*
+{
     return {
         kind: kind,
+        expr: expr ? expr[1] : null,
         values: values.map(function (e) { return e[1]; })
+    };
+}
+
+register = kind:"register"
+    __ ["] name:( "\\\"" / !["] . )* ["]
+    name1:( __ var )?
+{
+    return {
+        kind: kind,
+        name: name.map(function (e) {
+            return e[1];
+        }).join(''),
+        name1: name1 ? name1[1] : null
     };
 }
 
@@ -626,6 +699,7 @@ cmd
         / table
         / memory
         / data
+        / register
         / type_def
         / _start
         ) __

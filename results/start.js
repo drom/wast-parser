@@ -9,7 +9,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -43,7 +43,7 @@
               kind: 'identifier',
               name: 'main'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -86,7 +86,7 @@
               kind: 'identifier',
               name: 'main'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -120,11 +120,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: 'A'
@@ -137,7 +139,7 @@
             kind: 'identifier',
             name: 'inc'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -185,7 +187,7 @@
             kind: 'identifier',
             name: 'get'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -217,7 +219,7 @@
             kind: 'identifier',
             name: 'main'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -269,7 +271,7 @@
               kind: 'identifier',
               name: 'inc'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -290,7 +292,7 @@
               kind: 'identifier',
               name: 'get'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -360,11 +362,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: 'A'
@@ -377,7 +381,7 @@
             kind: 'identifier',
             name: 'inc'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -425,7 +429,7 @@
             kind: 'identifier',
             name: 'get'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -457,7 +461,7 @@
             kind: 'identifier',
             name: 'main'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -510,7 +514,7 @@
               kind: 'identifier',
               name: 'inc'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -531,7 +535,7 @@
               kind: 'identifier',
               name: 'get'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -605,7 +609,7 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          expo: null,
+          expos: [],
           imp: {},
           type: null,
           params: [{
@@ -625,7 +629,7 @@
             kind: 'identifier',
             name: 'main'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -663,7 +667,7 @@
             kind: 'identifier',
             name: 'print_i32'
           },
-          expo: null,
+          expos: [],
           imp: {},
           type: null,
           params: [{
@@ -683,7 +687,7 @@
             kind: 'identifier',
             name: 'main'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -720,7 +724,7 @@
             kind: 'identifier',
             name: 'print'
           },
-          expo: null,
+          expos: [],
           imp: {},
           type: null,
           params: [],
@@ -748,7 +752,7 @@
               kind: 'identifier',
               name: 'main'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],

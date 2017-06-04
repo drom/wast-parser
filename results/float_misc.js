@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.add'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -59,10 +59,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -111,10 +111,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -163,10 +163,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.div'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -215,10 +215,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.sqrt'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -250,10 +250,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.abs'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -285,10 +285,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.neg'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -320,10 +320,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.copysign'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -372,10 +372,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.ceil'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -407,10 +407,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.floor'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -442,10 +442,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.trunc'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -477,10 +477,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.nearest'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -512,10 +512,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.min'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -564,10 +564,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.max'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -616,10 +616,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.add'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -668,10 +668,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.sub'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -720,10 +720,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.mul'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -772,10 +772,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.div'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -824,10 +824,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.sqrt'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -859,10 +859,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.abs'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -894,10 +894,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.neg'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -929,10 +929,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.copysign'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -981,10 +981,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.ceil'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1016,10 +1016,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.floor'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1051,10 +1051,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.trunc'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1086,10 +1086,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.nearest'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1121,10 +1121,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.min'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -1173,10 +1173,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.max'
-          },
+          }],
           imp: null,
           type: null,
           params: [

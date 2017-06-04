@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -25,10 +26,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'zero_everything'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -108,10 +109,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'test_store_to_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -173,10 +174,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'test_redundant_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -284,10 +285,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'test_dead_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -373,10 +374,10 @@
             kind: 'identifier',
             name: 'malloc'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'malloc'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -401,10 +402,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'malloc_aliasing'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

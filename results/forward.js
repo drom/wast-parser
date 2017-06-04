@@ -10,10 +10,10 @@
             kind: 'identifier',
             name: 'even'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'even'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -100,10 +100,10 @@
             kind: 'identifier',
             name: 'odd'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'odd'
-          },
+          }],
           imp: null,
           type: null,
           params: [{

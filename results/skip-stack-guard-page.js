@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -30,7 +31,7 @@
               kind: 'identifier',
               name: 'test-guard-page-skip'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -45,7 +46,7 @@
             kind: 'identifier',
             name: 'test-guard-page-skip'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -129,7 +130,7 @@
             kind: 'identifier',
             name: 'function-with-many-locals'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

@@ -6,11 +6,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\00\\00\\a0\\7f'
@@ -20,10 +22,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -49,10 +51,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -78,10 +80,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -108,10 +110,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -138,10 +140,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -336,11 +338,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\f4\\7f'
@@ -350,10 +354,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -379,10 +383,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -408,10 +412,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -438,10 +442,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -468,10 +472,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -666,11 +670,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\a0\\7f'
@@ -680,10 +686,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -709,10 +715,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -738,10 +744,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -768,10 +774,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -798,10 +804,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -996,11 +1002,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\00\\00\\00\\00\\00\\00\\00\\f4\\7f'
@@ -1010,10 +1018,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1039,10 +1047,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1068,10 +1076,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1098,10 +1106,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1128,10 +1136,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1326,11 +1334,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\01\\00\\d0\\7f'
@@ -1340,10 +1350,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1369,10 +1379,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1398,10 +1408,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1428,10 +1438,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1458,10 +1468,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1656,11 +1666,13 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: null,
           int1: null,
           segment: [{
             kind: 'data',
+            expr: null,
             values: [{
               kind: 'literal',
               value: '\\01\\00\\00\\00\\00\\00\\fc\\7f'
@@ -1670,10 +1682,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1699,10 +1711,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.load'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1728,10 +1740,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1758,10 +1770,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64.store'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1788,10 +1800,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'reset'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

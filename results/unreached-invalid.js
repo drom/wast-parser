@@ -11,7 +11,7 @@
             kind: 'identifier',
             name: 'local-index'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -48,7 +48,7 @@
             kind: 'identifier',
             name: 'global-index'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -85,7 +85,7 @@
             kind: 'identifier',
             name: 'func-index'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -120,7 +120,7 @@
             kind: 'identifier',
             name: 'label-index'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -155,7 +155,7 @@
             kind: 'identifier',
             name: 'type-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -194,7 +194,7 @@
             kind: 'identifier',
             name: 'type-poly-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -239,7 +239,7 @@
             kind: 'identifier',
             name: 'type-poly-transitive-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -300,7 +300,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-const'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -331,7 +331,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-result'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -363,7 +363,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-result2'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -401,7 +401,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-poly0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -433,7 +433,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-poly1'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -470,7 +470,7 @@
             kind: 'identifier',
             name: 'type-unconsumed-poly2'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -512,7 +512,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -565,7 +565,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -617,7 +617,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -675,7 +675,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -732,7 +732,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -776,7 +776,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -831,7 +831,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-void-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -881,7 +881,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-num-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -936,7 +936,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-void-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -975,7 +975,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-num-after-break'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1021,7 +1021,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1064,7 +1064,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1106,7 +1106,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1154,7 +1154,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1201,7 +1201,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1240,7 +1240,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1294,7 +1294,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-void-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1339,7 +1339,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-num-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1389,7 +1389,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-void-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1423,7 +1423,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-num-after-return'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1464,7 +1464,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1504,7 +1504,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1543,7 +1543,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1588,7 +1588,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1632,7 +1632,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1668,7 +1668,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1715,7 +1715,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1757,7 +1757,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1800,7 +1800,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1831,7 +1831,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1865,7 +1865,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1910,7 +1910,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1954,7 +1954,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2004,7 +2004,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2053,7 +2053,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2094,7 +2094,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2146,7 +2146,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-void-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2193,7 +2193,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-num-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2241,7 +2241,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-void-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2277,7 +2277,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-num-after-nested-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2316,7 +2316,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2370,7 +2370,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2423,7 +2423,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2482,7 +2482,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2540,7 +2540,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2590,7 +2590,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2651,7 +2651,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-void-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2707,7 +2707,7 @@
             kind: 'identifier',
             name: 'type-loop-value-num-vs-num-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2764,7 +2764,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-void-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2809,7 +2809,7 @@
             kind: 'identifier',
             name: 'type-func-value-num-vs-num-after-infinite-loop'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2857,7 +2857,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-void-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2905,7 +2905,7 @@
             kind: 'identifier',
             name: 'type-unary-num-vs-num-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2957,7 +2957,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-void-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3010,7 +3010,7 @@
             kind: 'identifier',
             name: 'type-binary-num-vs-num-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3067,7 +3067,7 @@
             kind: 'identifier',
             name: 'type-if-value-num-vs-void-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3111,7 +3111,7 @@
             kind: 'identifier',
             name: 'type-if-value-num-vs-num-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3161,7 +3161,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3210,7 +3210,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3268,7 +3268,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-void-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3318,7 +3318,7 @@
             kind: 'identifier',
             name: 'type-block-value-num-vs-num-in-dead-body'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3377,7 +3377,7 @@
             kind: 'identifier',
             name: 'type-return-second-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3421,7 +3421,7 @@
             kind: 'identifier',
             name: 'type-br-second-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3483,7 +3483,7 @@
             kind: 'identifier',
             name: 'type-br_if-cond-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3525,7 +3525,7 @@
             kind: 'identifier',
             name: 'type-br_table-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3569,7 +3569,7 @@
             kind: 'identifier',
             name: 'type-br_table-label-num-vs-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3626,7 +3626,7 @@
             kind: 'identifier',
             name: 'type-br_table-label-num-vs-label-void-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3696,7 +3696,7 @@
             kind: 'identifier',
             name: 'type-br_table-label-num-vs-label-num-after-unreachable'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3780,7 +3780,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-unreachable-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3821,7 +3821,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-unreachable-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3858,7 +3858,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-unreachable-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3905,7 +3905,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-unreachable-num2-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3963,7 +3963,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-br-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4012,7 +4012,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-br-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4064,7 +4064,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-br-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4123,7 +4123,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested2-br-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4177,7 +4177,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested2-br-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4234,7 +4234,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested2-br-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4301,7 +4301,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested2-br-num2-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4367,7 +4367,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-return-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4411,7 +4411,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-return-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4455,7 +4455,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-return-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4509,7 +4509,7 @@
             kind: 'identifier',
             name: 'type-block-value-nested-return-num2-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4574,7 +4574,7 @@
             kind: 'identifier',
             name: 'type-loop-value-nested-unreachable-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4616,7 +4616,7 @@
             kind: 'identifier',
             name: 'type-loop-value-nested-unreachable-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4654,7 +4654,7 @@
             kind: 'identifier',
             name: 'type-loop-value-nested-unreachable-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4702,7 +4702,7 @@
             kind: 'identifier',
             name: 'type-cont-last-void-vs-empty'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -4743,7 +4743,7 @@
             kind: 'identifier',
             name: 'type-cont-last-num-vs-empty'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -34,10 +34,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_if'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -66,10 +66,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'br_table'
-          },
+          }],
           imp: null,
           type: null,
           params: [],

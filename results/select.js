@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -72,10 +72,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -137,10 +137,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -202,10 +202,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [
@@ -267,10 +267,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_trap_l'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -306,10 +306,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_trap_r'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -345,10 +345,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'select_unreached'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1211,7 +1211,7 @@
             kind: 'identifier',
             name: 'arity-0'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

@@ -4,7 +4,7 @@
     {
       kind: 'func',
       id: null,
-      expo: null,
+      expos: [],
       imp: null,
       type: null,
       params: [],
@@ -14,6 +14,7 @@
     },
     {
       kind: 'memory',
+      impo: null,
       expo: null,
       int: {
         kind: 'literal',
@@ -29,10 +30,10 @@
     {
       kind: 'func',
       id: null,
-      expo: {
+      expos: [{
         kind: 'literal',
         value: 'f'
-      },
+      }],
       imp: null,
       type: null,
       params: [],

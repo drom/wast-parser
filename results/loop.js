@@ -10,7 +10,7 @@
             kind: 'identifier',
             name: 'dummy'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -21,10 +21,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'empty'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -53,10 +53,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'singular'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -92,10 +92,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'multi'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -190,10 +190,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nested'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -264,10 +264,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'deep'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -635,10 +635,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-unary-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -680,10 +680,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-binary-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -749,10 +749,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-test-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -794,10 +794,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'as-compare-operand'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -863,10 +863,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-bare'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1012,10 +1012,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-value'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1074,10 +1074,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-repeated'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1247,10 +1247,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'break-inner'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1600,10 +1600,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'cont-inner'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1793,10 +1793,10 @@
             kind: 'identifier',
             name: 'fx'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'effects'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1974,10 +1974,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'while'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -2124,10 +2124,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'for'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -2301,10 +2301,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'nesting'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -3419,7 +3419,7 @@
             kind: 'identifier',
             name: 'type-empty-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3452,7 +3452,7 @@
             kind: 'identifier',
             name: 'type-empty-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3485,7 +3485,7 @@
             kind: 'identifier',
             name: 'type-empty-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3518,7 +3518,7 @@
             kind: 'identifier',
             name: 'type-empty-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3551,7 +3551,7 @@
             kind: 'identifier',
             name: 'type-value-num-vs-void'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3585,7 +3585,7 @@
             kind: 'identifier',
             name: 'type-value-empty-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3621,7 +3621,7 @@
             kind: 'identifier',
             name: 'type-value-void-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3657,7 +3657,7 @@
             kind: 'identifier',
             name: 'type-value-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -3697,7 +3697,7 @@
             kind: 'identifier',
             name: 'type-value-unreached-select'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],

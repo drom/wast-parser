@@ -6,6 +6,7 @@
       body: [
         {
           kind: 'memory',
+          impo: null,
           expo: null,
           int: {
             kind: 'literal',
@@ -24,7 +25,7 @@
             kind: 'identifier',
             name: 'i16_store_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [
@@ -118,7 +119,7 @@
             kind: 'identifier',
             name: 'i32_store_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [
@@ -216,7 +217,7 @@
             kind: 'identifier',
             name: 'i64_store_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [
@@ -326,7 +327,7 @@
             kind: 'identifier',
             name: 'i16_load_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -404,7 +405,7 @@
             kind: 'identifier',
             name: 'i32_load_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -480,7 +481,7 @@
             kind: 'identifier',
             name: 'i64_load_little'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -565,10 +566,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_load16_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -624,10 +625,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_load16_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -683,10 +684,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -742,10 +743,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_load16_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -807,10 +808,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_load16_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -872,10 +873,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_load32_s'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -937,10 +938,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_load32_u'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1002,10 +1003,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1061,10 +1062,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1126,10 +1127,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_load'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1191,10 +1192,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_store16'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1247,10 +1248,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i32_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1303,10 +1304,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store16'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1365,10 +1366,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1427,10 +1428,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'i64_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1483,10 +1484,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f32_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1545,10 +1546,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'f64_store'
-          },
+          }],
           imp: null,
           type: null,
           params: [{

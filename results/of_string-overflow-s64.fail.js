@@ -5,7 +5,7 @@
     body: [{
       kind: 'func',
       id: null,
-      expo: null,
+      expos: [],
       imp: null,
       type: null,
       params: [],

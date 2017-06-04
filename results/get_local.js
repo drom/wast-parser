@@ -7,10 +7,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-local-i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -37,10 +37,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-local-i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -67,10 +67,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-local-f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -97,10 +97,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-local-f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -127,10 +127,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-param-i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -157,10 +157,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-param-i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -187,10 +187,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-param-f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -217,10 +217,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-param-f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -247,10 +247,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-mixed'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -450,10 +450,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'read'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -918,7 +918,7 @@
             kind: 'identifier',
             name: 'type-local-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -958,7 +958,7 @@
             kind: 'identifier',
             name: 'type-local-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1000,7 +1000,7 @@
             kind: 'identifier',
             name: 'type-local-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1048,7 +1048,7 @@
             kind: 'identifier',
             name: 'type-param-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1088,7 +1088,7 @@
             kind: 'identifier',
             name: 'type-param-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1130,7 +1130,7 @@
             kind: 'identifier',
             name: 'type-param-num-vs-num'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1178,7 +1178,7 @@
             kind: 'identifier',
             name: 'unbound-local'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1221,7 +1221,7 @@
             kind: 'identifier',
             name: 'large-local'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1264,7 +1264,7 @@
             kind: 'identifier',
             name: 'unbound-param'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1307,7 +1307,7 @@
             kind: 'identifier',
             name: 'large-param'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1350,7 +1350,7 @@
             kind: 'identifier',
             name: 'unbound-mixed'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -1399,7 +1399,7 @@
             kind: 'identifier',
             name: 'large-mixed'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{

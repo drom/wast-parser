@@ -10,7 +10,7 @@
             kind: 'identifier',
             name: 'const-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -31,7 +31,7 @@
             kind: 'identifier',
             name: 'const-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -52,7 +52,7 @@
             kind: 'identifier',
             name: 'const-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -73,7 +73,7 @@
             kind: 'identifier',
             name: 'const-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -94,7 +94,7 @@
             kind: 'identifier',
             name: 'id-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -124,7 +124,7 @@
             kind: 'identifier',
             name: 'id-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -154,7 +154,7 @@
             kind: 'identifier',
             name: 'id-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -184,7 +184,7 @@
             kind: 'identifier',
             name: 'id-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -214,7 +214,7 @@
             kind: 'identifier',
             name: 'f32-i32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -250,7 +250,7 @@
             kind: 'identifier',
             name: 'i32-i64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -286,7 +286,7 @@
             kind: 'identifier',
             name: 'f64-f32'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -322,7 +322,7 @@
             kind: 'identifier',
             name: 'i64-f64'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [{
@@ -355,10 +355,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -379,10 +379,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -403,10 +403,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -427,10 +427,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -451,10 +451,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-first-i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -479,10 +479,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-first-i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -507,10 +507,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-first-f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -535,10 +535,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-first-f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -563,10 +563,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-second-i32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -598,10 +598,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-second-i64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -633,10 +633,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-second-f32'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -668,10 +668,10 @@
         {
           kind: 'func',
           id: null,
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'type-second-f64'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -706,10 +706,10 @@
             kind: 'identifier',
             name: 'fac'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -805,10 +805,10 @@
             kind: 'identifier',
             name: 'fac-acc'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fac-acc'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -923,10 +923,10 @@
             kind: 'identifier',
             name: 'fib'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'fib'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1044,10 +1044,10 @@
             kind: 'identifier',
             name: 'even'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'even'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1130,10 +1130,10 @@
             kind: 'identifier',
             name: 'odd'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'odd'
-          },
+          }],
           imp: null,
           type: null,
           params: [{
@@ -1216,10 +1216,10 @@
             kind: 'identifier',
             name: 'runaway'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'runaway'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1240,10 +1240,10 @@
             kind: 'identifier',
             name: 'mutual-runaway1'
           },
-          expo: {
+          expos: [{
             kind: 'literal',
             value: 'mutual-runaway'
-          },
+          }],
           imp: null,
           type: null,
           params: [],
@@ -1264,7 +1264,7 @@
             kind: 'identifier',
             name: 'mutual-runaway2'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -1892,7 +1892,7 @@
               kind: 'identifier',
               name: 'type-void-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1916,7 +1916,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1942,7 +1942,7 @@
               kind: 'identifier',
               name: 'type-num-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1966,7 +1966,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -1999,7 +1999,7 @@
               kind: 'identifier',
               name: 'arity-0-vs-1'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2018,7 +2018,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2050,7 +2050,7 @@
               kind: 'identifier',
               name: 'arity-0-vs-2'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2069,7 +2069,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2107,7 +2107,7 @@
               kind: 'identifier',
               name: 'arity-1-vs-0'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2130,7 +2130,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2156,7 +2156,7 @@
               kind: 'identifier',
               name: 'arity-2-vs-0'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2186,7 +2186,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2212,7 +2212,7 @@
               kind: 'identifier',
               name: 'type-first-void-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2238,7 +2238,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2276,7 +2276,7 @@
               kind: 'identifier',
               name: 'type-second-void-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2302,7 +2302,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2340,7 +2340,7 @@
               kind: 'identifier',
               name: 'type-first-num-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2370,7 +2370,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2408,7 +2408,7 @@
               kind: 'identifier',
               name: 'type-second-num-vs-num'
             },
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [],
@@ -2438,7 +2438,7 @@
           {
             kind: 'func',
             id: null,
-            expo: null,
+            expos: [],
             imp: null,
             type: null,
             params: [{
@@ -2475,7 +2475,7 @@
             kind: 'identifier',
             name: 'unbound-func'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
@@ -2507,7 +2507,7 @@
             kind: 'identifier',
             name: 'large-func'
           },
-          expo: null,
+          expos: [],
           imp: null,
           type: null,
           params: [],
