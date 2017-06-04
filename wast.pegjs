@@ -579,7 +579,7 @@ assert_return = kind:"assert_return" __ invoke:cmd __ expr:( expr )? {
     };
 }
 
-assert_return_nan = kind:"assert_return_nan" __ invoke:cmd {
+assert_return_nan = kind:("assert_return_canonical_nan" / "assert_return_arithmetic_nan") __ invoke:cmd {
     return {
         kind: kind,
         invoke: invoke
