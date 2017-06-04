@@ -33,18 +33,18 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: []
             },
             {
               kind: 'loop',
-              result: null,
               id: {
                 kind: 'identifier',
                 name: 'l'
               },
+              result: null,
               extra: null,
               body: []
             }
@@ -68,18 +68,18 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{kind: 'nop'}]
             },
             {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [{
                 kind: 'const',
@@ -107,8 +107,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {
@@ -147,11 +147,11 @@
             },
             {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -204,17 +204,17 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -236,11 +236,11 @@
               },
               {
                 kind: 'loop',
+                id: null,
                 result: {
                   kind: 'result',
                   type: 'i32'
                 },
-                id: null,
                 extra: null,
                 body: [
                   {
@@ -278,11 +278,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [{
               kind: 'block',
@@ -293,11 +293,11 @@
               id: null,
               body: [{
                 kind: 'loop',
+                id: null,
                 result: {
                   kind: 'result',
                   type: 'i32'
                 },
-                id: null,
                 extra: null,
                 body: [{
                   kind: 'block',
@@ -308,11 +308,11 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'block',
@@ -323,11 +323,11 @@
                       id: null,
                       body: [{
                         kind: 'loop',
+                        id: null,
                         result: {
                           kind: 'result',
                           type: 'i32'
                         },
-                        id: null,
                         extra: null,
                         body: [{
                           kind: 'block',
@@ -338,11 +338,11 @@
                           id: null,
                           body: [{
                             kind: 'loop',
+                            id: null,
                             result: {
                               kind: 'result',
                               type: 'i32'
                             },
-                            id: null,
                             extra: null,
                             body: [{
                               kind: 'block',
@@ -353,11 +353,11 @@
                               id: null,
                               body: [{
                                 kind: 'loop',
+                                id: null,
                                 result: {
                                   kind: 'result',
                                   type: 'i32'
                                 },
-                                id: null,
                                 extra: null,
                                 body: [{
                                   kind: 'block',
@@ -368,11 +368,11 @@
                                   id: null,
                                   body: [{
                                     kind: 'loop',
+                                    id: null,
                                     result: {
                                       kind: 'result',
                                       type: 'i32'
                                     },
-                                    id: null,
                                     extra: null,
                                     body: [{
                                       kind: 'block',
@@ -383,11 +383,11 @@
                                       id: null,
                                       body: [{
                                         kind: 'loop',
+                                        id: null,
                                         result: {
                                           kind: 'result',
                                           type: 'i32'
                                         },
-                                        id: null,
                                         extra: null,
                                         body: [{
                                           kind: 'block',
@@ -398,11 +398,11 @@
                                           id: null,
                                           body: [{
                                             kind: 'loop',
+                                            id: null,
                                             result: {
                                               kind: 'result',
                                               type: 'i32'
                                             },
-                                            id: null,
                                             extra: null,
                                             body: [{
                                               kind: 'block',
@@ -413,11 +413,11 @@
                                               id: null,
                                               body: [{
                                                 kind: 'loop',
+                                                id: null,
                                                 result: {
                                                   kind: 'result',
                                                   type: 'i32'
                                                 },
-                                                id: null,
                                                 extra: null,
                                                 body: [{
                                                   kind: 'block',
@@ -428,11 +428,11 @@
                                                   id: null,
                                                   body: [{
                                                     kind: 'loop',
+                                                    id: null,
                                                     result: {
                                                       kind: 'result',
                                                       type: 'i32'
                                                     },
-                                                    id: null,
                                                     extra: null,
                                                     body: [{
                                                       kind: 'block',
@@ -443,11 +443,11 @@
                                                       id: null,
                                                       body: [{
                                                         kind: 'loop',
+                                                        id: null,
                                                         result: {
                                                           kind: 'result',
                                                           type: 'i32'
                                                         },
-                                                        id: null,
                                                         extra: null,
                                                         body: [{
                                                           kind: 'block',
@@ -458,11 +458,11 @@
                                                           id: null,
                                                           body: [{
                                                             kind: 'loop',
+                                                            id: null,
                                                             result: {
                                                               kind: 'result',
                                                               type: 'i32'
                                                             },
-                                                            id: null,
                                                             extra: null,
                                                             body: [{
                                                               kind: 'block',
@@ -473,11 +473,11 @@
                                                               id: null,
                                                               body: [{
                                                                 kind: 'loop',
+                                                                id: null,
                                                                 result: {
                                                                   kind: 'result',
                                                                   type: 'i32'
                                                                 },
-                                                                id: null,
                                                                 extra: null,
                                                                 body: [{
                                                                   kind: 'block',
@@ -488,11 +488,11 @@
                                                                   id: null,
                                                                   body: [{
                                                                     kind: 'loop',
+                                                                    id: null,
                                                                     result: {
                                                                       kind: 'result',
                                                                       type: 'i32'
                                                                     },
-                                                                    id: null,
                                                                     extra: null,
                                                                     body: [{
                                                                       kind: 'block',
@@ -503,11 +503,11 @@
                                                                       id: null,
                                                                       body: [{
                                                                         kind: 'loop',
+                                                                        id: null,
                                                                         result: {
                                                                           kind: 'result',
                                                                           type: 'i32'
                                                                         },
-                                                                        id: null,
                                                                         extra: null,
                                                                         body: [{
                                                                           kind: 'block',
@@ -518,11 +518,11 @@
                                                                           id: null,
                                                                           body: [{
                                                                             kind: 'loop',
+                                                                            id: null,
                                                                             result: {
                                                                               kind: 'result',
                                                                               type: 'i32'
                                                                             },
-                                                                            id: null,
                                                                             extra: null,
                                                                             body: [{
                                                                               kind: 'block',
@@ -533,11 +533,11 @@
                                                                               id: null,
                                                                               body: [{
                                                                                 kind: 'loop',
+                                                                                id: null,
                                                                                 result: {
                                                                                   kind: 'result',
                                                                                   type: 'i32'
                                                                                 },
-                                                                                id: null,
                                                                                 extra: null,
                                                                                 body: [{
                                                                                   kind: 'block',
@@ -548,11 +548,11 @@
                                                                                   id: null,
                                                                                   body: [{
                                                                                     kind: 'loop',
+                                                                                    id: null,
                                                                                     result: {
                                                                                       kind: 'result',
                                                                                       type: 'i32'
                                                                                     },
-                                                                                    id: null,
                                                                                     extra: null,
                                                                                     body: [{
                                                                                       kind: 'block',
@@ -563,11 +563,11 @@
                                                                                       id: null,
                                                                                       body: [{
                                                                                         kind: 'loop',
+                                                                                        id: null,
                                                                                         result: {
                                                                                           kind: 'result',
                                                                                           type: 'i32'
                                                                                         },
-                                                                                        id: null,
                                                                                         extra: null,
                                                                                         body: [{
                                                                                           kind: 'block',
@@ -653,11 +653,11 @@
             operator: 'ctz',
             expr: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -698,11 +698,11 @@
             operator: 'mul',
             left: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -722,11 +722,11 @@
             },
             right: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -767,11 +767,11 @@
             operator: 'eqz',
             expr: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -812,11 +812,11 @@
             operator: 'gt',
             left: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'f32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -836,11 +836,11 @@
             },
             right: {
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'f32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -882,8 +882,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -914,8 +914,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -942,8 +942,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -969,8 +969,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -1033,11 +1033,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -1095,11 +1095,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -1307,11 +1307,11 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'block',
@@ -1366,19 +1366,19 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'loop',
+                      id: null,
                       result: {
                         kind: 'result',
                         type: 'i32'
                       },
-                      id: null,
                       extra: null,
                       body: [{
                         kind: 'br',
@@ -1426,11 +1426,11 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'block',
@@ -1441,11 +1441,11 @@
                       id: null,
                       body: [{
                         kind: 'loop',
+                        id: null,
                         result: {
                           kind: 'result',
                           type: 'i32'
                         },
-                        id: null,
                         extra: null,
                         body: [{
                           kind: 'br',
@@ -1494,11 +1494,11 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'unop',
@@ -1550,11 +1550,11 @@
                   id: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'unop',
@@ -1562,11 +1562,11 @@
                       operator: 'ctz',
                       expr: {
                         kind: 'loop',
+                        id: null,
                         result: {
                           kind: 'result',
                           type: 'i32'
                         },
-                        id: null,
                         extra: null,
                         body: [{
                           kind: 'br',
@@ -1653,19 +1653,19 @@
                 },
                 right: {
                   kind: 'loop',
+                  id: null,
                   result: {
                     kind: 'result',
                     type: 'i32'
                   },
-                  id: null,
                   extra: null,
                   body: [{
                     kind: 'loop',
+                    id: null,
                     result: {
                       kind: 'result',
                       type: 'i32'
                     },
-                    id: null,
                     extra: null,
                     body: [{
                       kind: 'br',
@@ -1701,11 +1701,11 @@
                 },
                 right: {
                   kind: 'loop',
+                  id: null,
                   result: {
                     kind: 'result',
                     type: 'i32'
                   },
-                  id: null,
                   extra: null,
                   body: [{
                     kind: 'unop',
@@ -1745,11 +1745,11 @@
                 },
                 right: {
                   kind: 'loop',
+                  id: null,
                   result: {
                     kind: 'result',
                     type: 'i32'
                   },
-                  id: null,
                   extra: null,
                   body: [{
                     kind: 'unop',
@@ -1757,11 +1757,11 @@
                     operator: 'ctz',
                     expr: {
                       kind: 'loop',
+                      id: null,
                       result: {
                         kind: 'result',
                         type: 'i32'
                       },
-                      id: null,
                       extra: null,
                       body: [{
                         kind: 'br',
@@ -1818,8 +1818,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -2018,8 +2018,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -2187,8 +2187,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -2344,8 +2344,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -2397,8 +2397,8 @@
                     id: null,
                     body: [{
                       kind: 'loop',
-                      result: null,
                       id: null,
+                      result: null,
                       extra: null,
                       body: [
                         {
@@ -3430,8 +3430,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: []
           }]
@@ -3463,8 +3463,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: []
           }]
@@ -3496,8 +3496,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: []
           }]
@@ -3529,8 +3529,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: []
           }]
@@ -3559,8 +3559,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [{
               kind: 'const',
@@ -3596,11 +3596,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: []
           }]
@@ -3632,11 +3632,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [{kind: 'nop'}]
           }]
@@ -3668,11 +3668,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [{
               kind: 'const',
@@ -3708,11 +3708,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i64'
             },
-            id: null,
             extra: null,
             body: [{
               kind: 'select',

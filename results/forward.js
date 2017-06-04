@@ -31,6 +31,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -120,6 +121,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'

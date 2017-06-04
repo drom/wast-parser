@@ -59,6 +59,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {

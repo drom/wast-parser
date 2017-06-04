@@ -457,11 +457,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -497,11 +497,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -545,11 +545,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {kind: 'nop'},
@@ -980,6 +980,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -1043,6 +1044,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -1112,6 +1114,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'

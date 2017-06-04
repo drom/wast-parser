@@ -518,11 +518,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -571,11 +571,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -632,11 +632,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {kind: 'nop'},
@@ -1114,6 +1114,7 @@
             id: null,
             body: [{
               kind: 'if',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
@@ -1190,6 +1191,7 @@
             id: null,
             body: [{
               kind: 'if',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
@@ -1272,6 +1274,7 @@
             id: null,
             body: [{
               kind: 'if',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'

@@ -440,8 +440,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -507,8 +507,8 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
@@ -574,8 +574,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [
               {
@@ -636,6 +636,7 @@
             id: null,
             body: [{
               kind: 'if',
+              id: null,
               result: null,
               body: [
                 {
@@ -713,6 +714,7 @@
             id: null,
             body: [{
               kind: 'if',
+              id: null,
               result: null,
               body: [
                 {

@@ -1630,11 +1630,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -1670,11 +1670,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -1723,11 +1723,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -1783,11 +1783,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {

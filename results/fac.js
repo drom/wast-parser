@@ -27,6 +27,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i64'
@@ -132,6 +133,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i64'
@@ -275,12 +277,13 @@
               id: null,
               body: [{
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [
                   {
                     kind: 'if',
+                    id: null,
                     result: null,
                     body: [
                       {
@@ -474,15 +477,16 @@
               },
               body: [{
                 kind: 'loop',
-                result: null,
                 id: {
                   kind: 'identifier',
                   name: 'loop'
                 },
+                result: null,
                 extra: null,
                 body: [
                   {
                     kind: 'if',
+                    id: null,
                     result: null,
                     body: [
                       {
@@ -667,8 +671,8 @@
                 },
                 {
                   kind: 'loop',
-                  result: null,
                   id: null,
+                  result: null,
                   extra: null,
                   body: [
                     {

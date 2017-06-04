@@ -426,11 +426,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {kind: 'unreachable'},
@@ -459,11 +459,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -497,8 +497,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [
               {kind: 'nop'},
@@ -538,11 +538,11 @@
             id: null,
             body: [{
               kind: 'loop',
+              id: null,
               result: {
                 kind: 'result',
                 type: 'i32'
               },
-              id: null,
               extra: null,
               body: [
                 {
@@ -1019,6 +1019,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -1075,6 +1076,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -1137,6 +1139,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'

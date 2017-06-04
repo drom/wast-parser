@@ -843,8 +843,8 @@
             id: null,
             body: [{
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {
@@ -892,11 +892,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -1306,8 +1306,8 @@
             id: null,
             body: [{
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {
@@ -1350,11 +1350,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -1727,8 +1727,8 @@
             id: null,
             body: [{
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {kind: 'unreachable'},
@@ -1768,11 +1768,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {kind: 'unreachable'},
@@ -2158,8 +2158,8 @@
             id: null,
             body: [{
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {
@@ -2204,11 +2204,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -2325,8 +2325,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2379,8 +2379,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2432,8 +2432,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2491,8 +2491,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2553,8 +2553,8 @@
             body: [
               {
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [{
                   kind: 'br',
@@ -2614,8 +2614,8 @@
               },
               {
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [{
                   kind: 'br',
@@ -2663,14 +2663,14 @@
             id: null,
             body: [{
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [
                 {
                   kind: 'loop',
-                  result: null,
                   id: null,
+                  result: null,
                   extra: null,
                   body: [{
                     kind: 'br',
@@ -2718,17 +2718,17 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
             },
-            id: null,
             extra: null,
             body: [
               {
                 kind: 'loop',
-                result: null,
                 id: null,
+                result: null,
                 extra: null,
                 body: [{
                   kind: 'br',
@@ -2773,8 +2773,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2821,8 +2821,8 @@
           body: [
             {
               kind: 'loop',
-              result: null,
               id: null,
+              result: null,
               extra: null,
               body: [{
                 kind: 'br',
@@ -2865,6 +2865,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -2912,6 +2913,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -2963,6 +2965,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -3015,6 +3018,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -3071,6 +3075,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -3117,6 +3122,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -3163,6 +3169,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -3214,6 +3221,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -3268,6 +3276,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: null,
             body: [
               {
@@ -3280,8 +3289,8 @@
                 id: null,
                 body: [{
                   kind: 'loop',
-                  result: null,
                   id: null,
+                  result: null,
                   extra: null,
                   body: [{
                     kind: 'const',
@@ -3320,6 +3329,7 @@
           local: [],
           body: [{
             kind: 'if',
+            id: null,
             result: {
               kind: 'result',
               type: 'i32'
@@ -3335,11 +3345,11 @@
                 id: null,
                 body: [{
                   kind: 'loop',
+                  id: null,
                   result: {
                     kind: 'result',
                     type: 'i32'
                   },
-                  id: null,
                   extra: null,
                   body: [{
                     kind: 'const',
@@ -4572,8 +4582,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [
               {
@@ -4617,8 +4627,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [{
               kind: 'block',
@@ -4655,11 +4665,11 @@
           local: [],
           body: [{
             kind: 'loop',
+            id: null,
             result: {
               kind: 'result',
               type: 'i64'
             },
-            id: null,
             extra: null,
             body: [
               {
@@ -4703,8 +4713,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [{
               kind: 'br',
@@ -4744,8 +4754,8 @@
           local: [],
           body: [{
             kind: 'loop',
-            result: null,
             id: null,
+            result: null,
             extra: null,
             body: [{
               kind: 'br',
