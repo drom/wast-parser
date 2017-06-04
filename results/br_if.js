@@ -440,7 +440,7 @@
               id: null,
               body: [{
                 kind: 'loop',
-                type: null,
+                result: null,
                 id: null,
                 extra: null,
                 body: [
@@ -507,7 +507,7 @@
               id: null,
               body: [{
                 kind: 'loop',
-                type: null,
+                result: null,
                 id: null,
                 extra: null,
                 body: [
@@ -574,7 +574,7 @@
           local: [],
           body: [{
             kind: 'loop',
-            type: null,
+            result: null,
             id: null,
             extra: null,
             body: [
@@ -636,7 +636,7 @@
             id: null,
             body: [{
               kind: 'if',
-              type: null,
+              result: null,
               body: [
                 {
                   kind: 'get_local',
@@ -713,7 +713,7 @@
             id: null,
             body: [{
               kind: 'if',
-              type: null,
+              result: null,
               body: [
                 {
                   kind: 'get_local',

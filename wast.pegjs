@@ -140,10 +140,10 @@ expr
             };
         }
 
-        / kind:"if" type:( __ local_type )? body:( __ expr )* {
+        / kind:"if" result:( __ result )? body:( __ expr )* {
             return {
                 kind: kind,
-                type: type ? type[1] : type,
+                result: result ? result[1] : result,
                 body: body.map(function (e) { return e[1]; })
             };
         }
@@ -157,10 +157,10 @@ expr
         }
 
         // = (label <var> (loop (block <var>? <expr>*)))
-        / kind:"loop" type:( __ local_type )? id:( __ var )? extra:( __ var )? body:( __ expr )* {
+        / kind:"loop" result:( __ result )? id:( __ var )? extra:( __ var )? body:( __ expr )* {
             return {
                 kind: kind,
-                type: type ? type[1] : type,
+                result: result ? result[1] : result,
                 id: id ? id[1] : id,
                 extra: extra ? extra[1] : extra,
                 body: body.map(function (e) { return e[1]; })

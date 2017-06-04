@@ -59,7 +59,7 @@
           local: [],
           body: [{
             kind: 'if',
-            type: null,
+            result: null,
             body: [
               {
                 kind: 'relop',
