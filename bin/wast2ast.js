@@ -7,7 +7,7 @@ var fs = require('fs'),
     jsof = require('jsof'),
     parser = require('../');
 
-function runner (name, report) {
+function runner (name, dst, report) {
     return function (err, data) {
         var result;
         if (err) { throw err; }
@@ -31,23 +31,39 @@ function runner (name, report) {
     };
 }
 
-var src = path.resolve(__dirname, '../testsuite/');
-var dst = path.resolve(__dirname, '../results/');
-
-var wastFileNames = fs.readdirSync(src);
-
 var report = { pass: 0, fail: 0 };
 
-wastFileNames.forEach(function (wastFileName) {
-    var matchArr = wastFileName.match('^(.*).wast$');
-    // var matchFail = wastFileName.match('^(.*).fail.wast$');
-    if (matchArr) { // } && !matchFail) {
+[
+    { src: '../testsuite/',       dst: '../results/' },
+    { src: '../testsuite-extra/', dst: '../results-extra/' }
+]
+.map(function (job) {
+    return {
+        src: path.resolve(__dirname, job.src),
+        dst: path.resolve(__dirname, job.dst)
+    };
+})
+.map(function (job) {
+    return {
+        src: job.src,
+        dst: job.dst,
+        files: (
+            fs.readdirSync(job.src)
+            .filter(function (fileName) {
+                return fileName.match('^(.*).wast$');
+            })
+        )
+    };
+})
+.forEach(function (job) {
+    job.files.forEach(function (wastFileName) {
+        var matchArr = wastFileName.match('^(.*).wast$');
         fs.readFile(
-            path.resolve(src, wastFileName),
+            path.resolve(job.src, wastFileName),
             'utf8',
-            runner(matchArr[1], report)
+            runner(matchArr[1], job.dst, report)
         );
-    }
+    });
 });
 
 process.on('exit', function () {

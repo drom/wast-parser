@@ -504,7 +504,7 @@ import = kind:"import" id:( __ var )? __ modName:literal __ funcName:literal typ
     };
 }
 
-export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( cmd / "memory" ) {
+export = kind:"export" __ ["] name:( "\\" "\"" / !["] . )* ["] __ id:( var / cmd / "memory" ) {
     return {
         kind: kind,
         name: {
