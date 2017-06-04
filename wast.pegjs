@@ -268,7 +268,7 @@ expr
             };
         }
 
-        / kind:("set_local" / "tee_local") __ id:var expr:( __ expr )? {
+        / kind:("set_local" / "tee_local" / "set_global") __ id:var expr:( __ expr )? {
             return {
                 kind: kind,
                 id: id,
@@ -442,12 +442,13 @@ func = kind:"func" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )?
     };
 }
 
-global = kind:"global" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? type:( __ local_type )? body:( __ expr )* {
+global = kind:"global" id:( __ var )? expo:( __ "(" __ "export" __ literal __ ")" )? type:( __ local_type )? mut:( __ "(" __ "mut" __ local_type __ ")" )? body:( __ expr )* {
     return {
         kind:kind,
         id: id ? id[1] : id,
+        mut: mut ? true : false,
         expo: expo ? expo[5] : expo,
-        type: type ? type[1] : type,
+        type: (type ? type[1] : (mut ? mut[5] : null)),
         body: body.map(function (e) { return e[1]; })
     };
 }
