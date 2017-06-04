@@ -2378,7 +2378,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'i32.div_s_3'
+            value: 'i32.div_s_0'
           },
           imp: null,
           type: null,
@@ -2418,7 +2418,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'i32.div_u_3'
+            value: 'i32.div_u_0'
           },
           imp: null,
           type: null,
@@ -2458,7 +2458,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'i64.div_s_3'
+            value: 'i64.div_s_0'
           },
           imp: null,
           type: null,
@@ -2498,7 +2498,7 @@
           id: null,
           expo: {
             kind: 'literal',
-            value: 'i64.div_u_3'
+            value: 'i64.div_u_0'
           },
           imp: null,
           type: null,
@@ -2540,7 +2540,7 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'i32.div_s_3',
+        name: 'i32.div_s_0',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -2557,7 +2557,7 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'i32.div_u_3',
+        name: 'i32.div_u_0',
         body: [{
           kind: 'const',
           type: 'i32',
@@ -2574,7 +2574,7 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'i64.div_s_3',
+        name: 'i64.div_s_0',
         body: [{
           kind: 'const',
           type: 'i64',
@@ -2591,7 +2591,7 @@
       invoke: {
         kind: 'invoke',
         id: null,
-        name: 'i64.div_u_3',
+        name: 'i64.div_u_0',
         body: [{
           kind: 'const',
           type: 'i64',
@@ -4455,6 +4455,125 @@
         kind: 'const',
         type: 'i64',
         init: '0'
+      }
+    },
+    {
+      kind: 'module',
+      body: [
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i32.no_fold_div_neg1'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i32'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i32',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i32',
+              init: '-1'
+            }
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expo: {
+            kind: 'literal',
+            value: 'i64.no_fold_div_neg1'
+          },
+          imp: null,
+          type: null,
+          params: [{
+            kind: 'param',
+            items: [{
+              kind: 'item',
+              name: 'x',
+              type: 'i64'
+            }]
+          }],
+          result: {
+            kind: 'result',
+            type: 'i64'
+          },
+          local: [],
+          body: [{
+            kind: 'binop',
+            type: 'i64',
+            operator: 'div_s',
+            left: {
+              kind: 'get_local',
+              id: {
+                kind: 'identifier',
+                name: 'x'
+              }
+            },
+            right: {
+              kind: 'const',
+              type: 'i64',
+              init: '-1'
+            }
+          }]
+        }
+      ]
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i32.no_fold_div_neg1',
+        body: [{
+          kind: 'const',
+          type: 'i32',
+          init: '0x80000000'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer overflow'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'i64.no_fold_div_neg1',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0x8000000000000000'
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer overflow'
       }
     }
   ]

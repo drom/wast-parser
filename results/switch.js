@@ -48,14 +48,14 @@
             },
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: {
                 kind: 'identifier',
                 name: 'switch'
               },
               body: [{
                 kind: 'block',
-                type: null,
+                result: null,
                 id: {
                   kind: 'identifier',
                   name: '7'
@@ -63,7 +63,7 @@
                 body: [
                   {
                     kind: 'block',
-                    type: null,
+                    result: null,
                     id: {
                       kind: 'identifier',
                       name: 'default'
@@ -71,7 +71,7 @@
                     body: [
                       {
                         kind: 'block',
-                        type: null,
+                        result: null,
                         id: {
                           kind: 'identifier',
                           name: '6'
@@ -79,7 +79,7 @@
                         body: [
                           {
                             kind: 'block',
-                            type: null,
+                            result: null,
                             id: {
                               kind: 'identifier',
                               name: '5'
@@ -87,7 +87,7 @@
                             body: [
                               {
                                 kind: 'block',
-                                type: null,
+                                result: null,
                                 id: {
                                   kind: 'identifier',
                                   name: '4'
@@ -95,14 +95,14 @@
                                 body: [
                                   {
                                     kind: 'block',
-                                    type: null,
+                                    result: null,
                                     id: {
                                       kind: 'identifier',
                                       name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
-                                      type: null,
+                                      result: null,
                                       id: {
                                         kind: 'identifier',
                                         name: '2'
@@ -110,7 +110,7 @@
                                       body: [
                                         {
                                           kind: 'block',
-                                          type: null,
+                                          result: null,
                                           id: {
                                             kind: 'identifier',
                                             name: '1'
@@ -118,7 +118,7 @@
                                           body: [
                                             {
                                               kind: 'block',
-                                              type: null,
+                                              result: null,
                                               id: {
                                                 kind: 'identifier',
                                                 name: '0'
@@ -341,7 +341,10 @@
               kind: 'return',
               expr: {
                 kind: 'block',
-                type: 'i64',
+                result: {
+                  kind: 'result',
+                  type: 'i64'
+                },
                 id: {
                   kind: 'identifier',
                   name: 'switch'
@@ -349,7 +352,7 @@
                 body: [
                   {
                     kind: 'block',
-                    type: null,
+                    result: null,
                     id: {
                       kind: 'identifier',
                       name: '7'
@@ -357,21 +360,21 @@
                     body: [
                       {
                         kind: 'block',
-                        type: null,
+                        result: null,
                         id: {
                           kind: 'identifier',
                           name: 'default'
                         },
                         body: [{
                           kind: 'block',
-                          type: null,
+                          result: null,
                           id: {
                             kind: 'identifier',
                             name: '4'
                           },
                           body: [{
                             kind: 'block',
-                            type: null,
+                            result: null,
                             id: {
                               kind: 'identifier',
                               name: '5'
@@ -379,7 +382,7 @@
                             body: [
                               {
                                 kind: 'block',
-                                type: null,
+                                result: null,
                                 id: {
                                   kind: 'identifier',
                                   name: '6'
@@ -387,14 +390,14 @@
                                 body: [
                                   {
                                     kind: 'block',
-                                    type: null,
+                                    result: null,
                                     id: {
                                       kind: 'identifier',
                                       name: '3'
                                     },
                                     body: [{
                                       kind: 'block',
-                                      type: null,
+                                      result: null,
                                       id: {
                                         kind: 'identifier',
                                         name: '2'
@@ -402,7 +405,7 @@
                                       body: [
                                         {
                                           kind: 'block',
-                                          type: null,
+                                          result: null,
                                           id: {
                                             kind: 'identifier',
                                             name: '1'
@@ -410,7 +413,7 @@
                                           body: [
                                             {
                                               kind: 'block',
-                                              type: null,
+                                              result: null,
                                               id: {
                                                 kind: 'identifier',
                                                 name: '0'
@@ -580,7 +583,10 @@
             kind: 'return',
             expr: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: {
                 kind: 'identifier',
                 name: '2'
@@ -596,7 +602,10 @@
                 },
                 right: {
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: {
                     kind: 'identifier',
                     name: '1'
@@ -612,7 +621,10 @@
                     },
                     right: {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: {
                         kind: 'identifier',
                         name: '0'
@@ -628,7 +640,10 @@
                         },
                         right: {
                           kind: 'block',
-                          type: 'i32',
+                          result: {
+                            kind: 'result',
+                            type: 'i32'
+                          },
                           id: {
                             kind: 'identifier',
                             name: 'default'
@@ -717,7 +732,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'br_table',

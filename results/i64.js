@@ -2178,6 +2178,31 @@
           {
             kind: 'const',
             type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '-1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'div_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
             init: '-1'
           },
           {
@@ -3005,6 +3030,31 @@
             kind: 'const',
             type: 'i64',
             init: '1'
+          }
+        ]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i64',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'rem_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '-1'
           }
         ]
       },
@@ -6647,6 +6697,24 @@
           kind: 'const',
           type: 'i64',
           init: '0x7fffffffffffffff'
+        }]
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '0'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'eqz',
+        body: [{
+          kind: 'const',
+          type: 'i64',
+          init: '0xffffffffffffffff'
         }]
       },
       expr: {

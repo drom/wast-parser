@@ -131,10 +131,10 @@ expr
             };
         }
 
-        / kind:"block" id:( __ var )? type:( __ local_type )? body:( __ expr )* {
+        / kind:"block" id:( __ var )? result:( __ result )? body:( __ expr )* {
             return {
                 kind: kind,
-                type: type ? type[1] : type,
+                result: result ? result[1] : result,
                 id: id ? id[1] : id,
                 body: body.map(function (e) { return e[1]; })
             };

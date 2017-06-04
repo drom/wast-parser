@@ -7074,7 +7074,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -7150,7 +7153,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: {
               kind: 'identifier',
               name: 'a'
@@ -7168,7 +7174,10 @@
                 kind: 'drop',
                 body: [{
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: {
                     kind: 'identifier',
                     name: 'b'

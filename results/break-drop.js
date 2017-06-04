@@ -18,7 +18,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br',
@@ -45,7 +45,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -77,7 +77,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_table',

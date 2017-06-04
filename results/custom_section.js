@@ -83,6 +83,46 @@
         {
           kind: 'literal',
           value: 'this is the payload'
+        },
+        {
+          kind: 'literal',
+          value: '\\00\\24\\10'
+        },
+        {
+          kind: 'literal',
+          value: '\\ef\\bb\\bfa custom sect'
+        },
+        {
+          kind: 'literal',
+          value: 'this is the payload'
+        },
+        {
+          kind: 'literal',
+          value: '\\00\\24\\10'
+        },
+        {
+          kind: 'literal',
+          value: 'a custom sect\\e2\\8c\\a3'
+        },
+        {
+          kind: 'literal',
+          value: 'this is the payload'
+        },
+        {
+          kind: 'literal',
+          value: '\\00\\1f\\16'
+        },
+        {
+          kind: 'literal',
+          value: 'module within a module'
+        },
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
         }
       ]
     },
@@ -471,6 +511,30 @@
           },
           {
             kind: 'literal',
+            value: '\\00'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unexpected end'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
             value: '\\00\\00'
           }
         ]
@@ -610,6 +674,26 @@
       failure: {
         kind: 'literal',
         value: 'function and code section have inconsistent lengths'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          {
+            kind: 'literal',
+            value: '\\00asm\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\00asm\\01\\00\\00\\00'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'length out of bounds'
       }
     }
   ]

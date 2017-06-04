@@ -33,13 +33,13 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: []
             },
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: {
                 kind: 'identifier',
                 name: 'l'
@@ -66,13 +66,16 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{kind: 'nop'}]
             },
             {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [{
                 kind: 'const',
@@ -100,7 +103,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -139,7 +142,10 @@
             },
             {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -192,12 +198,15 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
                 kind: 'block',
-                type: null,
+                result: null,
                 id: null,
                 body: [
                   {
@@ -210,7 +219,7 @@
                   },
                   {
                     kind: 'block',
-                    type: null,
+                    result: null,
                     id: null,
                     body: []
                   },
@@ -219,7 +228,10 @@
               },
               {
                 kind: 'block',
-                type: 'i32',
+                result: {
+                  kind: 'result',
+                  type: 'i32'
+                },
                 id: null,
                 body: [
                   {
@@ -257,155 +269,269 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [{
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [{
                 kind: 'block',
-                type: 'i32',
+                result: {
+                  kind: 'result',
+                  type: 'i32'
+                },
                 id: null,
                 body: [{
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: null,
                   body: [{
                     kind: 'block',
-                    type: 'i32',
+                    result: {
+                      kind: 'result',
+                      type: 'i32'
+                    },
                     id: null,
                     body: [{
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [{
                         kind: 'block',
-                        type: 'i32',
+                        result: {
+                          kind: 'result',
+                          type: 'i32'
+                        },
                         id: null,
                         body: [{
                           kind: 'block',
-                          type: 'i32',
+                          result: {
+                            kind: 'result',
+                            type: 'i32'
+                          },
                           id: null,
                           body: [{
                             kind: 'block',
-                            type: 'i32',
+                            result: {
+                              kind: 'result',
+                              type: 'i32'
+                            },
                             id: null,
                             body: [{
                               kind: 'block',
-                              type: 'i32',
+                              result: {
+                                kind: 'result',
+                                type: 'i32'
+                              },
                               id: null,
                               body: [{
                                 kind: 'block',
-                                type: 'i32',
+                                result: {
+                                  kind: 'result',
+                                  type: 'i32'
+                                },
                                 id: null,
                                 body: [{
                                   kind: 'block',
-                                  type: 'i32',
+                                  result: {
+                                    kind: 'result',
+                                    type: 'i32'
+                                  },
                                   id: null,
                                   body: [{
                                     kind: 'block',
-                                    type: 'i32',
+                                    result: {
+                                      kind: 'result',
+                                      type: 'i32'
+                                    },
                                     id: null,
                                     body: [{
                                       kind: 'block',
-                                      type: 'i32',
+                                      result: {
+                                        kind: 'result',
+                                        type: 'i32'
+                                      },
                                       id: null,
                                       body: [{
                                         kind: 'block',
-                                        type: 'i32',
+                                        result: {
+                                          kind: 'result',
+                                          type: 'i32'
+                                        },
                                         id: null,
                                         body: [{
                                           kind: 'block',
-                                          type: 'i32',
+                                          result: {
+                                            kind: 'result',
+                                            type: 'i32'
+                                          },
                                           id: null,
                                           body: [{
                                             kind: 'block',
-                                            type: 'i32',
+                                            result: {
+                                              kind: 'result',
+                                              type: 'i32'
+                                            },
                                             id: null,
                                             body: [{
                                               kind: 'block',
-                                              type: 'i32',
+                                              result: {
+                                                kind: 'result',
+                                                type: 'i32'
+                                              },
                                               id: null,
                                               body: [{
                                                 kind: 'block',
-                                                type: 'i32',
+                                                result: {
+                                                  kind: 'result',
+                                                  type: 'i32'
+                                                },
                                                 id: null,
                                                 body: [{
                                                   kind: 'block',
-                                                  type: 'i32',
+                                                  result: {
+                                                    kind: 'result',
+                                                    type: 'i32'
+                                                  },
                                                   id: null,
                                                   body: [{
                                                     kind: 'block',
-                                                    type: 'i32',
+                                                    result: {
+                                                      kind: 'result',
+                                                      type: 'i32'
+                                                    },
                                                     id: null,
                                                     body: [{
                                                       kind: 'block',
-                                                      type: 'i32',
+                                                      result: {
+                                                        kind: 'result',
+                                                        type: 'i32'
+                                                      },
                                                       id: null,
                                                       body: [{
                                                         kind: 'block',
-                                                        type: 'i32',
+                                                        result: {
+                                                          kind: 'result',
+                                                          type: 'i32'
+                                                        },
                                                         id: null,
                                                         body: [{
                                                           kind: 'block',
-                                                          type: 'i32',
+                                                          result: {
+                                                            kind: 'result',
+                                                            type: 'i32'
+                                                          },
                                                           id: null,
                                                           body: [{
                                                             kind: 'block',
-                                                            type: 'i32',
+                                                            result: {
+                                                              kind: 'result',
+                                                              type: 'i32'
+                                                            },
                                                             id: null,
                                                             body: [{
                                                               kind: 'block',
-                                                              type: 'i32',
+                                                              result: {
+                                                                kind: 'result',
+                                                                type: 'i32'
+                                                              },
                                                               id: null,
                                                               body: [{
                                                                 kind: 'block',
-                                                                type: 'i32',
+                                                                result: {
+                                                                  kind: 'result',
+                                                                  type: 'i32'
+                                                                },
                                                                 id: null,
                                                                 body: [{
                                                                   kind: 'block',
-                                                                  type: 'i32',
+                                                                  result: {
+                                                                    kind: 'result',
+                                                                    type: 'i32'
+                                                                  },
                                                                   id: null,
                                                                   body: [{
                                                                     kind: 'block',
-                                                                    type: 'i32',
+                                                                    result: {
+                                                                      kind: 'result',
+                                                                      type: 'i32'
+                                                                    },
                                                                     id: null,
                                                                     body: [{
                                                                       kind: 'block',
-                                                                      type: 'i32',
+                                                                      result: {
+                                                                        kind: 'result',
+                                                                        type: 'i32'
+                                                                      },
                                                                       id: null,
                                                                       body: [{
                                                                         kind: 'block',
-                                                                        type: 'i32',
+                                                                        result: {
+                                                                          kind: 'result',
+                                                                          type: 'i32'
+                                                                        },
                                                                         id: null,
                                                                         body: [{
                                                                           kind: 'block',
-                                                                          type: 'i32',
+                                                                          result: {
+                                                                            kind: 'result',
+                                                                            type: 'i32'
+                                                                          },
                                                                           id: null,
                                                                           body: [{
                                                                             kind: 'block',
-                                                                            type: 'i32',
+                                                                            result: {
+                                                                              kind: 'result',
+                                                                              type: 'i32'
+                                                                            },
                                                                             id: null,
                                                                             body: [{
                                                                               kind: 'block',
-                                                                              type: 'i32',
+                                                                              result: {
+                                                                                kind: 'result',
+                                                                                type: 'i32'
+                                                                              },
                                                                               id: null,
                                                                               body: [{
                                                                                 kind: 'block',
-                                                                                type: 'i32',
+                                                                                result: {
+                                                                                  kind: 'result',
+                                                                                  type: 'i32'
+                                                                                },
                                                                                 id: null,
                                                                                 body: [{
                                                                                   kind: 'block',
-                                                                                  type: 'i32',
+                                                                                  result: {
+                                                                                    kind: 'result',
+                                                                                    type: 'i32'
+                                                                                  },
                                                                                   id: null,
                                                                                   body: [{
                                                                                     kind: 'block',
-                                                                                    type: 'i32',
+                                                                                    result: {
+                                                                                      kind: 'result',
+                                                                                      type: 'i32'
+                                                                                    },
                                                                                     id: null,
                                                                                     body: [{
                                                                                       kind: 'block',
-                                                                                      type: 'i32',
+                                                                                      result: {
+                                                                                        kind: 'result',
+                                                                                        type: 'i32'
+                                                                                      },
                                                                                       id: null,
                                                                                       body: [
                                                                                         {
@@ -482,7 +608,10 @@
             operator: 'ctz',
             expr: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -523,7 +652,10 @@
             operator: 'mul',
             left: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -543,7 +675,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -584,7 +719,10 @@
             operator: 'eqz',
             expr: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -625,7 +763,10 @@
             operator: 'gt',
             left: {
               kind: 'block',
-              type: 'f32',
+              result: {
+                kind: 'result',
+                type: 'f32'
+              },
               id: null,
               body: [
                 {
@@ -645,7 +786,10 @@
             },
             right: {
               kind: 'block',
-              type: 'f32',
+              result: {
+                kind: 'result',
+                type: 'f32'
+              },
               id: null,
               body: [
                 {
@@ -683,7 +827,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -700,7 +844,7 @@
             },
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -722,7 +866,7 @@
             },
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -743,7 +887,7 @@
             },
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -798,7 +942,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -839,7 +986,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -1039,11 +1189,17 @@
                 },
                 right: {
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: null,
                   body: [{
                     kind: 'block',
-                    type: 'i32',
+                    result: {
+                      kind: 'result',
+                      type: 'i32'
+                    },
                     id: null,
                     body: [{
                       kind: 'br',
@@ -1083,12 +1239,15 @@
                 },
                 right: {
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: null,
                   body: [
                     {
                       kind: 'block',
-                      type: null,
+                      result: null,
                       id: null,
                       body: [{
                         kind: 'br',
@@ -1130,7 +1289,10 @@
                 },
                 right: {
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: null,
                   body: [{
                     kind: 'unop',
@@ -1174,7 +1336,10 @@
                 },
                 right: {
                   kind: 'block',
-                  type: 'i32',
+                  result: {
+                    kind: 'result',
+                    type: 'i32'
+                  },
                   id: null,
                   body: [{
                     kind: 'unop',
@@ -1182,7 +1347,10 @@
                     operator: 'ctz',
                     expr: {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [{
                         kind: 'br',
@@ -1236,7 +1404,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -1602,7 +1770,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: []
           }]
@@ -1634,7 +1802,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: []
           }]
@@ -1666,7 +1834,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: []
           }]
@@ -1698,7 +1866,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: []
           }]
@@ -1727,7 +1895,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'const',
@@ -1763,7 +1931,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: []
           }]
@@ -1795,7 +1966,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [{kind: 'nop'}]
           }]
@@ -1827,7 +2001,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [{
               kind: 'const',
@@ -1863,7 +2040,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i64',
+            result: {
+              kind: 'result',
+              type: 'i64'
+            },
             id: null,
             body: [{
               kind: 'select',
@@ -1900,7 +2080,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [{
               kind: 'br',
@@ -1940,7 +2123,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -1987,7 +2173,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2034,7 +2223,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2085,7 +2277,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2140,7 +2335,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2196,12 +2394,18 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
                 kind: 'block',
-                type: 'i32',
+                result: {
+                  kind: 'result',
+                  type: 'i32'
+                },
                 id: null,
                 body: [{
                   kind: 'br',
@@ -2256,12 +2460,15 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
                 kind: 'block',
-                type: null,
+                result: null,
                 id: null,
                 body: [{
                   kind: 'br',
@@ -2316,12 +2523,18 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
                 kind: 'block',
-                type: 'i32',
+                result: {
+                  kind: 'result',
+                  type: 'i32'
+                },
                 id: null,
                 body: [{
                   kind: 'br',
@@ -2376,12 +2589,18 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
                 kind: 'block',
-                type: 'i32',
+                result: {
+                  kind: 'result',
+                  type: 'i32'
+                },
                 id: null,
                 body: [{
                   kind: 'br',
@@ -2444,7 +2663,7 @@
             operator: 'ctz',
             expr: {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'br',
@@ -2489,7 +2708,7 @@
             operator: 'ctz',
             expr: {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'br',
@@ -2534,7 +2753,7 @@
             operator: 'ctz',
             expr: {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'br',

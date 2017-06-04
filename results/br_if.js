@@ -42,7 +42,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -103,7 +103,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [
                 {
@@ -168,7 +168,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [
               {
@@ -230,7 +230,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -291,7 +294,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -360,7 +366,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -427,7 +436,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'loop',
@@ -494,7 +503,7 @@
           body: [
             {
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'loop',
@@ -623,7 +632,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'if',
@@ -638,29 +647,37 @@
                   }
                 },
                 {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  test: {
-                    kind: 'get_local',
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'br_if',
                     id: {
                       kind: 'literal',
                       value: 1,
                       raw: '1'
-                    }
-                  },
-                  expr: null
+                    },
+                    test: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
+                    },
+                    expr: null
+                  }]
                 },
                 {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'dummy'
+                    },
+                    exprs: []
+                  }]
                 }
               ]
             }]
@@ -692,7 +709,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'if',
@@ -707,29 +724,37 @@
                   }
                 },
                 {
-                  kind: 'call',
-                  id: {
-                    kind: 'identifier',
-                    name: 'dummy'
-                  },
-                  exprs: []
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'call',
+                    id: {
+                      kind: 'identifier',
+                      name: 'dummy'
+                    },
+                    exprs: []
+                  }]
                 },
                 {
-                  kind: 'br_if',
-                  id: {
-                    kind: 'literal',
-                    value: 1,
-                    raw: '1'
-                  },
-                  test: {
-                    kind: 'get_local',
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'br_if',
                     id: {
                       kind: 'literal',
                       value: 1,
                       raw: '1'
-                    }
-                  },
-                  expr: null
+                    },
+                    test: {
+                      kind: 'get_local',
+                      id: {
+                        kind: 'literal',
+                        value: 1,
+                        raw: '1'
+                      }
+                    },
+                    expr: null
+                  }]
                 }
               ]
             }]
@@ -767,7 +792,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -789,7 +817,10 @@
                   },
                   right: {
                     kind: 'block',
-                    type: 'i32',
+                    result: {
+                      kind: 'result',
+                      type: 'i32'
+                    },
                     id: null,
                     body: [
                       {
@@ -860,7 +891,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -880,7 +914,10 @@
                   },
                   expr: {
                     kind: 'block',
-                    type: 'i32',
+                    result: {
+                      kind: 'result',
+                      type: 'i32'
+                    },
                     id: null,
                     body: [
                       {
@@ -956,7 +993,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -978,7 +1018,10 @@
                     },
                     test: {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [
                         {
@@ -1060,7 +1103,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -1087,7 +1133,10 @@
                     },
                     expr: {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [
                         {
@@ -1164,7 +1213,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -1180,7 +1232,10 @@
                   exprs: [
                     {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [
                         {
@@ -1267,7 +1322,10 @@
             },
             right: {
               kind: 'block',
-              type: 'i32',
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
               id: null,
               body: [
                 {
@@ -1288,7 +1346,10 @@
                     },
                     {
                       kind: 'block',
-                      type: 'i32',
+                      result: {
+                        kind: 'result',
+                        type: 'i32'
+                      },
                       id: null,
                       body: [
                         {
@@ -1978,7 +2039,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2025,7 +2086,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2072,7 +2133,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2119,7 +2180,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2166,7 +2227,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2213,7 +2274,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2260,7 +2321,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2307,7 +2368,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'unop',
@@ -2357,7 +2418,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2409,7 +2473,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2458,7 +2525,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2504,7 +2571,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2553,7 +2620,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2605,7 +2675,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2657,7 +2730,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2716,7 +2792,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2772,7 +2851,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2810,7 +2889,7 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'br_if',
@@ -2855,7 +2934,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2907,7 +2989,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -2917,7 +3002,7 @@
               },
               {
                 kind: 'block',
-                type: null,
+                result: null,
                 id: null,
                 body: [{
                   kind: 'br_if',
@@ -2964,7 +3049,10 @@
           local: [],
           body: [{
             kind: 'block',
-            type: 'i32',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
             id: null,
             body: [
               {
@@ -3054,11 +3142,11 @@
           local: [],
           body: [{
             kind: 'block',
-            type: null,
+            result: null,
             id: null,
             body: [{
               kind: 'block',
-              type: null,
+              result: null,
               id: null,
               body: [{
                 kind: 'br_if',
