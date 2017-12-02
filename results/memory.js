@@ -1712,7 +1712,7 @@
       },
       failure: {
         kind: 'literal',
-        value: 'memory size minimum must not be greater than maximum'
+        value: 'size minimum must not be greater than maximum'
       }
     },
     {
@@ -4785,6 +4785,426 @@
         kind: 'const',
         type: 'i64',
         init: '0x98bacdef'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load32 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load32_u (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load32_s (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load64 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load64_u (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i32) (i32.load64_s (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (i32.store32 (get_local 0) (i32.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (i32.store64 (get_local 0) (i64.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i64) (i64.load64 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i64) (i64.load64_u (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result i64) (i64.load64_s (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (i64.store64 (get_local 0) (i64.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result f32) (f32.load32 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result f32) (f32.load64 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (f32.store32 (get_local 0) (f32.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (f32.store64 (get_local 0) (f64.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result f64) (f64.load32 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (result f64) (f64.load64 (get_local 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (f64.store32 (get_local 0) (f32.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(memory 1)'
+          },
+          {
+            kind: 'literal',
+            value: '(func (param i32) (f64.store64 (get_local 0) (f64.const 0)))'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'unknown operator'
       }
     }
   ]

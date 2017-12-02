@@ -2776,6 +2776,40 @@
         kind: 'literal',
         value: 'type mismatch'
       }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func block end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func block $a end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
     }
   ]
 }

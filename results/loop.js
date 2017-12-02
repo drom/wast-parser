@@ -3727,6 +3727,40 @@
         kind: 'literal',
         value: 'type mismatch'
       }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func loop end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func loop $a end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
     }
   ]
 }

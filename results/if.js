@@ -4624,6 +4624,176 @@
         kind: 'literal',
         value: 'type mismatch'
       }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if $a end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if else $l end)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if $a else $l end)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if else end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if else $l end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if else $l1 end $l2)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if $a else end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if $a else $a end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'quote',
+          {
+            kind: 'literal',
+            value: '(func if $a else $l end $l)'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'mismatching label'
+      }
     }
   ]
 }

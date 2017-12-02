@@ -311,6 +311,54 @@
       }
     },
     {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'no_dce.i32.div_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '0x80000000'
+          },
+          {
+            kind: 'const',
+            type: 'i32',
+            init: '-1'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer overflow'
+      }
+    },
+    {
+      kind: 'assert_trap',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'no_dce.i64.div_s',
+        body: [
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '0x8000000000000000'
+          },
+          {
+            kind: 'const',
+            type: 'i64',
+            init: '-1'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer overflow'
+      }
+    },
+    {
       kind: 'module',
       body: [
         {

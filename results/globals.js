@@ -1154,6 +1154,7 @@
       module: {
         kind: 'module',
         body: [
+          'binary',
           {
             kind: 'literal',
             value: '\\00asm'
@@ -1202,6 +1203,7 @@
       module: {
         kind: 'module',
         body: [
+          'binary',
           {
             kind: 'literal',
             value: '\\00asm'
@@ -1266,6 +1268,7 @@
       module: {
         kind: 'module',
         body: [
+          'binary',
           {
             kind: 'literal',
             value: '\\00asm'
@@ -1310,6 +1313,7 @@
       module: {
         kind: 'module',
         body: [
+          'binary',
           {
             kind: 'literal',
             value: '\\00asm'

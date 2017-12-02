@@ -10,7 +10,7 @@
   "scripts": {
     "test": "git submodule init && git submodule update --remote && git submodule status && mocha --timeout 5000 test",
     "testgen": "bin/wast2ast.js",
-    "prepublish": "pegjs wast.pegjs index.js"
+    "prepublish": "pegjs -o index.js wast.pegjs"
   },
   "bin": {
     "wast-parser": "./bin/wast-parser.js"
@@ -34,7 +34,7 @@
     "eslint": "^2.3.0",
     "jsof": "^0.2.1",
     "mocha": "^2.4.5",
-    "pegjs": "^0.9.0"
+    "pegjs": "^0.10.0"
   },
   "dependencies": {}
 }

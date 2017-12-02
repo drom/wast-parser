@@ -1502,6 +1502,88 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'type-unary-num-vs-void-in-loop-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {kind: 'unreachable'},
+            {
+              kind: 'loop',
+              id: null,
+              result: null,
+              extra: null,
+              body: [{
+                kind: 'drop',
+                body: [{
+                  kind: 'unop',
+                  type: 'i32',
+                  operator: 'eqz',
+                  expr: {kind: 'nop'}
+                }]
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-num-vs-void-in-i32-loop-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {kind: 'unreachable'},
+            {
+              kind: 'loop',
+              id: null,
+              result: {
+                kind: 'result',
+                type: 'i32'
+              },
+              extra: null,
+              body: [{
+                kind: 'unop',
+                type: 'i32',
+                operator: 'eqz',
+                expr: {kind: 'nop'}
+              }]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'type-unary-num-vs-num-after-unreachable'
           },
           expos: [],
@@ -1848,6 +1930,166 @@
               init: '0'
             }
           ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-num-vs-void-in-if-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {kind: 'unreachable'},
+            {
+              kind: 'if',
+              id: null,
+              result: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{
+                    kind: 'drop',
+                    body: [{
+                      kind: 'unop',
+                      type: 'i32',
+                      operator: 'eqz',
+                      expr: {kind: 'nop'}
+                    }]
+                  }]
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-num-vs-void-in-else-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [
+            {kind: 'unreachable'},
+            {
+              kind: 'if',
+              id: null,
+              result: null,
+              body: [
+                {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                {
+                  kind: 'then',
+                  id: null,
+                  body: [{kind: 'nop'}]
+                },
+                {
+                  kind: 'else',
+                  id: null,
+                  body: [{
+                    kind: 'drop',
+                    body: [{
+                      kind: 'unop',
+                      type: 'i32',
+                      operator: 'eqz',
+                      expr: {kind: 'nop'}
+                    }]
+                  }]
+                }
+              ]
+            }
+          ]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-unary-num-vs-void-in-else-after-unreachable-if'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [],
+          body: [{
+            kind: 'if',
+            id: null,
+            result: null,
+            body: [
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              },
+              {
+                kind: 'then',
+                id: null,
+                body: [{kind: 'unreachable'}]
+              },
+              {
+                kind: 'else',
+                id: null,
+                body: [{
+                  kind: 'drop',
+                  body: [{
+                    kind: 'unop',
+                    type: 'i32',
+                    operator: 'eqz',
+                    expr: {kind: 'nop'}
+                  }]
+                }]
+              }
+            ]
+          }]
         }]
       },
       failure: {
@@ -3523,6 +3765,200 @@
           kind: 'func',
           id: {
             kind: 'identifier',
+            name: 'type-br_if-num-vs-void-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            id: null,
+            body: [{
+              kind: 'block',
+              result: null,
+              id: null,
+              body: [
+                {kind: 'unreachable'},
+                {
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  test: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  },
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                }
+              ]
+            }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br_if-num-vs-num-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            id: null,
+            body: [
+              {
+                kind: 'block',
+                result: {
+                  kind: 'result',
+                  type: 'f32'
+                },
+                id: null,
+                body: [
+                  {kind: 'unreachable'},
+                  {
+                    kind: 'br_if',
+                    id: {
+                      kind: 'literal',
+                      value: 1,
+                      raw: '1'
+                    },
+                    test: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    },
+                    expr: {
+                      kind: 'const',
+                      type: 'i32',
+                      init: '0'
+                    }
+                  }
+                ]
+              },
+              {
+                kind: 'drop',
+                body: []
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'type-br_if-num2-vs-num-after-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            id: null,
+            body: [
+              {kind: 'unreachable'},
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                test: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                expr: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                }
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            ]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
             name: 'type-br_table-num-vs-num-after-unreachable'
           },
           expos: [],
@@ -4770,6 +5206,104 @@
                 init: '0'
               }
             }]
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'tee-local-unreachable-value'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: null,
+          local: [{
+            kind: 'local',
+            items: [{
+              kind: 'item',
+              type: 'i32'
+            }]
+          }],
+          body: [{
+            kind: 'tee_local',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            init: {kind: 'unreachable'}
+          }]
+        }]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'type mismatch'
+      }
+    },
+    {
+      kind: 'assert_invalid',
+      module: {
+        kind: 'module',
+        body: [{
+          kind: 'func',
+          id: {
+            kind: 'identifier',
+            name: 'br_if-unreachable'
+          },
+          expos: [],
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'block',
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            id: null,
+            body: [
+              {
+                kind: 'block',
+                result: null,
+                id: null,
+                body: [{
+                  kind: 'br_if',
+                  id: {
+                    kind: 'literal',
+                    value: 1,
+                    raw: '1'
+                  },
+                  test: {kind: 'unreachable'},
+                  expr: {
+                    kind: 'const',
+                    type: 'i32',
+                    init: '0'
+                  }
+                }]
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '0'
+              }
+            ]
           }]
         }]
       },
