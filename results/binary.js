@@ -526,6 +526,1045 @@
         kind: 'literal',
         value: 'unknown binary version'
       }
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\05\\04\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\00\\82\\00'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\05\\07\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\00\\82\\80\\80\\80\\00'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\07\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7f\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\41\\80\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\07\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7f\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\41\\ff\\7f'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\0a\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7f\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\41\\80\\80\\80\\80\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\0a\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7f\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\41\\ff\\ff\\ff\\ff\\7f'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\07\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7e\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\42\\80\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\07\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7e\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\42\\ff\\7f'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\0f\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7e\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\42\\80\\80\\80\\80\\80\\80\\80\\80\\80\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [
+        'binary',
+        {
+          kind: 'literal',
+          value: '\\00asm'
+        },
+        {
+          kind: 'literal',
+          value: '\\01\\00\\00\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\06\\0f\\01'
+        },
+        {
+          kind: 'literal',
+          value: '\\7e\\00'
+        },
+        {
+          kind: 'literal',
+          value: '\\42\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\7f'
+        },
+        {
+          kind: 'literal',
+          value: '\\0b'
+        }
+      ]
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\08\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\00\\82\\80\\80\\80\\80\\00'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer representation too long'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0b\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\80\\80\\80\\80\\80\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer representation too long'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0b\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\ff\\ff\\ff\\ff\\ff\\7f'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer representation too long'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\10\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\80\\80\\80\\80\\80\\80\\80\\80\\80\\80\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer representation too long'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\10\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\7f'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer representation too long'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\04\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\00\\82\\80\\80\\80\\70'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\04\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\00\\82\\80\\80\\80\\40'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0a\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\80\\80\\80\\80\\70'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0a\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\ff\\ff\\ff\\ff\\0f'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0a\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\80\\80\\80\\80\\1f'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0a\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7f\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\ff\\ff\\ff\\ff\\4f'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0f\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\80\\80\\80\\80\\80\\80\\80\\80\\80\\7e'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0f\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0f\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\80\\80\\80\\80\\80\\80\\80\\80\\80\\02'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\06\\0f\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\7e\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\42\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\ff\\41'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'integer too large'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\04\\01\\60\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\03\\02\\01\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\04\\04\\01\\70\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0a\\09\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\07\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\11\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'zero flag expected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\04\\01\\60\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\03\\02\\01\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\03\\01\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0a\\09\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\07\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\41\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\40'
+          },
+          {
+            kind: 'literal',
+            value: '\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\1a'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'zero flag expected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\04\\01\\60\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\03\\02\\01\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\03\\01\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0a\\07\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\05\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\3f'
+          },
+          {
+            kind: 'literal',
+            value: '\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\1a'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'zero flag expected'
+      }
+    },
+    {
+      kind: 'assert_malformed',
+      module: {
+        kind: 'module',
+        body: [
+          'binary',
+          {
+            kind: 'literal',
+            value: '\\00asm'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\00\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\01\\04\\01\\60\\00\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\03\\02\\01\\00'
+          },
+          {
+            kind: 'literal',
+            value: '\\0a\\0c\\01'
+          },
+          {
+            kind: 'literal',
+            value: '\\0a\\02'
+          },
+          {
+            kind: 'literal',
+            value: '\\ff\\ff\\ff\\ff\\0f\\7f'
+          },
+          {
+            kind: 'literal',
+            value: '\\02\\7e'
+          },
+          {
+            kind: 'literal',
+            value: '\\0b'
+          }
+        ]
+      },
+      failure: {
+        kind: 'literal',
+        value: 'too many locals'
+      }
     }
   ]
 }

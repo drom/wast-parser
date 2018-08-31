@@ -712,6 +712,52 @@
           id: null,
           expos: [{
             kind: 'literal',
+            value: 'loop6'
+          }],
+          imp: null,
+          type: null,
+          params: [],
+          result: {
+            kind: 'result',
+            type: 'i32'
+          },
+          local: [],
+          body: [{
+            kind: 'loop',
+            id: null,
+            result: {
+              kind: 'result',
+              type: 'i32'
+            },
+            extra: null,
+            body: [
+              {
+                kind: 'br_if',
+                id: {
+                  kind: 'literal',
+                  value: 0,
+                  raw: '0'
+                },
+                test: {
+                  kind: 'const',
+                  type: 'i32',
+                  init: '0'
+                },
+                expr: null
+              },
+              {
+                kind: 'const',
+                type: 'i32',
+                init: '3'
+              }
+            ]
+          }]
+        },
+        {
+          kind: 'func',
+          id: null,
+          expos: [{
+            kind: 'literal',
             value: 'if'
           }],
           imp: null,
@@ -2740,6 +2786,20 @@
         kind: 'const',
         type: 'i32',
         init: '2'
+      }
+    },
+    {
+      kind: 'assert_return',
+      invoke: {
+        kind: 'invoke',
+        id: null,
+        name: 'loop6',
+        body: []
+      },
+      expr: {
+        kind: 'const',
+        type: 'i32',
+        init: '3'
       }
     },
     {

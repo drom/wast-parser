@@ -721,128 +721,13 @@
       }
     },
     {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'import',
-          id: null,
-          modName: {
-            kind: 'literal',
-            value: 'm'
-          },
-          funcName: {
-            kind: 'literal',
-            value: 'a'
-          },
-          type: {
-            kind: 'global',
-            id: null,
-            mut: true,
-            expo: null,
-            impo: null,
-            type: 'i32',
-            body: []
-          },
-          params: [],
-          result: null
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'mutable globals cannot be imported'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
+      kind: 'module',
+      body: [
+        {
           kind: 'global',
           id: null,
           mut: true,
           expo: null,
-          impo: {
-            kind: 'import',
-            id: null,
-            modName: {
-              kind: 'literal',
-              value: 'm'
-            },
-            funcName: {
-              kind: 'literal',
-              value: 'a'
-            },
-            type: null,
-            params: [],
-            result: null
-          },
-          type: 'i32',
-          body: []
-        }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'mutable globals cannot be imported'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [
-          {
-            kind: 'global',
-            id: null,
-            mut: true,
-            expo: null,
-            impo: null,
-            type: 'f32',
-            body: [{
-              kind: 'const',
-              type: 'f32',
-              init: '0'
-            }]
-          },
-          {
-            kind: 'export',
-            name: {
-              kind: 'literal',
-              value: 'a'
-            },
-            id: {
-              kind: 'global',
-              id: {
-                kind: 'literal',
-                value: 0,
-                raw: '0'
-              },
-              mut: false,
-              expo: null,
-              impo: null,
-              type: null,
-              body: []
-            }
-          }
-        ]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'mutable globals cannot be exported'
-      }
-    },
-    {
-      kind: 'assert_invalid',
-      module: {
-        kind: 'module',
-        body: [{
-          kind: 'global',
-          id: null,
-          mut: true,
-          expo: {
-            kind: 'literal',
-            value: 'a'
-          },
           impo: null,
           type: 'f32',
           body: [{
@@ -850,12 +735,47 @@
             type: 'f32',
             init: '0'
           }]
+        },
+        {
+          kind: 'export',
+          name: {
+            kind: 'literal',
+            value: 'a'
+          },
+          id: {
+            kind: 'global',
+            id: {
+              kind: 'literal',
+              value: 0,
+              raw: '0'
+            },
+            mut: false,
+            expo: null,
+            impo: null,
+            type: null,
+            body: []
+          }
+        }
+      ]
+    },
+    {
+      kind: 'module',
+      body: [{
+        kind: 'global',
+        id: null,
+        mut: true,
+        expo: {
+          kind: 'literal',
+          value: 'a'
+        },
+        impo: null,
+        type: 'f32',
+        body: [{
+          kind: 'const',
+          type: 'f32',
+          init: '0'
         }]
-      },
-      failure: {
-        kind: 'literal',
-        value: 'mutable globals cannot be exported'
-      }
+      }]
     },
     {
       kind: 'assert_invalid',
@@ -1134,7 +1054,7 @@
         },
         funcName: {
           kind: 'literal',
-          value: 'global'
+          value: 'global_i32'
         },
         type: {
           kind: 'global',
@@ -1177,7 +1097,7 @@
           },
           {
             kind: 'literal',
-            value: '\\06\\67\\6c\\6f\\62\\61\\6c'
+            value: '\\0a\\67\\6c\\6f\\62\\61\\6c\\5f\\69\\33\\32'
           },
           {
             kind: 'literal',
@@ -1226,7 +1146,7 @@
           },
           {
             kind: 'literal',
-            value: '\\06\\67\\6c\\6f\\62\\61\\6c'
+            value: '\\0a\\67\\6c\\6f\\62\\61\\6c\\5f\\69\\33\\32'
           },
           {
             kind: 'literal',
