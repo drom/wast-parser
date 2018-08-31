@@ -246,10 +246,10 @@ expr
             };
         }
 
-        / kind:"call_indirect" __ id:var __ expr:( __ expr )+ {
+        / kind:"call_indirect" __ type:( __ func_type ) __ expr:( __ expr )+ {
             return {
                 kind: kind,
-                id: id,
+                type: type,
                 exprs: expr.map(function (e) { return e[1]; })
             }
         }
