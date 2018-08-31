@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/drom/wast-parser#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^2.3.0",
-    "jsof": "^0.2.1",
-    "mocha": "^2.4.5",
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "jsof": "^0.3.2",
+    "mocha": "^5.2.0",
     "pegjs": "^0.10.0"
   },
   "dependencies": {}
