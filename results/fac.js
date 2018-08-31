@@ -15,6 +15,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -120,9 +121,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             items: [{
               kind: 'item',
-              name: 'n',
               type: 'i64'
             }]
           }],
@@ -219,6 +223,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -413,9 +418,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'n'
+            },
             items: [{
               kind: 'item',
-              name: 'n',
               type: 'i64'
             }]
           }],
@@ -607,6 +615,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'

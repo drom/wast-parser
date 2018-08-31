@@ -373,9 +373,10 @@ literal = ["] value:( !["] . )* ["] {
 }
 
 param
-    = "(" __ kind:"param" items:( __ local_type )* __ ")" {
+    = "(" __ kind:"param" id:( __ var )? __ items:( __ local_type )* __ ")" {
         return {
             kind: kind,
+            id: id ? id[1] : id,
             items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
         };
     }
@@ -479,9 +480,10 @@ _start = kind:"start" __ id:var {
     };
 }
 
-param_def = "(" __ kind:"param" items:( __ local_type )* __ ")" {
+param_def = "(" __ kind:"param" id:( __ var )? items:( __ local_type )* __ ")" {
     return {
         kind: kind,
+        id: id ? id[1] : id,
         items: items.map(function (e) { return { kind: 'item', type: e[1] }; })
     }
 }

@@ -58,17 +58,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'i'
+              },
               items: [{
                 kind: 'item',
-                name: 'i',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i32'
               }]
             }
@@ -121,9 +127,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'i'
+            },
             items: [{
               kind: 'item',
-              name: 'i',
               type: 'i32'
             }]
           }],
@@ -172,6 +181,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'
@@ -511,9 +521,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -549,9 +562,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -587,9 +603,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -625,9 +644,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -663,9 +685,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -701,9 +726,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -739,9 +767,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -777,9 +808,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -815,9 +849,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -853,9 +890,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -891,9 +931,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -929,9 +972,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -967,9 +1013,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -1005,9 +1054,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'a'
+            },
             items: [{
               kind: 'item',
-              name: 'a',
               type: 'i32'
             }]
           }],
@@ -1044,17 +1096,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i32'
               }]
             }
@@ -1095,17 +1153,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i64'
               }]
             }
@@ -1146,17 +1210,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'f32'
               }]
             }
@@ -1197,17 +1267,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'f64'
               }]
             }
@@ -1248,17 +1324,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i32'
               }]
             }
@@ -1299,17 +1381,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i32'
               }]
             }
@@ -1350,17 +1438,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i64'
               }]
             }
@@ -1401,17 +1495,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i64'
               }]
             }
@@ -1452,17 +1552,23 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'v'
+              },
               items: [{
                 kind: 'item',
-                name: 'v',
                 type: 'i64'
               }]
             }

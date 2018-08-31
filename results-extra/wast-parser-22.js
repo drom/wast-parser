@@ -26,17 +26,23 @@
         params: [
           {
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'x'
+            },
             items: [{
               kind: 'item',
-              name: 'x',
               type: 'f64'
             }]
           },
           {
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'y'
+            },
             items: [{
               kind: 'item',
-              name: 'y',
               type: 'f64'
             }]
           }

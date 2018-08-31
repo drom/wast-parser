@@ -382,9 +382,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'size'
+            },
             items: [{
               kind: 'item',
-              name: 'size',
               type: 'i32'
             }]
           }],

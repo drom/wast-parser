@@ -16,25 +16,34 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'lhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'lhs',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'rhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'rhs',
                 type: 'i32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'cond'
+              },
               items: [{
                 kind: 'item',
-                name: 'cond',
                 type: 'i32'
               }]
             }
@@ -81,25 +90,34 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'lhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'lhs',
                 type: 'i64'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'rhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'rhs',
                 type: 'i64'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'cond'
+              },
               items: [{
                 kind: 'item',
-                name: 'cond',
                 type: 'i32'
               }]
             }
@@ -146,25 +164,34 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'lhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'lhs',
                 type: 'f32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'rhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'rhs',
                 type: 'f32'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'cond'
+              },
               items: [{
                 kind: 'item',
-                name: 'cond',
                 type: 'i32'
               }]
             }
@@ -211,25 +238,34 @@
           params: [
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'lhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'lhs',
                 type: 'f64'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'rhs'
+              },
               items: [{
                 kind: 'item',
-                name: 'rhs',
                 type: 'f64'
               }]
             },
             {
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'cond'
+              },
               items: [{
                 kind: 'item',
-                name: 'cond',
                 type: 'i32'
               }]
             }
@@ -275,9 +311,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'cond'
+            },
             items: [{
               kind: 'item',
-              name: 'cond',
               type: 'i32'
             }]
           }],
@@ -314,9 +353,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'cond'
+            },
             items: [{
               kind: 'item',
-              name: 'cond',
               type: 'i32'
             }]
           }],

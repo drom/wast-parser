@@ -51,9 +51,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'depth'
+            },
             items: [{
               kind: 'item',
-              name: 'depth',
               type: 'i32'
             }]
           }],

@@ -91,9 +91,12 @@
             type: null,
             params: [{
               kind: 'param',
+              id: {
+                kind: 'identifier',
+                name: 'a'
+              },
               items: [{
                 kind: 'item',
-                name: 'a',
                 type: 'i32'
               }]
             }],
@@ -614,6 +617,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'
@@ -672,6 +676,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'

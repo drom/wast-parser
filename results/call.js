@@ -99,6 +99,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'
@@ -129,6 +130,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -159,6 +161,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'f32'
@@ -189,6 +192,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'f64'
@@ -219,6 +223,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [
               {
                 kind: 'item',
@@ -255,6 +260,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [
               {
                 kind: 'item',
@@ -291,6 +297,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [
               {
                 kind: 'item',
@@ -327,6 +334,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [
               {
                 kind: 'item',
@@ -714,6 +722,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -813,6 +822,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [
               {
                 kind: 'item',
@@ -931,6 +941,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -1052,6 +1063,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -1138,6 +1150,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i64'
@@ -2023,6 +2036,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [{
                 kind: 'item',
                 type: 'i32'
@@ -2074,6 +2088,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [
                 {
                   kind: 'item',
@@ -2243,6 +2258,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [
                 {
                   kind: 'item',
@@ -2307,6 +2323,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [
                 {
                   kind: 'item',
@@ -2375,6 +2392,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [
                 {
                   kind: 'item',
@@ -2443,6 +2461,7 @@
             type: null,
             params: [{
               kind: 'param',
+              id: null,
               items: [
                 {
                   kind: 'item',

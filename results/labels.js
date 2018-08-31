@@ -528,9 +528,12 @@
           type: null,
           params: [{
             kind: 'param',
+            id: {
+              kind: 'identifier',
+              name: 'max'
+            },
             items: [{
               kind: 'item',
-              name: 'max',
               type: 'i32'
             }]
           }],
@@ -1634,6 +1637,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'
@@ -1796,6 +1800,7 @@
           type: null,
           params: [{
             kind: 'param',
+            id: null,
             items: [{
               kind: 'item',
               type: 'i32'
