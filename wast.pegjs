@@ -348,13 +348,13 @@ expr
             };
         }
 
-        / kind:("nop" / "page_size" / "unreachable" / "current_memory") {
+        / kind:("nop" / "page_size" / "unreachable" / "current_memory" / "memory.size") {
             return {
                 kind: kind
             };
         }
 
-        / kind:("resize_memory" / "grow_memory") __ expr:expr {
+        / kind:("resize_memory" / "grow_memory" / "memory.grow") __ expr:expr {
             return {
                 kind: kind,
                 expr: expr
