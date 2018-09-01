@@ -201,40 +201,11 @@ expr
             };
         }
 
-        / kind:"has_feature" __ name:literal {
-            return {
-                kind: kind,
-                name: literal
-            };
-        }
-
-        / type:local_type "." kind:"switch" __ before:expr body:( __ case )* __ after:expr {
-            return {
-                kind: kind,
-                type: type,
-                before: before,
-                body: body.map(function (e) { return e[1]; }),
-                after: after
-            };
-        }
-
         / kind:"br_table" body:( __ var )* expr:( __ expr )* {
             return {
                 kind: kind,
                 exprs: expr.map(function (e) { return e[1]; }),
                 body: body.map(function (e) { return e[1]; })
-            };
-        }
-
-        // = (label <var> (<type>.switch <expr> <case>* <expr>))
-        / type:local_type "." kind:"switch" __ id:var __ before:expr body:( __ case )* __ after:expr {
-            return {
-                kind: kind,
-                id: id,
-                type: type,
-                before: before,
-                body: body.map(function (e) { return e[1]; }),
-                after: after
             };
         }
 
@@ -348,13 +319,13 @@ expr
             };
         }
 
-        / kind:("nop" / "page_size" / "unreachable" / "current_memory" / "memory.size") {
+        / kind:("nop" / "unreachable" / "current_memory" / "memory.size") {
             return {
                 kind: kind
             };
         }
 
-        / kind:("resize_memory" / "grow_memory" / "memory.grow") __ expr:expr {
+        / kind:("grow_memory" / "memory.grow") __ expr:expr {
             return {
                 kind: kind,
                 expr: expr
