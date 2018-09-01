@@ -238,7 +238,7 @@ expr
             };
         }
 
-        / kind:( "call_import" / "call" ) __ id:var expr:( __ expr )* {
+        / kind:"call" __ id:var expr:( __ expr )* {
             return {
                 kind: kind,
                 id: id,
