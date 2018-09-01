@@ -365,7 +365,7 @@ expr
         return body;
     }
 
-literal = ["] value:( !["] . )* ["] {
+literal = ["] value:( "\\\"" / !["] . )* ["] {
     return {
         kind: 'literal',
         value: value.map(function (e) { return e[1]; }).join('').replace(/\\/g, '\\\\')
